@@ -1,5 +1,322 @@
 window.ART_OBJECTS = [
   {
+    "id": "renoir_frederic_bazille_peignant_heron_montpellier_1867",
+    "artistId": "renoir",
+    "artist": "Renoir Pierre-Auguste",
+    "artistSort": "Renoir Pierre-Auguste",
+    "civId": "occident",
+    "periodId": "occ_xix",
+    "civName": "Occident chrétien & moderne",
+    "civilization": "France (Impressionnisme)",
+    "subpart": "L'hommage fraternel à Frédéric Bazille et la naissance de la bohème des Batignolles",
+    "title": "Frédéric Bazille peignant la Nature morte au héron",
+    "date": "1867",
+    "dateDisplay": "1867",
+    "century": "XIXe siècle",
+    "centuryNumeric": 1867,
+    "format": "105 × 73 cm",
+    "dimensions": "105 × 73 cm",
+    "currentLocation": "Musée Fabre (Montpellier, France)",
+    "site": "Musée Fabre (Montpellier, France)",
+    "originSite": "Paris (France)",
+    "domain": "peinture_mosaique",
+    "category": "Peinture",
+    "artifactType": "Peinture sur toile",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMGEmzVhakaRHzAyW5hqlbE2H4WhDclePo2bHS3zHqM74ftIvxfCcwy427qUU1BRsjKZ1vMHDJrJNpPWunD840yYQd42aHO80ngiWLwm_Du8I5RIxKNlCpdFKkeFFDp-AV1UlUY5CkNEO1v3UM8Kz5xvQ=w1679-h2416-s-no-gm?authuser=0",
+    "chips": [
+      "1867",
+      "XIXe siècle",
+      "Pierre-Auguste Renoir",
+      "Musée Fabre",
+      "Montpellier",
+      "Portrait d'artiste",
+      "Atelier",
+      "Pré-impressionnisme"
+    ],
+    "tags": [
+      "Pierre-Auguste Renoir",
+      "Frédéric Bazille peignant la Nature morte au héron",
+      "Musée Fabre",
+      "Montpellier",
+      "Atelier",
+      "Portrait d'artiste"
+    ],
+    "themes": [
+      "portraits_figures",
+      "autoportraits_atelier"
+    ],
+    "subthemes": [
+      "portraits_individuels",
+      "atelier_creation"
+    ],
+    "desc": "<p>Cette œuvre magistrale, intitulée Frédéric Bazille peignant la Nature morte au héron, est une huile sur toile réalisée en 1867 par Pierre-Auguste Renoir. Conservée au Musée Fabre de Montpellier, elle constitue l'un des témoignages les plus émouvants de l'amitié qui liait les jeunes peintres de la future avant-garde impressionniste. Renoir représente ici son ami Bazille dans l'atelier qu'ils partageaient rue Visconti à Paris, capturant un instant de création pure où le sujet et l'artiste se font face.</p><p>La composition est structurée de manière audacieuse, plaçant Bazille de profil, penché vers son chevalet. L'artiste est absorbé par son travail, tenant sa palette et ses pinceaux avec une concentration palpable. Le héron, sujet de la nature morte que Bazille est en train d'exécuter, est visible sur la toile posée sur le chevalet, créant une mise en abyme fascinante du processus artistique. L'espace de l'atelier est rendu de manière sobre, avec quelques tableaux accrochés au mur en arrière-plan (dont un paysage de neige qui pourrait être de Monet), renforçant l'immersion dans le quotidien de la bohème créatrice des années 1860.</p><p>Sur le plan technique, cette toile marque une étape charnière dans le style de Renoir. On y retrouve l'influence de Courbet et de Manet dans l'utilisation d'une palette de gris, de beiges et de noirs très riches, mais la touche commence déjà à se fragmenter. La lumière, venant de la gauche, modèle le visage et les mains de Bazille avec une grande délicatesse, tandis que les chaussures de l'artiste, aux détails colorés, apportent une note de spontanéité presque moderne. Le traitement de la veste, avec ses larges coups de brosse, annonce la liberté de facture qui caractérisera l'impressionnisme quelques années plus tard.</p><p>Historiquement, ce portrait est d'une importance capitale pour le patrimoine montpelliérain. Frédéric Bazille, originaire de Montpellier et mort prématurément au combat en 1870, fut le véritable ciment du groupe des Batignolles. En offrant cette image de son ami au travail, Renoir nous livre non seulement un portrait psychologique d'une grande finesse, mais aussi un manifeste de la peinture \"claire\" et sincère qu'ils cherchaient alors à inventer. L'œuvre est entrée au musée en 1924, complétant ainsi l'exceptionnel fonds Bazille légué par sa famille.</p>",
+    "narrative": "<p>Cette œuvre magistrale, intitulée Frédéric Bazille peignant la Nature morte au héron, est une huile sur toile réalisée en 1867 par Pierre-Auguste Renoir. Conservée au Musée Fabre de Montpellier, elle constitue l'un des témoignages les plus émouvants de l'amitié qui liait les jeunes peintres de la future avant-garde impressionniste. Renoir représente ici son ami Bazille dans l'atelier qu'ils partageaient rue Visconti à Paris, capturant un instant de création pure où le sujet et l'artiste se font face.</p><p>La composition est structurée de manière audacieuse, plaçant Bazille de profil, penché vers son chevalet. L'artiste est absorbé par son travail, tenant sa palette et ses pinceaux avec une concentration palpable. Le héron, sujet de la nature morte que Bazille est en train d'exécuter, est visible sur la toile posée sur le chevalet, créant une mise en abyme fascinante du processus artistique. L'espace de l'atelier est rendu de manière sobre, avec quelques tableaux accrochés au mur en arrière-plan (dont un paysage de neige qui pourrait être de Monet), renforçant l'immersion dans le quotidien de la bohème créatrice des années 1860.</p><p>Sur le plan technique, cette toile marque une étape charnière dans le style de Renoir. On y retrouve l'influence de Courbet et de Manet dans l'utilisation d'une palette de gris, de beiges et de noirs très riches, mais la touche commence déjà à se fragmenter. La lumière, venant de la gauche, modèle le visage et les mains de Bazille avec une grande délicatesse, tandis que les chaussures de l'artiste, aux détails colorés, apportent une note de spontanéité presque moderne. Le traitement de la veste, avec ses larges coups de brosse, annonce la liberté de facture qui caractérisera l'impressionnisme quelques années plus tard.</p><p>Historiquement, ce portrait est d'une importance capitale pour le patrimoine montpelliérain. Frédéric Bazille, originaire de Montpellier et mort prématurément au combat en 1870, fut le véritable ciment du groupe des Batignolles. En offrant cette image de son ami au travail, Renoir nous livre non seulement un portrait psychologique d'une grande finesse, mais aussi un manifeste de la peinture \"claire\" et sincère qu'ils cherchaient alors à inventer. L'œuvre est entrée au musée en 1924, complétant ainsi l'exceptionnel fonds Bazille légué par sa famille.</p>"
+  },
+  {
+    "id": "renoir_garcon_au_chat_orsay_1868",
+    "artistId": "renoir",
+    "artist": "Renoir Pierre-Auguste",
+    "artistSort": "Renoir Pierre-Auguste",
+    "civId": "occident",
+    "periodId": "occ_xix",
+    "civName": "Occident chrétien & moderne",
+    "civilization": "France (Impressionnisme)",
+    "subpart": "L'audace sensuelle du nu masculin aux frontières de l'impressionnisme",
+    "title": "Le Garçon au chat",
+    "date": "1868",
+    "dateDisplay": "1868",
+    "century": "XIXe siècle",
+    "centuryNumeric": 1868,
+    "format": "123 × 66 cm",
+    "dimensions": "123 × 66 cm",
+    "currentLocation": "Musée d'Orsay (Paris, France)",
+    "site": "Musée d'Orsay (Paris, France)",
+    "originSite": "Paris (France)",
+    "domain": "peinture_mosaique",
+    "category": "Peinture",
+    "artifactType": "Peinture sur toile",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOlnjIdTp24ixD9WB-WGhhxyR3O-EWVRh3JPsKAqB8Lwxnn5yszsCTXmjxecZ5TSv4-4tC-SjpMmLCd2Q4WBzJuR28NEIj5ipyvf_KVgABwMbMN0FjpQ6__l5xFPtr865vOs1PFvjTFq-JynU9TDB3Gfg=w1332-h2416-s-no-gm?authuser=0",
+    "chips": [
+      "1868",
+      "XIXe siècle",
+      "Pierre-Auguste Renoir",
+      "Musée d'Orsay",
+      "Paris",
+      "Nu masculin",
+      "Animaux",
+      "Pré-impressionnisme"
+    ],
+    "tags": [
+      "Pierre-Auguste Renoir",
+      "Le Garçon au chat",
+      "Musée d'Orsay",
+      "Paris",
+      "Nu masculin",
+      "Chat"
+    ],
+    "themes": [
+      "nus_corps_odalisques",
+      "animaux_mouvement",
+      "portraits_figures"
+    ],
+    "subthemes": [
+      "academies_etudes_corps",
+      "fauves_felins",
+      "portraits_individuels"
+    ],
+    "desc": "<p>Cette œuvre audacieuse d'Auguste Renoir, peinte en 1868 et conservée au Musée d'Orsay, appartient à la période de jeunesse de l'artiste, alors qu'il cherche encore sa voie entre le réalisme de Courbet et les prémices de l'impressionnisme. Le tableau représente un jeune garçon nu, vu de dos dans une pose serpentine, le corps appuyé contre un divan tandis qu'il enserre tendrement un chat. Cette composition inhabituelle, qui détourne les codes traditionnels du nu féminin pour les appliquer à une figure masculine juvénile, témoigne de la liberté créatrice de Renoir et de son intérêt pour la sensualité des formes et des textures, bien avant ses célèbres baigneuses.</p><p>Sur le plan technique, la toile frappe par le contraste entre la peau diaphane, presque nacrée du modèle, et le décor environnant richement orné. Renoir déploie une grande virtuosité dans le rendu du mobilier : le vert profond du coussin de velours et le motif floral complexe du tissu à dominante bleue et crème préfigurent son goût pour l'ornementation. Le traitement du chat, au pelage mélangé de blanc et de brun, apporte une touche de vie et de spontanéité à une pose qui semble par ailleurs très étudiée, presque académique dans sa structure. La lumière, douce et diffuse, caresse le modelé du dos et des jambes, soulignant la souplesse de la silhouette sans recourir à des contours trop marqués.</p><p>L'intérêt historique de cette œuvre réside dans sa modernité provocatrice pour l'époque. En choisissant un sujet masculin pour un nu de grand format, Renoir s'éloigne des thèmes conventionnels du Salon pour explorer une esthétique plus intime et singulière. Le regard du garçon, légèrement tourné vers le spectateur, instaure une complicité silencieuse qui rompt avec la distance habituelle des modèles d'atelier. Cette toile, par son mélange de réalisme et de poésie tactile, annonce déjà la sensibilité vibrante qui fera le succès de l'impressionnisme, tout en restant ancrée dans une tradition picturale qui place le corps humain au centre de la recherche artistique.</p>",
+    "narrative": "<p>Cette œuvre audacieuse d'Auguste Renoir, peinte en 1868 et conservée au Musée d'Orsay, appartient à la période de jeunesse de l'artiste, alors qu'il cherche encore sa voie entre le réalisme de Courbet et les prémices de l'impressionnisme. Le tableau représente un jeune garçon nu, vu de dos dans une pose serpentine, le corps appuyé contre un divan tandis qu'il enserre tendrement un chat. Cette composition inhabituelle, qui détourne les codes traditionnels du nu féminin pour les appliquer à une figure masculine juvénile, témoigne de la liberté créatrice de Renoir et de son intérêt pour la sensualité des formes et des textures, bien avant ses célèbres baigneuses.</p><p>Sur le plan technique, la toile frappe par le contraste entre la peau diaphane, presque nacrée du modèle, et le décor environnant richement orné. Renoir déploie une grande virtuosité dans le rendu du mobilier : le vert profond du coussin de velours et le motif floral complexe du tissu à dominante bleue et crème préfigurent son goût pour l'ornementation. Le traitement du chat, au pelage mélangé de blanc et de brun, apporte une touche de vie et de spontanéité à une pose qui semble par ailleurs très étudiée, presque académique dans sa structure. La lumière, douce et diffuse, caresse le modelé du dos et des jambes, soulignant la souplesse de la silhouette sans recourir à des contours trop marqués.</p><p>L'intérêt historique de cette œuvre réside dans sa modernité provocatrice pour l'époque. En choisissant un sujet masculin pour un nu de grand format, Renoir s'éloigne des thèmes conventionnels du Salon pour explorer une esthétique plus intime et singulière. Le regard du garçon, légèrement tourné vers le spectateur, instaure une complicité silencieuse qui rompt avec la distance habituelle des modèles d'atelier. Cette toile, par son mélange de réalisme et de poésie tactile, annonce déjà la sensibilité vibrante qui fera le succès de l'impressionnisme, tout en restant ancrée dans une tradition picturale qui place le corps humain au centre de la recherche artistique.</p>"
+  },
+  {
+    "id": "renoir_parisiennes_algeriennes_tokyo_1872",
+    "artistId": "renoir",
+    "artist": "Renoir Pierre-Auguste",
+    "artistSort": "Renoir Pierre-Auguste",
+    "civId": "occident",
+    "periodId": "occ_xix",
+    "civName": "Occident chrétien & moderne",
+    "civilization": "France (Impressionnisme)",
+    "subpart": "L'orientalisme d'atelier et la fête chromatique en hommage à Delacroix",
+    "title": "Parisiennes habillées en Algériennes (Le Harem)",
+    "date": "1872",
+    "dateDisplay": "1872",
+    "century": "XIXe siècle",
+    "centuryNumeric": 1872,
+    "format": "156.5 × 128.8 cm",
+    "dimensions": "156.5 × 128.8 cm",
+    "currentLocation": "Musée national de l'Art occidental (Tokyo, Japon)",
+    "site": "Musée national de l'Art occidental (Tokyo, Japon)",
+    "originSite": "Paris (France)",
+    "domain": "peinture_mosaique",
+    "category": "Peinture",
+    "artifactType": "Peinture sur toile",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP19tB5xBe0EO-qujlKnFkC9RTa2GrCmET-f1_CdStTmigW_JijIrDt8jI0OUoBLQeJohIIjnvFzLpI4mhYn1w-KUi-q08CQeBja20JSa9web0gdoVH4i7ktUc5G-ZRhawSx5BB8hTbsIv3ZvIwECfAhA=w1708-h2068-s-no-gm?authuser=0",
+    "chips": [
+      "1872",
+      "XIXe siècle",
+      "Pierre-Auguste Renoir",
+      "Musée national de l'Art occidental",
+      "Tokyo",
+      "Orientalisme",
+      "Hommage à Delacroix",
+      "Scène de genre"
+    ],
+    "tags": [
+      "Pierre-Auguste Renoir",
+      "Parisiennes habillées en Algériennes",
+      "Musée national de l'Art occidental",
+      "Tokyo",
+      "Orientalisme",
+      "Harem"
+    ],
+    "themes": [
+      "vie_quotidienne_genre",
+      "nus_corps_odalisques",
+      "portraits_figures"
+    ],
+    "subthemes": [
+      "orientalisme_ailleurs",
+      "odalisques_baigneuses",
+      "portraits_collectifs"
+    ],
+    "desc": "<p>Peinte au lendemain de la guerre franco-prussienne et refusée au Salon officiel de 1872, cette œuvre monumentale rend un hommage explicite aux célèbres Femmes d'Alger dans leur appartement (1834) d'Eugène Delacroix, maître vénéré par le jeune Renoir. Rejetant toute prétention d'authenticité ethnographique — l'artiste ne visitera l'Algérie que près d'une décennie plus tard, en 1881 —, le tableau revendique ouvertement son caractère d'orientalisme d'atelier montmartrois. Les modèles parisiens familiers de l'artiste, au premier rang desquels sa maîtresse Lise Tréhot qui prête ses traits à la figure assise à droite, y revêtent des parures exotiques chinées et posent au milieu de tapis et de tentures d'emprunt.</p><p>Au cœur de la composition, trônant en majesté sur un coussin oriental, une jeune femme blonde à la peau laiteuse et nacrée apparaît dévêtue sous une mousseline transparente et vaporeuse brodée d'or. Assise en tailleur, une jambe repliée et l'autre déployée vers le spectateur avec une grande sensualité, elle arbore de lourds pendants d'oreilles dorés et un bracelet de cheville étincelant. À sa gauche, une suivante brune vue de profil, le torse entièrement nu, s'active à l'ajuster ou lui tendre un bijou. À ses pieds, à droite, une servante vêtue d'un boléro rose et d'un pantalon bouffant doré, coiffée d'une calotte brodée d'où s'échappe une longue chevelure d'ébène, tient un miroir pour guider la toilette de sa maîtresse.</p><p>L'espace clos du gynécée est meublé d'objets luxueux disposés sur un riche tapis persan orné de motifs géométriques et parsemé de bijoux, d'un narguilé et de babouches de satin rouge. Dans l'ombre du fond à droite, devant un coffre laqué d'inspiration mauresque, une quatrième femme lève les bras pour écarter un rideau ou esquisser un pas de danse, fermant la scène sur une pénombre mystérieuse. La touche de Renoir, encore nourrie des glacis profonds et des contrastes vigoureux du romantisme, fait éclater la préciosité des soieries, le moiré des étoffes et la chaleur dorée des chairs féminines dans une fête optique pleinement affirmée.</p>",
+    "narrative": "<p>Peinte au lendemain de la guerre franco-prussienne et refusée au Salon officiel de 1872, cette œuvre monumentale rend un hommage explicite aux célèbres Femmes d'Alger dans leur appartement (1834) d'Eugène Delacroix, maître vénéré par le jeune Renoir. Rejetant toute prétention d'authenticité ethnographique — l'artiste ne visitera l'Algérie que près d'une décennie plus tard, en 1881 —, le tableau revendique ouvertement son caractère d'orientalisme d'atelier montmartrois. Les modèles parisiens familiers de l'artiste, au premier rang desquels sa maîtresse Lise Tréhot qui prête ses traits à la figure assise à droite, y revêtent des parures exotiques chinées et posent au milieu de tapis et de tentures d'emprunt.</p><p>Au cœur de la composition, trônant en majesté sur un coussin oriental, une jeune femme blonde à la peau laiteuse et nacrée apparaît dévêtue sous une mousseline transparente et vaporeuse brodée d'or. Assise en tailleur, une jambe repliée et l'autre déployée vers le spectateur avec une grande sensualité, elle arbore de lourds pendants d'oreilles dorés et un bracelet de cheville étincelant. À sa gauche, une suivante brune vue de profil, le torse entièrement nu, s'active à l'ajuster ou lui tendre un bijou. À ses pieds, à droite, une servante vêtue d'un boléro rose et d'un pantalon bouffant doré, coiffée d'une calotte brodée d'où s'échappe une longue chevelure d'ébène, tient un miroir pour guider la toilette de sa maîtresse.</p><p>L'espace clos du gynécée est meublé d'objets luxueux disposés sur un riche tapis persan orné de motifs géométriques et parsemé de bijoux, d'un narguilé et de babouches de satin rouge. Dans l'ombre du fond à droite, devant un coffre laqué d'inspiration mauresque, une quatrième femme lève les bras pour écarter un rideau ou esquisser un pas de danse, fermant la scène sur une pénombre mystérieuse. La touche de Renoir, encore nourrie des glacis profonds et des contrastes vigoureux du romantisme, fait éclater la préciosité des soieries, le moiré des étoffes et la chaleur dorée des chairs féminines dans une fête optique pleinement affirmée.</p>"
+  },
+  {
+    "id": "renoir_bouquet_chrysanthemes_rouen_1884",
+    "artistId": "renoir",
+    "artist": "Renoir Pierre-Auguste",
+    "artistSort": "Renoir Pierre-Auguste",
+    "civId": "occident",
+    "periodId": "occ_xix",
+    "civName": "Occident chrétien & moderne",
+    "civilization": "France (Impressionnisme)",
+    "subpart": "L'explosion florale et la vibration chromatique de la période ingresque",
+    "title": "Bouquet de Chrysanthèmes",
+    "date": "1884",
+    "dateDisplay": "1884",
+    "century": "XIXe siècle",
+    "centuryNumeric": 1884,
+    "format": "81.5 × 65.5 cm",
+    "dimensions": "81.5 × 65.5 cm",
+    "currentLocation": "Musée des Beaux-Arts (Rouen, France)",
+    "site": "Musée des Beaux-Arts (Rouen, France)",
+    "originSite": "Paris (France)",
+    "domain": "peinture_mosaique",
+    "category": "Peinture",
+    "artifactType": "Peinture sur toile",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNoOQ7e-wKeyf_HT49PGjAxPorpMRBP-c0bvriqtuV8JAhZIP9pi7pIG6x1TA0jSaP_TJpFf8hdIRv_h0yKW3mjV-ZDgPXvjkKtzDSCGXjdRnccZ59GIxGtWQ6I8GF5aZHERgWppM3HZE2HykzyfrqQww=w1708-h2088-s-no-gm?authuser=0",
+    "chips": [
+      "1884",
+      "XIXe siècle",
+      "Pierre-Auguste Renoir",
+      "Musée des Beaux-Arts de Rouen",
+      "Rouen",
+      "Nature morte",
+      "Fleurs",
+      "Période ingresque"
+    ],
+    "tags": [
+      "Pierre-Auguste Renoir",
+      "Bouquet de Chrysanthèmes",
+      "Musée des Beaux-Arts de Rouen",
+      "Rouen",
+      "Nature morte",
+      "Fleurs"
+    ],
+    "themes": [
+      "natures_mortes_vanites"
+    ],
+    "subthemes": [
+      "fleurs_bouquets"
+    ],
+    "desc": "<p>Réalisée par Auguste Renoir en 1884, cette nature morte intitulée Bouquet de Chrysanthèmes s'inscrit dans une période de recherche stylistique intense pour l'artiste, souvent appelée sa \"période ingresque\" ou \"période sèche\". Si Renoir commence alors à privilégier un dessin plus précis dans ses portraits, il conserve pour ses compositions florales une liberté de touche et une sensualité chromatique exceptionnelles. Le chrysanthème, fleur très prisée à la fin du XIXe siècle pour sa variété de formes et de couleurs, offre ici au peintre un terrain d'expérimentation idéal pour saturer l'espace de vibrations lumineuses.</p><p>Le bouquet jaillit d'un vase en céramique vert bleu, dont l'éclat profond ancre la composition et fait ressortir la chaleur des fleurs. Renoir déploie un éventail de pétales allant du blanc pur au jaune d'or, du rose tendre au rouge orangé. La technique est ici virtuose : les fleurs sont traitées par petites virgules de peinture superposées qui créent un relief presque palpable, évoquant la texture ébouriffée et la légèreté des corolles. Les feuilles vertes, disposées de manière éparse, apportent une respiration visuelle et accentuent l'éclat des tons chauds par un jeu de contrastes complémentaires.</p><p>L'arrière-plan est traité de manière beaucoup plus fluide et vaporeuse, dans des tonalités de beige, de crème et de brun clair qui semblent se fondre dans la paroi. Cette neutralité de l'environnement immédiat permet de focaliser toute l'attention sur la densité du bouquet, qui semble déborder du cadre par sa vitalité. La lumière, venant de la gauche, vient accrocher les pétales les plus clairs, conférant à l'ensemble une atmosphère de confort intérieur et de beauté éphémère. Cette œuvre témoigne de la capacité de Renoir à transformer un sujet classique en une célébration de la sensation pure.</p>",
+    "narrative": "<p>Réalisée par Auguste Renoir en 1884, cette nature morte intitulée Bouquet de Chrysanthèmes s'inscrit dans une période de recherche stylistique intense pour l'artiste, souvent appelée sa \"période ingresque\" ou \"période sèche\". Si Renoir commence alors à privilégier un dessin plus précis dans ses portraits, il conserve pour ses compositions florales une liberté de touche et une sensualité chromatique exceptionnelles. Le chrysanthème, fleur très prisée à la fin du XIXe siècle pour sa variété de formes et de couleurs, offre ici au peintre un terrain d'expérimentation idéal pour saturer l'espace de vibrations lumineuses.</p><p>Le bouquet jaillit d'un vase en céramique vert bleu, dont l'éclat profond ancre la composition et fait ressortir la chaleur des fleurs. Renoir déploie un éventail de pétales allant du blanc pur au jaune d'or, du rose tendre au rouge orangé. La technique est ici virtuose : les fleurs sont traitées par petites virgules de peinture superposées qui créent un relief presque palpable, évoquant la texture ébouriffée et la légèreté des corolles. Les feuilles vertes, disposées de manière éparse, apportent une respiration visuelle et accentuent l'éclat des tons chauds par un jeu de contrastes complémentaires.</p><p>L'arrière-plan est traité de manière beaucoup plus fluide et vaporeuse, dans des tonalités de beige, de crème et de brun clair qui semblent se fondre dans la paroi. Cette neutralité de l'environnement immédiat permet de focaliser toute l'attention sur la densité du bouquet, qui semble déborder du cadre par sa vitalité. La lumière, venant de la gauche, vient accrocher les pétales les plus clairs, conférant à l'ensemble une atmosphère de confort intérieur et de beauté éphémère. Cette œuvre témoigne de la capacité de Renoir à transformer un sujet classique en une célébration de la sensation pure.</p>"
+  },
+  {
+    "id": "renoir_femme_au_chapeau_tokyo_1891",
+    "artistId": "renoir",
+    "artist": "Renoir Pierre-Auguste",
+    "artistSort": "Renoir Pierre-Auguste",
+    "civId": "occident",
+    "periodId": "occ_xix",
+    "civName": "Occident chrétien & moderne",
+    "civilization": "France (Impressionnisme)",
+    "subpart": "La rêverie intimiste et l'apogée de la touche nacrée",
+    "title": "Femme au chapeau",
+    "date": "1891",
+    "dateDisplay": "1891",
+    "century": "XIXe siècle",
+    "centuryNumeric": 1891,
+    "format": "56 × 46.5 cm",
+    "dimensions": "56 × 46.5 cm",
+    "currentLocation": "Musée national de l'Art occidental (Tokyo, Japon)",
+    "site": "Musée national de l'Art occidental (Tokyo, Japon)",
+    "originSite": "Paris (France)",
+    "domain": "peinture_mosaique",
+    "category": "Peinture",
+    "artifactType": "Peinture sur toile",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPUPluSmy1C8GSWVjPC8LiORMI_QHt3upfRsVTkFSmlQw4HS8bsxWCWnUNCzqcQLh7Cyd8ZJke5RnSkmmJ4Jj3W_zlZGH02O1iHY6NbIZwtQQQUdWDXDB2DcQzG2ssuE53cgPDB3wvDoD7C_9xnDt5TdQ=w1708-h2048-s-no-gm?authuser=0",
+    "chips": [
+      "1891",
+      "XIXe siècle",
+      "Pierre-Auguste Renoir",
+      "Musée national de l'Art occidental",
+      "Tokyo",
+      "Portrait féminin",
+      "Période nacrée",
+      "Belle Époque"
+    ],
+    "tags": [
+      "Pierre-Auguste Renoir",
+      "Femme au chapeau",
+      "Musée national de l'Art occidental",
+      "Tokyo",
+      "Portrait féminin"
+    ],
+    "themes": [
+      "portraits_figures"
+    ],
+    "subthemes": [
+      "portraits_individuels"
+    ],
+    "desc": "<p>Peinte au début des années 1890, cette toile illustre la période « nacrée » de Renoir, durant laquelle l'artiste délaisse la rigueur graphique et linéaire de sa période « ingresque » pour renouer avec une touche fluide, vaporeuse et sensuelle. Cadrée à mi-corps et accoudée avec nonchalance contre le dossier d'un fauteuil ou d'une banquette en acajou, une jeune femme au teint de pêche tourne son visage de trois-quarts vers la droite. Son regard doux, légèrement perdu dans le lointain, traduit une rêverie paisible et intimiste, exempte de toute pose apprêtée.</p><p>Le sommet de la composition est magnifié par un volumineux chapeau de paille et de mousseline aux formes sinueuses et ondulantes, teinté de nuances pastel où s'entremêlent des glacis jaune tendre, lilas et bleu ciel. Ce couvre-chef vaporeux projette une ombre subtile et transparente sur le haut du front de la jeune femme, encadrant sa chevelure blonde vénitienne coiffée d'une frange légère. À son oreille brille le reflet discret d'un pendant bleu turquoise, apportant une ponctuation de lumière vive qui rehausse la fraîcheur carnée de la joue et des lèvres ourlées de corail.</p><p>La vêture blanche vaporeuse, ornée d'un col montant en dentelle plissée et de manches bouffantes diaphanes, est brossée par de larges touches souples et irisées de reflets gris perle et azurés, révélant la virtuosité du maître dans le traitement des étoffes légères. L'arrière-plan d'intérieur, traité en un rideau de drapés verticaux brossés dans des harmonies contrastées de bleu cobalt, d'ocre jaune et de vieux rose, forme un cocon chromatique chatoyant qui fait rayonner la figure centrale dans une atmosphère de grâce typique de la Belle Époque.</p>",
+    "narrative": "<p>Peinte au début des années 1890, cette toile illustre la période « nacrée » de Renoir, durant laquelle l'artiste délaisse la rigueur graphique et linéaire de sa période « ingresque » pour renouer avec une touche fluide, vaporeuse et sensuelle. Cadrée à mi-corps et accoudée avec nonchalance contre le dossier d'un fauteuil ou d'une banquette en acajou, une jeune femme au teint de pêche tourne son visage de trois-quarts vers la droite. Son regard doux, légèrement perdu dans le lointain, traduit une rêverie paisible et intimiste, exempte de toute pose apprêtée.</p><p>Le sommet de la composition est magnifié par un volumineux chapeau de paille et de mousseline aux formes sinueuses et ondulantes, teinté de nuances pastel où s'entremêlent des glacis jaune tendre, lilas et bleu ciel. Ce couvre-chef vaporeux projette une ombre subtile et transparente sur le haut du front de la jeune femme, encadrant sa chevelure blonde vénitienne coiffée d'une frange légère. À son oreille brille le reflet discret d'un pendant bleu turquoise, apportant une ponctuation de lumière vive qui rehausse la fraîcheur carnée de la joue et des lèvres ourlées de corail.</p><p>La vêture blanche vaporeuse, ornée d'un col montant en dentelle plissée et de manches bouffantes diaphanes, est brossée par de larges touches souples et irisées de reflets gris perle et azurés, révélant la virtuosité du maître dans le traitement des étoffes légères. L'arrière-plan d'intérieur, traité en un rideau de drapés verticaux brossés dans des harmonies contrastées de bleu cobalt, d'ocre jaune et de vieux rose, forme un cocon chromatique chatoyant qui fait rayonner la figure centrale dans une atmosphère de grâce typique de la Belle Époque.</p>"
+  },
+  {
+    "id": "renoir_jeune_femme_au_miroir_rouen_1915",
+    "artistId": "renoir",
+    "artist": "Renoir Pierre-Auguste",
+    "artistSort": "Renoir Pierre-Auguste",
+    "civId": "occident",
+    "periodId": "occ_xx",
+    "civName": "Occident chrétien & moderne",
+    "civilization": "France (Impressionnisme)",
+    "subpart": "La sensualité triomphante de la chair méditerranéenne face au miroir",
+    "title": "Jeune Femme au miroir",
+    "date": "1915",
+    "dateDisplay": "1915",
+    "century": "XXe siècle",
+    "centuryNumeric": 1915,
+    "format": "65 × 54 cm",
+    "dimensions": "65 × 54 cm",
+    "currentLocation": "Musée des Beaux-Arts (Rouen, France)",
+    "site": "Musée des Beaux-Arts (Rouen, France)",
+    "originSite": "Cagnes-sur-Mer (France)",
+    "domain": "peinture_mosaique",
+    "category": "Peinture",
+    "artifactType": "Peinture sur toile",
+    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOjGo4zM0mvlvdhN4X2Bm5FBDl3MXXCfc8wMO5SdPPFTkHkBWdnogYqXkBV_Rx7zDhNt6RlQeD5rxV_QV_f8tXnL7wrpjiqDW-f368Kv9NJJW8uv0yoAp_yrGwXGwebO7JXBKnxrvtc_RFKMt7T9zSspw=w1708-h1989-s-no-gm?authuser=0",
+    "chips": [
+      "1915",
+      "XXe siècle",
+      "Pierre-Auguste Renoir",
+      "Musée des Beaux-Arts de Rouen",
+      "Rouen",
+      "Toilette féminine",
+      "Miroir",
+      "Période tardive"
+    ],
+    "tags": [
+      "Pierre-Auguste Renoir",
+      "Jeune Femme au miroir",
+      "Musée des Beaux-Arts de Rouen",
+      "Rouen",
+      "Toilette féminine",
+      "Miroir"
+    ],
+    "themes": [
+      "portraits_figures",
+      "nus_corps_odalisques"
+    ],
+    "subthemes": [
+      "portraits_individuels",
+      "odalisques_baigneuses"
+    ],
+    "desc": "<p>Cette œuvre de Pierre-Auguste Renoir, peinte en 1915, appartient à la période ultime de la vie de l'artiste, souvent qualifiée de période \"nacrée\" ou \"rouge\". Malgré les douleurs liées à une polyarthrite déformante qui l'obligeait à attacher ses pinceaux à ses mains, Renoir livre ici une vision d'une sensualité et d'une plénitude admirables. Le sujet de la femme à sa toilette, thème classique de l'histoire de l'art, est prétexte à une exploration de la lumière et de la chair. La jeune femme, saisie dans un moment d'intimité, se contemple dans un miroir à main, un geste qui permet à l'artiste de jouer sur les courbes du corps et l'inclinaison délicate de la tête.</p><p>La palette est caractéristique de cette fin de carrière, dominée par des tonalités chaudes, des rouges ardents, des roses orangés et des ocres qui baignent la scène dans une atmosphère de chaleur méditerranéenne. La touche est large, onctueuse, presque fusionnelle, où les contours s'estompent pour laisser place à une vibration de la couleur pure. Le fond, brossé de manière libre et vigoureuse, semble envelopper le modèle dans un cocon chromatique, accentuant l'impression de douceur et de vitalité qui émane de la figure centrale.</p><p>L'étude de la peau est ici magistrale : Renoir parvient à rendre la nacre de l'épiderme par des jeux de reflets et des glacis subtils, faisant de ce nu ou de cette figure drapée une célébration de la beauté féminine intemporelle. Loin des recherches intellectuelles ou des tourments de l'avant-garde de 1915, Renoir reste fidèle à son idéal de plaisir visuel et de bonheur de peindre. Cette toile, conservée au Musée des Beaux-Arts de Rouen, témoigne de la résilience créative du maître et de son désir inaltérable de fixer sur la toile la grâce d'un instant fugace.</p>",
+    "narrative": "<p>Cette œuvre de Pierre-Auguste Renoir, peinte en 1915, appartient à la période ultime de la vie de l'artiste, souvent qualifiée de période \"nacrée\" ou \"rouge\". Malgré les douleurs liées à une polyarthrite déformante qui l'obligeait à attacher ses pinceaux à ses mains, Renoir livre ici une vision d'une sensualité et d'une plénitude admirables. Le sujet de la femme à sa toilette, thème classique de l'histoire de l'art, est prétexte à une exploration de la lumière et de la chair. La jeune femme, saisie dans un moment d'intimité, se contemple dans un miroir à main, un geste qui permet à l'artiste de jouer sur les courbes du corps et l'inclinaison délicate de la tête.</p><p>La palette est caractéristique de cette fin de carrière, dominée par des tonalités chaudes, des rouges ardents, des roses orangés et des ocres qui baignent la scène dans une atmosphère de chaleur méditerranéenne. La touche est large, onctueuse, presque fusionnelle, où les contours s'estompent pour laisser place à une vibration de la couleur pure. Le fond, brossé de manière libre et vigoureuse, semble envelopper le modèle dans un cocon chromatique, accentuant l'impression de douceur et de vitalité qui émane de la figure centrale.</p><p>L'étude de la peau est ici magistrale : Renoir parvient à rendre la nacre de l'épiderme par des jeux de reflets et des glacis subtils, faisant de ce nu ou de cette figure drapée une célébration de la beauté féminine intemporelle. Loin des recherches intellectuelles ou des tourments de l'avant-garde de 1915, Renoir reste fidèle à son idéal de plaisir visuel et de bonheur de peindre. Cette toile, conservée au Musée des Beaux-Arts de Rouen, témoigne de la résilience créative du maître et de son désir inaltérable de fixer sur la toile la grâce d'un instant fugace.</p>"
+  },
+  {
     "id": "redon_le_regard_profil_homme_rennes_1901",
     "artistId": "redon",
     "artist": "Redon Odilon",
@@ -12981,322 +13298,5 @@ window.ART_OBJECTS = [
       "Vanité"
     ]
   }
-  ,
-  {
-    "id": "renoir_frederic_bazille_peignant_heron_montpellier_1867",
-    "artistId": "renoir",
-    "artist": "Renoir Pierre-Auguste",
-    "artistSort": "Renoir Pierre-Auguste",
-    "civId": "occident",
-    "periodId": "occ_xix",
-    "civName": "Occident chrétien & moderne",
-    "civilization": "France (Impressionnisme)",
-    "subpart": "L'hommage fraternel à Frédéric Bazille et la naissance de la bohème des Batignolles",
-    "title": "Frédéric Bazille peignant la Nature morte au héron",
-    "date": "1867",
-    "dateDisplay": "1867",
-    "century": "XIXe siècle",
-    "centuryNumeric": 1867,
-    "format": "105 × 73 cm",
-    "dimensions": "105 × 73 cm",
-    "currentLocation": "Musée Fabre (Montpellier, France)",
-    "site": "Musée Fabre (Montpellier, France)",
-    "originSite": "Paris (France)",
-    "domain": "peinture_mosaique",
-    "category": "Peinture",
-    "artifactType": "Peinture sur toile",
-    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczMGEmzVhakaRHzAyW5hqlbE2H4WhDclePo2bHS3zHqM74ftIvxfCcwy427qUU1BRsjKZ1vMHDJrJNpPWunD840yYQd42aHO80ngiWLwm_Du8I5RIxKNlCpdFKkeFFDp-AV1UlUY5CkNEO1v3UM8Kz5xvQ=w1679-h2416-s-no-gm?authuser=0",
-    "chips": [
-      "1867",
-      "XIXe siècle",
-      "Pierre-Auguste Renoir",
-      "Musée Fabre",
-      "Montpellier",
-      "Portrait d'artiste",
-      "Atelier",
-      "Pré-impressionnisme"
-    ],
-    "tags": [
-      "Pierre-Auguste Renoir",
-      "Frédéric Bazille peignant la Nature morte au héron",
-      "Musée Fabre",
-      "Montpellier",
-      "Atelier",
-      "Portrait d'artiste"
-    ],
-    "themes": [
-      "portraits_figures",
-      "autoportraits_atelier"
-    ],
-    "subthemes": [
-      "portraits_individuels",
-      "atelier_creation"
-    ],
-    "desc": "<p>Cette œuvre magistrale, intitulée Frédéric Bazille peignant la Nature morte au héron, est une huile sur toile réalisée en 1867 par Pierre-Auguste Renoir. Conservée au Musée Fabre de Montpellier, elle constitue l'un des témoignages les plus émouvants de l'amitié qui liait les jeunes peintres de la future avant-garde impressionniste. Renoir représente ici son ami Bazille dans l'atelier qu'ils partageaient rue Visconti à Paris, capturant un instant de création pure où le sujet et l'artiste se font face.</p><p>La composition est structurée de manière audacieuse, plaçant Bazille de profil, penché vers son chevalet. L'artiste est absorbé par son travail, tenant sa palette et ses pinceaux avec une concentration palpable. Le héron, sujet de la nature morte que Bazille est en train d'exécuter, est visible sur la toile posée sur le chevalet, créant une mise en abyme fascinante du processus artistique. L'espace de l'atelier est rendu de manière sobre, avec quelques tableaux accrochés au mur en arrière-plan (dont un paysage de neige qui pourrait être de Monet), renforçant l'immersion dans le quotidien de la bohème créatrice des années 1860.</p><p>Sur le plan technique, cette toile marque une étape charnière dans le style de Renoir. On y retrouve l'influence de Courbet et de Manet dans l'utilisation d'une palette de gris, de beiges et de noirs très riches, mais la touche commence déjà à se fragmenter. La lumière, venant de la gauche, modèle le visage et les mains de Bazille avec une grande délicatesse, tandis que les chaussures de l'artiste, aux détails colorés, apportent une note de spontanéité presque moderne. Le traitement de la veste, avec ses larges coups de brosse, annonce la liberté de facture qui caractérisera l'impressionnisme quelques années plus tard.</p><p>Historiquement, ce portrait est d'une importance capitale pour le patrimoine montpelliérain. Frédéric Bazille, originaire de Montpellier et mort prématurément au combat en 1870, fut le véritable ciment du groupe des Batignolles. En offrant cette image de son ami au travail, Renoir nous livre non seulement un portrait psychologique d'une grande finesse, mais aussi un manifeste de la peinture \"claire\" et sincère qu'ils cherchaient alors à inventer. L'œuvre est entrée au musée en 1924, complétant ainsi l'exceptionnel fonds Bazille légué par sa famille.</p>",
-    "narrative": "<p>Cette œuvre magistrale, intitulée Frédéric Bazille peignant la Nature morte au héron, est une huile sur toile réalisée en 1867 par Pierre-Auguste Renoir. Conservée au Musée Fabre de Montpellier, elle constitue l'un des témoignages les plus émouvants de l'amitié qui liait les jeunes peintres de la future avant-garde impressionniste. Renoir représente ici son ami Bazille dans l'atelier qu'ils partageaient rue Visconti à Paris, capturant un instant de création pure où le sujet et l'artiste se font face.</p><p>La composition est structurée de manière audacieuse, plaçant Bazille de profil, penché vers son chevalet. L'artiste est absorbé par son travail, tenant sa palette et ses pinceaux avec une concentration palpable. Le héron, sujet de la nature morte que Bazille est en train d'exécuter, est visible sur la toile posée sur le chevalet, créant une mise en abyme fascinante du processus artistique. L'espace de l'atelier est rendu de manière sobre, avec quelques tableaux accrochés au mur en arrière-plan (dont un paysage de neige qui pourrait être de Monet), renforçant l'immersion dans le quotidien de la bohème créatrice des années 1860.</p><p>Sur le plan technique, cette toile marque une étape charnière dans le style de Renoir. On y retrouve l'influence de Courbet et de Manet dans l'utilisation d'une palette de gris, de beiges et de noirs très riches, mais la touche commence déjà à se fragmenter. La lumière, venant de la gauche, modèle le visage et les mains de Bazille avec une grande délicatesse, tandis que les chaussures de l'artiste, aux détails colorés, apportent une note de spontanéité presque moderne. Le traitement de la veste, avec ses larges coups de brosse, annonce la liberté de facture qui caractérisera l'impressionnisme quelques années plus tard.</p><p>Historiquement, ce portrait est d'une importance capitale pour le patrimoine montpelliérain. Frédéric Bazille, originaire de Montpellier et mort prématurément au combat en 1870, fut le véritable ciment du groupe des Batignolles. En offrant cette image de son ami au travail, Renoir nous livre non seulement un portrait psychologique d'une grande finesse, mais aussi un manifeste de la peinture \"claire\" et sincère qu'ils cherchaient alors à inventer. L'œuvre est entrée au musée en 1924, complétant ainsi l'exceptionnel fonds Bazille légué par sa famille.</p>"
-  },
-  {
-    "id": "renoir_garcon_au_chat_orsay_1868",
-    "artistId": "renoir",
-    "artist": "Renoir Pierre-Auguste",
-    "artistSort": "Renoir Pierre-Auguste",
-    "civId": "occident",
-    "periodId": "occ_xix",
-    "civName": "Occident chrétien & moderne",
-    "civilization": "France (Impressionnisme)",
-    "subpart": "L'audace sensuelle du nu masculin aux frontières de l'impressionnisme",
-    "title": "Le Garçon au chat",
-    "date": "1868",
-    "dateDisplay": "1868",
-    "century": "XIXe siècle",
-    "centuryNumeric": 1868,
-    "format": "123 × 66 cm",
-    "dimensions": "123 × 66 cm",
-    "currentLocation": "Musée d'Orsay (Paris, France)",
-    "site": "Musée d'Orsay (Paris, France)",
-    "originSite": "Paris (France)",
-    "domain": "peinture_mosaique",
-    "category": "Peinture",
-    "artifactType": "Peinture sur toile",
-    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOlnjIdTp24ixD9WB-WGhhxyR3O-EWVRh3JPsKAqB8Lwxnn5yszsCTXmjxecZ5TSv4-4tC-SjpMmLCd2Q4WBzJuR28NEIj5ipyvf_KVgABwMbMN0FjpQ6__l5xFPtr865vOs1PFvjTFq-JynU9TDB3Gfg=w1332-h2416-s-no-gm?authuser=0",
-    "chips": [
-      "1868",
-      "XIXe siècle",
-      "Pierre-Auguste Renoir",
-      "Musée d'Orsay",
-      "Paris",
-      "Nu masculin",
-      "Animaux",
-      "Pré-impressionnisme"
-    ],
-    "tags": [
-      "Pierre-Auguste Renoir",
-      "Le Garçon au chat",
-      "Musée d'Orsay",
-      "Paris",
-      "Nu masculin",
-      "Chat"
-    ],
-    "themes": [
-      "nus_corps_odalisques",
-      "animaux_mouvement",
-      "portraits_figures"
-    ],
-    "subthemes": [
-      "academies_etudes_corps",
-      "fauves_felins",
-      "portraits_individuels"
-    ],
-    "desc": "<p>Cette œuvre audacieuse d'Auguste Renoir, peinte en 1868 et conservée au Musée d'Orsay, appartient à la période de jeunesse de l'artiste, alors qu'il cherche encore sa voie entre le réalisme de Courbet et les prémices de l'impressionnisme. Le tableau représente un jeune garçon nu, vu de dos dans une pose serpentine, le corps appuyé contre un divan tandis qu'il enserre tendrement un chat. Cette composition inhabituelle, qui détourne les codes traditionnels du nu féminin pour les appliquer à une figure masculine juvénile, témoigne de la liberté créatrice de Renoir et de son intérêt pour la sensualité des formes et des textures, bien avant ses célèbres baigneuses.</p><p>Sur le plan technique, la toile frappe par le contraste entre la peau diaphane, presque nacrée du modèle, et le décor environnant richement orné. Renoir déploie une grande virtuosité dans le rendu du mobilier : le vert profond du coussin de velours et le motif floral complexe du tissu à dominante bleue et crème préfigurent son goût pour l'ornementation. Le traitement du chat, au pelage mélangé de blanc et de brun, apporte une touche de vie et de spontanéité à une pose qui semble par ailleurs très étudiée, presque académique dans sa structure. La lumière, douce et diffuse, caresse le modelé du dos et des jambes, soulignant la souplesse de la silhouette sans recourir à des contours trop marqués.</p><p>L'intérêt historique de cette œuvre réside dans sa modernité provocatrice pour l'époque. En choisissant un sujet masculin pour un nu de grand format, Renoir s'éloigne des thèmes conventionnels du Salon pour explorer une esthétique plus intime et singulière. Le regard du garçon, légèrement tourné vers le spectateur, instaure une complicité silencieuse qui rompt avec la distance habituelle des modèles d'atelier. Cette toile, par son mélange de réalisme et de poésie tactile, annonce déjà la sensibilité vibrante qui fera le succès de l'impressionnisme, tout en restant ancrée dans une tradition picturale qui place le corps humain au centre de la recherche artistique.</p>",
-    "narrative": "<p>Cette œuvre audacieuse d'Auguste Renoir, peinte en 1868 et conservée au Musée d'Orsay, appartient à la période de jeunesse de l'artiste, alors qu'il cherche encore sa voie entre le réalisme de Courbet et les prémices de l'impressionnisme. Le tableau représente un jeune garçon nu, vu de dos dans une pose serpentine, le corps appuyé contre un divan tandis qu'il enserre tendrement un chat. Cette composition inhabituelle, qui détourne les codes traditionnels du nu féminin pour les appliquer à une figure masculine juvénile, témoigne de la liberté créatrice de Renoir et de son intérêt pour la sensualité des formes et des textures, bien avant ses célèbres baigneuses.</p><p>Sur le plan technique, la toile frappe par le contraste entre la peau diaphane, presque nacrée du modèle, et le décor environnant richement orné. Renoir déploie une grande virtuosité dans le rendu du mobilier : le vert profond du coussin de velours et le motif floral complexe du tissu à dominante bleue et crème préfigurent son goût pour l'ornementation. Le traitement du chat, au pelage mélangé de blanc et de brun, apporte une touche de vie et de spontanéité à une pose qui semble par ailleurs très étudiée, presque académique dans sa structure. La lumière, douce et diffuse, caresse le modelé du dos et des jambes, soulignant la souplesse de la silhouette sans recourir à des contours trop marqués.</p><p>L'intérêt historique de cette œuvre réside dans sa modernité provocatrice pour l'époque. En choisissant un sujet masculin pour un nu de grand format, Renoir s'éloigne des thèmes conventionnels du Salon pour explorer une esthétique plus intime et singulière. Le regard du garçon, légèrement tourné vers le spectateur, instaure une complicité silencieuse qui rompt avec la distance habituelle des modèles d'atelier. Cette toile, par son mélange de réalisme et de poésie tactile, annonce déjà la sensibilité vibrante qui fera le succès de l'impressionnisme, tout en restant ancrée dans une tradition picturale qui place le corps humain au centre de la recherche artistique.</p>"
-  },
-  {
-    "id": "renoir_parisiennes_algeriennes_tokyo_1872",
-    "artistId": "renoir",
-    "artist": "Renoir Pierre-Auguste",
-    "artistSort": "Renoir Pierre-Auguste",
-    "civId": "occident",
-    "periodId": "occ_xix",
-    "civName": "Occident chrétien & moderne",
-    "civilization": "France (Impressionnisme)",
-    "subpart": "L'orientalisme d'atelier et la fête chromatique en hommage à Delacroix",
-    "title": "Parisiennes habillées en Algériennes (Le Harem)",
-    "date": "1872",
-    "dateDisplay": "1872",
-    "century": "XIXe siècle",
-    "centuryNumeric": 1872,
-    "format": "156.5 × 128.8 cm",
-    "dimensions": "156.5 × 128.8 cm",
-    "currentLocation": "Musée national de l'Art occidental (Tokyo, Japon)",
-    "site": "Musée national de l'Art occidental (Tokyo, Japon)",
-    "originSite": "Paris (France)",
-    "domain": "peinture_mosaique",
-    "category": "Peinture",
-    "artifactType": "Peinture sur toile",
-    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczP19tB5xBe0EO-qujlKnFkC9RTa2GrCmET-f1_CdStTmigW_JijIrDt8jI0OUoBLQeJohIIjnvFzLpI4mhYn1w-KUi-q08CQeBja20JSa9web0gdoVH4i7ktUc5G-ZRhawSx5BB8hTbsIv3ZvIwECfAhA=w1708-h2068-s-no-gm?authuser=0",
-    "chips": [
-      "1872",
-      "XIXe siècle",
-      "Pierre-Auguste Renoir",
-      "Musée national de l'Art occidental",
-      "Tokyo",
-      "Orientalisme",
-      "Hommage à Delacroix",
-      "Scène de genre"
-    ],
-    "tags": [
-      "Pierre-Auguste Renoir",
-      "Parisiennes habillées en Algériennes",
-      "Musée national de l'Art occidental",
-      "Tokyo",
-      "Orientalisme",
-      "Harem"
-    ],
-    "themes": [
-      "vie_quotidienne_genre",
-      "nus_corps_odalisques",
-      "portraits_figures"
-    ],
-    "subthemes": [
-      "orientalisme_ailleurs",
-      "odalisques_baigneuses",
-      "portraits_collectifs"
-    ],
-    "desc": "<p>Peinte au lendemain de la guerre franco-prussienne et refusée au Salon officiel de 1872, cette œuvre monumentale rend un hommage explicite aux célèbres Femmes d'Alger dans leur appartement (1834) d'Eugène Delacroix, maître vénéré par le jeune Renoir. Rejetant toute prétention d'authenticité ethnographique — l'artiste ne visitera l'Algérie que près d'une décennie plus tard, en 1881 —, le tableau revendique ouvertement son caractère d'orientalisme d'atelier montmartrois. Les modèles parisiens familiers de l'artiste, au premier rang desquels sa maîtresse Lise Tréhot qui prête ses traits à la figure assise à droite, y revêtent des parures exotiques chinées et posent au milieu de tapis et de tentures d'emprunt.</p><p>Au cœur de la composition, trônant en majesté sur un coussin oriental, une jeune femme blonde à la peau laiteuse et nacrée apparaît dévêtue sous une mousseline transparente et vaporeuse brodée d'or. Assise en tailleur, une jambe repliée et l'autre déployée vers le spectateur avec une grande sensualité, elle arbore de lourds pendants d'oreilles dorés et un bracelet de cheville étincelant. À sa gauche, une suivante brune vue de profil, le torse entièrement nu, s'active à l'ajuster ou lui tendre un bijou. À ses pieds, à droite, une servante vêtue d'un boléro rose et d'un pantalon bouffant doré, coiffée d'une calotte brodée d'où s'échappe une longue chevelure d'ébène, tient un miroir pour guider la toilette de sa maîtresse.</p><p>L'espace clos du gynécée est meublé d'objets luxueux disposés sur un riche tapis persan orné de motifs géométriques et parsemé de bijoux, d'un narguilé et de babouches de satin rouge. Dans l'ombre du fond à droite, devant un coffre laqué d'inspiration mauresque, une quatrième femme lève les bras pour écarter un rideau ou esquisser un pas de danse, fermant la scène sur une pénombre mystérieuse. La touche de Renoir, encore nourrie des glacis profonds et des contrastes vigoureux du romantisme, fait éclater la préciosité des soieries, le moiré des étoffes et la chaleur dorée des chairs féminines dans une fête optique pleinement affirmée.</p>",
-    "narrative": "<p>Peinte au lendemain de la guerre franco-prussienne et refusée au Salon officiel de 1872, cette œuvre monumentale rend un hommage explicite aux célèbres Femmes d'Alger dans leur appartement (1834) d'Eugène Delacroix, maître vénéré par le jeune Renoir. Rejetant toute prétention d'authenticité ethnographique — l'artiste ne visitera l'Algérie que près d'une décennie plus tard, en 1881 —, le tableau revendique ouvertement son caractère d'orientalisme d'atelier montmartrois. Les modèles parisiens familiers de l'artiste, au premier rang desquels sa maîtresse Lise Tréhot qui prête ses traits à la figure assise à droite, y revêtent des parures exotiques chinées et posent au milieu de tapis et de tentures d'emprunt.</p><p>Au cœur de la composition, trônant en majesté sur un coussin oriental, une jeune femme blonde à la peau laiteuse et nacrée apparaît dévêtue sous une mousseline transparente et vaporeuse brodée d'or. Assise en tailleur, une jambe repliée et l'autre déployée vers le spectateur avec une grande sensualité, elle arbore de lourds pendants d'oreilles dorés et un bracelet de cheville étincelant. À sa gauche, une suivante brune vue de profil, le torse entièrement nu, s'active à l'ajuster ou lui tendre un bijou. À ses pieds, à droite, une servante vêtue d'un boléro rose et d'un pantalon bouffant doré, coiffée d'une calotte brodée d'où s'échappe une longue chevelure d'ébène, tient un miroir pour guider la toilette de sa maîtresse.</p><p>L'espace clos du gynécée est meublé d'objets luxueux disposés sur un riche tapis persan orné de motifs géométriques et parsemé de bijoux, d'un narguilé et de babouches de satin rouge. Dans l'ombre du fond à droite, devant un coffre laqué d'inspiration mauresque, une quatrième femme lève les bras pour écarter un rideau ou esquisser un pas de danse, fermant la scène sur une pénombre mystérieuse. La touche de Renoir, encore nourrie des glacis profonds et des contrastes vigoureux du romantisme, fait éclater la préciosité des soieries, le moiré des étoffes et la chaleur dorée des chairs féminines dans une fête optique pleinement affirmée.</p>"
-  },
-  {
-    "id": "renoir_bouquet_chrysanthemes_rouen_1884",
-    "artistId": "renoir",
-    "artist": "Renoir Pierre-Auguste",
-    "artistSort": "Renoir Pierre-Auguste",
-    "civId": "occident",
-    "periodId": "occ_xix",
-    "civName": "Occident chrétien & moderne",
-    "civilization": "France (Impressionnisme)",
-    "subpart": "L'explosion florale et la vibration chromatique de la période ingresque",
-    "title": "Bouquet de Chrysanthèmes",
-    "date": "1884",
-    "dateDisplay": "1884",
-    "century": "XIXe siècle",
-    "centuryNumeric": 1884,
-    "format": "81.5 × 65.5 cm",
-    "dimensions": "81.5 × 65.5 cm",
-    "currentLocation": "Musée des Beaux-Arts (Rouen, France)",
-    "site": "Musée des Beaux-Arts (Rouen, France)",
-    "originSite": "Paris (France)",
-    "domain": "peinture_mosaique",
-    "category": "Peinture",
-    "artifactType": "Peinture sur toile",
-    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczNoOQ7e-wKeyf_HT49PGjAxPorpMRBP-c0bvriqtuV8JAhZIP9pi7pIG6x1TA0jSaP_TJpFf8hdIRv_h0yKW3mjV-ZDgPXvjkKtzDSCGXjdRnccZ59GIxGtWQ6I8GF5aZHERgWppM3HZE2HykzyfrqQww=w1708-h2088-s-no-gm?authuser=0",
-    "chips": [
-      "1884",
-      "XIXe siècle",
-      "Pierre-Auguste Renoir",
-      "Musée des Beaux-Arts de Rouen",
-      "Rouen",
-      "Nature morte",
-      "Fleurs",
-      "Période ingresque"
-    ],
-    "tags": [
-      "Pierre-Auguste Renoir",
-      "Bouquet de Chrysanthèmes",
-      "Musée des Beaux-Arts de Rouen",
-      "Rouen",
-      "Nature morte",
-      "Fleurs"
-    ],
-    "themes": [
-      "natures_mortes_vanites"
-    ],
-    "subthemes": [
-      "fleurs_bouquets"
-    ],
-    "desc": "<p>Réalisée par Auguste Renoir en 1884, cette nature morte intitulée Bouquet de Chrysanthèmes s'inscrit dans une période de recherche stylistique intense pour l'artiste, souvent appelée sa \"période ingresque\" ou \"période sèche\". Si Renoir commence alors à privilégier un dessin plus précis dans ses portraits, il conserve pour ses compositions florales une liberté de touche et une sensualité chromatique exceptionnelles. Le chrysanthème, fleur très prisée à la fin du XIXe siècle pour sa variété de formes et de couleurs, offre ici au peintre un terrain d'expérimentation idéal pour saturer l'espace de vibrations lumineuses.</p><p>Le bouquet jaillit d'un vase en céramique vert bleu, dont l'éclat profond ancre la composition et fait ressortir la chaleur des fleurs. Renoir déploie un éventail de pétales allant du blanc pur au jaune d'or, du rose tendre au rouge orangé. La technique est ici virtuose : les fleurs sont traitées par petites virgules de peinture superposées qui créent un relief presque palpable, évoquant la texture ébouriffée et la légèreté des corolles. Les feuilles vertes, disposées de manière éparse, apportent une respiration visuelle et accentuent l'éclat des tons chauds par un jeu de contrastes complémentaires.</p><p>L'arrière-plan est traité de manière beaucoup plus fluide et vaporeuse, dans des tonalités de beige, de crème et de brun clair qui semblent se fondre dans la paroi. Cette neutralité de l'environnement immédiat permet de focaliser toute l'attention sur la densité du bouquet, qui semble déborder du cadre par sa vitalité. La lumière, venant de la gauche, vient accrocher les pétales les plus clairs, conférant à l'ensemble une atmosphère de confort intérieur et de beauté éphémère. Cette œuvre témoigne de la capacité de Renoir à transformer un sujet classique en une célébration de la sensation pure.</p>",
-    "narrative": "<p>Réalisée par Auguste Renoir en 1884, cette nature morte intitulée Bouquet de Chrysanthèmes s'inscrit dans une période de recherche stylistique intense pour l'artiste, souvent appelée sa \"période ingresque\" ou \"période sèche\". Si Renoir commence alors à privilégier un dessin plus précis dans ses portraits, il conserve pour ses compositions florales une liberté de touche et une sensualité chromatique exceptionnelles. Le chrysanthème, fleur très prisée à la fin du XIXe siècle pour sa variété de formes et de couleurs, offre ici au peintre un terrain d'expérimentation idéal pour saturer l'espace de vibrations lumineuses.</p><p>Le bouquet jaillit d'un vase en céramique vert bleu, dont l'éclat profond ancre la composition et fait ressortir la chaleur des fleurs. Renoir déploie un éventail de pétales allant du blanc pur au jaune d'or, du rose tendre au rouge orangé. La technique est ici virtuose : les fleurs sont traitées par petites virgules de peinture superposées qui créent un relief presque palpable, évoquant la texture ébouriffée et la légèreté des corolles. Les feuilles vertes, disposées de manière éparse, apportent une respiration visuelle et accentuent l'éclat des tons chauds par un jeu de contrastes complémentaires.</p><p>L'arrière-plan est traité de manière beaucoup plus fluide et vaporeuse, dans des tonalités de beige, de crème et de brun clair qui semblent se fondre dans la paroi. Cette neutralité de l'environnement immédiat permet de focaliser toute l'attention sur la densité du bouquet, qui semble déborder du cadre par sa vitalité. La lumière, venant de la gauche, vient accrocher les pétales les plus clairs, conférant à l'ensemble une atmosphère de confort intérieur et de beauté éphémère. Cette œuvre témoigne de la capacité de Renoir à transformer un sujet classique en une célébration de la sensation pure.</p>"
-  },
-  {
-    "id": "renoir_femme_au_chapeau_tokyo_1891",
-    "artistId": "renoir",
-    "artist": "Renoir Pierre-Auguste",
-    "artistSort": "Renoir Pierre-Auguste",
-    "civId": "occident",
-    "periodId": "occ_xix",
-    "civName": "Occident chrétien & moderne",
-    "civilization": "France (Impressionnisme)",
-    "subpart": "La rêverie intimiste et l'apogée de la touche nacrée",
-    "title": "Femme au chapeau",
-    "date": "1891",
-    "dateDisplay": "1891",
-    "century": "XIXe siècle",
-    "centuryNumeric": 1891,
-    "format": "56 × 46.5 cm",
-    "dimensions": "56 × 46.5 cm",
-    "currentLocation": "Musée national de l'Art occidental (Tokyo, Japon)",
-    "site": "Musée national de l'Art occidental (Tokyo, Japon)",
-    "originSite": "Paris (France)",
-    "domain": "peinture_mosaique",
-    "category": "Peinture",
-    "artifactType": "Peinture sur toile",
-    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczPUPluSmy1C8GSWVjPC8LiORMI_QHt3upfRsVTkFSmlQw4HS8bsxWCWnUNCzqcQLh7Cyd8ZJke5RnSkmmJ4Jj3W_zlZGH02O1iHY6NbIZwtQQQUdWDXDB2DcQzG2ssuE53cgPDB3wvDoD7C_9xnDt5TdQ=w1708-h2048-s-no-gm?authuser=0",
-    "chips": [
-      "1891",
-      "XIXe siècle",
-      "Pierre-Auguste Renoir",
-      "Musée national de l'Art occidental",
-      "Tokyo",
-      "Portrait féminin",
-      "Période nacrée",
-      "Belle Époque"
-    ],
-    "tags": [
-      "Pierre-Auguste Renoir",
-      "Femme au chapeau",
-      "Musée national de l'Art occidental",
-      "Tokyo",
-      "Portrait féminin"
-    ],
-    "themes": [
-      "portraits_figures"
-    ],
-    "subthemes": [
-      "portraits_individuels"
-    ],
-    "desc": "<p>Peinte au début des années 1890, cette toile illustre la période « nacrée » de Renoir, durant laquelle l'artiste délaisse la rigueur graphique et linéaire de sa période « ingresque » pour renouer avec une touche fluide, vaporeuse et sensuelle. Cadrée à mi-corps et accoudée avec nonchalance contre le dossier d'un fauteuil ou d'une banquette en acajou, une jeune femme au teint de pêche tourne son visage de trois-quarts vers la droite. Son regard doux, légèrement perdu dans le lointain, traduit une rêverie paisible et intimiste, exempte de toute pose apprêtée.</p><p>Le sommet de la composition est magnifié par un volumineux chapeau de paille et de mousseline aux formes sinueuses et ondulantes, teinté de nuances pastel où s'entremêlent des glacis jaune tendre, lilas et bleu ciel. Ce couvre-chef vaporeux projette une ombre subtile et transparente sur le haut du front de la jeune femme, encadrant sa chevelure blonde vénitienne coiffée d'une frange légère. À son oreille brille le reflet discret d'un pendant bleu turquoise, apportant une ponctuation de lumière vive qui rehausse la fraîcheur carnée de la joue et des lèvres ourlées de corail.</p><p>La vêture blanche vaporeuse, ornée d'un col montant en dentelle plissée et de manches bouffantes diaphanes, est brossée par de larges touches souples et irisées de reflets gris perle et azurés, révélant la virtuosité du maître dans le traitement des étoffes légères. L'arrière-plan d'intérieur, traité en un rideau de drapés verticaux brossés dans des harmonies contrastées de bleu cobalt, d'ocre jaune et de vieux rose, forme un cocon chromatique chatoyant qui fait rayonner la figure centrale dans une atmosphère de grâce typique de la Belle Époque.</p>",
-    "narrative": "<p>Peinte au début des années 1890, cette toile illustre la période « nacrée » de Renoir, durant laquelle l'artiste délaisse la rigueur graphique et linéaire de sa période « ingresque » pour renouer avec une touche fluide, vaporeuse et sensuelle. Cadrée à mi-corps et accoudée avec nonchalance contre le dossier d'un fauteuil ou d'une banquette en acajou, une jeune femme au teint de pêche tourne son visage de trois-quarts vers la droite. Son regard doux, légèrement perdu dans le lointain, traduit une rêverie paisible et intimiste, exempte de toute pose apprêtée.</p><p>Le sommet de la composition est magnifié par un volumineux chapeau de paille et de mousseline aux formes sinueuses et ondulantes, teinté de nuances pastel où s'entremêlent des glacis jaune tendre, lilas et bleu ciel. Ce couvre-chef vaporeux projette une ombre subtile et transparente sur le haut du front de la jeune femme, encadrant sa chevelure blonde vénitienne coiffée d'une frange légère. À son oreille brille le reflet discret d'un pendant bleu turquoise, apportant une ponctuation de lumière vive qui rehausse la fraîcheur carnée de la joue et des lèvres ourlées de corail.</p><p>La vêture blanche vaporeuse, ornée d'un col montant en dentelle plissée et de manches bouffantes diaphanes, est brossée par de larges touches souples et irisées de reflets gris perle et azurés, révélant la virtuosité du maître dans le traitement des étoffes légères. L'arrière-plan d'intérieur, traité en un rideau de drapés verticaux brossés dans des harmonies contrastées de bleu cobalt, d'ocre jaune et de vieux rose, forme un cocon chromatique chatoyant qui fait rayonner la figure centrale dans une atmosphère de grâce typique de la Belle Époque.</p>"
-  },
-  {
-    "id": "renoir_jeune_femme_au_miroir_rouen_1915",
-    "artistId": "renoir",
-    "artist": "Renoir Pierre-Auguste",
-    "artistSort": "Renoir Pierre-Auguste",
-    "civId": "occident",
-    "periodId": "occ_xx",
-    "civName": "Occident chrétien & moderne",
-    "civilization": "France (Impressionnisme)",
-    "subpart": "La sensualité triomphante de la chair méditerranéenne face au miroir",
-    "title": "Jeune Femme au miroir",
-    "date": "1915",
-    "dateDisplay": "1915",
-    "century": "XXe siècle",
-    "centuryNumeric": 1915,
-    "format": "65 × 54 cm",
-    "dimensions": "65 × 54 cm",
-    "currentLocation": "Musée des Beaux-Arts (Rouen, France)",
-    "site": "Musée des Beaux-Arts (Rouen, France)",
-    "originSite": "Cagnes-sur-Mer (France)",
-    "domain": "peinture_mosaique",
-    "category": "Peinture",
-    "artifactType": "Peinture sur toile",
-    "imgSrc": "https://lh3.googleusercontent.com/pw/AP1GczOjGo4zM0mvlvdhN4X2Bm5FBDl3MXXCfc8wMO5SdPPFTkHkBWdnogYqXkBV_Rx7zDhNt6RlQeD5rxV_QV_f8tXnL7wrpjiqDW-f368Kv9NJJW8uv0yoAp_yrGwXGwebO7JXBKnxrvtc_RFKMt7T9zSspw=w1708-h1989-s-no-gm?authuser=0",
-    "chips": [
-      "1915",
-      "XXe siècle",
-      "Pierre-Auguste Renoir",
-      "Musée des Beaux-Arts de Rouen",
-      "Rouen",
-      "Toilette féminine",
-      "Miroir",
-      "Période tardive"
-    ],
-    "tags": [
-      "Pierre-Auguste Renoir",
-      "Jeune Femme au miroir",
-      "Musée des Beaux-Arts de Rouen",
-      "Rouen",
-      "Toilette féminine",
-      "Miroir"
-    ],
-    "themes": [
-      "portraits_figures",
-      "nus_corps_odalisques"
-    ],
-    "subthemes": [
-      "portraits_individuels",
-      "odalisques_baigneuses"
-    ],
-    "desc": "<p>Cette œuvre de Pierre-Auguste Renoir, peinte en 1915, appartient à la période ultime de la vie de l'artiste, souvent qualifiée de période \"nacrée\" ou \"rouge\". Malgré les douleurs liées à une polyarthrite déformante qui l'obligeait à attacher ses pinceaux à ses mains, Renoir livre ici une vision d'une sensualité et d'une plénitude admirables. Le sujet de la femme à sa toilette, thème classique de l'histoire de l'art, est prétexte à une exploration de la lumière et de la chair. La jeune femme, saisie dans un moment d'intimité, se contemple dans un miroir à main, un geste qui permet à l'artiste de jouer sur les courbes du corps et l'inclinaison délicate de la tête.</p><p>La palette est caractéristique de cette fin de carrière, dominée par des tonalités chaudes, des rouges ardents, des roses orangés et des ocres qui baignent la scène dans une atmosphère de chaleur méditerranéenne. La touche est large, onctueuse, presque fusionnelle, où les contours s'estompent pour laisser place à une vibration de la couleur pure. Le fond, brossé de manière libre et vigoureuse, semble envelopper le modèle dans un cocon chromatique, accentuant l'impression de douceur et de vitalité qui émane de la figure centrale.</p><p>L'étude de la peau est ici magistrale : Renoir parvient à rendre la nacre de l'épiderme par des jeux de reflets et des glacis subtils, faisant de ce nu ou de cette figure drapée une célébration de la beauté féminine intemporelle. Loin des recherches intellectuelles ou des tourments de l'avant-garde de 1915, Renoir reste fidèle à son idéal de plaisir visuel et de bonheur de peindre. Cette toile, conservée au Musée des Beaux-Arts de Rouen, témoigne de la résilience créative du maître et de son désir inaltérable de fixer sur la toile la grâce d'un instant fugace.</p>",
-    "narrative": "<p>Cette œuvre de Pierre-Auguste Renoir, peinte en 1915, appartient à la période ultime de la vie de l'artiste, souvent qualifiée de période \"nacrée\" ou \"rouge\". Malgré les douleurs liées à une polyarthrite déformante qui l'obligeait à attacher ses pinceaux à ses mains, Renoir livre ici une vision d'une sensualité et d'une plénitude admirables. Le sujet de la femme à sa toilette, thème classique de l'histoire de l'art, est prétexte à une exploration de la lumière et de la chair. La jeune femme, saisie dans un moment d'intimité, se contemple dans un miroir à main, un geste qui permet à l'artiste de jouer sur les courbes du corps et l'inclinaison délicate de la tête.</p><p>La palette est caractéristique de cette fin de carrière, dominée par des tonalités chaudes, des rouges ardents, des roses orangés et des ocres qui baignent la scène dans une atmosphère de chaleur méditerranéenne. La touche est large, onctueuse, presque fusionnelle, où les contours s'estompent pour laisser place à une vibration de la couleur pure. Le fond, brossé de manière libre et vigoureuse, semble envelopper le modèle dans un cocon chromatique, accentuant l'impression de douceur et de vitalité qui émane de la figure centrale.</p><p>L'étude de la peau est ici magistrale : Renoir parvient à rendre la nacre de l'épiderme par des jeux de reflets et des glacis subtils, faisant de ce nu ou de cette figure drapée une célébration de la beauté féminine intemporelle. Loin des recherches intellectuelles ou des tourments de l'avant-garde de 1915, Renoir reste fidèle à son idéal de plaisir visuel et de bonheur de peindre. Cette toile, conservée au Musée des Beaux-Arts de Rouen, témoigne de la résilience créative du maître et de son désir inaltérable de fixer sur la toile la grâce d'un instant fugace.</p>"
-  }
+
 ].concat(window.ART_OBJECTS || []);
