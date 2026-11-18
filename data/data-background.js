@@ -19,6 +19,150 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "pop_art_britannique_swinging_london": {
+    "id": "pop_art_britannique_swinging_london",
+    "badge": "HISTOIRE DE L'ART DU XXe SIÈCLE",
+    "title": "Le Pop Art Britannique, le Swinging London et l'Émancipation Figurative",
+    "sources": "Manifestes des Young Contemporaries & Histoire culturelle de l'après-guerre",
+    "keywords": [
+      "pop art",
+      "swinging london",
+      "kitchen sink",
+      "art brut",
+      "graffiti",
+      "acrylique",
+      "californie",
+      "piscine"
+    ],
+    "text": "<p>À la fin des années 1950 et au début des années 1960, au sortir de l'austérité de l'après-guerre marquée par le réalisme social sombre de la <em>Kitchen Sink School</em>, une nouvelle génération de jeunes peintres britanniques bouleverse la scène artistique londonienne. S'affranchissant des dogmes de l'abstraction gestuelle, ce premier Pop Art européen puise son énergie dans la culture urbaine, la typographie publicitaire, les graffitis muraux et la poésie littéraire pour réintroduire le récit et l'autobiographie au cœur de la toile.</p>\n<p>Dans l'effervescence culturelle du <em>Swinging London</em>, l'art devient un espace de liberté personnelle et d'affirmation identitaire, mêlant l'humour graphique à une observation aiguë de la société contemporaine.</p>\n<p>La découverte de la lumière éclatante de la côte Ouest américaine et l'adoption de la peinture acrylique au séchage rapide parachèvent cette révolution esthétique : les aplats nets (<em>hard-edge</em>), les architectures modernistes, les surfaces aquatiques scintillantes et les grands doubles portraits domestiques imposent une figuration limpide, hédoniste et résolument moderne.</p>"
+  },
+  "portrait_double_psychologie_atelier": {
+    "id": "portrait_double_psychologie_atelier",
+    "badge": "GENRES PICTURAUX & PSYCHOLOGIE",
+    "title": "Le Portrait d'Après Modèle Vivant et la Dramaturgie du Double Portrait",
+    "sources": "Tradition européenne du portrait d'atelier & Esthétique de la pose",
+    "keywords": [
+      "portrait",
+      "double portrait",
+      "modèle vivant",
+      "modele vivant",
+      "autoportrait",
+      "atelier",
+      "pose"
+    ],
+    "text": "<p>Contrairement à l'instantané photographique qui fige une fraction de seconde mécanique, le portrait peint d'après modèle vivant repose sur la durée partagée et le silence attentif de la séance de pose en atelier. Au fil des heures et des jours passés en tête-à-tête, l'œil du peintre scrute les micro-expressions du visage, la structure osseuse et la posture du corps pour restituer la présence intérieure et l'humanité profonde du sujet.</p>\n<p>Le genre exigeant du double portrait introduit une dimension dramaturgique supplémentaire : en réunissant deux figures dans un même espace domestique, l'artiste orchestre un dialogue silencieux fait de regards qui se croisent ou s'évitent, d'écarts spatiaux et d'accords chromatiques révélant la nature intime de leur lien.</p>\n<p>Revenir régulièrement sur les visages de sa famille, de ses amis proches et de ses compagnons de création au fil des décennies permet également d'inscrire le passage du temps et la mémoire affective au cœur même de la matière picturale.</p>"
+  },
+  "perspective_inversee_vision_multipocale": {
+    "id": "perspective_inversee_vision_multipocale",
+    "badge": "THÉORIE DE LA VISION & GÉOMÉTRIE",
+    "title": "Au-Delà du Point de Fuite : Perspective Inversée et Vision Multipocale",
+    "sources": "Traités sur la perspective chinoise, le Cubisme & la perception visuelle",
+    "keywords": [
+      "perspective inversée",
+      "perspective inversee",
+      "multipocale",
+      "poly-focale",
+      "cubisme",
+      "point de fuite",
+      "rouleaux chinois",
+      "photocollage"
+    ],
+    "text": "<p>Depuis la Renaissance italienne, la perspective linéaire albertienne impose au spectateur le point de vue unique et immobile d'un œil cyclopéen fixé devant une fenêtre rectangulaire. Pourtant, l'expérience humaine réelle de la vision est mobile, binoculaire et inscrite dans la durée : notre regard explore sans cesse l'espace en accumulant des milliers de points de focalisation successifs.</p>\n<p>S'inspirant à la fois des rouleaux de paysages de la peinture classique chinoise — où le promeneur chemine à travers l'œuvre sans horizon figé — et de la déconstruction cubiste des plans, l'approche multipocale brise l'unicité du point de fuite.</p>\n<p>À travers les toiles aux châssis hexagonaux découpés, les grilles de panneaux assemblés ou les « peintures photographiques » recomposées à partir de dizaines de clichés, la perspective s'ouvre en éventail vers le spectateur, restituant la sensation physique du déplacement et de l'immersion dans l'espace.</p>"
+  },
+  "optique_camera_lucida_savoirs_secrets": {
+    "id": "optique_camera_lucida_savoirs_secrets",
+    "badge": "HISTOIRE DES TECHNIQUES & OPTIQUE",
+    "title": "La Camera Lucida, les Miroirs et les Instruments Optiques dans l'Art",
+    "sources": "William Hyde Wollaston, Traité de la Camera Lucida (1807) & Histoire de l'optique",
+    "keywords": [
+      "camera lucida",
+      "chambre claire",
+      "optique",
+      "miroir",
+      "miroirs",
+      "ingres",
+      "hogarth",
+      "ready-made"
+    ],
+    "text": "<p>Tout au long de l'histoire de la peinture occidentale, les artistes ont entretenu un dialogue fécond avec les sciences de l'optique, utilisant miroirs concaves, lentilles, chambres noires (<em>camera obscura</em>) et chambres claires (<em>camera lucida</em>) pour comprendre les lois de la projection lumineuse et atteindre une acuité linéaire saisissante.</p>\n<p>Invention du début du XIXe siècle fondée sur un prisme de verre, la <em>camera lucida</em> permet au dessinateur de percevoir simultanément son modèle et la pointe de son crayon sur la feuille, favorisant un tracé continu, vif et dénué de repentirs qui exalte la justesse des proportions et des drapés.</p>\n<p>Loin d'être un artifice mécanique se substituant au talent de la main, l'outil optique agit comme un amplificateur du regard qui interroge les mécanismes mêmes de la représentation et les jeux de mise en abyme entre l'œil, le miroir et la surface plane.</p>"
+  },
+  "peinture_plein_air_cycle_saisons": {
+    "id": "peinture_plein_air_cycle_saisons",
+    "badge": "ESTHÉTIQUE DU PAYSAGE & NATURE",
+    "title": "La Peinture en Plein Air et l'Observation Sérielle du Cycle des Saisons",
+    "sources": "Tradition du paysage sur le motif & Esthétique impressionniste et post-impressionniste",
+    "keywords": [
+      "plein air",
+      "saisons",
+      "printemps",
+      "automne",
+      "hiver",
+      "verger",
+      "aubépine",
+      "aubepine",
+      "pommier",
+      "monet",
+      "giverny",
+      "van gogh"
+    ],
+    "text": "<p>Héritée des maîtres du paysage en plein air du XIXe siècle, l'observation patiente et répétée d'un même motif naturel au fil des heures et des saisons révèle que la nature n'est jamais figée : chaque variation atmosphérique transforme radicalement l'architecture des formes et la vibration des couleurs.</p>\n<p>Observer jour après jour le même chemin forestier, le même verger ou le même étang permet de saisir la métamorphose continue du vivant : la structure graphique et nue des branches en hiver, l'éclosion soudaine des bourgeons et des floraisons printanières, l'opulence solaire de l'été puis l'embrasement chromatique de l'automne.</p>\n<p>Transposée par des touches rythmées, pointillistes ou fauves, cette attention quotidienne au monde végétal célèbre la permanence cyclique de la vie et transforme le paysage familier en un laboratoire inépuisable de lumière et d'énergie.</p>"
+  },
+  "art_numerique_tablette_ipad_creation": {
+    "id": "art_numerique_tablette_ipad_creation",
+    "badge": "INNOVATION & MÉDIUMS CONTEMPORAINS",
+    "title": "Le Dessin sur Tablette Numérique : La Lumière Électrique au Service du Geste",
+    "sources": "Histoire des arts graphiques numériques au XXIe siècle",
+    "keywords": [
+      "ipad",
+      "numérique",
+      "numerique",
+      "tablette",
+      "stylet",
+      "calques",
+      "220 for 2020",
+      "jet d'encre"
+    ],
+    "text": "<p>Au XXIe siècle, l'avènement des tablettes tactiles et des stylets électroniques ouvre un chapitre inédit dans l'histoire millénaire des arts graphiques. Loin d'opposer la technologie au geste manuel traditionnel, ce médium réactif offre à l'artiste un carnet de croquis lumineux toujours disponible, permettant de saisir sur le vif la fugacité d'une aube, d'une averse ou d'une expression humaine.</p>\n<p>Contrairement au pigment matériel qui absorbe la lumière ambiante, l'écran rétroéclairé émet sa propre clarté, conférant aux couleurs numériques une saturation électrique et une transparence proches du vitrail.</p>\n<p>Grâce à la superposition instantanée des calques et à la diversité des brosses virtuelles — capables de simuler tour à tour la nerveuse précision de l'encre, le velouté du fusain ou la fluidité de l'aquarelle —, le dessin numérique devient un médium artistique majeur, susceptible d'être déployé en frises monumentales imprimées sur papier.</p>"
+  },
+  "scenographie_theatrale_arts_de_la_scene": {
+    "id": "scenographie_theatrale_arts_de_la_scene",
+    "badge": "ARTS DU SPECTACLE & PEINTURE",
+    "title": "Le Théâtre, l'Opéra et la Scénographie Picturale",
+    "sources": "Tradition des peintres-décorateurs (Ballets russes & scène lyrique moderne)",
+    "keywords": [
+      "théâtre",
+      "theatre",
+      "opéra",
+      "opera",
+      "rideaux",
+      "scène",
+      "scene",
+      "danseurs",
+      "chorégraphie",
+      "choregraphie",
+      "ballets russes"
+    ],
+    "text": "<p>Dans la lignée des grands peintres modernes ayant conçu des décors et des costumes pour les Ballets russes et les grandes scènes lyriques internationales, l'expérience de la scénographie théâtrale transforme profondément la conception de l'espace pictural.</p>\n<p>Sur une scène d'opéra, la couleur pure, les rideaux de velours rouge, les perspectives démultipliées et le rythme chorégraphique des corps en mouvement remplacent le réalisme illusionniste pour créer un univers poétique total où la lumière et la musique s'unissent.</p>\n<p>Transposée dans le format monumental du polyptyque peint, cette culture scénique donne naissance à des compositions joyeuses et fantasmagoriques, où les figures arlequinées et les décors stylisés invitent le spectateur à entrer dans la danse et le spectacle vivant de la couleur.</p>"
+  },
+  "relecture_maitres_anciens_allegorie": {
+    "id": "relecture_maitres_anciens_allegorie",
+    "badge": "HISTOIRE DE L'ART & DIALOGUE ESTHÉTIQUE",
+    "title": "Le Dialogue avec les Maîtres Anciens et l'Allégorie Philosophique",
+    "sources": "Tradition de la copie créatrice (Fra Angelico, Claude Lorrain, Hobbema, Munch, Blake)",
+    "keywords": [
+      "d'après",
+      "d'apres",
+      "claude lorrain",
+      "fra angelico",
+      "hobbema",
+      "munch",
+      "blake",
+      "poussin",
+      "allégorie",
+      "allegorie"
+    ],
+    "text": "<p>Depuis la Renaissance, la copie et la réinterprétation des chefs-d'œuvre du passé constituent l'un des moteurs les plus féconds de l'invention artistique. Dialoguer avec les maîtres anciens — des fresques lumineuses du Quattrocento florentin aux paysages classiques du XVIIe siècle et aux visions symbolistes ou romantiques — permet d'interroger la construction de l'espace et la pérennité des grands mythes humains.</p>\n<p>Loin de tout pastiche servile, la relecture contemporaine transpose les compositions historiques dans une palette chromatique saturée et un langage de signes graphiques modernes, révélant l'ossature géométrique cachée sous l'illusion classique.</p>\n<p>À travers ces hommages savants enrichis d'inscriptions philosophiques, la peinture devient une méditation sur le temps, la connaissance et le mystère du monde, affirmant que seul le regard vivant posé sur le présent détient une vérité éternelle.</p>"
+  },
    "uruk_naissance_ecriture_roi_pretre": {
     "id": "uruk_naissance_ecriture_roi_pretre",
     "badge": "HISTOIRE DE LA MÉSOPOTAMIE ANTIQUE",
