@@ -21,7 +21,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=7.7">
+  <link rel="stylesheet" href="style.css?v=7.8">
 
   <!-- Icônes pour l'application mobile et tablette -->
   <link rel="icon" type="image/jpeg" sizes="512x512" href="icon-512.jpeg">
@@ -1213,23 +1213,26 @@
               </div>
             </div>
           </div>
-          <!-- Pendant en bas à droite : Bouton Récit du Mythe / Histoire -->
+          <!-- Pendant en bas à droite : Bouton Éclairage du Récit (Mythe, Histoire, Textes sacrés) -->
           <div id="artwork-story-stamp" class="artwork-story-pedestal-stamp" style="display: none;">
             <button type="button" id="btn-artwork-story-trigger" class="btn-artwork-story-trigger"
-              title="Découvrir le récit du mythe ou le contexte historique sous-jacent">
+              title="Découvrir l'éclairage du récit : mythe, histoire ou texte fondateur">
               <span class="story-trigger-icon">📖</span>
-              <span class="story-trigger-label">RÉCIT DU MYTHE</span>
+              <span class="story-trigger-label">ÉCLAIRAGE DU RÉCIT</span>
             </button>
           </div>
-          <!-- Volet rétractable pour le récit mythologique / historique -->
+          <!-- Volet rétractable pour l'éclairage culturel / mythologique / historique -->
           <div id="artwork-story-drawer" class="artwork-story-drawer" hidden>
             <div class="story-drawer-header">
               <div class="story-drawer-title-group">
-                <span class="story-drawer-icon">📜</span>
-                <span class="story-drawer-badge">MYTHE &amp; HISTOIRE</span>
+                <div class="story-drawer-badge-row">
+                  <span class="story-drawer-icon">📜</span>
+                  <span class="story-drawer-badge" id="story-drawer-badge">RÉCIT FONDATEUR</span>
+                </div>
+                <h4 class="story-drawer-title" id="story-drawer-title">Titre du Récit</h4>
+                <div class="story-drawer-source" id="story-drawer-source"></div>
               </div>
-              <h4 class="story-drawer-title" id="story-drawer-title">Titre du Récit</h4>
-              <button type="button" class="btn-story-drawer-close" id="btn-story-drawer-close" aria-label="Fermer le récit">✕</button>
+              <button type="button" class="btn-story-drawer-close" id="btn-story-drawer-close" aria-label="Fermer l'éclairage">✕</button>
             </div>
             <div class="story-drawer-body" id="story-drawer-body"></div>
           </div>
@@ -1500,10 +1503,11 @@
   <script src="data/data-objets3.js?v=2.2"></script>
   <script src="data/data-objets4bis.js?v=1.1"></script>
   <script src="data/data-objets4.js?v=2.5"></script>
-  <script src="data/data-objets5.js?v=3.7"></script>
+  <script src="data/data-objets5.js?v=3.8"></script>
+  <script src="data/data-background.js?v=1.0"></script>
 
   <!-- SCRIPT MAÎTRE -->
-  <script src="app.js?v=11.1"></script>
+  <script src="app.js?v=11.2"></script>
 </body>
 
 </html>
