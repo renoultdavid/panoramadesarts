@@ -19,6 +19,179 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "mythe_osiris_isis_resurrection": {
+    "id": "mythe_osiris_isis_resurrection",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Le Mythe d'Osiris, la Quête d'Isis et la Résurrection",
+    "sources": "Textes des Pyramides & Plutarque, Isis et Osiris",
+    "keywords": [
+      "osiris",
+      "mystères d'osiris",
+      "mystères osiriens",
+      "résurrection d'osiris",
+      "revitalisation d'osiris",
+      "lit léonin"
+    ],
+    "text": "<p>Souverain civilisateur de l'Égypte primordiale, Osiris enseigna aux hommes l'agriculture, les lois et le culte des dieux, suscitant la jalousie dévorante de son frère Seth, incarnation des forces stériles du désert et du chaos. Par ruse, Seth enferma le roi dans un coffre précieux aux mesures exactes de son corps et le précipita dans les flots du Nil. Inconsolable, son épouse et sœur Isis entreprit une quête éperdue à travers le delta et les rivages méditerranéens pour retrouver la dépouille sacrée. Mais Seth découvrit le corps caché et le dépeça en quatorze morceaux qu'il dispersa aux quatre vents à travers toute la vallée du Nil.</p>\n<p>Assistée de sa sœur Nephthys et d'Anubis, premier des embaumeurs, Isis parcourut le pays pour rassembler chaque membre dispersé et reconstituer l'intégrité physique de son époux. Étendant le corps momifié sur un lit funéraire gardé par des puissances protectrices, la déesse magicienne se métamorphosa en milan et battit des ailes au-dessus d'Osiris pour lui insuffler à nouveau le souffle vital. De cette union mystique naquit Horus, l'enfant héritier destiné à venger son père et à reconquérir le trône légitime des Deux Terres.</p>\n<p>Rappelé à la vie mais demeurant souverain éternel de l'au-delà, Osiris incarne la promesse universelle de régénération par-delà la mort. À l'image du grain de blé enfoui dans le limon fertile qui germe après la crue du fleuve, chaque défunt s'identifiait au dieu ressuscité pour triompher du néant et renaître dans la lumière éternelle.</p>"
+  },
+  "psychostasie_pesee_coeur_osiris": {
+    "id": "psychostasie_pesee_coeur_osiris",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "La Psychostasie : Le Tribunal d'Osiris et la Pesée du Cœur",
+    "sources": "Livre des Morts des Anciens Égyptiens (Chapitre CXXV)",
+    "keywords": [
+      "psychostasie",
+      "pesée du cœur",
+      "jugement d'osiris",
+      "tribunal d'osiris",
+      "ammout",
+      "dévoreuse"
+    ],
+    "text": "<p>Au terme de son périlleux voyage à travers les régions souterraines de la Douât, l'âme du défunt pénètre dans la salle des Deux Maât pour affronter l'épreuve ultime de la psychostasie, la pesée du cœur. Sous le regard souverain d'Osiris trônant entouré de quarante-deux juges divins, l'individu doit prononcer la confession négative, affirmant solennellement n'avoir commis ni vol, ni mensonge, ni impiété durant son existence terrestre. En Égypte antique, le cœur (<em>ib</em>) est considéré comme le siège de la conscience, de la mémoire et de la vérité intime de chaque être humain.</p>\n<p>Anubis, le dieu à tête de chacal, dépose le cœur du défunt sur l'un des plateaux de la balance sacrée, tandis que sur l'autre plateau repose la plume légère de la déesse Maât, symbole de la justice et de l'équilibre universel. À côté du fléau, le dieu Thot, scribe céleste à tête d'ibis, se tient prêt avec sa palette et son calame pour consigner avec une rigueur absolue le verdict de l'examen divin. Si l'âme s'est alourdie de fautes, le plateau penche inexorablement sous le poids du péché.</p>\n<p>Au pied de la balance veille Ammout, la « Grande Dévoreuse », créature hybride à tête de crocodile, avant-train de lion et croupe d'hippopotame, prête à engloutir les cœurs indignes et à condamner l'âme à la seconde mort, l'anéantissement définitif. Lorsque le cœur demeure parfaitement en équilibre avec la plume de vérité, le défunt est proclamé « juste de voix » et accueilli dans les champs bienheureux d'Ialou.</p>"
+  },
+  "mythe_sekhmet_oeil_re": {
+    "id": "mythe_sekhmet_oeil_re",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "La Déesse Lionne Sekhmet et le Mythe de la Déesse Lointaine",
+    "sources": "Livre de la Vache du Ciel (Tombes royales du Nouvel Empire)",
+    "keywords": [
+      "sekhmet",
+      "déesse lionne",
+      "tefnout",
+      "vases nou",
+      "œil de rê"
+    ],
+    "text": "<p>Fille du dieu solaire Rê et incarnation de la chaleur ardente du soleil de midi, Sekhmet — dont le nom signifie « La Puissante » — est la redoutable déesse à tête de lionne. Selon le récit du <em>Livre de la Vache du Ciel</em>, lorsque l'humanité vieillissante complota contre le créateur Rê, celui-ci arracha son œil flamboyant et l'envoya sur terre sous les traits féroces de Sekhmet pour châtier les rebelles. Déchaînée dans les plaines du désert, la lionne divine massacra les hommes avec une fureur sanguinaire si incontrôlable qu'elle menaça d'anéantir toute vie terrestre.</p>\n<p>Pris de pitié pour sa création mais incapable d'arrêter directement l'ardeur destructrice de son propre œil, Rê eut recours à un stratagème. Il fit répandre sur les champs sept mille cruches d'une bière d'orge mêlée à de l'ocre rouge extraite d'Éléphantine, donnant au breuvage l'apparence exacte du sang humain. À l'aube, découvrant la plaine inondée de ce liquide écarlate où se reflétait son visage, la déesse assoiffée but avec avidité jusqu'à sombrer dans une profonde ivresse.</p>\n<p>Apaisée par ce breuvage sacré, la lionne furieuse s'endormit et se métamorphosa en la douce Hathor, déesse de la joie, de la musique et de l'amour. Ce mythe fonde l'ensemble des rituels d'offrande de vin et de bière destinés à conjurer les épidémies, calmer la colère divine et transformer la puissance destructrice du soleil en énergie bienfaisante.</p>"
+  },
+  "deesse_hathor_sistre_vache_celeste": {
+    "id": "deesse_hathor_sistre_vache_celeste",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Hathor, Dame de l'Occident, Vache Céleste et Maîtresse du Sistre",
+    "sources": "Textes des Sarcophages & Hymnes ptolémaïques d'Hathor",
+    "keywords": [
+      "hathor",
+      "vache hathor",
+      "chapiteau hathorique",
+      "colonnes hathoriques",
+      "sistre",
+      "collier ménat",
+      "barque d'hathor"
+    ],
+    "text": "<p>Figure majeure et bienveillante du panthéon égyptien, Hathor incarne tout à la fois l'amour, la joie, la musique, la fécondité et la protection maternelle. Son nom signifie littéralement « La Demeure d'Horus », désignant le ciel vaste qui abrite le faucon solaire. Souvent figurée sous les traits d'une vache céleste portant le disque solaire entre ses cornes lyres, ou sous l'apparence d'une femme aux oreilles bovines, elle est la nourrice divine qui accueille et allaite le souverain pour lui transmettre l'essence immortelle des dieux.</p>\n<p>Son culte est indissociable de la musique sacrée, incarnée par deux objets rituels : le sistre, hochet métallique dont le tintement cristallin imite le bruissement des tiges de papyrus agitées par le vent dans les marais du Delta, et le lourd collier de perles <em>ménat</em>. Par ces sons harmonieux, les prêtres et les souverains apaisent les puissances célestes, éloignent les forces du chaos et célèbrent le renouveau perpétuel de la nature lors des fêtes de la crue du Nil.</p>\n<p>Vénérée également comme « Dame de l'Occident » et maîtresse de la montagne funéraire, Hathor accueille l'âme des défunts au seuil du monde souterrain. Émergeant des falaises du couchant pour offrir l'eau fraîche et le pain de vie, elle guide les morts vers la renaissance à l'image du soleil qu'elle enfante chaque matin à l'horizon oriental.</p>"
+  },
+  "deesse_maat_ordre_cosmique": {
+    "id": "deesse_maat_ordre_cosmique",
+    "badge": "MYTHOLOGIE & PHILOSOPHIE ÉGYPTIENNE",
+    "title": "Maât et le Maintien de l'Ordre Cosmique par le Pharaon",
+    "sources": "Textes des Sarcophages & Enseignements de Ptahhotep",
+    "keywords": [
+      "maât",
+      "maat",
+      "statuette de maât",
+      "plumes de maât",
+      "ordre cosmique"
+    ],
+    "text": "<p>Plus qu'une simple divinité féminine coiffée d'une plume d'autruche, Maât incarne le principe fondamental de la pensée égyptienne : l'équilibre universel, la vérité, la justice, la rectitude morale et l'harmonie cosmique instaurés par le Créateur au premier matin du monde. Opposée à l'<em>Isfet</em> — le chaos, le mensonge, la violence et le désordre primordial —, Maât est la loi invisible qui assure la course régulière du soleil, le retour annuel de l'inondation du Nil et la cohésion harmonieuse de la société humaine.</p>\n<p>Dans la théologie royale, le pharaon tire toute sa légitimité de sa capacité à faire régner Maât sur terre et à repousser les forces de désagrégation aux frontières du royaume. L'offrande de la petite statuette de Maât présentée au creux de la main royale constitue ainsi l'acte liturgique suprême : le souverain restitue aux dieux le fruit de son gouvernement juste et atteste que l'ordre du monde est préservé.</p>\n<p>Nourriture mystique dont se repaissent les dieux eux-mêmes, Maât est également la règle éthique qui engage chaque être humain dans sa vie quotidienne. Pratiquer la solidarité, parler avec justesse et respecter l'équilibre de la création permet à l'individu de s'inscrire dans l'éternité cosmique bien avant le jugement de son âme.</p>"
+  },
+  "dieu_khnoum_potier_demiurge": {
+    "id": "dieu_khnoum_potier_demiurge",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Khnoum, le Dieu Bélier Potier et Maître des Sources du Nil",
+    "sources": "Hymnes liturgiques d'Esna & Stèle de la Famine",
+    "keywords": [
+      "khnoum",
+      "dieu bélier",
+      "potier divin",
+      "sources du nil"
+    ],
+    "text": "<p>Divinité créatrice parmi les plus vénérables d'Égypte, Khnoum est figuré sous les traits d'un homme à tête de bélier aux longues cornes horizontales torsadées, symbole antique de puissance vitale et de fécondité. Maître des cataractes et gardien des cavernes souterraines d'Éléphantine d'où jaillissent les eaux primordiales, il régule la crue annuelle du Nil, apportant le limon noir fertile qui nourrit toute la vallée et préserve le pays de la disette.</p>\n<p>Dans la théologie des grands sanctuaires tardifs, Khnoum est célébré comme le grand potier démiurge qui façonne l'humanité tout entière sur son tour d'argile. Avant chaque naissance, le dieu modèle avec une infinie précision le corps de l'enfant à venir ainsi que son double spirituel, le <em>Ka</em>, insufflant dans l'argile le souffle de vie, la santé et la destinée de chaque être, qu'il soit simple mortel ou futur pharaon.</p>\n<p>Par ce geste artisanal élevé au rang d'acte cosmogonique, Khnoum incarne la continuité ininterrompue de la création. Chaque tour de sa roue maintient le monde en mouvement, unissant l'eau fécondante du fleuve, la terre modelée et le souffle divin dans un même cycle de génération.</p>"
+  },
+  "dieu_sobek_seigneur_eaux": {
+    "id": "dieu_sobek_seigneur_eaux",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Sobek, le Dieu Crocodile Seigneur des Eaux et de la Fertilité",
+    "sources": "Textes des Pyramides & Hymnes du Fayoum et de Kom Ombo",
+    "keywords": [
+      "sobek",
+      "dieu crocodile",
+      "crocodile",
+      "sobek-rê"
+    ],
+    "text": "<p>Né des eaux primordiales du Noun au commencement des temps, Sobek est le puissant dieu crocodile du panthéon égyptien. Animal redouté des riverains du Nil pour sa force brute et sa rapidité foudroyante, le crocodile fut vénéré afin d'apaiser sa férocité et de capter son énergie vitale au profit du royaume. Associé aux marais luxuriants, aux lacs du Fayoum et aux rives du fleuve, Sobek incarne la puissance fécondante de l'inondation qui fait reverdir les terres arides.</p>\n<p>Loin d'être une simple divinité aquatique, Sobek fut étroitement associé à la royauté pharaonique dès l'Ancien Empire, le souverain empruntant la vigueur indomptable du saurien pour terrasser ses ennemis et affirmer son autorité. Fusionné avec le dieu soleil sous le nom syncrétique de Sobek-Rê, il porte sur sa tête de crocodile le disque solaire et les hautes plumes, unissant la force des profondeurs fluviales au rayonnement céleste de l'astre du jour.</p>\n<p>Dans les traditions mythologiques, Sobek joue également un rôle protecteur et salvateur en aidant à recueillir les membres dispersés d'Osiris dans les eaux du Nil et en veillant sur la naissance du jeune Horus dans les fourrés de papyrus.</p>"
+  },
+  "dieu_thot_ecriture_sagesse": {
+    "id": "dieu_thot_ecriture_sagesse",
+    "badge": "MYTHOLOGIE ÉGYPTIENNE",
+    "title": "Thot, Maître de l'Écriture Sacrée, de la Sagesse et du Temps",
+    "sources": "Théologie d'Hermopolis & Livre des Morts",
+    "keywords": [
+      "thot",
+      "babouin",
+      "scribe accroupi",
+      "hiéroglyphes",
+      "ibis"
+    ],
+    "text": "<p>Vénéré sous les traits d'un homme à tête d'ibis ou sous la forme d'un babouin hamadryas coiffé du croissant lunaire, Thot est la divinité suprême de l'intelligence, de la science et du verbe créateur. Selon la théologie d'Hermopolis, c'est par la puissance de sa parole et de sa pensée que le monde fut ordonné au sortir du chaos primordial. Inventeur des hiéroglyphes — les « paroles des dieux » (<em>médou-néter</em>) —, il est le patron vénéré des scribes, des prêtres, des astronomes et des médecins.</p>\n<p>En tant que seigneur de la Lune et régulateur des cycles célestes, Thot est le maître absolu du calcul et de la mesure du temps. Il établit le calendrier sacré, fixe le nombre d'années de règne accordées aux pharaons et consigne les annales de l'éternité. Sa sagesse légendaire fait de lui le médiateur par excellence des conflits divins, apaisant les querelles entre Horus et Seth et guérissant l'œil blessé du jeune dieu faucon.</p>\n<p>Protecteur attentif des lettrés qui travaillent sous son regard bienveillant, Thot incarne la conviction profonde de la civilisation égyptienne selon laquelle le savoir, la maîtrise de l'écrit et la justesse de la parole permettent à l'homme de participer à l'ordre divin.</p>"
+  },
+  "cosmologie_astronomie_egyptienne_nout": {
+    "id": "cosmologie_astronomie_egyptienne_nout",
+    "badge": "COSMOLOGIE & ASTRONOMIE ANTIQUE",
+    "title": "Cosmogonie Céleste : La Déesse Nout, le Noun et le Cycle des Astres",
+    "sources": "Livre de Nout & Textes astronomiques des temples tardifs",
+    "keywords": [
+      "zodiaque",
+      "plafond astronomique",
+      "nout",
+      "décans",
+      "barques célestes",
+      "noun",
+      "constellations"
+    ],
+    "text": "<p>Pour les anciens Égyptiens, l'univers est une bulle d'air et de lumière maintenue au sein d'un océan infini d'eaux primordiales inertes et obscures appelé le Noun. La voûte céleste qui protège le monde des vivants est incarnée par la déesse Nout : représentée sous les traits d'une femme au corps immensément étiré, parsemé d'étoiles, elle s'arque au-dessus de la terre, ne touchant l'horizon que du bout des doigts et des orteils aux quatre points cardinaux.</p>\n<p>Chaque soir, au couchant occidental, Nout avale le disque solaire qui entreprend alors sa périlleuse navigation nocturne à bord de sa barque à travers le corps même de la déesse et les régions souterraines. Chaque matin, à l'aube orientale, elle enfante à nouveau l'astre régénéré, assurant ainsi la victoire quotidienne de la lumière sur les ténèbres. Sur cet océan céleste naviguent également la lune, les planètes et les trente-six décans, groupes d'étoiles dont le lever héliaque rythme les heures de la nuit et les semaines du calendrier.</p>\n<p>À l'époque tardive, l'intégration des constellations zodiacales venues de Mésopotamie et de Grèce enrichit cette cartographie sacrée, faisant des voûtes étoilées une horloge cosmique vivante où l'observation scientifique du ciel se confond avec la promesse d'immortalité.</p>"
+  },
+  "revolution_amarnienne_akhenaton": {
+    "id": "revolution_amarnienne_akhenaton",
+    "badge": "HISTOIRE DE L'ÉGYPTE ANTIQUE",
+    "title": "La Révolution Amarnienne d'Akhenaton et le Culte d'Aton",
+    "sources": "Grand Hymne à Aton & Stèles frontières d'Akhetaton",
+    "keywords": [
+      "akhenaton",
+      "akhénaton",
+      "néfertiti",
+      "amarnien",
+      "amarna",
+      "aton",
+      "gem-pa-aton"
+    ],
+    "text": "<p>Au milieu du XIVe siècle avant notre ère, le pharaon Amenhotep IV bouleverse plus de quinze siècles de traditions religieuses et politiques en instaurant le culte exclusif d'Aton, le disque solaire rayonnant. Abandonnant son nom thébain pour devenir Akhenaton (« Celui qui est utile à Aton »), il ferme les temples des anciennes divinités, proscrit le puissant clergé d'Amon et fonde en Moyenne-Égypte une capitale entièrement nouvelle, Akhetaton (l'actuelle Tell el-Amarna), consacrée à ce dieu unique et universel dont les rayons s'achèvent en petites mains bienfaisantes.</p>\n<p>Cette révolution théologique s'accompagne d'une rupture esthétique sans précédent, connue sous le nom d'art amarnien. Rompant avec l'idéalisme intemporel et athlétique des canons classiques, le souverain impose un style expressionniste et naturaliste : le roi et son épouse Néfertiti apparaissent avec des visages étirés, des yeux en amande, des lèvres charnues et des silhouettes fluides au ventre arrondi, fusionnant les traits masculins et féminins pour incarner la source même de la création.</p>\n<p>Trop radicale pour survivre à son fondateur, cette expérience monothéiste s'effondra peu après la mort d'Akhenaton. Sous le règne du jeune Toutânkhamon puis d'Horemheb, la capitale fut abandonnée, les anciens cultes restaurés et le nom du « roi hérétique » martelé afin d'effacer cette parenthèse singulière de la mémoire officielle.</p>"
+  },
+  "cleopatre_vii_cesarion_fin_lagides": {
+    "id": "cleopatre_vii_cesarion_fin_lagides",
+    "badge": "HISTOIRE PTOLÉMAÏQUE & ROMAINE",
+    "title": "Cléopâtre VII, Césarion et le Crépuscule de la Dynastie Lagide",
+    "sources": "Plutarque, Vie d'Antoine & Dion Cassius, Histoire romaine",
+    "keywords": [
+      "cléopâtre",
+      "cleopatre",
+      "césarion",
+      "ptolémée xv"
+    ],
+    "text": "<p>Dernière souveraine active de la dynastie macédonienne des Ptolémées fondée après les conquêtes d'Alexandre le Grand, Cléopâtre VII Philopator monte sur le trône d'Égypte en 51 avant J.-C. dans un royaume fragilisé par les querelles dynastiques et l'expansionnisme grandissant de Rome. Première de sa lignée à parler couramment l'égyptien ancien aux côtés du grec, elle s'appuie habilement sur les traditions pharaoniques millénaires et s'assimile à la déesse Isis pour affermir son autorité auprès du clergé et de son peuple.</p>\n<p>De son alliance politique et sentimentale avec Jules César naît en 47 avant J.-C. un fils, Ptolémée XV, surnommé Césarion (« le petit César »). Associé très jeune au trône comme corégent, l'enfant-roi est proclamé « Roi des rois » et présenté comme l'héritier légitime des pharaons autant que le fils du maître de Rome, incarnant l'espoir d'un empire méditerranéen unifié autour d'Alexandrie.</p>\n<p>La défaite navale d'Actium en 31 avant J.-C. face à Octave — le futur empereur Auguste — scelle le destin de la reine et de l'indépendance égyptienne. Après la mort volontaire de Cléopâtre et l'exécution de Césarion sur ordre d'Octave en 30 avant J.-C., trois millénaires d'histoire pharaonique s'achèvent et l'Égypte devient une province personnelle de l'empereur romain.</p>"
+  },
+  "medecine_chirurgie_egypte_antique": {
+    "id": "medecine_chirurgie_egypte_antique",
+    "badge": "SCIENCES & SAVOIRS ANTIQUES",
+    "title": "La Médecine Sacrée et la Chirurgie en Égypte Antique",
+    "sources": "Papyrus Ebers, Papyrus Edwin Smith & Hérodote, Histoires (Livre II)",
+    "keywords": [
+      "instruments chirurgicaux",
+      "médecine antique",
+      "chirurgie",
+      "scalpels",
+      "haroëris"
+    ],
+    "text": "<p>Réputée dans tout le bassin méditerranéen dès l'Antiquité, la médecine égyptienne alliait une observation clinique rigoureuse à la pratique des invocations rituelles. Dans les « Maisons de Vie » annexées aux grands temples, les prêtres-médecins (<em>sounou</em>) consignaient sur papyrus des traités détaillés d'anatomie, de traumatologie, d'ophtalmologie et de pharmacopée, distinguant méthodiquement l'examen des symptômes, le diagnostic et le pronostic de guérison.</p>\n<p>Les praticiens disposaient d'un arsenal chirurgical et obstétrical remarquablement élaboré, comprenant des scalpels en bronze ou en obsidienne, des pinces, des cautères, des aiguilles de suture, des ventouses ainsi que des balances de précision pour doser les remèdes à base de plantes, de minéraux et de miel. Les accouchements s'effectuaient sur des briques ou des chaises rituelles spécialisées, sous l'invocation des divinités protectrices de la maternité et de l'enfance.</p>\n<p>Pour la pensée antique, l'acte thérapeutique demeurait indissociable du sacré : en soignant le corps, le médecin prolongeait l'œuvre d'Isis la magicienne, de Sekhmet et d'Horus l'Ancien (Haroëris), invoqué dans les sanctuaires comme le « Grand Médecin » qui rend la vue et restaure l'intégrité vitale.</p>"
+  },
   "echo_narcisse": {
     "id": "echo_narcisse",
     "badge": "MYTHOLOGIE GRECQUE",
