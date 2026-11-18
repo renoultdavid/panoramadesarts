@@ -3738,6 +3738,38 @@ body {
   outline: none;
 }
 
+/* CHIP ÉCLAIRAGE CULTUREL / MYTHE TRANSVERSAL */
+.attr-chip.chip-background-transversal {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px !important;
+  background: rgba(212, 175, 55, 0.12) !important;
+  border: 1.2px solid #d4af37 !important;
+  border-radius: 2px !important;
+  color: #fce8a6 !important;
+  font-family: 'Cinzel', serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.8px !important;
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.18);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.attr-chip.chip-background-transversal:hover,
+.attr-chip.chip-background-transversal:focus-visible {
+  background: rgba(212, 175, 55, 0.28) !important;
+  color: #ffffff !important;
+  border-color: #ffd700 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.35);
+  outline: none;
+}
+
+.attr-chip.chip-background-transversal .chip-bg-icon {
+  font-size: 0.85rem;
+}
+
 .modal-narrative {
   font-size: 0.95rem;
   line-height: 1.6;

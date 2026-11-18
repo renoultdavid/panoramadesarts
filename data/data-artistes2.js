@@ -8436,9 +8436,19 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "oeuvresConsensusNotice": "Il n'existe pas encore de catalogue raisonné définitif et clos pour l'intégralité de son œuvre. Les conservateurs estiment son corpus principal (huiles, acryliques, toiles photographiques, assemblages avec néons et très grands formats) à environ 400 œuvres."
     },
     "timeline": {
+      "birth": {
+        "year": "1936",
+        "place": "Golfe-Juan (Alpes-Maritimes)",
+        "title": "Naissance de Martial Raysse",
+        "desc": "Né le 12 février 1936 à Golfe-Juan près de Vallauris, dans une famille d'artisans céramistes."
+      },
       "periods": [
         {
+          "years": "1960 – 1967",
+          "title": "1960 – 1967 : Le Nouveau Réalisme et l'« hygiène de la vision »",
           "name": "Le Nouveau Réalisme et l'« hygiène de la vision » (1960 – 1967)",
+          "color": "#e11d48",
+          "summary": "Cofondateur du Nouveau Réalisme, il bouscule les codes de la peinture par l'usage d'objets en plastique de série, de miroirs et de tubes fluorescents au néon.",
           "events": [
             {
               "year": "1960",
@@ -8448,42 +8458,71 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "icon": "⚡"
             },
             {
+              "year": "1962",
+              "title": "Exposition Dylaby à Amsterdam",
+              "desc": "Participe à l'exposition mythique du Stedelijk Museum avec Raysse Beach, transformant l'art en environnement praticable de plage artificielle.",
+              "type": "creation",
+              "icon": "🏖️"
+            },
+            {
               "year": "1964",
               "title": "Made in Japan - Tableau turc et bazar",
               "desc": "Détourne la Grande Odalisque d'Ingres avec des aplats fluo et un néon vert, inventant une icône subversive du Pop Art européen.",
-              "type": "creation",
+              "type": "masterpiece",
               "icon": "✨"
             }
           ]
         },
         {
+          "years": "1968 – 1979",
+          "title": "1968 – 1979 : La rupture de 1968, les expérimentations et le retrait",
           "name": "La rupture de 1968, les expérimentations et le retrait (1968 – 1979)",
+          "color": "#8b5cf6",
+          "summary": "En rupture radicale avec le marché de l'art institutionnel après Mai 68, il fonde un collectif communautaire et explore le cinéma d'avant-garde psychédélique.",
           "events": [
             {
               "year": "1968",
-              "title": "Rupture de Mai 68 et Présence 43",
-              "desc": "Rejette avec fracas le marché de l'art commercial new-yorkais et fonde le collectif communautaire Présence 43.",
+              "title": "Rupture de Mai 68 et création de Présence 43",
+              "desc": "Rejette avec fracas le marché de l'art commercial des galeries new-yorkaises et fonde le collectif communautaire Présence 43.",
               "type": "milestone",
               "icon": "✊"
             },
             {
               "year": "1970",
-              "title": "Film Le Grand Départ et cycle Coco-Mato",
-              "desc": "Réalise un long-métrage expérimental psychédélique et crée des assemblages chamaniques fragiles en plumes, ficelles et carton.",
+              "title": "Long-métrage expérimental Le Grand Départ",
+              "desc": "Réalise un film psychédélique culte sélectionné au Festival de Venise, rompant définitivement avec les circuits traditionnels.",
               "type": "creation",
               "icon": "🎥"
+            },
+            {
+              "year": "1972 – 1975",
+              "title": "Série magique des Coco-Mato et Loco-Bello",
+              "desc": "Conçoit des assemblages fragiles, précaires et chamaniques faits de plumes, ficelles, carton et papier découpé.",
+              "type": "creation",
+              "icon": "🪶"
             }
           ]
         },
         {
+          "years": "Depuis 1980",
+          "title": "Depuis 1980 : Le retour à la grande tradition figurative et le mythe",
           "name": "Le retour à la grande tradition figurative et le mythe (après 1980)",
+          "color": "#d4af37",
+          "summary": "Installé en solitaire dans le Périgord, il réapprend patiemment la détrempe à l'œuf, la tempera et la fresque pour composer d'immenses scènes de comédie humaine.",
           "events": [
             {
               "year": "1980 – 1990",
-              "title": "Retraite dans le Périgord et renaissance de la tempera",
-              "desc": "Apprend en solitaire les recettes ancestrales de la détrempe à l'œuf et des pigments pour composer de grandes allégories mythologiques.",
+              "title": "Retraite dans le Périgord et redécouverte de la tempera",
+              "desc": "Apprend en solitaire les recettes ancestrales de la détrempe et des pigments pour composer de grandes allégories mythologiques.",
               "type": "milestone",
               "icon": "🌿"
+            },
+            {
+              "year": "1992",
+              "title": "Le Carnaval de Périgueux",
+              "desc": "Peint une grande fresque allégorique de foule carnavalesque grouillante, mêlant grotesques contemporains et mythologie pastorale.",
+              "type": "masterpiece",
+              "icon": "🎭"
             },
             {
               "year": "2014",
@@ -8528,61 +8567,108 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "oeuvresConsensusNotice": "L'inventaire scientifique d'autorité mondiale est le monumental Catalogue raisonné de l'œuvre peint et dessiné établi par Alec Wildenstein (Wildenstein Institute, 1992-1998, 4 volumes). Il répertorie la totalité de ses huiles, pastels, aquarelles et dessins aboutis (notamment ses Noirs au fusain) et fixe le corpus officiel et définitif de ces créations uniques à très exactement 2 657 œuvres. S'y ajoutent environ 206 estampes et lithographies recensées par André Mellerio en 1913."
     },
     "timeline": {
+      "birth": {
+        "year": "1840",
+        "place": "Bordeaux",
+        "title": "Naissance d'Odilon Redon",
+        "desc": "Né Bertrand-Jean Redon le 20 avril 1840 à Bordeaux. De santé fragile, il passe une enfance solitaire et mélancolique au domaine familial de Peyrelebade dans le Médoc."
+      },
+      "death": {
+        "year": "1916",
+        "place": "Paris",
+        "title": "Mort d'Odilon Redon à Paris",
+        "desc": "S'éteint le 6 juillet 1916 à son domicile parisien de l'avenue de Wagram, entouré de ses pastels lumineux et de ses visions florales cosmiques."
+      },
       "periods": [
         {
+          "years": "1870 – 1889",
+          "title": "1870 – 1889 : L'enfance solitaire à Peyrelebade et la période des « Noirs »",
           "name": "L'enfance solitaire à Peyrelebade et la période des « Noirs » (1870 – 1889)",
+          "color": "#475569",
+          "summary": "Hanté par les paysages désolés de Peyrelebade et initié à la gravure par Rodolphe Bresdin, il explore les tréfonds de l'inconscient à travers des fusains et lithographies sombres.",
           "events": [
             {
+              "year": "1870",
+              "title": "Initiation à la gravure auprès de Rodolphe Bresdin",
+              "desc": "Découvre à Bordeaux les secrets de l'eau-forte et de la lithographie auprès du graveur visionnaire Bresdin, son maître spirituel.",
+              "type": "milestone",
+              "icon": "🖋️"
+            },
+            {
               "year": "1879",
-              "title": "Publication du premier recueil Dans le rêve",
-              "desc": "Fait paraître son premier album de lithographies tiré à 25 exemplaires, peuplé d'yeux-ballons et de têtes flottantes.",
+              "title": "Publication du premier recueil lithographique « Dans le rêve »",
+              "desc": "Fait paraître son premier album de lithographies tiré à 25 exemplaires, peuplé d'yeux-ballons, d'araignées souriantes et de têtes flottantes.",
               "type": "creation",
               "icon": "👁️"
             },
             {
               "year": "1884",
-              "title": "Consécration dans À rebours de Huysmans",
-              "desc": "L'écrivain fait de Redon le peintre fétiche de son héros des Esseintes, révélant au public ses dessins au fusain hallucinatoires.",
+              "title": "Consécration littéraire dans « À rebours » de J.-K. Huysmans",
+              "desc": "L'écrivain fait de Redon le peintre fétiche de son héros des Esseintes, révélant ses fusains hallucinatoires à toute l'avant-garde symboliste.",
               "type": "milestone",
               "icon": "📖"
             }
           ]
         },
         {
+          "years": "1890 – 1904",
+          "title": "1890 – 1904 : La révélation de la couleur et l'apogée du pastel",
           "name": "La révélation de la couleur et l'apogée du pastel (1890 – 1904)",
+          "color": "#0284c7",
+          "summary": "Après la naissance de son fils Ari et la rencontre des Nabis, il délaisse la noirceur graphique pour embrasser la splendeur poudrée du pastel et les huiles irisées.",
           "events": [
             {
               "year": "1890",
-              "title": "Métamorphose chromatique",
-              "desc": "Abandonne progressivement l'encre et le fusain pour célébrer la lumière par les pastels poudrés et les huiles irisées.",
+              "title": "Métamorphose chromatique et triomphe du pastel",
+              "desc": "Abandonne progressivement le fusain pour célébrer la lumière par les pastels poudrés, les jaunes d'or et les bleus célestes.",
               "type": "milestone",
               "icon": "🎨"
             },
             {
+              "year": "1900 – 1905",
+              "title": "Le Regard, profil d'homme",
+              "desc": "Chef-d'œuvre sur papier mêlant fusain, détrempe et pastel, où le profil hiératique médite au milieu d'un bouquet floral vibrant.",
+              "type": "masterpiece",
+              "artworkId": "redon_le_regard_profil_homme_rennes_1901",
+              "icon": "✨"
+            },
+            {
               "year": "1904",
-              "title": "Triomphe au Salon d'Automne",
-              "desc": "Une salle d'honneur lui est dédiée au Grand Palais, consacrant son statut de maître auprès de la nouvelle génération nabi et fauve.",
+              "title": "Triomphe au Salon d'Automne de Paris",
+              "desc": "Une salle d'honneur entière lui est consacrée au Grand Palais avec 62 œuvres, le sacrant patriarche tutélaire de la jeune génération fauve et nabie.",
               "type": "milestone",
               "icon": "🏛️"
             }
           ]
         },
         {
+          "years": "1905 – 1916",
+          "title": "1905 – 1916 : Les grands décors muraux, les mythes et la sérénité tardive",
           "name": "Les grands décors muraux, les mythes et la sérénité tardive (1905 – 1916)",
+          "color": "#d4af37",
+          "summary": "Consacré au sommet de son art, il peint les grands décors muraux de l'abbaye de Fontfroide et réinterprète la mythologie antique dans une contemplation spirituelle apaisée.",
           "events": [
+            {
+              "year": "1903 – 1910",
+              "title": "Orphée (La lyre et le songe cosmique)",
+              "desc": "Vision apaisée et mystique du poète couronné de fleurs reposant sur sa lyre, transcendant la mort dans un ciel de pastel étincelant.",
+              "type": "masterpiece",
+              "artworkId": "redon_orphee_montpellier_1910",
+              "icon": "🎼"
+            },
             {
               "year": "1910 – 1911",
               "title": "Décor monumental de l'Abbaye de Fontfroide",
-              "desc": "Peint les panneaux monumentaux Le Jour et La Nuit pour la bibliothèque de Gustave Fayet, sommet de sa quête spirituelle.",
+              "desc": "Peint les panneaux géants Le Jour et La Nuit pour la bibliothèque de son ami et mécène Gustave Fayet, synthèse absolue de son itinéraire spirituel.",
               "type": "creation",
               "icon": "✨"
             },
             {
-              "year": "1916",
-              "title": "Mort à Paris en pleine Grande Guerre",
-              "desc": "S'éteint à 76 ans en laissant des bouquets de fleurs et des visions mythologiques d'une paix et d'un rayonnement cosmique.",
+              "year": "1913",
+              "title": "Triomphe international à l'Armory Show de New York",
+              "desc": "Exposition sensationnelle à New York où les collectionneurs américains s'arrachent ses pastels mythologiques et ses bouquets féeriques.",
               "type": "milestone",
-              "icon": "🕊️"
+              "icon": "🗽"
             }
           ]
         }
@@ -8620,75 +8706,206 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "oeuvresConsensusNotice": "Pendant des décennies, d'innombrables toiles peintes par ses talentueux élèves lui étaient attribuées. En 1968, les Pays-Bas ont lancé le Rembrandt Research Project (RRP) pour séparer scientifiquement la main du maître de celle de ses imitateurs (radiographie, dendrochronologie, analyse chimique des pigments). Dirigé par Ernst van de Wetering, ce projet achevé en 2014 avec la parution du sixième volume a purgé l'ancien inventaire pour fixer le corpus officiel et incontesté à très exactement 340 peintures autographes."
     },
     "timeline": {
+      "birth": {
+        "year": "1606",
+        "place": "Leyde (Provinces-Unies)",
+        "title": "Naissance de Rembrandt Harmenszoon van Rijn",
+        "desc": "Né le 15 juillet 1606 à Leyde, huitième enfant d'un meunier aisé du Rhin (Harmen Gerritszoon) et de Neeltgen Willemsdochter van Zuytbrouck."
+      },
+      "death": {
+        "year": "1669",
+        "place": "Amsterdam (Provinces-Unies)",
+        "title": "Mort de Rembrandt à Amsterdam",
+        "desc": "S'éteint le 4 octobre 1669 à 63 ans, après avoir survécu à Saskia, Hendrickje et son fils Titus. Il est inhumé dans une tombe louée de la Westerkerk."
+      },
       "periods": [
         {
+          "years": "1625 – 1631",
+          "title": "1625 – 1631 : Les débuts à Leyde et l'affirmation du clair-obscur",
           "name": "Les débuts à Leyde et l'affirmation du clair-obscur (1625 – 1631)",
+          "color": "#b45309",
+          "summary": "Formé auprès de Swanenburgh et Lastman, il installe son premier atelier à Leyde avec Jan Lievens, expérimentant l'eau-forte, le chiaroscuro dramatique et les tronies.",
           "events": [
             {
               "year": "1625",
-              "title": "Atelier de jeunesse à Leyde",
-              "desc": "Ouvre son premier atelier avec Jan Lievens après s'être formé auprès de Pieter Lastman à Amsterdam.",
+              "title": "Premier atelier de jeunesse à Leyde",
+              "desc": "Ouvre son atelier indépendant à Leyde avec son ami Jan Lievens après un séjour formateur de six mois chez Pieter Lastman à Amsterdam.",
               "type": "milestone",
               "icon": "🎨"
             },
             {
               "year": "1629",
-              "title": "L'Autoportrait de Munich et la gravure au manche",
-              "desc": "Expérimente les contrastes extrêmes de lumière et gratte la chevelure directement dans la pâte fraîche au manche du pinceau.",
-              "type": "creation",
+              "title": "Autoportrait à l'âge de 23 ans (aux cheveux ébouriffés)",
+              "desc": "Tour de force expérimental où l'artiste place ses yeux dans l'ombre et grave les boucles au manche du pinceau directement dans la pâte fraîche.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_autoportrait_munich_1629",
               "icon": "✨"
+            },
+            {
+              "year": "1630",
+              "title": "Visite et éloges de Constantijn Huygens",
+              "desc": "Le secrétaire du stathouder d'Orange visite son atelier et consacre Rembrandt et Lievens comme les deux jeunes prodiges de la peinture hollandaise.",
+              "type": "peer",
+              "icon": "🤝"
             }
           ]
         },
         {
+          "years": "1631 – 1642",
+          "title": "1631 – 1642 : L'apogée amstellodamois, la gloire et l'art d'apparat",
           "name": "L'apogée amstellodamois, la gloire et l'art d'apparat (1631 – 1642)",
+          "color": "#d4af37",
+          "summary": "Installé dans la métropole d'Amsterdam, il devient le portraitiste favori de la haute bourgeoisie patricienne, triomphe à la guilde des chirurgiens et épouse Saskia.",
           "events": [
             {
               "year": "1632",
-              "title": "La Leçon d'anatomie du Dr Tulp",
-              "desc": "Consécration foudroyante à Amsterdam avec ce portrait de groupe révolutionnaire qui bouscule toutes les conventions de la corporation des chirurgiens.",
-              "type": "milestone",
+              "title": "La Leçon d'anatomie du docteur Tulp",
+              "desc": "Consécration foudroyante à Amsterdam avec ce portrait de groupe révolutionnaire qui bouscule toutes les conventions de la corporation médicale.",
+              "type": "masterpiece",
               "icon": "🩺"
             },
             {
+              "year": "1633",
+              "title": "Autoportrait, tête nue",
+              "desc": "Affirmation altière de sa réussite sociale au lendemain de son arrivée à Amsterdam, arborant une lourde chaîne d'or princier.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_autoportrait_tete_nue_louvre_1633",
+              "icon": "✨"
+            },
+            {
+              "year": "1633",
+              "title": "Autoportrait à la toque et chaîne d'or",
+              "desc": "Mise en scène aristocratique en homme de cour, affirmant l'ambition d'égaler les maîtres de la Renaissance par la virtuosité du clair-obscur.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_autoportrait_toque_chaine_or_louvre_1633",
+              "icon": "🎩"
+            },
+            {
               "year": "1634",
-              "title": "Mariage avec Saskia van Uylenburgh et portraits Soolmans-Coppit",
-              "desc": "Épouse Saskia et peint pour les grandes familles marchandes d'Amsterdam l'unique paire de portraits en pied à taille réelle de sa carrière.",
-              "type": "milestone",
+              "title": "Portraits de Maerten Soolmans et d'Oopjen Coppit",
+              "desc": "L'unique paire de portraits en pied et à taille réelle jamais peinte par Rembrandt, célébrant la fortune colossale de l'aristocratie marchande.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_portrait_maerten_soolmans_louvre_1634",
               "icon": "💍"
             },
             {
-              "year": "1642",
-              "title": "La Ronde de nuit et la mort de Saskia",
-              "desc": "Achève le monument de la milice civique d'Amsterdam ; la même année, la disparition de son épouse adorée plonge sa vie personnelle dans le deuil.",
-              "type": "milestone",
+              "year": "1637",
+              "title": "L'Archange Raphaël quittant la famille de Tobie",
+              "desc": "Composition baroque saisissante d'une dynamique ascensionnelle foudroyante, confrontant la stupeur humaine à l'envolée du messager céleste.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_archange_raphael_quittant_tobie_louvre_1637",
+              "icon": "🕊️"
+            },
+            {
+              "year": "1639",
+              "title": "Autoportrait en jeune homme (au hausse-col)",
+              "desc": "Portrait d'apparat conservé aux Offices, où le gorgerin métallique étincelle sous une lumière théâtrale.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_autoportrait_hausse_col_offices_1639",
               "icon": "⚔️"
+            },
+            {
+              "year": "1639",
+              "title": "Autoportrait à la toque sur fond d'architecture",
+              "desc": "Se représente en « gentilhomme peintre » inspiré de Raphaël et Titien lors de son installation dans l'hôtel particulier de la Breestraat.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_autoportrait_toque_architecture_louvre_1639",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1642",
+              "title": "La Ronde de nuit et la mort de son épouse Saskia",
+              "desc": "Achève le monument absolu de la milice civique d'Amsterdam. La même année, le décès de Saskia à 29 ans plonge son existence dans une douleur inguérissable.",
+              "type": "milestone",
+              "icon": "💔"
             }
           ]
         },
         {
+          "years": "1642 – 1669",
+          "title": "1642 – 1669 : Les épreuves, la « manière large » et l'introspection testamentaire",
           "name": "Les épreuves, la « manière large » et l'introspection testamentaire (1642 – 1669)",
+          "color": "#c5a059",
+          "summary": "Frappé par la banqueroute et la perte de ses proches, il sublime la tragédie par une touche sculpturale rugueuse (impasto) et une humanité bouleversante.",
           "events": [
             {
-              "year": "1654 – 1656",
-              "title": "Hendrickje Stoffels, Bethsabée au bain et faillite financière",
-              "desc": "Partage sa vie avec Hendrickje Stoffels, peint Bethsabée et déclare banqueroute personnelle, voyant toutes ses collections dispersées aux enchères.",
+              "year": "1648",
+              "title": "Les Pèlerins d'Emmaüs (La Fraction du pain)",
+              "desc": "Sublime tableau d'introspection sacrée où la lumière émane du Christ ressuscité dans le silence recueilli de l'auberge.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_les_pelerins_emmaus_louvre_1648",
+              "icon": "🍞"
+            },
+            {
+              "year": "1654",
+              "title": "Bethsabée au bain tenant la lettre de David",
+              "desc": "Nu d'une bouleversante vérité charnelle et psychologique incarné par Hendrickje Stoffels, méditant sur la fatalité du destin.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_bethsabee_au_bain_louvre_1654",
+              "icon": "✉️"
+            },
+            {
+              "year": "1654",
+              "title": "Portrait de Hendrickje Stoffels au béret de velours",
+              "desc": "Effigie intime et chaleureuse de sa compagne dévouée, baignée d'un sfumato doré empreint d'une infinie tendresse.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_portrait_hendrickje_stoffels_louvre_1654",
+              "icon": "💖"
+            },
+            {
+              "year": "1655",
+              "title": "Le Bœuf écorché",
+              "desc": "Monument d'empâtement pictural pur et puissante méditation de Memento Mori, qui inspirera Delacroix, Soutine et Francis Bacon.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_le_boeuf_ecorche_louvre_1655",
+              "icon": "🥩"
+            },
+            {
+              "year": "1655 – 1660",
+              "title": "Portrait de Titus van Rijn",
+              "desc": "Portrait mélancolique et pudique de son fils unique adoré, dont le visage doré émerge de la pénombre comme un hymne à la filiation.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_portrait_titus_van_rijn_louvre_1655",
+              "icon": "👦"
+            },
+            {
+              "year": "1656",
+              "title": "Faillite financière personnelle et vente des collections",
+              "desc": "Insolvable, il déclare banqueroute ; sa maison de la Breestraat et ses prodigieuses collections d'art et d'antiquités sont dispersées aux enchères.",
               "type": "milestone",
               "icon": "📜"
             },
             {
+              "year": "1659",
+              "title": "Autoportrait avec béret et col droit",
+              "desc": "Sommet de la collection d'Édimbourg, peignant la dignité inaltérable du créateur face aux outrages du temps et de la ruine.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_autoportrait_beret_col_droit_edimbourg_1659",
+              "icon": "🎨"
+            },
+            {
+              "year": "1660",
+              "title": "Autoportrait au chevalet",
+              "desc": "Vêtu de son habit d'artisan avec sa palette et ses brosses, il proclame avec une franchise poignante que son être réside tout entier dans la peinture.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_autoportrait_au_chevalet_louvre_1660",
+              "icon": "🖌️"
+            },
+            {
               "year": "1661",
-              "title": "Saint Matthieu et l'Ange et Les Syndics des drapiers",
-              "desc": "Affirme une touche rugueuse, sculpturale et vibrante (impasto) qui transcende le réalisme vers une spiritualité intime bouleversante.",
-              "type": "creation",
+              "title": "Saint Matthieu et l'Ange",
+              "desc": "Le vieil évangéliste recueille dans une proximité intime le murmure de l'ange céleste venu guider sa plume sur le parchemin.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_saint_matthieu_et_ange_louvre_1661",
               "icon": "📖"
             },
             {
-              "year": "1669",
-              "title": "Derniers autoportraits et disparition dans le dénuement",
-              "desc": "S'éteint à 63 ans à Amsterdam après la mort prématurée de son fils Titus, laissant un testament pictural d'une humanité universelle.",
-              "type": "milestone",
-              "icon": "🕊️"
+              "year": "1668 – 1669",
+              "title": "Autoportrait en vieil homme (Testament pictural des Offices)",
+              "desc": "L'un des ultimes témoignages de sa vie, où la matière triturée et le regard d'une lucidité bouleversante contemplent l'éternité.",
+              "type": "masterpiece",
+              "artworkId": "rembrandt_autoportrait_vieil_homme_offices_1668",
+              "icon": "🕯️"
             }
           ]
         }
