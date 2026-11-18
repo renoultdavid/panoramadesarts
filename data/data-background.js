@@ -19,6 +19,94 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "renaissance_saite_xxvie_dynastie": {
+    "id": "renaissance_saite_xxvie_dynastie",
+    "badge": "HISTOIRE & ART DE L'ÉGYPTE TARDIVE",
+    "title": "La Renaissance Saïte (XXVIe Dynastie) : Le Retour aux Sources de l'Ancien Empire",
+    "sources": "Hérodote, Histoires (Livre II) & Annales de la XXVIe dynastie",
+    "keywords": [
+      "renaissance saïte",
+      "renaissance saite",
+      "saïte",
+      "saite",
+      "sourire saïte",
+      "sourire saite",
+      "psammétique",
+      "psammetique",
+      "apriès",
+      "apries",
+      "xxvie dynastie"
+    ],
+    "text": "<p>Au VIIe siècle avant J.-C., après des décennies de morcellement politique et d'invasions assyriennes, le prince Psammétique Ier, originaire de la cité de Saïs dans le delta du Nil, parvient à réunifier l'Égypte et fonde la XXVIe dynastie. Ce sursaut national ouvre une ère de prospérité commerciale et de renouveau spirituel connue sous le nom de « Renaissance saïte ».</p>\n<p>Pour légitimer leur pouvoir et restaurer la grandeur éternelle des Deux Terres, les souverains saïtes et leurs hauts dignitaires puisent délibérément leur inspiration dans l'âge d'or de l'Ancien et du Moyen Empire : les scribes recopient les vieux <em>Textes des Pyramides</em>, remettent à l'honneur les titres administratifs archaïques et renouent avec la pureté sobre des canons classiques.</p>\n<p>Dans les ateliers de sculpture et d'orfèvrerie, cette quête d'éternité se traduit par une virtuosité inégalée dans le polissage miroir des pierres les plus dures (granit, grauwacke, basalte) et par l'apparition d'une expression sereine et lumineuse sur les visages royaux et privés : le célèbre « sourire saïte », symbole d'apaisement intérieur et de confiance dans l'immortalité.</p>"
+  },
+  "dynastie_lagide_ptolemees_culte_isis": {
+    "id": "dynastie_lagide_ptolemees_culte_isis",
+    "badge": "HISTOIRE PTOLÉMAÏQUE & HELLÉNISTIQUE",
+    "title": "La Dynastie Lagide des Ptolémées et la Divinisation Royale sous les Traits d'Isis",
+    "sources": "Plutarque, Isis et Osiris & Stèles sacerdotales lagides",
+    "keywords": [
+      "ptolémaïque",
+      "ptolemaique",
+      "lagide",
+      "lagides",
+      "ptolémée",
+      "ptolemee",
+      "arsinoé",
+      "arsinoe",
+      "siamon"
+    ],
+    "text": "<p>À la mort d'Alexandre le Grand en 323 avant J.-C., son général macédonien Ptolémée s'empare de l'Égypte et fonde la dynastie lagide, qui gouverne le pays pendant près de trois siècles depuis Alexandrie. Confrontés au défi de régner à la fois en rois hellénistiques pour les élites grecques et en pharaons légitimes pour le peuple et le clergé égyptiens, les Lagides élaborent une double théologie du pouvoir souverain.</p>\n<p>Dès le règne de Ptolémée II et de son épouse-sœur Arsinoé II, les souverains instaurent un culte dynastique officiel dans lequel les reines lagides s'assimilent directement à Isis et à Aphrodite. Protégeant les marins depuis les grands sanctuaires côtiers d'Alexandrie et de l'île de Pharos, la reine-déesse incarne à la fois la fécondité du Nil, la concorde civique et le salut dans l'au-delà.</p>\n<p>Cette dualité culturelle s'exprime dans l'art royal par l'alliance des postures hiératiques pharaoniques, des attributs d'Isis (le nœud sacré de sa robe et les couronnes solaires) et du modelé naturaliste hérité de la sculpture grecque hellénistique.</p>"
+  },
+  "jeu_senet_passage_au_dela": {
+    "id": "jeu_senet_passage_au_dela",
+    "badge": "CULTURE & ESCHATOLOGIE DE LA VALLÉE DU NIL",
+    "title": "Le Jeu de Senet et les Jeux de Parcours : Le Destin de l'Âme vers l'Au-Delà",
+    "sources": "Livre des Morts (Chapitre XVII) & Papyrus ludiques du Nouvel Empire",
+    "keywords": [
+      "senet",
+      "plateau de jeu",
+      "table de jeu",
+      "pions",
+      "qustul"
+    ],
+    "text": "<p>Dans la vallée du Nil, de l'Égypte pharaonique jusqu'aux royaumes de Nubie, les jeux de société sur plateau — au premier rang desquels le <em>Senet</em>, littéralement le « jeu du passage » — occupaient une place essentielle aussi bien dans les loisirs quotidiens de l'élite que dans le mobilier funéraire des tombes.</p>\n<p>Composé d'un damier de trente cases souvent marqueté d'ébène et d'ivoire et accompagné de pions bicolores mus par le lancer d'osselets ou de bâtonnets, le Senet dépassa progressivement le simple divertissement pour acquérir une profonde signification religieuse et initiatique.</p>\n<p>Selon le chapitre XVII du <em>Livre des Morts</em>, la progression des pions à travers les cases fastes et néfastes du tablier symbolise le voyage périlleux de l'âme (le <em>Ba</em>) à travers le monde souterrain : remporter la partie contre un adversaire invisible permettait au défunt de franchir les épreuves de l'au-delà et d'accéder à la vie éternelle parmi les dieux.</p>"
+  },
+  "cosmetique_onguents_arts_feu_egypte": {
+    "id": "cosmetique_onguents_arts_feu_egypte",
+    "badge": "SAVOIR-FAIRE & VIE QUOTIDIENNE ANTIQUE",
+    "title": "Onguents Sacrés, Fards et Arts du Feu : Albâtre, Faïence Bleue et Verre Primitif",
+    "sources": "Pline l'Ancien, Histoire naturelle (Livre XXXVI) & Rituels d'onction",
+    "keywords": [
+      "alabastron",
+      "alabastrons",
+      "albâtre",
+      "albatre",
+      "cuillère à fard",
+      "cuillere a fard",
+      "faïence bleue",
+      "faience bleue",
+      "verre moulé sur noyau",
+      "situle",
+      "onguent",
+      "onguents"
+    ],
+    "text": "<p>Dans l'Égypte ancienne, les soins du corps, les huiles parfumées et le maquillage des yeux au khôl vert (malachite) ou noir (galène) ne relevaient pas de la simple coquetterie profane : ils assuraient une protection médicale contre la réverbération du soleil et les infections, tout en revêtant une valeur liturgique de purification et de régénération.</p>\n<p>Pour préserver la fraîcheur et l'arôme de ces baumes précieux, les artisans façonnaient des flacons raffinés dans l'albâtre calcaire rubané, ainsi que des cuillères à fard sculptées en forme de bouquets de lotus ou de nageuses incarnant la jeunesse éternelle.</p>\n<p>Parallèlement, les ateliers royaux portèrent les arts du feu à un sommet de virtuosité avec la faïence siliceuse bleu turquoise — couleur de l'eau primordiale et de la renaissance — et l'invention du verre moulé sur noyau d'argile, véritable « pierre artificielle » parée de festons polychromes.</p>"
+  },
+  "erinyes_eumenides_vengeance_tragique": {
+    "id": "erinyes_eumenides_vengeance_tragique",
+    "badge": "MYTHOLOGIE & TRAGÉDIE GRECQUE",
+    "title": "Les Érinyes (Euménides) : Les Divinités Primordiales de la Vengeance et du Remords",
+    "sources": "Eschyle, Les Euménides & Hésiode, Théogonie (185)",
+    "keywords": [
+      "euménides",
+      "eumenides",
+      "érinyes",
+      "erinyes",
+      "furies",
+      "oreste"
+    ],
+    "text": "<p>Nées des gouttes du sang d'Ouranos tombées sur la Terre lors de sa mutilation par Cronos, les Érinyes — Alecto, Mégère et Tisiphone, que les Romains nommaient les Furies — sont des divinités chtoniennes archaïques plus anciennes que les dieux de l'Olympe. Dotées d'ailes sombres, de regards injectés de sang et de chevelures entrelacées de serpents, elles incarnent la loi implacable du châtiment qui poursuit quiconque a versé le sang de sa propre lignée ou violé les serments sacrés.</p>\n<p>Dans la tragédie d'Eschyle, ces créatures implacables traquent sans relâche le parricide Oreste, incarnant l'angoisse viscérale, le cri de la conscience meurtrie et la fatalité du mal qui engendre le mal.</p>\n<p>À l'issue du procès institué par Athéna sur la colline de l'Aréopage à Athènes, qui substitue la justice civique à la vengeance privée, les redoutables Érinyes acceptent d'apaiser leur fureur et deviennent les <em>Euménides</em> — « les Bienveillantes » —, gardiennes vigilantes de l'ordre moral de la cité.</p>"
+  },
    "deesse_bastet_culte_chats_bubastis": {
     "id": "deesse_bastet_culte_chats_bubastis",
     "badge": "MYTHOLOGIE & CULTES ÉGYPTIENS",
