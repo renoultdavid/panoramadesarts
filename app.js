@@ -9246,6 +9246,7 @@ function renderScaleStamp(art) {
 
 function findBackgroundForArtwork(art) {
   if (!art) return null;
+  if (art.backgroundId === false || art.backgroundId === "none" || art.backgroundId === null) return null;
   const registry = window.BACKGROUNDS_REGISTRY || {};
 
   // 1. Clé explicite backgroundId sur la fiche de l'œuvre

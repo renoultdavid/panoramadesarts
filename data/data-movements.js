@@ -405,6 +405,14 @@ window.MOVEMENTS_DATA = {
         "desc": "La Gloire de saint Ignace (Sant'Ignazio à Rome), fausse coupole en trompe-l'œil et Perspectiva pictorum.",
         "artistId": "pozzo",
         "icon": "🏛️"
+      },
+      {
+        "name": "Rembrandt Harmenszoon van Rijn",
+        "dates": "1606 – 1669",
+        "role": "Géant du Siècle d'or néerlandais et maître absolu de l'introspection",
+        "desc": "La Ronde de nuit, La Leçon d'anatomie, Les Pèlerins d'Emmaüs, Le Bœuf écorché et autoportraits.",
+        "artistId": "rembrandt",
+        "icon": "🕯️"
       }
     ]
   },
@@ -796,6 +804,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Le Baiser, Portrait d'Adèle Bloch-Bauer I, Frise Beethoven et paysages de l'Attersee.",
         "artistId": "klimt",
         "icon": "✨"
+      },
+      {
+        "name": "Odilon Redon",
+        "dates": "1840 – 1916",
+        "role": "Prince du rêve, maître des Noirs et métamorphose par le pastel",
+        "desc": "Les Noirs (fusains et lithographies), Dans le rêve, Le Regard, Orphée et décors de Fontfroide.",
+        "artistId": "redon",
+        "icon": "👁️"
       }
     ]
   },
@@ -1097,6 +1113,14 @@ window.MOVEMENTS_DATA = {
         "desc": "Accumulations de violons calcinés, tubes de peinture et montres.",
         "artistId": "arman",
         "icon": "📦"
+      },
+      {
+        "name": "Martial Raysse",
+        "dates": "né en 1936",
+        "role": "Cofondateur du Nouveau Réalisme et pionnier du Pop Art européen",
+        "desc": "Made in Japan, installations aux néons, Le Grand Départ et grandes fresques mythologiques.",
+        "artistId": "raysse",
+        "icon": "⚡"
       }
     ]
   },

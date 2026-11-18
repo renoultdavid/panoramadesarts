@@ -150,8 +150,7 @@ window.BACKGROUNDS_REGISTRY = {
     "sources": "Ovide, Métamorphoses (Livre I)",
     "keywords": [
       "deucalion",
-      "pyrrha",
-      "doni"
+      "pyrrha"
     ],
     "text": "<p>Indigné par la barbarie et l'impiété des hommes de l'Âge de fer, Zeus résolut d'anéantir l'humanité sous un déluge diluvien. Pendant neuf jours et neuf nuits, les cataractes du ciel s'ouvrirent et les flots des mers engloutirent les cités, les forêts et les montagnes du monde entier. Seul un esquif de bois flottait encore sur l'abîme infini, portant les deux êtres les plus vertueux et pieux de la terre : Deucalion, fils de Prométhée, et son épouse Pyrrha, fille d'Épiméthée et de Pandore.</p>\n<p>Lorsque les eaux se retirèrent enfin, l'arche s'échoua sur les cimes du mont Parnasse. Contemplant avec désolation une terre silencieuse et déserte jonchée de débris, les deux époux se prosternèrent devant l'autel de la déesse Thémis, la suppliant de leur enseigner le moyen de faire renaître la race humaine disparue. L'oracle répondit d'une voix énigmatique : « Voilez vos têtes, dénouez vos ceintures, et jetez derrière vous les os de votre grande mère ! »</p>\n<p>Tandis que Pyrrha frémissait à l'idée de troubler le repos des morts, Deucalion comprit le sens allégorique de l'énigme : la terre est notre mère commune, et ses os sont les pierres rocheuses disséminées dans les ravins. Avançant pas à pas, ils ramassèrent les pierres et les jetèrent par-dessus leur épaule : les cailloux projetés par Deucalion s'assouplirent et devinrent des hommes vigoureux, tandis que les roches jetées par Pyrrha s'adoucirent pour former la première lignée des femmes nouvelles, régénérant l'humanité à partir du cœur même de la pierre vivante.</p>"
   },
@@ -166,5 +165,68 @@ window.BACKGROUNDS_REGISTRY = {
       "eusebe de cremone"
     ],
     "text": "<p>Disciple fidèle, compagnon de solitude et successeur de saint Jérôme au monastère de Bethléem au IVe siècle, saint Eusèbe de Crémone est vénéré dans la tradition chrétienne pour son dévouement absolu envers le grand docteur traducteur de la Vulgate. À la mort de Jérôme, Eusèbe recueillit avec piété ses reliques sacrées, au premier rang desquelles son manteau liturgique (la chape), imprégné de la sainteté et des rigueurs spirituelles de son maître spirituel.</p>\n<p>Selon le récit miraculeux rapporté dans les traditions médiévales, trois jeunes hommes pleins d'avenir vinrent à mourir subitement et prématurément, plongeant leurs familles et toute leur communauté dans un deuil inconsolable. Porté par une foi inébranlable dans la communion des saints et dans l'intercession de son vénéré précepteur, saint Eusèbe fit apporter le vêtement sacré de Jérôme au chevet des trois défunts étendus sur le sol.</p>\n<p>Au moment où le saint abaisse la sainte chape sur les corps glacés en implorant la miséricorde du Seigneur, le souffle vital réintègre la chair des jeunes gens : sous les yeux pétrifiés d'admiration de l'assistance et des fidèles recueillis, les défunts rouvrent les yeux, se redressent vivants et rendent grâce à Dieu. Cet épisode célèbre la victoire divine sur la mort et la puissance salvatrice des saints compagnons de la première chrétienté.</p>"
+  },
+  "archange_raphael_tobie": {
+    "id": "archange_raphael_tobie",
+    "badge": "RÉCIT BIBLIQUE (ANCIEN TESTAMENT)",
+    "title": "L'Archange Raphaël et la Guérison de Tobit",
+    "sources": "Livre de Tobie (Ancien Testament / Livres deutérocanoniques)",
+    "keywords": [
+      "tobie",
+      "archange raphaël",
+      "archange raphael",
+      "famille de tobie"
+    ],
+    "text": "<p>Dans le <em>Livre de Tobie</em>, le vieil et pieux Israélite Tobit, déporté à Ninive et frappé de cécité après avoir fidèlement enseveli les morts de son peuple, envoie son jeune fils Tobie en Médie pour recouvrer une dette sacrée. Afin de guider le jeune homme à travers les dangers de la route, Dieu lui assigne un compagnon de voyage sous les traits d'un pèlerin nommé Azarias, qui n'est autre que Raphaël, l'un des sept archanges qui se tiennent devant la gloire divine.</p>\n<p>Tout au long de cette traversée initiatique, l'archange veille sur le voyageur : il lui fait capturer un poisson géant sur les rives du Tigre, lui enseignant que le fiel, le cœur et le foie de l'animal possèdent des vertus médicinales et spirituelles souveraines. Grâce aux conseils de l'ange, Tobie délivre sa promise Sarra du démon Asmodée, puis, de retour au foyer paternel, applique le fiel de poisson sur les yeux obscurcis de son père Tobit, lui rendant miraculeusement la vue.</p>\n<p>Au moment où le père et le fils, comblés de gratitude, s'apprêtent à offrir la moitié de leurs biens au mystérieux voyageur, celui-ci révèle sa nature céleste : « Je suis Raphaël, l'un des sept anges qui présentent les prières des saints et qui entrent en présence de la gloire du Saint. » Alors qu'ils tombent la face contre terre, tremblants et saisis d'une crainte sacrée, l'archange déploie ses ailes immaculées et s'élève vers le firmament dans un éclat de lumière divine, laissant aux hommes le souvenir de la bienveillance providentielle et de la compassion du Très-Haut.</p>"
+  },
+  "pelerins_emmaus": {
+    "id": "pelerins_emmaus",
+    "badge": "RÉCIT ÉVANGÉLIQUE",
+    "title": "Les Pèlerins d'Emmaüs et la Révélation du Pain",
+    "sources": "Évangile selon saint Luc (XXIV, 13-35)",
+    "keywords": [
+      "emmaüs",
+      "emmaus",
+      "pèlerins d'emmaüs",
+      "fraction du pain"
+    ],
+    "text": "<p>Le soir même du jour de la Résurrection, deux disciples du Christ, accablés de tristesse et désorientés par la mort de leur maître crucifié à Jérusalem, font route vers le village d'Emmaüs, distant d'une douzaine de kilomètres. Chemin faisant, un voyageur solitaire s'approche et chemine à leurs côtés, mais leurs yeux sont empêchés de le reconnaître. Les interrogeant sur l'objet de leur deuil, l'inconnu leur explique, à partir de Moïse et de tous les Prophètes, pourquoi le Messie devait souffrir avant d'entrer dans sa gloire, faisant brûler en secret leurs cœurs d'une étrange espérance.</p>\n<p>Arrivés aux abords du bourg alors que le jour décline, les disciples pressent le mystérieux compagnon de demeurer avec eux : « Reste avec nous, car le soir tombe et le jour déjà touche à sa fin. » Attablé avec eux dans l'auberge, l'hôte prend le pain, prononce la bénédiction, le rompt et le leur tend.</p>\n<p>C'est à cet instant précis de la fraction du pain que le voile se déchire : leurs yeux s'ouvrent, reconnaissant la présence vivante de Jésus ressuscité au geste même de l'Eucharistie. Mais au moment même où la révélation éclate dans leur esprit, la silhouette divine s'efface à leur regard, les laissant seuls face à la table éclairée et au pain partagé, porteurs d'un témoignage lumineux qu'ils s'empressent de reporter aux apôtres assemblés.</p>"
+  },
+  "bethsabee_bain": {
+    "id": "bethsabee_bain",
+    "badge": "RÉCIT BIBLIQUE (LIVRE DE SAMUEL)",
+    "title": "Bethsabée au Bain et le Poids du Choix",
+    "sources": "Second Livre de Samuel (XI, 1-27)",
+    "keywords": [
+      "bethsabée",
+      "bethsabee",
+      "bethsabée au bain"
+    ],
+    "text": "<p>Dans le <em>Second Livre de Samuel</em>, au printemps, à l'époque où les rois partent en guerre, le roi David demeure à Jérusalem tandis que ses troupes assiègent la cité d'Ammon. Un soir, se promenant sur la terrasse de son palais royal, le monarque aperçoit dans un jardin voisin une femme d'une beauté saisissante qui prend son bain rituel. Il s'agit de Bethsabée, fille d'Éliam et épouse légitime d'Urie le Hittite, l'un de ses plus loyaux et valeureux capitaines alors mobilisé sur le front.</p>\n<p>Pris d'une passion irrésistible, David dépêche des messagers porteurs d'une convocation royale au palais. Le texte biblique s'arrête sur ce silence dramatique où la jeune femme reçoit l'injonction du pouvoir souverain : prise au piège entre son honneur d'épouse, les commandements sacrés de la Loi et l'impossibilité de désobéir aux ordres absolus du roi d'Israël, Bethsabée se trouve confrontée à la solitude déchirante du destin.</p>\n<p>De cette union clandestine naîtra un scandale que David tentera d'abord de dissimuler avant d'envoyer Urie à une mort certaine au premier rang du combat. Dénoncé plus tard par le prophète Nathan à travers la parabole de la brebis volée, ce drame humain et politique marque le début des tourments intérieurs de la maison de David, tout en faisant de Bethsabée la future mère du sage roi Salomon.</p>"
+  },
+  "saint_matthieu_ange": {
+    "id": "saint_matthieu_ange",
+    "badge": "TRADITION APOSTOLIQUE",
+    "title": "Saint Matthieu et le Souffle de l'Ange",
+    "sources": "Tradition apostolique chrétienne & Évangile selon saint Matthieu",
+    "keywords": [
+      "matthieu et l'ange",
+      "saint matthieu",
+      "saint matthieu et l'ange"
+    ],
+    "text": "<p>Ancien percepteur d'impôts au bureau de douane de Capharnaüm, Lévi, devenu l'apôtre Matthieu après l'appel fulgurant du Christ (« Suis-moi »), est le premier des quatre évangélistes du Nouveau Testament. Dans la symbolique chrétienne héritée de la vision du prophète Ézéchiel et de l'Apocalypse de Jean, Matthieu est traditionnellement associé à la figure de l'Homme ou de l'Ange ailé (le Tétramorphe), car son récit s'ouvre sur la généalogie humaine et l'Incarnation charnelle du Fils de l'homme.</p>\n<p>Selon la tradition hagiographique et spirituelle, l'évangéliste n'écrit pas son texte sacré comme un simple chroniqueur ou un philosophe profane : il est le scribe docile de la Parole divine, inspiré directement par un messager céleste qui se tient à son côté. Loin d'une majesté distante ou foudroyante, cette transmission prend la forme d'un dialogue secret et intime entre le Créateur et la faiblesse humaine.</p>\n<p>L'ange, penché vers le vieillard au front ridé et aux mains calleuses de scribe, lui souffle à l'oreille les mystères du Royaume des cieux, guidant sa plume et sa réflexion pour transformer la mémoire des paroles évangéliques en une parole d'espérance éternelle pour toutes les nations.</p>"
+  },
+  "orphee_lyre": {
+    "id": "orphee_lyre",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "Le Chant d'Orphée et le Pouvoir Sacré de la Lyre",
+    "sources": "Virgile, Géorgiques (Livre IV) ; Ovide, Métamorphoses (Livres X & XI)",
+    "keywords": [
+      "orphée",
+      "orphee",
+      "chant d'orphée",
+      "tête d'orphée"
+    ],
+    "text": "<p>Fils de la muse Calliope et du roi thrace Œagre (ou du dieu Apollon lui-même, qui lui fit don de sa première lyre à sept cordes), Orphée est le prince des poètes et des musiciens de l'Antiquité grecque. Doué d'une voix enchanteresse et d'une virtuosité divine, il possédait le don surnaturel de charmer non seulement les hommes et les bêtes fauves qui venaient se coucher à ses pieds, mais aussi les arbres, les fleuves suspendus dans leur cours et les rochers immobiles qui s'émouvaient à ses accords.</p>\n<p>Inconsolable après la disparition de son épouse la nymphe Eurydice, Orphée osa descendre vivant jusqu'au royaume ténébreux des Enfers (l'Hadès). Par la seule grâce de sa plainte musicale, il fléchit le cœur d'airain de Pluton et de Proserpine, arrachant la promesse de ramener sa bien-aimée à la lumière du jour, avant que son regard impatient ne la perde à jamais au seuil du monde des vivants.</p>\n<p>Retiré dans les forêts sauvages de Thrace, le poète fut finalement mis en pièces par les Ménades en furie lors d'un rituel dionysiaque. Mais le mythe d'Orphée triomphe de la violence : jetée dans les flots du fleuve Hèbre, sa tête coupée continua de chanter tandis que sa lyre sacrée, flottant sur les eaux, continuait de faire résonner une mélodie immortelle jusqu'à l'île de Lesbos, consacrant l'éternité de la création poétique et la survie de l'esprit sur la mort physique.</p>"
   }
 };

@@ -8401,6 +8401,299 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "raysse": {
+    "id": "raysse",
+    "name": "Raysse Martial",
+    "sortName": "Raysse Martial",
+    "sortLetter": "R",
+    "dates": "né en 1936",
+    "movement": "Nouveau Réalisme, Pop Art européen, Cinéma expérimental & Figuration mythologique",
+    "nationality": "Français",
+    "techniques": "Tableau-assemblage pop, néons, sérigraphie, pigments industriels, détrempe, tempera, fusain et fresque",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOpDBHparPbMSZ_L-Y38pHwDH0k34LaPhwnVmFHfVTDJw1XQjfkWaHT4joTLvwzeJrpt_NPq80fjdLHuE3-mqp0M-ffyH8D1_K6oxh9FYseQd5uEd9HS5UaFO8PNc68JdAKtqmQBn2IG47CtNWFW4EHUg=w1708-h733-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'iconoclaste pop et le pionnier du Nouveau Réalisme</strong><br>
+      Martial Raysse (né en 1936) est l'un des artistes français majeurs de la seconde moitié du XXe siècle, cofondateur du Nouveau Réalisme et pionnier d'un Pop Art européen singulier. Dès le début des années 1960, il s'est attaqué avec insolence à la société de consommation, à l'imagerie publicitaire et aux canons académiques de la beauté féminine, avant d'opérer une rupture radicale avec le milieu de l'art contemporain pour réinventer, en solitaire, une grande peinture figurative et mythologique.</p>
+      <p><strong>De l'« hygiène de la vision » pop à la redécouverte de la tempera</strong><br>
+      Son genre d'expression se définit par le tableau-assemblage pop, l'installation néon et miroir, le film expérimental et la peinture d'histoire et de mythologie contemporaine. Son style se caractérise d'abord par l'hybridation d'images photographiques sérigraphiées, de couleurs fluorescentes industrielles (bombes aérosol) et d'objets de pacotille en plastique ou tubes de néon, avant d'évoluer vers une facture picturale classique à la tempera, nourrie de dessin minutieux, de compositions allégoriques denses et d'une ironie carnavalesque.</p>
+      <p><strong>Une trajectoire atypique : de l'euphorie consumériste au retour du grand tableau</strong><br>
+      L'évolution de son style marque une trajectoire atypique, du sommet de la gloire pop vers un retour assumé à l'artisanat du grand tableau :<br>
+      <strong>Le Nouveau Réalisme et l'« hygiène de la vision » (1960 – 1967) :</strong> Signataire du manifeste des Nouveaux Réalistes en 1960 avec Yves Klein et Arman, il revendique une « hygiène de la vision » célébrant le monde aseptisé des grands magasins et des produits neufs en plastique (Prisunic). Séjournant à New York et Los Angeles, il dialogue avec le Pop Art américain mais affirme une sensualité méditerranéenne : il réinterprète Ingres ou Cranach en appliquant des néons lumineux et des couleurs criardes sur des portraits de femmes glacées (<em>Made in Japan - Tableau turc et bazar</em>, 1964).<br>
+      <strong>La rupture de 1968, les expérimentations et le retrait (1968 – années 1970) :</strong> Marqué par les événements de Mai 68, il rejette violemment le marché de l'art et les galeries new-yorkaises. Il fonde le groupe d'action Présence 43, tourne des films expérimentaux psychédéliques (<em>Le Grand Départ</em>, 1970) et produit des sculptures et collages précaires et chamaniques à partir de ficelles, de plumes et de carton (série des <em>Coco-Mato</em>), amorçant une longue retraite loin de l'effervescence médiatique.<br>
+      <strong>Le retour à la grande tradition figurative et le mythe (après 1980) :</strong> Installé dans le Périgord, il réapprend patiemment les techniques anciennes de la tempera et de la fresque. Il renoue avec la grande peinture d'histoire et de foule, peignant d'immenses fresques polyphoniques peuplées de figures grotesques, d'allégories antiques et de scènes de déambulation théâtrale (<em>Le Carnaval de Périgueux</em>, <em>Ici Plage, comme ici-bas</em>). Il livre ainsi une méditation foisonnante sur la comédie humaine, consacrée par une rétrospective majeure au Centre Pompidou en 2014.</p>
+    `,
+    "corpus": {
+      "total": 400,
+      "paintingsCount": 400,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Rétrospectives Centre Pompidou (2014) & Palazzo Grassi Venise (2015) / Éditions du Griffon",
+      "totalOeuvresEstimees": "environ 400 œuvres majeures (hors dessins et multiples)",
+      "oeuvresConsensusNotice": "Il n'existe pas encore de catalogue raisonné définitif et clos pour l'intégralité de son œuvre. Les conservateurs estiment son corpus principal (huiles, acryliques, toiles photographiques, assemblages avec néons et très grands formats) à environ 400 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "name": "Le Nouveau Réalisme et l'« hygiène de la vision » (1960 – 1967)",
+          "events": [
+            {
+              "year": "1960",
+              "title": "Manifeste du Nouveau Réalisme",
+              "desc": "Signe le manifeste fondateur à Paris avec Yves Klein, Arman, Jean Tinguely et Pierre Restany, célébrant les nouveaux matériaux industriels.",
+              "type": "milestone",
+              "icon": "⚡"
+            },
+            {
+              "year": "1964",
+              "title": "Made in Japan - Tableau turc et bazar",
+              "desc": "Détourne la Grande Odalisque d'Ingres avec des aplats fluo et un néon vert, inventant une icône subversive du Pop Art européen.",
+              "type": "creation",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "name": "La rupture de 1968, les expérimentations et le retrait (1968 – 1979)",
+          "events": [
+            {
+              "year": "1968",
+              "title": "Rupture de Mai 68 et Présence 43",
+              "desc": "Rejette avec fracas le marché de l'art commercial new-yorkais et fonde le collectif communautaire Présence 43.",
+              "type": "milestone",
+              "icon": "✊"
+            },
+            {
+              "year": "1970",
+              "title": "Film Le Grand Départ et cycle Coco-Mato",
+              "desc": "Réalise un long-métrage expérimental psychédélique et crée des assemblages chamaniques fragiles en plumes, ficelles et carton.",
+              "type": "creation",
+              "icon": "🎥"
+            }
+          ]
+        },
+        {
+          "name": "Le retour à la grande tradition figurative et le mythe (après 1980)",
+          "events": [
+            {
+              "year": "1980 – 1990",
+              "title": "Retraite dans le Périgord et renaissance de la tempera",
+              "desc": "Apprend en solitaire les recettes ancestrales de la détrempe à l'œuf et des pigments pour composer de grandes allégories mythologiques.",
+              "type": "milestone",
+              "icon": "🌿"
+            },
+            {
+              "year": "2014",
+              "title": "Rétrospective historique au Centre Pompidou",
+              "desc": "Le Musée national d'art moderne consacre cinquante ans d'une trajectoire visionnaire, de la révolution pop aux fresques monumentales récentes.",
+              "type": "milestone",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "redon": {
+    "id": "redon",
+    "name": "Redon Odilon",
+    "sortName": "Redon Odilon",
+    "sortLetter": "R",
+    "dates": "1840 – 1916",
+    "movement": "Symbolisme, Synthétisme & Précurseur du Surréalisme",
+    "nationality": "Français (Bordeaux, actif à Paris)",
+    "techniques": "Fusain, lithographie (« Les Noirs »), pastel, huile sur toile et sur panneau, détrempe",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNgloh9iIrIfbujAy8iAlnht4xDRnOm5TYO5S8xKtGUK0gt1COjCYXrpxerI88KLvNGx_yVh8Ic79khEaxF9-9SD2oB_eualBoaFXtNeuBCTsLrj1IOcCmYiJmUGohDUg1SGl3a4VSwkQer9Dcr406sgg=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>L'explorateur du rêve et des profondeurs de l'inconscient</strong><br>
+      Odilon Redon, né en 1840 à Bordeaux et mort en 1916 à Paris, est l'un des représentants les plus singuliers et mystérieux du mouvement symboliste. Après une enfance solitaire dans le domaine familial de Peyrelebade, dont l'atmosphère mélancolique marquera durablement son imaginaire, il développe une œuvre en marge des courants naturalistes et impressionnistes de son époque. Explorateur des profondeurs de l'inconscient bien avant la psychanalyse, il se définit lui-même comme un artiste plaçant « la logique du visible au service de l'invisible ».</p>
+      <p><strong>Des « Noirs » angoissants aux féeries lumineuses du pastel</strong><br>
+      Son genre pictural se divise en deux mondes distincts mais complémentaires. Pendant la première partie de sa carrière, il se consacre presque exclusivement à ses « Noirs », des dessins au fusain et des lithographies où évoluent des créatures fantastiques, des yeux flottants et des visages oniriques. Ce style explore l'étrange, le macabre et le rêve, puisant son inspiration dans la littérature d'Edgar Allan Poe ou de Baudelaire. Par la suite, Redon devient un maître de la couleur, utilisant le pastel et l'huile pour créer des compositions florales et mythologiques d'une luminosité radieuse, où la réalité semble se dissoudre dans une vision purement spirituelle.</p>
+      <p><strong>De l'ombre vers la lumière : une métamorphose poétique et spirituelle</strong><br>
+      L'évolution de son style est souvent décrite comme une transition spectaculaire de l'ombre vers la lumière. Après des décennies de noirceur graphique, son passage à la couleur autour de 1890 transforme radicalement son art : ses noirs profonds laissent place à des tons irisés et éclatants. Cependant, malgré ce changement de palette, son intention reste la même : suggérer plutôt que décrire. Ses bouquets de fleurs tardifs et ses scènes comme <em>Le Char d'Apollon</em> conservent la dimension onirique de ses débuts, faisant de lui un précurseur essentiel du surréalisme par sa capacité à rendre crédibles les visions les plus improbables de l'esprit.</p>
+    `,
+    "corpus": {
+      "total": 2657,
+      "paintingsCount": 2657,
+      "drawingsCount": null,
+      "engravingsCount": 206,
+      "sculpturesCount": null,
+      "seenCount": 2,
+      "source": "Catalogue raisonné de l'œuvre peint et dessiné par Alec Wildenstein (Wildenstein Institute, 4 vol., 1992-1998)",
+      "totalOeuvresEstimees": "2 657 créations uniques (huiles, pastels, aquarelles, fusains) + 206 estampes (Mellerio)",
+      "oeuvresConsensusNotice": "L'inventaire scientifique d'autorité mondiale est le monumental Catalogue raisonné de l'œuvre peint et dessiné établi par Alec Wildenstein (Wildenstein Institute, 1992-1998, 4 volumes). Il répertorie la totalité de ses huiles, pastels, aquarelles et dessins aboutis (notamment ses Noirs au fusain) et fixe le corpus officiel et définitif de ces créations uniques à très exactement 2 657 œuvres. S'y ajoutent environ 206 estampes et lithographies recensées par André Mellerio en 1913."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "name": "L'enfance solitaire à Peyrelebade et la période des « Noirs » (1870 – 1889)",
+          "events": [
+            {
+              "year": "1879",
+              "title": "Publication du premier recueil Dans le rêve",
+              "desc": "Fait paraître son premier album de lithographies tiré à 25 exemplaires, peuplé d'yeux-ballons et de têtes flottantes.",
+              "type": "creation",
+              "icon": "👁️"
+            },
+            {
+              "year": "1884",
+              "title": "Consécration dans À rebours de Huysmans",
+              "desc": "L'écrivain fait de Redon le peintre fétiche de son héros des Esseintes, révélant au public ses dessins au fusain hallucinatoires.",
+              "type": "milestone",
+              "icon": "📖"
+            }
+          ]
+        },
+        {
+          "name": "La révélation de la couleur et l'apogée du pastel (1890 – 1904)",
+          "events": [
+            {
+              "year": "1890",
+              "title": "Métamorphose chromatique",
+              "desc": "Abandonne progressivement l'encre et le fusain pour célébrer la lumière par les pastels poudrés et les huiles irisées.",
+              "type": "milestone",
+              "icon": "🎨"
+            },
+            {
+              "year": "1904",
+              "title": "Triomphe au Salon d'Automne",
+              "desc": "Une salle d'honneur lui est dédiée au Grand Palais, consacrant son statut de maître auprès de la nouvelle génération nabi et fauve.",
+              "type": "milestone",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "name": "Les grands décors muraux, les mythes et la sérénité tardive (1905 – 1916)",
+          "events": [
+            {
+              "year": "1910 – 1911",
+              "title": "Décor monumental de l'Abbaye de Fontfroide",
+              "desc": "Peint les panneaux monumentaux Le Jour et La Nuit pour la bibliothèque de Gustave Fayet, sommet de sa quête spirituelle.",
+              "type": "creation",
+              "icon": "✨"
+            },
+            {
+              "year": "1916",
+              "title": "Mort à Paris en pleine Grande Guerre",
+              "desc": "S'éteint à 76 ans en laissant des bouquets de fleurs et des visions mythologiques d'une paix et d'un rayonnement cosmique.",
+              "type": "milestone",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "rembrandt": {
+    "id": "rembrandt",
+    "name": "Rembrandt Harmenszoon van Rijn",
+    "sortName": "Rembrandt",
+    "sortLetter": "R",
+    "dates": "1606 – 1669",
+    "movement": "Siècle d'or néerlandais, Baroque septentrional & Réalisme psychologique",
+    "nationality": "Néerlandais (Leyde, Amsterdam)",
+    "techniques": "Huile sur toile et panneau de chêne, eau-forte, pointe sèche, lavis d'encre de Chine, impasto",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNgXHny4ZA4qViR6xRl9HUY8ryk6L2oFEg_gZjU3ZVd3DmrW75F2YCNagYAV0lfw-uDJFhsQCCv-vxo0NYuZxU3e13cadHaVL4J7lCI6Ek5e7EzuRg0tcF2tDLJ6Z9lSeKXmxyfyx3oo3ppPgCs1NdfjQ=w1708-h725-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le géant du Siècle d'or et le maître absolu de l'introspection humaine</strong><br>
+      Rembrandt Harmenszoon van Rijn, né en 1606 à Leyde et mort en 1669 à Amsterdam, est le géant de l'Âge d'or néerlandais. Contrairement à ses contemporains qui se spécialisaient souvent dans un seul genre, Rembrandt a maîtrisé toutes les facettes de l'art : portrait, paysage, peinture d'histoire et gravure. Personnalité complexe, passant d'une immense richesse à la faillite, il a placé l'humain au cœur de son œuvre. Il n'est pas seulement le peintre de la réalité, mais celui de l'introspection ; il a su capturer l'âme derrière le visage, faisant de chaque ride et de chaque regard le témoin d'une expérience universelle.</p>
+      <p><strong>Un clair-obscur métaphysique et la révolution de la matière picturale</strong><br>
+      Son genre pictural est défini par une manipulation révolutionnaire de la matière et de l'ombre. Le style de Rembrandt repose sur un clair-obscur unique, où la lumière ne vient pas de l'extérieur mais semble émaner des personnages eux-mêmes ou se perdre dans des ténèbres épaisses et vivantes. Il utilise l'<em>impasto</em> (une couche de peinture très épaisse) pour donner du relief à la lumière, créant une texture rugueuse et vibrante. Son dessin n'est pas une ligne nette, mais une suggestion de formes qui émergent du chaos, privilégiant l'émotion et la vérité psychologique sur la perfection académique.</p>
+      <p><strong>De la virtuosité baroque au dépouillement spirituel le plus profond</strong><br>
+      L'évolution de son travail est une trajectoire allant de la virtuosité éclatante vers un dépouillement bouleversant. Ses premières œuvres à Leyde sont précises, presque lisses. À son arrivée à Amsterdam, son style devient baroque et dynamique, culminant avec la célèbre <em>Ronde de nuit</em> (1642). Cependant, après la mort de sa femme Saskia et ses revers financiers, sa manière change radicalement : son pinceau devient plus large, sa palette plus sombre et terreuse, et son regard plus profond. Ses derniers autoportraits et des œuvres comme <em>Le Retour du fils prodigue</em> atteignent une dimension quasi sacrée par leur économie de moyens et leur immense humanité. Il a laissé derrière lui une leçon de peinture où l'ombre n'est pas l'absence de lumière, mais le refuge de la pensée.</p>
+    `,
+    "corpus": {
+      "total": 340,
+      "paintingsCount": 340,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 17,
+      "source": "Rembrandt Research Project (RRP) / Ernst van de Wetering, A Corpus of Rembrandt Paintings (vol. VI, 2014)",
+      "totalOeuvresEstimees": "très exactement 340 peintures strictement autographes",
+      "oeuvresConsensusNotice": "Pendant des décennies, d'innombrables toiles peintes par ses talentueux élèves lui étaient attribuées. En 1968, les Pays-Bas ont lancé le Rembrandt Research Project (RRP) pour séparer scientifiquement la main du maître de celle de ses imitateurs (radiographie, dendrochronologie, analyse chimique des pigments). Dirigé par Ernst van de Wetering, ce projet achevé en 2014 avec la parution du sixième volume a purgé l'ancien inventaire pour fixer le corpus officiel et incontesté à très exactement 340 peintures autographes."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "name": "Les débuts à Leyde et l'affirmation du clair-obscur (1625 – 1631)",
+          "events": [
+            {
+              "year": "1625",
+              "title": "Atelier de jeunesse à Leyde",
+              "desc": "Ouvre son premier atelier avec Jan Lievens après s'être formé auprès de Pieter Lastman à Amsterdam.",
+              "type": "milestone",
+              "icon": "🎨"
+            },
+            {
+              "year": "1629",
+              "title": "L'Autoportrait de Munich et la gravure au manche",
+              "desc": "Expérimente les contrastes extrêmes de lumière et gratte la chevelure directement dans la pâte fraîche au manche du pinceau.",
+              "type": "creation",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "name": "L'apogée amstellodamois, la gloire et l'art d'apparat (1631 – 1642)",
+          "events": [
+            {
+              "year": "1632",
+              "title": "La Leçon d'anatomie du Dr Tulp",
+              "desc": "Consécration foudroyante à Amsterdam avec ce portrait de groupe révolutionnaire qui bouscule toutes les conventions de la corporation des chirurgiens.",
+              "type": "milestone",
+              "icon": "🩺"
+            },
+            {
+              "year": "1634",
+              "title": "Mariage avec Saskia van Uylenburgh et portraits Soolmans-Coppit",
+              "desc": "Épouse Saskia et peint pour les grandes familles marchandes d'Amsterdam l'unique paire de portraits en pied à taille réelle de sa carrière.",
+              "type": "milestone",
+              "icon": "💍"
+            },
+            {
+              "year": "1642",
+              "title": "La Ronde de nuit et la mort de Saskia",
+              "desc": "Achève le monument de la milice civique d'Amsterdam ; la même année, la disparition de son épouse adorée plonge sa vie personnelle dans le deuil.",
+              "type": "milestone",
+              "icon": "⚔️"
+            }
+          ]
+        },
+        {
+          "name": "Les épreuves, la « manière large » et l'introspection testamentaire (1642 – 1669)",
+          "events": [
+            {
+              "year": "1654 – 1656",
+              "title": "Hendrickje Stoffels, Bethsabée au bain et faillite financière",
+              "desc": "Partage sa vie avec Hendrickje Stoffels, peint Bethsabée et déclare banqueroute personnelle, voyant toutes ses collections dispersées aux enchères.",
+              "type": "milestone",
+              "icon": "📜"
+            },
+            {
+              "year": "1661",
+              "title": "Saint Matthieu et l'Ange et Les Syndics des drapiers",
+              "desc": "Affirme une touche rugueuse, sculpturale et vibrante (impasto) qui transcende le réalisme vers une spiritualité intime bouleversante.",
+              "type": "creation",
+              "icon": "📖"
+            },
+            {
+              "year": "1669",
+              "title": "Derniers autoportraits et disparition dans le dénuement",
+              "desc": "S'éteint à 63 ans à Amsterdam après la mort prématurée de son fils Titus, laissant un testament pictural d'une humanité universelle.",
+              "type": "milestone",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -8466,3 +8759,8 @@ window.ARTISTS_REGISTRY["fra_andrea_pozzo"] = window.ARTISTS_REGISTRY["pozzo"];
 window.ARTISTS_REGISTRY["raffaello"] = window.ARTISTS_REGISTRY["raphael"];
 window.ARTISTS_REGISTRY["raffaello_sanzio"] = window.ARTISTS_REGISTRY["raphael"];
 window.ARTISTS_REGISTRY["raffaello_santi"] = window.ARTISTS_REGISTRY["raphael"];
+
+window.ARTISTS_REGISTRY["martial_raysse"] = window.ARTISTS_REGISTRY["raysse"];
+window.ARTISTS_REGISTRY["odilon_redon"] = window.ARTISTS_REGISTRY["redon"];
+window.ARTISTS_REGISTRY["rembrandt_van_rijn"] = window.ARTISTS_REGISTRY["rembrandt"];
+window.ARTISTS_REGISTRY["rembrandt_harmenszoon_van_rijn"] = window.ARTISTS_REGISTRY["rembrandt"];
