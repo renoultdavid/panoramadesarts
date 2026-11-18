@@ -72,6 +72,7 @@ window.ART_OBJECTS.push(
     originSite: "Thèbes",
     locationType: "museum",
     currentLocation: "Musée de Louxor (J. 138)",
+     "backgroundId": "mythe_sekhmet_oeil_re",
     category: "Ronde-bosse en granodiorite polie",
     isHighlight: true,
     chips: ["XVIIIe dynastie", "Sekhmet", "Amenhotep III", "Granodiorite", "Disque solaire", "Uræus", "Musée de Louxor"],
