@@ -1,6 +1,7 @@
 window.ART_OBJECTS = [
   {
     "id": "hockney_portrait_richard_hockney_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -34,6 +35,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_donatien_grau_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -67,6 +69,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_philip_hockney_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -100,6 +103,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_richard_hockney_ii_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -133,6 +137,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_john_cox_2024",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -166,6 +171,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_pierre_saint_jean_2024",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -199,6 +205,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_sir_norman_rosenthal_2024",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -232,6 +239,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_harry_clark_2024",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -265,6 +273,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_ben_torrens_2024",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -298,6 +307,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_albert_clark_2024",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -331,6 +341,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_lewis_dube_2025",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -364,6 +375,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_sonia_mathews_2025",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -397,6 +409,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_la_petite_niche_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -431,6 +444,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_giverny_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -465,6 +479,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_vent_sur_la_mare_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -499,6 +514,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_petits_arbres_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -533,6 +549,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_15_mai_coucher_de_soleil_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -567,6 +584,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_d_apres_munch_moins_qu_on_ne_pense_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -601,6 +619,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_souvenir_de_normandie_2023_2025",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -635,6 +654,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_d_apres_blake_moins_qu_on_ne_pense_2024",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -669,6 +689,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_une_piece_dans_une_piece_et_moi_avec_cigarette_2025",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -703,6 +724,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portraits_d_apres_ingres_uniformes_1999_2000",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -736,6 +758,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_autoportrait_debout_avec_bretelles_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -769,6 +792,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_charlie_scheips_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -802,6 +826,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_matthias_weischer_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -835,6 +860,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_ann_et_david_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -868,6 +894,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_sid_et_joni_assis_pres_d_une_table_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -901,6 +928,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_sid_et_joni_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -934,6 +962,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_jean_pierre_goncalves_de_lima_2008",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -967,6 +996,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_maurice_payne_2008",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1000,6 +1030,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_margaret_hockney_2008",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1033,6 +1064,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_du_matelot_kevin_druez_2009",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1066,6 +1098,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_paul_hockney_2009",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1099,6 +1132,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_autoportraits_ipad_2012",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1132,6 +1166,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_john_baldessari_2013",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1165,6 +1200,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_jonathan_wilkinson_2013",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1198,6 +1234,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_jean_pierre_goncalves_de_lima_2013",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1231,6 +1268,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_le_groupe_iv_2014",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1264,6 +1302,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_stephanie_barron_2014",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1297,6 +1336,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_rufus_hale_2015",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1330,6 +1370,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_margaret_hockney_2015",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1363,6 +1404,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_frank_gehry_2016",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1396,6 +1438,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_bing_mcgilvray_2017",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1429,6 +1472,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_jean_pierre_goncalves_de_lima_ii_2018",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1462,6 +1506,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_erica_bolton_2018",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1495,6 +1540,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_jean_richardson_2018",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1528,6 +1574,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_derek_boshier_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1561,6 +1608,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_rufus_hale_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1594,6 +1642,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_jean_pierre_goncalves_de_lima_ipad_2021",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1627,6 +1676,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_aline_laine_2021",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1660,6 +1710,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_brian_hastings_et_douglas_baxter_2021",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1693,6 +1744,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_jonathan_wilkinson_ipad_2021",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1726,6 +1778,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_autoportrait_10_decembre_2021",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1759,6 +1812,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_autoportrait_20_juin_2022",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1792,6 +1846,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_harry_styles_2022",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1825,6 +1880,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_lucie_lune_et_louis_martin_lambouley_2022",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1858,6 +1914,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_jp_and_little_tess_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1891,6 +1948,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_celia_birtwell_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1924,6 +1982,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_albert_clark_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1957,6 +2016,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_jonathan_wilkinson_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -1990,6 +2050,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_lola_clark_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2023,6 +2084,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_quatre_danseurs_jouant_avec_les_balles_2018_2024",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2057,6 +2119,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_rassemblement_photographie_avec_miroir_2018",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2091,6 +2154,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_spectateurs_regardant_ready_made_crane_miroirs_2018",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2125,6 +2189,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_vue_de_l_atelier_a_l_aube_ii_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2159,6 +2224,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_l_entree_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2193,6 +2259,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_beuvron_en_auge_panorama_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2227,6 +2294,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_la_grande_cour_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2261,6 +2329,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_pommier_normandie_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2295,6 +2364,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_cognassier_normandie_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2329,6 +2399,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_poirier_normandie_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2363,6 +2434,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_arbres_avec_moins_de_brume_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2397,6 +2469,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_arbres_dans_la_brume_2019",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2431,6 +2504,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_point_d_ironie_n64_3d_sans_lunettes_2021",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2465,6 +2539,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portraits_de_fleurs_planche_i_2021",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2499,6 +2574,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portraits_de_fleurs_planche_ii_2021",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2533,6 +2609,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_vue_ensemble_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2567,6 +2644,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_no_220_13th_april_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2601,6 +2679,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_iii_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2635,6 +2714,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_iv_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2669,6 +2749,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_v_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2703,6 +2784,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_vi_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2737,6 +2819,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_vii_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2771,6 +2854,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_viii_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2805,6 +2889,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_ix_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2839,6 +2924,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_x_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2873,6 +2959,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_xi_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2907,6 +2994,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_xii_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2941,6 +3029,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_220_for_2020_planche_xiii_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -2975,6 +3064,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_quelques_gerbes_plus_petites_2020",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3009,6 +3099,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_l_etang_et_l_arbre_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3043,6 +3134,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_un_arbre_en_fleurs_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3077,6 +3169,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_beaucoup_de_floraison_sur_des_arbres_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3111,6 +3204,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_des_livres_et_de_la_pluie_2023",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3145,6 +3239,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_le_tunnel_debut_automne_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3179,6 +3274,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_le_tunnel_debut_juillet_2006",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3213,6 +3309,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_de_plus_grands_arbres_pres_de_warter_tate_2007",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3247,6 +3344,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_arbres_plus_grands_plus_pres_de_warter_ete_2008",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3281,6 +3379,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_aubepines_en_fleurs_pres_de_rudston_2008",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3315,6 +3414,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_la_grande_aubepine_2008",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3349,6 +3449,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_arbres_plus_grands_plus_pres_de_warter_hiver_2008",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3383,6 +3484,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_arbres_abattus_2008",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3417,6 +3519,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_arbres_abattus_a_woldgate_2008",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3451,6 +3554,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_winter_timber_2009",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3485,6 +3589,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_floraison_de_mai_sur_la_route_romaine_2009",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3519,6 +3624,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_a_bigger_message_after_claude_lorrain_2010",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3553,6 +3659,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_le_sermon_sur_la_montagne_vii_2010",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3587,6 +3694,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_sans_titre_2_l_arrivee_du_printemps_2011",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3621,6 +3729,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_l_arrivee_du_printemps_a_woldgate_ipad_2011",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3655,6 +3764,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_l_arrivee_du_printemps_en_2013_fusain_i",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3689,6 +3799,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_l_arrivee_du_printemps_en_2013_fusain_ii",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3723,6 +3834,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_l_arrivee_du_printemps_en_2013_fusain_iii",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3757,6 +3869,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_garrowby_hill_chassis_hexagonal_2017",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3791,6 +3904,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_annonciation_ii_d_apres_fra_angelico_2017",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3825,6 +3939,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_grands_arbres_flamands_d_apres_hobbema_2017",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3859,6 +3974,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_le_chemin_de_l_atelier_2018",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3893,6 +4009,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_de_mon_pere_1955",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3925,6 +4042,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_bolton_junction_eccleshill_1956",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3957,6 +4075,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_going_to_be_a_queen_for_tonight_1960",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -3989,6 +4108,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_adhesiveness_1960",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4021,6 +4141,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_labor_omnia_vincit_1960",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4053,6 +4174,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_we_two_boys_together_clinging_1961",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4085,6 +4207,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_flight_into_italy_swiss_landscape_1962",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4117,6 +4240,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_first_marriage_tate_1962",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4149,6 +4273,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_berlin_a_memory_1962",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4181,6 +4306,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_hypnotist_1963",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4213,6 +4339,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_renaissance_head_lisbonne_1963",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4245,6 +4372,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_two_men_in_a_shower_walker_1963",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4277,6 +4405,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_second_marriage_melbourne_1963",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4309,6 +4438,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_play_within_a_play_1963",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4341,6 +4471,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_boy_about_to_take_a_shower_1964",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4373,6 +4504,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_a_lawn_being_sprinkled_1967",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4405,6 +4537,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_savings_and_loan_building_1967",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4437,6 +4570,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_some_neat_cushions_1967",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4469,6 +4603,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_a_bigger_splash_tate_1967",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4501,6 +4636,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_room_tarzana_1967",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4533,6 +4669,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_christopher_isherwood_don_bachardy_1968",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4565,6 +4702,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_mr_and_mrs_clark_and_percy_tate_1970",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4597,6 +4735,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_of_an_artist_pool_with_two_figures_1972",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4629,6 +4768,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_kerby_after_hogarth_useful_knowledge_1975",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4661,6 +4801,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_henry_and_raymond_1979",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4693,6 +4834,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_nichols_canyon_1980",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4725,6 +4867,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_la_chaise_the_chair_1985",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4757,6 +4900,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_pacific_coast_highway_and_santa_monica_1990",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4789,6 +4933,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_30_sunflowers_1996",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4821,6 +4966,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_road_to_york_through_sledmere_1997",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4853,6 +4999,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_garrowby_hill_boston_1998",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4885,6 +5032,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_a_bigger_grand_canyon_canberra_1998",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4917,6 +5065,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_le_massacre_et_les_problemes_de_representation_2003",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4949,6 +5098,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_soleil_de_minuit_norvege_2003",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -4981,6 +5131,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_route_et_champ_de_mais_yorkshire_2004",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5013,6 +5164,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_route_de_rudston_fin_de_l_ete_2004",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5045,6 +5197,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_route_avec_deux_maisons_yorkshire_2004",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5077,6 +5230,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_passage_dans_la_haie_2004",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5109,6 +5263,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_talus_enchevetre_et_arbres_yorkshire_2004",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5141,6 +5296,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_la_maison_rouge_yorkshire_2004",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5173,6 +5329,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_rudston_trees_ii_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5205,6 +5362,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_vue_de_woldgate_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5237,6 +5395,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_de_rudston_a_sledmere_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5269,6 +5428,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_kilham_a_langtoft_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5301,6 +5461,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_kilham_a_langtoft_ii_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5333,6 +5494,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_vue_de_sledmere_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5365,6 +5527,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_de_langtoft_a_kilham_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5397,6 +5560,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_kilham_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5429,6 +5593,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_sans_titre_paysage_yorkshire_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5461,6 +5626,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_de_sledmere_a_malton_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5493,6 +5659,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_de_kilham_a_langtoft_variante_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5525,6 +5692,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_tunnel_d_arbres_2005",
+    "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
     "artistSort": "Hockney David",
@@ -5557,6 +5725,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hals_paulus_van_beresteyn_louvre_1619",
+    "civId": "occident",
     "artistId": "hals",
     "artist": "Hals Frans",
     "artistSort": "Hals Frans",
@@ -5589,6 +5758,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hals_le_bouffon_au_luth_louvre_1624",
+    "civId": "occident",
     "artistId": "hals",
     "artist": "Hals Frans",
     "artistSort": "Hals Frans",
@@ -5621,6 +5791,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hals_la_bohemienne_louvre_1628",
+    "civId": "occident",
     "artistId": "hals",
     "artist": "Hals Frans",
     "artistSort": "Hals Frans",
@@ -5653,6 +5824,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hals_portrait_de_femme_louvre_1650",
+    "civId": "occident",
     "artistId": "hals",
     "artist": "Hals Frans",
     "artistSort": "Hals Frans",
@@ -5685,6 +5857,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "gris_le_livre_ouvert_rennes_1925",
+    "civId": "occident",
     "artistId": "gris",
     "artist": "Gris Juan",
     "artistSort": "Gris Juan",
@@ -5717,6 +5890,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_le_guitariste_nantes_1757",
+    "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
     "artistSort": "Greuze Jean-Baptiste",
@@ -5749,6 +5923,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_accordee_de_village_louvre_1761",
+    "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
     "artistSort": "Greuze Jean-Baptiste",
@@ -5781,6 +5956,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_jeune_fille_aux_mains_jointes_montpellier_1780",
+    "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
     "artistSort": "Greuze Jean-Baptiste",
@@ -5813,6 +5989,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_la_priere_du_matin_montpellier_1780",
+    "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
     "artistSort": "Greuze Jean-Baptiste",
@@ -5845,6 +6022,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_portrait_saint_morys_nantes_1782",
+    "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
     "artistSort": "Greuze Jean-Baptiste",
@@ -5877,6 +6055,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_portrait_michel_nicolas_hussard_nantes_1805",
+    "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
     "artistSort": "Greuze Jean-Baptiste",

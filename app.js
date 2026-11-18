@@ -3830,6 +3830,9 @@ window.addEventListener('DOMContentLoaded', () => {
       if (!art.image && art.imgSrc) {
         art.image = art.imgSrc;
       }
+      if (!art.civId && (art.artist || art.artistId || (art.periodId && art.periodId.startsWith('occ')) || (art.id && (art.id.startsWith('occ_') || art.id.startsWith('peinture_'))))) {
+        art.civId = 'occident';
+      }
       if (!art.domain && (art.type || art.medium)) {
         art.domain = 'peinture_mosaique';
       }
@@ -11783,7 +11786,7 @@ function renderSearchGallery() {
 
     // 1. Filtre Civilisation (compatible civId "egypte_ancien" et civId "egypte")
     if (selectedCiv !== 'all') {
-      const cId = item.civId || '';
+      const cId = item.civId || (item.artist || item.artistId || (item.periodId && item.periodId.startsWith('occ')) || (item.id && item.id.startsWith('occ_')) ? 'occident' : '');
       if (selectedCiv === 'egypte' && !cId.startsWith('egypte')) return false;
       else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'mycenes'].includes(cId)) return false;
       else if (selectedCiv === 'italie_etrusque' && cId !== 'italie_etrusque' && !cId.startsWith('etrusque') && !cId.startsWith('italie')) return false;

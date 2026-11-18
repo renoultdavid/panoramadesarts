@@ -15389,6 +15389,7 @@ window.ART_OBJECTS = [
     "artistId": "holbein",
     "artist": "Holbein Hans",
     "artistSort": "Holbein Hans",
+    "civId": "occident",
     "title": "Les Ambassadeurs (Jean de Dinteville et Georges de Selve)",
     "date": "1533",
     "dateDisplay": "1533",
