@@ -793,7 +793,7 @@ window.BACKGROUNDS_REGISTRY = {
       "vendôme"
     ],
     "text": "<p>À la fin du XVIe siècle, après plus de trente années de guerres de Religion qui ont déchiré le royaume de France, l'avènement d'Henri IV — premier roi de la dynastie des Bourbons — ouvre une ère décisive de réconciliation nationale couronnée par la promulgation de l'édit de Nantes en 1598. Au côté du souverain s'impose alors une figure majeure de la cour : sa favorite bien-aimée, Gabrielle d'Estrées, marquise de Monceaux puis duchesse de Beaufort.</p>\n<p>Issu d'une grande famille de la noblesse picarde, Gabrielle d'Estrées exerce une influence politique et diplomatique considérable sur le roi, l'accompagnant dans ses campagnes, soutenant l'édit de pacification religieuse et lui donnant trois enfants naturels légitimés, dont César, duc de Vendôme.</p>\n<p>Alors que le mariage stérile d'Henri IV avec Marguerite de Valois est sur le point d'être annulé et que le roi envisage sérieusement d'épouser sa favorite pour fonder une descendance royale directe — promesse symbolisée par l'anneau nuptial et l'annonce d'une nouvelle maternité —, la mort subite et tragique de Gabrielle d'Estrées en avril 1599 brise ce destin royal et ouvre la voie au mariage du souverain avec Marie de Médicis.</p>"
-  }
+  },
    "demeter_kore_persephone_eleusis": {
     "id": "demeter_kore_persephone_eleusis",
     "badge": "MYTHOLOGIE & MYSTÈRES GRECS",
@@ -2172,6 +2172,102 @@ window.BACKGROUNDS_REGISTRY = {
       "saint matthieu et l'ange"
     ],
     "text": "<p>Ancien percepteur d'impôts au bureau de douane de Capharnaüm, Lévi, devenu l'apôtre Matthieu après l'appel fulgurant du Christ (« Suis-moi »), est le premier des quatre évangélistes du Nouveau Testament. Dans la symbolique chrétienne héritée de la vision du prophète Ézéchiel et de l'Apocalypse de Jean, Matthieu est traditionnellement associé à la figure de l'Homme ou de l'Ange ailé (le Tétramorphe), car son récit s'ouvre sur la généalogie humaine et l'Incarnation charnelle du Fils de l'homme.</p>\n<p>Selon la tradition hagiographique et spirituelle, l'évangéliste n'écrit pas son texte sacré comme un simple chroniqueur ou un philosophe profane : il est le scribe docile de la Parole divine, inspiré directement par un messager céleste qui se tient à son côté. Loin d'une majesté distante ou foudroyante, cette transmission prend la forme d'un dialogue secret et intime entre le Créateur et la faiblesse humaine.</p>\n<p>L'ange, penché vers le vieillard au front ridé et aux mains calleuses de scribe, lui souffle à l'oreille les mystères du Royaume des cieux, guidant sa plume et sa réflexion pour transformer la mémoire des paroles évangéliques en une parole d'espérance éternelle pour toutes les nations.</p>"
+  },
+  "hercule_omphale_rouet_lydien": {
+    "id": "hercule_omphale_rouet_lydien",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "Hercule et Omphale : La Soumission du Héros et le Rouet Lydien",
+    "sources": "Apollodore, Bibliothèque (II, 6) ; Ovide, Fastes (II) & Héroïdes (IX)",
+    "keywords": [
+      "hercule et omphale",
+      "hercule",
+      "omphale",
+      "rouet lydien",
+      "reine de lydie",
+      "quenouille"
+    ],
+    "text": "<p>Frappé d'une folie passagère et coupable du meurtre d'Iphitos, le demi-dieu Hercule (Héraclès) consulte l'oracle de Delphes pour purifier sa faute. La Pythie lui ordonne de se vendre comme esclave pour une durée de trois années et d'en remettre le prix aux enfants de la victime. Acheté par Omphale, reine de Lydie, le héros invaincu aux douze travaux découvre une épreuve d'une nature radicalement nouvelle : la servitude amoureuse et l'inversion carnavalesque des rôles.</p>\n<p>Séduite par la force colossale du héros mais soucieuse d'affirmer son empire souverain sur lui, la reine lydienne dépouille le fils de Zeus de ses attributs guerriers. Tandis qu'elle revêt la peau du lion de Némée et brandit la massue d'olivier sauvage, Hercule est revêtu d'une fine tunique pourpre orientale, parfumé d'essences précieuses et assis aux pieds de sa maîtresse pour filer la laine à la quenouille parmi les jeunes suivantes du gynécée, sous les rires moqueurs de la cour.</p>\n<p>Au-delà de la farce mythologique, ce récit antique constitue une méditation profonde sur la toute-puissance d'Éros et le triomphe de la séduction féminine sur la force brute : même le dompteur des monstres et le redresseur de torts de la Terre ne peut échapper au joug de la passion amoureuse, faisant du rouet d'Hercule le symbole universel de la fragilité héroïque devant le désir.</p>"
+  },
+  "ixion_trompe_junon_nephele": {
+    "id": "ixion_trompe_junon_nephele",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "Le Supplice d'Ixion : Le Piège de la Nuée et la Roue Enflammée",
+    "sources": "Pindare, Pythiques (II) ; Ovide, Métamorphoses (IV) & Virgile, Énéide (VI)",
+    "keywords": [
+      "ixion",
+      "roi des lapithes",
+      "trompé par junon",
+      "trompe par junon",
+      "néphélé",
+      "nephele",
+      "roue enflammée",
+      "roue enflammee"
+    ],
+    "text": "<p>Roi des Lapithes en Thessalie, Ixion est l'un des archétypes antiques de l'hybris, cette démesure sacrilège qui pousse les mortels à défier l'ordre cosmique des dieux. Bien qu'il se soit souillé du meurtre perfide de son beau-père, Zeus prend pitié de son remords, le purifie de son crime de sang et l'invite à la table immortelle de l'Olympe pour partager le nectar et l'ambroisie avec les divinités.</p>\n<p>Mais loin de concevoir de la gratitude pour cette faveur inouïe, Ixion s'enivre d'orgueil et ose convoiter Hera (Junon), l'épouse auguste et reine des dieux. Averti de cette audace impie, Zeus conçoit un stratagème optique pour confondre le traître : il façonne avec les brumes célestes un double illusoire de Junon, la nymphe Néphélé. Croyant triompher de la souveraine céleste, Ixion s'unit avec passion à cette nuée inconsistante, engendrant la race monstrueuse et violente des Centaures.</p>\n<p>Démasqué dans son impiété absolue, Ixion est précipité dans les profondeurs ténébreuses du Tartare. Condamné par les dieux à un châtiment éternel, il est attaché par des serpents venimeux à une roue enflammée qui tourne sans fin dans les airs infernaux, avertissement perpétuel aux mortels contre l'ingratitude, la trahison de l'hospitalité et l'illusion des désirs sacrilèges.</p>"
+  },
+  "reine_thomyris_tete_cyrus_sang": {
+    "id": "reine_thomyris_tete_cyrus_sang",
+    "badge": "HISTOIRE ANTIQUE",
+    "title": "La Reine Thomyris et Cyrus : Le Châtiment Sanglant du Conquérant",
+    "sources": "Hérodote, Histoires (Livre I, « Clio », 205-214)",
+    "keywords": [
+      "thomyris",
+      "reine des scythes",
+      "tête de cyrus",
+      "tete de cyrus",
+      "cyrus dans un vase",
+      "vase de sang",
+      "massagètes"
+    ],
+    "text": "<p>Rapporté au livre premier des <em>Histoires</em> d'Hérodote, le face-à-face entre Cyrus le Grand, fondateur tout-puissant de l'Empire perse achéménide, et Thomyris, reine des Massagètes (peuple nomade apparenté aux Scythes des rives de la mer Caspienne), constitue l'un des récits les plus dramatiques de l'Antiquité sur le destin des conquérants.</p>\n<p>Désireux d'étendre son empire sans limites vers les steppes d'Asie centrale, Cyrus tente d'abord d'épouser la reine veuve pour s'emparer de son royaume. Devant son refus indigné, le monarque perse franchit le fleuve Araxe et tend un piège impitoyable à l'armée massagète : simulant une retraite, il abandonne dans son camp des victuailles et des cuves de vin pur. Les guerriers nomades, peu accoutumés à l'alcool, s'enivrent et sont massacrés dans leur sommeil par les Perses, tandis que le jeune fils de la reine, Spargapises, fait prisonnier, choisit de se suicider de honte dès qu'il recouvre ses esprits.</p>\n<p>Ivre de douleur et de fureur maternelle, Thomyris rassemble toutes les forces de son peuple et livre aux Perses une bataille féroce au corps-à-corps, la plus acharnée jamais disputée entre barbares selon l'historien grec. L'armée perse est anéantie et Cyrus lui-même périt sur le champ de bataille. La reine fait alors rechercher le cadavre du roi des rois, lui fait trancher la tête et la plonge dans une outre remplie de sang humain en s'écriant : « Tu m'as privée de mon fils vivant, mais moi, comme je te l'avais promis, je te rassasie du sang dont tu as toujours été insatiable ».</p>"
+  },
+  "parques_fil_destin_clotho_lachesis_atropos": {
+    "id": "parques_fil_destin_clotho_lachesis_atropos",
+    "badge": "MYTHOLOGIE GRÉCO-ROMAINE",
+    "title": "Les Trois Parques : Le Fil Ininterrompu du Destin Humain",
+    "sources": "Hésiode, Théogonie ; Platon, La République (Livre X) ; Virgile, Bucoliques (IV)",
+    "keywords": [
+      "parques",
+      "les parques",
+      "filant le destin",
+      "clotho",
+      "lachésis",
+      "lachesis",
+      "atropos",
+      "fil du destin"
+    ],
+    "text": "<p>Dans les mythologies grecque (les Moires) et romaine (les Parques), les trois sœurs mystérieuses — Clotho (« la Fileuse »), Lachésis (« la Distributrice ») et Atropos (« l'Inflexible ») — sont les maîtresses souveraines de la destinée humaine et universelle. Nées de la Nuit ou filles de Zeus et de Thémis (la Justice divine), elles président à la venue au monde, à la durée de l'existence et au trépas de chaque créature mortelle, et leur décret est si puissant que même les dieux de l'Olympe ne peuvent en infléchir l'arrêt.</p>\n<p>Leur ministère mystique est figuré par le travail ininterrompu du fuseau céleste : Clotho puise la laine brute sur la quenouille et file le fil de la vie dès la naissance ; Lachésis le guide, en mesure la trame et en déroule les péripéties à travers le monde ; enfin, Atropos, la plus redoutable, tient en main les ciseaux d'airain prêts à trancher impitoyablement le fil lorsqu'advient l'heure fatale fixée d'avance.</p>\n<p>Lorsqu'elles président au destin des souverains d'exception, les Parques n'utilisent point une laine rugueuse ou sombre, mais un fil d'or éclatant et pur sous la bénédiction de Jupiter et de Junon. C'est cette tradition que célèbre la grande peinture d'histoire : le fil de la reine n'est point destiné à être rompu par les ciseaux d'Atropos, mais à tisser pour l'éternité la paix, la grandeur et la gloire d'une dynastie.</p>"
+  },
+  "mort_de_didon_bucher_carthage": {
+    "id": "mort_de_didon_bucher_carthage",
+    "badge": "ÉPOPÉE LATINE & TRAGÉDIE",
+    "title": "La Mort de Didon : La Reine Abandonnée et le Bûcher de Carthage",
+    "sources": "Virgile, Énéide (Livre IV) ; Ovide, Héroïdes (VII)",
+    "keywords": [
+      "mort de didon",
+      "didon",
+      "reine de carthage",
+      "bûcher de carthage",
+      "bucher de carthage",
+      "énée",
+      "trahison d'énée"
+    ],
+    "text": "<p>Sommet lyrique et dramatique de l'<em>Énéide</em> de Virgile, le livre IV relate la passion fatale qui unit Didon (Élissa), reine fondatrice de Carthage réfugiée de Tyr, au prince troyen Énée jeté sur ses rivages après la chute de Troie. Liés par un amour incandescent scellé lors d'un orage dans une grotte sous les auspices de Junon, les amants semblent destinés à unir la gloire phénicienne et la lignée troyenne.</p>\n<p>Mais les décrets de Jupiter et le Destin romain rappellent froidement le héros à son devoir : envoyé par le père des dieux, Mercure ordonne à Énée de reprendre la mer sur-le-champ pour aller fonder en Italie la cité qui donnera naissance à Rome. Terrassée par la révélation de cette fuite clandestine et incapable de survivre à l'humiliation et à la trahison de sa foi jurée, Didon feint de préparer un rituel magique pour se libérer de son amour et fait ériger un bûcher funéraire dans la cour de son palais.</p>\n<p>Tandis que la flotte troyenne s'éloigne à l'horizon, la souveraine monte seule sur le bûcher où reposent les armes, le portrait et les vêtements laissés par son amant. Saisissant l'épée même qu'Énée lui avait autrefois offerte, elle transperce sa poitrine avant de s'effondrer sur sa couche pourpre. Dans un dernier souffle prophétique, elle maudit la race troyenne et appelle de son sang la naissance d'un vengeur éternel (annonçant les guerres puniques et la furie d'Hannibal contre Rome), scellant dans le feu et le sacrifice héroïque l'indomptable liberté de son âme.</p>"
+  },
+  "debarquement_marseille_neptune_nereides": {
+    "id": "debarquement_marseille_neptune_nereides",
+    "badge": "MYTHOLOGIE MARINE & ALLÉGORIE",
+    "title": "Neptune et les Néréides : Le Triomphe Marin et l'Accueil de la France",
+    "sources": "Hésiode, Théogonie ; Virgile, Énéide (Livre I) ; Hygin, Fables",
+    "keywords": [
+      "débarquement de la reine à marseille",
+      "debarquement de la reine a marseille",
+      "néréides",
+      "nereides",
+      "neptune et les néréides",
+      "triton"
+    ],
+    "text": "<p>Filles de Nérée (« le Vieillard de la mer ») et de l'Océanide Doris, les cinquante Néréides personnifient les vagues calmes, le miroitement argenté des flots et la grâce bienfaisante des profondeurs marines. Inséparables de Poséidon-Neptune, le dieu souverain des océans armé de son trident, et de son cortège de Tritons sonnant dans des conques d'écume, elles apaisent les tempêtes et veillent sur la navigation sacrée des héros et des souverains.</p>\n<p>Lors de la traversée historique de Marie de Médicis entre Livourne et les côtes provençales en novembre 1600 sur la galère grand-ducale toscane, l'art baroque transfigure le voyage maritime en une éclatante théophanie mythologique : Neptune en personne émerge des flots tumultueux pour dompter les vents furieux et ordonner le calme plat, tandis qu'un Triton vigoureux embouche sa conque marine pour annoncer l'arrivée royale.</p>\n<p>Au pied du navire pavoisé, les trois Néréides déploient l'opulence de leurs corps nacrés et ruisselants d'écume, hissant les cordages d'amarrage avec une sensualité jubilatoire. En amarrant elles-mêmes le vaisseau princier au ponton d'honneur où la France casquée et la ville de Marseille ouvrent leurs bras, les nymphes de la mer scellent l'alliance pacifique de la Terre et de l'Océan au service de la monarchie.</p>"
   },
   "orphee_lyre": {
     "id": "orphee_lyre",

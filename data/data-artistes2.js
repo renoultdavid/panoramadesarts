@@ -9788,19 +9788,24 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   "id": "rubens",
   "name": "Rubens Pierre Paul",
   "sortName": "Rubens Pierre Paul",
+  "sortLetter": "R",
   "dates": "1577 – 1640",
-  "birth": 1577,
-  "death": 1640,
-  "nationality": "Flamand",
-  "movement": "Baroque flamand",
-  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczM8EpF1OUVXvqKvCQvukh6DE9rCJhj0JlfuEg01Mng8GirTDGRd9ZqaguvvDmLIEUJFkCXv82SUBxJSFjQAYNgqRy76cKDV9m75lFN0pmd_BUlHoDF9MioP1jw3opwXgllK0FHGGO882gAYfC9V53kIsw=w1942-h824-s-no-gm?authuser=0",
-  "bio": "Pierre Paul Rubens (1577 – 1640) est le maître incontesté du Baroque flamand et l’un des artistes les plus polyvalents de son temps. À la fois peintre de cour, décorateur de génie et diplomate de haut rang, il a dirigé à Anvers l'un des ateliers les plus productifs d'Europe, influençant durablement l'art occidental par son sens du mouvement, de la couleur et de la grandeur.\n\nSon genre pictural se définit par l'énergie vitale et la sensualité. Rubens fusionne l'héritage de la Renaissance italienne (le dessin de Michel-Ange et la couleur de Titien) avec le réalisme flamand. Son style se caractérise par des compositions dynamiques en diagonale, des musculatures puissantes, des chairs nacrées et une utilisation magistrale de la lumière. Qu'il traite de mythologie, de religion ou de portraits, son art célèbre la vie dans toute sa luxuriance et son mouvement.\n\nL'évolution de son style témoigne d'une maîtrise technique totale au service de la monarchie et de l'Église : après sa période italienne et la vigueur baroque des années 1610, il atteint le sommet de l'art décoratif avec le cycle Marie de Médicis dans les années 1620, avant de s'épanouir dans un lyrisme tardif poétique et vibrant dans son château de Steen.",
+  "movement": "Baroque flamand, Peinture d'histoire, Mythologie & Portrait de cour",
+  "nationality": "Flamand (Siegen, actif à Anvers, Mantoue, Rome, Paris, Londres et Madrid)",
+  "techniques": "Huile sur toile et panneau de chêne, esquisse à l'huile (modello), dessin préparatoire, détrempe",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM8EpF1OUVXvqKvCQvukh6DE9rCJhj0JlfuEg01Mng8GirTDGRd9ZqaguvvDmLIEUJFkCXv82SUBxJSFjQAYNgqRy76cKDV9m75lFN0pmd_BUlHoDF9MioP1jw3opwXgllK0FHGGO882gAYfC9V53kIsw=w1942-h824-s-no-gm?authuser=0",
+  "portraitImg": "",
+  "bio": "\n      <p><strong>Le maître absolu du Baroque flamand et le prince des peintres</strong><br>\n      Pierre Paul Rubens (1577 – 1640) est le maître incontesté du Baroque flamand et l’un des artistes les plus polyvalents et influents de l'histoire de l'art occidental. À la fois peintre d'histoire de cour, décorateur de génie, humaniste érudit et diplomate de haut rang, il a dirigé à Anvers l'un des ateliers les plus productifs d'Europe, révolutionnant la peinture par son sens héroïque du mouvement, sa puissance dramatique et son exaltation sensuelle de la vie.</p>\n      <p><strong>L'énergie vitale, le dynamisme en diagonale et la chair incandescente</strong><br>\n      Son genre pictural fusionne avec maestria l'héritage de la Renaissance italienne — la puissance anatomique de Michel-Ange, le coloris lumineux et chaud de Titien, le clair-obscur dramatique de Caravage — avec le réalisme et la précision tactile flamands. Son style se caractérise par des compositions dynamiques en diagonale ou en spirale, des musculatures athlétiques, des carnations nacrées vibrantes de sang et de lumière, et une prodigieuse liberté de brosse célébrant l'ivresse des sens et la transcendance divine.</p>\n      <p><strong>De la vigueur anversoise au cycle Médicis et à la poésie champêtre de Steen</strong><br>\n      L'évolution de son art marque une souveraineté technique totale au service de l'Église de la Contre-Réforme et des cours princières : après le choc fondateur du séjour italien et les grands retables anversois des années 1610, il atteint le zénith décoratif dans les années 1620 avec le colossal cycle de Marie de Médicis au Palais du Luxembourg. Retiré dans les années 1630 en son château de Het Steen auprès de sa jeune épouse Hélène Fourment, son pinceau s'affranchit de toute commande officielle pour s'épanouir dans un lyrisme tardif pastoral, sensuel et crépusculaire qui préfigure le style Rococo.</p>\n    ",
   "corpus": {
-    "totalOfficial": 1400,
+    "total": 1400,
+    "paintingsCount": 1400,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
     "seenCount": 39,
-    "coveragePercent": 2.8,
-    "officialNote": "L'inventaire scientifique de référence mondiale est le monumental Corpus Rubenianum Ludwig Burchard, publié par le Centrum voor de Vlaamse Primitieven et l'Institut Royal du Patrimoine Artistique de Bruxelles. Ce projet encyclopédique en plusieurs dizaines de volumes distingue strictement les œuvres entièrement autographes de celles issues de l'atelier. Le consensus scientifique muséal et universitaire fixe le corpus officiel des peintures strictement de la main de Rubens à environ 1 400 œuvres.",
-    "corpusUrl": "https://www.corpusrubenianum.eu/"
+    "source": "Corpus Rubenianum Ludwig Burchard (Centrum voor de Vlaamse Primitieven & IRPA Bruxelles)",
+    "totalOeuvresEstimees": "~1 400 peintures strictement autographes répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Corpus Rubenianum Ludwig Burchard, publié par le Centrum voor de Vlaamse Primitieven et l'Institut Royal du Patrimoine Artistique de Bruxelles. Ce projet encyclopédique en plusieurs dizaines de volumes distingue strictement les œuvres entièrement autographes de celles issues de l'atelier. Le consensus scientifique muséal et universitaire fixe le corpus officiel des peintures strictement de la main de Rubens à environ 1 400 œuvres."
   },
   "timeline": {
     "periods": [
@@ -9848,28 +9853,25 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             "year": "1612",
             "title": "Deux enfants endormis (Tokyo, National Museum of Western Art)",
             "desc": "Étude intime et touchante sur le vif, traditionnellement identifiée aux fils de l'artiste Albert et Nicolas, peinte sur panneau avec une liberté de touche remarquable.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "INTIMITÉ FAMILIALE",
-            "icon": "👶",
-            "artworkId": "peinture_rubens_deux_enfants_endormis_tokyo_1612"
+            "icon": "👶"
           },
           {
             "year": "1614 – 1618",
             "title": "Paysage avec les ruines du mont Palatin à Rome (Musée du Louvre)",
             "desc": "Méditation nostalgique sur la grandeur déchue de la Ville éternelle, où la végétation luxuriante reconquiert les voûtes cyclopéennes des palais impériaux.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "MÉDITATION ANTIQUE",
-            "icon": "🏛️",
-            "artworkId": "peinture_rubens_paysage_ruines_mont_palatin_louvre_1614"
+            "icon": "🏛️"
           },
           {
             "year": "1615",
             "title": "Ixion trompé par Junon (Musée du Louvre)",
             "desc": "Allégorie de la démesure et de l'illusion des sens : Ixion étreint la nuée feinte créée par Jupiter sous le regard triomphal de la reine des dieux.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "MYTHOLOGIE MORALISÉE",
-            "icon": "🦚",
-            "artworkId": "peinture_rubens_ixion_roi_des_lapithes_trompe_par_junon_louvre_1615"
+            "icon": "🦚"
           },
           {
             "year": "1615",
@@ -9884,10 +9886,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             "year": "1615",
             "title": "Portrait du peintre Frans Francken l'Ancien (Musée Fabre, Montpellier)",
             "desc": "Hommage vibrant à son confrère peintre d'histoire de la guilde de Saint-Luc, alliant austérité de la fraise flamande et vivacité psychologique du regard.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "PORTRAIT ANVERSOIS",
-            "icon": "🎨",
-            "artworkId": "peinture_rubens_portrait_peintre_frans_francken_ancien_montpellier_1615"
+            "icon": "🎨"
           },
           {
             "year": "1616",
@@ -9911,24 +9912,22 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             "year": "1620 – 1623",
             "title": "Thomyris fait plonger la tête de Cyrus dans le sang (Musée du Louvre)",
             "desc": "Grand tableau d'histoire inspiré d'Hérodote, illustrant le châtiment impitoyable de la reine scythe infligé au conquérant perse insatiable de conquêtes.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "HISTOIRE SACRÉE & PROFANE",
-            "icon": "⚔️",
-            "artworkId": "peinture_rubens_thomyris_reine_scythes_tete_cyrus_sang_louvre_1620"
+            "icon": "⚔️"
           },
           {
             "year": "1620",
             "title": "Allégorie de l'Autriche catholique (Musée Fabre, Montpellier)",
             "desc": "Modello sur panneau commandé à l'aube de la guerre de Trente Ans, figurant la foi habsbourgeoise défendue par la force de Minerve contre l'hérésie réformée.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "MODELLO POLITIQUE",
-            "icon": "🛡️",
-            "artworkId": "peinture_rubens_allegorie_autriche_catholique_attaquee_princes_protestants_montpellier_1620"
+            "icon": "🛡️"
           },
           {
             "year": "1621 – 1625",
-            "title": "La Galerie Médicis au Palais du Luxembourg (Musée du Louvre)",
-            "desc": "Vingt-quatre toiles colossales achevées pour le mariage d'Henriette de France, fusionnant histoire contemporaine et théophanie mythologique gréco-romaine.",
+            "title": "Le Débarquement de la reine à Marseille (Musée du Louvre)",
+            "desc": "Chef-d'œuvre suprême du cycle du Luxembourg : Marie de Médicis accueillie par la France tandis que les Néréides émergent de l'écume marine.",
             "type": "masterpiece",
             "badge": "CHEF-D'ŒUVRE MONUMENTAL",
             "icon": "👑",
@@ -9936,8 +9935,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           },
           {
             "year": "1622 – 1625",
-            "title": "Les Épousailles de la reine & Le Couronnement à Saint-Denis",
-            "desc": "Évocations souveraines des deux temps forts rituels de la souveraine, unissant le faste des brocarts florentins et l'onction monarchique française.",
+            "title": "Le Couronnement de la reine à Saint-Denis (Musée du Louvre)",
+            "desc": "Faste monumental de la consécration royale sous les ogives sacrées de Saint-Denis, déployant la pourpre, l'or et l'onction monarchique.",
             "type": "masterpiece",
             "badge": "CYCLE DU LUXEMBOURG",
             "icon": "⚜️",
@@ -9947,10 +9946,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             "year": "1622 – 1625",
             "title": "L'Apothéose de Henri IV et La Félicité de la Régence",
             "desc": "Sommet de rhétorique visuelle où le Bien-Aimé s'élève parmi les dieux tandis que la Reine mère assume la conduite du navire de l'État dans l'Abondance.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "RHÉTORIQUE VISUELLE",
-            "icon": "✨",
-            "artworkId": "peinture_rubens_apotheose_henri_iv_proclamation_regence_louvre_1622"
+            "icon": "✨"
           },
           {
             "year": "1626 – 1627",
@@ -9973,10 +9971,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             "year": "1630",
             "title": "L'Abondance - Abundantia (Modello)",
             "desc": "Étude à l'huile d'une légèreté vaporeuse pour les décors plafonnants de la Banqueting House de Whitehall, allégorie de la prospérité féconde de la paix.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "ALLÉGORIE DE WHITEHALL",
-            "icon": "🌾",
-            "artworkId": "peinture_rubens_l_abondance_abundantia_1630"
+            "icon": "🌾"
           }
         ]
       },
@@ -9999,19 +9996,17 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             "year": "1633 – 1634",
             "title": "L'Adoration des Mages (King's College Chapel, Cambridge)",
             "desc": "Retable monumental de plus de quatre mètres de haut peint pour le couvent des Dames blanches de Louvain, chef-d'œuvre de dynamisme ascensionnel et de coloris vénitien.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "RETABLE GÉANT",
-            "icon": "👑",
-            "artworkId": "peinture_rubens_adoration_des_mages_kings_college_cambridge_1633"
+            "icon": "👑"
           },
           {
             "year": "1634",
             "title": "Le Triomphe de Judas Macchabée (Musée d'Arts de Nantes)",
             "desc": "Commandé par la cathédrale de Tournai, ce retable monumental illustre l'offrande sacrificielle pour le repos des guerriers tombés au combat.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "ÉPOPÉE BIBLIQUE",
-            "icon": "⚔️",
-            "artworkId": "peinture_rubens_triomphe_de_judas_macchabee_nantes_1634"
+            "icon": "⚔️"
           },
           {
             "year": "1635",
@@ -10025,17 +10020,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             "year": "1635",
             "title": "La Mort de Didon, reine de Carthage (Musée du Louvre)",
             "desc": "Tragédie virgilienne d'un pathétique bouleversant : Didon abandonnée sur le bûcher transperce sa poitrine, peinte avec une sensualité charnelle poignante.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "TRAGÉDIE ANTIQUE",
-            "icon": "🗡️",
-            "artworkId": "peinture_rubens_mort_de_didon_reine_carthage_louvre_1635"
+            "icon": "🗡️"
           },
           {
             "year": "1635 – 1637",
             "title": "Tournoi près des fossés du château de Steen (Musée du Louvre)",
             "desc": "Joute chevaleresque médiévale brossée avec une fougue étourdissante dans un paysage brabançon mordoré baigné d'une atmosphère crépusculaire.",
             "type": "masterpiece",
-            "badge": "FOUCUE CHEVALERESQUE",
+            "badge": "FOUGUE CHEVALERESQUE",
             "icon": "🛡️",
             "artworkId": "peinture_rubens_tournoi_fosses_chateau_de_steen_louvre_1635"
           },
@@ -10043,19 +10037,17 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             "year": "1635 – 1640",
             "title": "Paysage du soir à l'oiseleur, avec pleine lune (Musée du Louvre)",
             "desc": "Morceau de pure poésie atmosphérique où le disque d'argent de la lune se reflète dans les étangs sombres d'Elewijt, annonçant le paysage romantique.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "POÉSIE NOCTURNE",
-            "icon": "🌕",
-            "artworkId": "peinture_rubens_paysage_soir_oiseleur_pleine_lune_louvre_1635"
+            "icon": "🌕"
           },
           {
             "year": "1639",
             "title": "Hélène Fourment au carrosse (Musée du Louvre)",
             "desc": "Portrait d'apparat intime où sa jeune épouse s'apprête à monter dans un carrosse doré devant son manoir, symbole d'une noblesse heureuse et comblée.",
-            "type": "masterpiece",
+            "type": "turning_point",
             "badge": "FÉLICITÉ CONJUGALE",
-            "icon": "🐎",
-            "artworkId": "peinture_rubens_helene_fourment_au_carrosse_louvre_1639"
+            "icon": "🐎"
           },
           {
             "year": "1639",

@@ -1,6 +1,7 @@
 window.ART_OBJECTS = [
   {
     "id": "peinture_rubens_hercule_et_omphale_louvre_1602",
+    "backgroundId": "hercule_omphale_rouet_lydien",
     "artistId": "rubens",
     "artist": "Rubens Pierre Paul",
     "artistSort": "Rubens Pierre Paul",
@@ -161,6 +162,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "peinture_rubens_ixion_roi_des_lapithes_trompe_par_junon_louvre_1615",
+    "backgroundId": "ixion_trompe_junon_nephele",
     "artistId": "rubens",
     "artist": "Rubens Pierre Paul",
     "artistSort": "Rubens Pierre Paul",
@@ -374,6 +376,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "peinture_rubens_thomyris_reine_scythes_tete_cyrus_sang_louvre_1620",
+    "backgroundId": "reine_thomyris_tete_cyrus_sang",
     "artistId": "rubens",
     "artist": "Rubens Pierre Paul",
     "artistSort": "Rubens Pierre Paul",
@@ -482,6 +485,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "peinture_rubens_parques_filant_destin_marie_de_medicis_louvre_1622",
+    "backgroundId": "parques_fil_destin_clotho_lachesis_atropos",
     "artistId": "rubens",
     "artist": "Rubens Pierre Paul",
     "artistSort": "Rubens Pierre Paul",
@@ -758,6 +762,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "peinture_rubens_debarquement_reine_marseille_louvre_1622",
+    "backgroundId": "debarquement_marseille_neptune_nereides",
     "artistId": "rubens",
     "artist": "Rubens Pierre Paul",
     "artistSort": "Rubens Pierre Paul",
@@ -2013,6 +2018,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "peinture_rubens_les_trois_graces_madrid_prado_1639",
+    "backgroundId": "venus_trois_graces_neoplatonisme",
     "artistId": "rubens",
     "artist": "Rubens Pierre Paul",
     "artistSort": "Rubens Pierre Paul",
@@ -2067,6 +2073,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "peinture_rubens_mort_de_didon_reine_carthage_louvre_1635",
+    "backgroundId": "mort_de_didon_bucher_carthage",
     "artistId": "rubens",
     "artist": "Rubens Pierre Paul",
     "artistSort": "Rubens Pierre Paul",
