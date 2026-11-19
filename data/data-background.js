@@ -3534,10 +3534,30 @@ window.BACKGROUNDS_REGISTRY = {
       "orphée et eurydice"
     ],
     "text": "<p>Fils de la muse Calliope et du roi thrace Œagre (ou du dieu Apollon lui-même, qui lui fit don de sa première lyre à sept cordes), Orphée est le prince des poètes et des musiciens de l'Antiquité grecque. Doué d'une voix enchanteresse et d'une virtuosité divine, il possédait le don surnaturel de charmer non seulement les hommes et les bêtes fauves qui venaient se coucher à ses pieds, mais aussi les arbres, les fleuves suspendus dans leur cours et les rochers immobiles qui s'émouvaient à ses accords.</p>\n<p>Uni à la ravissante nymphe Eurydice dans un bonheur sans nuage, son destin bascule le jour où celle-ci, fuyant le berger Aristée à travers les herbes folles, foule une vipère venimeuse et périt mordue au talon. Inconsolable, Orphée ose descendre vivant jusqu'au royaume ténébreux des Enfers (l'Hadès). Par la seule grâce de sa plainte musicale, il fléchit le cœur d'airain de Pluton et de Proserpine, arrachant la promesse de ramener sa bien-aimée à la lumière du jour, avant que son regard impatient ne la perde à jamais au seuil du monde des vivants.</p>\n<p>Retiré dans les forêts sauvages de Thrace, le poète fut finalement mis en pièces par les Ménades en furie lors d'un rituel dionysiaque. Mais le mythe d'Orphée triomphe de la violence : jetée dans les flots du fleuve Hèbre, sa tête coupée continua de chanter tandis que sa lyre sacrée, flottant sur les eaux, continuait de faire résonner une mélodie immortelle jusqu'à l'île de Lesbos, consacrant l'éternité de la création poétique et la survie de l'esprit sur la mort physique.</p>"
-  }
+  },
+  "saint_jerome_ermite_docteur_vulgate": {
+  "id": "saint_jerome_ermite_docteur_vulgate",
+  "badge": "RÉCIT BIBLIQUE & PÈRES DE L'ÉGLISE",
+  "title": "Saint Jérôme : L'Ascèse au Désert, la Pénitence et la Vulgate",
+  "sources": "Lettres de saint Jérôme (Lettre XXII à Eustochium), La Légende dorée de Jacques de Voragine",
+  "keywords": [
+    "saint jérôme",
+    "saint jerome",
+    "saint jérôme en extase",
+    "saint jerome en extase",
+    "jérôme pénitent",
+    "jerome penitent",
+    "saint jérôme au désert",
+    "saint jerome au desert",
+    "vulgate"
+  ],
+  "text": "<p>Né vers 347 à Stridon et mort à Bethléem en 420, saint Jérôme (Eusebius Sophronius Hieronymus) est l'un des quatre Pères fondateurs de l'Église d'Occident et l'érudit monumental à qui l'on doit la <em>Vulgate</em>, la traduction latine de la Bible directement réalisée à partir des textes hébreux et grecs originaux.</p>\n<p>Au-delà de son œuvre intellectuelle souveraine, c'est l'épisode héroïque et tourmenté de sa retraite dans le désert aride de Chalcis (en Syrie) entre 375 et 377 qui a profondément bouleversé l'imaginaire artistique occidental. Habité par une crise spirituelle aiguë et cherchant à expier son attachement passionné aux auteurs profanes de l'Antiquité classique (notamment Cicéron), Jérôme s'impose une discipline ascétique radicale : vivant parmi les bêtes sauvages sous un soleil de plomb, il mortifie sa chair affamée, dort à même le sol pierreux et frappe sa poitrine d'une pierre pour repousser les tentations sensuelles et se conformer aux souffrances de la Passion du Christ.</p>\n<p>Dans l'iconographie chrétienne, la figure de saint Jérôme se partage ainsi entre deux grandes polarités : le docteur de l'Église méditant dans son cabinet d'étude parmi les manuscrits, le crâne de la vanité et le lion apprivoisé dont il retira une épine de la patte ; et l'anachorète décharné agenouillé au désert, la pierre sanglante au poing levé vers le Crucifix dans une extase mystique où le renoncement absolu au monde devient la condition de la vision divine.</p>"
+}
 };
 
 // Alias de compatibilité
 window.BACKGROUNDS_REGISTRY["orphee_eurydice"] = window.BACKGROUNDS_REGISTRY["orphee_lyre"];
 window.BACKGROUNDS_REGISTRY["reine_thomyris_tete_cyrus_sang"] = window.BACKGROUNDS_REGISTRY["reine_thomyris_cyrus_le_grand_scythes_herodote"];
 window.BACKGROUNDS_REGISTRY["jardin_eden_chute_adam_eve"] = window.BACKGROUNDS_REGISTRY["genese_chute_adam_eve_jardin_eden"];
+
+window.BACKGROUNDS_REGISTRY["saint_jerome"] = window.BACKGROUNDS_REGISTRY["saint_jerome_ermite_docteur_vulgate"];

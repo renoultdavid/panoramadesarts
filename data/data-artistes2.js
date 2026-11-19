@@ -10857,8 +10857,419 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       }
     ]
   }
+},
+
+  "soulages": {
+  "id": "soulages",
+  "name": "Soulages Pierre",
+  "sortName": "Soulages Pierre",
+  "sortLetter": "S",
+  "dates": "1919 – 2022",
+  "movement": "Abstraction & Outrenoir (Art informel)",
+  "nationality": "France (Rodez, Aveyron)",
+  "school": "École de Paris (Abstraction de l'après-guerre)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNhy53veWG_BC7ISgRX14TvwlnJEVN7DZ9wQ83OYQ4HUhAy8TqYvtId7OhRbFFhD3GKyifR3pVtAwEp2hWwQAgoD6QoFpLRWg_Lj5vRu1Uo5LiYifnQbgZr_kSAKrNlgINR4zm3MnL6RvuVly1W3CyMfw=w1836-h779-s-no-gm?authuser=0",
+  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczNhy53veWG_BC7ISgRX14TvwlnJEVN7DZ9wQ83OYQ4HUhAy8TqYvtId7OhRbFFhD3GKyifR3pVtAwEp2hWwQAgoD6QoFpLRWg_Lj5vRu1Uo5LiYifnQbgZr_kSAKrNlgINR4zm3MnL6RvuVly1W3CyMfw=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p>Pierre Soulages (1919 – 2022), né à Rodez et mort à Nîmes à l'âge de 102 ans, est le maître absolu de l'abstraction française et l'un des peintres les plus influents du XXe siècle. Surnommé « le peintre du noir », il a consacré plus de 80 ans de carrière à explorer les possibilités infinies d'une seule couleur, ou plutôt d'une seule lumière. Refusant de s'inscrire dans les courants de son époque (comme l'existentialisme ou le surréalisme), il a construit une œuvre radicale et intemporelle, marquée par un rapport physique à la matière et une quête de l'essentiel qui l'a mené à devenir le premier artiste contemporain exposé au Musée du Louvre de son vivant.</p><p>Son genre pictural est une abstraction totale, non figurative, où le sujet n'est pas ce qui est représenté, mais la peinture elle-même. Son style se définit par l'utilisation de larges brosses, de spatules et de racloirs pour structurer la surface de la toile. Il privilégie les formes puissantes, souvent sombres, qui s'organisent en signes ou en rythmes sur des fonds clairs. Pour Soulages, l'espace ne vient pas de la perspective, mais de l'interaction entre les aplats de couleur et le support, créant une tension entre la force du geste et la profondeur du champ visuel.</p><p>L'évolution de son travail est marquée par une rupture historique en 1979, lorsqu'il invente l'Outrenoir (le noir au-delà du noir). Avant cette date, ses toiles jouaient sur le contraste entre le noir et d'autres couleurs (ocres, bleus, blancs). À partir de 1979, il ne peint plus avec le noir, mais avec la lumière réfléchie par le noir. En travaillant la pâte épaisse pour créer des stries, des lissages ou des entailles, il transforme la surface picturale en un miroir changeant. Il achève sa carrière en simplifiant encore son geste, atteignant une forme de monumentalité sereine qui a trouvé son écrin idéal dans l'abbatiale Sainte-Foy de Conques, dont il a conçu les vitraux.</p>",
+  "corpus": {
+    "total": 1730,
+    "paintingsCount": 1730,
+    "drawingsCount": 600,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 13,
+    "source": "Catalogue raisonné Pierre Encrevé (1994–2025, Seuil / Gallimard)",
+    "totalOeuvresEstimees": "~1 730 peintures sur toile répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné des peintures (L'Œuvre complet) établi par l'historien d'art Pierre Encrevé en cinq volumes (publiés entre 1994 et 2025, du Seuil à Gallimard). En retenant exclusivement la peinture sur toile — le cœur de son œuvre cataloguée, qui s'étend de 1946 à 2022 —, le consensus scientifique et muséal fixe le corpus officiel de ses peintures sur toile à environ 1 730 œuvres (auxquelles s'ajoutent notamment environ 600 peintures sur papier, des estampes et les 104 vitraux de Conques)."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "years": "1919 – 1978",
+        "title": "Jeunesse, Débuts au Brou de noix & L'Abstraction gestuelle des contrastes",
+        "color": "#0284c7",
+        "summary": "Enfance à Rodez fascinée par l'art roman et les statues-menhirs, installation à Paris en 1946 et reconnaissance internationale rapide à New York et Paris.",
+        "events": [
+          {
+            "year": "1919",
+            "title": "Naissance à Rodez en Aveyron",
+            "desc": "Naît le 24 décembre 1919 à Rodez. Dès l'adolescence, il admire l'art roman de Conques et les statues-menhirs du musée Fenaille.",
+            "type": "context",
+            "badge": "NAISSANCE",
+            "icon": "🌱"
+          },
+          {
+            "year": "1947",
+            "title": "Installation à Paris & Premiers brous de noix",
+            "desc": "S'installe à Paris et expose au Salon des Surindépendants ses fameux brous de noix aux signes sombres, admirés par Picabia et James Johnson Sweeney.",
+            "type": "milestone",
+            "badge": "DÉBUTS PARISIENS",
+            "icon": "🎨"
+          },
+          {
+            "year": "1950",
+            "title": "Peinture 92 x 73 cm, 13 juin 1950 (Musée d'Arts de Nantes)",
+            "desc": "Bandes sombres vigoureuses superposées en charpente monumentale, laissant filtrer des trouées de lumière ocre et gris bleuté.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "soulages_peinture_92x73_cm_13_juin_1950_nantes"
+          },
+          {
+            "year": "1956",
+            "title": "Peinture 131 x 162 cm, 14 août 1956 (Centre Pompidou, Paris)",
+            "desc": "Toile majeure de la période gestuelle : larges brosses et lames de caoutchouc sculptant des masses noires au rythme autoritaire et poétique.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "soulages_peinture_131x162_14_aout_1956_pompidou"
+          },
+          {
+            "year": "1971",
+            "title": "Peinture 130 x 365 cm, 21 septembre 1971 (Musée Fabre, Montpellier)",
+            "desc": "Format panoramique exceptionnel explorant la vibration spatiale et la profondeur lumineuse d'un bleu d'outremer saturé sur fond clair.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "soulages_peinture_130x365_cm_21_septembre_1971_montpellier"
+          },
+          {
+            "year": "1974",
+            "title": "Peinture 130 x 349 cm, 12 janvier 1974 (Musée d'Arts de Nantes)",
+            "desc": "Puissance sculpturale des registres horizontaux noirs et blancs, obligeant le regard à un balayage latéral temporel de la matière.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "soulages_peinture_130x349_cm_12_janvier_1974_nantes"
+          }
+        ]
+      },
+      {
+        "years": "1979 – 1999",
+        "title": "La Révolution de l'Outrenoir : Sculpter la lumière du noir",
+        "color": "#d97706",
+        "summary": "En janvier 1979, un accident créateur fait basculer son art : il ne peint plus avec le noir, mais avec la lumière diffractée par les reliefs de la pâte.",
+        "events": [
+          {
+            "year": "1979",
+            "title": "Invention de l'Outrenoir dans son atelier parisien",
+            "desc": "Après des heures de travail infructueux sur une toile saturée de noir, il découvre que les reflets sur la texture créent un autre champ mental : l'Outrenoir.",
+            "type": "milestone",
+            "badge": "RUPTURE HISTORIQUE",
+            "icon": "⚡"
+          },
+          {
+            "year": "1986",
+            "title": "Peinture 324 x 362 cm, 1986 (Musée Fabre, Montpellier)",
+            "desc": "Polyptyque architectural monumental combinant sillons obliques argentés et zones lisses et mates absorbant l'obscurité.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "soulages_peinture_324x362_cm_1986_montpellier"
+          },
+          {
+            "year": "1987 – 1994",
+            "title": "Les 104 vitraux de l'abbatiale Sainte-Foy de Conques",
+            "desc": "Crée un verre translucide et non transparent respectant la pureté romane de l'édifice et modulant la lumière naturelle au fil des heures.",
+            "type": "milestone",
+            "badge": "COMMANDE D'ÉTAT",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1996",
+            "title": "Peinture 324 x 181 cm, 30 décembre 1996 (Musée Fabre, Montpellier)",
+            "desc": "Confrontation verticale de plus de trois mètres : aplats mats absorbants opposés à des stries horizontales étincelantes sous l'éclairage.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "soulages_peinture_324x181_cm_30_decembre_1996_montpellier"
+          },
+          {
+            "year": "1997",
+            "title": "Peinture 290 x 654 cm, janvier 1997 (Musée Fabre, Montpellier)",
+            "desc": "Mur d'Outrenoir étiré sur plus de six mètres : réseau dense de sillons gravés transformant la surface en un environnement phénoménologique pur.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "soulages_peinture_290x654_cm_janvier_1997_montpellier"
+          }
+        ]
+      },
+      {
+        "years": "2000 – 2022",
+        "title": "Monumentalité sereine, Consécration au Louvre & Postérité séculaire",
+        "color": "#16a34a",
+        "summary": "Dernières décennies marquées par une économie de geste souveraine, l'ouverture du musée de Rodez et l'hommage exceptionnel du Louvre pour son centenaire.",
+        "events": [
+          {
+            "year": "2001",
+            "title": "Peinture 222 x 222 cm, 1er septembre 2001 (Musée Fabre, Montpellier)",
+            "desc": "Rigueur géométrique du format carré parfait et tension entre le noir dense et les trouées de clarté blanche du support.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "soulages_peinture_222x222_cm_1er_septembre_2001_montpellier"
+          },
+          {
+            "year": "2014",
+            "title": "Inauguration du Musée Soulages à Rodez",
+            "desc": "Ouverture du musée conçu par RCR Arquitectes abritant la donation exceptionnelle de l'artiste (peintures, brous de noix et cartons de Conques).",
+            "type": "milestone",
+            "badge": "MUSÉE MONOGRAPHIQUE",
+            "icon": "🏛️"
+          },
+          {
+            "year": "2019",
+            "title": "Exposition du centenaire au Salon Carré du Musée du Louvre",
+            "desc": "Hommage national rarissime accordé à un artiste vivant au cœur des collections historiques du Louvre pour célébrer son centième anniversaire.",
+            "type": "milestone",
+            "badge": "CONSÉCRATION",
+            "icon": "👑"
+          },
+          {
+            "year": "2022",
+            "title": "Mort à Nîmes à l'âge de 102 ans",
+            "desc": "S'éteint le 25 octobre 2022 à Nîmes. Hommage national rendu dans la cour carrée du Louvre présidé par le chef de l'État.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "soutine": {
+  "id": "soutine",
+  "name": "Soutine Chaïm",
+  "sortName": "Soutine Chaïm",
+  "sortLetter": "S",
+  "dates": "1893 – 1943",
+  "movement": "Expressionnisme (École de Paris)",
+  "nationality": "Russie / France (Actif en France)",
+  "school": "École de Paris",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP4Tay3Y9rqn5Tpl1d-8UvhMGlsrpD_EH7TGsskRa3pjxJElLouNve3IJdA3BfuR7GvKHUSmVJT6-vo0OgymqdxYdQaJLhlf27spsN-ADqBycbW-i3kverLdQF8CoqFm4zfZXqFxI2NPIzraIV3-LXQtQ=w1836-h779-s-no-gm?authuser=0",
+  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczP4Tay3Y9rqn5Tpl1d-8UvhMGlsrpD_EH7TGsskRa3pjxJElLouNve3IJdA3BfuR7GvKHUSmVJT6-vo0OgymqdxYdQaJLhlf27spsN-ADqBycbW-i3kverLdQF8CoqFm4zfZXqFxI2NPIzraIV3-LXQtQ=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p>Chaïm Soutine (1893 – 1943) est l'une des voix les plus déchirantes de l'École de Paris et de l'expressionnisme. Né dans un shtetl de l'Empire russe (actuelle Biélorussie) et émigré en France, il a incarné la figure de l'artiste écorché vif, guidé par une urgence intérieure absolue. Héritier spirituel de Rembrandt et de Goya, il a réinventé la tradition picturale classique par une véhémence gestuelle et une charge émotionnelle d'une rare violence charnelle.</p><p>Son genre pictural se définit par le portrait psychologique, la nature morte aux carcasses et le paysage tourmenté. Son style se caractérise par une pâte épaisse, pétrie à pleines mains ou au couteau, des distorsions anatomiques aiguës et des empâtements volcaniques. Sa peinture ne décrit pas : elle convulse. Les couleurs, dominées par des rouges sanguins, des jaunes bilieux et des verts sourds, semblent extraites de la matière vivante même.</p><p>L'évolution de son style marque un passage du vertige tellurique vers une solennité tragique : après le vertige de Céret (1919 – 1922) où terre et maisons semblent emportées par un séisme, il accède à la sécurité matérielle grâce au collectionneur américain Albert Barnes en 1923. Il peint alors ses célèbres bêtes écorchées et carcasses de bœufs, avant d'apaiser son geste dans les années 1930 à travers sa poignante série d'anonymes au travail (valets, pâtissiers, enfants de chœur).</p>",
+  "corpus": {
+    "total": 340,
+    "paintingsCount": 340,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 1,
+    "source": "Catalogue raisonné Maurice Tuchman, Esti Dunow et Klaus Perls (Taschen, 1993)",
+    "totalOeuvresEstimees": "~340 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné établi par Maurice Tuchman, Esti Dunow et Klaus Perls (Chaïm Soutine (1893–1943) Catalogue Raisonné, Taschen, 1993, en deux volumes). En retenant ses peintures à l'huile cataloguées (portraits, paysages, natures mortes, bœufs écorchés et scènes de genre) et en écartant ses rares dessins, le consensus muséal situe le corpus officiel de ses peintures autour d'environ 340."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "years": "1893 – 1922",
+        "title": "Origines dans le Shtetl, Ruche de Montparnasse & Le Vertige de Céret",
+        "color": "#0284c7",
+        "summary": "Émigre de Smilavitchi à Paris en 1913, se lie avec Modigliani à La Ruche, puis peint à Céret des toiles convulsives d'une intensité tragique.",
+        "events": [
+          {
+            "year": "1893",
+            "title": "Naissance à Smilavitchi (Empire russe)",
+            "desc": "Naît dans une famille juive modeste au sein d'un shtetl biélorusse, dixième de onze enfants d'un tailleur de village.",
+            "type": "context",
+            "badge": "NAISSANCE",
+            "icon": "🌱"
+          },
+          {
+            "year": "1913",
+            "title": "Arrivée à Paris et installation à La Ruche",
+            "desc": "Arrive à Montparnasse, loge à La Ruche et noue une amitié fraternelle avec Amedeo Modigliani et le marchand Léopold Zborowski.",
+            "type": "context",
+            "badge": "ÉCOLE DE PARIS",
+            "icon": "🎨"
+          },
+          {
+            "year": "1920",
+            "title": "La Folle (Tokyo, Musée national d'Art occidental)",
+            "desc": "Portrait expressionniste convulsif peint à Céret : manteau écarlate volcanique, regard écarquillé de détresse et mains noueuses pathétiques.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "soutine_la_folle_tokyo_1920"
+          }
+        ]
+      },
+      {
+        "years": "1923 – 1929",
+        "title": "La Révélation Barnes, les Carcasses de bœuf & La Consécration",
+        "color": "#d97706",
+        "summary": "Le collectionneur américain Albert Barnes achète en bloc plus de cinquante toiles en 1923 ; Soutine peint sa célèbre suite de bêtes écorchées.",
+        "events": [
+          {
+            "year": "1923",
+            "title": "Achat historique du Dr Albert Barnes",
+            "desc": "Le collectionneur de Philadelphie découvre ses toiles chez Zborowski et achète un ensemble considérable, apportant célébrité et aisance financière.",
+            "type": "milestone",
+            "badge": "TOURNANT MAJEUR",
+            "icon": "⚡"
+          },
+          {
+            "year": "1925",
+            "title": "Cycle monumental du Bœuf écorché d'après Rembrandt",
+            "desc": "Installe des carcasses de viande dans son atelier parisien, peignant la chair en décomposition transfigurée en symphonie de vermillon et d'or.",
+            "type": "milestone",
+            "badge": "CHEF-D'ŒUVRE EXPRESSIONNISTE",
+            "icon": "🥩"
+          }
+        ]
+      },
+      {
+        "years": "1930 – 1943",
+        "title": "Portraits d'uniformes, Réfugié dans la clandestinité & Mort tragique",
+        "color": "#16a34a",
+        "summary": "Période d'apaisement plastique avec les portraits d'enfants de chœur et grooms, puis traque sous l'Occupation nazie jusqu'à sa mort en 1943.",
+        "events": [
+          {
+            "year": "1933",
+            "title": "Série des Chasseurs, Grooms et Enfants de chœur",
+            "desc": "Portraits d'anonymes au travail magnifiés par l'uniforme coloré, conférant aux humbles une gravité et une dignité monumentales.",
+            "type": "milestone",
+            "badge": "PORTRAITS D'UNIFORMES",
+            "icon": "👔"
+          },
+          {
+            "year": "1943",
+            "title": "Mort dans la clandestinité sous l'Occupation",
+            "desc": "Réfugié en Touraine sous une fausse identité pour fuir les persécutions antisémites, il meurt à Paris le 9 août 1943 des suites d'un ulcère perforé.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "tanguy": {
+  "id": "tanguy",
+  "name": "Tanguy Yves",
+  "sortName": "Tanguy Yves",
+  "sortLetter": "T",
+  "dates": "1900 – 1955",
+  "movement": "Surréalisme (Onirisme & Biomorphisme)",
+  "nationality": "France / États-Unis",
+  "school": "Groupe surréaliste",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNF4V1WqdyOkzCzyH8_ImqRukOyTRhWwFCra_VmpKiqJdwQ7GU-ugIrpKzUiPFsd8Oal_q_6-CBP81dT3awaiC8LdrXKr3jl8Cnb4N-95FIWoqizgfIoO6CZRZA98cIBjv8mRS4q4lHqmVY80G5-xTLGw=w1836-h779-s-no-gm?authuser=0",
+  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczNF4V1WqdyOkzCzyH8_ImqRukOyTRhWwFCra_VmpKiqJdwQ7GU-ugIrpKzUiPFsd8Oal_q_6-CBP81dT3awaiC8LdrXKr3jl8Cnb4N-95FIWoqizgfIoO6CZRZA98cIBjv8mRS4q4lHqmVY80G5-xTLGw=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p>Yves Tanguy (1900 – 1955) est l'une des figures les plus pures et les plus énigmatiques du Surréalisme. Marin de formation dans la marine marchande avant de devenir peintre par vocation après avoir vu une toile de Giorgio de Chirico dans la vitrine de la galerie Paul Guillaume, il a créé un univers visuel absolument unique, sans équivalent dans l'histoire de l'art, évoquant des paysages mentaux situés aux confins du rêve et de l'hallucination.</p><p>Son genre pictural se définit par le biomorphisme et l'onirisme métaphysique. Contrairement à Salvador Dalí qui déforme des objets réels, Tanguy invente des formes organiques et minérales totalement imaginaires. Son style se caractérise par une ligne d'horizon extrêmement basse, créant des espaces infinis, et par des objets aux textures ambiguës (entre l'os, le galet et la chair) qui projettent des ombres portées longues et nettes sous une lumière irréelle.</p><p>L'évolution de son style marque un passage de la fluidité vers une densification minérale : après ses « paysages de rêve » fluides des années 1920 où les formes flottent dans un éther gazeux, il s'exile aux États-Unis en 1939 avec sa femme la peintre Kay Sage. Son univers se durcit alors, les concrétions se multiplient et se pétrifient. Dans sa période cristalline finale, ses compositions saturées forment des architectures fantastiques et labyrinthiques d'une précision photographique troublante.</p>",
+  "corpus": {
+    "total": 370,
+    "paintingsCount": 370,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 2,
+    "source": "Catalogue Kay Sage (1963) & Comité Yves Tanguy",
+    "totalOeuvresEstimees": "~370 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire de référence historique a été établi par son épouse, la peintre Kay Sage, et publié en 1963 par la galerie Pierre Matisse à New York (Yves Tanguy : Un recueil de ses œuvres / A Summary of His Works, répertoriant 428 œuvres reproduites incluant huiles et gouaches), tandis que les travaux ultérieurs (et l'inventaire mené par le Comité Yves Tanguy) ont affiné le recensement de ses toiles. En retenant strictement ses peintures (huiles sur toile et sur panneau, à l'exclusion de ses gouaches, dessins, collages et gravures), le consensus critique et muséal situe son corpus officiel autour d'environ 370 peintures."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "years": "1900 – 1938",
+        "title": "Choc visuel de De Chirico, Adhésion au Surréalisme & Paysages de rêve",
+        "color": "#0284c7",
+        "summary": "Après la marine marchande, il découvre la peinture en 1923, rejoint Breton et les surréalistes et invente ses espaces oniriques infinis.",
+        "events": [
+          {
+            "year": "1900",
+            "title": "Naissance à Paris dans une famille bretonne",
+            "desc": "Naît le 5 janvier 1900 au ministère de la Marine à Paris. Il passe ses étés d'enfance dans le Finistère, dont les dolmens et chaos rocheux marqueront son imaginaire.",
+            "type": "context",
+            "badge": "NAISSANCE",
+            "icon": "🌱"
+          },
+          {
+            "year": "1925",
+            "title": "Rencontre avec André Breton et adhésion au Surréalisme",
+            "desc": "Adhère au groupe surréaliste de la rue du Château avec Jacques Prévert, participant aux cadavres exquis et adoptant l'automatisme psychique.",
+            "type": "milestone",
+            "badge": "ADHÉSION SURRÉALISTE",
+            "icon": "🌀"
+          },
+          {
+            "year": "1927",
+            "title": "Sans titre (Musée d'arts de Nantes)",
+            "desc": "Paysage mental désolé : plaine minérale parsemée de formes biomorphiques projetant des ombres noires sous un ciel bleu infini.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "tanguy_sans_titre_nantes_1927"
+          },
+          {
+            "year": "1929",
+            "title": "L'Inspiration (Musée des Beaux-Arts de Rennes)",
+            "desc": "Désert onirique où une fumée noire s'élève dans un ciel brumeux au-dessus de concrétions minérales traitées avec un modelé d'une précision chirurgicale.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "tanguy_l_inspiration_rennes_1929"
+          }
+        ]
+      },
+      {
+        "years": "1939 – 1949",
+        "title": "L'Exil américain à Woodbury avec Kay Sage & La Minéralisation des formes",
+        "color": "#d97706",
+        "summary": "Fuyant la guerre en Europe, il s'installe dans le Connecticut avec la peintre Kay Sage ; son univers se durcit en structures géologiques pétrifiées.",
+        "events": [
+          {
+            "year": "1939",
+            "title": "Exil à New York et mariage avec Kay Sage",
+            "desc": "Rejoint New York au début de la Seconde Guerre mondiale puis s'établit dans une ferme de Woodbury (Connecticut) avec Kay Sage.",
+            "type": "context",
+            "badge": "EXIL AMÉRICAIN",
+            "icon": "🏡"
+          },
+          {
+            "year": "1942",
+            "title": "Multiplication et accumulation des structures minérales",
+            "desc": "Ses paysages mentaux s'élargissent en espaces désolés où les formes biomorphiques s'empilent en ossatures géologiques complexes.",
+            "type": "milestone",
+            "badge": "ÉVOLUTION STYLISTIQUE",
+            "icon": "🪨"
+          }
+        ]
+      },
+      {
+        "years": "1950 – 1955",
+        "title": "La Période cristalline, Architectures fantastiques & Mort soudaine",
+        "color": "#16a34a",
+        "summary": "Dernières années marquées par des toiles saturées de concrétions emboîtées d'une netteté photographique, interrompues par une hémorragie cérébrale à 55 ans.",
+        "events": [
+          {
+            "year": "1954",
+            "title": "Multiplication des architectures imaginaires",
+            "desc": "Ses toiles de maturité ultime atteignent une virtuosité technique saisissante, saturant la surface de motifs labyrinthiques sous une lumière glacée.",
+            "type": "milestone",
+            "badge": "PÉRIODE CRISTALLINE",
+            "icon": "💎"
+          },
+          {
+            "year": "1955",
+            "title": "Mort subite à Woodbury (Connecticut)",
+            "desc": "Succombe brutalement à une hémorragie cérébrale le 15 janvier 1955. Selon ses vœux, ses cendres sont dispersées par Pierre Matisse sur la côte de Douarnenez.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
 }
 });
+
 
 
 
@@ -10971,3 +11382,13 @@ window.ARTISTS_REGISTRY["signorelli_luca"] = window.ARTISTS_REGISTRY["signorelli
 
 window.ARTISTS_REGISTRY["alfred_sisley"] = window.ARTISTS_REGISTRY["sisley"];
 window.ARTISTS_REGISTRY["sisley_alfred"] = window.ARTISTS_REGISTRY["sisley"];
+
+window.ARTISTS_REGISTRY["pierre_soulages"] = window.ARTISTS_REGISTRY["soulages"];
+window.ARTISTS_REGISTRY["soulages_pierre"] = window.ARTISTS_REGISTRY["soulages"];
+
+window.ARTISTS_REGISTRY["chaim_soutine"] = window.ARTISTS_REGISTRY["soutine"];
+window.ARTISTS_REGISTRY["chaïm_soutine"] = window.ARTISTS_REGISTRY["soutine"];
+window.ARTISTS_REGISTRY["soutine_chaim"] = window.ARTISTS_REGISTRY["soutine"];
+
+window.ARTISTS_REGISTRY["yves_tanguy"] = window.ARTISTS_REGISTRY["tanguy"];
+window.ARTISTS_REGISTRY["tanguy_yves"] = window.ARTISTS_REGISTRY["tanguy"];
