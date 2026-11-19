@@ -12779,6 +12779,416 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   }
+,
+
+  "van_eyck": {
+  "id": "van_eyck",
+  "name": "Van Eyck Jan",
+  "sortName": "Van Eyck Jan",
+  "sortLetter": "V",
+  "dates": "v. 1390 – 1441",
+  "movement": "Primitifs flamands (Révolution de la peinture à l'huile & Réalisme optique)",
+  "nationality": "Flamande (Bruges / Gand)",
+  "school": "École des Primitifs flamands (XVe siècle)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNWE1i5uZ9baQSXB-JBybBirmfDjSetPg0nkW2xMBGp6wlQbV6EstJeq5rRR6MwScfb7LjnUxXYi-gk8OxBdwUr-Cm1lBd6hlNdIzbfQCUoi1hS1YO7wZbKGVzv_vS3xiSjGVt7prn6wVhrJF2-6B0C8A=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Jan van Eyck (v. 1390 – 1441)</strong> est le père fondateur de la peinture flamande et l'un des plus immenses génies de l'histoire de l'art occidental. Peintre de cour de Philippe le Bon, duc de Bourgogne, il a porté la technique de la peinture à l'huile à un niveau de perfectionnement inédit, permettant de capturer la lumière, l'espace et la matière avec un naturalisme si saisissant qu'il a semblé magique à ses contemporains.</p><p>Son genre pictural se définit par le retable monumental, le portrait bourgeois et le paysage microscopique. Son style se caractérise par l'utilisation de glacis transparents successifs qui font vibrer la lumière de l'intérieur de la toile. Van Eyck combine une observation quasi scientifique du détail (les reflets dans un miroir, les pores de la peau, les fils d'un tapis) avec une vision théologique profonde où chaque élément de la réalité visible devient le symbole d'une réalité divine invisible.</p><p>L'évolution de son style marque l'avènement de l'individualisme moderne et de la spatialité réelle : la révolution du Retable de Gand (achevé en 1432), où les corps d'Adam et Ève et les paysages ouvrent l'espace sur une profondeur infinie ; le portrait en trois-quarts comme présence vivante affichant sa fière devise « Als ich kan » (L'Homme au turban rouge) ; et la perfection de l'espace sacré et profane dans Les Époux Arnolfini et La Vierge au chancelier Rolin, fusionnant portrait contemporain et mystère divin dans une unité lumineuse absolue.</p>",
+  "corpus": {
+    "total": 22,
+    "paintingsCount": 22,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 1,
+    "source": "Consensus scientifique & Catalogues Max J. Friedländer, Erwin Panofsky, Till-Holger Borchert",
+    "totalOeuvresEstimees": "~22 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur les travaux fondateurs de Max J. Friedländer (Early Netherlandish Painting, vol. I), d'Erwin Panofsky, de Till-Holger Borchert (Van Eyck, 2008 / 2020) et du Corpus of Fifteenth-Century Painting in the Southern Netherlands and the Principality of Liège. En retenant strictement les peintures sur panneau conservées dont l'attribution à Jan van Eyck (ou à son atelier étroit sous sa direction) fait consensus — en comptabilisant chaque polyptyque ou retable majeur (comme L'Agneau mystique) comme une unité cohérente, et en écartant les copies tardives, les œuvres perdues connues uniquement par des répliques et les miniatures discutées —, le corpus officiel des peintures conservées se situe autour d'environ 22 oeuvres."
+  },
+  "timeline": {
+    "birth": {
+      "year": "v. 1390",
+      "place": "Maaseik (Principauté de Liège)",
+      "title": "Naissance de Jan van Eyck",
+      "desc": "Naît vers 1390 dans la région mosane, issu d'une lignée de peintres d'exception aux côtés de son frère aîné Hubert van Eyck."
+    },
+    "death": {
+      "year": "1441",
+      "place": "Bruges (Flandre)",
+      "title": "Mort de Jan van Eyck",
+      "desc": "S'éteint le 9 juillet 1441 à Bruges, comblé d'honneurs par le duc de Bourgogne, et inhumé dans l'église Saint-Donatien."
+    },
+    "periods": [
+      {
+        "title": "La Révolution du Retable de Gand & Premières Années (1422 – 1432)",
+        "years": "1422 – 1432",
+        "summary": "Peintre officiel du duc de Bourgogne Philippe le Bon et chargé de missions diplomatiques secrètes, il parachève à Gand le polyptyque fondateur de la peinture occidentale moderne.",
+        "color": "#d4af37",
+        "events": [
+          {
+            "year": "1422 – 1425",
+            "title": "Au service de Jean de Bavière à La Haye",
+            "desc": "Travaille comme peintre officiel et valet de chambre à la cour de Hollande, exécutant décors et miniatures d'une minutie virtuose.",
+            "type": "context",
+            "badge": "COUR DE HOLLANDE",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1425",
+            "title": "Entrée au service du duc Philippe le Bon",
+            "desc": "Nommé peintre et familier de cour du duc de Bourgogne, il effectue plusieurs missions secrètes en Espagne et au Portugal pour négocier le mariage ducal.",
+            "type": "turning_point",
+            "badge": "PEINTRE DUCAL",
+            "icon": "👑"
+          },
+          {
+            "year": "1432",
+            "title": "Achèvement du Retable de l'Agneau Mystique (Gand)",
+            "desc": "Inauguré dans la cathédrale Saint-Bavon de Gand : polyptyque monumental de douze panneaux révolutionnant la lumière, la perspective optique et le nu réaliste.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE MONUMENTAL",
+            "icon": "✨"
+          }
+        ]
+      },
+      {
+        "title": "Le Portrait comme Présence Vivante & Devises Eyckiennes (1432 – 1435)",
+        "years": "1432 – 1435",
+        "summary": "Fixé définitivement à Bruges, il révolutionne le portrait en trois-quarts et signe ses œuvres de sa célèbre devise humaniste 'Als ich kan'.",
+        "color": "#38bdf8",
+        "events": [
+          {
+            "year": "1433",
+            "title": "L'Homme au turban rouge (Londres, National Gallery)",
+            "desc": "Autoportrait présumé : regard inquisiteur fixant directement le spectateur et affirmation fière de son identité d'artiste.",
+            "type": "masterpiece",
+            "badge": "PORTRAIT MYTHIQUE",
+            "icon": "👤"
+          },
+          {
+            "year": "1434",
+            "title": "Les Époux Arnolfini (Londres, National Gallery)",
+            "desc": "Chef-d'œuvre absolu du double portrait et de la spatialité domestique, intégrant le célèbre miroir convexe où le peintre se pose en témoin oculaire.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "van_eyck_portrait_des_epoux_arnolfini_londres_1434"
+          }
+        ]
+      },
+      {
+        "title": "La Perfection de l'Espace Sacré & Apogée Brugeoise (1435 – 1441)",
+        "years": "1435 – 1441",
+        "summary": "Au sommet de son autorité artistique, il réalise pour de hauts dignitaires bourguignons des retables où le sacré fusionne avec la splendeur du réel sensible.",
+        "color": "#10b981",
+        "events": [
+          {
+            "year": "1435",
+            "title": "La Vierge au chancelier Rolin (Paris, Musée du Louvre)",
+            "desc": "Confrontation silencieuse du puissant chancelier bourguignon et de la Vierge dans une loggia ouvrant sur une cité idéale aux mille détails microscopiques.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1436",
+            "title": "La Vierge au chanoine Van der Paele (Bruges, Groeningemuseum)",
+            "desc": "Triomphe absolu du rendu tactile des matières : reflets sur l'armure de saint Georges, brocarts d'or et velours profonds sous une lumière céleste unifiée.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "👑"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "van_gogh": {
+  "id": "van_gogh",
+  "name": "Van Gogh Vincent",
+  "sortName": "Van Gogh Vincent",
+  "sortLetter": "V",
+  "dates": "1853 – 1890",
+  "movement": "Post-impressionnisme & Pionnier de l'Expressionnisme",
+  "nationality": "Néerlandaise (Pays-Bas / France)",
+  "school": "Post-impressionnisme / Émancipation chromatique moderne",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP8fYIZJq-mpm5KaLPULK1YcIrnTTfAMfxLuiwZ1uoLCqz1hVF7ViNpJBbrsEkwwhSo6W8Sw-66MwuPmUhaPw_p0w4q5Kmyqd3HCkJGvE9KU_a6U-eXM8XO7T3yP37p_KfujgYtWUeGMa6uVTyytJ3kCw=w1584-h672-s-no-gm?authuser=0",
+  "bio": "<p><strong>Vincent van Gogh (1853 – 1890)</strong> est l'une des figures les plus universelles de l'histoire de l'art, dont la ferveur créatrice et la quête existentielle ont posé les fondations de l'expressionnisme moderne. Autodidacte passionné d'abord habité par une vocation évangélique auprès des mineurs du Borinage, il fait le choix sacrificiel de la peinture à vingt-sept ans, soutenu indéfectiblement par son frère marchand d'art Théo.</p><p>Son genre pictural parcourt le réalisme social paysan, le paysage incandescent, la nature morte vibrante et le portrait psychologique intime. Son style se caractérise par une pâte picturale généreuse appliquée en touches nerveuses, tourbillonnantes ou hachurées, libérant la couleur de sa fonction mimétique pour en faire le véhicule d'une charge affective et spirituelle paroxystique.</p><p>L'évolution de son œuvre fulgurante se déploie en une décennie : de la période hollandaise sombre et terreuse de Nuenen (<em>Le Tisserand</em>, <em>Les Mangeurs de pommes de terre</em>) à l'éblouissement solaire d'Arles en 1888 (la symphonie jaune des <em>Tournesols</em>, <em>La Chaise de Vincent</em>) ; puis au lyrisme tourmenté de l'asile de Saint-Rémy (<em>Les Oliviers</em>, <em>La Nuit étoilée</em>) jusqu'aux ultimes toiles fiévreuses d'Auvers-sur-Oise en 1890 (<em>Plaine près d'Auvers</em>), où le paysage devient le sismographe déchirant de son âme.</p>",
+  "corpus": {
+    "total": 864,
+    "paintingsCount": 864,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 10,
+    "source": "Catalogues raisonnés Jacob Baart de la Faille (1970) & Jan Hulsker (1996)",
+    "totalOeuvresEstimees": "~864 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue raisonné historique de Jacob Baart de la Faille (The Works of Vincent van Gogh, révisé en 1970) ainsi que sur l'édition critique de Jan Hulsker (The New Complete Van Gogh, 1996) et les recherches continues du Van Gogh Museum d'Amsterdam. Bien que sa production globale dépasse les 2 100 œuvres tous supports confondus (dessins, lettres illustrées, aquarelles), le consensus muséal fixe le corpus officiel de ses peintures (huiles sur toile, sur carton ou sur bois) autour d'environ 864 oeuvres."
+  },
+  "timeline": {
+    "birth": {
+      "year": "1853",
+      "place": "Groot-Zundert (Pays-Bas)",
+      "title": "Naissance de Vincent van Gogh",
+      "desc": "Né le 30 mars 1853, fils d'un pasteur calviniste néerlandais. Développe très jeune une vive sensibilité à la nature et à la littérature."
+    },
+    "death": {
+      "year": "1890",
+      "place": "Auvers-sur-Oise (France)",
+      "title": "Mort de Vincent van Gogh",
+      "desc": "S'éteint le 29 juillet 1890 à Auvers-sur-Oise à l'âge de 37 ans, veillé par son frère adoré Théo qui le rejoindra six mois plus tard."
+    },
+    "periods": [
+      {
+        "title": "Période Hollandaise & Réalisme Social à Nuenen (1880 – 1885)",
+        "years": "1880 – 1885",
+        "summary": "Après ses échecs pastoraux, il se voue corps et âme au dessin et à la peinture. À Nuenen, il vit au plus près des tisserands et des paysans dans des tonalités sombres et denses inspirées de Rembrandt.",
+        "color": "#78716c",
+        "events": [
+          {
+            "year": "1880",
+            "title": "Vocation artistique au Borinage",
+            "desc": "Décide de consacrer sa vie à l'art après avoir partagé la misère des mineurs de fond belges dans un élan de charité absolue.",
+            "type": "turning_point",
+            "badge": "ENGAGEMENT EXTRÊME",
+            "icon": "🔥"
+          },
+          {
+            "year": "1884",
+            "title": "Le Tisserand, vu de trois-quarts droit (Munich, Neue Pinakothek)",
+            "desc": "Étude monumentale du monde ouvrier rural où le corps de l'artisan semble fusionner avec l'imposant métier de bois mécanique.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "van_gogh_le_tisserand_munich_1884"
+          },
+          {
+            "year": "1885",
+            "title": "Les Mangeurs de pommes de terre (Amsterdam, Van Gogh Museum)",
+            "desc": "Premier chef-d'œuvre du réalisme paysan hollandais, peint dans des teintes de terre crue et de lampe à pétrole.",
+            "type": "masterpiece",
+            "badge": "MANIFESTE SOCIAL",
+            "icon": "🥔"
+          }
+        ]
+      },
+      {
+        "title": "La Révolution de la Lumière : Paris & L'Atelier du Midi à Arles (1886 – 1888)",
+        "years": "1886 – 1888",
+        "summary": "Le séjour parisien auprès de Théo déverrouille sa palette au contact des impressionnistes. En février 1888, il gagne Arles où la lumière provençale déclenche une frénésie créatrice sans égale.",
+        "color": "#f59e0b",
+        "events": [
+          {
+            "year": "1886 – 1887",
+            "title": "Le creuset parisien & Découverte de l'estampe japonaise",
+            "desc": "Fréquente l'atelier Cormon, découvre Signac, Gauguin et Toulouse-Lautrec, et s'initie aux aplats lumineux de l'ukiyo-e.",
+            "type": "context",
+            "badge": "AVANT-GARDE PARISIENNE",
+            "icon": "🗼"
+          },
+          {
+            "year": "1888 (mars)",
+            "title": "Verger en fleurs, abricotiers (Édimbourg, National Galleries)",
+            "desc": "Éclosion printanière féerique à son arrivée en Provence, traduisant le réveil de la nature par touches japonisantes légères.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "van_gogh_verger_en_fleurs_abricotiers_edimbourg_1888"
+          },
+          {
+            "year": "1888 (août)",
+            "title": "Tournesols dans un vase, fond bleu turquoise (Munich, Neue Pinakothek)",
+            "desc": "Contraste éclatant entre les corolles d'or flamboyant et un fond vert-bleu turquoise d'une intensité décorative pure.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "van_gogh_tournesols_fond_bleu_munich_1888"
+          },
+          {
+            "year": "1888 (août)",
+            "title": "Tournesols dans un vase, fond jaune (Londres, National Gallery)",
+            "desc": "Le triomphe universel de la symphonie jaune sur jaune, hymne solaire préparé pour accueillir Gauguin dans la Maison jaune.",
+            "type": "masterpiece",
+            "badge": "ICÔNE MONDIALE",
+            "icon": "🌻",
+            "artworkId": "van_gogh_les_tournesols_londres_1888"
+          },
+          {
+            "year": "1888 (décembre)",
+            "title": "La Chaise de Vincent avec sa pipe (Londres, National Gallery)",
+            "desc": "Autoportrait symbolique et humble à travers une chaise paillée de paysan posée sur des tomettes rouges, en contrepoint à celle de Gauguin.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "van_gogh_la_chaise_de_vincent_londres_1888"
+          }
+        ]
+      },
+      {
+        "title": "Saint-Rémy de Provence & L'Apothéose Tragique d'Auvers (1889 – 1890)",
+        "years": "1889 – 1890",
+        "summary": "Interné volontaire à l'asile Saint-Paul-de-Mausole, il canalise ses crises dans des spirales d'une puissance expressive totale, avant de rejoindre le docteur Gachet à Auvers-sur-Oise pour un chant du cygne sublime.",
+        "color": "#3b82f6",
+        "events": [
+          {
+            "year": "1889 (janvier)",
+            "title": "Autoportrait à l'oreille bandée (Londres, Courtauld Institute)",
+            "desc": "Témoignage bouleversant de résilience peint après le drame de la rupture avec Gauguin, affirmant la victoire de l'acte de peindre.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "van_gogh_autoportrait_a_l_oreille_bandee_londres_1889"
+          },
+          {
+            "year": "1889 (avril)",
+            "title": "Vue d'Arles avec arbres en fleurs (Munich, Neue Pinakothek)",
+            "desc": "Dernier regard jeté sur les toits d'Arles à travers une résille de peupliers et d'arbres fruitiers en fleurs avant son départ pour l'asile.",
+            "type": "masterpiece",
+            "badge": "PAYSAGE PROVENÇAL",
+            "icon": "🌳"
+          },
+          {
+            "year": "1889 (juin)",
+            "title": "Les Oliviers (Édimbourg, National Galleries of Scotland)",
+            "desc": "Rythme tellurique et tourbillonnant des feuillages argentés et du sol ondulant sous la chaîne des Alpilles bleutées.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "van_gogh_les_oliviers_edimbourg_1889"
+          },
+          {
+            "year": "1889 (mai)",
+            "title": "Rosier en fleurs (Tokyo, Musée national d'Art occidental)",
+            "desc": "Pénétration contemplative dans la végétation luxuriante du jardin de l'hospice de Saint-Rémy.",
+            "type": "masterpiece",
+            "badge": "NATURE VIBRANTE",
+            "icon": "🌹"
+          },
+          {
+            "year": "1890 (juillet)",
+            "title": "Plaine près d'Auvers par temps d'orage (Munich, Neue Pinakothek)",
+            "desc": "Vaste horizon panoramique sous des ciels d'orage tourmentés peint quelques jours avant sa mort, transfigurant la solitude humaine en infini cosmique.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE ULTIME",
+            "icon": "🌾",
+            "artworkId": "van_gogh_plaine_pres_d_auvers_munich_1890"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "vanni": {
+  "id": "vanni",
+  "name": "Vanni Lippo",
+  "sortName": "Vanni Lippo",
+  "sortLetter": "V",
+  "dates": "1344 – 1375",
+  "movement": "École siennoise du Trecento & Gothique international",
+  "nationality": "Italienne (Sienne)",
+  "school": "École siennoise (Trecento post-peste noire)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN2SILEkBGb-dkFLQH2bcdD4wd42eg28Xn2sheodJtFix_RWWCgfl1xr0yFPoXh6d9qzU_v9n7zwUa0lv0SxovhiMcOPlPbYnU-LwBoTr-11gh2JkBONswoT7tWwhOP-5zy4lDoRfnL0toYLK5QJQgSoA=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Lippo Vanni (actif documenté à Sienne entre 1344 et 1375)</strong> est l'un des maîtres les plus raffinés de l'école siennoise du Trecento, célèbre à la fois comme peintre sur panneau, fresquiste et enlumineur de premier ordre. Évoluant au lendemain de la peste noire de 1348 qui a décimé les grands fondateurs de l'art siennois (Ambrogio et Pietro Lorenzetti), il a su préserver et revivifier l'héritage courtois et sinueux de Simone Martini tout en l'associant à une solide construction spatiale et à une inventivité ornementale d'une minutie d'orfèvre.</p><p>Son genre d'expression se définit par le retable d'autel polyptyque et triptyque portatif, le décor à fresque narratif et en grisaille, l'enluminure de manuscrits liturgiques monumentaux (antiphonaires, gradueux) et la peinture d'étendards civiques. Son style se caractérise par une ligne calligraphique d'une grande fluidité, l'usage virtuose des poinçons sur feuille d'or pour gaufrer nimbes et bordures, une palette chatoyante dominée par des laques précieuses et un modelé délicat des visages aux yeux allongés empreints d'une grâce mélancolique.</p><p>L'évolution de son style marque un passage de l'art du miniaturiste méticuleux vers la grande commande monumentale et civique : de ses débuts d'enlumineur pour l'hôpital Santa Maria della Scala dans les années 1340-1350 (culminant avec le triptyque de 1358 au Vatican) ; aux cycles muraux de San Leonardo al Lago dans les années 1360 affirmant une remarquable maîtrise de la narration architecturale ; jusqu'à sa fresque commémorative de <em>La Bataille de Valdichiana</em> (1372) au Palazzo Pubblico de Sienne et son triptyque illusionniste de San Francesco, affirmant son rang de maître officiel de la République.</p>",
+  "corpus": {
+    "total": 22,
+    "paintingsCount": 22,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 0,
+    "source": "Consensus scientifique & Études Bernard Berenson, Millard Meiss, Henk van Os, Cristina De Benedictis",
+    "totalOeuvresEstimees": "~22 peintures et ensembles de fresques conservés",
+    "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur les travaux des spécialistes de la peinture siennoise du Trecento — notamment Bernard Berenson, Millard Meiss (Painting in Florence and Siena after the Black Death, 1951), Henk van Os (Sienese Altarpieces, 1984) et les notices critiques de Cristina De Benedictis et Luciano Bellosi. En écartant les feuillets enluminés et les livres liturgiques pour ne retenir que ses peintures sur panneau (polyptyques, triptyques, Vierges à l'Enfant) et ses ensembles de fresques conservés (en comptabilisant chaque cycle mural cohérent ou polyptyque majeur comme une unité), le consensus scientifique situe son corpus officiel à environ 22 oeuvres conservées."
+  },
+  "timeline": {
+    "birth": {
+      "year": "v. 1315",
+      "place": "Sienne (Toscane)",
+      "title": "Naissance présumée de Lippo Vanni",
+      "desc": "Issu d'une famille d'artistes siennois, documenté actif pour la première fois en 1344."
+    },
+    "death": {
+      "year": "v. 1375",
+      "place": "Sienne (Toscane)",
+      "title": "Mort de Lippo Vanni",
+      "desc": "Disparaît vers 1375 après avoir occupé de hautes fonctions civiques de prieur au gouvernement communal de Sienne."
+    },
+    "periods": [
+      {
+        "title": "L'Art de la Miniature & Les Premiers Retables (1344 – 1358)",
+        "years": "1344 – 1358",
+        "summary": "Débute comme enlumineur de chœur pour la cathédrale et les grands hôpitaux siennois avant de traduire son luxe ornemental sur panneau de bois.",
+        "color": "#d4af37",
+        "events": [
+          {
+            "year": "1344 – 1345",
+            "title": "Livres liturgiques de Santa Maria della Scala",
+            "desc": "Exécute les lettrines historiées et les enluminures du graduel de l'hôpital Santa Maria della Scala de Sienne.",
+            "type": "context",
+            "badge": "ENLUMINURE SACRÉE",
+            "icon": "📜"
+          },
+          {
+            "year": "1358",
+            "title": "Triptyque d'autel (Rome / Musées du Vatican)",
+            "desc": "Réalise pour le couvent de Santi Domenico e Sisto à Rome un triptyque portatif somptueux alliant feuille d'or ciselée et tendresse martienne.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE TRECENTO",
+            "icon": "✨"
+          }
+        ]
+      },
+      {
+        "title": "L'Affirmation Spatiale & Les Fresques Monastiques (1359 – 1369)",
+        "years": "1359 – 1369",
+        "summary": "Se tourne vers la peinture monumentale à fresque dans les couvents et ermitages du territoire siennois, affermissant la perspective et la narration.",
+        "color": "#38bdf8",
+        "events": [
+          {
+            "year": "v. 1360 – 1365",
+            "title": "Cycle de la Vie de la Vierge à San Leonardo al Lago",
+            "desc": "Décore le chœur de l'ermitage augustinien près de Monteriggioni d'un cycle de fresques intimes d'une grande pureté géométrique.",
+            "type": "masterpiece",
+            "badge": "CYCLE MURAL",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1365",
+            "title": "Vierge à l'Enfant trônant pour San Domenico",
+            "desc": "Peint pour la basilique San Domenico de Sienne un retable monumental affirmant la grandeur protectrice de la Mère céleste.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "👑"
+          }
+        ]
+      },
+      {
+        "title": "Les Commandes Civiques & La Maturité de San Francesco (1370 – 1375)",
+        "years": "1370 – 1375",
+        "summary": "Élu parmi les magistrats de la République de Sienne, il décore le palais communal et signe d'audacieux trompe-l'œil picturaux.",
+        "color": "#10b981",
+        "events": [
+          {
+            "year": "1372",
+            "title": "La Bataille de Valdichiana (Palazzo Pubblico, Sienne)",
+            "desc": "Fresque monochrome monumentale commémorant la victoire militaire de Sienne sur les mercenaires de Niccolò da Montefeltro.",
+            "type": "masterpiece",
+            "badge": "FRESQUE CIVIQUE",
+            "icon": "⚔️"
+          },
+          {
+            "year": "1374",
+            "title": "Triptyque illusionniste de San Francesco (Sienne)",
+            "desc": "Chef-d'œuvre de virtuosité en tempera et or feignant un retable sculpté en marbre blanc aux reliefs d'une saisissante présence optique.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE OPTIQUE",
+            "icon": "🎨"
+          }
+        ]
+      }
+    ]
+  }
+}
 });
 
 
@@ -12954,3 +13364,16 @@ window.ARTISTS_REGISTRY["antoon_van_dyck"] = window.ARTISTS_REGISTRY["van_dyck"]
 window.ARTISTS_REGISTRY["anthony_van_dyck"] = window.ARTISTS_REGISTRY["van_dyck"];
 window.ARTISTS_REGISTRY["antoine_van_dyck"] = window.ARTISTS_REGISTRY["van_dyck"];
 window.ARTISTS_REGISTRY["van_dyck_antoon"] = window.ARTISTS_REGISTRY["van_dyck"];
+
+window.ARTISTS_REGISTRY["jan_van_eyck"] = window.ARTISTS_REGISTRY["van_eyck"];
+window.ARTISTS_REGISTRY["eyck_jan"] = window.ARTISTS_REGISTRY["van_eyck"];
+window.ARTISTS_REGISTRY["eyck"] = window.ARTISTS_REGISTRY["van_eyck"];
+window.ARTISTS_REGISTRY["van-eyck"] = window.ARTISTS_REGISTRY["van_eyck"];
+
+window.ARTISTS_REGISTRY["vincent_van_gogh"] = window.ARTISTS_REGISTRY["van_gogh"];
+window.ARTISTS_REGISTRY["gogh_vincent"] = window.ARTISTS_REGISTRY["van_gogh"];
+window.ARTISTS_REGISTRY["gogh"] = window.ARTISTS_REGISTRY["van_gogh"];
+window.ARTISTS_REGISTRY["van-gogh"] = window.ARTISTS_REGISTRY["van_gogh"];
+
+window.ARTISTS_REGISTRY["lippo_vanni"] = window.ARTISTS_REGISTRY["vanni"];
+window.ARTISTS_REGISTRY["vanni_lippo"] = window.ARTISTS_REGISTRY["vanni"];
