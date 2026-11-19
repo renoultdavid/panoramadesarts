@@ -19,6 +19,899 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+   "vierge_misericorde_peste_noire_xiv": {
+    "id": "vierge_misericorde_peste_noire_xiv",
+    "badge": "HISTOIRE MÉDIÉVALE & DÉVOTION",
+    "title": "La Peste Noire et le Culte de la Vierge de Miséricorde au Manteau Protecteur",
+    "sources": "Chroniques de la Peste Noire (1347–1352) & Traditions monastiques cisterciennes",
+    "keywords": [
+      "miséricorde",
+      "misericorde",
+      "manteau",
+      "peste noire",
+      "malemort",
+      "intercession",
+      "fléaux"
+    ],
+    "text": "<p>À partir de 1347, la grande pandémie de Peste noire ravage l'Europe et décime près de la moitié de la population des cités et des campagnes. Confrontées à la terreur d'une mort foudroyante et sans sacrements, les populations médiévales cherchent des figures de protection immédiate capables d'intercéder auprès d'un Dieu juge.</p>\n<p>C'est dans ce climat d'angoisse collective que s'impose l'iconographie de la Vierge de Miséricorde : représentée dans une stature colossale, Marie ouvre largement les pans de son manteau royal pour abriter sous sa protection l'ensemble de la société chrétienne, hiérarchisée entre clercs d'un côté et laïcs de l'autre.</p>\n<p>Au même titre que saint Christophe — dont la simple vue protégeait de la mort subite pour la journée — ou saint Sébastien invoqué contre les épidémies, cette image votive transforme les murs des églises en véritables boucliers spirituels contre les fléaux du temps.</p>"
+  },
+  "genese_deluge_babel_patriarches": {
+    "id": "genese_deluge_babel_patriarches",
+    "badge": "RÉCITS BIBLIQUES • ANCIEN TESTAMENT",
+    "title": "La Genèse : Du Déluge de Noé à la Tour de Babel et à l'Épopée des Patriarches",
+    "sources": "Livre de la Genèse (chapitres 6 à 50)",
+    "keywords": [
+      "genèse",
+      "genese",
+      "noé",
+      "noe",
+      "arche",
+      "déluge",
+      "deluge",
+      "babel",
+      "abraham",
+      "joseph"
+    ],
+    "text": "<p>Récit fondateur des origines du monde et de l'humanité, le Livre de la Genèse offre aux cycles muraux médiévaux une fresque épique articulée autour des grandes alliances conclues entre Dieu et les hommes.</p>\n<p>Face à la corruption de la terre, le Déluge engloutit l'ancien monde tandis que Noé sauve sa famille et les espèces vivantes à bord d'une arche à trois étages ; mais à peine l'arc-en-ciel de l'Alliance scellé, l'orgueil humain ressurgit à Babel avec l'édification d'une tour défiant le ciel, châtiée par la confusion des langues.</p>\n<p>L'histoire du salut se poursuit alors avec la vocation d'Abraham, appelé à quitter sa terre vers Canaan, puis avec la destinée romanesque de Joseph : vendu par ses frères, emprisonné en Égypte, il devient l'intendant tout-puissant du Pharaon et sauve les peuples de la famine.</p>"
+  },
+  "exode_moise_passage_mer_rouge": {
+    "id": "exode_moise_passage_mer_rouge",
+    "badge": "RÉCITS BIBLIQUES • ANCIEN TESTAMENT",
+    "title": "L'Exode de Moïse : Le Passage de la Mer Rouge et le Don des Tables de la Loi",
+    "sources": "Livre de l'Exode (chapitres 14 à 20)",
+    "keywords": [
+      "exode",
+      "moïse",
+      "moise",
+      "mer rouge",
+      "pharaon",
+      "tables de la loi",
+      "sinaï"
+    ],
+    "text": "<p>Deuxième livre de la Bible, l'Exode relate la libération du peuple hébreu réduit en esclavage en Égypte et sa longue marche fondatrice vers la Terre promise sous la conduite du prophète Moïse.</p>\n<p>L'épisode culminant du Passage de la Mer Rouge met en scène l'intervention miraculeuse de Dieu : les flots s'écartent pour laisser passer la foule des Hébreux chargés de leurs biens et de leurs troupeaux, avant de se refermer et d'engloutir les chars et les cavaliers de l'armée du Pharaon lancée à leur poursuite.</p>\n<p>Au sommet du mont Sinaï, dans les nuées et les éclairs, Moïse reçoit ensuite des mains de Dieu les Tables de la Loi, scellant l'alliance juridique et morale qui fonde l'identité spirituelle d'Israël.</p>"
+  },
+  "legende_vraie_croix_salomon_heraclius": {
+    "id": "legende_vraie_croix_salomon_heraclius",
+    "badge": "HISTOIRE SACRÉE & LÉGENDE DORÉE",
+    "title": "La Légende de la Vraie Croix : De la Reine de Saba à l'Empereur Héraclius",
+    "sources": "Jacques de Voragine, La Légende dorée (XIIIe siècle)",
+    "keywords": [
+      "vraie croix",
+      "reine de saba",
+      "salomon",
+      "héraclius",
+      "heraclius",
+      "sainte hélène",
+      "legende doree"
+    ],
+    "text": "<p>Populaire dans toute la chrétienté médiévale grâce à <em>La Légende dorée</em> de Jacques de Voragine, l'histoire de la Vraie Croix relie symboliquement l'Ancien Testament, la Passion du Christ et l'histoire impériale romaine et byzantine.</p>\n<p>Selon ce récit légendaire, le bois de la Croix provient d'un rameau de l'Arbre de la connaissance planté sur la tombe d'Adam. Devenu une poutre rejetée par les bâtisseurs du Temple de Jérusalem et jetée comme passerelle sur un torrent, ce bois sacré est reconnu par la reine de Saba en visite auprès du roi Salomon, qui s'agenouille devant lui en prophétisant qu'un jour y sera suspendu le Sauveur du monde.</p>\n<p>Redécouverte au IVe siècle à Jérusalem par l'impératrice sainte Hélène, la relique est ensuite dérobée par les Perses puis reconquise au VIIe siècle par l'empereur byzantin Héraclius, qui la rapporte pieds nus et en habit de pénitent dans la Ville sainte.</p>"
+  },
+  "saint_martin_tours_charite_evangelisation": {
+    "id": "saint_martin_tours_charite_evangelisation",
+    "badge": "HAGIOGRAPHIE & HISTOIRE DE L'OCCIDENT",
+    "title": "Saint Martin de Tours : Le Soldat Romain et le Partage du Manteau",
+    "sources": "Sulpice Sévère, Vita Sancti Martini (IVe siècle)",
+    "keywords": [
+      "saint martin",
+      "manteau",
+      "mendiant",
+      "amiens",
+      "tours",
+      "charité",
+      "charite"
+    ],
+    "text": "<p>Né en Pannonie au IVe siècle et enrôlé de force dans la cavalerie impériale romaine, saint Martin de Tours est devenu l'une des figures les plus vénérées de tout l'Occident chrétien, modèle absolu de la charité évangélique.</p>\n<p>Aux portes de la cité d'Amiens, au cœur d'un hiver glacial, le jeune officier croise un pauvre mendiant transi de froid et dénué de tout vêtement. N'ayant plus d'argent en bourse, Martin dégaine son épée militaire et tranche en deux sa chlamyde de soldat pour en couvrir le misérable ; la nuit suivante, le Christ lui apparaît en songe revêtu de cette moitié de manteau.</p>\n<p>Quittant l'armée pour embrasser la vie monastique puis devenir évêque de Tours, Martin parcourt les campagnes de Gaule pour fonder les premiers monastères d'Occident et évangéliser les populations rurales.</p>"
+  },
+  "saint_nicolas_myre_miracles_justice": {
+    "id": "saint_nicolas_myre_miracles_justice",
+    "badge": "HAGIOGRAPHIE & TRADITIONS MÉDIÉVALES",
+    "title": "Saint Nicolas de Myre : Protecteur des Innocents, des Enfants et des Condamnés",
+    "sources": "Hagiographie byzantine & La Légende dorée (XIIIe siècle)",
+    "keywords": [
+      "saint nicolas",
+      "saloir",
+      "boucher",
+      "trois officiers",
+      "condamnés",
+      "myre",
+      "dot"
+    ],
+    "text": "<p>Évêque de Myre en Lycie au IVe siècle, saint Nicolas jouit d'une vénération immense tant en Orient byzantin que dans l'Occident médiéval, où il incarne le défenseur infatigable des faibles, des voyageurs et des victimes d'injustice.</p>\n<p>Les cycles narratifs consacrés à sa vie célèbrent ses interventions miraculeuses : il dote secrètement trois jeunes filles pauvres en jetant des bourses d'or par leur fenêtre pour leur éviter le déshonneur, arrête de ses propres mains le glaive du bourreau prêt à décapiter trois innocents injustement condamnés, et apparaît en songe à l'empereur Constantin pour faire libérer trois officiers emprisonnés.</p>\n<p>En Occident rhénan et lorrain s'ajoute la célèbre légende des trois petits enfants perdus, tués et mis au saloir par un boucher cruel, que l'évêque ressuscite d'un simple signe de croix sept ans plus tard.</p>"
+  },
+  "martyrs_premiers_siecles_sebastien_barthelemy": {
+    "id": "martyrs_premiers_siecles_sebastien_barthelemy",
+    "badge": "HISTOIRE DU CHRISTIANISME & MARTYROLOGE",
+    "title": "Les Premiers Martyrs Chrétiens : Saint Étienne, Saint Sébastien et Saint Barthélemy",
+    "sources": "Actes des Apôtres & Martyrologe romain",
+    "keywords": [
+      "martyre",
+      "martyrs",
+      "saint étienne",
+      "saint etienne",
+      "lapidation",
+      "saint sébastien",
+      "saint sebastien",
+      "flèches",
+      "saint barthélemy",
+      "écorché"
+    ],
+    "text": "<p>Durant les trois premiers siècles de notre ère, le refus des chrétiens de sacrifier aux divinités civiques de l'Empire romain et au culte impérial entraîne de violentes vagues de persécutions, donnant naissance au culte des martyrs, témoins de la foi au prix de leur sang.</p>\n<p>Premier martyr de l'Église, le diacre Étienne est lapidé hors des murs de Jérusalem sous le regard de Saul ; au IIIe siècle, l'officier prétorien Sébastien, dénoncé pour sa foi sous Dioclétien, survit miraculeusement au supplice des flèches avant de devenir le grand saint protecteur contre la peste.</p>\n<p>Quant à l'apôtre Barthélemy, évangélisateur de l'Arménie, il subit le supplice atroce d'être écorché vif, raison pour laquelle l'iconographie médiévale le représente portant sa propre dépouille sur son bras comme le trophée de sa victoire spirituelle.</p>"
+  },
+  "dante_divine_comedie_enfer_paradis": {
+    "id": "dante_divine_comedie_enfer_paradis",
+    "badge": "LITTÉRATURE & ESCHATOLOGIE MÉDIÉVALE",
+    "title": "La Divine Comédie de Dante : La Géographie de l'Au-Delà, de l'Enfer au Paradis",
+    "sources": "Dante Alighieri, La Divine Comédie (1307–1321)",
+    "keywords": [
+      "dante",
+      "divine comédie",
+      "enfer",
+      "paradis",
+      "lucifer",
+      "satan",
+      "jugement dernier",
+      "damnés"
+    ],
+    "text": "<p>Composée au début du XIVe siècle par le poète florentin exilé Dante Alighieri, <em>La Divine Comédie</em> impose à l'imaginaire européen une vision architecturée, morale et saisissante de l'au-delà chrétien.</p>\n<p>Guidé par le poète antique Virgile puis par Béatrice, le voyageur traverse les neuf cercles concentriques de l'Enfer — gouffre souterrain où chaque péché subit un châtiment rigoureusement adapté à sa nature jusqu'au puits glacé où Lucifer broie les traîtres — avant de gravir la montagne du Purgatoire et d'accéder aux sphères lumineuses du Paradis.</p>\n<p>Dès le milieu du XIVe siècle à Florence et à Bologne, les peintres transposent directement cette topographie littéraire sur les murs des chapelles, offrant aux fidèles un miroir implacable de la justice divine.</p>"
+  },
+  "constantin_sylvestre_legitimite_eglise": {
+    "id": "constantin_sylvestre_legitimite_eglise",
+    "badge": "HISTOIRE DE L'ANTIQUITÉ TARDIVE & DU MOYEN ÂGE",
+    "title": "La Conversion de Constantin et le Triomphe de l'Église Chrétienne",
+    "sources": "Actus Silvestri (Ve siècle) & Histoire de l'Empire romain chrétien",
+    "keywords": [
+      "constantin",
+      "saint sylvestre",
+      "dragon",
+      "navicella",
+      "barque de pierre",
+      "thomas d'aquin",
+      "hérésies",
+      "bologne",
+      "urbain viii"
+    ],
+    "text": "<p>Au IVe siècle, la conversion de l'empereur Constantin Ier et la promulgation de l'édit de Milan en 313 mettent fin aux persécutions et font du christianisme la religion privilégiée de l'Empire romain.</p>\n<p>Selon la tradition médiévale des <em>Actus Silvestri</em>, l'empereur frappé de la lèpre est guéri par le baptême administré par le pape saint Sylvestre, qui scelle également le triomphe sur le paganisme en domptant un dragon enfoui sous le Forum romain.</p>\n<p>Tout au long du Moyen Âge et de l'époque moderne, la papauté, les ordres mendiants et les cités pontificales mobilisent ces récits fondateurs — ainsi que l'image de la <em>Navicella</em>, la barque de saint Pierre bravant les tempêtes — pour affirmer la souveraineté spirituelle et temporelle de l'Église face aux schismes et aux hérésies.</p>"
+  },
+  "mythologie_grecque_conseil_olympe_iliade": {
+    "id": "mythologie_grecque_conseil_olympe_iliade",
+    "badge": "MYTHOLOGIE ANTIQUE & ÉPOPÉE HOMÉRIQUE",
+    "title": "L'Assemblée des Dieux de l'Olympe et la Guerre de Troie selon Homère",
+    "sources": "Homère, L'Iliade (Chants I, IV & XX) & Hésiode, Théogonie",
+    "keywords": [
+      "olympe",
+      "iliade",
+      "homère",
+      "homere",
+      "jupiter",
+      "zeus",
+      "junon",
+      "héra",
+      "guerre de troie",
+      "panthéon",
+      "pantheon",
+      "dieux grecs"
+    ],
+    "text": "<p>Dans l'épopée homérique de <em>L'Iliade</em>, les événements terrestres de la guerre de Troie sont indissociables des délibérations et des rivalités passionnées qui agitent l'assemblée des dieux immortels au sommet du mont Olympe.</p>\n<p>Présidé par Zeus (Jupiter), maître de la foudre et garant de l'ordre cosmique, entouré de son épouse Héra (Junon) et des grandes divinités du panthéon — Athéna, Apollon, Artémis, Arès, Aphrodite et Hermès —, le Conseil des Dieux arbitre le destin des héros grecs et troyens.</p>\n<p>Partagés entre leurs faveurs respectives pour les Achéens ou les Troyens, les dieux interviennent tour à tour dans le cours des batailles tout en demeurant soumis aux arrêts souverains du Destin (<em>Moira</em>), offrant aux arts de la Renaissance et du Néoclassicisme l'archétype même de la majesté antique.</p>"
+  },
+   "lumieres_universite_encyclopedie_libertinage": {
+    "id": "lumieres_universite_encyclopedie_libertinage",
+    "badge": "HISTOIRE DES IDÉES • XVIIIe SIÈCLE",
+    "title": "Le Siècle des Lumières : Des Temples du Savoir à l'Esprit Galant",
+    "sources": "Diderot & D'Alembert, L'Encyclopédie (1751) & Histoire culturelle de l'Europe des Lumières",
+    "keywords": [
+      "université",
+      "universite",
+      "sagesse",
+      "encyclopédie",
+      "encyclopedie",
+      "galante",
+      "libertinage",
+      "pastorale",
+      "tivoli",
+      "jean v"
+    ],
+    "text": "<p>Au XVIIIe siècle, l'Europe est traversée par l'élan intellectuel des Lumières qui exalte la raison, le progrès des sciences et la diffusion universelle des savoirs. Des grandes bibliothèques universitaires royales du Portugal aux salons philosophiques de Paris, la connaissance est célébrée comme la lumière suprême guidant l'humanité.</p>\n<p>Parallèlement à cette effervescence encyclopédique s'épanouit dans les cours et les résidences aristocratiques un art de vivre raffiné, marqué par le goût des fêtes champêtres, des jardins d'Italie peuplés de ruines antiques et des pastorales bucoliques inspirées du retour à la nature prôné par les philosophes.</p>\n<p>Dans l'intimité des boudoirs et des cabinets privés, l'esprit libertin célèbre quant à lui la légèreté des plaisirs terrestres, la spontanéité du désir et la liberté des mœurs à la veille des grands bouleversements révolutionnaires.</p>"
+  },
+  "jerusalem_delivree_tasse_renaud_armide": {
+    "id": "jerusalem_delivree_tasse_renaud_armide",
+    "badge": "LITTÉRATURE ÉPIQUE & CROISADES",
+    "title": "La Jérusalem Délivrée du Tasse : Les Amours Enchantées de Renaud et Armide",
+    "sources": "Torquato Tasso (Le Tasse), La Jérusalem délivrée (1581, Chants XIV–XVI)",
+    "keywords": [
+      "renaud",
+      "armide",
+      "le tasse",
+      "jérusalem délivrée",
+      "jerusalem delivree",
+      "croisade",
+      "magicienne"
+    ],
+    "text": "<p>Publiée en 1581 par le poète italien Torquato Tasso (Le Tasse), <em>La Jérusalem délivrée</em> transpose l'épopée historique de la Première Croisade en un poème héroïque et romanesque où s'affrontent le devoir chevaleresque et les enchantements de l'amour.</p>\n<p>Afin de détourner les meilleurs guerriers chrétiens du siège de Jérusalem, la magicienne sarrasine Armide attire le preux chevalier Renaud dans un palais merveilleux situé au cœur d'un jardin édénique où règne un printemps éternel.</p>\n<p>Sous l'emprise du charme, Renaud dépose ses armes et s'abandonne aux délices des sens parmi les nymphes et la musique, jusqu'à ce que deux compagnons d'armes viennent lui tendre un bouclier de diamant poli faisant office de miroir, lui révélant sa déchéance et réveillant son honneur de croisé.</p>"
+  },
+  "ordre_dominicain_saint_dominique_thomas_aquin": {
+    "id": "ordre_dominicain_saint_dominique_thomas_aquin",
+    "badge": "HISTOIRE RELIGIEUSE & MOYEN ÂGE",
+    "title": "L'Ordre des Frères Prêcheurs : Saint Dominique et Saint Thomas d'Aquin",
+    "sources": "Jourdain de Saxe, Libellus & Constitutiones de l'Ordre des Prêcheurs (XIIIe siècle)",
+    "keywords": [
+      "dominicain",
+      "saint dominique",
+      "thomas d'aquin",
+      "san marco",
+      "prêcheurs",
+      "precheurs",
+      "lys",
+      "oraison"
+    ],
+    "text": "<p>Fondé au début du XIIIe siècle par l'Espagnol Dominique de Guzmán pour répondre par la prédication et la pauvreté évangélique aux hérésies cathares, l'Ordre des Frères Prêcheurs transforme profondément la vie intellectuelle et spirituelle de l'Occident médiéval.</p>\n<p>Alliant l'ascèse contemplative de la cellule monastique à l'étude rigoureuse de la théologie au sein des grandes universités, les dominicains trouvent leur sommet doctrinal avec saint Thomas d'Aquin, auteur de la <em>Somme théologique</em> qui réconcilie la foi chrétienne et la philosophie d'Aristote.</p>\n<p>Dans les couvents florentins réformés au XVe siècle, les fresques murales des cellules et des salles capitulaires deviennent de véritables supports d'oraison silencieuse, invitant chaque frère à méditer les mystères de l'Incarnation et de la Passion aux côtés du fondateur de l'Ordre.</p>"
+  },
+  "guerre_mondiale_exil_inconscient_xxe": {
+    "id": "guerre_mondiale_exil_inconscient_xxe",
+    "badge": "HISTOIRE CONTEMPORAINE • XXe SIÈCLE",
+    "title": "Les Bouleversements du XXe Siècle : Guerres Mondiales, Exil et Exploration de l'Inconscient",
+    "sources": "Manifestes des avant-gardes européennes (1924) & Chroniques de l'exil (1939–1945)",
+    "keywords": [
+      "surréalisme",
+      "surrealisme",
+      "inconscient",
+      "automatisme",
+      "exil",
+      "seconde guerre mondiale",
+      "années folles",
+      "annees folles",
+      "art brut"
+    ],
+    "text": "<p>Meurtri par le traumatisme de la Première Guerre mondiale puis par la montée des totalitarismes et la Seconde Guerre mondiale, le XXe siècle bouleverse radicalement le rapport de l'homme européen au monde, à la raison et à sa propre intériorité.</p>\n<p>Dans l'entre-deux-guerres, les explorateurs de l'inconscient et de l'automatisme psychique rejettent le rationalisme bourgeois pour libérer les forces obscures du rêve, de la forêt primitive et du hasard objectif, tandis que d'autres se tournent vers la matière brute et élémentaire du sol.</p>\n<p>À partir de 1939, la guerre et les persécutions jettent sur les routes de l'exil des millions de civils et de créateurs vers l'Amérique, inscrivant durablement la tragédie du déracinement au cœur de la mémoire visuelle contemporaine.</p>"
+  },
+  "reforme_protestante_humanisme_germanique_xvie": {
+    "id": "reforme_protestante_humanisme_germanique_xvie",
+    "badge": "HISTOIRE MODERNE & RÉFORME",
+    "title": "L'Humanisme Germanique et la Réforme Luthérienne au XVIe Siècle",
+    "sources": "Martin Luther, Thèses de Wittenberg (1517) & Chroniques des villes libres d'Empire",
+    "keywords": [
+      "réforme",
+      "reforme",
+      "luther",
+      "nuremberg",
+      "humanisme",
+      "saint jérôme",
+      "saint jerome",
+      "quatre apôtres",
+      "quatre apotres",
+      "salvator mundi"
+    ],
+    "text": "<p>Au tournant du XVIe siècle, les grandes cités libres du Saint-Empire romain germanique — telles que Nuremberg ou Augsbourg — deviennent des foyers rayonnants de l'humanisme nordique, portés par l'essor de l'imprimerie, le commerce international et la redécouverte des textes antiques.</p>\n<p>Dans ce climat d'émancipation intellectuelle, le créateur revendique pour la première fois la dignité souveraine de l'individu et de l'esprit humain, s'affranchissant du statut d'artisan anonyme pour s'affirmer comme un penseur à part entière.</p>\n<p>À partir de 1517, la prédication de Martin Luther et la Réforme protestante bouleversent la chrétienté : prônant le retour direct à l'Écriture sainte (<em>Sola Scriptura</em>), la nouvelle spiritualité privilégie la méditation austère sur la mort, la responsabilité morale des magistrats et l'autorité suprême des textes apostoliques.</p>"
+  },
+  "unification_japon_azuchi_momoyama_samourais": {
+    "id": "unification_japon_azuchi_momoyama_samourais",
+    "badge": "HISTOIRE DU JAPON FÉODAL",
+    "title": "L'Unification du Japon à l'Époque Azuchi-Momoyama et l'Ère des Samouraïs",
+    "sources": "Chroniques de l'époque Sengoku & d'Azuchi-Momoyama (1573–1603)",
+    "keywords": [
+      "japon",
+      "osaka",
+      "samouraï",
+      "samourai",
+      "toyotomi hideyoshi",
+      "tokugawa",
+      "tenshukaku",
+      "azuchi-momoyama",
+      "shogunat"
+    ],
+    "text": "<p>À la fin du XVIe siècle, après plus d'un siècle de guerres civiles incessantes entre seigneurs féodaux (l'époque <em>Sengoku</em>), trois grands chefs de guerre — Oda Nobunaga, Toyotomi Hideyoshi et Tokugawa Ieyasu — accomplissent l'unification politique et militaire de l'archipel nippon.</p>\n<p>Pour asseoir son autorité suprême sur les clans rivaux, Toyotomi Hideyoshi entreprend dès 1583 l'édification de forteresses colossales aux soubassements de granit cyclopéen et aux donjons (<em>tenshukaku</em>) rehaussés de feuilles d'or, symboles éclatants de la puissance et du faste de l'époque Azuchi-Momoyama.</p>\n<p>Les sièges titanesques qui suivent au début du XVIIe siècle scellent la victoire définitive du shogunat Tokugawa et ouvrent plus de deux siècles et demi de paix intérieure et de stabilité sous l'ère d'Edo.</p>"
+  },
+  "dionysos_bacchus_triomphe_ariane_mythologie": {
+    "id": "dionysos_bacchus_triomphe_ariane_mythologie",
+    "badge": "MYTHOLOGIE GRÉCO-ROMAINE",
+    "title": "Bacchus (Dionysos) et le Triomphe d'Ariane : L'Ivresse Sacrée et le Renouveau",
+    "sources": "Ovide, Les Métamorphoses & Les Fastes (Livre III)",
+    "keywords": [
+      "bacchus",
+      "dionysos",
+      "bacchanales",
+      "ariane",
+      "vendange",
+      "vin",
+      "bacchantes",
+      "aurore"
+    ],
+    "text": "<p>Fils de Zeus et de la mortelle Sémélé, Dionysos — appelé Bacchus à Rome — est le dieu de la vigne, du vin, de l'extase mystique et du théâtre, incarnant la force vitale indomptée de la nature et le cycle perpétuel de la renaissance.</p>\n<p>Selon le mythe relaté par Ovide, alors que la princesse crétoise Ariane pleure sur le rivage désert de l'île de Naxos après avoir été abandonnée par Thésée, Bacchus surgit à la tête d'un joyeux cortège de satyres, de silènes et de bacchantes, l'épouse et jette sa couronne nuptiale dans le ciel où elle devient la constellation de la Couronne boréale.</p>\n<p>Dans les résidences princières de la Renaissance italienne, les cycles dédiés aux bacchanales et au lever de l'Aurore célèbrent l'abondance, la paix civile et l'harmonie cosmique assurées par le mécénat éclairé des souverains.</p>"
+  },
+  "louis_xiv_roi_soleil_absolutisme_versailles": {
+    "id": "louis_xiv_roi_soleil_absolutisme_versailles",
+    "badge": "HISTOIRE DE FRANCE • GRAND SIÈCLE",
+    "title": "Louis XIV, le Roi-Soleil et la Symbolique Cosmique de la Monarchie Absolue",
+    "sources": "Mémoires de Louis XIV & Programmes iconographiques de Versailles (1661–1715)",
+    "keywords": [
+      "louis xiv",
+      "roi-soleil",
+      "versailles",
+      "apollon",
+      "diane",
+      "mercure",
+      "vénus",
+      "venus",
+      "sacre",
+      "regalia",
+      "absolutisme"
+    ],
+    "text": "<p>À partir de 1661, lorsqu'il décide de gouverner seul sans premier ministre, Louis XIV forge autour de sa personne une mythologie politique cohérente faisant du monarque de droit divin le centre ordonnateur du royaume et de l'univers, à l'image du Soleil dispensant sa lumière et sa vie à toutes les planètes.</p>\n<p>À Versailles, les grands salons d'apparat déclinent cette cosmologie royale en associant chaque planète et divinité antique aux vertus du souverain : Apollon sur son char solaire incarne la gloire rayonnante, Mercure l'intelligence diplomatique et les arts, Diane la maîtrise des flots et Vénus l'harmonie de la cour.</p>\n<p>Lorsqu'il apparaît revêtu du grand manteau bleu fleurdelisé doublé d'hermine et entouré des <em>regalia</em> du sacre de Reims — la couronne, le sceptre, la main de justice et l'épée Joyeuse —, le roi incarne la continuité sacrée et immortelle de l'État.</p>"
+  },
+  "hercule_douze_travaux_apotheose_olympe": {
+    "id": "hercule_douze_travaux_apotheose_olympe",
+    "badge": "MYTHOLOGIE ANTIQUE & HÉROÏSME",
+    "title": "Les Travaux d'Hercule et son Apothéose sur le Mont Olympe",
+    "sources": "Apollodore, Bibliothèque & Ovide, Les Métamorphoses (Livre IX)",
+    "keywords": [
+      "hercule",
+      "héraclès",
+      "heracles",
+      "apothéose",
+      "apotheose",
+      "douze travaux",
+      "immortalité",
+      "hébé"
+    ],
+    "text": "<p>Héros par excellence de la mythologie gréco-romaine, Héraclès — connu à Rome sous le nom d'Hercule — incarne la victoire de la vertu, du courage et de la civilisation sur les monstres et les forces du chaos à travers l'accomplissement de ses douze travaux légendaires.</p>\n<p>Consumée sur le bûcher du mont Œta après l'épisode tragique de la tunique empoisonnée du centaure Nessos, sa part mortelle est purifiée par les flammes tandis que son père Zeus l'enlève dans les cieux sur un quadrige céleste.</p>\n<p>Accueilli solennellement sur le mont Olympe au milieu de l'assemblée des dieux immortels et uni à Hébé, déesse de l'éternelle jeunesse, Hercule devient pour les souverains d'Europe le modèle suprême du prince héroïque accédant à la gloire éternelle par ses vertus.</p>"
+  },
+  "cours_princieres_italie_renaissance_mecenat": {
+    "id": "cours_princieres_italie_renaissance_mecenat",
+    "badge": "HISTOIRE DE L'ITALIE • QUATTROCENTO",
+    "title": "Les Cours Princières de la Renaissance Italienne : Urbino, Rimini et Bologne",
+    "sources": "Baldassare Castiglione, Le Livre du Courtisan (1528) & Chroniques des cités-États",
+    "keywords": [
+      "urbino",
+      "montefeltro",
+      "rimini",
+      "malatesta",
+      "bentivoglio",
+      "condottiere",
+      "pétrarque",
+      "petrarque",
+      "triomphes"
+    ],
+    "text": "<p>Au XVe siècle, l'Italie morcelée en cités-États et principautés rivales voit l'émergence de princes-condottieres — tels les Montefeltro à Urbino, les Malatesta à Rimini ou les Bentivoglio à Bologne — qui allient la maîtrise des armes à un mécénat humaniste raffiné.</p>\n<p>S'inspirant des effigies de profil des médailles impériales romaines et de la poésie allégorique des <em>Triomphes</em> de Pétrarque, ces souverains mettent en scène leur légitimité politique en associant la gloire des armes aux vertus cardinales et à la protection des lettres et des arts.</p>\n<p>Dans les palais et les chapelles dynastiques, le dialogue entre la Renommée terrestre et la Mort rappelle toutefois que seule la sagesse philosophique et l'élévation spirituelle assurent au prince une mémoire immortelle.</p>"
+  },
+  "siecle_or_provinces_unies_morale_domestique": {
+    "id": "siecle_or_provinces_unies_morale_domestique",
+    "badge": "HISTOIRE DES PROVINCES-UNIES • XVIIe SIÈCLE",
+    "title": "La Société Bourgeoise des Provinces-Unies : L'Ordre Domestique et les Plaisirs du Monde",
+    "sources": "Jacob Cats, Houwelick (1625) & Histoire sociale de Delft et d'Amsterdam",
+    "keywords": [
+      "delft",
+      "amsterdam",
+      "provinces-unies",
+      "foyer",
+      "vertu domestique",
+      "joueurs de cartes",
+      "intempérance",
+      "cartes géographiques"
+    ],
+    "text": "<p>Au XVIIe siècle, les Provinces-Unies indépendantes bâtissent une république marchande prospère où le foyer familial devient le pilier de l'ordre moral et civique calviniste.</p>\n<p>Dans les maisons de briques de Delft comme dans les demeures patriciennes d'Amsterdam ornées de pavements de marbre, de cuirs dorés et de cartes géographiques témoignant de l'expansion maritime mondiale, l'harmonie domestique et l'éducation des enfants incarnent les vertus cardinales de la société.</p>\n<p>À travers les scènes de compagnie réunissant joueurs de cartes, buveurs et fumeurs, la culture hollandaise interroge avec finesse la frontière entre l'art de vivre raffiné et la mise en garde morale contre les séductions de la fortune et de l'intempérance.</p>"
+  },
+  "revolutions_europeennes_1830_philhellenisme": {
+    "id": "revolutions_europeennes_1830_philhellenisme",
+    "badge": "HISTOIRE DU XIXe SIÈCLE & RÉVOLUTIONS",
+    "title": "L'Éveil des Peuples au XIXe Siècle : De la Grèce Indépendante aux Trois Glorieuses",
+    "sources": "Chroniques de la Guerre d'indépendance grecque (1821–1829) & des Trois Glorieuses (1830)",
+    "keywords": [
+      "trois glorieuses",
+      "1830",
+      "révolution",
+      "revolution",
+      "liberté",
+      "liberte",
+      "barricades",
+      "scio",
+      "chio",
+      "philhellénisme",
+      "philhellenisme",
+      "sardanapale",
+      "byron"
+    ],
+    "text": "<p>Dans l'Europe de la Restauration soumise à l'ordre conservateur de la Sainte-Alliance, la décennie 1820-1830 est embrasée par l'éveil des nationalités et les soulèvements pour la liberté des peuples.</p>\n<p>En Méditerranée orientale, l'insurrection du peuple grec contre l'Empire ottoman et le drame tragique des massacres de Chio (Scio) en 1822 suscitent en Europe un immense élan de solidarité intellectuelle et artistique — le philhellénisme — incarné par l'engagement du poète Lord Byron.</p>\n<p>En France, l'exaspération face au retour à l'absolutisme culmine lors des « Trois Glorieuses » des 27, 28 et 29 juillet 1830 : sur les barricades parisiennes, ouvriers, bourgeois et enfants du peuple renversent la monarchie des Bourbons sous les plis du drapeau tricolore.</p>"
+  },
+  "richelieu_louis_xiii_construction_etat_moderne": {
+    "id": "richelieu_louis_xiii_construction_etat_moderne",
+    "badge": "HISTOIRE DE FRANCE • XVIIe SIÈCLE",
+    "title": "Le Cardinal de Richelieu et l'Affirmation de la Raison d'État sous Louis XIII",
+    "sources": "Cardinal de Richelieu, Testament politique & Histoire du règne de Louis XIII (1624–1642)",
+    "keywords": [
+      "richelieu",
+      "louis xiii",
+      "raison d'état",
+      "raison d'etat",
+      "principal ministre",
+      "saint-esprit",
+      "trajan"
+    ],
+    "text": "<p>Principal ministre de Louis XIII de 1624 à 1642, Armand Jean du Plessis, cardinal-duc de Richelieu, jette les fondements de l'État moderne et centralisé en subordonnant les intérêts particuliers des grands féodaux et des factions religieuses à l'autorité souveraine de la Couronne.</p>\n<p>Théoricien implacable de la « Raison d'État », prélat revêtu de la pourpre cardinalice et du cordon bleu de l'Ordre du Saint-Esprit, il incarne la synthèse entre la dignité de l'Église et la majesté inflexible du pouvoir monarchique.</p>\n<p>À travers cette conception exigeante de la justice souveraine — héritée des grands modèles impériaux romains tel l'empereur Trajan suspendant sa campagne militaire pour rendre justice à une humble veuve —, le XVIIe siècle érige l'État en garant suprême de l'ordre et de la paix civile.</p>"
+  },
+   "port_royal_jansenisme_grand_siecle": {
+    "id": "port_royal_jansenisme_grand_siecle",
+    "badge": "HISTOIRE RELIGIEUSE & INTELLECTUELLE • XVIIe SIÈCLE",
+    "title": "Port-Royal des Champs et le Jansénisme : Austérité Morale et Quête de la Grâce",
+    "sources": "Blaise Pascal, Les Provinciales (1656) & Chroniques de l'abbaye de Port-Royal",
+    "keywords": [
+      "port-royal",
+      "jansénisme",
+      "jansenisme",
+      "arnauld",
+      "solitaires",
+      "ex-voto",
+      "sainte-baume",
+      "pénitence",
+      "penitence",
+      "parlement de paris",
+      "mansart",
+      "perrault"
+    ],
+    "text": "<p>Au cœur du Grand Siècle français, l'abbaye cistercienne de Port-Royal des Champs, réformée par la Mère Angélique Arnauld et entourée des « Solitaires » — érudits, philosophes et magistrats retirés du monde tels Robert Arnauld d'Andilly ou Blaise Pascal —, devient le foyer d'un renouveau spirituel et intellectuel majeur : le jansénisme.</p>\n<p>Fondée sur une lecture exigeante de saint Augustin et sur la primauté absolue de la grâce divine, cette spiritualité prône le dépouillement intérieur, le rejet des vanités mondaines et la méditation silencieuse sur la mort, le tombeau et le mystère de l'Eucharistie.</p>\n<p>En opposition frontale avec le faste courtisan et l'absolutisme monarchique qui finira par ordonner la destruction de l'abbaye en 1710, Port-Royal marque durablement l'esprit français par son alliance de rigueur morale, de probité parlementaire et de vérité psychologique.</p>"
+  },
+  "saint_ambroise_milan_reliques_gervais_protais": {
+    "id": "saint_ambroise_milan_reliques_gervais_protais",
+    "badge": "HISTOIRE DU CHRISTIANISME • IVe SIÈCLE",
+    "title": "Saint Ambroise de Milan et l'Invention des Reliques des Martyrs Gervais et Protais",
+    "sources": "Saint Ambroise, Lettre XXII à Marcelline (386) & Jacques de Voragine, La Légende dorée",
+    "keywords": [
+      "saint ambroise",
+      "saint gervais",
+      "saint protais",
+      "reliques",
+      "translation",
+      "milan"
+    ],
+    "text": "<p>Évêque de Milan au IVe siècle et l'un des quatre grands Pères de l'Église latine, saint Ambroise joue un rôle décisif dans l'affirmation de l'autorité spirituelle de l'Église face au pouvoir impérial et à l'hérésie arienne.</p>\n<p>En 386, alors qu'il s'apprête à consacrer une nouvelle basilique à Milan, Ambroise reçoit en songe une révélation des apôtres Pierre et Paul lui indiquant l'emplacement exact où reposent les dépouilles oubliées de deux frères martyrs des premières persécutions romaines : les saints Gervais et Protais.</p>\n<p>La découverte miraculeuse de leurs corps intacts et leur translation solennelle en procession à travers la cité — marquée par la guérison d'un aveugle au passage du brancard — consacrent le culte des reliques en Occident.</p>"
+  },
+  "don_quichotte_cervantes_chevalerie_idealisme": {
+    "id": "don_quichotte_cervantes_chevalerie_idealisme",
+    "badge": "LITTÉRATURE UNIVERSELLE • SIÈCLE D'OR ESPAGNOL",
+    "title": "Don Quichotte de la Manche : L'Errance de l'Idéalisme face au Réel",
+    "sources": "Miguel de Cervantes, L'Ingénieux Hidalgo Don Quichotte de la Manche (1605–1615)",
+    "keywords": [
+      "don quichotte",
+      "cervantes",
+      "rossinante",
+      "sancho pança",
+      "sancho panca",
+      "chevalier",
+      "manche"
+    ],
+    "text": "<p>Publié en 1605 et 1615 par Miguel de Cervantes, <em>Don Quichotte de la Manche</em> fonde le roman moderne en confrontant l'idéalisme absolu de la chevalerie médiévale aux réalités prosaïques et brutales du monde.</p>\n<p>Devenu fou à force de lire des romans de chevalerie, le pauvre hidalgo Alonso Quijano revêt une armure rouillée, enfourche sa haridelle Rossinante et s'élance sur les routes arides de Castille accompagné de son fidèle écuyer Sancho Pança pour redresser les torts et défendre les opprimés.</p>\n<p>Au-delà de la satire burlesque, la silhouette décharnée du « Chevalier à la Triste Figure » s'impose au XIXe siècle comme l'emblème tragique et sublime du rêveur solitaire qui refuse de renoncer à son idéal face à un monde désenchanté.</p>"
+  },
+  "revolution_francaise_1789_1799_terreur_directoire": {
+    "id": "revolution_francaise_1789_1799_terreur_directoire",
+    "badge": "HISTOIRE DE FRANCE • 1789–1799",
+    "title": "La Révolution Française : De la Vertu Républicaine de 1789 aux Bouleversements de la Terreur",
+    "sources": "Déclaration des droits de l'homme et du citoyen (1789) & Archives parlementaires de la Convention",
+    "keywords": [
+      "révolution française",
+      "revolution francaise",
+      "1789",
+      "1793",
+      "1794",
+      "marat",
+      "charlotte corday",
+      "brutus",
+      "terreur",
+      "directoire",
+      "récamier",
+      "recamier",
+      "consulat"
+    ],
+    "text": "<p>De la convocation des États généraux et de la prise de la Bastille en 1789 jusqu'à l'avènement du Consulat en 1799, la Révolution française bouleverse de fond en comble l'ordre politique, social et moral de l'Europe.</p>\n<p>Exaltant les exemples héroïques de la République romaine — tel Lucius Junius Brutus sacrifiant ses propres fils au salut de la patrie —, la pensée révolutionnaire érige le civisme et le dévouement à la chose publique en vertus suprêmes, jusqu'à diviniser ses propres martyrs laïcs tel Jean-Paul Marat assassiné dans sa baignoire en juillet 1793.</p>\n<p>Au lendemain de la chute de Robespierre et des heures sombres de la Terreur thermidorienne, la société du Directoire aspire à la réconciliation civile, à l'apaisement et à un nouvel art de vivre inspiré de la simplicité antique.</p>"
+  },
+  "epopee_napoleonienne_premier_empire_sacre": {
+    "id": "epopee_napoleonienne_premier_empire_sacre",
+    "badge": "HISTOIRE DE FRANCE & D'EUROPE • 1804–1815",
+    "title": "Le Premier Empire et le Sacre de Napoléon Ier à Notre-Dame de Paris",
+    "sources": "Cérémonial du Sacre du 2 décembre 1804 & Mémorial de Sainte-Hélène",
+    "keywords": [
+      "napoléon",
+      "napoleon",
+      "joséphine",
+      "josephine",
+      "sacre",
+      "premier empire",
+      "notre-dame",
+      "pie vii",
+      "1804"
+    ],
+    "text": "<p>Le 2 décembre 1804, sous les voûtes de la cathédrale Notre-Dame de Paris parée d'architectures et de tentures à l'antique, le général Napoléon Bonaparte est sacré Empereur des Français en présence du pape Pie VII.</p>\n<p>Rompant avec la tradition monarchique de Reims, le nouveau souverain saisit lui-même la couronne d'or pour la poser sur sa propre tête avant de couronner solennellement son épouse Joséphine agenouillée devant l'autel, affirmant ainsi que son pouvoir impérial procède de son seul génie et de la volonté nationale.</p>\n<p>Pendant plus d'une décennie, l'épopée impériale redessine la carte de l'Europe par ses campagnes militaires et ses réformes juridiques, jusqu'aux effondrements de 1814-1815 qui ouvrent l'ère de l'exil et de la légende.</p>"
+  },
+  "antiquite_greco_romaine_sparte_troie_sabines": {
+    "id": "antiquite_greco_romaine_sparte_troie_sabines",
+    "badge": "HISTOIRE & MYTHOLOGIE ANTIQUE",
+    "title": "L'Héroïsme Antique : De la Guerre de Troie aux Thermopyles et à la Fondation de Rome",
+    "sources": "Homère, L'Iliade ; Hérodote, Histoires (Livre VII) ; Tite-Live, Histoire romaine (Livre I)",
+    "keywords": [
+      "troie",
+      "hector",
+      "andromaque",
+      "pâris",
+      "paris",
+      "hélène",
+      "helene",
+      "horaces",
+      "curiaces",
+      "sabines",
+      "romulus",
+      "hersilie",
+      "léonidas",
+      "leonidas",
+      "sparte",
+      "thermopyles"
+    ],
+    "text": "<p>De l'épopée homérique aux récits fondateurs de Sparte et de Rome, l'Antiquité gréco-romaine fournit à la conscience européenne les grands archétypes du courage, du sacrifice patriotique et du conflit entre le devoir civique et les liens du sang.</p>\n<p>Sous les remparts de Troie, les passions de Pâris et d'Hélène déclenchent un conflit dévastateur qui s'achève par la mort d'Hector pleuré par son épouse Andromaque ; en 480 av. J.-C., au défilé des Thermopyles, le roi spartiate Léonidas et ses trois cents guerriers choisissent une mort certaine pour arrêter l'armée perse par obéissance aux lois de la cité.</p>\n<p>Dans les premiers temps de Rome, enfin, le duel fratricide entre les Horaces et les Curiaces puis l'interposition héroïque des femmes sabines menées par Hersilie entre leurs pères et leurs époux fondent l'idéal romain de la vertu civique et de la réconciliation.</p>"
+  },
+  "inconscient_psychanalyse_freud_reves_metamorphoses": {
+    "id": "inconscient_psychanalyse_freud_reves_metamorphoses",
+    "badge": "HISTOIRE DES SCIENCES & DES IDÉES • XXe SIÈCLE",
+    "title": "La Révolution Psychanalytique : L'Exploration des Rêves, du Désir et des Métamorphoses",
+    "sources": "Sigmund Freud, L'Interprétation du rêve (1900) & Essais de psychanalyse",
+    "keywords": [
+      "freud",
+      "psychanalyse",
+      "paranoïaque-critique",
+      "paranoiaque-critique",
+      "masturbateur",
+      "sex-appeal",
+      "narcisse",
+      "angélus",
+      "angelus",
+      "rêve",
+      "reve",
+      "image double",
+      "inconscient"
+    ],
+    "text": "<p>Au début du XXe siècle, les découvertes de Sigmund Freud sur l'inconscient, le refoulement et le langage symbolique des rêves bouleversent la compréhension de la psyché humaine et inspirent une exploration radicale des pulsions intérieures.</p>\n<p>À travers l'analyse des phobies d'enfance, de l'angoisse de castration et de la dualité entre Éros (pulsion de vie et de désir) et Thanatos (pulsion de mort), les images oniriques deviennent le théâtre de métamorphoses incessantes où le mou et le dur, le minéral et le charnel s'interpénètrent.</p>\n<p>En revisitant les mythes antiques tel Narcisse fasciné par son propre reflet ou en réinterprétant les icônes de la piété paysanne à travers le prisme du désir refoulé, cette démarche révèle les énigmes cachées derrière l'apparence du réel.</p>"
+  },
+  "ere_atomique_hiroshima_physique_quantique_xxe": {
+    "id": "ere_atomique_hiroshima_physique_quantique_xxe",
+    "badge": "HISTOIRE CONTEMPORAINE & SCIENCES • APRÈS-1945",
+    "title": "L'Entrée dans l'Ère Atomique et la Révolution de la Physique Moderne",
+    "sources": "Manifestes scientifiques d'après-1945 & Histoire de la physique nucléaire",
+    "keywords": [
+      "atomique",
+      "nucléaire",
+      "nucleaire",
+      "hiroshima",
+      "léda",
+      "leda",
+      "galatée",
+      "galatee",
+      "sphères",
+      "spheres",
+      "particules",
+      "catastrophes",
+      "lévitation",
+      "levitation"
+    ],
+    "text": "<p>En août 1945, les explosions atomiques d'Hiroshima et de Nagasaki font basculer l'humanité dans l'ère nucléaire, révélant au monde la puissance vertigineuse cachée au cœur de l'atome et bouleversant la représentation même de la matière.</p>\n<p>Nourrie par les découvertes de la physique quantique, la pensée du milieu du XXe siècle découvre que le monde physique n'est pas une masse compacte et continue, mais un assemblage discontinu de particules et de sphères maintenues en lévitation par des forces invisibles.</p>\n<p>Réconciliant les proportions mathématiques sacrées de la Renaissance avec les lois de l'atome et la théorie des catastrophes, cette vision cosmogonique renouvelle profondément les grands mythes de la Création et de l'union du divin et de l'humain.</p>"
+  },
+  "genese_chute_adam_eve_jardin_eden": {
+    "id": "genese_chute_adam_eve_jardin_eden",
+    "badge": "RÉCITS BIBLIQUES • ANCIEN TESTAMENT",
+    "title": "Le Jardin d'Éden et la Chute d'Adam et Ève : L'Innocence Perdue",
+    "sources": "Livre de la Genèse (chapitres 2 et 3)",
+    "keywords": [
+      "adam et ève",
+      "adam et eve",
+      "éden",
+      "eden",
+      "pomme",
+      "serpent",
+      "fruit défendu",
+      "chute",
+      "tentation"
+    ],
+    "text": "<p>Dans les premiers chapitres du Livre de la Genèse, Dieu façonne le premier couple humain, Adam et Ève, et les place dans le jardin d'Éden, paradis terrestre où toutes les espèces animales vivent en paix originelle autour de l'Arbre de la connaissance du bien et du mal.</p>\n<p>Séduite par le serpent qui lui promet qu'en goûtant au fruit défendu leurs yeux s'ouvriront et qu'ils seront comme des dieux, Ève cueille la pomme et la partage avec Adam dans un instant d'hésitation lourde de conséquences.</p>\n<p>Cet acte de désobéissance brise l'harmonie paradisiaque, éveille en eux la conscience de leur nudité et entraîne leur expulsion de l'Éden vers le labeur et la mortalité, inaugurant l'histoire humaine.</p>"
+  },
+  "femmes_fortes_ancien_testament_judith_salome": {
+    "id": "femmes_fortes_ancien_testament_judith_salome",
+    "badge": "RÉCITS BIBLIQUES & MYTHES LITTÉRAIRES",
+    "title": "Judith, Holopherne et Salomé : Le Pouvoir des Femmes et le Destin des Chefs",
+    "sources": "Livre de Judith (Ancien Testament) & Évangile selon saint Marc (chapitre 6)",
+    "keywords": [
+      "judith",
+      "holopherne",
+      "salomé",
+      "salome",
+      "jean-baptiste",
+      "jean baptiste",
+      "hérode",
+      "herode",
+      "décapitation",
+      "decapitation"
+    ],
+    "text": "<p>À travers deux récits bibliques célèbres que tout oppose sur le plan moral, les figures de Judith et de Salomé incarnent la fascination exercée par le « pouvoir des femmes » capable de faire chuter les hommes les plus puissants ou les plus saints.</p>\n<p>Dans l'Ancien Testament, pour sauver la cité juive de Béthulie assiégée par l'armée assyrienne, la veuve Judith revêt ses plus somptueuses parures, séduit le général ennemi Holopherne et le décapite avec sa propre épée dans sa tente, rapportant sa tête comme trophée libérateur.</p>\n<p>À l'inverse, dans le Nouveau Testament, la danse envoûtante de la jeune princesse Salomé devant le roi Hérode Antipas scelle l'exécution injuste de saint Jean-Baptiste, dont la tête tranchée est apportée sur un plateau d'argent lors du banquet royal.</p>"
+  },
+  "realisme_social_xixe_monde_paysan_ouvrier": {
+    "id": "realisme_social_xixe_monde_paysan_ouvrier",
+    "badge": "HISTOIRE SOCIALE • XIXe SIÈCLE",
+    "title": "La Révolution Industrielle et la Dignité du Monde Paysan et Ouvrier au XIXe Siècle",
+    "sources": "Chroniques sociales du Second Empire & Histoire des campagnes françaises au XIXe siècle",
+    "keywords": [
+      "cribleuses",
+      "fileuse",
+      "repasseuse",
+      "travail",
+      "labeur",
+      "chemin de fer",
+      "tranchée",
+      "tranchee",
+      "bruyas",
+      "baudelaire",
+      "chasseur"
+    ],
+    "text": "<p>Au milieu du XIXe siècle, alors que la révolution industrielle transforme les campagnes françaises par le percement des tranchées de chemin de fer et bouleverse la condition ouvrière dans les villes, un regard nouveau se porte sur le monde du travail.</p>\n<p>Rompant avec les conventions académiques qui réservaient les grands formats aux héros antiques et aux rois, la représentation du réel érige les gestes quotidiens des paysans et des artisans — cribleuses de blé dans la poussière du grain, fileuses assoupies devant leur rouet ou repasseuses penchées sur leur fer — au rang de sujets nobles et monumentaux.</p>\n<p>Portée par l'alliance des écrivains et des mécènes éclairés de la bohème parisienne et provinciale, cette célébration sans fard de la vérité humaine et de la nature sauvage fonde la modernité artistique et sociale du XIXe siècle.</p>"
+  },
+  "diane_acteon_mythologie_chasse_valois": {
+    "id": "diane_acteon_mythologie_chasse_valois",
+    "badge": "MYTHOLOGIE ANTIQUE & COUR DES VALOIS",
+    "title": "Le Mythe de Diane et d'Actéon : La Déesse Chasseresse à la Cour des Valois",
+    "sources": "Ovide, Les Métamorphoses (Livre III) & Histoire de la cour d'Henri II",
+    "keywords": [
+      "bain de diane",
+      "actéon",
+      "acteon",
+      "diane de poitiers",
+      "valois",
+      "henri ii",
+      "françois ier",
+      "francois ier",
+      "chasse",
+      "nymphes"
+    ],
+    "text": "<p>Dans <em>Les Métamorphoses</em> d'Ovide, le jeune chasseur Actéon, égaré dans les bois sacrés du mont Cithéron, surprend involontairement la déesse vierge de la chasse, Diane (Artémis), se baignant nue dans une source limpide entourée de ses nymphes.</p>\n<p>Furieuse d'avoir été vue dans sa nudité divine, Diane l'asperge d'eau et le métamorphose aussitôt en cerf ; incapable de parler pour se faire reconnaître, Actéon est alors poursuivi et dévoré par sa propre meute de chiens de chasse.</p>\n<p>À la cour de France sous les Valois — de François Ier à Henri II —, ce mythe antique devient l'allégorie privilégiée de la monarchie et de la favorite royale Diane de Poitiers, célébrant le raffinement aristocratique des chasses royales et l'élégance humaniste de Fontainebleau.</p>"
+  },
+   "venise_serenissime_scuole_orient_xvie": {
+    "id": "venise_serenissime_scuole_orient_xvie",
+    "badge": "HISTOIRE DE LA MÉDITERRANÉE • XVIe SIÈCLE",
+    "title": "La Sérénissime République de Venise, ses Scuole et les Portes de l'Orient",
+    "sources": "Chroniques de la République de Venise & Statuts des Scuole Grandi (XVIe siècle)",
+    "keywords": [
+      "venise",
+      "scuola",
+      "scuole",
+      "orient",
+      "palladio",
+      "vicence",
+      "grand canal",
+      "sérénissime"
+    ],
+    "text": "<p>Carrefour maritime et commercial entre l'Occident latin et l'Empire ottoman, la Sérénissime République de Venise connaît au XVIe siècle un rayonnement politique, architectural et civique exceptionnel.</p>\n<p>Au cœur de la vie sociale vénitienne, les <em>Scuole</em> — grandes confréries laïques de charité et de dévotion regroupant des communautés professionnelles ou nationales — rivalisent de faste pour orner leurs salles d'assemblée de grands cycles narratifs consacrés à leurs saints patrons, transposant les récits sacrés dans le décor cosmopolite d'une cité-monde peuplée de marchands levantins.</p>\n<p>Dans la Terre Ferme vénitienne, à Vicence et sur les rives du Grand Canal, l'architecture civile réinvente dans le même temps la noblesse des portiques et des frontons de la Rome antique.</p>"
+  },
+  "ordre_malte_chevalerie_mediterranee_xviie": {
+    "id": "ordre_malte_chevalerie_mediterranee_xviie",
+    "badge": "HISTOIRE DE LA MÉDITERRANÉE • XVIIe SIÈCLE",
+    "title": "L'Ordre Souverain de Malte : Bastion Naval de la Chrétienté en Méditerranée",
+    "sources": "Archives de l'Ordre de Saint-Jean de Jérusalem à La Valette (1530–1798)",
+    "keywords": [
+      "malte",
+      "wignacourt",
+      "grand maître",
+      "la valette",
+      "armure",
+      "chevaliers",
+      "méditerranée"
+    ],
+    "text": "<p>Installés sur l'île de Malte depuis 1530 après la perte de Rhodes, les chevaliers hospitaliers de l'Ordre de Saint-Jean de Jérusalem érigent la forteresse de La Valette en verrou stratégique de la Méditerranée centrale face à l'expansion maritime ottomane.</p>\n<p>Sous l'autorité de Grands Maîtres issus de la haute noblesse européenne — tel le Français Alof de Wignacourt au début du XVIIe siècle —, l'Ordre entretient une puissante flotte de galères chargée d'assurer la police des mers et la protection des routes commerciales chrétiennes.</p>\n<p>À la croisée des vocations militaire et hospitalière, les chevaliers incarnent l'idéal aristocratique de la chevalerie catholique de la Contre-Réforme.</p>"
+  },
+  "david_goliath_meduse_mythes_decapitation": {
+    "id": "david_goliath_meduse_mythes_decapitation",
+    "badge": "RÉCITS BIBLIQUES & MYTHOLOGIE ANTIQUE",
+    "title": "David contre Goliath et Persée face à Méduse : Le Triomphe de l'Esprit sur la Force Brute",
+    "sources": "Premier Livre de Samuel (chapitre 17) & Ovide, Les Métamorphoses (Livre IV)",
+    "keywords": [
+      "david",
+      "goliath",
+      "méduse",
+      "meduse",
+      "persée",
+      "persee",
+      "gorgone",
+      "fronde"
+    ],
+    "text": "<p>À travers deux récits fondateurs issus l'un de la Bible hébraïque, l'autre de la mythologie grecque, les victoires du jeune berger David et du héros Persée célèbrent la supériorité de l'intelligence, de la ruse et de la foi sur la force monstrueuse.</p>\n<p>Dans la vallée d'Élah, alors que l'armée d'Israël tremble devant le géant philistin Goliath couvert d'airain, le jeune David refuse l'armure royale, s'avance muni de sa seule fronde et terrasse le colosse d'un galet en plein front avant de lui trancher la tête avec sa propre épée.</p>\n<p>De même, dans la fable antique, Persée parvient à décapiter la Gorgone Méduse — dont le regard pétrifiait quiconque croisait ses yeux — en utilisant le reflet de son bouclier de bronze poli comme miroir protecteur.</p>"
+  },
+  "haussmann_modernisation_paris_xixe_siecle": {
+    "id": "haussmann_modernisation_paris_xixe_siecle",
+    "badge": "HISTOIRE DE FRANCE • SECOND EMPIRE & IIIe RÉPUBLIQUE",
+    "title": "Les Travaux d'Haussmann et l'Avènement de la Ville Moderne et des Loisirs Balnéaires",
+    "sources": "Mémoires du baron Haussmann (1890) & Chroniques de la société parisienne (1853–1880)",
+    "keywords": [
+      "haussmann",
+      "gare saint-lazare",
+      "pont de l'europe",
+      "café",
+      "cafe",
+      "trouville",
+      "second empire",
+      "bains de mer",
+      "villégiature"
+    ],
+    "text": "<p>Sous le Second Empire et les débuts de la Troisième République, les grands travaux dirigés par le préfet Georges-Eugène Haussmann métamorphosent Paris en une métropole moderne percée de larges boulevards rectilignes, de gares monumentales et d'ouvrages métalliques audacieux tel le pont de l'Europe surplombant les voies ferrées de Saint-Lazare.</p>\n<p>Cette révolution urbaine transforme profondément les sociabilités : les grands cafés parisiens aux banquettes de velours et aux miroirs deviennent le théâtre de la vie moderne, où se côtoient flâneurs solitaires et citadins anonymes.</p>\n<p>Dans le même temps, l'essor du chemin de fer ouvre aux élites parisiennes les plages de la côte normande — Trouville, Deauville ou Sainte-Adresse —, inaugurant la vogue des bains de mer et de la villégiature balnéaire.</p>"
+  },
+  "saint_louis_monarchie_capetienne_croisades": {
+    "id": "saint_louis_monarchie_capetienne_croisades",
+    "badge": "HISTOIRE DE FRANCE • MOYEN ÂGE",
+    "title": "Saint Louis (Louis IX) : Le Roi Justicier et l'Idéal du Souverain Chrétien",
+    "sources": "Jean de Joinville, Vie de Saint Louis (1309)",
+    "keywords": [
+      "saint louis",
+      "louis ix",
+      "vincennes",
+      "capétien",
+      "capetien",
+      "justice",
+      "fleurdelisé"
+    ],
+    "text": "<p>Roi de France de 1226 à 1270, Louis IX — canonisé dès 1297 sous le nom de saint Louis — incarne pendant des siècles l'archétype du monarque chrétien idéal alliant piété personnelle, charité envers les humbles et exercice souverain de la justice.</p>\n<p>Sous le chêne de Vincennes comme dans les réformes judiciaires de son royaume, il impose l'autorité arbitrale de la Couronne au-dessus des guerres privées féodales, tout en dotant Paris de la Sainte-Chapelle pour abriter les reliques de la Passion.</p>\n<p>Au XIXe siècle, la monarchie et le Second Empire exaltent la figure tutélaire de saint Louis comme symbole de concorde nationale, de charité sociale et de légitimité historique de l'État.</p>"
+  },
+  "abraham_isaac_sacrifice_mont_moriah": {
+    "id": "abraham_isaac_sacrifice_mont_moriah",
+    "badge": "RÉCITS BIBLIQUES • ANCIEN TESTAMENT",
+    "title": "Le Sacrifice d'Abraham et l'Hospitalité de Mambré : L'Épreuve de la Foi",
+    "sources": "Livre de la Genèse (chapitres 18 et 22)",
+    "keywords": [
+      "abraham",
+      "isaac",
+      "moriah",
+      "mambré",
+      "mambre",
+      "bélier",
+      "belier",
+      "rebecca",
+      "hospitalité",
+      "sacrifice"
+    ],
+    "text": "<p>Figure fondatrice des traditions monothéistes, le patriarche Abraham voit sa foi mise à l'épreuve par Dieu à travers des alliances décisives relatées dans le Livre de la Genèse.</p>\n<p>Près des chênes de Mambré, Abraham accueille avec empressement trois voyageurs mystérieux auxquels il offre l'hospitalité ; ceux-ci lui annoncent qu'en dépit de leur grand âge, son épouse Sarah enfantera un fils, Isaac, héritier de la promesse.</p>\n<p>Quelques années plus tard, Dieu ordonne à Abraham de conduire cet enfant unique sur le mont Moriah pour l'offrir en holocauste : au moment où le père lève le couteau sur son fils lié sur l'autel, un ange arrête son bras et désigne un bélier pris dans un buisson pour être immolé à sa place.</p>"
+  },
+  "societe_paysanne_flamande_xvie_satire_morale": {
+    "id": "societe_paysanne_flamande_xvie_satire_morale",
+    "badge": "HISTOIRE SOCIALE • PAYS-BAS AU XVIe SIÈCLE",
+    "title": "La Vie Rurale dans les Pays-Bas au XVIe Siècle : Kermesses, Proverbes et Satire Morale",
+    "sources": "Chroniques des Pays-Bas espagnols & Recueils de proverbes flamands (XVIe siècle)",
+    "keywords": [
+      "kermesse",
+      "noces",
+      "paysans",
+      "cocagne",
+      "proverbes",
+      "patineurs",
+      "flamand",
+      "rixe",
+      "famine"
+    ],
+    "text": "<p>Au XVIe siècle, dans des Pays-Bas déchirés par les guerres de religion, les disettes et la répression espagnole, la culture humaniste nordique porte un regard à la fois attentif et satirique sur la société rurale et les passions humaines.</p>\n<p>À travers les fêtes villageoises — noces en plein air, danses paysannes et jeux d'hiver sur les canaux gelés — s'exprime la vitalité communautaire des campagnes brabançonnes, mais aussi l'avertissement moral contre la précarité de l'existence (<em>lubricitas vitae</em>), l'ivresse et la colère.</p>\n<p>À travers l'utopie grotesque du Pays de Cocagne, où clerc, chevalier et paysan gisent engourdis par la gloutonnerie sous un toit de galettes, la satire sociale dénonce l'oisiveté et rappelle l'égalité implacable de tous les ordres devant la Mort.</p>"
+  },
+  "mythes_classiques_venus_vulcain_psyche_enide": {
+    "id": "mythes_classiques_venus_vulcain_psyche_enide",
+    "badge": "MYTHOLOGIE GRÉCO-ROMAINE",
+    "title": "Les Amours des Dieux : Vénus chez Vulcain, Diane au Bain et le Mariage de Psyché",
+    "sources": "Virgile, L'Énéide (Chant VIII) & Apulée, L'Âne d'or (Métamorphoses, Livres IV–VI)",
+    "keywords": [
+      "vulcain",
+      "vénus",
+      "venus",
+      "énée",
+      "enee",
+      "psyché",
+      "psyche",
+      "cupidon",
+      "amour",
+      "diane",
+      "pompadour",
+      "odalisque"
+    ],
+    "text": "<p>Dans la mythologie gréco-romaine, les passions et les intrigues des dieux de l'Olympe reflètent toutes les nuances du désir, de la jalousie et de la grâce humaine.</p>\n<p>Dans <em>L'Énéide</em> de Virgile, la déesse de l'amour Vénus descend dans les forges souterraines de l'Etna pour charmer son époux le dieu forgeron Vulcain et obtenir de lui une armure invincible destinée à protéger son fils mortel Énée.</p>\n<p>Dans le récit d'Apulée, la mortelle Psyché, persécutée par la jalousie de Vénus pour sa beauté incomparable, conquiert le cœur de Cupidon (l'Amour) au terme d'épreuves initiatiques avant d'être élevée à l'immortalité sur l'Olympe lors de noces célestes célébrées par tous les dieux.</p>"
+  },
+  "aquilee_ravennate_antiquite_tardive_theodoric_justinien": {
+    "id": "aquilee_ravennate_antiquite_tardive_theodoric_justinien",
+    "badge": "HISTOIRE DE L'ANTIQUITÉ TARDIVE • IVe–VIe SIÈCLES",
+    "title": "D'Aquilée à Ravenne : L'Essor du Christianisme Impérial de Constantin à Justinien",
+    "sources": "Édit de Milan (313) & Procope de Césarée, Guerres de Justinien (VIe siècle)",
+    "keywords": [
+      "aquilée",
+      "aquilee",
+      "ravenne",
+      "galla placidia",
+      "théodoric",
+      "theodoric",
+      "justinien",
+      "théodora",
+      "theodora",
+      "ariens",
+      "arianisme",
+      "jonas",
+      "apollinaire"
+    ],
+    "text": "<p>Après la promulgation de l'édit de Milan en 313 qui accorde la liberté de culte aux chrétiens, les grandes cités de l'Adriatique — d'abord Aquilée, puis Ravenne devenue capitale de l'Empire romain d'Occident en 402 — édifient les premiers grands sanctuaires chrétiens monumentaux.</p>\n<p>Au Ve et au VIe siècle, Ravenne connaît une histoire politique et religieuse fascinante : sous l'impératrice Galla Placidia, puis sous le roi ostrogoth Théodoric le Grand — adepte du christianisme arien — et enfin lors de la reconquête byzantine de l'empereur Justinien et de l'impératrice Théodora, la cité se pare de somptueuses mosaïques à fond d'or.</p>\n<p>Ces cycles célébrant le baptême dans le Jourdain, la procession des martyrs et des vierges ou le sacrifice d'Abel et de Melchisédech affirment le triomphe de l'orthodoxie nicéenne et la majesté sacrée du pouvoir impérial.</p>"
+  },
+  "sicile_normande_roger_ii_carrefour_civilisations": {
+    "id": "sicile_normande_roger_ii_carrefour_civilisations",
+    "badge": "HISTOIRE MÉDIÉVALE • XIIe SIÈCLE",
+    "title": "Le Royaume Normand de Sicile : Carrefour des Mondes Latin, Byzantin et Arabo-Islamique",
+    "sources": "Chroniques de Roger II et Guillaume II de Sicile (XIIe siècle)",
+    "keywords": [
+      "sicile",
+      "palerme",
+      "cefalù",
+      "cefalu",
+      "monreale",
+      "roger ii",
+      "guillaume ii",
+      "normand",
+      "muqarnas",
+      "martorana",
+      "palatine"
+    ],
+    "text": "<p>Au XIIe siècle, sous le règne des rois normands Roger II et Guillaume II, le royaume de Sicile devient l'un des foyers culturels les plus brillants et les plus tolérants de toute la Méditerranée médiévale.</p>\n<p>À Palerme, Cefalù et Monreale, les souverains normands réunissent à leur cour des savants, des architectes et des artisans issus des trois grandes traditions méditerranéennes : des maîtres mosaïstes byzantins venus de Constantinople, des charpentiers et sculpteurs fatimides réalisant des plafonds à <em>muqarnas</em>, et des clercs latins.</p>\n<p>Dans les chapelles palatines et les cathédrales royales, les immenses figures du Christ Pantocrator bénissant en grec et en latin affirment la légitimité divine et universelle de la monarchie sicilienne.</p>"
+  },
+  "christianisme_copte_egypte_gnose_monachisme": {
+    "id": "christianisme_copte_egypte_gnose_monachisme",
+    "badge": "HISTOIRE DES RELIGIONS • ÉGYPTE CHRÉTIENNE",
+    "title": "L'Égypte Copte : Des Manuscrits Gnostiques de Nag Hammadi aux Monastères du Désert",
+    "sources": "Codex de Nag Hammadi (IVe siècle) & Archives monastiques de Haute-Égypte",
+    "keywords": [
+      "copte",
+      "nag hammadi",
+      "gnostique",
+      "gnose",
+      "ostracon",
+      "ostracons",
+      "psautier",
+      "codex",
+      "monastère",
+      "papyrus"
+    ],
+    "text": "<p>Dès les premiers siècles de notre ère, l'Égypte joue un rôle fondateur dans l'histoire du christianisme en donnant naissance à la fois au monachisme chrétien dans les déserts de Haute-Égypte et à d'intenses courants théologiques et mystiques.</p>\n<p>Enfouis au IVe siècle dans une jarre près de Nag Hammadi, treize codex en papyrus rédigés en langue copte révèlent une bibliothèque gnostique unique — dont l'Évangile selon Thomas et l'Apocryphon de Jean — privilégiant la connaissance intérieure du divin.</p>\n<p>Au fil des siècles, des simples ostracons de poterie utilisés pour la correspondance quotidienne des moines jusqu'aux somptueux psautiers enluminés sur parchemin de l'époque médiévale, la culture copte perpétue l'héritage linguistique et spirituel de l'Égypte ancienne.</p>"
+  },
+  "revolution_imprimerie_gutenberg_luther_xve_xvie": {
+    "id": "revolution_imprimerie_gutenberg_luther_xve_xvie",
+    "badge": "HISTOIRE DES TECHNIQUES & DE LA CULTURE • XVe–XVIe SIÈCLES",
+    "title": "La Révolution de l'Imprimerie : De la Bible de Gutenberg à la Diffusion des Savoirs",
+    "sources": "Archives typographiques de Mayence (1454) & Éditions de Wittemberg (XVIe siècle)",
+    "keywords": [
+      "gutenberg",
+      "imprimerie",
+      "incunable",
+      "mayence",
+      "bible à 42 lignes",
+      "caractères mobiles",
+      "schöffer",
+      "schoffer",
+      "herbier",
+      "luther",
+      "manuscrit",
+      "quadrivium",
+      "monocorde"
+    ],
+    "text": "<p>Vers 1452-1455, à Mayence, l'invention de la typographie à caractères métalliques mobiles par Johannes Gutenberg bouleverse l'histoire de l'humanité en rendant possible la reproduction rapide, fidèle et massive des textes jusqu'alors copiés à la main dans les scriptoria monastiques.</p>\n<p>De la somptueuse Bible à 42 lignes imprimée sur vélin jusqu'aux premiers herbiers médicaux illustrés en langue allemande tel le <em>Gart der Gesundheit</em> de Peter Schöffer, le livre imprimé démocratise l'accès à la connaissance.</p>\n<p>Au XVIe siècle, cette révolution technique devient le moteur décisif de la Réforme protestante, permettant aux traductions de la Bible en langue vernaculaire de Martin Luther de se diffuser dans toute l'Europe.</p>"
+  },
+  "anatomie_moderne_vesale_leonard_theatre_elisabethain": {
+    "id": "anatomie_moderne_vesale_leonard_theatre_elisabethain",
+    "badge": "HISTOIRE DES SCIENCES & DE LA LITTÉRATURE • XVIe–XVIIe SIÈCLES",
+    "title": "La Révolution Scientifique de la Renaissance et l'Âge d'Or du Théâtre Élizabethain",
+    "sources": "André Vésale, De humani corporis fabrica (1543) & William Shakespeare, First Folio (1623)",
+    "keywords": [
+      "vésale",
+      "vesale",
+      "anatomie",
+      "dissection",
+      "léonard de vinci",
+      "leonard de vinci",
+      "forster",
+      "mécanique",
+      "shakespeare",
+      "first folio",
+      "théâtre",
+      "histoire naturelle",
+      "grenouilles"
+    ],
+    "text": "<p>À la Renaissance et à l'aube des temps modernes, l'esprit d'observation directe renverse les dogmes hérités de l'Antiquité pour fonder la méthode scientifique moderne.</p>\n<p>Des carnets de mécanique et d'écriture spéculaire de Léonard de Vinci au traité révolutionnaire d'André Vésale, <em>De humani corporis fabrica</em> (1543) — qui impose la dissection anatomique directe du corps humain —, jusqu'aux planches d'histoire naturelle du Siècle des Lumières, l'image devient un instrument rigoureux d'investigation du vivant.</p>\n<p>Parallèlement, dans l'Angleterre élisabéthaine et jacobéenne, l'édition du <em>Premier Folio</em> de William Shakespeare en 1623 sauve de l'oubli trente-six pièces majeures et élève le théâtre au sommet de la littérature universelle.</p>"
+  },
   "uruk_naissance_ecriture_roi_pretre": {
     "id": "uruk_naissance_ecriture_roi_pretre",
     "badge": "HISTOIRE DE LA MÉSOPOTAMIE ANTIQUE",
