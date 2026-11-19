@@ -10062,7 +10062,519 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       }
     ]
   }
-  }
+  },
+
+  "saint_phalle": {
+    "id": "saint_phalle",
+    "name": "Saint Phalle Niki de",
+    "sortName": "Saint Phalle Niki de",
+    "sortLetter": "S",
+    "dates": "1930 – 2002",
+    "movement": "Nouveau Réalisme, Sculpture monumentale polychrome & Art public féministe",
+    "nationality": "Franco-américaine (née à Neuilly-sur-Seine ; active en France, aux États-Unis et en Italie)",
+    "techniques": "Sculpture monumentale en résine de polyester peinte, mosaïques de miroir et de céramique, assemblages d'objets, tableaux-tirs (carabine et plâtre), parcs d'art public in situ",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM5otRJhn3UrP4hKtLL9ohQgksEtg7AOiDitJ0LJwLN2wDrgU5SokFRqs53WD2TuG6Na99GBzUe8g4TerYgGTdVuuA1OHDipnWSTOBuBvEhqLnUc1OSe1pAPSNTgpKyyvuVQqDLHZaXqJhG2sHMxT7L0Q=w1836-h787-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>La réinvention féminine de l'art public et la révolte créatrice</strong><br>
+      Niki de Saint Phalle (Catherine Marie-Agnès Fal de Saint Phalle, 1930 – 2002) est une artiste franco-américaine incontournable de la seconde moitié du XXe siècle, unique figure féminine intégrée dès 1961 au groupe des Nouveaux Réalistes. Artiste autodidacte habitée par une rage salvatrice face aux traumatismes de son enfance et aux carcans du patriarcat, elle a réinventé la place de la femme dans l'art public, passant de performances violentes et cathartiques à des sculptures monumentales et jubilatoires célébrant la fertilité, la liberté et l'émancipation féminine.</p>
+      <p><strong>Formes girondes, explosion de couleurs et parcs architecturaux habitables</strong><br>
+      Son genre d'expression se définit par la sculpture monumentale polychrome, le tir-performance (action painting / assemblage), le parc de sculptures architectural in situ et l'art public interactif. Son style se caractérise d'abord par des assemblages agressifs d'objets récupérés sous une croûte de plâtre blanc, puis par des formes exubérantes et girondes aux courbes pleines (les célèbres Nanas), faites de résine de polyester peinte de couleurs acryliques éclatantes, de céramiques, de miroirs et de morceaux de verre coloré.</p>
+      <p><strong>De la catharsis des Tirs au chef-d'œuvre du Jardin des Tarots</strong><br>
+      L'évolution de son style marque un passage de la révolte viscérale vers la création d'un monde enchanté et protecteur : la catharsis par le feu et les « Tirs » (1961 – 1964) où elle tire à la carabine sur des poches de couleur ; la naissance des Nanas et le triomphe féministe (1965 – années 1970) culminant avec la monumentale Hon/Elle à Stockholm ; et enfin les architectures monumentales et le Jardin des Tarots (1979 – 2002) en Toscane, où les vingt-deux arcanes majeurs du jeu de tarot prennent vie sous forme de sculptures géantes habitables recouvertes de mosaïques scintillantes.</p>
+    `,
+    "corpus": {
+      "total": 1200,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 1200,
+      "seenCount": 0,
+      "source": "Monographies rétrospectives du Grand Palais (Paris, 2014) et du MAMAC de Nice",
+      "totalOeuvresEstimees": "~1 200 œuvres majeures originales répertoriées",
+      "oeuvresConsensusNotice": "En s'appuyant sur les monographies rétrospectives de référence (notamment celle du Grand Palais à Paris en 2014 et celle du MAMAC de Nice) et en écartant les multiples commerciaux ainsi que les œuvres sur papier, les conservateurs estiment son corpus d'œuvres majeures originales (sculptures uniques, assemblages, tableaux-tirs et monuments architecturaux) à environ 1 200 œuvres."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1930",
+        "place": "Neuilly-sur-Seine (France)",
+        "title": "Naissance de Catherine Marie-Agnès Fal de Saint Phalle",
+        "desc": "Née le 29 octobre 1930 dans une famille aristocratique et financière franco-américaine. Élevée à New York suite au krach de 1929, elle grandit dans un milieu étouffant contre lequel elle se révoltera toute sa vie."
+      },
+      "death": {
+        "year": "2002",
+        "place": "La Jolla (Californie, États-Unis)",
+        "title": "Mort de Niki de Saint Phalle",
+        "desc": "S'éteint le 21 mai 2002 à 71 ans des suites d'une insuffisance respiratoire chronique provoquée par l'inhalation prolongée des poussières toxiques de résine de polyester et de polystyrène lors de la fabrication de ses sculptures monumentales."
+      },
+      "periods": [
+        {
+          "years": "1961 – 1964",
+          "title": "1961 – 1964 : La catharsis par le feu, les séances de Tirs et l'adhésion au Nouveau Réalisme",
+          "name": "La catharsis par le feu, les séances de Tirs et l'adhésion au Nouveau Réalisme (1961 – 1964)",
+          "color": "#ef4444",
+          "summary": "Internée brièvement pour dépression nerveuse, elle trouve dans l'art une issue thérapeutique salvatrice. En 1961, elle accède à la notoriété internationale avec ses séances de Tirs : des assemblages de plâtre enfermant des poches de peinture liquide sur lesquelles elle tire à la carabine, provoquant l'éclatement violent des couleurs. Saluée par Pierre Restany et Jean Tinguely, elle devient l'unique femme membre du groupe des Nouveaux Réalistes.",
+          "events": [
+            {
+              "year": "1961",
+              "title": "Première séance publique des Tirs & Entrée chez les Nouveaux Réalistes",
+              "desc": "Organise à Paris son premier tir à la carabine 22 Long Rifle dans l'impasse Ronsin, geste sacrilège salué par Restany, Klein et Tinguely comme un acte fondateur du Nouveau Réalisme.",
+              "type": "turning_point",
+              "badge": "PERFORMANCE FONDATRICE",
+              "icon": "⚡"
+            },
+            {
+              "year": "1962",
+              "title": "Tir à la galerie Dwan de Los Angeles",
+              "desc": "Performe ses Tirs aux États-Unis dans le désert de Malibu avec Jean Tinguely, faisant exploser des sacs de peinture et des objets du consumérisme américain.",
+              "type": "context",
+              "badge": "EXPLOIT INTERNATIONAL",
+              "icon": "🎯"
+            }
+          ]
+        },
+        {
+          "years": "1965 – 1978",
+          "title": "1965 – 1978 : La naissance des Nanas, Hon/Elle et le triomphe de la féminité joyeuse",
+          "name": "La naissance des Nanas, Hon/Elle et le triomphe de la féminité joyeuse (1965 – 1978)",
+          "color": "#f59e0b",
+          "summary": "Inspirée par la grossesse de son amie Clarice Rivers, elle crée ses premières Nanas, figurines féminines aux corps imposants et dynamiques, dotées de petites têtes sans traits identifiables. En 1966, elle frappe un coup d'éclat au Moderna Museet de Stockholm avec Hon/Elle, une femme géante de vingt-huit mètres de long couchée sur le dos, dans laquelle les visiteurs pénètrent entre les cuisses. Les Nanas s'émancipent du rôle traditionnel de victime pour incarner des héroïnes joyeuses et triomphantes.",
+          "events": [
+            {
+              "year": "1965",
+              "title": "Premières sculptures de Nanas en papier mâché et laine",
+              "desc": "Expose à la galerie Alexandre Iolas à Paris ses premières Nanas géantes, manifestes colorés de la puissance matriarcale et de la liberté des corps féminins.",
+              "type": "masterpiece",
+              "badge": "ICÔNE FÉMINISTE",
+              "icon": "💃"
+            },
+            {
+              "year": "1966",
+              "title": "Hon/Elle au Moderna Museet de Stockholm",
+              "desc": "Édifie avec Jean Tinguely et Per Olof Ultvedt une cathédrale-femme géante de 28 mètres de long dans laquelle le public pénètre pour explorer des espaces culturels interactifs.",
+              "type": "turning_point",
+              "badge": "MONUMENTALITÉ PUBLIQUE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "years": "1979 – 2002",
+          "title": "1979 – 2002 : L'art public monumental, la fontaine Stravinsky et le Jardin des Tarots",
+          "name": "L'art public monumental, la fontaine Stravinsky et le Jardin des Tarots (1979 – 2002)",
+          "color": "#3b82f6",
+          "summary": "Consacrant les deux dernières décennies de sa vie à l'art monumental dans l'espace public (la fontaine Stravinsky à Paris avec Tinguely en 1983), elle réalise son chef-d'œuvre absolu en Toscane : le Jardin des Tarots (Giardino dei Tarocchi) à Capalbio. Financé par la création de son propre parfum, ce parc magique abrite les vingt-deux arcanes majeurs du jeu de tarot sous forme de sculptures habitables recouvertes de mosaïques de miroir et de céramique.",
+          "events": [
+            {
+              "year": "1983",
+              "title": "Inauguration de la Fontaine Stravinsky à Paris",
+              "desc": "Crée face au Centre Pompidou avec Jean Tinguely un ensemble féerique de seize sculptures animées rendant hommage aux compositions d'Igor Stravinsky.",
+              "type": "masterpiece",
+              "badge": "ART PUBLIC PARISIEN",
+              "icon": "⛲"
+            },
+            {
+              "year": "1998",
+              "title": "Ouverture officielle du Jardin des Tarots en Toscane",
+              "desc": "Aboutissement de vingt années de chantier autofinancé à Capalbio : un parc ésotérique et monumental où l'artiste a habité pendant des années au sein de la sculpture de l'Impératrice.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE ABSOLU",
+              "icon": "🏰"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "schiele": {
+    "id": "schiele",
+    "name": "Schiele Egon",
+    "sortName": "Schiele Egon",
+    "sortLetter": "S",
+    "dates": "1890 – 1918",
+    "movement": "Expressionnisme autrichien & Sécession viennoise",
+    "nationality": "Autrichien (Tulln an der Donau – Vienne)",
+    "techniques": "Huile et détrempe sur toile, bois et carton, gouache, aquarelle, crayon noir et mine de plomb sur papier",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczO9tNl23wyymncS1u2MJMKVfIJBKyGTedFdcHJFJgiBMURv6PUcgXz_sFc47A2gbWjCbkD_vy4yyTmhI_6IF0Xvm9y-DsIi3uadGMjmHMM_2PwAVd7kZcvnUusMC_YthFGpsKoyq0fMfwybr0KqCMlcQw=w1836-h779-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>La figure de proue de l'expressionnisme viennois et le miroir des tourments intérieurs</strong><br>
+      Egon Schiele (1890 – 1918), mort prématurément de la grippe espagnole à Vienne à seulement 28 ans, est la figure de proue de l'expressionnisme autrichien. Protégé de Gustav Klimt, dont il fut le disciple rebelle, il a brisé les codes décoratifs de la Sécession viennoise pour explorer les zones les plus sombres et les plus enfouies de la psyché humaine. Sa carrière fulgurante, d'une intensité rare, a été marquée par le scandale, l'emprisonnement pour « attentat à la pudeur » et une obsession constante pour l'érotisme, la mort et la quête d'identité.</p>
+      <p><strong>Traits nerveux, corps décharnés et palette cadavérique</strong><br>
+      Son genre pictural est centré sur une exploration viscérale du corps humain, utilisé comme un miroir des tourments intérieurs. Son style se reconnaît immédiatement à son trait nerveux, anguleux et tourmenté, presque chirurgical. Ses personnages, souvent décharnés, sont représentés dans des poses contorsionnées, voire grotesques, qui expriment une profonde solitude ou une tension sexuelle brute. La couleur, chez Schiele, est souvent maladive — des teints livides, des rouges inflammatoires — et appliquée de manière à accentuer la vulnérabilité et l'épuisement des corps.</p>
+      <p><strong>De l'ornementation sécessionniste à la vérité tragique de l'âme</strong><br>
+      L'évolution de son travail montre un passage d'une influence décorative héritée de Klimt vers un réalisme psychologique brutal, puis vers une forme de sérénité tragique avant sa mort. Ses premières œuvres conservent les fonds dorés et l'élégance de la Sécession, mais il s'en détache vite pour des compositions où le vide entoure les figures, renforçant leur isolement. Vers 1914-1915, ses portraits et ses paysages (souvent des villes « mortes » comme Krumau) gagnent en structure et en profondeur, tandis que ses derniers nus, comme ceux représentant sa femme Edith, perdent un peu de leur agressivité pour gagner en humanité et en tendresse, léguant une œuvre radicale qui fait du corps le théâtre de l'angoisse existentielle.</p>
+    `,
+    "corpus": {
+      "total": 340,
+      "paintingsCount": 340,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Catalogue raisonné Jane Kallir (Egon Schiele: The Complete Works, 1990/1998)",
+      "totalOeuvresEstimees": "~340 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné établi par Jane Kallir (Egon Schiele: The Complete Works, 1990, puis sa version augmentée en 1998), qui prolonge et précise le catalogue historique d'Otto Kallir (1930). Bien que Schiele ait laissé plus de 2 500 dessins, aquarelles et gouaches d'une intensité psychologique et érotique vertigineuse, le corpus officiel et définitif de ses peintures (huiles et détrempes sur toile, bois, carton ou panneau) s'établit à environ 340 œuvres."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1890",
+        "place": "Tulln an der Donau (Basse-Autriche)",
+        "title": "Naissance d'Egon Schiele",
+        "desc": "Né le 12 juin 1890 en gare de Tulln où son père est chef de gare. Marqué dès l'adolescence par la maladie mentale et la mort de son père de la syphilis en 1905, événement qui nourrit son obsession de la déchéance physique."
+      },
+      "death": {
+        "year": "1918",
+        "place": "Vienne (Autriche)",
+        "title": "Mort prématurée d'Egon Schiele",
+        "desc": "Succombe le 31 octobre 1918 à 28 ans à la grippe espagnole, trois jours seulement après le décès de son épouse enceinte Edith Harms et quelques mois après son protecteur Gustav Klimt."
+      },
+      "periods": [
+        {
+          "years": "1906 – 1910",
+          "title": "1906 – 1910 : L'apprentissage académique, la rencontre de Gustav Klimt et l'émancipation de la Sécession",
+          "name": "L'apprentissage académique, la rencontre de Gustav Klimt et l'émancipation de la Sécession (1906 – 1910)",
+          "color": "#eab308",
+          "summary": "Reçu à seize ans à l'Académie des beaux-arts de Vienne, il étudie auprès de Christian Griepenkerl avant de se rebeller contre l'académisme conservateur. En 1907, il rencontre Gustav Klimt qui devient son mentor bienveillant, lui ouvre les portes des ateliers d'art de Vienne (Wiener Werkstätte) et lui fait découvrir les estampes japonaises et le symbolisme international.",
+          "events": [
+            {
+              "year": "1907",
+              "title": "Rencontre décisive avec Gustav Klimt",
+              "desc": "Klimt achète des dessins au jeune Schiele, lui échange ses propres œuvres et l'introduit auprès des mécènes et collectionneurs viennois de la Sécession.",
+              "type": "turning_point",
+              "badge": "MENTORAT MAJEUR",
+              "icon": "🤝"
+            },
+            {
+              "year": "1909",
+              "title": "Fondation du Neukunstgruppe (Groupe du Nouvel Art)",
+              "desc": "Quitte l'Académie avec d'autres étudiants dissidents pour fonder le Neukunstgruppe et expose à la Kunstschau de Vienne aux côtés de Klimt, Schiele et Kokoschka.",
+              "type": "context",
+              "badge": "AVANT-GARDE",
+              "icon": "⚡"
+            }
+          ]
+        },
+        {
+          "years": "1911 – 1914",
+          "title": "1911 – 1914 : La rupture expressionniste, le scandale de Neulengbach et l'introspection existentielle",
+          "name": "La rupture expressionniste, le scandale de Neulengbach et l'introspection existentielle (1911 – 1914)",
+          "color": "#ef4444",
+          "summary": "Installé à Krumau puis à Neulengbach avec sa muse et compagne Wally Neuzil, Schiele développe son style le plus radical : corps tordus, autoportraits convulsifs et nus crus. En avril 1912, accusé d'attentat à la pudeur et de détournement de mineure en raison de la présence de dessins érotiques dans son atelier ouvert aux enfants du village, il est incarcéré pendant vingt-quatre jours, une épreuve traumatisante qui marque profondément son œuvre.",
+          "events": [
+            {
+              "year": "1912",
+              "title": "Incarcération à la prison de Sankt Pölten (Neulengbach)",
+              "desc": "Emprisonné pendant 24 jours pour diffusion de dessins immoraux ; l'un de ses dessins est publiquement brûlé par le juge lors du procès.",
+              "type": "turning_point",
+              "badge": "CENSURE & SCANDALE",
+              "icon": "⛓️"
+            },
+            {
+              "year": "1912",
+              "title": "Agonie (Neue Pinakothek, Munich)",
+              "desc": "Huile sur toile monumentale représentant deux moines mourants enlacés, méditation mystique et tragique sur la vulnérabilité humaine à l'aube de la guerre.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "schiele_agonie_munich_1912"
+            }
+          ]
+        },
+        {
+          "years": "1915 – 1918",
+          "title": "1915 – 1918 : Le mariage avec Edith Harms, la reconnaissance internationale et la maturité tragique",
+          "name": "Le mariage avec Edith Harms, la reconnaissance internationale et la maturité tragique (1915 – 1918)",
+          "color": "#06b6d4",
+          "summary": "En 1915, il épouse Edith Harms et est mobilisé à l'arrière dans l'armée austro-hongroise, où il est affecté à des tâches administratives lui permettant de continuer à peindre. Son style s'adoucit, ses volumes s'arrondissent et ses compositions gagnent en sérénité et en tendresse humaine. En mars 1918, la 49e exposition de la Sécession viennoise consacre son triomphe public avant que la pandémie de grippe espagnole ne fauche le couple en pleine gloire.",
+          "events": [
+            {
+              "year": "1915",
+              "title": "Mariage avec Edith Harms & Mobilisation militaire",
+              "desc": "Épouse Edith Harms et est affecté au camp de prisonniers de guerre russes en Basse-Autriche, où il réalise des portraits d'officiers et de captifs.",
+              "type": "context",
+              "badge": "TOURNANT DE VIE",
+              "icon": "💍"
+            },
+            {
+              "year": "1918",
+              "title": "Triomphe à la 49e exposition de la Sécession viennoise",
+              "desc": "Consécration triomphale : la Sécession lui consacre la salle principale où il expose cinquante œuvres et vend la quasi-totalité de ses toiles, s'imposant comme le chef de file incontesté de l'art autrichien.",
+              "type": "masterpiece",
+              "badge": "APOGÉE & CONSÉCRATION",
+              "icon": "👑"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "seurat": {
+    "id": "seurat",
+    "name": "Seurat Georges",
+    "sortName": "Seurat Georges",
+    "sortLetter": "S",
+    "dates": "1859 – 1891",
+    "movement": "Néo-impressionnisme, Pointillisme & Divisionnisme",
+    "nationality": "Français (Paris)",
+    "techniques": "Huile sur toile et panneau de bois, dessin au crayon Conté sur papier vergé Michallet ou Ingres",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP-MllQVsO84Q3Q0mkXt6yGjx8Yb_1QgEwwFDAVwr12HD2YT-alpLJfUSQF44uULxgljfZ2UqSALCKjqgK_-e7gD4sTBjQntoPgNQ0xi_836pVMnSoGDykrErUvVWqAMXhyDvTtnpENl6gQel7ls2HMkA=w1836-h779-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le créateur du néo-impressionnisme et le géomètre de la lumière</strong><br>
+      Georges Seurat (1859 – 1891) est le créateur et le chef de file du néo-impressionnisme, également désigné sous les termes de pointillisme ou de divisionnisme. Disparu brutalement à seulement 31 ans, ce peintre méthodique a révolutionné l'art moderne en soumettant l'intuition impressionniste aux lois rigoureuses de l'optique et de la science contemporaine (les théories de Chevreul sur le contraste simultané des couleurs, d'Ogden Rood et de Charles Henry). Il a ainsi réconcilié la lumière fugace de la modernité avec la monumentalité pérenne et l'ordonnancement géométrique des maîtres anciens.</p>
+      <p><strong>Pointillisme scientifique, crayon Conté velouté et composition au nombre d'or</strong><br>
+      Son genre pictural se définit par le grand manifeste programmatique d'histoire contemporaine, la scène de loisir urbain et populaire, le paysage marin portuaire et le dessin au crayon Conté sur papier Ingres. Son style se caractérise par la décomposition de la touche en minuscules points de pigments purs juxtaposés, dont la fusion s'opère optiquement dans l'œil du spectateur, ainsi qu'une construction géométrique rigoureuse fondée sur le nombre d'or, des profils hiératiques et des encadrements peints participant à l'effet lumineux d'ensemble.</p>
+      <p><strong>Du clair-obscur graphique au dynamisme des lignes du Cirque</strong><br>
+      L'évolution de son style marque un passage de la découverte du clair-obscur graphique vers la codification scientifique de la couleur et du dynamisme linéaire : la formation académique et la maîtrise du crayon Conté (1878 – 1883) auprès d'Henri Lehmann ; les grands manifestes et la naissance du divisionnisme (1884 – 1886) avec Une baignade à Asnières et le coup d'éclat retentissant d'Un dimanche après-midi à l'île de la Grande Jatte ; et enfin les scènes de spectacle nocturne et la dynamique des lignes (1887 – 1891) inspirées de Charles Henry, dont témoignent Le Chahut et son chef-d'œuvre inachevé, Le Cirque, avant qu'il ne soit emporté à 31 ans par une angine infectieuse foudroyante.</p>
+    `,
+    "corpus": {
+      "total": 180,
+      "paintingsCount": 180,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Catalogue raisonné César Mange de Hauke (Seurat et son œuvre, 1961) & Dorra-Rewald (1959)",
+      "totalOeuvresEstimees": "~170 à 180 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique fondateur s'appuie sur le Catalogue raisonné établi par César Mange de Hauke (Seurat et son œuvre, 1961), enrichi par les travaux critiques de Henri Dorra et John Rewald (L'Œuvre peint de Georges Seurat, 1959) et les recherches ultérieures de Robert L. Herbert. Contrairement à d'autres impressionnistes très prolifiques, la carrière fulgurante de Seurat n'a duré qu'une dizaine d'années, et chaque toile monumentale représentait des mois d'élaboration méthodique : son corpus officiel de peintures (grands tableaux et études peintes répertoriées au catalogue) s'établit à environ 170 à 180 œuvres (auxquelles s'ajoutent environ 200 dessins au crayon Conté)."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1859",
+        "place": "Paris (France)",
+        "title": "Naissance de Georges Seurat",
+        "desc": "Né le 2 décembre 1859 dans une famille bourgeoise parisienne aisée de la rue de Bondy (actuelle rue René-Boulanger). Grâce aux rentes familiales, il pourra travailler en toute indépendance financière."
+      },
+      "death": {
+        "year": "1891",
+        "place": "Paris (France)",
+        "title": "Mort foudroyante de Georges Seurat",
+        "desc": "S'éteint brutalement le 29 mars 1891 à seulement 31 ans, terrassé en quelques jours par une angine infectieuse foudroyante (diphtérie ou méningite) alors qu'il exposait Le Cirque au Salon des Indépendants."
+      },
+      "periods": [
+        {
+          "years": "1878 – 1883",
+          "title": "1878 – 1883 : La formation académique, l'atelier Lehmann et le laboratoire d'ombre du crayon Conté",
+          "name": "La formation académique, l'atelier Lehmann et le laboratoire d'ombre du crayon Conté (1878 – 1883)",
+          "color": "#78716c",
+          "summary": "Formé à l'École des beaux-arts de Paris auprès d'Henri Lehmann, disciple direct d'Ingres, Seurat étudie la statuaire antique et le dessin classique. Il développe une pratique virtuose et novatrice du crayon Conté sur papier vergé Michallet, exploitant le grain du papier pour faire émerger des silhouettes lumineuses d'un noir velouté absolu sans aucun trait de contour, véritable laboratoire d'optique préparatoire à sa révolution chromatique.",
+          "events": [
+            {
+              "year": "1878",
+              "title": "Entrée à l'École des beaux-arts de Paris",
+              "desc": "Étudie auprès d'Henri Lehmann et copie les maîtres classiques au Louvre, méditant les traités de dessin de Charles Blanc et les lois d'harmonie antique.",
+              "type": "context",
+              "badge": "FORMATION ACADÉMIQUE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1883",
+              "title": "Les dessins au crayon Conté admis au Salon officiel",
+              "desc": "Son magnifique Portrait d'Aman-Jean au crayon Conté est accepté au Salon officiel de 1883, salué pour sa maîtrise magistrale du clair-obscur sans trait linéaire.",
+              "type": "masterpiece",
+              "badge": "MAÎTRISE GRAPHIQUE",
+              "icon": "✏️"
+            }
+          ]
+        },
+        {
+          "years": "1884 – 1886",
+          "title": "1884 – 1886 : La fondation des Indépendants, La Grande Jatte et le manifeste du divisionnisme",
+          "name": "La fondation des Indépendants, La Grande Jatte et le manifeste du divisionnisme (1884 – 1886)",
+          "color": "#10b981",
+          "summary": "Refusé au Salon de 1884 avec Une baignade à Asnières, il cofonde le Salon des Artistes Indépendants avec Signac, Redon et Dubois-Pillet. En mai 1886, lors de la 8e et dernière exposition impressionniste, il déclenche un séisme esthétique avec Un dimanche après-midi à l'île de la Grande Jatte. Théorisé par Félix Fénéon sous le vocable de néo-impressionnisme, ce tableau monumental pose les fondements scientifiques du divisionnisme optique.",
+          "events": [
+            {
+              "year": "1884",
+              "title": "Une baignade à Asnières & Fondation des Artistes Indépendants",
+              "desc": "Expose son premier grand manifeste au premier Salon des Indépendants et noue une amitié indéfectible avec Paul Signac.",
+              "type": "turning_point",
+              "badge": "FONDATION HISTORIQUE",
+              "icon": "⚡"
+            },
+            {
+              "year": "1886",
+              "title": "Coup d'éclat d'Un dimanche après-midi à l'île de la Grande Jatte",
+              "desc": "Toile monumentale exposée à la 8e exposition impressionniste, imposant le pointillisme aux yeux de l'Europe et consacrant la naissance du néo-impressionnisme.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE FONDATEUR",
+              "icon": "🌟"
+            }
+          ]
+        },
+        {
+          "years": "1887 – 1891",
+          "title": "1887 – 1891 : Les marines normandes, la dynamique émotionnelle des lignes et Le Cirque",
+          "name": "Les marines normandes, la dynamique émotionnelle des lignes et Le Cirque (1887 – 1891)",
+          "color": "#6366f1",
+          "summary": "Tout en peignant chaque été des paysages marins d'une pureté géométrique absolue le long des côtes normandes (Grandcamp, Port-en-Bessin, Le Crotoy, Gravelines), il explore les spectacles et divertissements nocturnes parisiens (La Parade de cirque, Le Chahut). Passionné par les théories dynamogéniques de Charles Henry sur la charge émotionnelle des lignes et des angles, il compose Le Cirque (1891), apogée du divisionnisme rythmé par des diagonales ascendantes joyeuses.",
+          "events": [
+            {
+              "year": "1888",
+              "title": "La Parade de cirque & Les Poseuses",
+              "desc": "Expose aux Indépendants et au salon des XX à Bruxelles, explorant l'éclairage artificiel au gaz et la monumentalité du nu féminin décomposé par le pointillisme.",
+              "type": "masterpiece",
+              "badge": "LUMIÈRE ARTIFICIELLE",
+              "icon": "🎪"
+            },
+            {
+              "year": "1891",
+              "title": "Le Cirque : testament inachevé d'un génie visionnaire",
+              "desc": "Accroche au 7e Salon des Indépendants son chef-d'œuvre vibrant de rythmes diagonaux ascendants, quelques jours avant sa disparition brutale à 31 ans.",
+              "type": "masterpiece",
+              "badge": "TESTAMENT ÉTERNEL",
+              "icon": "🎨"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "signac": {
+    "id": "signac",
+    "name": "Signac Paul",
+    "sortName": "Signac Paul",
+    "sortLetter": "S",
+    "dates": "1863 – 1935",
+    "movement": "Néo-impressionnisme, Divisionnisme & Pointillisme",
+    "nationality": "Français (Paris – Saint-Tropez)",
+    "techniques": "Huile sur toile, aquarelle, lavis d'encre de Chine, lithographie en couleurs",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPc7OdSXV303Gp_6SMnMh6yIU3IsjIN3i6AG8hAUB-JIbnz4YIioHUWlnE9_Pgyp63fpKJ_mRxaJStf77aDpNIsuh5PwCR1JOYDvqHaZfvxRQJbx91xgwwB472vKpKm_5TpvRj-uoHBXutkOmWr7xKYWA=w1836-h779-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": `
+      <p><strong>Le grand théoricien du divisionnisme et le navigateur de la couleur pure</strong><br>
+      Paul Signac (1863 – 1935) est le principal théoricien et le grand propagateur du néo-impressionnisme. Ami proche et indéfectible de Georges Seurat, il prend naturellement la tête du mouvement après la disparition prématurée de ce dernier en 1891. Marin passionné sillonnant les mers à bord de ses yachts successifs, il parcourt sans relâche les côtes françaises et européennes, ce qui lui vaudra d'être nommé Peintre officiel de la Marine en 1915 et président de la Société des artistes indépendants pendant plus de vingt-cinq ans.</p>
+      <p><strong>Touche mosaïque, contraste simultané et éclat méditerranéen</strong><br>
+      Son genre pictural est défini par le divisionnisme, une méthode rigoureuse fondée sur les lois physiques de la lumière et du contraste simultané des couleurs de Chevreul. Plutôt que de mélanger les pigments sur sa palette, il juxtapose des touches de couleurs pures directement sur la toile pour obtenir une luminosité et une vibration optique maximales. Ses thèmes de prédilection demeurent les paysages portuaires, les marines, les phares et les rivages fluviaux, traités avec une rigueur géométrique alliée à une joie chromatique étincelante.</p>
+      <p><strong>De la rigueur pointilliste à la liberté décorative de l'atelier</strong><br>
+      L'évolution de son style se déploie selon trois axes majeurs : la transition technique, qui voit ses petits points serrés et scientifiques des années 1880 s'élargir progressivement vers une touche carrée et rythmée semblable à une tesselle de mosaïque ; l'émancipation de la couleur, où la palette s'intensifie jusqu'à s'affranchir de la réalité descriptive au profit d'accords chromatiques éclatants préfigurant le fauvisme ; et enfin la pratique de l'atelier, où l'artiste recompose de mémoire ses impressions marines à partir de notations d'aquarelle, privilégiant une harmonie décorative monumentale.</p>
+    `,
+    "corpus": {
+      "total": 1100,
+      "paintingsCount": 1100,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 3,
+      "source": "Catalogue raisonné de l'œuvre peint par Françoise Cachin (Gallimard, 2000)",
+      "totalOeuvresEstimees": "~1 100 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur les travaux fondateurs de Françoise Cachin (Signac : Catalogue raisonné de l'œuvre peint, Gallimard, 2000), établi avec la collaboration de Marina Ferretti Bocquillon. En écartant l'énorme production d'aquarelles et d'études sur papier qui accompagne chacun de ses voyages en bateau le long des côtes françaises et méditerranéennes, ce catalogue fixe le corpus officiel et définitif de ses peintures (toiles et panneaux répertoriés) à environ 1 100 œuvres (un peu plus de 1 100 numéros au catalogue raisonné)."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1863",
+        "place": "Paris (France)",
+        "title": "Naissance de Paul Signac",
+        "desc": "Né le 11 novembre 1863 à Paris dans une famille bourgeoise commerçante aisée. Attiré très jeune par la peinture après avoir visité l'exposition de Claude Monet en 1880."
+      },
+      "death": {
+        "year": "1935",
+        "place": "Paris (France)",
+        "title": "Mort de Paul Signac",
+        "desc": "S'éteint le 15 août 1935 à Paris à 71 ans d'une septicémie, honoré comme l'un des pères fondateurs de la couleur pure moderne et président admiré de la Société des Artistes Indépendants."
+      },
+      "periods": [
+        {
+          "years": "1882 – 1891",
+          "title": "1882 – 1891 : La découverte de l'impressionnisme, la rencontre de Seurat et le dogme néo-impressionniste",
+          "name": "La découverte de l'impressionnisme, la rencontre de Seurat et le dogme néo-impressionniste (1882 – 1891)",
+          "color": "#10b981",
+          "summary": "Après des débuts marqués par l'admiration pour Claude Monet et Armand Guillaumin à Asnières, il rencontre Georges Seurat en 1884 lors de la fondation de la Société des Artistes Indépendants. Converti avec enthousiasme à la théorie du mélange optique, il convainc Camille Pissarro de rejoindre le divisionnisme et devient le prosélyte le plus ardent du pointillisme.",
+          "events": [
+            {
+              "year": "1884",
+              "title": "Rencontre de Georges Seurat & Fondation des Indépendants",
+              "desc": "Participe activement à la création du Salon des Indépendants et adopte la séparation scientifique du ton aux côtés de Georges Seurat.",
+              "type": "turning_point",
+              "badge": "RENCONTRE HISTORIQUE",
+              "icon": "🤝"
+            },
+            {
+              "year": "1890",
+              "title": "Portrait de Félix Fénéon : l'opus 217",
+              "desc": "Peint le spectaculaire portrait divisionniste du critique Félix Fénéon sur fond de tourbillons décoratifs chromatiques abstraits inspirés des théories de Charles Henry.",
+              "type": "masterpiece",
+              "badge": "ICÔNE DIVISIONNISTE",
+              "icon": "🌀"
+            }
+          ]
+        },
+        {
+          "years": "1892 – 1910",
+          "title": "1892 – 1910 : L'ancrage à Saint-Tropez, la touche en mosaïque et le rayonnement du divisionnisme",
+          "name": "L'ancrage à Saint-Tropez, la touche en mosaïque et le rayonnement du divisionnisme (1892 – 1910)",
+          "color": "#f59e0b",
+          "summary": "Profondément affecté par la mort brutale de Seurat en 1891, il hisse les voiles à bord de son yacht l'Olympia et découvre le petit port de pêche de Saint-Tropez en 1892. Il s'y installe dans la villa La Hune, qui devient le foyer méridional de l'avant-garde (accueillant Matisse, Cross, Van Rysselberghe). En 1899, il publie le manifeste théorique fondamental « D'Eugène Delacroix au néo-impressionnisme » et fait évoluer le pointillisme vers une touche carrée large et vibrante comme une tesselle de mosaïque.",
+          "events": [
+            {
+              "year": "1892",
+              "title": "Découverte de Saint-Tropez à bord de l'Olympia",
+              "desc": "Jette l'ancre dans le port de Saint-Tropez, tombe amoureux de la lumière méditerranéenne et achète la villa La Hune où il travaillera pendant plus de vingt ans.",
+              "type": "turning_point",
+              "badge": "TOURNANT MÉDITERRANÉEN",
+              "icon": "⛵"
+            },
+            {
+              "year": "1899",
+              "title": "Publication de D'Eugène Delacroix au néo-impressionnisme",
+              "desc": "Publie son traité théorique de référence défendant la filiation directe entre Delacroix, l'impressionnisme et la rigueur scientifique de la couleur pure.",
+              "type": "context",
+              "badge": "MANIFESTE MAJEUR",
+              "icon": "📖"
+            },
+            {
+              "year": "1901",
+              "title": "Le Port de Saint-Tropez (Tokyo, Musée national d'Art occidental)",
+              "desc": "Chef-d'œuvre de maturité : touche mosaïque large, vue plongeante sur le bassin scintillant encadré par le campanile ocre et l'activité des pêcheurs.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "signac_le_port_de_saint_tropez_tokyo_1901"
+            },
+            {
+              "year": "1909",
+              "title": "Le Phare d'Antibes (Musée d'Arts de Nantes)",
+              "desc": "Composition géométrique et poétique où le phare méditerranéen devient le prisme vertical décomposant la lumière cristalline du matin en touches pures.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "signac_le_phare_d_antibes_nantes_1909"
+            }
+          ]
+        },
+        {
+          "years": "1911 – 1935",
+          "title": "1911 – 1935 : La maturité décorative, la présidence des Indépendants et les grands cycles portuaires",
+          "name": "La maturité décorative, la présidence des Indépendants et les grands cycles portuaires (1911 – 1935)",
+          "color": "#3b82f6",
+          "summary": "Président de la Société des Artistes Indépendants de 1908 jusqu'à sa mort, il encourage la jeune génération des fauves et des cubistes. Nommé Peintre officiel de la Marine en 1915, il entreprend dans les années 1920 une monumentale série d'aquarelles et de toiles consacrée à tous les ports de France. Ses toiles de maturité recomposées en atelier atteignent une synthèse décorative et lumineuse magistrale.",
+          "events": [
+            {
+              "year": "1914",
+              "title": "Antibes, le soir (MAMCS, Strasbourg)",
+              "desc": "Vue crépusculaire féerique sur le port d'Antibes et le château Grimaldi, symphonie pastel rose et turquoise de touches divisionnistes harmonieuses.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "signac_antibes_le_soir_strasbourg_1914"
+            },
+            {
+              "year": "1929",
+              "title": "Le grand cycle des Ports de France",
+              "desc": "Soutenu par le mécène Gaston Lévy, il parcourt l'ensemble des littoraux français pour réaliser une série encyclopédique de près de deux cents aquarelles de ports.",
+              "type": "masterpiece",
+              "badge": "MONUMENTALITÉ MARITIME",
+              "icon": "⚓"
+            }
+          ]
+        }
+      ]
+    }
+  },
 });
 
 
@@ -10154,3 +10666,18 @@ window.ARTISTS_REGISTRY["douanier_rousseau"] = window.ARTISTS_REGISTRY["rousseau
 window.ARTISTS_REGISTRY["pierre_paul_rubens"] = window.ARTISTS_REGISTRY["rubens"];
 window.ARTISTS_REGISTRY["peter_paul_rubens"] = window.ARTISTS_REGISTRY["rubens"];
 window.ARTISTS_REGISTRY["pietro_paolo_rubens"] = window.ARTISTS_REGISTRY["rubens"];
+
+
+// Nouveaux maîtres ajoutés : Niki de Saint Phalle, Egon Schiele, Georges Seurat, Paul Signac
+window.ARTISTS_REGISTRY["niki_de_saint_phalle"] = window.ARTISTS_REGISTRY["saint_phalle"];
+window.ARTISTS_REGISTRY["niki_de_st_phalle"] = window.ARTISTS_REGISTRY["saint_phalle"];
+window.ARTISTS_REGISTRY["saint_phalle_niki"] = window.ARTISTS_REGISTRY["saint_phalle"];
+
+window.ARTISTS_REGISTRY["egon_schiele"] = window.ARTISTS_REGISTRY["schiele"];
+window.ARTISTS_REGISTRY["schiele_egon"] = window.ARTISTS_REGISTRY["schiele"];
+
+window.ARTISTS_REGISTRY["georges_seurat"] = window.ARTISTS_REGISTRY["seurat"];
+window.ARTISTS_REGISTRY["seurat_georges"] = window.ARTISTS_REGISTRY["seurat"];
+
+window.ARTISTS_REGISTRY["paul_signac"] = window.ARTISTS_REGISTRY["signac"];
+window.ARTISTS_REGISTRY["signac_paul"] = window.ARTISTS_REGISTRY["signac"];
