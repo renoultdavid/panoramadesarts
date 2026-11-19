@@ -5642,8 +5642,9 @@ function classifyGlobalThemesAndSubthemes(a, recIdParam) {
 
   // 4. ART SACRÉ, RÉCITS BIBLIQUES & SPIRITUALITÉ
   const titleForSacred = titleLow
-    .replace(/sainte?-(?:victoire|adresse|morys|chapelle|baume|hélène)/g, '')
-    .replace(/michel-ange|pierre\s+saint\s+jean/g, '');
+    .replace(/\bsainte?-[a-zàâäéèêëîïôöùûüÿçœæ\-]+/gi, '')
+    .replace(/\b(?:port|quai|rue|pont|gare|place|boulevard|route|chemin|sentier|vallée|vallee|mont|colline|baie|plage|golfe|fleuve|rivière|riviere)\s+(?:de\s+|d\')?sainte?\s+[a-zàâäéèêëîïôöùûüÿçœæ]+/gi, '')
+    .replace(/michel-ange|pierre\s+saint\s+jean/gi, '');
   const isSacred =
     hasWholeTermGlobal(titleForSacred, 'christ|jésus|jesus|vierge|madone|maestà|maesta|saint|sainte|saints|saintes|apôtres|apotres|annonciation|nativité|nativite|visitation|crucifix|crucifixion|croix peinte|pietà|piétà|pieta|lamentation|déploration|deploration|dépouillement|depouillement|espolio|cène|cene|retable|anges|ange|baptême|bapteme|limbes|sermon|oliviers|gethsémani|gethsemani|communion|madeleine|martyre|stigmates|bon samaritain|judith|holopherne|salomé|salome|david avec la tête de goliath|abraham et isaac|ex-voto|sacristie|enterrement du comte d\'orgaz|triptyque de modène|guérison de l\'aveugle|sept œuvres de miséricorde|jeanne d\'arc|mère supérieure|prière du matin|angélus|adoration|cortège des mages|repas chez simon|jardin des délices|chariot de foin') ||
     (recId === 'giotto' || recId === 'giottino' || recId === 'cimabue' || recId === 'daddi' || recId === 'fra_angelico');
@@ -5683,22 +5684,25 @@ function classifyGlobalThemesAndSubthemes(a, recIdParam) {
   }
 
   // 6. PAYSAGES, MARINES, JARDINS & SAISONS
+  const chipsCorpus = (Array.isArray(a.chips) ? a.chips.join(' ') : '').toLowerCase();
   const titleForLandscape = titleLow
     .replace(/(?:madame|mademoiselle|caroline|famille)\s+rivière/g, '')
     .replace(/sermon\s+sur\s+la\s+montagne|portraits\s+de\s+fleurs/g, '');
   const isLandscapeOrMarine =
     !isPortraitTitle && !isSelfPortrait && !isStudio && !/nature morte/i.test(titleLow) && (recId !== 'botticelli') && (
-      hasWholeTermGlobal(titleForLandscape, 'paysage|marine|mer|plage|port|avant-port|baie|étang|etang|étangs|etangs|mare|vague|bateaux|cargo|seine|pont|montagne|forêt|foret|arbre|arbres|bois|sous-bois|jardin|campagne|vallée|vallee|plaine|gué|gue|ruisseau|soleil couchant|coucher de soleil|soleil de minuit|clair de lune|orage|neige|hiver|printemps|automne|été|ruines|tour de farges|ville-d\'avray|coulommiers|caprice|édifices|embarquement|retour de chasse|composition pastorale|yorkshire|woldgate|warter|rudston|sledmere|kilham|langtoft|garrowby|tunnel|aubépine|aubepine|aubépines|winter timber|route romaine|wolds|haie|normandie|giverny|beuvron|grande cour|petite niche|pommier|cognassier|poirier|floraison|splash|pool|piscine|lawn|sprinkled|nichols canyon|pacific coast|grand canyon|savings and loan')
+      hasWholeTermGlobal(titleForLandscape, 'paysage|marine|mer|plage|port|avant-port|baie|étang|etang|étangs|etangs|mare|vague|bateaux|bateau|voilier|voiliers|cargo|phare|phares|côte|cote|côtes|cotes|littoral|falaise|falaises|seine|loing|pont|montagne|forêt|foret|arbre|arbres|bois|sous-bois|jardin|campagne|vallée|vallee|plaine|gué|gue|ruisseau|soleil couchant|coucher de soleil|soleil de minuit|clair de lune|crépuscule|crepuscule|matin|aurore|soir|orage|neige|hiver|printemps|automne|été|ruines|tour de farges|ville-d\'avray|coulommiers|caprice|édifices|embarquement|retour de chasse|composition pastorale|yorkshire|woldgate|warter|rudston|sledmere|kilham|langtoft|garrowby|tunnel|aubépine|aubepine|aubépines|winter timber|route romaine|wolds|haie|normandie|giverny|beuvron|grande cour|petite niche|pommier|cognassier|poirier|floraison|splash|pool|piscine|lawn|sprinkled|nichols canyon|pacific coast|grand canyon|savings and loan|antibes|saint-tropez|marly|louveciennes|bouille|sahurs|langland') ||
+      hasWholeTermGlobal(chipsCorpus, 'paysage|marine|mer|plage|port|phare|littoral|côte|méditerranée|mediterranée') ||
+      hasWholeTermGlobal(cat, 'paysage|marine')
     );
   if (isLandscapeOrMarine) {
     themes.add('paysages_nature');
-    if (hasWholeTermGlobal(titleForLandscape, 'marine|mer|plage|port|avant-port|baie|vague|bateaux|cargo|seine|embarquement|pacific coast')) {
+    if (hasWholeTermGlobal(titleForLandscape + ' ' + chipsCorpus, 'marine|mer|plage|port|avant-port|baie|vague|bateaux|bateau|voilier|voiliers|cargo|phare|phares|côte|cote|littoral|falaise|falaises|seine|loing|antibes|saint-tropez|langland|méditerranée|mediterranée|manche|ocean|océan|embarquement|pacific coast')) {
       subthemes.add('marines_plages_ports');
     }
-    if (hasWholeTermGlobal(titleForLandscape, 'jardin|giverny|pommier|cognassier|poirier|floraison|aubépine|aubépines|printemps|automne|hiver|neige|été|pelouse|lawn|grande cour|petite niche')) {
+    if (hasWholeTermGlobal(titleForLandscape + ' ' + chipsCorpus, 'jardin|giverny|pommier|cognassier|poirier|floraison|aubépine|aubépines|printemps|automne|hiver|neige|été|pelouse|lawn|grande cour|petite niche')) {
       subthemes.add('jardins_vergers_saisons');
     }
-    if (hasWholeTermGlobal(titleForLandscape, 'pont|ruines|tour de farges|rue à|caprice|édifices|splash|pool|piscine|savings and loan|beuvron')) {
+    if (hasWholeTermGlobal(titleForLandscape + ' ' + chipsCorpus, 'pont|ruines|tour de farges|rue à|caprice|édifices|splash|pool|piscine|savings and loan|beuvron')) {
       subthemes.add('villes_architecture_piscines');
     }
     if (!subthemes.has('marines_plages_ports') && !subthemes.has('jardins_vergers_saisons') && !subthemes.has('villes_architecture_piscines')) {
@@ -5773,18 +5777,22 @@ function classifyGlobalThemesAndSubthemes(a, recIdParam) {
 
   // Fallback de sécurité si aucun thème n'a été déclenché
   if (themes.size === 0) {
-    if (hasWholeTermGlobal(cat, 'paysage|marine')) {
+    const chipsCorpus = (Array.isArray(a.chips) ? a.chips.join(' ') : '').toLowerCase();
+    if (hasWholeTermGlobal(cat, 'paysage|marine') || hasWholeTermGlobal(chipsCorpus, 'paysage|marine|mer|plage|port|phare|littoral|côte|montagne|vallée|forêt')) {
       themes.add('paysages_nature');
       subthemes.add('campagne_forets_montagnes');
-    } else if (hasWholeTermGlobal(cat, 'nature morte')) {
+    } else if (hasWholeTermGlobal(cat, 'nature morte') || hasWholeTermGlobal(chipsCorpus, 'nature morte')) {
       themes.add('natures_mortes_vanites');
       subthemes.add('objets_vanites');
-    } else if (hasWholeTermGlobal(cat, 'mythologie|histoire|allégorie')) {
+    } else if (hasWholeTermGlobal(cat, 'mythologie|histoire|allégorie') || hasWholeTermGlobal(chipsCorpus, 'mythologie|histoire|allégorie')) {
       themes.add('mythologie_histoire');
       subthemes.add('allegories_litterature');
-    } else if (hasWholeTermGlobal(cat, 'sacré|religieux|biblique|retable|fresque')) {
+    } else if (hasWholeTermGlobal(cat, 'sacré|religieux|biblique|retable|fresque') || hasWholeTermGlobal(chipsCorpus, 'art sacré|religion|bible')) {
       themes.add('sacre_religion');
       subthemes.add('saints_martyrs_devotion');
+    } else if (hasWholeTermGlobal(titleLow, 'chemin|route|sentier|rue|canal|fleuve|eau|soleil|lumière|vue|effet|ciel|temps|matin|soir')) {
+      themes.add('paysages_nature');
+      subthemes.add('campagne_forets_montagnes');
     } else {
       themes.add('portraits_figures');
       subthemes.add('portraits_individuels');

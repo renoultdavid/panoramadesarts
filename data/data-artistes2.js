@@ -10575,7 +10575,291 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
+
+  "signorelli": {
+  "id": "signorelli",
+  "name": "Signorelli Luca",
+  "sortName": "Signorelli Luca",
+  "sortLetter": "S",
+  "dates": "v. 1445 – 1523",
+  "movement": "Renaissance italienne (Quattrocento)",
+  "nationality": "Italie (Cortone, République florentine)",
+  "school": "École ombrienne & toscane (Quattrocento)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM9f3ekcPV2f5BIc7W1sNb1VVCPuoEapQMOhZZYP13di_AuXwUPz_i9L4aI-_XZN87EauKwwKlDXrLj1MtHzyEBmwhSw3bBvu_P-wjkeApfkObB1CBE3OMMTynxqTQQGBh1qGaqaJEirXX4QC3Qskl7uw=w1836-h779-s-no-gm?authuser=0",
+  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczM9f3ekcPV2f5BIc7W1sNb1VVCPuoEapQMOhZZYP13di_AuXwUPz_i9L4aI-_XZN87EauKwwKlDXrLj1MtHzyEBmwhSw3bBvu_P-wjkeApfkObB1CBE3OMMTynxqTQQGBh1qGaqaJEirXX4QC3Qskl7uw=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p>Luca Signorelli (v. 1445 – 1523) est l'une des figures les plus puissantes et les plus singulières de la Renaissance italienne (Quattrocento). Élève de Piero della Francesca, il a développé une esthétique radicalement différente de celle de son maître, délaissant le calme géométrique pour une exploration physique et dramatique du corps humain qui influencera directement Michel-Ange.</p><p>Son genre pictural se définit par le nu monumental et la peinture d'histoire sacrée. Son style se caractérise par une maîtrise anatomique impressionnante, une ligne dure et nerveuse, et un goût pour les compositions complexes saturées de muscles en tension. Il utilise le corps humain comme principal vecteur d'expression émotionnelle, capable de rendre aussi bien la grâce que l'horreur.</p><p>L'évolution de son style marque le passage de la clarté du XVe siècle vers la force du XVIe siècle : après sa formation auprès de Piero della Francesca dans les années 1470-1480, il atteint le sommet de sa carrière à Orvieto (1499 – 1504) dans la chapelle San Brizio avec ses fresques visionnaires de la Fin du Monde et du Jugement Dernier. Vers la fin de sa vie à Cortone, il dirige un atelier prolifique perpétuant ses puissantes figures athlétiques.</p>",
+  "corpus": {
+    "total": 115,
+    "paintingsCount": 115,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 1,
+    "source": "Monographie Tom Henry (2012) & Catalogues critiques Mario Salmi / Laurence Kanter",
+    "totalOeuvresEstimees": "~115 peintures répertoriées (fresques par cycles, retables et panneaux)",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur la monographie de Tom Henry (The Life and Art of Luca Signorelli, Yale University Press, 2012) ainsi que sur les catalogues critiques antérieurs de Mario Salmi et Laurence Kanter. En regroupant ses grands ensembles de fresques par chapelles ou cycles majeurs et en retenant ses peintures autographes (panneaux, bannières de procession, retables et décors muraux), le consensus scientifique fixe le corpus officiel de ses peintures à environ 115 oeuvres."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "years": "v. 1445 – 1489",
+        "title": "Formation auprès de Piero & Premières recherches anatomiques",
+        "color": "#0284c7",
+        "summary": "Apprenti de Piero della Francesca à Sansepolcro, il s'éloigne de l'immobilité contemplative de son maître pour explorer la dynamique musculaire et le dessin florentin.",
+        "events": [
+          {
+            "year": "v. 1445",
+            "title": "Naissance à Cortone en Toscane",
+            "desc": "Naît vers 1445 à Cortone au sein de la famille d'Egidio di Luca di Ventura, apparentée au peintre Lazzaro Vasari.",
+            "type": "context",
+            "badge": "NAISSANCE",
+            "icon": "🌱"
+          },
+          {
+            "year": "v. 1470",
+            "title": "Apprentissage auprès de Piero della Francesca",
+            "desc": "Se forme à Sansepolcro et Arezzo auprès de Piero della Francesca, acquérant la rigueur géométrique et la maîtrise des volumes dans l'espace.",
+            "type": "context",
+            "badge": "FORMATION",
+            "icon": "🎓"
+          },
+          {
+            "year": "1482",
+            "title": "Chantier de la Chapelle Sixtine à Rome",
+            "desc": "Intervient à la Chapelle Sixtine aux côtés de Pérugin, participant à la fresque du Testament et Mort de Moïse.",
+            "type": "context",
+            "badge": "COMMANDE PONTIFICALE",
+            "icon": "🏛️"
+          }
+        ]
+      },
+      {
+        "years": "1490 – 1504",
+        "title": "L'Apogée dramatique : Saint Jérôme & La Chapelle San Brizio d'Orvieto",
+        "color": "#d97706",
+        "summary": "Période de pleine maturité créatrice, marquée par la tension dramatique du corps ascétique et le monumental cycle eschatologique d'Orvieto.",
+        "events": [
+          {
+            "year": "1490",
+            "title": "Saint Jérôme en extase (Paris, Musée du Louvre)",
+            "desc": "Puissante figure ascétique à mi-corps : le saint vieillard frappe sa poitrine sanglante devant l'apparition du Christ en croix, dans un paysage d'Ombrie.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "signorelli_saint_jerome_en_extase_louvre_1490"
+          },
+          {
+            "year": "1499 – 1504",
+            "title": "Fresques de la Chapelle San Brizio à la cathédrale d'Orvieto",
+            "desc": "Sommet absolu de son art : L'Apocalypse, La Prédication de l'Antéchrist, La Résurrection de la chair et Les Damnés, un déluge de corps nus annonçant Michel-Ange.",
+            "type": "milestone",
+            "badge": "CHEF-D'ŒUVRE MONUMENTAL",
+            "icon": "⚡"
+          }
+        ]
+      },
+      {
+        "years": "1505 – 1523",
+        "title": "Dernières années à Cortone et rayonnement d'atelier",
+        "color": "#16a34a",
+        "summary": "Établi à Cortone, il dirige un atelier prolifique pour répondre aux commandes des églises toscanes et ombriennes jusqu'à sa mort en 1523.",
+        "events": [
+          {
+            "year": "1512",
+            "title": "Direction de l'atelier de Cortone et fonctions civiques",
+            "desc": "Occupe d'importantes charges municipales à Cortone tout en peignant de monumentaux retables pour les confréries et couvents de la région.",
+            "type": "context",
+            "badge": "MATURITÉ",
+            "icon": "📜"
+          },
+          {
+            "year": "1523",
+            "title": "Mort à Cortone à l'âge d'environ 78 ans",
+            "desc": "S'éteint le 16 octobre 1523 à Cortone, laissant une œuvre monumentale admirée par Raphaël et Michel-Ange, et consignée par Vasari.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "sisley": {
+  "id": "sisley",
+  "name": "Sisley Alfred",
+  "sortName": "Sisley Alfred",
+  "sortLetter": "S",
+  "dates": "1839 – 1899",
+  "movement": "Impressionnisme (Paysage pur)",
+  "nationality": "Grande-Bretagne / France (Actif en France)",
+  "school": "École impressionniste française",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOTrg3sniLnTb3a8h76XnViLhxBRyrJHQKe4dAobV9QMEiTGKoT37eqNbLvA0vT7Dql7dQ5NVQEMiq26R3TKaiIbH-c7LnCoeuP6t3UORjVNTHwyRYeh6qNU8jY3Bymsn9NXUkVmUmsCcdYlEqaQb5YLA=w1836-h779-s-no-gm?authuser=0",
+  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczOTrg3sniLnTb3a8h76XnViLhxBRyrJHQKe4dAobV9QMEiTGKoT37eqNbLvA0vT7Dql7dQ5NVQEMiq26R3TKaiIbH-c7LnCoeuP6t3UORjVNTHwyRYeh6qNU8jY3Bymsn9NXUkVmUmsCcdYlEqaQb5YLA=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p>Alfred Sisley (1839 – 1899), né à Paris de parents anglais et mort à Moret-sur-Loing, est sans doute l'impressionniste le plus pur et le plus fidèle aux principes du mouvement. Bien qu'il ait partagé ses débuts avec Monet, Renoir et Bazille dans l'atelier de Gleyre, sa vie fut marquée par une grande précarité après la ruine de sa famille en 1870. Contrairement à ses amis, il ne connut jamais le succès de son vivant et resta toute sa carrière dévoué au paysage, fuyant les scènes de genre ou les portraits pour se consacrer exclusivement à la capture des variations atmosphériques de la banlieue parisienne et de la vallée de la Seine.</p><p>Son genre pictural est celui du paysage pur, où l'eau, le ciel et la terre se rejoignent dans une harmonie délicate. Le style de Sisley se distingue par une touche plus discrète et structurée que celle de Monet, et par une sensibilité exceptionnelle pour la lumière des saisons. Il est le peintre des ciels immenses, qui occupent souvent les deux tiers de ses toiles, et des effets de transparence. Son œuvre est imprégnée d'une certaine mélancolie et d'une grande sérénité, cherchant moins l'éclat solaire que les nuances subtiles de la lumière grise, des matins d'hiver ou des inondations, dont il a fait l'un de ses thèmes de prédilection.</p><p>L'évolution de son style témoigne d'une fidélité absolue à l'impressionnisme, bien qu'il ait gagné en liberté technique au fil des décennies. Ses premières toiles, influencées par Corot, présentent une gamme chromatique assez sombre et des formes bien définies. À partir des années 1870, sa palette s'éclaircit et sa touche devient plus vibrante, fragmentant la couleur pour rendre le frémissement des feuilles ou le reflet de l'eau. Vers la fin de sa vie, installé à Moret-sur-Loing, son pinceau se fait plus large et sa peinture plus dense, presque robuste, sans jamais perdre la finesse de ses harmonies colorées. Il laisse derrière lui une œuvre d'une grande cohérence, considérée aujourd'hui comme l'expression la plus poétique et la plus juste du paysage impressionniste.</p>",
+  "corpus": {
+    "total": 1050,
+    "paintingsCount": 1050,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 15,
+    "source": "Catalogue raisonné François Daulte (1959) & Sylvie Brame et François Lorenceau (2021)",
+    "totalOeuvresEstimees": "~1 000 à 1 050 peintures (et 71 pastels)",
+    "oeuvresConsensusNotice": "L'inventaire historique de référence a longtemps été le catalogue raisonné de François Daulte (1959, recensant 884 peintures), désormais complété et actualisé par le Catalogue raisonné des peintures et des pastels établi par Sylvie Brame et François Lorenceau (2021), qui répertorie plus de 1 000 peintures (environ 1 000 à 1 050 peintures, auxquelles s'ajoutent 71 pastels)."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "years": "1839 – 1874",
+        "title": "Formation, Réalisme de jeunesse & Naissance de l'Impressionnisme",
+        "color": "#0284c7",
+        "summary": "Formé dans l'atelier de Gleyre avec Monet, Renoir et Bazille, il peint en forêt de Fontainebleau et participe à la Première Exposition impressionniste en 1874.",
+        "events": [
+          {
+            "year": "1839",
+            "title": "Naissance à Paris dans une famille marchande britannique",
+            "desc": "Naît le 30 octobre 1839 à Paris de William Sisley et Felicia Sell, marchands anglais établis dans le commerce de la soie.",
+            "type": "context",
+            "badge": "NAISSANCE",
+            "icon": "🌱"
+          },
+          {
+            "year": "1862",
+            "title": "Entrée à l'atelier de Charles Gleyre",
+            "desc": "Rencontre Monet, Renoir et Frédéric Bazille à l'atelier Gleyre ; le groupe part peindre sur le motif en forêt de Fontainebleau.",
+            "type": "context",
+            "badge": "FORMATION",
+            "icon": "🎨"
+          },
+          {
+            "year": "1867",
+            "title": "Le héron aux ailes déployées (Montpellier, Musée Fabre)",
+            "desc": "Nature morte au gibier d'une rare puissance dramatique, peinte dans l'atelier partagé avec Bazille sous l'influence du réalisme de Courbet.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "sisley_le_heron_aux_ailes_deployees_montpellier_1867"
+          },
+          {
+            "year": "1870",
+            "title": "Une rue, probablement à Port-Marly (Cambridge, Fitzwilliam Museum)",
+            "desc": "Scène de village francilien où s'affirme la sensibilité de Sisley pour l'atmosphère des rues calmes et la structure des architectures sous la lumière.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "sisley_une_rue_probablement_a_port_marly_fitzwilliam_1870"
+          },
+          {
+            "year": "1874",
+            "title": "Première Exposition impressionniste chez Nadar",
+            "desc": "Participe activement à la première exposition du groupe boulevard des Capucines, présentant cinq paysages franciliens.",
+            "type": "context",
+            "badge": "SALON HISTORIQUE",
+            "icon": "🏛️"
+          }
+        ]
+      },
+      {
+        "years": "1875 – 1879",
+        "title": "L'Âge d'or de Louveciennes et Port-Marly : La Seine, Inondations & Neiges",
+        "color": "#d97706",
+        "summary": "Période la plus féconde et célèbre : installé à Marly et Louveciennes, il peint les inondations historiques de 1876 et les effets d'hiver.",
+        "events": [
+          {
+            "year": "1875",
+            "title": "Le Chemin de Montbuisson à Louveciennes (Paris, Musée de l'Orangerie)",
+            "desc": "Harmonie lumineuse d'un chemin de terre bordé d'arbres et de maisons villageoises, capturant avec finesse l'atmosphère d'un après-midi ensoleillé.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "sisley_le_chemin_de_montbuisson_a_louveciennes_orangerie_1875"
+          },
+          {
+            "year": "1875",
+            "title": "Route tournante, vue de la Seine (Musée des Beaux-Arts de Rouen)",
+            "desc": "Perspective atmosphérique remarquable guidée par un chemin sinueux menant à la boucle miroitante du fleuve sous un ciel bleu d'été.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "sisley_route_tournante_vue_de_la_seine_rouen_1875"
+          },
+          {
+            "year": "1876",
+            "title": "L'Inondation à Port-Marly (Musée des Beaux-Arts de Rouen)",
+            "desc": "Toile majeure de la série mythique des crues de la Seine : les eaux transforment la route en miroir liquide reflétant le ciel nuageux et la bâtisse du négociant.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "sisley_l_inondation_a_port_marly_rouen_1876"
+          },
+          {
+            "year": "1876",
+            "title": "La Place du Chenil à Marly, effet de neige (Musée des Beaux-Arts de Rouen)",
+            "desc": "Virtuosité dans le rendu du manteau neigeux silencieux et de la lumière feutrée d'un ciel gris d'hiver enveloppant le village.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "sisley_la_place_du_chenil_a_marly_effet_de_neige_rouen_1876"
+          }
+        ]
+      },
+      {
+        "years": "1880 – 1899",
+        "title": "La Retraite de Moret-sur-Loing, la Normandie & Les Côtes du Pays de Galles",
+        "color": "#16a34a",
+        "summary": "Fixé définitivement à Moret-sur-Loing, il peint le canal, la cathédrale gothique, séjourne en Normandie et découvre la rudesse de la côte galloise.",
+        "events": [
+          {
+            "year": "1880",
+            "title": "Installation définitive à Moret-sur-Loing",
+            "desc": "S'installe au confluent de la Seine et du Loing, où il trouve son havre de paix créateur et peint inlassablement les ponts, moulins et peupliers.",
+            "type": "context",
+            "badge": "INSTALLATION",
+            "icon": "🏡"
+          },
+          {
+            "year": "1893",
+            "title": "Église Notre-Dame de Moret-sur-Loing (Musée des Beaux-Arts de Rouen)",
+            "desc": "Élément clé de sa série de quatorze toiles sur l'église gothique sous les variations de lumière, en dialogue direct avec les Cathédrales de Monet.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "sisley_eglise_notre_dame_de_moret_sur_loing_rouen_1893"
+          },
+          {
+            "year": "1894",
+            "title": "Séjours en Normandie sur les bords de Seine",
+            "desc": "Peint la boucle de la Seine à Rouen, La Bouille et Sahurs, traduisant l'effet du vent sur le fleuve et la sérénité des crépuscules normands.",
+            "type": "milestone",
+            "badge": "SÉJOUR NORMAND",
+            "icon": "🌊"
+          },
+          {
+            "year": "1897",
+            "title": "Sur les falaises, Langland Bay, Pays de Galles (Musée des Beaux-Arts de Rouen)",
+            "desc": "Unique voyage en Grande-Bretagne : touche vigoureuse et palette nacrée pour saisir la grandeur sauvage des falaises galloises et de l'océan.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "sisley_sur_les_falaises_langland_bay_rouen_1897"
+          },
+          {
+            "year": "1899",
+            "title": "Mort à Moret-sur-Loing à l'âge de 59 ans",
+            "desc": "Meurt le 29 janvier 1899 à Moret-sur-Loing dans le dénuement, peu après avoir fait ses adieux à Claude Monet. Sa vente posthume consacrera enfin son génie.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+}
 });
+
 
 
 
@@ -10681,3 +10965,9 @@ window.ARTISTS_REGISTRY["seurat_georges"] = window.ARTISTS_REGISTRY["seurat"];
 
 window.ARTISTS_REGISTRY["paul_signac"] = window.ARTISTS_REGISTRY["signac"];
 window.ARTISTS_REGISTRY["signac_paul"] = window.ARTISTS_REGISTRY["signac"];
+
+window.ARTISTS_REGISTRY["luca_signorelli"] = window.ARTISTS_REGISTRY["signorelli"];
+window.ARTISTS_REGISTRY["signorelli_luca"] = window.ARTISTS_REGISTRY["signorelli"];
+
+window.ARTISTS_REGISTRY["alfred_sisley"] = window.ARTISTS_REGISTRY["sisley"];
+window.ARTISTS_REGISTRY["sisley_alfred"] = window.ARTISTS_REGISTRY["sisley"];
