@@ -3643,6 +3643,20 @@ window.BACKGROUNDS_REGISTRY = {
       "armée d'hannibal"
     ],
     "text": "<p>En 218 avant J.-C., lors de la deuxième guerre punique opposant Carthage à la République romaine, le général carthaginois Hannibal Barca accomplit l'un des exploits militaires et stratégiques les plus audacieux de l'Antiquité : la traversée des Alpes avec une armée cosmopolite de plusieurs dizaines de milliers de fantassins, cavaliers numides et éléphants de guerre.</p>\n<p>Parti d'Hispanie, traversant les Pyrénées puis le Rhône, Hannibal choisit de surprendre Rome en attaquant par le nord, réputé infranchissable en automne. Bravant le blizzard, les avalanches meurtrières, les gouffres escarpés et les attaques incessantes des tribus gauloises et allobroges des montagnes, l'armée subit de lourdes pertes mais débouche victorieuse dans la plaine du Pô, plongeant Rome dans la panique.</p>\n<p>Au XIXe siècle, les romantiques, au premier rang desquels William Turner, voient dans cet épisode non seulement une prouesse humaine, mais l'affrontement tragique de l'ambition impériale face au Sublime terrifiant de la Nature déchaînée, où tourbillons de neige et ciels d'apocalypse avalent l'éphémère orgueil des conquérants.</p>"
+  },
+  "bataille_de_san_romano_1432_florence_sienne_medicis": {
+    "id": "bataille_de_san_romano_1432_florence_sienne_medicis",
+    "badge": "HISTOIRE RENAISSANTE • QUATTROCENTO",
+    "title": "La Bataille de San Romano (1432) : Le Triomphe Florentin et la Gloire des Médicis",
+    "sources": "Chroniques florentines du XVe siècle (Giovanni Cavalcanti), Commandes de Lionardo Bartolini Salimbeni et Laurent le Magnifique",
+    "keywords": [
+      "bataille de san romano",
+      "san romano",
+      "bernardino della ciarda",
+      "niccolo da tolentino",
+      "florence et sienne"
+    ],
+    "text": "<p>Le 1er juin 1432, dans la vallée de l'Arno près de Pise, se déroule la bataille de San Romano opposant les troupes florentines commandées par le condottiere Niccolò da Tolentino aux forces coalisées de Sienne et de Milan menées par Bernardino della Ciarda. Cet engagement militaire, bien que modeste par l'ampleur des effectifs, s'avère décisif pour consolider l'hégémonie commerciale et politique de la République de Florence en Toscane.</p>\n<p>Attaqué par surprise en infériorité numérique, Niccolò da Tolentino résiste héroïquement pendant plusieurs heures dans un corps à corps acharné avant que l'arrivée providentielle des renforts florentins menés par Micheletto da Cotignola ne renverse le cours des combats, provoquant la déroute et le désarçonnement spectaculaire de Bernardino della Ciarda.</p>\n<p>Commandé à l'origine par Lionardo Bartolini Salimbeni puis confisqué par Laurent le Magnifique pour orner sa chambre au palais Médicis de la via Larga, le triptyque de Paolo Uccello transcende le fait d'armes en un manifeste fondateur de la Première Renaissance : la fureur guerrière s'y mue en une symphonie géométrique où lances brisées, armures étincelantes et coursiers cabrés s'ordonnent selon la nouvelle science divine de la perspective linéaire.</p>"
   }
 };
 
@@ -3662,3 +3676,5 @@ window.BACKGROUNDS_REGISTRY["mise_au_tombeau"] = window.BACKGROUNDS_REGISTRY["mi
 window.BACKGROUNDS_REGISTRY["transport_christ"] = window.BACKGROUNDS_REGISTRY["mise_au_tombeau_transport_christ_passion"];
 window.BACKGROUNDS_REGISTRY["venus_urbino"] = window.BACKGROUNDS_REGISTRY["venus_endormie_nu_feminin_renaissance"];
 window.BACKGROUNDS_REGISTRY["hannibal"] = window.BACKGROUNDS_REGISTRY["hannibal_traversee_des_alpes_guerres_puniques"];
+window.BACKGROUNDS_REGISTRY["san_romano"] = window.BACKGROUNDS_REGISTRY["bataille_de_san_romano_1432_florence_sienne_medicis"];
+window.BACKGROUNDS_REGISTRY["bataille_san_romano"] = window.BACKGROUNDS_REGISTRY["bataille_de_san_romano_1432_florence_sienne_medicis"];

@@ -11703,10 +11703,14 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         ]
       }
     ]
+  
+  }
   },
   "toulouse_lautrec": {
     "id": "toulouse_lautrec",
-    "name": "Henri de Toulouse-Lautrec",
+    "name": "Toulouse-Lautrec Henri",
+    "sortName": "Toulouse-Lautrec Henri",
+    "sortLetter": "T",
     "dates": "1864 – 1901",
     "movement": "Post-impressionnisme (Affichisme & Chronique montmartroise)",
     "nationality": "Française",
@@ -11812,7 +11816,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "turner": {
     "id": "turner",
-    "name": "Joseph Mallord William Turner",
+    "name": "Turner Joseph Mallord William",
+    "sortName": "Turner Joseph Mallord William",
+    "sortLetter": "T",
     "dates": "1775 – 1851",
     "movement": "Romantisme britannique (Peinture du Sublime & de la Lumière)",
     "nationality": "Britannique",
@@ -11931,7 +11937,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "twombly": {
     "id": "twombly",
-    "name": "Cy Twombly",
+    "name": "Twombly Cy",
+    "sortName": "Twombly Cy",
+    "sortLetter": "T",
     "dates": "1928 – 2011",
     "movement": "Expressionnisme abstrait & Palimpseste mythologique",
     "nationality": "Américaine",
@@ -12034,9 +12042,211 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "uccello": {
+    "id": "uccello",
+    "name": "Uccello Paolo (Paolo di Dono)",
+    "sortName": "Uccello Paolo",
+    "sortLetter": "U",
+    "dates": "1397 – 1475",
+    "movement": "Première Renaissance florentine (Perspective scientifique & Géométrisation poétique)",
+    "nationality": "Italienne (Florence)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMe1vSpz7dXVUz8gNEErtfUzLeQr_1Grim8peZLC6xUfP52OKZTfxKN2YosnSI8aGn0L-ONHkfrZL8aUwrsp8tpIUARlTkILA3Lq9AXb_DJkcx1ib7WksPaa1rGUie80tpKGFkFdK0XryVo3I094f3U4g=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Paolo di Dono, dit Paolo Uccello</strong> (1397 – 1475), né et mort à Florence, est l'un des artistes les plus singuliers et les plus obsessionnels de la première Renaissance florentine. Surnommé « Uccello » (l'oiseau) en raison de son amour pour les animaux et de sa nature rêveuse, il fut l'un des pionniers absolus de la perspective linéaire mathématique. Giorgio Vasari racontait que l'artiste pouvait rester éveillé toute la nuit dans son atelier pour résoudre des problèmes géométriques ardus, s'exclamant : « Oh, quelle douce chose que cette perspective ! ». Entre la féerie décorative du gothique international et la rationalité de la science nouvelle, il a créé un univers visuel unique, à la frontière du réel et du fantastique.</p><p>Son genre pictural est marqué par une tension permanente entre la décoration courtoise et la rigueur géométrique. Le style d'Uccello se reconnaît à ses compositions monumentales où les objets, les chevaux et les corps humains sont traités comme des volumes stéréométriques purs (sphères, cônes, polyèdres réguliers). Il utilise la perspective non pour reproduire fidèlement la nature, mais pour créer un espace théâtral, presque irréel et métaphysique. Sa palette de couleurs audacieuse et antinaturaliste — faisant alterner coursiers bleus, roses, rouges ou blancs — confère à ses scènes guerrières l'atmosphère suspendue d'un conte de fées ou d'un tournoi chevaleresque figé pour l'éternité.</p><p>L'évolution de son art témoigne du passage de sa formation initiale d'orfèvre et de mosaïste dans l'atelier de Lorenzo Ghiberti vers une exploration radicale et novatrice de l'espace tridimensionnel : des fresques en trompe-l'œil du Duomo de Florence (<em>Monument équestre à John Hawkwood</em>, 1436) au célèbre triptyque de <em>La Bataille de San Romano</em> (v. 1456) où les lances brisées au sol s'alignent sur les lignes de fuite ; jusqu'à ses chefs-d'œuvre tardifs comme <em>La Chasse nocturne</em> d'Oxford, où la forêt obscure s'enfonce dans une géométrie parfaite, préfigurant par son cubisme avant la lettre la fascination des maîtres modernes du XXe siècle.</p>",
+    "corpus": {
+      "total": 40,
+      "paintingsCount": 40,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Consensus scientifique & Catalogues de référence (John Pope-Hennessy)",
+      "totalOeuvresEstimees": "~40 peintures et fresques conservées",
+      "oeuvresConsensusNotice": "Dans les catalogues de référence de la Première Renaissance italienne (notamment les travaux de John Pope-Hennessy et les inventaires muséaux), le corpus des œuvres de Paolo Uccello conservées de manière authentifiée ou reconnue (panneaux de chevalet, fresques et sinopie) compte environ 40 œuvres majeures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "name": "Apprentissage chez Ghiberti & Mosaïques vénitiennes (1407 – 1430)",
+          "range": "1407 – 1430",
+          "events": [
+            {
+              "year": "1407 – 1414",
+              "title": "Atelier de Lorenzo Ghiberti",
+              "desc": "Participe comme apprenti à la fonte de la première porte de bronze du Baptistère de Florence, s'initiant au dessin et à l'orfèvrerie.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🎨"
+            },
+            {
+              "year": "1425 – 1430",
+              "title": "Séjour à Venise & Mosaïques de Saint-Marc",
+              "desc": "Travaille comme maître mosaïste à la basilique Saint-Marc de Venise, développant son sens des couleurs chatoyantes et des matières précieuses.",
+              "type": "context",
+              "badge": "MOSAÏQUE",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "name": "Maturité florentine & Vertige de la Perspective (1431 – 1460)",
+          "range": "1431 – 1460",
+          "events": [
+            {
+              "year": "1436",
+              "title": "Fresque du Monument à John Hawkwood (Duomo de Florence)",
+              "desc": "Célèbre fresque équestre monochrome en trompe-l'œil imitant une statue de bronze avec double point de fuite perspective.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🐴"
+            },
+            {
+              "year": "1456",
+              "title": "La Bataille de San Romano (Offices, Louvre, National Gallery)",
+              "desc": "Triptyque commandé par les Médicis : manifeste suprême où les lances brisées et les armures dessinent une grille perspective mathématique au sol.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚔️",
+              "artworkId": "uccello_bataille_de_san_romano_bernardino_ciarda_offices_1456"
+            }
+          ]
+        },
+        {
+          "name": "Dernières Années, Urbin & Poésie Nocturne (1461 – 1475)",
+          "range": "1461 – 1475",
+          "events": [
+            {
+              "year": "1465 – 1468",
+              "title": "Séjour à Urbin & Prédelle de l'Hostie profanée",
+              "desc": "Travaille pour le duc Frédéric de Montefeltro à Urbin, composant une prédelle d'une rigueur spatiale et narrative saisissante.",
+              "type": "context",
+              "badge": "URBIN",
+              "icon": "🏛️"
+            },
+            {
+              "year": "v. 1470",
+              "title": "La Chasse nocturne (Oxford, Ashmolean Museum)",
+              "desc": "Dernier chef-d'œuvre : une forêt crépusculaire où cavaliers et lévriers s'élancent vers un point de fuite mystérieux au cœur des ténèbres.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌙"
+            },
+            {
+              "year": "1475",
+              "title": "Mort à Florence",
+              "desc": "S'éteint le 10 décembre 1475 à l'âge de 78 ans. Il est inhumé en l'église Santo Spirito à Florence.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "utrillo": {
+    "id": "utrillo",
+    "name": "Utrillo Maurice",
+    "sortName": "Utrillo Maurice",
+    "sortLetter": "U",
+    "dates": "1883 – 1955",
+    "movement": "École de Paris (Paysage urbain montmartrois & Période blanche)",
+    "nationality": "Française (Paris)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNceQN69lTobCK7gIkbOpxMO_shUF8ROQ-1dBorpwp3-wmz-6QrOxYL1kuzksL1hSt2EBoZwwHkcakEEWnpZiT02cKNpicz9tODLTWggXrfsn2vvLoWMA8EVDdpp9YmoMvtSPSJU80bxiyv3aCTmsvaew=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Maurice Utrillo</strong> (1883 – 1955), né à Paris et mort à Dax, est l'une des figures les plus attachantes, singulières et tragiques de l'École de Paris. Fils de l'artiste Suzanne Valadon et d'un père incertain (reconnu par l'écrivain espagnol Miguel Utrillo), il est initié à la peinture dès l'adolescence par sa mère, non par ambition mondaine, mais comme un exutoire thérapeutique salutaire pour lutter contre un alcoolisme juvénile précoce et destructeur. Peintre autodidacte au regard d'une sincérité poignante, il est devenu le chantre immortel de la butte Montmartre, dont il a transfiguré les ruelles silencieuses et les murailles lépreuses en une œuvre d'une indicible mélancolie.</p><p>Son genre pictural est presque exclusivement dédié au paysage urbain, abordé avec une candeur instinctive soutenue par une rigueur géométrique et perspective exemplaire. Le style d'Utrillo se caractérise par des cadrages frontaux en perspective fuyante, des rues quasi désertes où de rares silhouettes anonymes de dos accentuent la solitude de la ville, et une palette d'une infinie délicatesse dominée par les gris crayeux, les beiges sablonneux, les ocres pâles et les bleus sourds.</p><p>L'évolution de son art s'articule autour de périodes stylisées emblématiques : la « Période de Montmagny » (1905 – 1908), où s'affirme son sens de la construction ; la mythique « Période Blanche » (vers 1910 – 1914), sommet absolu de sa cote et de son génie, où pour traduire la vérité minérale des façades montmartroises, il incorpore à sa pâte de la colle, du blanc de zinc, du plâtre et du sable fin, créant des matières épaisses et tactiles inimitables ; puis, après 1920, une « Période Colorée » aux contours cernés d'un trait sombre plus graphique. Malgré de multiples séjours en maisons de santé, il a laissé un corpus immense qui a forgé la légende mondiale du Paris populaire et bohème.</p>",
+    "corpus": {
+      "total": 1650,
+      "paintingsCount": 1650,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Catalogue raisonné Paul Pétridès (5 volumes, 1959–1974) / Comité Pétridès",
+      "totalOeuvresEstimees": "~1 650 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Catalogue raisonné de l'œuvre peint établi par Paul Pétridès en cinq volumes (1959–1974), complété par les travaux de l'Association Maurice Utrillo / Comité Pétridès. Le corpus officiel des peintures majeures authentifiées et répertoriées au catalogue raisonné de référence se situe autour de 1 650 toiles."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "name": "Les Débuts & Montmagny (1903 – 1909)",
+          "range": "1903 – 1909",
+          "events": [
+            {
+              "year": "1903 – 1905",
+              "title": "Premiers tableaux thérapeutiques à Montmagny",
+              "desc": "Encouragé par sa mère Suzanne Valadon, il peint sur le motif dans la banlieue nord de Paris, influencé par Pissarro et Sisley.",
+              "type": "context",
+              "badge": "APPRENTISSAGE",
+              "icon": "🎨"
+            },
+            {
+              "year": "1909",
+              "title": "Première participation au Salon d'Automne",
+              "desc": "Présente trois paysages du pont de Flandre et de banlieue ; la critique commence à saluer la franchise de sa touche.",
+              "type": "context",
+              "badge": "RECONNAISSANCE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "name": "L'Apogée de la « Période Blanche » (1910 – 1914)",
+          "range": "1910 – 1914",
+          "events": [
+            {
+              "year": "1910 – 1912",
+              "title": "Matières de plâtre et de chaux des murs montmartrois",
+              "desc": "Mélange plâtre, sable et blanc de zinc pour recréer la texture tactile des vieux murs lépreux de la rue Cortot et du Sacré-Cœur.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🤍"
+            },
+            {
+              "year": "1913",
+              "title": "Première exposition personnelle à la galerie Eugène Blot",
+              "desc": "Consécration publique et commerciale : amateurs et marchands (dont Paul Guillaume) s'arrachent ses toiles blanches.",
+              "type": "context",
+              "badge": "TRIOMPHE",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "name": "La Période Colorée, Retraite et Légende (1915 – 1955)",
+          "range": "1915 – 1955",
+          "events": [
+            {
+              "year": "1928",
+              "title": "Chevalier de la Légion d'honneur",
+              "desc": "Reçoit les insignes de la Légion d'honneur pour son rayonnement dans l'art français moderne.",
+              "type": "context",
+              "badge": "HONNEUR",
+              "icon": "🎖️"
+            },
+            {
+              "year": "1937",
+              "title": "Une école en banlieue (Montpellier, Musée Fabre)",
+              "desc": "Rigueur géométrique et mélancolie urbaine : bâtiment scolaire imposant en brique dominant une rue déserte sous un ciel d'ardoise.",
+              "type": "artwork",
+              "badge": "BANLIEUE",
+              "icon": "🏫",
+              "artworkId": "utrillo_une_ecole_en_banlieue_montpellier_1937"
+            },
+            {
+              "year": "1955",
+              "title": "Mort à Dax & Inhumation à Montmartre",
+              "desc": "S'éteint le 5 novembre 1955 à Dax. Ses obsèques rassemblent une foule immense avant son inhumation au cimetière Saint-Vincent à Montmartre.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
-}
 });
+
 
 
 
@@ -12189,3 +12399,10 @@ window.ARTISTS_REGISTRY["turner_william"] = window.ARTISTS_REGISTRY["turner"];
 window.ARTISTS_REGISTRY["cy_twombly"] = window.ARTISTS_REGISTRY["twombly"];
 window.ARTISTS_REGISTRY["edwin_parker_twombly"] = window.ARTISTS_REGISTRY["twombly"];
 window.ARTISTS_REGISTRY["twombly_cy"] = window.ARTISTS_REGISTRY["twombly"];
+
+window.ARTISTS_REGISTRY["paolo_uccello"] = window.ARTISTS_REGISTRY["uccello"];
+window.ARTISTS_REGISTRY["paolo_di_dono"] = window.ARTISTS_REGISTRY["uccello"];
+window.ARTISTS_REGISTRY["uccello_paolo"] = window.ARTISTS_REGISTRY["uccello"];
+
+window.ARTISTS_REGISTRY["maurice_utrillo"] = window.ARTISTS_REGISTRY["utrillo"];
+window.ARTISTS_REGISTRY["utrillo_maurice"] = window.ARTISTS_REGISTRY["utrillo"];
