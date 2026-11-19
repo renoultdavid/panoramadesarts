@@ -3578,7 +3578,7 @@ window.BACKGROUNDS_REGISTRY = {
     "suzanne et les vieillards",
     "suzanne au bain",
     "chaste suzanne",
-    "suzanne",
+    "bain de suzanne",
     "jugement de daniel"
   ],
   "text": "<p>Le treizième chapitre du <em>Livre de Daniel</em> relate l'histoire de Suzanne, jeune et pieuse femme de Babylone, épouse du riche Joakim. D'une grande beauté et d'une vertu exemplaire, Suzanne a coutume de se baigner aux heures chaudes de l'après-midi dans le jardin clos de son époux, à l'abri des regards profanes.</p>\n<p>Deux anciens de la communauté et juges du peuple, épris d'un désir coupable, s'introduisent furtivement dans le verger et la surprennent dans son intimité. Face à leur chantage odieux — céder à leurs avances ou être publiquement accusée d'adultère avec un jeune amant imaginaire, crime alors passible de lapidation —, Suzanne choisit sans faillir l'innocence devant Dieu : « Mieux vaut pour moi tomber entre vos mains sans avoir péché que de pécher aux yeux du Seigneur ».</p>\n<p>Condamnée à mort sur le faux témoignage des deux magistrats corrompus, Suzanne est sauvée <em>in extremis</em> par le jeune prophète Daniel, habité par l'Esprit divin. En interrogeant séparément les deux calomniateurs sur l'arbre sous lequel ils prétendaient avoir vu la faute, Daniel révèle leurs contradictions flagrantes : l'un désigne un lentisque, l'autre un chêne vert. Les vieillards subissent le châtiment qu'ils destinaient à l'innocente, consacrant le triomphe de la vérité et de la fidélité conjugale.</p>"
@@ -3629,7 +3629,21 @@ window.BACKGROUNDS_REGISTRY = {
     "vénus à sa toilette"
   ],
   "text": "<p>À Venise au XVIe siècle, l'héritage de Giorgione et le génie de Titien transfigurent le mythe antique de Vénus, déesse de l'amour et de la beauté, en une célébration moderne, charnelle et poétique de la grâce féminine. Délaissant les allégories froides ou les paysages célestes, le maître vénitien introduit la déesse au cœur même du palais patricien contemporain.</p>\n<p>Dans la tradition des tableaux d'épithalame — œuvres commandées à l'occasion d'un mariage noble pour éduquer et exalter les vertus de l'union conjugale —, la figure féminine dévêtue allongée sur des draps soyeux n'incarne pas seulement la sensualité et la tentation voluptueuse d'Éros : elle célèbre la fécondité, la complicité amoureuse et la fidélité éternelle, symbolisée par le petit chien endormi à ses pieds et les coffres de mariage (<em>cassoni</em>) fouillés par les servantes.</p>\n<p>Par la magie du <em>colorito</em> et des glacis transparents, la carnation laiteuse et dorée s'impose avec une vérité presque tactile. Cette invention vénitienne du nu souverain conscient de son regard fondera la modernité picturale, influençant directement Rubens, Vélasquez, Goya et jusqu'à l'<em>Olympia</em> d'Édouard Manet.</p>"
-}
+  },
+  "hannibal_traversee_des_alpes_guerres_puniques": {
+    "id": "hannibal_traversee_des_alpes_guerres_puniques",
+    "badge": "HISTOIRE ANTIQUE • GUERRES PUNIQUES",
+    "title": "Hannibal Barca et le Défi des Alpes : La Marche sur Rome et le Destin de Carthage",
+    "sources": "Tite-Live (Histoire romaine, livre XXI), Polybe (Histoires, livre III)",
+    "keywords": [
+      "hannibal",
+      "hannibal traversant les alpes",
+      "guerres puniques",
+      "traversee des alpes",
+      "armée d'hannibal"
+    ],
+    "text": "<p>En 218 avant J.-C., lors de la deuxième guerre punique opposant Carthage à la République romaine, le général carthaginois Hannibal Barca accomplit l'un des exploits militaires et stratégiques les plus audacieux de l'Antiquité : la traversée des Alpes avec une armée cosmopolite de plusieurs dizaines de milliers de fantassins, cavaliers numides et éléphants de guerre.</p>\n<p>Parti d'Hispanie, traversant les Pyrénées puis le Rhône, Hannibal choisit de surprendre Rome en attaquant par le nord, réputé infranchissable en automne. Bravant le blizzard, les avalanches meurtrières, les gouffres escarpés et les attaques incessantes des tribus gauloises et allobroges des montagnes, l'armée subit de lourdes pertes mais débouche victorieuse dans la plaine du Pô, plongeant Rome dans la panique.</p>\n<p>Au XIXe siècle, les romantiques, au premier rang desquels William Turner, voient dans cet épisode non seulement une prouesse humaine, mais l'affrontement tragique de l'ambition impériale face au Sublime terrifiant de la Nature déchaînée, où tourbillons de neige et ciels d'apocalypse avalent l'éphémère orgueil des conquérants.</p>"
+  }
 };
 
 // Alias de compatibilité
@@ -3647,3 +3661,4 @@ window.BACKGROUNDS_REGISTRY["couronnement_epines"] = window.BACKGROUNDS_REGISTRY
 window.BACKGROUNDS_REGISTRY["mise_au_tombeau"] = window.BACKGROUNDS_REGISTRY["mise_au_tombeau_transport_christ_passion"];
 window.BACKGROUNDS_REGISTRY["transport_christ"] = window.BACKGROUNDS_REGISTRY["mise_au_tombeau_transport_christ_passion"];
 window.BACKGROUNDS_REGISTRY["venus_urbino"] = window.BACKGROUNDS_REGISTRY["venus_endormie_nu_feminin_renaissance"];
+window.BACKGROUNDS_REGISTRY["hannibal"] = window.BACKGROUNDS_REGISTRY["hannibal_traversee_des_alpes_guerres_puniques"];

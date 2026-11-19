@@ -11703,6 +11703,337 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         ]
       }
     ]
+  },
+  "toulouse_lautrec": {
+    "id": "toulouse_lautrec",
+    "name": "Henri de Toulouse-Lautrec",
+    "dates": "1864 – 1901",
+    "movement": "Post-impressionnisme (Affichisme & Chronique montmartroise)",
+    "nationality": "Française",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMaM3OC777TZNszDs43VDyfVTP6oGa3-5OER9hkik3KM0BkIv7gqHNluyVfl7SVOqxpKf0vlYIkaM0QezI9VRqNaAgZNmobJ8SW2r3Ijr46Eoo1-MnTvWXD_UnCbshHXQrm0wUHjoDFq_m6t1ZbYrJ5nw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Henri de Toulouse-Lautrec</strong> (Henri Marie Raymond de Toulouse-Lautrec-Monfa, 1864 – 1901) est le grand chroniqueur graphique de la vie nocturne montmartroise de la fin du XIXe siècle et un pionnier absolu de l'affiche lithographique moderne. Issu de la plus haute noblesse provinciale mais marginalisé par une maladie génétique osseuse et des fractures ayant stoppé la croissance de ses jambes, il a trouvé dans les cabarets, les cirques et les maisons closes de Paris un refuge sans fard. Observateur aiguisé, dépourvu de tout jugement moral ou de condescendance, il a su capturer l'énergie électrique, le grotesque et la mélancolie de la modernité fin-de-siècle.</p><p>Son genre d'expression se définit par l'affiche lithographique publicitaire, la scène de cabaret et de café-concert, le portrait sur le vif et l'intimité de maison close. Son style se caractérise par une ligne acérée et nerveuse inspirée de Degas et de l'estampe japonaise (ukiyo-e), des cadrages audacieux en plongée ou en contre-plongée, de larges aplats de couleur synthétiques et une technique originale de peinture à l'essence sur carton brut non préparé, laissant respirer le fond brun pour créer des textures mates et vibrantes.</p><p>L'évolution de son style marque un passage de l'apprentissage académique vers l'audace graphique : ses débuts dans les ateliers de Bonnat et Cormon révèlent déjà son don exceptionnel pour la saisie psychologique ; la consécration montmartroise (1889 – 1895) fait de lui l'illustrateur incontesté du Moulin-Rouge, immortalisant la Goulue, Valentin le Désossé, Jane Avril et Yvette Guilbert ; enfin, la série <em>Elles</em> (1896) pénètre avec une infinie tendresse et sans voyeurisme le quotidien des prostituées des maisons de tolérance de la rue des Moulins, avant que l'alcoolisme et la maladie n'emportent l'artiste à seulement 36 ans.</p>",
+    "corpus": {
+      "total": 730,
+      "paintingsCount": 730,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Catalogue raisonné M. G. Dortu (1971) / Maurice Joyant / G. M. Sugana",
+      "totalOeuvresEstimees": "~730 peintures répertoriées",
+      "oeuvresConsensusNotice": "Le corpus peint d'Henri de Toulouse-Lautrec compte environ 730 tableaux à l'huile et peintures à l'essence répertoriés dans le catalogue raisonné de référence de M. G. Dortu (1971), complétés par 275 aquarelles, environ 370 affiches et lithographies originales répertoriées par Jean Adhémar et Wolfgang Wittrock, ainsi que près de 5 000 dessins. Aucune œuvre n'a encore été ajoutée dans la collection pour l'artiste."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "name": "Formation & Bohème montmartroise (1882 – 1889)",
+          "range": "1882 – 1889",
+          "events": [
+            {
+              "year": "1882 – 1884",
+              "title": "Ateliers de Léon Bonnat et Fernand Cormon",
+              "desc": "Rencontre Émile Bernard, Vincent van Gogh et Louis Anquetin. Se détache rapidement de l'académisme pour peindre d'après nature.",
+              "type": "context",
+              "badge": "APPRENTISSAGE",
+              "icon": "🎨"
+            },
+            {
+              "year": "1886",
+              "title": "Installation à Montmartre & Émulation d'avant-garde",
+              "desc": "Ouvre son atelier rue Tourlaque. Fréquente assidûment le cabaret du Chat Noir de Rodolphe Salis et le cirque Fernando.",
+              "type": "context",
+              "badge": "MONTMARTRE",
+              "icon": "🎪"
+            }
+          ]
+        },
+        {
+          "name": "L'Âge d'or du Moulin-Rouge & Révolution de l'Affiche (1889 – 1895)",
+          "range": "1889 – 1895",
+          "events": [
+            {
+              "year": "1889",
+              "title": "Ouverture du Moulin-Rouge & Débuts de la célébrité",
+              "desc": "Le cabaret de Joseph Oller et Charles Zidler ouvre ses portes ; Lautrec en devient le client régulier et le chantre officiel.",
+              "type": "context",
+              "badge": "MOULIN-ROUGE",
+              "icon": "💃"
+            },
+            {
+              "year": "1891",
+              "title": "Affiche Moulin-Rouge : La Goulue",
+              "desc": "Première affiche lithographique en 4 couleurs placardée sur les murs de Paris : un choc visuel révolutionnaire qui invente l'art de la réclame moderne.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "📜"
+            },
+            {
+              "year": "1892 – 1893",
+              "title": "Portraits d'Yvette Guilbert, Jane Avril & Aristide Bruant",
+              "desc": "Synthèse graphique absolue : silhouettes reconnaissables entre mille découpées d'un trait noir vigoureux sur fond plat.",
+              "type": "context",
+              "badge": "ICÔNES",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "name": "Les Maisons Closes, le Déclin et l'Héritage (1895 – 1901)",
+          "range": "1895 – 1901",
+          "events": [
+            {
+              "year": "1896",
+              "title": "Publication de l'album lithographique « Elles »",
+              "desc": "Chef-d'œuvre de délicatesse humaine et d'intimisme décrivant la vie recluse des femmes de maison close à l'écart des clients.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "📖"
+            },
+            {
+              "year": "1899",
+              "title": "Internement à Neuilly & Série du Cirque",
+              "desc": "Frappé par le delirium tremens, il dessine de mémoire à la clinique de Neuilly une éblouissante série de scènes de cirque au crayon de couleur pour prouver sa santé mentale.",
+              "type": "context",
+              "badge": "RÉSILIENCE",
+              "icon": "🎪"
+            },
+            {
+              "year": "1901",
+              "title": "Mort au château de Malromé",
+              "desc": "S'éteint le 9 septembre 1901 à l'âge de 36 ans, laissant une œuvre précurseur du fauvisme, de l'expressionnisme et de l'art nouveau.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "turner": {
+    "id": "turner",
+    "name": "Joseph Mallord William Turner",
+    "dates": "1775 – 1851",
+    "movement": "Romantisme britannique (Peinture du Sublime & de la Lumière)",
+    "nationality": "Britannique",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPQh16WBj-cya9tCcIl5OdZtepOfchgDrfznWwbooeUNnf3z404_S_UZUlbEmmvPMHesYsuh-DDUBBtbOqRRvdK3NxCJXJl1zKJaX1Cw5TTFCJJUuvoVCijYl9V0xMyzdApQQhgg2VBqYqB7a65ufMjmw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Joseph Mallord William Turner</strong> (1775 – 1851) est le géant incontesté du romantisme pictural britannique et le plus prodigieux explorateur de la lumière et de l'atmosphère de toute l'histoire de l'art occidental. Précoce et visionnaire, admis à la Royal Academy à seulement quatorze ans, il a révolutionné le genre du paysage, le hissant du statut d'imitation topographique secondaire à celui d'épopée cosmique et philosophique capable d'égaler la grande peinture d'histoire.</p><p>Son genre pictural se définit par le paysage sublime, la marine orageuse et la vue atmosphérique. Son style se caractérise par une dissolution progressive des contours géométriques et solides au profit de tourbillons chromatiques vibrants, d'empâtements au couteau et de glacis diaphanes superposés où l'air, la vapeur, l'eau et le feu se fondent dans une même pulsation lumineuse. Turner fait de la lumière non un éclairage extérieur, mais la substance même du monde visible.</p><p>L'évolution de son art est une montée vers l'abstraction et l'éblouissement pur : de ses débuts néoclassiques influencés par Claude Lorrain et Richard Wilson, il passe à l'exaltation dramatique des éléments déchaînés face à la petitesse humaine (<em>Hannibal traversant les Alpes</em>, 1810 – 1812) ; puis, bouleversé par ses voyages en Italie (Rome et Venise dès 1819), il illumine sa palette de tons d'or, d'émeraude et de vermillon ; enfin, dans sa maturité tardive des années 1840, il anticipe de près de quarante ans l'impressionnisme et l'abstraction moderne à travers des visions vaporeuses où les formes s'évaporent dans un halo incandescent d'or et de brume.</p>",
+    "corpus": {
+      "total": 550,
+      "paintingsCount": 550,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 5,
+      "source": "Catalogue raisonné Martin Butlin & Evelyn Joll (1977, rééd. 1984)",
+      "totalOeuvresEstimees": "~550 peintures à l'huile répertoriées",
+      "oeuvresConsensusNotice": "Le corpus peint à l'huile de J. M. W. Turner comprend environ 550 toiles cataloguées de manière exhaustive par Martin Butlin et Evelyn Joll (The Paintings of J. M. W. Turner, Yale University Press), issues en grande partie du legs Turner conservé à la Tate Britain. Il s'y adjoint un corpus graphique colossal de plus de 30 000 aquarelles, gouaches, lavis et carnets de croquis."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "name": "Néoclassicisme & Apprentissage du Sublime (1790 – 1819)",
+          "range": "1790 – 1819",
+          "events": [
+            {
+              "year": "1799 – 1802",
+              "title": "Élection à la Royal Academy",
+              "desc": "Devient académicien à part entière à 26 ans, rivalisant avec les maîtres hollandais du XVIIe siècle et Claude Lorrain.",
+              "type": "context",
+              "badge": "ACADÉMIE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1810 – 1812",
+              "title": "Hannibal traversant les Alpes (Londres, Tate Britain)",
+              "desc": "Manifeste du Sublime romantique : une tempête de neige tourbillonnante engloutit l'armée carthaginoise, symbole de la fragilité humaine face à la Nature.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚡",
+              "artworkId": "turner_hannibal_traversant_les_alpes_londres_1810"
+            }
+          ]
+        },
+        {
+          "name": "Le Choc de l'Italie & L'Ivresse Chromatique (1819 – 1839)",
+          "range": "1819 – 1839",
+          "events": [
+            {
+              "year": "1819",
+              "title": "Premier voyage en Italie (Rome, Naples, Venise)",
+              "desc": "Découverte de la lumière méditerranéenne : la matière s'allège, les ombres deviennent colorées et les ciels s'illuminent d'or.",
+              "type": "context",
+              "badge": "RÉVÉLATION",
+              "icon": "☀️"
+            },
+            {
+              "year": "1839",
+              "title": "Le Dernier Voyage du Téméraire (Londres, National Gallery)",
+              "desc": "Élégie funèbre de la marine à voile remorquée vers le dépeçage par un bateau à vapeur, sous un soleil couchant flamboyant.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⛵"
+            }
+          ]
+        },
+        {
+          "name": "L'Apothéose Visionnaire de la Lumière (1840 – 1851)",
+          "range": "1840 – 1851",
+          "events": [
+            {
+              "year": "1840",
+              "title": "Orage sur la lagune de Venise (Londres, British Museum)",
+              "desc": "Aquarelle et gouache d'une audace inouïe : les éclairs et les nuées d'orage fusionnent avec les reflets de l'eau dans un pur dynamisme atmosphérique.",
+              "type": "artwork",
+              "badge": "ATMOSPHÈRE",
+              "icon": "🌊",
+              "artworkId": "turner_orage_sur_la_lagune_londres_1840"
+            },
+            {
+              "year": "1844",
+              "title": "Ostende (Munich, Neue Pinakothek)",
+              "desc": "Vue marine éthérée où la côte belge et les voiles se dissolvent dans un brouillard lumineux argenté et nacré.",
+              "type": "artwork",
+              "badge": "MARINE",
+              "icon": "🌫️",
+              "artworkId": "turner_ostende_munich_1844"
+            },
+            {
+              "year": "1845",
+              "title": "Paysage avec le confluent de la Severn et de la Wye (Paris, Louvre)",
+              "desc": "Poésie topographique sublimée : la lumière dorée irradie la vaste plaine fluviale anglaise dans un camaïeu d'ocres et de verts diaphanes.",
+              "type": "artwork",
+              "badge": "PAYSAGE",
+              "icon": "🏞️",
+              "artworkId": "turner_paysage_confluent_severn_et_wye_louvre_1845"
+            },
+            {
+              "year": "1845",
+              "title": "Château de Norham, lever de soleil (Londres, Tate Britain)",
+              "desc": "Sommet absolu de dissolution des formes : le château et la vache au bord de l'eau ne sont plus que des spectres bleutés baignant dans un océan de lumière jaune pure.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌅",
+              "artworkId": "turner_chateau_de_norham_lever_de_soleil_londres_1845"
+            },
+            {
+              "year": "1851",
+              "title": "Dernières paroles & Legs universel",
+              "desc": "Meurt à Chelsea le 19 décembre 1851 après avoir murmuré « Le Soleil est Dieu ». Il lègue l'intégralité de ses tableaux à la nation britannique.",
+              "type": "context",
+              "badge": "TESTAMENT",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "twombly": {
+    "id": "twombly",
+    "name": "Cy Twombly",
+    "dates": "1928 – 2011",
+    "movement": "Expressionnisme abstrait & Palimpseste mythologique",
+    "nationality": "Américaine",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM6bjs3RYJ0wW-8giUq-zc_RKfrju6u18CuV501sQs2D6JpaGY0lS14R0bE9wmUmnLDF4l4V4FA5gYGLwF2V1h8h4hvsPtvImXDE0U_t4ToVR4RDmkE1tIx7EzUFUjsdIC_dGg2_492agAbaiZH6Y66dA=w1836-h787-s-no-gm?authuser=0",
+    "bio": "<p><strong>Cy Twombly</strong> (Edwin Parker Twombly Jr., 1928 – 2011) est l'une des personnalités les plus singulières, érudites et poétiques de l'art du XXe siècle. Rattaché à la seconde génération de l'expressionnisme abstrait américain aux côtés de Robert Rauschenberg et Jasper Johns, il s'est démarqué de la scène new-yorkaise en s'installant définitivement à Rome dès 1957, faisant dialoguer la radicalité de l'art d'après-guerre avec la mémoire millénaire de la Méditerranée antique.</p><p>Son genre d'expression se définit par la peinture-palimpseste, le tracé scriptural, l'inscription poétique et la sculpture d'assemblage recouverte de plâtre blanc. Son style se caractérise par des graphismes fébriles au crayon gras, des coulures de peinture, des effacements, des ratures et des fragments de vers poétiques (Homère, Virgile, Rilke, Keats). L'espace de la toile devient un mur antique couvert de graffitis, où le geste d'écrire et le geste de peindre fusionnent dans une écriture automatique sensible et sensuelle.</p><p>L'évolution de son œuvre traverse plusieurs cycles mémorables : les toiles blanches saturées de signes érotiques et de symboles viscéraux des années romaines (1958 – 1965) ; les fameux « Blackboard paintings » (tableaux noirs) de la fin des années 1960, où des volutes de craie blanche répétées à l'infini évoquent les exercices d'écriture Palmer et le flux du temps ; puis, dans ses dernières décennies, l'éclosion d'une chromatique solaire et flamboyante avec les cycles monumentaux des <em>Quatre Saisons</em>, de <em>Lépante</em> (2001) et des <em>Bacchus</em> (2005), célébrant la démesure dionysiaque de la couleur rougeoyante.</p>",
+    "corpus": {
+      "total": 530,
+      "paintingsCount": 530,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Catalogue Raisonné of the Paintings (7 volumes), édité par Heiner Bastian",
+      "totalOeuvresEstimees": "~530 peintures répertoriées",
+      "oeuvresConsensusNotice": "Le catalogue raisonné des peintures de Cy Twombly établi par Heiner Bastian en sept tomes recense environ 530 peintures majeures exécutées entre 1948 et 2011. S'y ajoutent ses remarquables cycles de dessins, sculptures d'assemblage en plâtre et bois, ainsi que ses séries photographiques. Aucune œuvre n'a encore été ajoutée dans la collection pour l'artiste."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "name": "Black Mountain College & Révélation de Rome (1950 – 1965)",
+          "range": "1950 – 1965",
+          "events": [
+            {
+              "year": "1951 – 1952",
+              "title": "Passage au Black Mountain College",
+              "desc": "Étudie avec Franz Kline, Robert Motherwell et Ben Shahn. Voyage en Italie et en Afrique du Nord avec Robert Rauschenberg.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🎓"
+            },
+            {
+              "year": "1957",
+              "title": "Installation définitive en Italie",
+              "desc": "Quitte New York pour Rome. Épouse la baronne Tatiana Franchetti et s'immerge dans l'histoire, la mythologie classique et la lumière latine.",
+              "type": "context",
+              "badge": "ITALIE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "name": "Les Tableaux Noirs (Blackboards) & Mythologies (1966 – 1985)",
+          "range": "1966 – 1985",
+          "events": [
+            {
+              "year": "1966 – 1971",
+              "title": "Série des « Blackboard Paintings »",
+              "desc": "Sur fond gris ardoise, des rubans et spires de cire blanche tracés en vagues continues oscillent entre calligraphie scolaire et rythme cinétique.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "➰"
+            },
+            {
+              "year": "1978",
+              "title": "Cycle de « Cinquante Jours à Iliam »",
+              "desc": "Suite monumentale de dix toiles inspirée de l'Iliade d'Homère, évoquant la fureur, la gloire et la tragédie de la guerre de Troie.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚔️"
+            }
+          ]
+        },
+        {
+          "name": "Apothéose Chromatique, Lépante & Bacchus (1986 – 2011)",
+          "range": "1986 – 2011",
+          "events": [
+            {
+              "year": "2001",
+              "title": "Cycle de Lépante (Venise, Biennale)",
+              "desc": "Douze toiles monumentales décrivant la célèbre bataille navale de 1571 dans un embrasement de rouge carmin, de flammes jaunes et de fumée turquoise.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🔥"
+            },
+            {
+              "year": "2005",
+              "title": "Série des « Bacchus »",
+              "desc": "Tourbillons circulaires géants de peinture vermillon dégoulinante célébrant l'ivresse créatrice, le vin, le sang et l'extase païenne.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🍷"
+            },
+            {
+              "year": "2010",
+              "title": "Plafond de la Salle des Bronzes du Musée du Louvre",
+              "desc": "Immense voile bleu céleste constellé de disques solaires et lunaires et des noms des plus grands sculpteurs grecs de l'Antiquité.",
+              "type": "context",
+              "badge": "LOUVRE",
+              "icon": "🌌"
+            },
+            {
+              "year": "2011",
+              "title": "Mort à Rome",
+              "desc": "S'éteint à Rome le 5 juillet 2011, unanimement célébré comme l'un des géants poétiques du demi-siècle.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
 });
@@ -11844,3 +12175,17 @@ window.ARTISTS_REGISTRY["le_titien"] = window.ARTISTS_REGISTRY["titien"];
 window.ARTISTS_REGISTRY["tiziano"] = window.ARTISTS_REGISTRY["titien"];
 window.ARTISTS_REGISTRY["tiziano_vecellio"] = window.ARTISTS_REGISTRY["titien"];
 window.ARTISTS_REGISTRY["vecellio"] = window.ARTISTS_REGISTRY["titien"];
+
+window.ARTISTS_REGISTRY["henri_de_toulouse_lautrec"] = window.ARTISTS_REGISTRY["toulouse_lautrec"];
+window.ARTISTS_REGISTRY["toulouse-lautrec"] = window.ARTISTS_REGISTRY["toulouse_lautrec"];
+window.ARTISTS_REGISTRY["lautrec"] = window.ARTISTS_REGISTRY["toulouse_lautrec"];
+window.ARTISTS_REGISTRY["henri_de_toulouse-lautrec"] = window.ARTISTS_REGISTRY["toulouse_lautrec"];
+
+window.ARTISTS_REGISTRY["william_turner"] = window.ARTISTS_REGISTRY["turner"];
+window.ARTISTS_REGISTRY["j_m_w_turner"] = window.ARTISTS_REGISTRY["turner"];
+window.ARTISTS_REGISTRY["joseph_mallord_william_turner"] = window.ARTISTS_REGISTRY["turner"];
+window.ARTISTS_REGISTRY["turner_william"] = window.ARTISTS_REGISTRY["turner"];
+
+window.ARTISTS_REGISTRY["cy_twombly"] = window.ARTISTS_REGISTRY["twombly"];
+window.ARTISTS_REGISTRY["edwin_parker_twombly"] = window.ARTISTS_REGISTRY["twombly"];
+window.ARTISTS_REGISTRY["twombly_cy"] = window.ARTISTS_REGISTRY["twombly"];
