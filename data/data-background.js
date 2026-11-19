@@ -19,6 +19,121 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans les <em>Fastes</em> d'Ovide, la déesse Flore elle-même conte son origine : autrefois nymphe des îles Fortunées sous le nom de Chloris, elle fut surprise par le souffle fougueux de Zéphyr, le vent du printemps. Épris de sa beauté, Zéphyr en fit son épouse légitime et lui offrit un don souverain : l'empire éternel des fleurs, des bourgeons, des semailles et des prés verdoyants.</p>\n<p>Dans ses jardins divins où règne un printemps immuable, la déesse recueille et veille sur les âmes des héros et des amants dont le destin tragique fut transfiguré par la pitié des dieux en corolles immortelles. Autour de son char triomphal dorénavant paré de guirlandes, les figures brisées du mythe renaissent sous forme végétale : Narcisse, consumé par son propre reflet et devenu fleur immaculée au cœur pourpre ; Hyacinthe, favori d'Apollon mortellement frappé par un disque et changé en fleur étoilée ; Adonis, transpercé par le sanglier sauvage et métamorphosé en anémone fragile ; ou encore le fier Ajax qui, s'étant jeté sur son glaive, voit son sang irriguer l'œillet dont les pétales portent gravées les lettres de sa douleur.</p>\n<p>Ce récit est une allégorie cosmique de la victoire perpétuelle du renouveau sur la mort : par la grâce de la poésie et de l'amour, la souffrance terrestre et la brièveté de la vie mortelle sont absorbées dans le cycle infini de la nature féconde.</p>"
   },
+  "guerre_civile_espagnole_xxe_siecle_exil_resistance": {
+    "id": "guerre_civile_espagnole_xxe_siecle_exil_resistance",
+    "badge": "HISTOIRE CONTEMPORAINE • XXe SIÈCLE",
+    "title": "La Guerre Civile Espagnole (1936–1939) et le Cri de la Conscience Européenne",
+    "sources": "Chroniques de la Seconde République espagnole & de la Guerre d'Espagne (1936–1939)",
+    "keywords": [
+      "guernica",
+    ],
+    "text": "<p>Déclenchée en juillet 1936 à la suite d'un coup d'État militaire contre la Seconde République espagnole, la guerre civile espagnole devient rapidement le théâtre tragique où s'affrontent les idéologies démocratiques, révolutionnaires et fascistes à la veille de la Seconde Guerre mondiale.</p>\n<p>Le bombardement aérien de la cité basque de Guernica en avril 1937, premier massacre d'une population civile par l'aviation moderne en Europe, frappe durablement la conscience universelle et érige la création artistique en témoignage moral contre la barbarie.</p>\n<p>Entre exil, résistance culturelle et enracinement catalan — de la ferveur visionnaire de l'architecture barcelonaise jusqu'à la transition démocratique des années 1970 —, la mémoire de cette tragédie nourrit une réflexion incessante sur la liberté et la condition humaine.</p>"
+  },
+  "judas_macchabee_revolte_hasmoneenne_bible": {
+    "id": "judas_macchabee_revolte_hasmoneenne_bible",
+    "badge": "HISTOIRE BIBLIQUE • ANCIEN TESTAMENT",
+    "title": "La Révolte des Macchabées : Judas Macchabée et la Libération du Temple de Jérusalem",
+    "sources": "Premier et Deuxième Livres des Macchabées (Ancien Testament)",
+    "keywords": [
+      "judas macchabée",
+      "judas macchabee",
+      "macchabées",
+      "apollonius",
+      "purgatoire",
+      "suffrage",
+      "temple de jérusalem"
+    ],
+    "text": "<p>Au IIe siècle av. J.-C., lorsque le souverain séleucide Antiochos IV Épiphane profane le Temple de Jérusalem et interdit la pratique du judaïsme, le prêtre Mattathias et ses fils déclenchent une insurrection héroïque menée par le chef de guerre Judas Macchabée.</p>\n<p>Après avoir défait les armées syriennes d'Apollonius et purifié le Temple sanctifié par la fête de Hanoucca, Judas Macchabée découvre sur les dépouilles de plusieurs de ses soldats tombés au combat des amulettes païennes interdites par la Loi.</p>\n<p>Il organise aussitôt une collecte d'argent envoyée à Jérusalem afin d'offrir un sacrifice expiatoire pour le rachat des âmes des défunts — épisode fondateur sur lequel s'appuiera la théologie catholique de la prière pour les morts.</p>"
+  },
+  "reine_thomyris_cyrus_le_grand_scythes_herodote": {
+    "id": "reine_thomyris_cyrus_le_grand_scythes_herodote",
+    "badge": "HISTOIRE ANTIQUE • PERSE & SCYTHIE",
+    "title": "La Reine Thomyris et la Chute de Cyrus le Grand : La Vengeance selon Hérodote",
+    "sources": "Hérodote, Histoires (Livre I, chapitres 205–214)",
+    "keywords": [
+      "thomyris",
+      "cyrus",
+      "scythes",
+      "massagètes",
+      "massagetes",
+      "hérodote",
+      "herodote",
+      "sang"
+    ],
+    "text": "<p>Fondateur de l'immense Empire perse achéménide au VIe siècle av. J.-C., le roi conquérant Cyrus le Grand entreprend à la fin de son règne de soumettre les Massagètes, un peuple nomade scythe d'Asie centrale gouverné par la reine Thomyris.</p>\n<p>Après avoir capturé par ruse le fils de la reine, Spargapise, qui se donne la mort de désespoir dans sa captivité, Cyrus affronte l'armée de Thomyris dans l'une des batailles les plus sanglantes de l'Antiquité, au cours de laquelle le Grand Roi trouve la mort.</p>\n<p>Selon le récit d'Hérodote, la reine Thomyris fait rechercher le cadavre de Cyrus parmi les morts, lui tranche la tête et la plonge dans une outre remplie de sang humain en prononçant ces paroles célèbres : « Rassasie-toi maintenant de ce sang dont tu n'as jamais pu étancher ta soif ! »</p>"
+  },
+  "siecle_or_amsterdam_bourgeoisie_provinces_unies": {
+    "id": "siecle_or_amsterdam_bourgeoisie_provinces_unies",
+    "badge": "HISTOIRE DES PROVINCES-UNIES • XVIIe SIÈCLE",
+    "title": "L'Âge d'Or d'Amsterdam : L'Ascension de la Grande Bourgeoisie Marchande",
+    "sources": "Chroniques de la République des Provinces-Unies & Archives d'Amsterdam (XVIIe siècle)",
+    "keywords": [
+      "amsterdam",
+      "leyde",
+      "soolmans",
+      "coppit",
+      "hendrickje",
+      "titus",
+      "memento mori",
+      "bœuf écorché",
+      "boeuf ecorche"
+    ],
+    "text": "<p>Devenue au XVIIe siècle le cœur financier, maritime et commercial de l'Europe grâce à ses compagnies des Indes orientales et occidentales, Amsterdam voit s'épanouir une riche aristocratie marchande qui rivalise de faste avec les cours princières.</p>\n<p>Parés de costumes de soie et de velours noir rehaussés de dentelles précieuses, les grands négociants commandent des effigies nuptiales monumentales affirmant leur réussite sociale et la pérennité de leur lignée.</p>\n<p>À l'opposé de cette opulence civique, l'intériorité protestante médite sur la fragilité de la fortune, les revers de l'existence et la vanité de toute chair (<em>Memento Mori</em>), érigeant l'examen de conscience et la dignité face aux épreuves en valeurs suprêmes.</p>"
+  },
+  "boheme_parisienne_impressionnisme_batignolles_xixe": {
+    "id": "boheme_parisienne_impressionnisme_batignolles_xixe",
+    "badge": "HISTOIRE CULTURELLE • FRANCE AU XIXe SIÈCLE",
+    "title": "La Bohème des Batignolles et l'Invention de la Vie Moderne au XIXe Siècle",
+    "sources": "Émile Zola, Mes Haines (1866) & Chroniques des Salons parisiens (1863–1886)",
+    "keywords": [
+      "batignolles",
+      "bazille",
+      "atelier",
+      "salon des refusés",
+      "salon des refuses",
+      "belle époque",
+      "belle epoque",
+      "mousquetaires",
+      "occupation"
+    ],
+    "text": "<p>Dans le Paris du Second Empire et de la Troisième République, un cercle de jeunes créateurs réunis autour du quartier des Batignolles et du café Guerbois remet en question le monopole académique du Salon officiel pour peindre la vie contemporaine sur le motif.</p>\n<p>Animés par une profonde solidarité fraternelle — marquée par la mort héroïque du jeune Frédéric Bazille lors de la guerre de 1870 —, ils célèbrent l'amitié d'atelier, les loisirs de plein air, l'enfance et la poésie fugace des fleurs et des miroirs.</p>\n<p>Prolongée au XXe siècle dans les ateliers de Montmartre puis sous les années sombres de l'Occupation jusqu'aux retraites méditerranéennes, cette quête de liberté créatrice interroge sans relâche le face-à-face entre l'artiste, son modèle et le temps qui passe.</p>"
+  },
+  "orphee_symbolisme_fin_de_siecle_xixe": {
+    "id": "orphee_symbolisme_fin_de_siecle_xixe",
+    "badge": "HISTOIRE DES IDÉES • FIN DE SIÈCLE",
+    "title": "L'Esprit Fin-de-Siècle et le Mythe d'Orphée : La Quête de l'Invisible",
+    "sources": "Jean Moréas, Le Manifeste du Symbolisme (1886) & Ovide, Les Métamorphoses (Livre XI)",
+    "keywords": [
+      "symbolisme",
+      "invisible",
+      "songe",
+      "onirique",
+      "fin de siècle",
+      "fin de siecle",
+      "mystère",
+      "mystere"
+    ],
+    "text": "<p>À la fin du XIXe siècle, en réaction contre le positivisme scientifique et le matérialisme industriel, un courant spirituel et poétique cherche à explorer les territoires secrets du rêve, de l'inconscient et du sacré.</p>\n<p>Figure tutélaire de cette quête de l'invisible, le poète mythique Orphée — capable par les accords de sa lyre d'apprivoiser les bêtes sauvages et d'émouvoir les divinités des Enfers pour tenter de ramener Eurydice à la lumière — incarne le pouvoir souverain de la poésie et de la musique face à la mort.</p>\n<p>Déchiré par les Ménades mais survivant par son chant qui continue de résonner dans la nature, Orphée devient le symbole de l'immortalité de l'esprit créateur au-delà de la finitude terrestre.</p>"
+  },
+  "exode_moise_israelites_desert_manne": {
+    "id": "exode_moise_israelites_desert_manne",
+    "badge": "RÉCITS BIBLIQUES • ANCIEN TESTAMENT",
+    "title": "L'Enfance de Moïse et la Traversée du Désert : Du Nil à la Manne Céleste",
+    "sources": "Livre de l'Exode (chapitres 2 et 16) & Flavius Josèphe, Antiquités judaïques",
+    "keywords": [
+      "moïse",
+      "moise",
+      "nil",
+      "pharaon",
+      "manne",
+      "désert",
+      "desert",
+      "exode",
+      "aaron",
+      "sauvé des eaux"
+    ],
+    "text": "<p>Pour sauver son nouveau-né de l'édit du Pharaon ordonnant de jeter au Nil tous les garçons hébreux, la mère de Moïse dépose l'enfant dans un berceau de joncs parmi les roseaux du fleuve, où il est recueilli par la fille du souverain égyptien.</p>\n<p>Élevé à la cour royale d'Égypte — où, selon l'historien Flavius Josèphe, l'enfant foule aux pieds le diadème du Pharaon en signe prophétique de la chute future de l'empire —, Moïse devient le libérateur et le législateur du peuple d'Israël.</p>\n<p>Au cours de la longue marche de quarante ans à travers le désert du Sinaï, alors que le peuple hébreu est menacé par la famine, Dieu fait tomber du ciel une nourriture miraculeuse, la manne, scellant sa providence envers l'Alliance.</p>"
+  },
    "vierge_misericorde_peste_noire_xiv": {
     "id": "vierge_misericorde_peste_noire_xiv",
     "badge": "HISTOIRE MÉDIÉVALE & DÉVOTION",
