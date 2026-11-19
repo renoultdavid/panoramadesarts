@@ -11267,6 +11267,443 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       }
     ]
   }
+},
+
+  "teniers": {
+  "id": "teniers",
+  "name": "Teniers David le Jeune",
+  "sortName": "Teniers David le Jeune",
+  "sortLetter": "T",
+  "dates": "1610 – 1690",
+  "movement": "Baroque flamand (Scènes de genre & Paysages)",
+  "nationality": "Flandre (Anvers / Bruxelles, Pays-Bas espagnols)",
+  "school": "École flamande d'Anvers",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMeCeSkpQbMbXr-ZXdkZTpqgWY4M9XCd_r7tHwtQ1QnFAcgrUdYOn5ZHkAnTdfg4Qbx-zbOjXhNhGfhOjsfYv0-3mlgVrSTq25qKOsch7mXTCP7mlcz3MiT0nFKHFkyrlav1aF1Qt31bX8eOsBvl-waqg=w1836-h779-s-no-gm?authuser=0",
+  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczMeCeSkpQbMbXr-ZXdkZTpqgWY4M9XCd_r7tHwtQ1QnFAcgrUdYOn5ZHkAnTdfg4Qbx-zbOjXhNhGfhOjsfYv0-3mlgVrSTq25qKOsch7mXTCP7mlcz3MiT0nFKHFkyrlav1aF1Qt31bX8eOsBvl-waqg=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p>David Teniers le Jeune (1610 – 1690) est l'un des peintres flamands les plus prolifiques et les plus célèbres de son temps. Gendre de Jan Brueghel l'Ancien et peintre de cour de l'archiduc Léopold-Guillaume, il a porté la peinture de genre à un niveau de raffinement et de succès international exceptionnel, influençant durablement le goût européen pour les scènes villageoises et les paysages ruraux.</p><p>Son genre pictural se définit par la représentation de la vie quotidienne et des cabinets d'amateurs. Contrairement à la rudesse de ses prédécesseurs, Teniers apporte une élégance et une précision technique aux scènes de kermesses, de cabarets et de cuisines. Son style se caractérise par une lumière claire et argentée, une touche fluide et une palette harmonieuse, souvent dominée par des gris bleutés et des terres légères. Il est également le maître de la « singerie » et des scènes de tentations fantastiques.</p><p>L'évolution de son style marque une ascension sociale et artistique : après ses débuts influencés par Brouwer dans les années 1630, il développe dans les années 1640-1650 sa manière argentée la plus célèbre, où les paysages s'ouvrent à de vastes étendues d'eau. Nommé peintre de cour et conservateur de l'archiduc à Bruxelles, il documente sa prestigieuse collection à travers des galeries de peintures et participe activement à la fondation de l'Académie royale des Beaux-Arts d'Anvers.</p>",
+  "corpus": {
+    "total": 850,
+    "paintingsCount": 850,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 1,
+    "source": "Monographies Margret Klinge (1991) & Hans Vlieghe (2011)",
+    "totalOeuvresEstimees": "~850 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur les catalogues et monographies majeurs consacrés au maître — notamment les travaux de Margret Klinge (David Teniers de Jonge: schilderijen, tekeningen, Anvers, 1991) et de Hans Vlieghe (David Teniers the Younger (1610–1690), Turnhout, 2011), qui affinent et trient l'ancien recensement très large de John Smith (1831). En se concentrant sur ses peintures authentifiées (huiles sur panneau de chêne, sur toile et sur cuivre, à l'exclusion des gravures d'après ses compositions et des copies d'atelier), le consensus muséal situe le corpus officiel de ses peintures autour d'environ 850 peintures."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "years": "1610 – 1639",
+        "title": "Formation anversoise & L'influence d'Adriaen Brouwer",
+        "color": "#0284c7",
+        "summary": "Formé par son père David Teniers l'Ancien et reçu maître à la guilde de Saint-Luc d'Anvers en 1632, il peint des tavernes et scènes villageoises dans une veine satirique et sombre.",
+        "events": [
+          {
+            "year": "1610",
+            "title": "Naissance à Anvers",
+            "desc": "Baptisé le 15 décembre 1610 à Anvers, fils du peintre David Teniers l'Ancien et de Dymphna Cornelisz de Wilde.",
+            "type": "context",
+            "badge": "NAISSANCE",
+            "icon": "🌱"
+          },
+          {
+            "year": "1632",
+            "title": "Maître de la Guilde de Saint-Luc d'Anvers",
+            "desc": "Accède à la maîtrise et développe des scènes de tavernes enfumées influencées par le réalisme picaresque d'Adriaen Brouwer.",
+            "type": "milestone",
+            "badge": "MAÎTRISE",
+            "icon": "🎨"
+          },
+          {
+            "year": "1637",
+            "title": "Mariage avec Anna Brueghel",
+            "desc": "Épouse la fille de Jan Brueghel l'Ancien (Velours) sous le parrainage de Pierre Paul Rubens, scellant son alliance avec l'aristocratie picturale anversoise.",
+            "type": "context",
+            "badge": "ALLIANCE ARTISTIQUE",
+            "icon": "💍"
+          }
+        ]
+      },
+      {
+        "years": "1640 – 1655",
+        "title": "La Lumière argentée & L'Apogée bruxellois auprès de l'Archiduc",
+        "color": "#d97706",
+        "summary": "Épanouissement de sa touche fluide et claire : grandes kermesses villageoises, paysages aristocratiques et nomination comme peintre de cour de l'archiduc Léopold-Guillaume.",
+        "events": [
+          {
+            "year": "1645",
+            "title": "Doyen de la Guilde de Saint-Luc d'Anvers",
+            "desc": "Consécration civique et professionnelle : il est élu doyen de la prestigieuse corporation des artistes d'Anvers.",
+            "type": "milestone",
+            "badge": "DOYEN",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1651",
+            "title": "Nomination comme peintre de cour à Bruxelles",
+            "desc": "L'archiduc Léopold-Guillaume, gouverneur général des Pays-Bas méridionaux, le nomme peintre de cour et conservateur de sa galerie princière.",
+            "type": "milestone",
+            "badge": "COUR ARCHIDUCALE",
+            "icon": "👑"
+          },
+          {
+            "year": "1652",
+            "title": "Paysage au château (Montpellier, Musée Fabre)",
+            "desc": "Harmonie sereine de la maturité : vaste étendue d'eau argentée reflétant un ciel vaporeux, architecture castrale et promenade aristocratique au premier plan.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "teniers_paysage_au_chateau_montpellier_1652"
+          }
+        ]
+      },
+      {
+        "years": "1656 – 1690",
+        "title": "Le Theatrum Pictorium, Fondation de l'Académie & Postérité",
+        "color": "#16a34a",
+        "summary": "Publication du premier catalogue de collection illustré (Theatrum Pictorium), fondation de l'Académie d'Anvers en 1663 et commandes royales européennes.",
+        "events": [
+          {
+            "year": "1660",
+            "title": "Publication du Theatrum Pictorium",
+            "desc": "Fait graver et édite le premier catalogue illustré d'une grande collection princière au monde, documentant les chefs-d'œuvre italiens de l'archiduc.",
+            "type": "milestone",
+            "badge": "PREMIER CATALOGUE D'ART",
+            "icon": "📖"
+          },
+          {
+            "year": "1663",
+            "title": "Fondation de l'Académie Royale d'Anvers",
+            "desc": "Obtient du roi Philippe IV d'Espagne les lettres patentes créant l'Académie royale des Beaux-Arts d'Anvers, inspirée des modèles italiens et parisiens.",
+            "type": "milestone",
+            "badge": "FONDATION ACADÉMIQUE",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1690",
+            "title": "Mort à Bruxelles à l'âge de 79 ans",
+            "desc": "S'éteint le 25 avril 1690 à Bruxelles, honoré dans toute l'Europe et collectionné avec passion par Louis XIV et les monarques européens.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "tintoret": {
+  "id": "tintoret",
+  "name": "Tintoret (Jacopo Robusti)",
+  "sortName": "Tintoret",
+  "sortLetter": "T",
+  "dates": "1518 – 1594",
+  "movement": "Maniérisme vénitien & Haute Renaissance",
+  "nationality": "Italie (République de Venise)",
+  "school": "École vénitienne du Cinquecento",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczO0pIRFF2eImrDdbtgzEeKucMJ4g2LMnaO5RKVA5apCkghDRuwq1OzkSq7WiOMGzpn7vGxGY1vxA_UIep78MZm5kP80gyT1l3ex9MtGITY5KupfjlA_ehgb9BA_soVZaJGnJ6heEo40SaqFbfAvTzbjhQ=w1836-h779-s-no-gm?authuser=0",
+  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczO0pIRFF2eImrDdbtgzEeKucMJ4g2LMnaO5RKVA5apCkghDRuwq1OzkSq7WiOMGzpn7vGxGY1vxA_UIep78MZm5kP80gyT1l3ex9MtGITY5KupfjlA_ehgb9BA_soVZaJGnJ6heEo40SaqFbfAvTzbjhQ=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p>Jacopo Robusti, dit Le Tintoret (Il Tintoretto, 1518 – 1594), est le génie visionnaire et impétueux du Maniérisme vénitien. Fils d'un teinturier de soie vénitien (d'où son surnom), il s'était fixé pour ambition absolue de fusionner « le dessin de Michel-Ange et la couleur de Titien ». Artiste à l'énergie proverbiale, il a bouleversé les traditions de la Sérénissime par la rapidité foudroyante de son exécution (la <em>prestezza</em>) et l'audace spectaculaire de ses mises en scène dramatiques.</p><p>Son genre pictural est marqué par un dynamisme surnaturel et une ferveur spirituelle saisissante. Le style du Tintoret se caractérise par des perspectives fuyantes vertigineuses, des compositions en diagonale et une lumière artificielle et électrique qui déchire les ténèbres pour frapper les anatomies en tension. Grand rival de Véronèse et de Titien, il devient le peintre souverain de la Scuola Grande di San Rocco, qu'il transforme durant près de vingt-cinq ans en l'un des monuments les plus grandioses de l'art mondial.</p><p>L'évolution de son art le mène d'une virtuosité théâtrale précoce (<em>Le Miracle de l'esclave</em>, 1548) à un mysticisme cosmique et sombre dans ses dernières années (<em>La Cène</em> de San Giorgio Maggiore), préfigurant l'art baroque et influençant profondément son élève El Greco par son traitement incandescent de la lumière spirituelle.</p>",
+  "corpus": {
+    "total": 275,
+    "paintingsCount": 275,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 5,
+    "source": "Catalogue raisonné Rodolfo Pallucchini & Paola Rossi (1982) & Rétrospective Nichols / Echols / Ilchman (2018)",
+    "totalOeuvresEstimees": "~275 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur le catalogue raisonné établi par Rodolfo Pallucchini et Paola Rossi (Tintoretto : Le opere sacre e profane, Alfieri / Electa, 1982, en deux volumes), affiné par les monographies ultérieures de Tom Nichols, Robert Echols et Frederick Ilchman (notamment lors de la grande rétrospective de 2018–2019). En retenant ses peintures autographes ou majoritairement exécutées sous sa direction (toiles monumentales, retables, scènes mythologiques, plafonds et portraits, en comptabilisant chaque cycle ou ensemble cohérent au même titre qu'un tableau isolé, et en écartant les copies tardives d'atelier et les œuvres entièrement de la main de Domenico), le consensus scientifique situe son corpus officiel de peintures autour d'environ 275 peintures."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "years": "1518 – 1555",
+        "title": "Jeunesse, Le Coup d'éclat du Miracle de l'Esclave & Portraits patriciens",
+        "color": "#0284c7",
+        "summary": "Formation atypique à Venise, triomphe retentissant à la Scuola Grande di San Marco en 1548 et déploiement d'un style maniériste fougueux alliant mythes sensuels et portraits aristocratiques.",
+        "events": [
+          {
+            "year": "1518",
+            "title": "Naissance à Venise, fils d'un teinturier",
+            "desc": "Naît à Venise en 1518, aîné des vingt-et-un enfants du teinturier (tintore) Giovanni Battista Robusti.",
+            "type": "context",
+            "badge": "NAISSANCE",
+            "icon": "🌱"
+          },
+          {
+            "year": "1548",
+            "title": "Le Miracle de saint Marc sauvant l'esclave",
+            "desc": "Chef-d'œuvre révolutionnaire peint pour la Scuola di San Marco : raccourci plongeant fulgurant et lumière théâtrale qui sidèrent Venise et Pietro Aretino.",
+            "type": "milestone",
+            "badge": "TRIOMPHE ÉCLATANT",
+            "icon": "⚡"
+          },
+          {
+            "year": "1550",
+            "title": "Léda et le cygne (Florence, Galerie des Offices)",
+            "desc": "Sensualité profane et élégance maniériste : le corps nacré de Léda en diagonale sinueuse sur tentures pourpres au sein d'une opulente chambre vénitienne.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "tintoret_leda_et_le_cygne_florence_1550"
+          },
+          {
+            "year": "1552",
+            "title": "Portrait d'homme, dit de Soranzo (Musée d'arts de Nantes)",
+            "desc": "Sondage psychologique saisissant d'un patricien vénitien à la barbe rousse foisonnante, émergeant d'un fond ténébreux.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "tintoret_portrait_d_homme_soranzo_nantes_1552"
+          },
+          {
+            "year": "1555",
+            "title": "Portrait d’un jeune homme en David",
+            "desc": "Portrait allégorique aristocratique : le jeune modèle en pourpoint de velours pourpre s'appuie sur l'épée géante devant le corps vaincu de Goliath.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "tintoret_portrait_d_un_jeune_homme_en_david_1555"
+          },
+          {
+            "year": "1555",
+            "title": "Suzanne au bain (Paris, Musée du Louvre)",
+            "desc": "Poésie lumineuse du nu féminin resplendissant au cœur d'un treillage de roses, observant son reflet face aux vieillards dissimulés.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "tintoret_suzanne_au_bain_louvre_1555"
+          }
+        ]
+      },
+      {
+        "years": "1556 – 1579",
+        "title": "Le Monument de San Rocco & Les Grandes commandes de la République",
+        "color": "#d97706",
+        "summary": "Conquête audacieuse du décor de la Scuola Grande di San Rocco en 1564 où il installe sans frais sa Crucifixion monumentale, rivalisant avec Titien et Véronèse au Palais des Doges.",
+        "events": [
+          {
+            "year": "1564 – 1588",
+            "title": "Cycle monumental de la Scuola Grande di San Rocco",
+            "desc": "Pendant près d'un quart de siècle, il couvre les plafonds et parois de dizaines de toiles visionnaires, constituant la « chapelle Sixtine vénitienne ».",
+            "type": "milestone",
+            "badge": "CHEF-D'ŒUVRE MONUMENTAL",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1575",
+            "title": "Portrait d'homme âgé tenant un mouchoir (Paris, Musée du Louvre)",
+            "desc": "Méditation sublime sur la dignité du grand âge : touche rapide (prestezza) sculptant la barbe argentée et regard empreint de gravitas républicaine.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "tintoret_portrait_d_homme_age_au_mouchoir_louvre_1575"
+          },
+          {
+            "year": "1577",
+            "title": "Incendie du Palais des Doges et grands décors d'État",
+            "desc": "Mobilisé pour reconstruire la gloire visuelle de la République dans la Salle du Scrutin et la Salle du Collège aux côtés de Véronèse.",
+            "type": "milestone",
+            "badge": "COMMANDES D'ÉTAT",
+            "icon": "👑"
+          }
+        ]
+      },
+      {
+        "years": "1580 – 1594",
+        "title": "Le Paradis colosal, Mysticisme ultime & Apothéose",
+        "color": "#16a34a",
+        "summary": "Réalisation du gigantesque Paradis pour la Salle du Grand Conseil (la plus grande toile du monde) et ultime Cène crépusculaire à San Giorgio Maggiore.",
+        "events": [
+          {
+            "year": "1588 – 1592",
+            "title": "Le Paradis du Palais des Doges",
+            "desc": "Peint avec son fils Domenico la plus grande toile sur châssis de l'histoire (22 × 7 mètres), tourbillon cosmique de plus de cinq cents figures d'élus.",
+            "type": "milestone",
+            "badge": "TOILE GIGANTESQUE",
+            "icon": "🌌"
+          },
+          {
+            "year": "1594",
+            "title": "La Cène de la basilique San Giorgio Maggiore & Mort",
+            "desc": "S'éteint le 31 mai 1594 à Venise après avoir achevé sa dernière Cène nocturne où la fumée des lampes d'huile se métamorphose en une nuée d'anges incandescents.",
+            "type": "context",
+            "badge": "TESTAMENT PICTURAL",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "titien": {
+  "id": "titien",
+  "name": "Titien (Tiziano Vecellio)",
+  "sortName": "Titien",
+  "sortLetter": "T",
+  "dates": "v. 1488 – 1576",
+  "movement": "Haute Renaissance vénitienne (Colorito)",
+  "nationality": "Italie (République de Venise / Pieve di Cadore)",
+  "school": "École vénitienne du Cinquecento",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM_BAiRNMuBjCbBD6_8n4AZTHb6MLMK7_8wqxPhrDti1WZDjxlZv6uCt4qhCd_5PTVXUbMuuw7NnRXWp3u1w_dvyW-H9AJKLpyjLyuiMUnSObLK7qQodYNRvPYzGsTRE5nhV8kz9LhPNXnX5Yvn9wEv_g=w1836-h779-s-no-gm?authuser=0",
+  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczM_BAiRNMuBjCbBD6_8n4AZTHb6MLMK7_8wqxPhrDti1WZDjxlZv6uCt4qhCd_5PTVXUbMuuw7NnRXWp3u1w_dvyW-H9AJKLpyjLyuiMUnSObLK7qQodYNRvPYzGsTRE5nhV8kz9LhPNXnX5Yvn9wEv_g=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p>Tiziano Vecellio, dit Le Titien (v. 1488 – 1576), né à Pieve di Cadore dans les Dolomites et mort presque centenaire à Venise, est le maître souverain et incontesté de l'école vénitienne et l'une des figures fondatrices de toute la peinture occidentale. Formé auprès de Giovanni Bellini et émule de Giorgione, il devient dès 1516 le peintre officiel de la Sérénissime avant de conquérir une renommée européenne absolue, peignant pour les ducs de Ferrare et de Mantoue, les papes Farnèse et surtout l'empereur Charles Quint, qui le nomma comte palatin et chevalier de l'Éperon d'or.</p><p>Son génie se définit par le triomphe de la couleur sur la ligne (le <em>colorito</em> vénitien). Titien excelle avec une aisance égale dans tous les genres : le retable sacré d'une majesté héroïque (<em>L'Assomption des Frari</em>), les fables mythologiques ardentes et sensuelles (les <em>Poésies</em> peintes pour Philippe II d'Espagne) et le portrait psychologique d'État, où il invente la pose aristocratique moderne faite d'autorité morale, de mélancolie et de distinction suprême.</p><p>L'évolution de son style parcourt sept décennies de création ininterrompue, passant de la perfection lumineuse et satinée de sa jeunesse (<em>La Vierge au lapin</em>, <em>L'Homme au gant</em>, <em>Vénus d'Urbino</em>) à la liberté révolutionnaire de sa « manière tardive ». Dans ses dernières années, le maître broie ses pigments, applique la matière à touches rugueuses, larges, parfois directement au doigt, dissolvant les contours dans une lumière crépusculaire et tragique qui ouvrira directement la voie à Velázquez, Rembrandt et Delacroix.</p>",
+  "corpus": {
+    "total": 275,
+    "paintingsCount": 275,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 16,
+    "source": "Catalogue raisonné Harold E. Wethey (3 vol., 1969–1975) & Synthèse critique Peter Humfrey (2007)",
+    "totalOeuvresEstimees": "~275 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur le catalogue raisonné monumental d'Harold E. Wethey (The Paintings of Titian, 3 volumes, Phaidon, 1969–1975), enrichi par les synthèses critiques ultérieures comme celles de Peter Humfrey (Titian: The Complete Paintings, 2007) et les catalogues d'exposition récents. En isolant les peintures authentifiées ou de sa main (huiles sur toile et sur panneau, en traitant les cycles ou ensembles décoratifs liés comme des unités cohérentes et en laissant de côté les œuvres d'atelier tardives, les copies et les estampes), le consensus scientifique situe son corpus officiel de peintures autour d'environ 275 peintures."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "years": "v. 1488 – 1525",
+        "title": "Jeunesse giorgionesque, L'Assomption des Frari & Épopée des Camerini",
+        "color": "#0284c7",
+        "summary": "Formé auprès de Bellini, il collabore avec Giorgione au Fondaco dei Tedeschi, s'impose avec l'Assomption en 1518 et peint ses fables dionysiaques pour Alphonse d'Este.",
+        "events": [
+          {
+            "year": "v. 1488",
+            "title": "Naissance à Pieve di Cadore",
+            "desc": "Naît au cœur des Dolomites dans une famille de notables montagnards, avant de rejoindre Venise dès l'enfance pour se former à la peinture.",
+            "type": "context",
+            "badge": "NAISSANCE",
+            "icon": "🌱"
+          },
+          {
+            "year": "1515",
+            "title": "La Femme au miroir (Paris, Musée du Louvre)",
+            "desc": "Sommet de grâce vénitienne : la beauté idéale féminine célébrée dans le décolleté de batiste fine et le double jeu spéculaire des reflets.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "titien_la_femme_au_miroir_louvre_1515"
+          },
+          {
+            "year": "1518",
+            "title": "Triomphe de L'Assomption de la Vierge aux Frari",
+            "desc": "Coup de tonnerre dans la Sérénissime : retable colossal de près de sept mètres de haut où le dynamisme ascendant de Marie sidère les contemporains.",
+            "type": "milestone",
+            "badge": "RETABLE HISTORIQUE",
+            "icon": "⛪"
+          },
+          {
+            "year": "1520",
+            "title": "L'Homme au gant (Paris, Musée du Louvre)",
+            "desc": "Archétype du courtisan de la Renaissance : silhouette sombre, sprezzatura élégante et regard mélancolique d'une distinction aristocratique insurpassée.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "titien_l_homme_au_gant_louvre_1520"
+          },
+          {
+            "year": "1520 – 1523",
+            "title": "Bacchus et Ariane (Londres, National Gallery)",
+            "desc": "Fable mythologique pour le duc de Ferrare : saut athlétique du dieu dionysiaque sur fond de ciel au lapis-lazuli pur et cortège dionysiaque exubérant.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "titien_bacchus_et_ariane_londres_1520"
+          },
+          {
+            "year": "1520 – 1525",
+            "title": "Le Transport du Christ vers le tombeau (Paris, Musée du Louvre)",
+            "desc": "Tragédie poignante de la mort divine : le corps lourd et blême du Christ porté vers le sépulcre sous un ciel d'orage crépusculaire.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "titien_le_transport_du_christ_vers_le_tombeau_louvre_1520"
+          }
+        ]
+      },
+      {
+        "years": "1526 – 1548",
+        "title": "Maturité classique, Peintre des Empereurs & Maniérisme héroïque",
+        "color": "#d97706",
+        "summary": "Épanouissement pastoral, amitié intime avec Pierre l'Arétin, peintre exclusif de Charles Quint et rencontre avec le pape Paul III à Rome.",
+        "events": [
+          {
+            "year": "1525 – 1530",
+            "title": "La Vierge au lapin (Paris, Musée du Louvre)",
+            "desc": "Sainte Conversation champêtre baignée dans la lumière crépusculaire des Dolomites, mêlant ferveur dévote et poésie pastorale.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "titien_la_vierge_au_lapin_louvre_1525"
+          },
+          {
+            "year": "1538",
+            "title": "Portrait de François Ier (Paris, Musée du Louvre)",
+            "desc": "Portrait d'apparat du Roi-Chevalier peint de profil à distance d'après une médaille de Cellini, incarnant la magnificence royale.",
+            "type": "masterpiece",
+            "badge": "PORTRAIT ROYAL",
+            "icon": "👑",
+            "artworkId": "titien_francois_ier_louvre_1538"
+          },
+          {
+            "year": "1538",
+            "title": "La Vénus d'Urbino (Florence, Galerie des Offices)",
+            "desc": "Sommet absolu du nu féminin occidental : regard direct et souverain de la déesse alanguie, harmonie soyeuse des draps et allégorie conjugale.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE ABSOLU",
+            "icon": "🎨",
+            "artworkId": "titien_venus_d_urbino_florence_1538"
+          },
+          {
+            "year": "1542 – 1543",
+            "title": "Le Couronnement d'épines (Paris, Musée du Louvre)",
+            "desc": "Maniérisme puissant et violent : blocs d'architecture rustique encadrant le supplice physique du Christ sous la poussée brutale des roseaux.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "titien_le_couronnement_d_epines_louvre_1542"
+          },
+          {
+            "year": "1548",
+            "title": "Charles Quint à cheval à Mühlberg (Madrid, Prado)",
+            "desc": "Invention du portrait équestre moderne : l'empereur en armure sombre chevauchant au soleil couchant dans une solitude impériale héroïque.",
+            "type": "milestone",
+            "badge": "PORTRAIT IMPÉRIAL",
+            "icon": "🐎"
+          }
+        ]
+      },
+      {
+        "years": "1549 – 1576",
+        "title": "La Manière tardive, Les Poésies de Philippe II & Le Drame de la matière",
+        "color": "#16a34a",
+        "summary": "Cycle des Poésies mythologiques pour Philippe II, facture libre peinte au doigt et ultime Piétà tragique avant sa mort lors de la peste de Venise.",
+        "events": [
+          {
+            "year": "1554 – 1562",
+            "title": "Le cycle des Poésies pour le roi Philippe II d'Espagne",
+            "desc": "Danaé, Diane et Actéon, Le Viol d'Europe : érotisme tragique et dissolution des formes dans une pâte picturale libre et flamboyante.",
+            "type": "milestone",
+            "badge": "CYCLE ROYAL",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1576",
+            "title": "La Pietà pour sa propre sépulture & Mort à Venise",
+            "desc": "S'éteint le 27 août 1576 à près de 90 ans durant la grande épidémie de peste. La République lui accorde des obsèques solennelles en l'église des Frari.",
+            "type": "context",
+            "badge": "APOTHÉOSE",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
 }
 });
 
@@ -11392,3 +11829,18 @@ window.ARTISTS_REGISTRY["soutine_chaim"] = window.ARTISTS_REGISTRY["soutine"];
 
 window.ARTISTS_REGISTRY["yves_tanguy"] = window.ARTISTS_REGISTRY["tanguy"];
 window.ARTISTS_REGISTRY["tanguy_yves"] = window.ARTISTS_REGISTRY["tanguy"];
+
+window.ARTISTS_REGISTRY["david_teniers"] = window.ARTISTS_REGISTRY["teniers"];
+window.ARTISTS_REGISTRY["david_teniers_le_jeune"] = window.ARTISTS_REGISTRY["teniers"];
+window.ARTISTS_REGISTRY["teniers_david"] = window.ARTISTS_REGISTRY["teniers"];
+
+window.ARTISTS_REGISTRY["le_tintoret"] = window.ARTISTS_REGISTRY["tintoret"];
+window.ARTISTS_REGISTRY["il_tintoretto"] = window.ARTISTS_REGISTRY["tintoret"];
+window.ARTISTS_REGISTRY["tintoretto"] = window.ARTISTS_REGISTRY["tintoret"];
+window.ARTISTS_REGISTRY["jacopo_robusti"] = window.ARTISTS_REGISTRY["tintoret"];
+window.ARTISTS_REGISTRY["robusti"] = window.ARTISTS_REGISTRY["tintoret"];
+
+window.ARTISTS_REGISTRY["le_titien"] = window.ARTISTS_REGISTRY["titien"];
+window.ARTISTS_REGISTRY["tiziano"] = window.ARTISTS_REGISTRY["titien"];
+window.ARTISTS_REGISTRY["tiziano_vecellio"] = window.ARTISTS_REGISTRY["titien"];
+window.ARTISTS_REGISTRY["vecellio"] = window.ARTISTS_REGISTRY["titien"];

@@ -3552,6 +3552,83 @@ window.BACKGROUNDS_REGISTRY = {
     "vulgate"
   ],
   "text": "<p>Né vers 347 à Stridon et mort à Bethléem en 420, saint Jérôme (Eusebius Sophronius Hieronymus) est l'un des quatre Pères fondateurs de l'Église d'Occident et l'érudit monumental à qui l'on doit la <em>Vulgate</em>, la traduction latine de la Bible directement réalisée à partir des textes hébreux et grecs originaux.</p>\n<p>Au-delà de son œuvre intellectuelle souveraine, c'est l'épisode héroïque et tourmenté de sa retraite dans le désert aride de Chalcis (en Syrie) entre 375 et 377 qui a profondément bouleversé l'imaginaire artistique occidental. Habité par une crise spirituelle aiguë et cherchant à expier son attachement passionné aux auteurs profanes de l'Antiquité classique (notamment Cicéron), Jérôme s'impose une discipline ascétique radicale : vivant parmi les bêtes sauvages sous un soleil de plomb, il mortifie sa chair affamée, dort à même le sol pierreux et frappe sa poitrine d'une pierre pour repousser les tentations sensuelles et se conformer aux souffrances de la Passion du Christ.</p>\n<p>Dans l'iconographie chrétienne, la figure de saint Jérôme se partage ainsi entre deux grandes polarités : le docteur de l'Église méditant dans son cabinet d'étude parmi les manuscrits, le crâne de la vanité et le lion apprivoisé dont il retira une épine de la patte ; et l'anachorète décharné agenouillé au désert, la pierre sanglante au poing levé vers le Crucifix dans une extase mystique où le renoncement absolu au monde devient la condition de la vision divine.</p>"
+},
+  "leda_et_le_cygne_metamorphose_zeus": {
+  "id": "leda_et_le_cygne_metamorphose_zeus",
+  "badge": "MYTHOLOGIE GRECQUE",
+  "title": "Léda et le Cygne : La Métamorphose de Zeus et l'Origine d'Hélène",
+  "sources": "Euripide (Hélène), Ovide (Métamorphoses, Livre VI), Apollodore (Bibliothèque, III, 10, 7)",
+  "keywords": [
+    "léda et le cygne",
+    "leda et le cygne",
+    "léda",
+    "leda",
+    "cygne de zeus",
+    "zeus en cygne",
+    "métamorphose en cygne"
+  ],
+  "text": "<p>Dans la mythologie grecque, Léda, fille du roi d'Étolie Thestios et épouse du roi de Sparte Tyndare, est d'une beauté si éclatante qu'elle captive Zeus, le souverain de l'Olympe. Pour approcher la reine sans éveiller les soupçons d'Héra ni effrayer la mortelle, le dieu suprême use d'un stratagème féerique : feignant d'être poursuivi par un aigle féroce, il se métamorphose en un cygne étincelant de blancheur et vient trouver refuge dans les bras hospitaliers de Léda sur les rives de l'Eurotas.</p>\n<p>De cette étreinte surnaturelle entre le divin et la chair naissent deux œufs prodigieux d'où écloront les figures cardinales de l'épopée homérique : d'un côté Hélène, dont la beauté fatidique déclenchera la guerre de Troie, et Pollux (immortels car engendrés par Zeus) ; de l'autre Clytemnestre et Castor (mortels nés de Tyndare). Les Dioscures (Castor et Pollux), inséparables jumeaux, deviendront la constellation des Gémeaux.</p>\n<p>À la Renaissance et à l'époque maniériste, le mythe de Léda devient pour les maîtres vénitiens et toscans l'occasion de célébrer l'harmonie sensuelle du nu féminin, transfigurant la métamorphose animale en une intimité galante où le frémissement des plumes immaculées épouse la douceur nacrée des chairs royales.</p>"
+},
+  "suzanne_et_les_vieillards_livre_daniel": {
+  "id": "suzanne_et_les_vieillards_livre_daniel",
+  "badge": "RÉCIT BIBLIQUE • ANCIEN TESTAMENT",
+  "title": "Suzanne et les Vieillards : La Vertu Innocente et la Justice de Daniel",
+  "sources": "Livre de Daniel (Chapitre 13, texte deutérocanonique de l'Ancien Testament)",
+  "keywords": [
+    "suzanne et les vieillards",
+    "suzanne au bain",
+    "chaste suzanne",
+    "suzanne",
+    "jugement de daniel"
+  ],
+  "text": "<p>Le treizième chapitre du <em>Livre de Daniel</em> relate l'histoire de Suzanne, jeune et pieuse femme de Babylone, épouse du riche Joakim. D'une grande beauté et d'une vertu exemplaire, Suzanne a coutume de se baigner aux heures chaudes de l'après-midi dans le jardin clos de son époux, à l'abri des regards profanes.</p>\n<p>Deux anciens de la communauté et juges du peuple, épris d'un désir coupable, s'introduisent furtivement dans le verger et la surprennent dans son intimité. Face à leur chantage odieux — céder à leurs avances ou être publiquement accusée d'adultère avec un jeune amant imaginaire, crime alors passible de lapidation —, Suzanne choisit sans faillir l'innocence devant Dieu : « Mieux vaut pour moi tomber entre vos mains sans avoir péché que de pécher aux yeux du Seigneur ».</p>\n<p>Condamnée à mort sur le faux témoignage des deux magistrats corrompus, Suzanne est sauvée <em>in extremis</em> par le jeune prophète Daniel, habité par l'Esprit divin. En interrogeant séparément les deux calomniateurs sur l'arbre sous lequel ils prétendaient avoir vu la faute, Daniel révèle leurs contradictions flagrantes : l'un désigne un lentisque, l'autre un chêne vert. Les vieillards subissent le châtiment qu'ils destinaient à l'innocente, consacrant le triomphe de la vérité et de la fidélité conjugale.</p>"
+},
+  "couronnement_d_epines_passion_christ": {
+  "id": "couronnement_d_epines_passion_christ",
+  "badge": "RÉCIT ÉVANGÉLIQUE • NOUVEAU TESTAMENT",
+  "title": "Le Couronnement d'épines et la Dérision du Christ lors de la Passion",
+  "sources": "Évangiles selon saint Matthieu (27, 27–31), saint Marc (15, 16–20) et saint Jean (19, 1–5)",
+  "keywords": [
+    "couronnement d'épines",
+    "couronnement d'epines",
+    "couronnement d’épines",
+    "couronne d'épines",
+    "dérision du christ",
+    "ecce homo",
+    "passion du christ"
+  ],
+  "text": "<p>Dans le récit évangélique de la Passion, après sa condamnation par Ponce Pilate, Jésus est livré aux soldats romains de la garnison dans le prétoire. Les prétoriens le dépouillent de ses vêtements, le revêtent d'un manteau de pourpre écarlate par dérision royale, tressent une couronne d'épines acérées qu'ils lui enfoncent sur la tête et placent un roseau dans sa main droite en guise de sceptre dérisoire.</p>\n<p>Plongeant le genou devant lui dans une parodie d'hommage impérial, ils le bafouent en criant : « Salut, roi des Juifs ! », lui crachent au visage et prennent le roseau pour frapper violemment les épines qui meurtrissent son front. C'est à la suite de ce supplice que Pilate présente le Christ ensanglanté à la foule réunie au cri fatidique d'<em>Ecce Homo</em> (« Voici l'homme »).</p>\n<p>Dans la peinture de la Renaissance et du Maniérisme, cet épisode devient l'archétype du pathétique et de la majesté outragée : les maîtres opposent la force brute et la cruauté aveugle des bourreaux à la dignité silencieuse et à la résistance spirituelle du Christ rédempteur.</p>"
+},
+  "mise_au_tombeau_transport_christ_passion": {
+  "id": "mise_au_tombeau_transport_christ_passion",
+  "badge": "RÉCIT ÉVANGÉLIQUE • NOUVEAU TESTAMENT",
+  "title": "La Déposition et le Transport du Christ vers le Sépulcre",
+  "sources": "Évangiles selon saint Matthieu (27, 57–61), saint Marc (15, 42–47), saint Luc (23, 50–56) et saint Jean (19, 38–42)",
+  "keywords": [
+    "transport du christ",
+    "mise au tombeau",
+    "déposition de croix",
+    "deposition de croix",
+    "sépulture du christ",
+    "joseph d'arimathie",
+    "nicodème"
+  ],
+  "text": "<p>Au soir du Vendredi saint, après la mort de Jésus sur le Golgotha, Joseph d'Arimathie, notable vertueux et disciple secret du Maître, ose demander au gouverneur Ponce Pilate l'autorisation d'enlever le corps divin. Avec l'aide de Nicodème — qui apporte une centaine de livres de myrrhe et d'aloès —, ils descendent la dépouille de la croix et l'enveloppent d'un suaire de lin immaculé selon les coutumes funéraires juives.</p>\n<p>Soutenu par l'apôtre Jean, par Marie-Madeleine éplorée et par la Vierge Marie effondrée de douleur maternelle, le cortège funèbre transporte avec gravité le corps inanimé du Christ vers un sépulcre neuf creusé à même le roc dans un jardin voisin. Une colossale pierre ronde est roulée à l'entrée du tombeau, plongeant le monde dans le silence et le deuil jusqu'à l'aube glorieuse de la Résurrection.</p>\n<p>Ce moment de suprême recueillement a inspiré les compositions les plus bouleversantes de la peinture occidentale : la lourdeur physique de la chair morte portée à bras-le-corps y condense toute l'humanité du sacrifice divin.</p>"
+},
+  "venus_endormie_nu_feminin_renaissance": {
+  "id": "venus_endormie_nu_feminin_renaissance",
+  "badge": "MYTHOLOGIE & HUMANISME RENAISSANT",
+  "title": "La Vénus Vénitienne : Éros, Épithalame et Célébration du Nu Féminin",
+  "sources": "Pline l'Ancien (Histoire naturelle), Épithalames néolatins de la Renaissance (Pietro Bembo, Baldassare Castiglione)",
+  "keywords": [
+    "vénus d'urbino",
+    "venus d'urbino",
+    "vénus couchée",
+    "nu vénitien",
+    "vénus endormie",
+    "vénus à sa toilette"
+  ],
+  "text": "<p>À Venise au XVIe siècle, l'héritage de Giorgione et le génie de Titien transfigurent le mythe antique de Vénus, déesse de l'amour et de la beauté, en une célébration moderne, charnelle et poétique de la grâce féminine. Délaissant les allégories froides ou les paysages célestes, le maître vénitien introduit la déesse au cœur même du palais patricien contemporain.</p>\n<p>Dans la tradition des tableaux d'épithalame — œuvres commandées à l'occasion d'un mariage noble pour éduquer et exalter les vertus de l'union conjugale —, la figure féminine dévêtue allongée sur des draps soyeux n'incarne pas seulement la sensualité et la tentation voluptueuse d'Éros : elle célèbre la fécondité, la complicité amoureuse et la fidélité éternelle, symbolisée par le petit chien endormi à ses pieds et les coffres de mariage (<em>cassoni</em>) fouillés par les servantes.</p>\n<p>Par la magie du <em>colorito</em> et des glacis transparents, la carnation laiteuse et dorée s'impose avec une vérité presque tactile. Cette invention vénitienne du nu souverain conscient de son regard fondera la modernité picturale, influençant directement Rubens, Vélasquez, Goya et jusqu'à l'<em>Olympia</em> d'Édouard Manet.</p>"
 }
 };
 
@@ -3561,3 +3638,12 @@ window.BACKGROUNDS_REGISTRY["reine_thomyris_tete_cyrus_sang"] = window.BACKGROUN
 window.BACKGROUNDS_REGISTRY["jardin_eden_chute_adam_eve"] = window.BACKGROUNDS_REGISTRY["genese_chute_adam_eve_jardin_eden"];
 
 window.BACKGROUNDS_REGISTRY["saint_jerome"] = window.BACKGROUNDS_REGISTRY["saint_jerome_ermite_docteur_vulgate"];
+
+window.BACKGROUNDS_REGISTRY["leda"] = window.BACKGROUNDS_REGISTRY["leda_et_le_cygne_metamorphose_zeus"];
+window.BACKGROUNDS_REGISTRY["leda_cygne"] = window.BACKGROUNDS_REGISTRY["leda_et_le_cygne_metamorphose_zeus"];
+window.BACKGROUNDS_REGISTRY["suzanne"] = window.BACKGROUNDS_REGISTRY["suzanne_et_les_vieillards_livre_daniel"];
+window.BACKGROUNDS_REGISTRY["suzanne_vieillards"] = window.BACKGROUNDS_REGISTRY["suzanne_et_les_vieillards_livre_daniel"];
+window.BACKGROUNDS_REGISTRY["couronnement_epines"] = window.BACKGROUNDS_REGISTRY["couronnement_d_epines_passion_christ"];
+window.BACKGROUNDS_REGISTRY["mise_au_tombeau"] = window.BACKGROUNDS_REGISTRY["mise_au_tombeau_transport_christ_passion"];
+window.BACKGROUNDS_REGISTRY["transport_christ"] = window.BACKGROUNDS_REGISTRY["mise_au_tombeau_transport_christ_passion"];
+window.BACKGROUNDS_REGISTRY["venus_urbino"] = window.BACKGROUNDS_REGISTRY["venus_endormie_nu_feminin_renaissance"];
