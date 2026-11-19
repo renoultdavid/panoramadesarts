@@ -5994,8 +5994,10 @@ function initArtistViewModeSwitcher(artistRecord) {
       birth: rawTimeline.birth || { year: (artistRecord.dates ? parseInt(artistRecord.dates) : ''), place: '', title: `Naissance de ${artistRecord.name}`, desc: '' },
       death: rawTimeline.death || { year: '', place: '', title: `Fin de vie de ${artistRecord.name}`, desc: '' },
       periods: (rawTimeline.periods || rawTimeline.chapters).map(ch => ({
-        title: ch.title,
-        years: ch.years,
+        title: ch.title || ch.name || '',
+        years: ch.years || ch.range || '',
+        name: ch.name || ch.title || '',
+        range: ch.range || ch.years || '',
         color: ch.color || '#d4af37',
         summary: ch.summary || ch.desc || '',
         events: ch.events || []
@@ -6157,7 +6159,7 @@ function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
 
       chapterEl.innerHTML = `
         <div class="artist-v-chapter-header">
-          <div class="artist-v-chapter-years">${escapeHtmlAttr(period.years || '')}</div>
+          <div class="artist-v-chapter-years">${escapeHtmlAttr(period.years || period.range || '')}</div>
           <h3 class="artist-v-chapter-title">${escapeHtmlAttr(period.title || period.name || 'Période')}</h3>
           ${period.summary ? `<div class="artist-v-chapter-summary">${escapeHtmlAttr(period.summary)}</div>` : ''}
         </div>

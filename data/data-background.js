@@ -3657,8 +3657,24 @@ window.BACKGROUNDS_REGISTRY = {
       "florence et sienne"
     ],
     "text": "<p>Le 1er juin 1432, dans la vallée de l'Arno près de Pise, se déroule la bataille de San Romano opposant les troupes florentines commandées par le condottiere Niccolò da Tolentino aux forces coalisées de Sienne et de Milan menées par Bernardino della Ciarda. Cet engagement militaire, bien que modeste par l'ampleur des effectifs, s'avère décisif pour consolider l'hégémonie commerciale et politique de la République de Florence en Toscane.</p>\n<p>Attaqué par surprise en infériorité numérique, Niccolò da Tolentino résiste héroïquement pendant plusieurs heures dans un corps à corps acharné avant que l'arrivée providentielle des renforts florentins menés par Micheletto da Cotignola ne renverse le cours des combats, provoquant la déroute et le désarçonnement spectaculaire de Bernardino della Ciarda.</p>\n<p>Commandé à l'origine par Lionardo Bartolini Salimbeni puis confisqué par Laurent le Magnifique pour orner sa chambre au palais Médicis de la via Larga, le triptyque de Paolo Uccello transcende le fait d'armes en un manifeste fondateur de la Première Renaissance : la fureur guerrière s'y mue en une symphonie géométrique où lances brisées, armures étincelantes et coursiers cabrés s'ordonnent selon la nouvelle science divine de la perspective linéaire.</p>"
+  },
+  "adoration_des_mages_epiphanie_rois_mages": {
+    "id": "adoration_des_mages_epiphanie_rois_mages",
+    "badge": "RÉCIT ÉVANGÉLIQUE • ÉPIPHANIE",
+    "title": "L'Adoration des Mages : L'Étoile de Bethléem et la Révélation aux Nations",
+    "sources": "Évangile selon saint Matthieu (2, 1–12), Traditions apocryphes (Légende dorée de Jacques de Voragine)",
+    "keywords": [
+      "adoration des mages",
+      "adoration des rois",
+      "rois mages",
+      "gaspard melchior balthazar",
+      "étoile de bethléem",
+      "epiphanie"
+    ],
+    "text": "<p>Selon le deuxième chapitre de l'<em>Évangile selon saint Matthieu</em>, des Mages venus d'Orient, guidés par une étoile miraculeuse, arrivent à Bethléem pour rendre hommage à l'Enfant Jésus, « roi des Juifs » nouveau-né. Se prosternant devant lui en présence de la Vierge Marie, ils lui offrent l'or réservé à la royauté, l'encens destiné à la divinité et la myrrhe annonçant sa mort rédemptrice et son embaumement.</p><p>Dans la tradition chrétienne et l'exégèse médiévale vulgarisée par <em>La Légende dorée</em>, les trois mages — traditionnellement nommés Gaspard, Melchior et Balthazar — incarnent les trois âges de la vie humaine (la jeunesse, l'âge mûr et la vieillesse) ainsi que les trois continents alors connus (l'Asie, l'Europe et l'Afrique), proclamant l'universalité de la Révélation divine et la soumission de toutes les nations temporelles devant le Christ.</p><p>Chez les maîtres des Primitifs flamands, au premier rang desquels Rogier van der Weyden dans le <em>Triptyque Sainte-Colombe</em>, l'Épiphanie devient une somptueuse synthèse de ferveur mystique et d'apparat royal, où le luxe des brocarts de velours et des orfèvreries dialogue avec l'humilité de la crèche en ruine et la promesse eucharistique du Salut.</p>"
   }
 };
+
 
 // Alias de compatibilité
 window.BACKGROUNDS_REGISTRY["orphee_eurydice"] = window.BACKGROUNDS_REGISTRY["orphee_lyre"];
@@ -3678,3 +3694,10 @@ window.BACKGROUNDS_REGISTRY["venus_urbino"] = window.BACKGROUNDS_REGISTRY["venus
 window.BACKGROUNDS_REGISTRY["hannibal"] = window.BACKGROUNDS_REGISTRY["hannibal_traversee_des_alpes_guerres_puniques"];
 window.BACKGROUNDS_REGISTRY["san_romano"] = window.BACKGROUNDS_REGISTRY["bataille_de_san_romano_1432_florence_sienne_medicis"];
 window.BACKGROUNDS_REGISTRY["bataille_san_romano"] = window.BACKGROUNDS_REGISTRY["bataille_de_san_romano_1432_florence_sienne_medicis"];
+
+window.BACKGROUNDS_REGISTRY["adoration_mages"] = window.BACKGROUNDS_REGISTRY["adoration_des_mages_epiphanie_rois_mages"];
+window.BACKGROUNDS_REGISTRY["adoration_des_rois"] = window.BACKGROUNDS_REGISTRY["adoration_des_mages_epiphanie_rois_mages"];
+window.BACKGROUNDS_REGISTRY["renaud_armide"] = window.BACKGROUNDS_REGISTRY["jerusalem_delivree_tasse_renaud_armide"];
+window.BACKGROUNDS_REGISTRY["venus_vulcain"] = window.BACKGROUNDS_REGISTRY["mythes_classiques_venus_vulcain_psyche_enide"];
+window.BACKGROUNDS_REGISTRY["saint_sebastien"] = window.BACKGROUNDS_REGISTRY["martyrs_premiers_siecles_sebastien_barthelemy"];
+window.BACKGROUNDS_REGISTRY["jugement_dernier"] = window.BACKGROUNDS_REGISTRY["jugement_dernier_parousie_apocalypse"];

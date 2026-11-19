@@ -11730,8 +11730,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "name": "Formation & Bohème montmartroise (1882 – 1889)",
-          "range": "1882 – 1889",
+          "title": "Formation & Bohème montmartroise (1882 – 1889)",
+          "years": "1882 – 1889",
           "events": [
             {
               "year": "1882 – 1884",
@@ -11752,8 +11752,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "L'Âge d'or du Moulin-Rouge & Révolution de l'Affiche (1889 – 1895)",
-          "range": "1889 – 1895",
+          "title": "L'Âge d'or du Moulin-Rouge & Révolution de l'Affiche (1889 – 1895)",
+          "years": "1889 – 1895",
           "events": [
             {
               "year": "1889",
@@ -11782,8 +11782,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "Les Maisons Closes, le Déclin et l'Héritage (1895 – 1901)",
-          "range": "1895 – 1901",
+          "title": "Les Maisons Closes, le Déclin et l'Héritage (1895 – 1901)",
+          "years": "1895 – 1901",
           "events": [
             {
               "year": "1896",
@@ -11838,8 +11838,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "name": "Néoclassicisme & Apprentissage du Sublime (1790 – 1819)",
-          "range": "1790 – 1819",
+          "title": "Néoclassicisme & Apprentissage du Sublime (1790 – 1819)",
+          "years": "1790 – 1819",
           "events": [
             {
               "year": "1799 – 1802",
@@ -11861,8 +11861,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "Le Choc de l'Italie & L'Ivresse Chromatique (1819 – 1839)",
-          "range": "1819 – 1839",
+          "title": "Le Choc de l'Italie & L'Ivresse Chromatique (1819 – 1839)",
+          "years": "1819 – 1839",
           "events": [
             {
               "year": "1819",
@@ -11883,8 +11883,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "L'Apothéose Visionnaire de la Lumière (1840 – 1851)",
-          "range": "1840 – 1851",
+          "title": "L'Apothéose Visionnaire de la Lumière (1840 – 1851)",
+          "years": "1840 – 1851",
           "events": [
             {
               "year": "1840",
@@ -11959,8 +11959,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "name": "Black Mountain College & Révélation de Rome (1950 – 1965)",
-          "range": "1950 – 1965",
+          "title": "Black Mountain College & Révélation de Rome (1950 – 1965)",
+          "years": "1950 – 1965",
           "events": [
             {
               "year": "1951 – 1952",
@@ -11981,8 +11981,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "Les Tableaux Noirs (Blackboards) & Mythologies (1966 – 1985)",
-          "range": "1966 – 1985",
+          "title": "Les Tableaux Noirs (Blackboards) & Mythologies (1966 – 1985)",
+          "years": "1966 – 1985",
           "events": [
             {
               "year": "1966 – 1971",
@@ -12003,8 +12003,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "Apothéose Chromatique, Lépante & Bacchus (1986 – 2011)",
-          "range": "1986 – 2011",
+          "title": "Apothéose Chromatique, Lépante & Bacchus (1986 – 2011)",
+          "years": "1986 – 2011",
           "events": [
             {
               "year": "2001",
@@ -12067,8 +12067,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "name": "Apprentissage chez Ghiberti & Mosaïques vénitiennes (1407 – 1430)",
-          "range": "1407 – 1430",
+          "title": "Apprentissage chez Ghiberti & Mosaïques vénitiennes (1407 – 1430)",
+          "years": "1407 – 1430",
           "events": [
             {
               "year": "1407 – 1414",
@@ -12089,8 +12089,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "Maturité florentine & Vertige de la Perspective (1431 – 1460)",
-          "range": "1431 – 1460",
+          "title": "Maturité florentine & Vertige de la Perspective (1431 – 1460)",
+          "years": "1431 – 1460",
           "events": [
             {
               "year": "1436",
@@ -12112,8 +12112,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "Dernières Années, Urbin & Poésie Nocturne (1461 – 1475)",
-          "range": "1461 – 1475",
+          "title": "Dernières Années, Urbin & Poésie Nocturne (1461 – 1475)",
+          "years": "1461 – 1475",
           "events": [
             {
               "year": "1465 – 1468",
@@ -12168,8 +12168,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "name": "Les Débuts & Montmagny (1903 – 1909)",
-          "range": "1903 – 1909",
+          "title": "Les Débuts & Montmagny (1903 – 1909)",
+          "years": "1903 – 1909",
           "events": [
             {
               "year": "1903 – 1905",
@@ -12190,8 +12190,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "L'Apogée de la « Période Blanche » (1910 – 1914)",
-          "range": "1910 – 1914",
+          "title": "L'Apogée de la « Période Blanche » (1910 – 1914)",
+          "years": "1910 – 1914",
           "events": [
             {
               "year": "1910 – 1912",
@@ -12212,8 +12212,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "name": "La Période Colorée, Retraite et Légende (1915 – 1955)",
-          "range": "1915 – 1955",
+          "title": "La Période Colorée, Retraite et Légende (1915 – 1955)",
+          "years": "1915 – 1955",
           "events": [
             {
               "year": "1928",
@@ -12244,12 +12244,542 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "valadon": {
+    "id": "valadon",
+    "name": "Valadon Suzanne (Marie-Clémentine Valadon)",
+    "sortName": "Valadon Suzanne",
+    "sortLetter": "V",
+    "dates": "1865 – 1938",
+    "movement": "Post-impressionnisme, École de Paris & Modernité figurative",
+    "nationality": "Française (Paris / Montmartre)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNjBp6IogGImE_obOXC69d47o8AarOOT9NC8uyqpZTsWi5LD_zlwN04dCyOWiHtlOVYVL4j7P2LOlKi-JA3qQbi6z9RxUDBc9wpqwTUCimfdqsD2qKqBQg2XF2tH5Kbk5YSJpzNZhBkrY2dkcKsncJ9hw=w1836-h787-s-no-gm?authuser=0",
+    "bio": "<p><strong>Suzanne Valadon</strong> (Marie-Clémentine Valadon, 1865 – 1938), née à Bessines-sur-Gartempe et morte à Paris, est l'une des figures les plus incandescentes, indépendantes et révolutionnaires de la modernité artistique française. Avant de peindre, elle fut dès l'âge de quinze ans l'un des modèles les plus prisés du Paris bohème de Montmartre, posant notamment pour Auguste Renoir, Pierre Puvis de Chavannes et Henri de Toulouse-Lautrec. C'est en observant silencieusement ces maîtres qu'elle apprend seule la peinture. Impressionné par la vigueur de ses premiers dessins, Edgar Degas devient son mentor et proclame : « Vous êtes des nôtres ! », faisant d'elle la première femme admise à la Société nationale des beaux-arts en 1894.</p><p>Son genre pictural se concentre sur le nu féminin, le portrait psychologique, le paysage et la nature morte, qu'elle aborde avec une vérité crue et une liberté sans concession qui rompent définitivement avec l'idéalisation patriarcale du corps de la femme. Son style se caractérise par un cerne noir vigoureux qui enserre les volumes, une matière charnue et une palette aux tons vifs, parfois arbitraires, nourrie par l'émulation du fauvisme. À l'opposé de la dissolution impressionniste, Valadon réaffirme la pesanteur, la densité musculaire et la présence corporelle tangible.</p><p>L'évolution de son œuvre marque une conquête picturale magistrale : de ses dessins d'une acuité chirurgicale admirés par Degas, elle passe à une peinture à l'huile souveraine et audacieuse, multipliant les chefs-d'œuvre de maturité (<em>Route dans la forêt de Compiègne</em>, 1914 ; <em>Les Baigneuses</em>, 1923 ; <em>La Chambre bleue</em>, 1923). Mère dévouée de Maurice Utrillo qu'elle initie à l'art pour le sauver, elle laisse un corpus de premier plan qui a renversé le regard masculin sur le corps féminin pour en révéler la dignité souveraine.</p>",
+    "corpus": {
+      "total": 520,
+      "paintingsCount": 520,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 2,
+      "source": "Catalogue raisonné Paul Pétridès (1971) / Thérèse Diamand Rosinsky",
+      "totalOeuvresEstimees": "~520 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur le catalogue raisonné établi par Paul Pétridès (L'Œuvre complet de Suzanne Valadon, Paris, 1971), complété par les monographies et rétrospectives muséales majeures. Le corpus officiel répertorie environ 520 peintures à l'huile sur toile et sur panneau."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Du Modèle de Montmartre au Regard de Degas (1880 – 1908)",
+          "years": "1880 – 1908",
+          "color": "#d4af37",
+          "summary": "Modèle pour Renoir, Puvis et Lautrec, elle apprend la peinture en autodidacte et séduit Degas par la force de son trait.",
+          "events": [
+            {
+              "year": "1883",
+              "title": "Naissance de Maurice Utrillo & Rencontre avec Degas",
+              "desc": "Donne naissance à son fils Maurice. Edgar Degas découvre ses dessins et devient son mentor et collectionneur le plus ardent.",
+              "type": "context",
+              "badge": "TOURNANT",
+              "icon": "🎨"
+            },
+            {
+              "year": "1894",
+              "title": "Société Nationale des Beaux-Arts",
+              "desc": "Devient la première femme peintre admise à la prestigieuse Société nationale des beaux-arts.",
+              "type": "context",
+              "badge": "RECONNAISSANCE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "La Puissance du Cerne & L'Affirmation du Paysage (1909 – 1920)",
+          "years": "1909 – 1920",
+          "color": "#d4af37",
+          "summary": "Affirmation de sa maturité à l'huile, mariage avec André Utter et paysages denses aux cernes vigoureux.",
+          "events": [
+            {
+              "year": "1914",
+              "title": "Route dans la forêt de Compiègne (Montpellier, Musée Fabre)",
+              "desc": "Densité végétale puissante et refus de la joliesse : le chemin de terre sinueux tranche avec la masse organique luxuriante de la forêt.",
+              "type": "artwork",
+              "badge": "PAYSAGE",
+              "icon": "🌲",
+              "artworkId": "valadon_route_dans_la_foret_de_compiegne_montpellier_1914"
+            }
+          ]
+        },
+        {
+          "title": "Les Nus Magistraux & La Vérité Charnelle (1921 – 1938)",
+          "years": "1921 – 1938",
+          "color": "#d4af37",
+          "summary": "Apogée des grands nus féminins sans complaisance, reconnaissance critique internationale et consécration.",
+          "events": [
+            {
+              "year": "1923",
+              "title": "Les Baigneuses (Nantes, Musée d'Arts)",
+              "desc": "Monumentalité sculpturale et refus absolu de l'idéalisation : deux femmes nues dans un intérieur aux étoffes orientales, unies dans une intimité digne et franche.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "✨",
+              "artworkId": "valadon_les_baigneuses_nantes_1923"
+            },
+            {
+              "year": "1938",
+              "title": "Mort à Paris & Hommage de l'Avant-garde",
+              "desc": "S'éteint le 7 avril 1938 à Paris. André Derain, Pablo Picasso et Georges Braque assistent à ses obsèques en hommage à sa bravoure artistique.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "van_der_goes": {
+    "id": "van_der_goes",
+    "name": "Van der Goes Hugo",
+    "sortName": "Van der Goes Hugo",
+    "sortLetter": "V",
+    "dates": "v. 1440 – 1482",
+    "movement": "Primitifs flamands (École gantoise du XVe siècle)",
+    "nationality": "Flamande (Gand / Rouge-Cloître)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOb6uW0tzNs92Jp5ghWz3e8BSqHEuNkh5YELuQ61FlKcIZgehxCAeE176FTxJfmLpKDPhAZAQN1t2d-q4eBdwiI465OmrEgsxbJxpHUUwwu_88N7ICcwki02t-r3siwcVrEqDtqFV55terl9tdUTGC9-w=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Hugo van der Goes</strong> (v. 1440 – 1482), actif à Gand puis retiré au prieuré du Rouge-Cloître près de Bruxelles, est l'un des génies les plus novateurs, profonds et poignants de la peinture flamande du XVe siècle. Doyen de la corporation des peintres de Gand en 1474, il rompt avec les hiérarchies conventionnelles de Jan van Eyck et Rogier van der Weyden pour introduire une intensité dramatique brûlante, une disposition spatiale audacieuse et une pénétration psychologique sans précédent.</p><p>Son genre pictural se définit par le grand retable d'autel polyptyque, le panneau de dévotion sacrée et le portrait d'un réalisme perçant. Son style se caractérise par des figures monumentales d'un réalisme populaire sans fard — tels les visages burinés et les mains calleuses des bergers —, une palette sourde rehaussée de contrastes acides et des tensions diagonales où le silence participe à l'angoisse mystique.</p><p>L'apogée de son art est marqué par le monumental <em>Triptyque Portinari</em> (v. 1475 – 1478), commandé par le représentant des Médicis à Bruges pour l'église de Santa Maria Nuova à Florence. Son arrivée en Toscane en 1483 bouleverse les maîtres de la Renaissance italienne (Ghirlandaio, Léonard de Vinci). Retiré au Rouge-Cloître comme frère convers, en proie à de violentes crises de mélancolie mystique, il peint avant sa mort <em>La Mort de la Vierge</em> de Bruges, sommet d'émotion tragique universelle.</p>",
+    "corpus": {
+      "total": 18,
+      "paintingsCount": 18,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Max J. Friedländer (Early Netherlandish Painting) / Corpus of Fifteenth-Century Painting",
+      "totalOeuvresEstimees": "~18 peintures sur panneau conservées",
+      "oeuvresConsensusNotice": "En retenant strictement les peintures sur panneau d'attribution autographe ou largement reconnue et en écartant les copies d'atelier, le consensus scientifique situe le corpus conservé d'Hugo van der Goes autour de 18 œuvres. Aucune œuvre n'a encore été ajoutée dans la collection pour l'artiste."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Maîtrise gantoise & Commandes bourguignonnes (1467 – 1474)",
+          "years": "1467 – 1474",
+          "color": "#d4af37",
+          "summary": "Élu maître puis doyen à Gand, il œuvre pour la cour de Bourgogne lors des noces de Charles le Téméraire à Bruges.",
+          "events": [
+            {
+              "year": "1467 – 1468",
+              "title": "Maître à Gand & Noces de Charles le Téméraire",
+              "desc": "Reçu franc-maître à la corporation gantoise, il participe aux décors grandioses des noces princières de Bourgogne.",
+              "type": "context",
+              "badge": "BOURGOGNE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "v. 1470",
+              "title": "Le Diptyque de Vienne (Péché originel & Déploration)",
+              "desc": "Composition virtuose où l'étrangeté plastique du serpent séduit par son anthropomorphisme reptilien.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨"
+            }
+          ]
+        },
+        {
+          "title": "Le Triptyque Portinari & Le Choc de Florence (1475 – 1478)",
+          "years": "1475 – 1478",
+          "color": "#d4af37",
+          "summary": "Création du chef-d'œuvre absolu pour Tommaso Portinari, agent des Médicis, qui révolutionnera l'art florentin.",
+          "events": [
+            {
+              "year": "v. 1475 – 1478",
+              "title": "Le Triptyque Portinari (Florence, Offices)",
+              "desc": "Retable monumental d'une puissance inouïe : les bergers aux mains calleuses et la nature morte aux fleurs eucharistiques éblouissent Florence.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌟"
+            }
+          ]
+        },
+        {
+          "title": "Retraite au Rouge-Cloître & Tourments Ultimes (1477 – 1482)",
+          "years": "1477 – 1482",
+          "color": "#d4af37",
+          "summary": "Entrée comme frère convers au prieuré augustinien, crises mystiques et création de La Mort de la Vierge.",
+          "events": [
+            {
+              "year": "v. 1480",
+              "title": "La Mort de la Vierge (Bruges, Groeningemuseum)",
+              "desc": "Bouleversante méditation funèbre où les apôtres expriment chacun une douleur humaine déchirante dans une clarté crépusculaire.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🕯️"
+            },
+            {
+              "year": "1482",
+              "title": "Mort au Rouge-Cloître",
+              "desc": "S'éteint au prieuré près de Bruxelles, laissant la légende d'un créateur déchiré entre piété ardente et angoisse de la damnation.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "van_der_helst": {
+    "id": "van_der_helst",
+    "name": "Van der Helst Bartholomeus",
+    "sortName": "Van der Helst Bartholomeus",
+    "sortLetter": "V",
+    "dates": "1613 – 1670",
+    "movement": "Siècle d'or néerlandais (Portrait d'apparat & Gardes civiques amstellodamoises)",
+    "nationality": "Néerlandaise (Amsterdam / Haarlem)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOUg8NRH3_cbymaU0TbOF31iviGSa7FMMOp8uO-9jGXCs_6gx3dTFy42LYrXVLgR3z07yTI5j0zOJtwRxwV9_Vxm3Tj5nGmbrFSkVSCBsZk4pdqW0_z5OQ7KdDHtmUwxgkuVRJAQxZwOOEpqeT_rTTvyQ=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Bartholomeus van der Helst</strong> (1613 – 1670), né à Haarlem et actif à Amsterdam, est l'un des plus illustres et recherchés portraitistes du Siècle d'or néerlandais. Dans les décennies 1640 à 1660, il s'impose auprès du patriciat républicain et de l'élite marchande amstellodamoise comme le rival victorieux de Rembrandt. Alors que ce dernier s'enfonçait dans un clair-obscur rugueux, austère et méditatif, Van der Helst comblait l'orgueil civique des régents par une luminosité claire, une facture lisse et soyeuse et une élégance flatteuse célébrant l'opulence matérielle des Provinces-Unies.</p><p>Son genre d'expression de prédilection est le portrait de groupe civique (<em>schutterstuk</em> ou banquet de milice), le portrait de régent et le portrait individuel d'apparat. Son style se caractérise par une lumière uniforme baignant sans ténèbres l'ensemble de la scène, un rendu illusionniste prodigieux des matières textiles (moires de soie, velours lustrés, dentelles aux fuseaux, collerettes empesées et passementeries métalliques) et des carnations fraîches et distinguées.</p><p>Son chef-d'œuvre absolu, <em>Le Banquet de la garde civique d'Amsterdam célébrant la paix de Münster</em> (1648, Rijksmuseum), toile gigantesque de plus de cinq mètres de large, remporte un triomphe sans précédent en éclipsant <em>La Ronde de nuit</em> dans le cœur de ses contemporains. Cofondateur de la nouvelle guilde de Saint-Luc d'Amsterdam en 1653, il maintient jusqu'à sa mort en 1670 un prestige souverain auprès des grandes familles d'Europe du Nord.</p>",
+    "corpus": {
+      "total": 230,
+      "paintingsCount": 230,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Catalogue J. J. de Gelder (1921) / RKD – Netherlands Institute for Art History",
+      "totalOeuvresEstimees": "~230 peintures répertoriées",
+      "oeuvresConsensusNotice": "En retenant ses peintures à l'huile sur toile et sur panneau authentifiées (portraits individuels, de régents et tableaux de milice civique), le consensus muséal fixe son corpus officiel de peintures autour de 230 œuvres. Aucune œuvre n'a encore été ajoutée dans la collection pour l'artiste."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Formation à Amsterdam & Premiers Portraits de Milice (1636 – 1645)",
+          "years": "1636 – 1645",
+          "color": "#d4af37",
+          "summary": "Formé auprès de Nicolaes Pickenoy, il séduit les compagnies militaires amstellodamoises par sa clarté lumineuse.",
+          "events": [
+            {
+              "year": "1636",
+              "title": "Mariage à Amsterdam & Premiers portraits de commande",
+              "desc": "Épouse Anna du Pire à Amsterdam et établit rapidement sa réputation auprès des familles de régents.",
+              "type": "context",
+              "badge": "DÉBUTS",
+              "icon": "💍"
+            },
+            {
+              "year": "1643",
+              "title": "La Compagnie du capitaine Roelof Bicker (Amsterdam, Rijksmuseum)",
+              "desc": "Premier chef-d'œuvre monumental de milice : coloris lumineux et poses décontractées affirmant sa suprématie naissante.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚔️"
+            }
+          ]
+        },
+        {
+          "title": "Le Triomphe de Münster & La Conquête d'Amsterdam (1646 – 1655)",
+          "years": "1646 – 1655",
+          "color": "#d4af37",
+          "summary": "Consécration internationale avec Le Banquet de la garde civique célébrant l'indépendance des Provinces-Unies.",
+          "events": [
+            {
+              "year": "1648",
+              "title": "Le Banquet de la garde civique pour la Paix de Münster (Rijksmuseum)",
+              "desc": "Toile monumentale triomphale de plus de 5 mètres de large, considérée par ses contemporains comme le sommet du portrait civique hollandais.",
+              "type": "masterpiece",
+              "badge": "APOTHÉOSE",
+              "icon": "🏆"
+            },
+            {
+              "year": "1653",
+              "title": "Fondation de la nouvelle Guilde de Saint-Luc",
+              "desc": "Cofonde avec des confrères la confrérie émancipée des artistes amstellodamois.",
+              "type": "context",
+              "badge": "GUILDE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Élégance Aristocratique & Portraits Princiers (1656 – 1670)",
+          "years": "1656 – 1670",
+          "color": "#d4af37",
+          "summary": "Raffinement suprême teinté de l'influence de Van Dyck pour les cours princières et l'élite marchande.",
+          "events": [
+            {
+              "year": "1652 – 1655",
+              "title": "Portrait de Mary Stuart, princesse d'Orange (Rijksmuseum)",
+              "desc": "Somptueux portrait de cour en habit de deuil argenté marquant l'accès du peintre aux commandes royales.",
+              "type": "masterpiece",
+              "badge": "COUR",
+              "icon": "👑"
+            },
+            {
+              "year": "1670",
+              "title": "Mort à Amsterdam",
+              "desc": "S'éteint le 16 décembre 1670 à Amsterdam, honoré comme le portraitiste le plus brillant de sa génération.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "van_der_weyden": {
+    "id": "van_der_weyden",
+    "name": "Van der Weyden Rogier",
+    "sortName": "Van der Weyden Rogier",
+    "sortLetter": "V",
+    "dates": "v. 1399 – 1464",
+    "movement": "Primitifs flamands (Maître du Pathos & de l'Élégance dramatique)",
+    "nationality": "Flamande (Tournai / Bruxelles)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM2wg66FdxBa8QXTmFrE5ZUMAHuXTQrU-gE6mKIW9aJPVE98cysbfKTu5gKicpTXGCd_S44uqSiXBibzhTkxsTAcdNhuShayQtMijmVLTFhLKoG9GoXuS6MFb0s0nehBn0kpcpC66YJE6-YBeN00yq9Ng=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Rogier van der Weyden</strong> (Rogier de la Pasture, v. 1399 – 1464), né à Tournai et mort à Bruxelles, est avec Jan van Eyck la figure la plus influente et souveraine des Primitifs flamands du XVe siècle. Formé dans l'atelier de Robert Campin (le Maître de Flémalle), il est nommé peintre officiel de la prestigieuse ville de Bruxelles en 1436. Son rayonnement artistique, diffusé par des compositions admirées dans toute l'Europe, a forgé le style de la peinture religieuse et du portrait jusqu'au cœur de la Renaissance italienne et germanique.</p><p>Son genre pictural se caractérise par une maîtrise consommée de la peinture à l'huile et un sens aigu du pathos sacré. À l'opposé de la contemplation impassible et microscopique de Jan van Eyck, Van der Weyden place l'émotion dramatique, la douleur spirituelle et l'élégance linéaire au centre de sa poétique. Il compose des espaces resserrés où les corps sculptés par la lumière expriment une tension psychologique poignante, rendant de manière quasi tactile le ruissellement des larmes, la richesse des velours brodés d'or et la pâleur des carnations.</p><p>Son œuvre s'impose par des monuments universels : <em>La Descente de Croix</em> du Prado, le vertigineux <em>Polyptyque du Jugement dernier</em> de l'Hôtel-Dieu de Beaune (1443) commandé par Nicolas Rolin, et le <em>Triptyque Sainte-Colombe</em> (1455, Alte Pinakothek de Munich). Lors de son voyage à Rome et Ferrare en 1450 à l'occasion du Jubilé, il fascine les cours italiennes, laissant un modèle d'expressivité et de noblesse aristocratique qui dominera le Nord de l'Europe jusqu'à Albrecht Dürer.</p>",
+    "corpus": {
+      "total": 32,
+      "paintingsCount": 32,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 2,
+      "source": "Max J. Friedländer / Erwin Panofsky / Lorne Campbell / Jan Van der Stock",
+      "totalOeuvresEstimees": "~32 peintures et polyptyques conservés",
+      "oeuvresConsensusNotice": "En retenant strictement les peintures sur panneau conservées dont l'attribution à Rogier van der Weyden est reconnue par la communauté scientifique, le corpus officiel des œuvres conservées compte environ 32 peintures et ensembles polyptyques."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Atelier de Robert Campin & Maîtrise à Tournai (1427 – 1435)",
+          "years": "1427 – 1435",
+          "color": "#d4af37",
+          "summary": "Apprentissage auprès du Maître de Flémalle et création du chef-d'œuvre de jeunesse : La Descente de Croix.",
+          "events": [
+            {
+              "year": "1427 – 1432",
+              "title": "Formation auprès de Robert Campin",
+              "desc": "Assimile le réalisme plastique et la vigueur sculpturale dans le célèbre atelier de Tournai.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🎨"
+            },
+            {
+              "year": "v. 1435",
+              "title": "La Descente de Croix (Madrid, Musée du Prado)",
+              "desc": "Manifeste suprême du pathétique : les larmes transparentes et l'évanouissement de la Vierge dans un bas-relief doré.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "Peintre Officiel de Bruxelles & Le Polyptyque de Beaune (1436 – 1449)",
+          "years": "1436 – 1449",
+          "color": "#d4af37",
+          "summary": "Nommé peintre officiel de Bruxelles, il reçoit la prestigieuse commande du chancelier Nicolas Rolin pour l'Hôtel-Dieu de Beaune.",
+          "events": [
+            {
+              "year": "1436",
+              "title": "Nomination comme Peintre de la Ville de Bruxelles",
+              "desc": "Établit son atelier sur la Grand-Place et déploie les monumentales peintures de Justice pour l'Hôtel de Ville.",
+              "type": "context",
+              "badge": "OFFICIEL",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1443 – 1451",
+              "title": "Polyptyque du Jugement dernier ouvert (Hôtel-Dieu de Beaune)",
+              "desc": "Chef-d'œuvre absolu à 9 volets : le Christ assis sur l'arc-en-ciel et l'archange saint Michel pesant les âmes au-dessus des ressuscités.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚖️",
+              "artworkId": "van_der_weyden_polyptyque_du_jugement_dernier_ouvert_beaune_1443"
+            }
+          ]
+        },
+        {
+          "title": "Voyage en Italie, Sainte-Colombe & Apothéose Européenne (1450 – 1464)",
+          "years": "1450 – 1464",
+          "color": "#d4af37",
+          "summary": "Voyage du Jubilé en Italie en 1450, commande colonaise du retable Sainte-Colombe et portraits de cour d'une suprême distinction.",
+          "events": [
+            {
+              "year": "1450",
+              "title": "Voyage à Rome et Ferrare (Jubilé)",
+              "desc": "Reçu triomphalement à la cour des Este et à Florence où ses glacis à l'huile fascinent les maîtres italiens.",
+              "type": "context",
+              "badge": "ITALIE",
+              "icon": "👑"
+            },
+            {
+              "year": "v. 1455",
+              "title": "Adoration des Rois / Retable Sainte-Colombe (Munich, Alte Pinakothek)",
+              "desc": "Élégance aristocratique et somptuosité chromatique : Marie présente l'Enfant aux trois Mages devant les ruines de la crèche.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑",
+              "artworkId": "van_der_weyden_adoration_des_rois_sainte_colombe_munich_1455"
+            },
+            {
+              "year": "1464",
+              "title": "Mort à Bruxelles & Inhumation à Sainte-Gudule",
+              "desc": "S'éteint le 18 juin 1464 à Bruxelles, honoré par la ville entière et pleuré par les humanistes d'Italie et de Flandre.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "van_dyck": {
+    "id": "van_dyck",
+    "name": "Van Dyck Antoon (Anthony van Dyck)",
+    "sortName": "Van Dyck Antoon",
+    "sortLetter": "V",
+    "dates": "1599 – 1641",
+    "movement": "Baroque flamand (Maître du Portrait d'apparat & Peintre royal des Stuart)",
+    "nationality": "Flamande (Anvers / Gênes / Londres)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMek7BQ4oPfJWHglq80_QnG4JPZKkoIAJg8ZXNVnmrvglyTCLdU7c04z2yMjM0Z0QCYVH8NjWsyOyNgXFZlTBReqOWKLPmE_ewFUutLwRWsyD9cGCA9T4Hf7CMDjVE_diVkZDTNahATf892AhrETf6Qyw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Antoon van Dyck</strong> (1599 – 1641), né à Anvers et mort à Londres, est le plus brillant élève et collaborateur de Pierre Paul Rubens et l'un des maîtres souverains du portrait occidental. Enfant prodige reçu maître franc à la guilde de Saint-Luc d'Anvers à seulement dix-huit ans, il effectue un voyage formateur décisif en Italie (1621 – 1627) où il s'imprègne avec passion du <em>colorito</em> et de la sensualité de Titien. Sa virtuosité à capter l'élégance, la mélancolie et la distinction aristocratique en fait le premier peintre de cour du roi Charles Ier d'Angleterre dès 1632, révolutionnant l'art britannique pour plusieurs siècles.</p><p>Son genre pictural atteint son apogée dans le portrait d'apparat en pied, le portrait équestre, le double portrait d'intimité patricienne et les fables sacrées ou mythologiques empreintes d'un lyrisme raffiné. Son style se caractérise par la fameuse « <em>sprezzatura</em> » — cette aisance nonchalante et fière propre à la haute noblesse —, des doigts effilés et aristocratiques d'une blancheur de porcelaine, et une maîtrise inégalée du miroitement des satins, des moires de velours, des dentelles de point de Venise et de l'acier poli des armures.</p><p>L'évolution de son art s'articule entre la fougue de sa première période anversoise (<em>Portrait d'un père et son fils</em>, v. 1620), la splendeur palatiale génoise (<em>Portrait d'une noble génoise</em>, <em>Le Gentilhomme à l'épée</em>), la ferveur lyrique de sa maturité flamande (<em>Renaud et Armide</em>, <em>La Vierge aux donateurs</em>) et le raffinement éthéré de sa consécration londonienne (<em>Portrait équestre de Francisco de Moncada</em>, <em>Anne Carr</em>, <em>James Stuart</em>). Anobli par Charles Ier, il laisse un héritage stylistique capital qui inspirera directement Gainsborough, Reynolds et Lawrence.</p>",
+    "corpus": {
+      "total": 920,
+      "paintingsCount": 920,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 14,
+      "source": "Catalogue raisonné Susan J. Barnes, Nora De Poorter, Oliver Millar, Horst Vey (Yale University Press, 2004)",
+      "totalOeuvresEstimees": "~920 peintures répertoriées",
+      "oeuvresConsensusNotice": "Le catalogue raisonné de référence mondiale établi sous la direction d'Oliver Millar et Susan J. Barnes (Yale University Press, 2004) recense environ 920 peintures à l'huile sur toile et sur panneau autographes (portraits aristocratiques, scènes mythologiques et religieuses)."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Enfant Prodige d'Anvers & Collaboration avec Rubens (1615 – 1621)",
+          "years": "1615 – 1621",
+          "color": "#d4af37",
+          "summary": "Élève prodige devenu maître à 18 ans, collaborateur privilégié de Rubens à Anvers.",
+          "events": [
+            {
+              "year": "1618",
+              "title": "Franc-Maître de la Guilde de Saint-Luc",
+              "desc": "Admis comme maître à dix-huit ans, il devient le principal collaborateur de Rubens pour les grands cycles décoratifs.",
+              "type": "context",
+              "badge": "PRÉCOCITÉ",
+              "icon": "🎨"
+            },
+            {
+              "year": "v. 1620",
+              "title": "Portrait d'un homme et de son fils (Paris, Musée du Louvre)",
+              "desc": "Composition pyramidale magistrale inaugurant le portrait double : autorité paternelle et transmission lignagère.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👨‍👦",
+              "artworkId": "van_dyck_portrait_d_un_pere_et_son_fils_louvre_1620"
+            }
+          ]
+        },
+        {
+          "title": "Le Périple Italien & Le Triomphe Patricien de Gênes (1621 – 1627)",
+          "years": "1621 – 1627",
+          "color": "#d4af37",
+          "summary": "Séjour en Italie (Rome, Venise, Palerme, Gênes) : révélation de Titien et création du portrait aristocratique génois.",
+          "events": [
+            {
+              "year": "v. 1621 – 1627",
+              "title": "Portrait d'une noble génoise (Paris, Musée du Louvre)",
+              "desc": "Majesté palatiale en pied : robe pourpre, brocart d'or et imposante fraise de dentelle tuyautée symbolisant la haute noblesse génoise.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👗",
+              "artworkId": "van_dyck_portrait_d_une_noble_genoise_louvre_1621"
+            },
+            {
+              "year": "v. 1625",
+              "title": "Le Gentilhomme à l'épée (Paris, Musée du Louvre)",
+              "desc": "Clair-obscur dramatique et distinction psychologique : pourpoint noir sobre et garde d'épée affirmant le privilège aristocratique.",
+              "type": "artwork",
+              "badge": "PORTRAIT",
+              "icon": "⚔️",
+              "artworkId": "van_dyck_le_gentilhomme_a_l_epee_louvre_1625"
+            },
+            {
+              "year": "v. 1625",
+              "title": "Portrait de l'archiduchesse Isabelle-Claire-Eugénie d'Autriche",
+              "desc": "Sobriété monumentale de la régente des Pays-Bas en habit des Clarisses : icône de piété et de dignité politique souveraine.",
+              "type": "milestone",
+              "badge": "RÉGENTE",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "Maturité Anversoise, Peintre de Charles Ier & Consécration Anglaise (1628 – 1641)",
+          "years": "1628 – 1641",
+          "color": "#d4af37",
+          "summary": "Retour triomphal à Anvers, peintures sacrées et mythologiques, puis nomination comme Premier peintre du roi d'Angleterre.",
+          "events": [
+            {
+              "year": "v. 1629 – 1632",
+              "title": "Renaud et Armide (Paris, Musée du Louvre)",
+              "desc": "Lyrisme éclatant du Tasse : l'enchanteresse Armide désarmée par la beauté du chevalier chrétien endormi dans un écrin de fleurs.",
+              "type": "masterpiece",
+              "badge": "MYTHOLOGIE",
+              "icon": "💖",
+              "artworkId": "van_dyck_renaud_et_armide_louvre_1629"
+            },
+            {
+              "year": "v. 1630",
+              "title": "La Vierge aux donateurs (Paris, Musée du Louvre)",
+              "desc": "Harmonie sublime de la Sainte Conversation : bleu marial profond, Enfant Jésus nacré et dévotion noble des donateurs.",
+              "type": "masterpiece",
+              "badge": "ART SACRÉ",
+              "icon": "🕊️",
+              "artworkId": "van_dyck_la_vierge_aux_donateurs_louvre_1630"
+            },
+            {
+              "year": "v. 1630 – 1632",
+              "title": "Vénus demande à Vulcain des armes pour son fils Énée",
+              "desc": "Contraste sculptural saisissant entre la grâce nacrée de la déesse et la puissance herculéenne du dieu forgeron.",
+              "type": "artwork",
+              "badge": "VIRGILE",
+              "icon": "🔨",
+              "artworkId": "van_dyck_venus_demande_a_vulcain_des_armes_louvre_1630"
+            },
+            {
+              "year": "v. 1633 – 1635",
+              "title": "Portrait de James Stuart, duc de Lennox (Paris, Musée du Louvre)",
+              "desc": "Apogée de la sprezzatura anglaise : chemise de lin bouffante, boucle blonde et orange tenue du bout des doigts.",
+              "type": "artwork",
+              "badge": "STUART",
+              "icon": "🍊",
+              "artworkId": "van_dyck_portrait_de_james_stuart_duc_de_lennox_louvre_1633"
+            },
+            {
+              "year": "v. 1634",
+              "title": "Portrait équestre de Francisco de Moncada (Paris, Musée du Louvre)",
+              "desc": "Sommet du portrait équestre baroque de face : armure d'acier poli liquide et maîtrise souveraine du destrier blanc.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🐴",
+              "artworkId": "van_dyck_portrait_equestre_de_francisco_de_moncada_louvre_1634"
+            },
+            {
+              "year": "1641",
+              "title": "Mort à Blackfriars & Inhumation à la cathédrale Saint-Paul",
+              "desc": "S'éteint le 9 décembre 1641 à Londres à seulement quarante-deux ans, inhumé dans le chœur de la cathédrale Saint-Paul.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
-
-
-
-
 
 
 // Alias de confort pour la recherche
@@ -12406,3 +12936,21 @@ window.ARTISTS_REGISTRY["uccello_paolo"] = window.ARTISTS_REGISTRY["uccello"];
 
 window.ARTISTS_REGISTRY["maurice_utrillo"] = window.ARTISTS_REGISTRY["utrillo"];
 window.ARTISTS_REGISTRY["utrillo_maurice"] = window.ARTISTS_REGISTRY["utrillo"];
+
+window.ARTISTS_REGISTRY["suzanne_valadon"] = window.ARTISTS_REGISTRY["valadon"];
+window.ARTISTS_REGISTRY["valadon_suzanne"] = window.ARTISTS_REGISTRY["valadon"];
+
+window.ARTISTS_REGISTRY["hugo_van_der_goes"] = window.ARTISTS_REGISTRY["van_der_goes"];
+window.ARTISTS_REGISTRY["van_der_goes_hugo"] = window.ARTISTS_REGISTRY["van_der_goes"];
+
+window.ARTISTS_REGISTRY["bartholomeus_van_der_helst"] = window.ARTISTS_REGISTRY["van_der_helst"];
+window.ARTISTS_REGISTRY["van_der_helst_bartholomeus"] = window.ARTISTS_REGISTRY["van_der_helst"];
+
+window.ARTISTS_REGISTRY["rogier_van_der_weyden"] = window.ARTISTS_REGISTRY["van_der_weyden"];
+window.ARTISTS_REGISTRY["van_der_weyden_rogier"] = window.ARTISTS_REGISTRY["van_der_weyden"];
+window.ARTISTS_REGISTRY["rogier_de_la_pasture"] = window.ARTISTS_REGISTRY["van_der_weyden"];
+
+window.ARTISTS_REGISTRY["antoon_van_dyck"] = window.ARTISTS_REGISTRY["van_dyck"];
+window.ARTISTS_REGISTRY["anthony_van_dyck"] = window.ARTISTS_REGISTRY["van_dyck"];
+window.ARTISTS_REGISTRY["antoine_van_dyck"] = window.ARTISTS_REGISTRY["van_dyck"];
+window.ARTISTS_REGISTRY["van_dyck_antoon"] = window.ARTISTS_REGISTRY["van_dyck"];
