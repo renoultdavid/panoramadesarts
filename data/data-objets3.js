@@ -8008,6 +8008,7 @@ window.ART_OBJECTS = [
   "originSite": "Ploeren (Morbihan, France)",
   "locationType": "monument",
   "currentLocation": "Ploeren (Bretagne, France)",
+   "backgroundId": "none"
   "category": "Architecture religieuse, Chapelle rurale gothique bretonne en granit",
   "isHighlight": true,
   "chips": [
