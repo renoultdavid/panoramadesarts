@@ -4009,6 +4009,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_de_mon_pere_1955",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4042,6 +4043,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_bolton_junction_eccleshill_1956",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4075,6 +4077,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_going_to_be_a_queen_for_tonight_1960",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4108,6 +4111,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_adhesiveness_1960",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4141,6 +4145,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_labor_omnia_vincit_1960",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4174,6 +4179,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_we_two_boys_together_clinging_1961",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4207,6 +4213,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_flight_into_italy_swiss_landscape_1962",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4240,6 +4247,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_first_marriage_tate_1962",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4273,6 +4281,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_berlin_a_memory_1962",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4306,6 +4315,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_hypnotist_1963",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4339,6 +4349,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_renaissance_head_lisbonne_1963",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4372,6 +4383,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_two_men_in_a_shower_walker_1963",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4405,6 +4417,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_second_marriage_melbourne_1963",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4438,6 +4451,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_play_within_a_play_1963",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4471,6 +4485,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_boy_about_to_take_a_shower_1964",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4504,6 +4519,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_a_lawn_being_sprinkled_1967",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4537,6 +4553,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_savings_and_loan_building_1967",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4570,6 +4587,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_some_neat_cushions_1967",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4603,6 +4621,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_a_bigger_splash_tate_1967",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4636,6 +4655,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_room_tarzana_1967",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4669,6 +4689,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_christopher_isherwood_don_bachardy_1968",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4702,6 +4723,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_mr_and_mrs_clark_and_percy_tate_1970",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4735,6 +4757,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_portrait_of_an_artist_pool_with_two_figures_1972",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4768,6 +4791,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_kerby_after_hogarth_useful_knowledge_1975",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4801,6 +4825,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_henry_and_raymond_1979",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4834,6 +4859,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_nichols_canyon_1980",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4867,6 +4893,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_la_chaise_the_chair_1985",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4900,6 +4927,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_pacific_coast_highway_and_santa_monica_1990",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4933,6 +4961,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_30_sunflowers_1996",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4966,6 +4995,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_the_road_to_york_through_sledmere_1997",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -4999,6 +5029,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_garrowby_hill_boston_1998",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5032,6 +5063,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_a_bigger_grand_canyon_canberra_1998",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5065,6 +5097,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_le_massacre_et_les_problemes_de_representation_2003",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5098,6 +5131,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_soleil_de_minuit_norvege_2003",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5131,6 +5165,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_route_et_champ_de_mais_yorkshire_2004",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5164,6 +5199,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_route_de_rudston_fin_de_l_ete_2004",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5197,6 +5233,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_route_avec_deux_maisons_yorkshire_2004",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5230,6 +5267,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_passage_dans_la_haie_2004",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5263,6 +5301,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_talus_enchevetre_et_arbres_yorkshire_2004",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5296,6 +5335,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_la_maison_rouge_yorkshire_2004",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5329,6 +5369,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_rudston_trees_ii_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5362,6 +5403,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_vue_de_woldgate_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5395,6 +5437,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_de_rudston_a_sledmere_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5428,6 +5471,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_kilham_a_langtoft_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5461,6 +5505,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_kilham_a_langtoft_ii_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5494,6 +5539,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_vue_de_sledmere_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5527,6 +5573,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_de_langtoft_a_kilham_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5560,6 +5607,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_kilham_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5593,6 +5641,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_sans_titre_paysage_yorkshire_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5626,6 +5675,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_de_sledmere_a_malton_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5659,6 +5709,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_de_kilham_a_langtoft_variante_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5692,6 +5743,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hockney_tunnel_d_arbres_2005",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hockney",
     "artist": "Hockney David",
@@ -5725,6 +5777,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hals_paulus_van_beresteyn_louvre_1619",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hals",
     "artist": "Hals Frans",
@@ -5758,6 +5811,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hals_le_bouffon_au_luth_louvre_1624",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hals",
     "artist": "Hals Frans",
@@ -5791,6 +5845,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hals_la_bohemienne_louvre_1628",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hals",
     "artist": "Hals Frans",
@@ -5824,6 +5879,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "hals_portrait_de_femme_louvre_1650",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "hals",
     "artist": "Hals Frans",
@@ -5857,6 +5913,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "gris_le_livre_ouvert_rennes_1925",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "gris",
     "artist": "Gris Juan",
@@ -5890,6 +5947,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_le_guitariste_nantes_1757",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
@@ -5923,6 +5981,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_accordee_de_village_louvre_1761",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
@@ -5956,6 +6015,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_jeune_fille_aux_mains_jointes_montpellier_1780",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
@@ -5989,6 +6049,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_la_priere_du_matin_montpellier_1780",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
@@ -6022,6 +6083,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_portrait_saint_morys_nantes_1782",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",
@@ -6055,6 +6117,7 @@ window.ART_OBJECTS = [
   },
   {
     "id": "greuze_portrait_michel_nicolas_hussard_nantes_1805",
+    "domain": "peinture",
     "civId": "occident",
     "artistId": "greuze",
     "artist": "Greuze Jean-Baptiste",

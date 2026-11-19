@@ -3833,15 +3833,8 @@ window.addEventListener('DOMContentLoaded', () => {
       if (!art.civId && (art.artist || art.artistId || (art.periodId && art.periodId.startsWith('occ')) || (art.id && (art.id.startsWith('occ_') || art.id.startsWith('peinture_'))))) {
         art.civId = 'occident';
       }
-      if (!art.domain && (art.type || art.medium)) {
-        art.domain = 'peinture_mosaique';
-      }
-      if (art.domain === 'peinture') {
-        art.domain = 'peinture_mosaique';
-      }
       if (typeof isPainting === 'function' && isPainting(art)) {
         art.artifactType = 'Peinture';
-        art.domain = 'peinture_mosaique';
       } else if (!art.artifactType || (art.artifactType === 'Peinture' && art.medium)) {
         art.artifactType = art.medium || art.type || 'Peinture';
       }
@@ -9281,7 +9274,10 @@ function renderScaleStamp(art) {
 
 function findBackgroundForArtwork(art) {
   if (!art) return null;
-  if (art.backgroundId === false || art.backgroundId === "none" || art.backgroundId === null) return null;
+  const bgId = art.backgroundId;
+  if (bgId === false || bgId === null || (typeof bgId === 'string' && (bgId.toLowerCase().trim() === 'none' || bgId.toLowerCase().trim() === 'false' || bgId.trim() === ''))) {
+    return null;
+  }
   const registry = window.BACKGROUNDS_REGISTRY || {};
 
   // 1. Clé explicite backgroundId sur la fiche de l'œuvre
@@ -11816,60 +11812,22 @@ function renderSearchGallery() {
       }
     }
 
-    // 3. Filtre Domaine technique
+    // 3. Filtre Domaine technique (stricte correspondance sur art.domain, sans jamais deviner ou écraser à partir du titre ou des chips)
     if (selectedDomain !== 'all') {
-      const d = item.domain || '';
-      const cat = (item.category || '').toLowerCase();
-      const aType = (item.artifactType || '').toLowerCase();
-      const tit = (item.title || '').toLowerCase();
-      const fullText = `${d} ${aType} ${cat} ${tit}`;
+      const d = (item.domain || '').toLowerCase().trim();
+      let domainMatched = false;
 
-      if (selectedDomain === 'megalithes') {
-        const isMega = d === 'megalithes' || fullText.includes('mégalith') || fullText.includes('megalith') ||
-                       fullText.includes('dolmen') || fullText.includes('menhir') || fullText.includes('allée couverte') ||
-                       fullText.includes('cairn') || fullText.includes('tumulus') || fullText.includes('cromlech') ||
-                       fullText.includes('statue-menhir') || fullText.includes('statues-menhirs');
-        if (!isMega) return false;
-      } else if (selectedDomain === 'funeraire') {
-        const isFun = d === 'funeraire' || fullText.includes('funéraire') || fullText.includes('canope') ||
-                      fullText.includes('larnax') || fullText.includes('momie') || fullText.includes('dolmen') ||
-                      fullText.includes('allée couverte') || fullText.includes('tumulus');
-        if (!isFun) return false;
+      if (selectedDomain === 'peinture_mosaique') {
+        domainMatched = (d === 'peinture_mosaique' || d === 'peinture' || d === 'peinture_fresque' || d === 'plafond_fresque' || d === 'ceramique_mosaique' || d === 'estampe' || d === 'dessin' || d === 'estampe_gravure' || d === 'dessin_art_graphique' || d === 'dessin_estampe');
       } else if (selectedDomain === 'sculpture_statuaire') {
-        // Domaine explicite prioritaire : une peinture (ex. « Académie de peinture et de sculpture ») n'est jamais une sculpture
-        const typeTxt = `${aType} ${tit}`;
-        const isSculpt = d === 'sculpture_statuaire' || d === 'sculpture' ||
-                         (d === 'megalithes' && (typeTxt.includes('menhir') || typeTxt.includes('alignement') || typeTxt.includes('cromlech'))) ||
-                         (!d && (typeTxt.includes('statue') || typeTxt.includes('sculpture') || typeTxt.includes('relief')));
-        if (!isSculpt) return false;
-      } else if (selectedDomain === 'ceramique') {
-        if (d ? d !== 'ceramique' : (!aType.includes('céramique') && !aType.includes('vase'))) return false;
-      } else if (selectedDomain === 'peinture_mosaique') {
-        if (d) {
-          if (d !== 'peinture_mosaique' && d !== 'peinture') return false;
-        } else if (!aType.includes('peinture') && !aType.includes('fresque') && !aType.includes('mosaïque') && !(typeof isPainting === 'function' && isPainting(item))) {
-          return false;
-        }
-      } else if (selectedDomain === 'parures_metaux') {
-        if (d ? d !== 'parures_metaux' : (!aType.includes('orfèvrerie') && !aType.includes('métallurgie') && !aType.includes('dépôt'))) return false;
-      } else if (selectedDomain === 'espace_sacre') {
-        const isSacre = d === 'espace_sacre' || fullText.includes('cloître') || fullText.includes('cloitre') ||
-                        fullText.includes('nef') || fullText.includes('portail') || fullText.includes('tympan') ||
-                        fullText.includes('plafond') || fullText.includes('voûte') || fullText.includes('voute') ||
-                        fullText.includes('temple') || fullText.includes('église') || fullText.includes('eglise') ||
-                        fullText.includes('cathédrale') || fullText.includes('cathedrale') || fullText.includes('retable') ||
-                        fullText.includes('vitrail') || fullText.includes('abbaye') || fullText.includes('monastère') ||
-                        fullText.includes('monastere') || fullText.includes('couvent');
-        if (!isSacre) return false;
+        domainMatched = (d === 'sculpture_statuaire' || d === 'sculpture');
       } else if (selectedDomain === 'architecture') {
-        const isArchi = d === 'architecture' || d === 'monument' || fullText.includes('architecture') ||
-                        fullText.includes('château') || fullText.includes('chateau') || fullText.includes('monument') ||
-                        fullText.includes('donjon') || fullText.includes('palais') || fullText.includes('pyramide') ||
-                        fullText.includes('édifice') || fullText.includes('edifice') || fullText.includes('tenshukaku');
-        if (!isArchi) return false;
-      } else if (d) {
-        if (d !== selectedDomain) return false;
+        domainMatched = (d === 'architecture' || d === 'monument');
+      } else {
+        domainMatched = (d === selectedDomain);
       }
+
+      if (!domainMatched) return false;
     }
 
     // 4. Filtre Typologie
@@ -11896,35 +11854,33 @@ function renderSearchGallery() {
       } else {
         const aType = (item.artifactType || '').toLowerCase();
         const cat = (item.category || '').toLowerCase();
-        const tit = (item.title || '').toLowerCase();
-        const chips = (item.chips || []).join(' ').toLowerCase();
-        const full = `${aType} ${cat} ${tit} ${chips}`;
-        matched = full.includes(target);
+        const techTxt = `${aType} ${cat}`;
+        matched = techTxt.includes(target);
         if (!matched) {
           if (target.includes('cloître') || target.includes('cloitre')) {
-            matched = full.includes('cloître') || full.includes('cloitre');
+            matched = techTxt.includes('cloître') || techTxt.includes('cloitre');
           } else if (target.includes('nef')) {
-            matched = full.includes('nef');
+            matched = techTxt.includes('nef');
           } else if (target.includes('plafond') || target.includes('voûte') || target.includes('voute')) {
-            matched = full.includes('plafond') || full.includes('voûte') || full.includes('voute');
+            matched = techTxt.includes('plafond') || techTxt.includes('voûte') || techTxt.includes('voute');
           } else if (target.includes('portail') || target.includes('tympan')) {
-            matched = full.includes('portail') || full.includes('tympan');
+            matched = techTxt.includes('portail') || techTxt.includes('tympan');
           } else if (target.includes('dolmen')) {
-            matched = full.includes('dolmen');
+            matched = techTxt.includes('dolmen');
           } else if (target.includes('allée couverte') || target.includes('allee couverte')) {
-            matched = full.includes('allée couverte') || full.includes('allee couverte');
+            matched = techTxt.includes('allée couverte') || techTxt.includes('allee couverte');
           } else if (target.includes('statue-menhir')) {
-            matched = full.includes('statue-menhir') || full.includes('statues-menhir') || full.includes('stèle anthropomorphe');
+            matched = techTxt.includes('statue-menhir') || techTxt.includes('statues-menhir') || techTxt.includes('stèle anthropomorphe');
           } else if (target.includes('menhir') || target.includes('monolithe')) {
-            matched = (full.includes('menhir') || full.includes('monolithe')) && !full.includes('statue-menhir') && !full.includes('statues-menhir');
+            matched = (techTxt.includes('menhir') || techTxt.includes('monolithe')) && !techTxt.includes('statue-menhir') && !techTxt.includes('statues-menhir');
           } else if (target.includes('alignement')) {
-            matched = full.includes('alignement');
+            matched = techTxt.includes('alignement');
           } else if (target.includes('cromlech') || target.includes('enceinte')) {
-            matched = full.includes('cromlech') || full.includes('enceinte');
+            matched = techTxt.includes('cromlech') || techTxt.includes('enceinte');
           } else if (target.includes('tumulus') || target.includes('cairn')) {
-            matched = full.includes('tumulus') || full.includes('cairn');
+            matched = techTxt.includes('tumulus') || techTxt.includes('cairn');
           } else if (target === 'alabatre' || target === 'alabastre') {
-            matched = full.includes('alabatre') || full.includes('alabastre') || full.includes('alabastron');
+            matched = techTxt.includes('alabatre') || techTxt.includes('alabastre') || techTxt.includes('alabastron');
           }
         }
       }
