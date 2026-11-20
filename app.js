@@ -5642,6 +5642,7 @@ function classifyGlobalThemesAndSubthemes(a, recIdParam) {
 
   // 4. ART SACRÉ, RÉCITS BIBLIQUES & SPIRITUALITÉ
   const titleForSacred = titleLow
+    .replace(/\b(?:saint-tropez|saint-malo|saint-germain|saint-denis|saint-ouen|saint-cloud|sainte-adresse|saint-mammes|saint-mammès|saint-briac)\b/gi, '')
     .replace(/\bsainte?-[a-zàâäéèêëîïôöùûüÿçœæ\-]+/gi, '')
     .replace(/\b(?:port|quai|rue|pont|gare|place|boulevard|route|chemin|sentier|vallée|vallee|mont|colline|baie|plage|golfe|fleuve|rivière|riviere)\s+(?:de\s+|d\')?sainte?\s+[a-zàâäéèêëîïôöùûüÿçœæ]+/gi, '')
     .replace(/michel-ange|pierre\s+saint\s+jean/gi, '');
@@ -8322,6 +8323,14 @@ function populateModalData(art) {
     modalCategoryBadge.classList.remove('badge-amarna');
   }
 
+  modalImg.referrerPolicy = 'no-referrer';
+  modalImg.onerror = function() {
+    if (!this.dataset.fb && this.src.indexOf('/d/') !== -1) {
+      this.dataset.fb = '1';
+      var id = this.src.split('/d/')[1].split(/[?=]/)[0];
+      this.src = 'https://drive.google.com/thumbnail?id=' + id + '&sz=w1600';
+    }
+  };
   modalImg.src = art.imgSrc;
   modalImg.alt = art.title;
   modalCivTitle.textContent = art.civName || '';
@@ -11666,7 +11675,7 @@ function createGalleryCardElement(art, modalList) {
 
   card.innerHTML = `
     <div class="gallery-card-pedestal" style="position: relative;">
-      <img src="${art.imgSrc || art.image || ''}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
+      <img src="${art.imgSrc || art.image || ''}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.fb){this.dataset.fb='1';if(this.src.indexOf('/d/')!==-1){var id=this.src.split('/d/')[1].split(/[?=]/)[0];this.src='https://drive.google.com/thumbnail?id='+id+'&sz=w1600';}}" />
       ${hasFocus ? `
         <span class="badge-corner-focus" title="Mode Focus disponible">
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>

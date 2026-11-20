@@ -13584,7 +13584,439 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       }
     ]
   }
-}
+  },
+  "vasari": {
+    "id": "vasari",
+    "name": "Vasari Giorgio",
+    "sortName": "Vasari Giorgio",
+    "sortLetter": "V",
+    "dates": "1511 – 1574",
+    "movement": "Maniérisme toscan (Renaissance tardive florentine)",
+    "nationality": "Italienne (Arezzo / Florence)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPBM0Jjv3iJLid4mhjYnzN2xGsEkr1_olEVESPY4s9rcLI5dpEyx2YLFdGV34DdGtlAE3UQWDsdFlFYTIqdwlQo9na5EDKPxSF4fHZC2FZhkwuS20m_pqryaNvn2ETPJ_eMvolZilPWkslE1R_Gekr6dA=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Giorgio Vasari</strong> (1511 – 1574), né à Arezzo et mort à Florence, est une figure monumentale de la culture italienne de la Renaissance. Protégé des Médicis et ami intime de Michel-Ange, il fut à la fois peintre d'histoire érudit, architecte majeur (concepteur du Palais des Offices et du Corridor vasarien) et surtout le père fondateur de l'histoire de l'art avec la publication de ses célèbres <em>Vies des meilleurs peintres, sculpteurs et architectes</em> (1550, 1568). En tant que créateur, il incarne l'intellectuel de cour accompli du maniérisme toscan, capable d'orchestrer d'immenses programmes décoratifs tout en codifiant les canons de l'art occidental.</p><p>Son genre pictural relève de la grande peinture d'histoire sacrée et profane, de la fresque monumentale et du portrait humaniste. Son style se caractérise par une virtuosité graphique héritée de Michel-Ange, l'usage de la <em>figura serpentinata</em>, des compositions théâtrales denses saturées de figures aux musculatures tendues, et des coloris acides et contrastés propres au maniérisme toscan. Il subordonne la couleur au <em>disegno</em> (le dessein et le dessin), considéré comme le principe intellectuel suprême de la création artistique.</p><p>L'évolution de sa carrière est marquée par ses collaborations initiales à Rome et Florence, son installation définitive au service du duc Cosme Ier de Médicis dès 1554 pour la rénovation grandiose du Palazzo Vecchio (Salone dei Cinquecento et Studiolo de François Ier), ses retables monumentaux (<em>L'Annonciation</em> du Louvre, <em>Le Jardin des Gethsémani</em> de Tokyo) et l'entreprise colossale de la fresque du <em>Jugement dernier</em> de la coupole du Duomo de Florence, achevée après sa mort par Federico Zuccari.</p>",
+    "corpus": {
+      "total": 175,
+      "paintingsCount": 175,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 4,
+      "source": "Catalogues raisonnés Paola Barocchi, Luciano Berti & Charles Del Bravo",
+      "totalOeuvresEstimees": "~175 peintures et cycles de fresques authentifiés",
+      "oeuvresConsensusNotice": "La production de Giorgio Vasari et de son atelier florentin comprend environ 175 peintures de chevalet, retables d'autel et fresques majeures conservés dans les musées et édifices sacrés internationaux (Palazzo Vecchio, Offices, Louvre, Duomo de Florence)."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Formation toscane & Portraits humanistes (1511 – 1553)",
+          "years": "1511 – 1553",
+          "color": "#d4af37",
+          "summary": "Apprentissage auprès d'Andrea del Sarto et Baccio Bandinelli, amitié fondatrice avec Michel-Ange et premières commandes des Médicis.",
+          "events": [
+            {
+              "year": "1511",
+              "title": "Naissance à Arezzo",
+              "desc": "Naissance le 30 juillet 1511 dans une famille d'artisans potiers d'Arezzo.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌟"
+            },
+            {
+              "year": "v. 1545 – 1555",
+              "title": "Portrait de Pétrarque (Ajaccio, Musée Fesch)",
+              "desc": "Effigie du grand poète humaniste toscan couronné de lauriers, incarnant l'érudition intellectuelle de Vasari.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "📖",
+              "artworkId": "vasari_portrait_de_petrarque_ajaccio"
+            },
+            {
+              "year": "1550",
+              "title": "Première édition des Vies des artistes (Le Vite)",
+              "desc": "Publication chez Lorenzo Torrentino du premier monument théorique et biographique de l'histoire de l'art occidental.",
+              "type": "history",
+              "badge": "HISTOIRE DE L'ART",
+              "icon": "📚"
+            }
+          ]
+        },
+        {
+          "title": "Peintre de cour de Cosme Ier & Grands Chantiers florentins (1554 – 1569)",
+          "years": "1554 – 1569",
+          "color": "#d4af37",
+          "summary": "Direction des chantiers artistiques du Palazzo Vecchio, fondation de l'Accademia del Disegno et érection du Palais des Offices.",
+          "events": [
+            {
+              "year": "1564",
+              "title": "L'Annonciation (Paris, Musée du Louvre)",
+              "desc": "Retable maniériste magistral où l'archange Gabriel s'élance avec une grâce aérienne au cœur d'une architecture théâtrale.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🕊️",
+              "artworkId": "vasari_l_annonciation_louvre_1564"
+            },
+            {
+              "year": "1568",
+              "title": "Seconde édition augmentée des Vite (Giunti)",
+              "desc": "Publication de la version définitive enrichie de portraits gravés d'artistes et de nombreuses biographies de maîtres vivants.",
+              "type": "history",
+              "badge": "ÉDITION GIUNTI",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Apogée, Coupole du Duomo & Derniers Chefs-d'œuvre (1570 – 1574)",
+          "years": "1570 – 1574",
+          "color": "#d4af37",
+          "summary": "Création du Jardin des Gethsémani et début de la colossale fresque du Jugement dernier sous la coupole de Brunelleschi.",
+          "events": [
+            {
+              "year": "1570",
+              "title": "Le Jardin des Gethsémani (Tokyo, Musée national d'Art occidental)",
+              "desc": "Dramatisme nocturne intense où le Christ agenouillé reçoit le calice d'un ange lumineux tandis que les apôtres dorment.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌙",
+              "artworkId": "vasari_le_jardin_des_gethsemani_tokyo_1570"
+            },
+            {
+              "year": "1572 – 1574",
+              "title": "Le Jugement dernier (Coupole de Santa Maria del Fiore, Florence)",
+              "desc": "Conception théologique et amorce du colossal cycle de fresques de 3 600 m² achevé par Federico Zuccari en 1579.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚡",
+              "artworkId": "vasari_zuccari_jugement_dernier_coupole_duomo_florence_1572"
+            },
+            {
+              "year": "1574",
+              "title": "Mort à Florence",
+              "desc": "S'éteint le 27 juin 1574 à Florence à l'âge de 62 ans, peu après son mécène le grand-duc Cosme Ier.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "velazquez": {
+    "id": "velazquez",
+    "name": "Velázquez Diego (Diego Rodríguez de Silva y Velázquez)",
+    "sortName": "Velázquez Diego",
+    "sortLetter": "V",
+    "dates": "1599 – 1660",
+    "movement": "Baroque espagnol (Siècle d'or espagnol)",
+    "nationality": "Espagnole (Séville / Madrid)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOcaU3LHEvWcga4OvtSzgoVD6BwoSMKdMcTx67LaPVyHQOfarQqJ4bpur2xIuNFSlG2mTvvogAV2BIXrfV5IW4AXSjdWHzKLyB7jZ3iML7YAs433auZCENPxbGyca2JCH_mG9heQR8dSKsJvM1_NSGbrA=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Diego Rodríguez de Silva y Velázquez</strong> (1599 – 1660), né à Séville et mort à Madrid, est le maître suprême du Siècle d'or espagnol et l'un des peintres les plus prodigieux de l'histoire universelle. Peintre du roi Philippe IV dès l'âge de vingt-quatre ans, il a transformé l'art du portrait de cour en une méditation métaphysique sur le regard, l'espace et la dignité humaine. Admiré par Manet comme « le peintre des peintres », il a révolutionné la technique picturale en dissolvant la ligne au profit de touches d'air et de lumière pures.</p><p>Son genre d'expression embrasse le portrait royal et aristocratique, la peinture d'histoire, la mythologie désacralisée, la scène de genre populaire (<em>bodegón</em>) et le nu féminin d'une rare sensualité. Son style se caractérise par une palette sobre dominée par des gris argentés, des ocres chauds et des noirs profonds, une touche fluide et vibrante qui anticipe l'impressionnisme de plus de deux siècles, et une capacité incomparable à capturer la vérité psychologique de ses modèles sans condescendance ni idéalisation servile.</p><p>Son parcours s'articule entre le réalisme ténébriste de sa jeunesse sévillane (<em>Le Porteur d'eau de Séville</em>), sa consécration madrilène aux côtés de Rubens, ses deux séjours décisifs en Italie qui affinent sa palette sous la lumière romaine et vénitienne (<em>Portrait du pape Innocent X</em>, <em>Vénus au miroir</em>), et l'apogée vertigineux de ses dernières années royales marqué par le chef-d'œuvre absolu de <em>Les Ménines</em> (1656), mise en abyme immortelle du rôle de l'artiste et de l'acte de peindre.</p>",
+    "corpus": {
+      "total": 120,
+      "paintingsCount": 120,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 2,
+      "source": "Catalogues raisonnés José López-Rey, Odile Delenda & Wildenstein Institute",
+      "totalOeuvresEstimees": "~120 peintures autographes répertoriées",
+      "oeuvresConsensusNotice": "Le corpus universellement reconnu de Diego Velázquez compte environ 120 tableaux autographes, principalement conservés au Musée du Prado de Madrid, au Louvre, à la National Gallery de Londres et au Metropolitan Museum de New York."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse sévillane, Bodegones & Entrée à la Cour (1599 – 1628)",
+          "years": "1599 – 1628",
+          "color": "#d4af37",
+          "summary": "Apprentissage auprès de Francisco Pacheco à Séville, réalisme naturaliste des scènes populaires et nomination comme peintre du roi Philippe IV à Madrid.",
+          "events": [
+            {
+              "year": "1599",
+              "title": "Naissance à Séville",
+              "desc": "Baptisé le 6 juin 1599 en l'église San Pedro de Séville.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌟"
+            },
+            {
+              "year": "1623",
+              "title": "Nomination comme peintre officiel de Philippe IV",
+              "desc": "Installation définitive à l'Alcázar royal de Madrid sous la protection du comte-duc d'Olivares.",
+              "type": "history",
+              "badge": "PEINTRE DU ROI",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "Voyages en Italie & Splendeur de la Maturité madrilène (1629 – 1650)",
+          "years": "1629 – 1650",
+          "color": "#d4af37",
+          "summary": "Premier voyage en Italie conseillé par Rubens, éblouissement devant Titien et Michel-Ange, et chefs-d'œuvre d'histoire et de philosophie.",
+          "events": [
+            {
+              "year": "v. 1630",
+              "title": "Démocrite (Le Philosophe rieur) (Musée des Beaux-Arts de Rouen)",
+              "desc": "Toile philosophique virtuose où le penseur antique sourit avec une ironie mordante devant la folie et les illusions du monde.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎭",
+              "artworkId": "velazquez_democrite_rouen_1630"
+            },
+            {
+              "year": "1635",
+              "title": "La Reddition de Breda (Les Lances)",
+              "desc": "Grand tableau d'histoire militaire pour le palais du Buen Retiro célébrant la générosité et l'humanité du vainqueur.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1650",
+              "title": "Portrait du pape Innocent X (Rome, Galerie Doria Pamphilj)",
+              "desc": "Peint lors de son second voyage romain : l'un des sommets absolus de l'art du portrait psychologique de tous les temps.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Apogée des Ménines, Ordre de Santiago & Postérité (1651 – 1660)",
+          "years": "1651 – 1660",
+          "color": "#d4af37",
+          "summary": "Consécration sociale suprême comme Maréchal du Palais et création du monument immortel des Ménines.",
+          "events": [
+            {
+              "year": "1656",
+              "title": "Les Ménines (Madrid, Musée du Prado)",
+              "desc": "Chef-d'œuvre absolu de l'art occidental où le peintre se représente devant une immense toile en train de peindre l'infante et les souverains reflétés dans un miroir.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🪞",
+              "artworkId": "velazquez_les_menines_madrid_prado_1656"
+            },
+            {
+              "year": "1659",
+              "title": "Admission dans l'Ordre chevaleresque de Santiago",
+              "desc": "Reconnaissance nobiliaire suprême accordée par bulle papale et décret royal de Philippe IV.",
+              "type": "history",
+              "badge": "CHEVALERIE",
+              "icon": "✝️"
+            },
+            {
+              "year": "1660",
+              "title": "Mort à Madrid",
+              "desc": "S'éteint le 6 août 1660 à l'Alcázar royal de Madrid au retour de l'île des Faisans à la frontière franco-espagnole.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "domenico_veneziano": {
+    "id": "domenico_veneziano",
+    "name": "Domenico Veneziano (Domenico di Bartolomeo)",
+    "sortName": "Domenico Veneziano",
+    "sortLetter": "D",
+    "dates": "v. 1410 – 1461",
+    "movement": "Première Renaissance florentine (Quattrocento & Pittura di luce)",
+    "nationality": "Italienne (Venise / Florence)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPediXuAOev-CSY28eOv2qE7WkE5i50sBUubFtuIri6UXD2DwgZ9rgpPKB-rh5_g8u8H-JpJCroGhwy-k8SqFQYmjPEg7SP84wzxOWrhmx9G0feZEb9Lal3F9KEZRMcP-N3SY_mHeDpb4dDkvhosvioTw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Domenico Veneziano</strong> (Domenico di Bartolomeo, v. 1410 – 1461), né à Venise et mort à Florence, est l'un des artistes les plus raffinés et les plus influents du Quattrocento florentin. Venu de Venise à Florence au début des années 1430, il a opéré une synthèse révolutionnaire entre la sensibilité chromatique et lumineuse de sa ville natale et la rigueur spatiale et géométrique florentine initiée par Masaccio et Brunelleschi. Il est considéré par l'historiographie moderne comme le maître incontesté de la <em>pittura di luce</em> (la peinture de lumière atmosphérique et blonde), style qui influencera de manière décisive son illustre assistant Piero della Francesca.</p><p>Son genre pictural se concentre sur le retable d'autel (notamment la <em>Sacra Conversazione</em>), le tondo profane et le portrait de profil patricien. Son style se caractérise par une palette de tons pastel clairs et lumineux (roses pâles, verts amande, bleus célestes, ocres dorés), des ombres douces et transparentes à rebours des contrastes durs de ses contemporains, et une maîtrise architecturale souveraine de la perspective linéaire unifiée.</p><p>Bien que Vasari ait colporté la légende infondée de son assassinat par Andrea del Castagno par jalousie professionnelle pour ses secrets de peinture à l'huile, Domenico Veneziano est en réalité mort de mort naturelle en 1461. Son chef-d'œuvre suprême, le <em>Retable de Santa Lucia dei Magnoli</em> (v. 1445-1447, Offices et Cambridge/Washington), est l'une des toutes premières grandes conversations sacrées de l'histoire de l'art se déroulant dans un espace architectural ouvert baigné d'une lumière solaire matinale.</p>",
+    "corpus": {
+      "total": 15,
+      "paintingsCount": 15,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Monographie Hellmut Wohl (1980), Luciano Bellosi & Miklós Boskovits",
+      "totalOeuvresEstimees": "~15 peintures et panneaux autographes conservés",
+      "oeuvresConsensusNotice": "En raison de la destruction des fresques de l'église Sant'Egidio de Florence, le corpus survivant de Domenico Veneziano est extrêmement rare et précieux, comptant environ 12 à 15 œuvres universellement attribuées (Offices, National Gallery de Londres, National Gallery de Washington, Louvre)."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Origines vénitiennes & Arrivée en Toscane (v. 1410 – 1438)",
+          "years": "v. 1410 – 1438",
+          "color": "#d4af37",
+          "summary": "Formation vénitienne auprès de Gentile da Fabriano et Pisanello, premières œuvres en Ombrie et lettre fameuse à Piero de Médicis.",
+          "events": [
+            {
+              "year": "v. 1410",
+              "title": "Naissance à Venise",
+              "desc": "Naissance probable à Venise vers 1410 sous le nom de Domenico di Bartolomeo.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌟"
+            },
+            {
+              "year": "1438",
+              "title": "Lettre à Piero de Médicis depuis Pérouse",
+              "desc": "Sollicite auprès de la famille Médicis la commande d'un retable florentin, affirmant sa maîtrise des techniques modernes.",
+              "type": "history",
+              "badge": "MÉCÉNAT MÉDICIS",
+              "icon": "✉️"
+            }
+          ]
+        },
+        {
+          "title": "Fresques de Sant'Egidio & La Révolution de la Lumière (1439 – 1447)",
+          "years": "1439 – 1447",
+          "color": "#d4af37",
+          "summary": "Cycle monumental de fresques à Sant'Egidio avec le jeune Piero della Francesca et création du Retable de Santa Lucia dei Magnoli.",
+          "events": [
+            {
+              "year": "1439 – 1445",
+              "title": "Fresques de l'église Sant'Egidio (Florence)",
+              "desc": "Chantier fondamental où il collabore avec son élève Piero della Francesca, jetant les bases de la pittura di luce toscane.",
+              "type": "masterpiece",
+              "badge": "FRESQUE FLORENTINE",
+              "icon": "🎨"
+            },
+            {
+              "year": "v. 1445 – 1447",
+              "title": "Retable de Santa Lucia dei Magnoli (Offices, Florence)",
+              "desc": "Manifeste de la Sacra Conversazione moderne baignée d'une clarté solaire matinale d'une pureté géométrique sans précédent.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Dernières Années & Postérité florentine (1448 – 1461)",
+          "years": "1448 – 1461",
+          "color": "#d4af37",
+          "summary": "Panneaux de dévotion intime, tondos profanes et influence pérenne sur la peinture de la Renaissance.",
+          "events": [
+            {
+              "year": "v. 1450",
+              "title": "L'Adoration des Mages (Tondo de Berlin)",
+              "desc": "Célèbre tondo associant une foule courtoise à un paysage panoramique d'un naturalisme atmosphérique précurseur.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑"
+            },
+            {
+              "year": "1461",
+              "title": "Mort à Florence",
+              "desc": "Inhumé le 15 mai 1461 à Florence. La légende de son meurtre par Andrea del Castagno fut démentie par la découverte de la mort antérieure de ce dernier de la peste en 1457.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "paolo_veneziano": {
+    "id": "paolo_veneziano",
+    "name": "Paolo Veneziano",
+    "sortName": "Veneziano Paolo",
+    "sortLetter": "V",
+    "dates": "actif v. 1333 – 1358",
+    "movement": "École vénitienne du Trecento (Synthèse byzantino-gothique)",
+    "nationality": "Italienne (Venise)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPmeQlFiF3196o1of2hRX9RwI5Xs5gQGXtlHH2w31CulBQfU1ENOJFLT_YzsyR-h0U3Y_B6mZvcnegFGaktbhrlX0fAK2Dz1MuD-3gWGBjLqvX45cd60k3ZNHWSxzlALK12rUevRzk7wh5q-FpVY09YjQ=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Paolo Veneziano</strong> (actif à Venise entre 1333 et 1358) est unanimement salué comme le père fondateur de l'école vénitienne de peinture au Trecento et le premier grand peintre de la Sérénissime dont l'individualité artistique soit clairement documentée. À la tête d'un atelier familial prolifique où collaboraient ses fils Marco, Luca et Giovanni, il a accompli une synthèse magistrale et unique entre la tradition sacrée des icônes byzantines (la <em>maniera greca</em>) et la grâce linéaire narrative du gothique international occidental venu de France et d'Allemagne.</p><p>Son genre d'expression est presque exclusivement voué à l'art sacré monumental : le polyptyque d'autel à compartiments gothiques complexes, le retable de couverture liturgique et le panneau de dévotion privée sur fond d'or. Son style se distingue par une magnificence ornementale extraordinaire : fonds d'or estampés de motifs géométriques et floraux au poinçon, tissus damassés orientaux aux arabesques somptueuses, coloris précieux (lapis-lazuli, vermillon, laques carminées) et souplesse calligraphique des drapés qui adoucissent la hiératique byzantine au profit d'une ferveur humaine touchante.</p><p>Peintre officiel de la République de Venise, il réalise pour le doge Andrea Dandolo en 1345 son chef-d'œuvre le plus emblématique : le panneau de couverture feriale (couvercle en bois peint pour les jours ordinaires) de la légendaire <em>Pala d'Oro</em> de la basilique Saint-Marc, illustrant la translation des reliques de saint Marc et la Passion du Christ avec une verve narrative et une féerie de matières inimitables.</p>",
+    "corpus": {
+      "total": 50,
+      "paintingsCount": 50,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 2,
+      "source": "Catalogues raisonnés Rodolfo Pallucchini (1964), Michelangelo Muraro (1969/1970) & Filippo Pedrocco (2003)",
+      "totalOeuvresEstimees": "~50 polyptyques et panneaux autographes documentés",
+      "oeuvresConsensusNotice": "Le corpus authentifié de Paolo Veneziano et de son atelier compte environ 50 œuvres majeures (polyptyques intacts ou dispersés, retables, triptyques) réparties entre Venise (Saint-Marc, Gallerie dell'Accademia), la côte dalmate, le Louvre et les grands musées d'art ancien."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Premiers Polyptyques & Héritage Byzantin (v. 1333 – 1344)",
+          "years": "v. 1333 – 1344",
+          "color": "#d4af37",
+          "summary": "Établissement de l'atelier vénitien et création de retables fondateurs alliant le hiératisme byzantin à la souplesse gothique.",
+          "events": [
+            {
+              "year": "1333",
+              "title": "Dormition de la Vierge (Musée civique de Vicence)",
+              "desc": "Première œuvre signée et datée avec certitude par le maître, marquant l'acte de naissance de l'école vénitienne.",
+              "type": "masterpiece",
+              "badge": "PREMIÈRE ŒUVRE",
+              "icon": "🌟"
+            },
+            {
+              "year": "v. 1330 – 1340",
+              "title": "Triptyque de la Pilotta (Parme, Galerie nationale)",
+              "desc": "Splendide triptyque de dévotion portable combinant la Crucifixion sur fond d'or, la Vierge à l'Enfant et des figures de saints d'une finesse orfévrée.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "✝️",
+              "artworkId": "veneziano_paolo_triptyque_pilotta_parme_1335"
+            }
+          ]
+        },
+        {
+          "title": "Peintre du Doge & La Pala Feriale de Saint-Marc (1345 – 1350)",
+          "years": "1345 – 1350",
+          "color": "#d4af37",
+          "summary": "Apogée civique sous le dogat d'Andrea Dandolo et confection de la couverture de la prestigieuse Pala d'Oro.",
+          "events": [
+            {
+              "year": "1345",
+              "title": "La Pala Feriale de Saint-Marc (Venise)",
+              "desc": "Commande d'État prestigieuse pour la basilique Saint-Marc : panneau recouvrant le trésor d'orfèvrerie byzantine.",
+              "type": "masterpiece",
+              "badge": "COMMANDE D'ÉTAT",
+              "icon": "👑"
+            },
+            {
+              "year": "v. 1350",
+              "title": "La Vierge et l'Enfant avec saints (Paris, Musée du Louvre)",
+              "desc": "Panneau votif d'une rare intensité spirituelle réunissant saint François d'Assise, Jean Baptiste, Jean l'Évangéliste et Antoine de Padoue.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👼",
+              "artworkId": "veneziano_paolo_vierge_et_enfant_saints_louvre_1350"
+            }
+          ]
+        },
+        {
+          "title": "Atelier Familial & Derniers Grands Polyptyques (1351 – 1358)",
+          "years": "1351 – 1358",
+          "color": "#d4af37",
+          "summary": "Collaboration avec ses fils Luca et Giovanni et diffusion des grands retables d'autel jusqu'en Dalmatie.",
+          "events": [
+            {
+              "year": "1358",
+              "title": "Couronnement de la Vierge (Venise, Gallerie dell'Accademia)",
+              "desc": "Dernière œuvre signée conjointement avec son fils Giovanni : apothéose triomphale d'or et de soieries damassées.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑"
+            },
+            {
+              "year": "après 1358",
+              "title": "Fin d'activité documentée & Postérité",
+              "desc": "Dernière trace documentaire en 1358. Il laisse un atelier florissant qui dominera la peinture vénitienne jusqu'à Lorenzo Veneziano.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  }
 });
 
 
@@ -13786,3 +14218,22 @@ window.ARTISTS_REGISTRY["salomon_ruysdael"] = window.ARTISTS_REGISTRY["ruysdael"
 
 window.ARTISTS_REGISTRY["victor_vasarely"] = window.ARTISTS_REGISTRY["vasarely"];
 window.ARTISTS_REGISTRY["vasarely_victor"] = window.ARTISTS_REGISTRY["vasarely"];
+
+// Aliases Vasari
+window.ARTISTS_REGISTRY["giorgio_vasari"] = window.ARTISTS_REGISTRY["vasari"];
+window.ARTISTS_REGISTRY["vasari_giorgio"] = window.ARTISTS_REGISTRY["vasari"];
+
+// Aliases Velázquez
+window.ARTISTS_REGISTRY["diego_velazquez"] = window.ARTISTS_REGISTRY["velazquez"];
+window.ARTISTS_REGISTRY["diego_velasquez"] = window.ARTISTS_REGISTRY["velazquez"];
+window.ARTISTS_REGISTRY["velasquez"] = window.ARTISTS_REGISTRY["velazquez"];
+window.ARTISTS_REGISTRY["velasquez_diego"] = window.ARTISTS_REGISTRY["velazquez"];
+window.ARTISTS_REGISTRY["velazquez_diego"] = window.ARTISTS_REGISTRY["velazquez"];
+
+// Aliases Domenico Veneziano
+window.ARTISTS_REGISTRY["veneziano_domenico"] = window.ARTISTS_REGISTRY["domenico_veneziano"];
+window.ARTISTS_REGISTRY["domenico_di_bartolomeo"] = window.ARTISTS_REGISTRY["domenico_veneziano"];
+
+// Aliases Paolo Veneziano
+window.ARTISTS_REGISTRY["veneziano_paolo"] = window.ARTISTS_REGISTRY["paolo_veneziano"];
+window.ARTISTS_REGISTRY["paolo_da_venezia"] = window.ARTISTS_REGISTRY["paolo_veneziano"];

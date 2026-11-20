@@ -3673,6 +3673,55 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Selon le deuxième chapitre de l'<em>Évangile selon saint Matthieu</em>, des Mages venus d'Orient, guidés par une étoile miraculeuse, arrivent à Bethléem pour rendre hommage à l'Enfant Jésus, « roi des Juifs » nouveau-né. Se prosternant devant lui en présence de la Vierge Marie, ils lui offrent l'or réservé à la royauté, l'encens destiné à la divinité et la myrrhe annonçant sa mort rédemptrice et son embaumement.</p><p>Dans la tradition chrétienne et l'exégèse médiévale vulgarisée par <em>La Légende dorée</em>, les trois mages — traditionnellement nommés Gaspard, Melchior et Balthazar — incarnent les trois âges de la vie humaine (la jeunesse, l'âge mûr et la vieillesse) ainsi que les trois continents alors connus (l'Asie, l'Europe et l'Afrique), proclamant l'universalité de la Révélation divine et la soumission de toutes les nations temporelles devant le Christ.</p><p>Chez les maîtres des Primitifs flamands, au premier rang desquels Rogier van der Weyden dans le <em>Triptyque Sainte-Colombe</em>, l'Épiphanie devient une somptueuse synthèse de ferveur mystique et d'apparat royal, où le luxe des brocarts de velours et des orfèvreries dialogue avec l'humilité de la crèche en ruine et la promesse eucharistique du Salut.</p>"
   }
+,
+
+  "annonciation_archange_gabriel_vierge_marie": {
+  "id": "annonciation_archange_gabriel_vierge_marie",
+  "badge": "RÉCIT ÉVANGÉLIQUE",
+  "title": "L'Annonciation et le Mystère de l'Incarnation",
+  "sources": "Évangile selon saint Luc (I, 26-38) & La Légende dorée de Jacques de Voragine",
+  "keywords": [
+    "annonciation",
+    "archange gabriel",
+    "salutation angélique",
+    "incarnation",
+    "ave maria",
+    "lys blanc"
+  ],
+  "text": "<p>Selon l'Évangile de saint Luc, l'archange Gabriel est envoyé par Dieu à Nazareth auprès d'une jeune vierge nommée Marie, accordée en mariage à Joseph de la maison de David. Saluant Marie par les mots devenus universels — « Réjouis-toi, comblée de grâce, le Seigneur est avec toi » —, l'ange lui révèle qu'elle concevra par la vertu du Saint-Esprit et mettra au monde un fils appelé Jésus, Fils du Très-Haut, dont le règne n'aura pas de fin.</p><p>Dans la tradition théologique et iconographique occidentale, l'Annonciation représente l'instant précis de l'Incarnation : le Verbe divin se fait chair dans le sein de la Vierge. Les artistes de la Renaissance et du maniérisme codifient cet événement à travers des symboles hautement spiritualisés : le rameau de lys blancs incarnant la virginité perpétuelle, la colombe du Saint-Esprit descendant dans un rayon de clarté céleste, et le livre de prières ouvert sur la prophétie d'Isaïe (« Voici que la jeune fille est enceinte et enfantera un fils »). L'instant est celui de l'acquiescement souverain de Marie : « Qu'il me soit fait selon ta parole ».</p>"
+},
+
+  "agonie_christ_jardin_des_oliviers_gethsemani": {
+  "id": "agonie_christ_jardin_des_oliviers_gethsemani",
+  "badge": "PASSION DU CHRIST",
+  "title": "L'Agonie du Christ au Jardin des Oliviers (Gethsémani)",
+  "sources": "Évangiles selon saint Matthieu (XXVI, 36-46), saint Marc (XIV, 32-42) et saint Luc (XXII, 39-46)",
+  "keywords": [
+    "gethsémani",
+    "gethsemani",
+    "jardin des oliviers",
+    "agonie du christ",
+    "calice de la passion",
+    "sommeil des apôtres"
+  ],
+  "text": "<p>Au terme de la Cène et après avoir institué l'Eucharistie, Jésus se retire avec ses disciples dans un domaine nommé Gethsémani (« le pressoir à huile »), au pied du mont des Oliviers à l'est de Jérusalem. Prenant avec lui ses trois apôtres privilégiés — Pierre, Jacques et Jean —, le Christ est envahi d'une angoisse mortelle et s'éloigne à la distance d'un jet de pierre pour prier son Père : « Père, si tu le veux, éloigne de moi cette coupe ; cependant, que ma volonté ne se fasse pas, mais la tienne ».</p><p>Dans la pénombre de la nuit, tandis que les apôtres succombent au sommeil sous le poids de la tristesse, saint Luc relate qu'un ange descend du ciel pour réconforter le Christ alors que sa sueur devient comme des grumeaux de sang tombant à terre. Au même instant, les lueurs des torches annoncent l'approche de Judas escortant la cohorte armée des grands prêtres. Ce moment de solitude absolue incarne le vertige de l'humanité du Christ face au sacrifice de la Passion, transformé par les maîtres maniéristes et baroques en un nocturne dramatique d'une bouleversante intensité spirituelle.</p>"
+},
+
+  "democrite_philosophe_rieur_heraclite": {
+  "id": "democrite_philosophe_rieur_heraclite",
+  "badge": "ALLÉGORIE PHILOSOPHIQUE",
+  "title": "Démocrite le Philosophe Rieur : La Dérision des Vanités du Monde",
+  "sources": "Sénèque (De Ira II, 10 & De Tranquillitate Animi XV), Juvénal (Satires X) & Diogène Laërce",
+  "keywords": [
+    "démocrite",
+    "democrite",
+    "philosophe rieur",
+    "démocrite et héraclite",
+    "rire de démocrite",
+    "vanité du monde"
+  ],
+  "text": "<p>Dans la philosophie morale de l'Antiquité gréco-romaine, Démocrite d'Abdère (v. 460 – 370 av. J.-C.) forme un diptyque allégorique légendaire avec Héraclite d'Éphèse. Alors qu'Héraclite pleurait perpétuellement sur la misère, l'inconstance et l'aveuglement des hommes, Démocrite ne paraissait jamais en public sans éclater d'un rire inextinguible, considérant que toutes les entreprises humaines — l'ambition, les honneurs, l'amassement des richesses — n'étaient que pure folie et dérisoire vanité face à l'immensité de la nature atomique.</p><p>Redécouvert avec ferveur par les humanistes de la Renaissance (Érasme, Montaigne) puis repris magistralement au Siècle d'or par Vélasquez, Ribera ou Rembrandt, le rire de Démocrite devient une vanité picturale subversive. En désignant le globe terrestre d'un sourire narquois, le penseur rieur invite le spectateur à une distance lucide et désabusée : rire de la comédie du monde pour ne pas en mourir de chagrin.</p>"
+}
 };
 
 
@@ -3701,3 +3750,8 @@ window.BACKGROUNDS_REGISTRY["renaud_armide"] = window.BACKGROUNDS_REGISTRY["jeru
 window.BACKGROUNDS_REGISTRY["venus_vulcain"] = window.BACKGROUNDS_REGISTRY["mythes_classiques_venus_vulcain_psyche_enide"];
 window.BACKGROUNDS_REGISTRY["saint_sebastien"] = window.BACKGROUNDS_REGISTRY["martyrs_premiers_siecles_sebastien_barthelemy"];
 window.BACKGROUNDS_REGISTRY["jugement_dernier"] = window.BACKGROUNDS_REGISTRY["jugement_dernier_parousie_apocalypse"];
+
+window.BACKGROUNDS_REGISTRY["annonciation"] = window.BACKGROUNDS_REGISTRY["annonciation_archange_gabriel_vierge_marie"];
+window.BACKGROUNDS_REGISTRY["gethsemani"] = window.BACKGROUNDS_REGISTRY["agonie_christ_jardin_des_oliviers_gethsemani"];
+window.BACKGROUNDS_REGISTRY["jardin_des_oliviers"] = window.BACKGROUNDS_REGISTRY["agonie_christ_jardin_des_oliviers_gethsemani"];
+window.BACKGROUNDS_REGISTRY["democrite"] = window.BACKGROUNDS_REGISTRY["democrite_philosophe_rieur_heraclite"];
