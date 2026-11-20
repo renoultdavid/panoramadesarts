@@ -1,4 +1,4 @@
-/* ==========================================================================
+ai meme /* ==========================================================================
    REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES - VOLUME 2
    Contient les nouveaux maîtres intégrés au portail (Hopper, Ingres, etc.)
    ========================================================================== */
@@ -2865,7 +2865,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     }
   }
 
-  ,"arman": {
+  , "arman": {
     "id": "arman",
     "name": "Arman (Armand Fernandez)",
     "sortName": "Arman",
@@ -2885,7 +2885,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       <p><strong>De Vence à New York : l'échelle monumentale et l'espace public</strong><br>
       Installé entre Vence et New York à partir des années 1960, Arman étend progressivement son travail à l'échelle monumentale et investit l'espace public à travers le monde, comme en témoignent <em>L'Heure de tous</em> devant la gare Saint-Lazare à Paris ou <em>Long Term Parking</em> à Jouy-en-Josas. Jusqu'à sa disparition en 2005, il n'a cessé d'explorer la frontière entre l'art, l'industrie et la mémoire collective. Son œuvre, à la fois ludique, critique et profondément plastique, demeure une référence incontournable pour comprendre la mutation du regard artistique face à l'ère industrielle.</p>
     `,
-        "corpus": {
+    "corpus": {
       "total": 10000,
       "seen": 1,
       "paintingsCount": 10000,
@@ -2901,7 +2901,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "sourceTitle": "Catalogue raisonné Denyse Durand-Ruel & Arman Studio Archives",
       "sourceNotes": "L'inventaire de référence repose sur le colossal travail d'archivage initié par Denyse Durand-Ruel (qui a publié les premiers volumes du Catalogue raisonné) et aujourd'hui poursuivi par les Arman Studio Archives. Arman travaillait avec une frénésie stakhanoviste, s'appropriant le principe même de la production à la chaîne qu'il dénonçait et célébrait à la fois. Si l'on écarte ses estampes et ses lithographies, la base de données des seules œuvres originales uniques et des sculptures numérotées de Denyse Durand-Ruel atteint des numéros d'inventaire dépassant la cote 9 900, frôlant ainsi très officiellement les 10 000 pièces."
     },
-"biographyTimeline": {
+    "biographyTimeline": {
       "birth": {
         "year": 1928,
         "place": "Nice (Alpes-Maritimes, France)",
@@ -3902,8 +3902,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   }
-,
-"mantegna": {
+  ,
+  "mantegna": {
     "id": "mantegna",
     "name": "Mantegna Andrea",
     "sortName": "Mantegna Andrea",
@@ -4059,7 +4059,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"manzoni": {
+  "manzoni": {
     "id": "manzoni",
     "name": "Manzoni Piero",
     "sortName": "Manzoni Piero",
@@ -4208,7 +4208,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"martini_simone": {
+  "martini_simone": {
     "id": "martini_simone",
     "name": "Martini Simone",
     "sortName": "Martini Simone",
@@ -4350,7 +4350,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"masaccio": {
+  "masaccio": {
     "id": "masaccio",
     "name": "Masaccio (Tommaso di Giovanni Cassai)",
     "sortName": "Masaccio",
@@ -4471,7 +4471,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"matisse": {
+  "matisse": {
     "id": "matisse",
     "name": "Matisse Henri",
     "sortName": "Matisse Henri",
@@ -4627,7 +4627,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"meissonier": {
+  "meissonier": {
     "id": "meissonier",
     "name": "Meissonier Ernest",
     "sortName": "Meissonier Ernest",
@@ -4762,7 +4762,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"memling": {
+  "memling": {
     "id": "memling",
     "name": "Memling Hans",
     "sortName": "Memling Hans",
@@ -4890,7 +4890,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"metsu": {
+  "metsu": {
     "id": "metsu",
     "name": "Metsu Gabriel",
     "sortName": "Metsu Gabriel",
@@ -5011,7 +5011,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"metsys": {
+  "metsys": {
     "id": "metsys",
     "name": "Metsys Quentin (Matsys / Massys)",
     "sortName": "Metsys Quentin",
@@ -5139,7 +5139,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"michel_ange": {
+  "michel_ange": {
     "id": "michel_ange",
     "name": "Michel-Ange (Michelangelo Buonarroti)",
     "sortName": "Michel-Ange",
@@ -5296,7 +5296,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"millais": {
+  "millais": {
     "id": "millais",
     "name": "Millais John Everett",
     "sortName": "Millais John Everett",
@@ -5431,7 +5431,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"millet": {
+  "millet": {
     "id": "millet",
     "name": "Millet Jean-François",
     "sortName": "Millet Jean-François",
@@ -5580,7 +5580,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"miro": {
+  "miro": {
     "id": "miro",
     "name": "Miró Joan",
     "sortName": "Miró Joan",
@@ -5729,7 +5729,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"mitchell": {
+  "mitchell": {
     "id": "mitchell",
     "name": "Mitchell Joan",
     "sortName": "Mitchell Joan",
@@ -5850,7 +5850,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"modigliani": {
+  "modigliani": {
     "id": "modigliani",
     "name": "Modigliani Amedeo",
     "sortName": "Modigliani Amedeo",
@@ -5992,7 +5992,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"mondrian": {
+  "mondrian": {
     "id": "mondrian",
     "name": "Mondrian Piet",
     "sortName": "Mondrian Piet",
@@ -6120,7 +6120,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
-"monet": {
+  "monet": {
     "id": "monet",
     "name": "Monet Claude",
     "sortName": "Monet Claude",
@@ -6359,16 +6359,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 473,
       "paintingsCount": 473,
       "details": [
-            {
-                  "label": "Peintures achevées & huiles de Salon",
-                  "count": 473,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Peintures achevées & huiles de Salon",
+          "count": 473,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue raisonné Pierre-Louis Mathieu (1976/1998)",
       "sourceNotes": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre achevé établi par Pierre-Louis Mathieu (1976, révisé en 1998). En écartant les quelque 4 800 dessins, calques et aquarelles préparatoires pour ne retenir que les huiles sur toile et sur panneau (ainsi que les très grandes aquarelles de Salon), ce travail d'une précision clinique fixe le corpus officiel de ses peintures achevées à très exactement 473 œuvres."
-},
+    },
     "totalOeuvresEstimees": "environ 473 peintures achevées",
     "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre achevé établi par Pierre-Louis Mathieu (1976, révisé en 1998). En écartant les 4 800 dessins et aquarelles d'atelier pour ne retenir que les toiles achevées, le corpus officiel de ses peintures est fixé à 473 œuvres.",
     "timeline": {
@@ -6493,16 +6493,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 423,
       "paintingsCount": 423,
       "details": [
-            {
-                  "label": "Peintures (huiles sur toile et panneau)",
-                  "count": 423,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Peintures (huiles sur toile et panneau)",
+          "count": 423,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue raisonné Clairet, Montalant & Rouart (1997)",
       "sourceNotes": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné de l'œuvre peint établi en 1997 par Alain Clairet, Delphine Montalant et Yves Rouart (actualisant le catalogue Bataille-Wildenstein de 1961). En excluant strictement son œuvre graphique sur papier, ce travail fixe le corpus officiel des peintures (huiles sur toile et panneau) de Berthe Morisot à très exactement 423 œuvres."
-},
+    },
     "totalOeuvresEstimees": "423 peintures à l'huile",
     "oeuvresConsensusNotice": "Catalogue raisonné de l'œuvre peint établi en 1997 par Alain Clairet, Delphine Montalant et Yves Rouart (actualisant le catalogue historique Bataille-Wildenstein). Fixe le corpus officiel de ses peintures à très exactement 423 œuvres.",
     "timeline": {
@@ -6636,16 +6636,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 1789,
       "paintingsCount": 1789,
       "details": [
-            {
-                  "label": "Peintures (huiles, tempera et pastels)",
-                  "count": 1789,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Peintures (huiles, tempera et pastels)",
+          "count": 1789,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue Raisonné Gerd Woll / Munch Museet (2008)",
       "sourceNotes": "L'inventaire scientifique absolu et définitif est le Catalogue Raisonné de ses peintures, publié en 2008 en quatre volumes monumentaux par Gerd Woll (Munch Museet). En purgeant le catalogue de ses estampes, dessins et photographies expérimentales, ce travail fixe le corpus officiel de ses peintures à très exactement 1 789 œuvres."
-},
+    },
     "totalOeuvresEstimees": "1 789 peintures officielles",
     "oeuvresConsensusNotice": "Catalogue raisonné en 4 volumes par Gerd Woll (2008, Munch Museet). Fixe le corpus officiel de ses peintures autographes à très exactement 1 789 œuvres.",
     "timeline": {
@@ -6785,16 +6785,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 400,
       "paintingsCount": 400,
       "details": [
-            {
-                  "label": "Peintures autographes",
-                  "count": 400,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Peintures autographes",
+          "count": 400,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catálogo razonado de pinturas Enrique Valdivieso (2010)",
       "sourceNotes": "L'inventaire scientifique de référence mondiale absolue est le monumental Catálogo razonado de pinturas publié en 2010 par Enrique Valdivieso (modernisant le catalogue historique de Diego Angulo Íñiguez de 1981). En purgeant impitoyablement les répliques d'atelier et tableaux d'entourage, ce travail fixe le corpus des peintures autographes de Murillo à très exactement 400 œuvres."
-},
+    },
     "totalOeuvresEstimees": "environ 400 peintures autographes",
     "oeuvresConsensusNotice": "Catálogo razonado de pinturas d'Enrique Valdivieso (2010), modernisant le travail de Diego Angulo Íñiguez. Fixe le corpus des peintures autographes à très exactement 400 œuvres.",
     "timeline": {
@@ -6923,16 +6923,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 500,
       "paintingsCount": 500,
       "details": [
-            {
-                  "label": "Peintures autographes (vedute, capricci, fêtes)",
-                  "count": 500,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Peintures autographes (vedute, capricci, fêtes)",
+          "count": 500,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue raisonné Ferdinando Arisi (1986)",
       "sourceNotes": "L'inventaire scientifique absolu et définitif est le monumental Catalogue raisonné de l'historien de l'art Ferdinando Arisi (Gian Paolo Panini e i fasti della Roma del '700, 1986). En purgeant le catalogue des innombrables copies d'atelier, ce travail d'une précision clinique fixe le corpus officiel de ses peintures autographes (vedute, capricci et scènes de fêtes) à très exactement environ 500 œuvres."
-},
+    },
     "totalOeuvresEstimees": "environ 500 peintures autographes",
     "oeuvresConsensusNotice": "Catalogue raisonné de Ferdinando Arisi (1986). En purgeant les copies d'atelier, fixe le corpus officiel de ses peintures autographes à environ 500 œuvres.",
     "timeline": {
@@ -7051,16 +7051,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 55,
       "paintingsCount": 55,
       "details": [
-            {
-                  "label": "Peintures autographes (fresques, panneaux, toiles)",
-                  "count": 55,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Peintures autographes (fresques, panneaux, toiles)",
+          "count": 55,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogo completo dei dipinti Mario Di Giampaolo (1991)",
       "sourceNotes": "L'inventaire scientifique de référence mondiale s'appuie sur le Catalogo completo dei dipinti établi par Mario Di Giampaolo (1991), magistralement complété par les monographies de David Ekserdjian et Mary Vaccaro. En écartant la production graphique pour ne retenir que fresques et huiles, le consensus fixe le corpus officiel à environ 50 à 60 œuvres."
-},
+    },
     "totalOeuvresEstimees": "environ 50 à 60 peintures autographes",
     "oeuvresConsensusNotice": "Catalogo completo dei dipinti de Mario Di Giampaolo (1991), complété par David Ekserdjian et Mary Vaccaro. Corpus établi à environ 50 à 60 peintures autographes.",
     "timeline": {
@@ -7180,16 +7180,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 1885,
       "paintingsCount": 1885,
       "details": [
-            {
-                  "label": "Tableaux (huiles sur toile, bois et panneau)",
-                  "count": 1885,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Tableaux (huiles sur toile, bois et panneau)",
+          "count": 1885,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue raisonné Christian Zervos / Cahiers d'Art",
       "sourceNotes": "L'inventaire scientifique de référence mondiale est le légendaire Catalogue raisonné initié par Christian Zervos (Cahiers d'Art, 34 volumes, plus de 16 000 œuvres). En appliquant une purge stricte pour écarter ses innombrables dessins, pastels, gouaches sur papier et carnets, le consensus scientifique fixe le corpus officiel de ses stricts tableaux à très exactement 1 885 peintures."
-},
+    },
     "totalOeuvresEstimees": "1 885 peintures (huiles sur toile et bois)",
     "oeuvresConsensusNotice": "Catalogue raisonné de Christian Zervos (Cahiers d'Art, 34 volumes). En isolant les huiles sur toile et panneau, le consensus scientifique fixe le corpus officiel des tableaux à très exactement 1 885 peintures.",
     "timeline": {
@@ -7345,16 +7345,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 65,
       "paintingsCount": 65,
       "details": [
-            {
-                  "label": "Cycles de fresques & retables autographes",
-                  "count": 65,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Cycles de fresques & retables autographes",
+          "count": 65,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue Pietro Scarpellini & Maria Rita Silvestrelli (2003)",
       "sourceNotes": "L'inventaire scientifique de référence s'appuie sur la monographie fondamentale d'Enzo Carli (1960), actualisée par le catalogue complet de Pietro Scarpellini et Maria Rita Silvestrelli (2003). Regroupant les fresques monumentales par cycles et isolant retables et panneaux de dévotion autographes, le consensus scientifique fixe le corpus officiel à environ 65 œuvres."
-},
+    },
     "totalOeuvresEstimees": "environ 65 peintures autographes",
     "oeuvresConsensusNotice": "Monographie d'Enzo Carli (1960) actualisée par Pietro Scarpellini et Maria Rita Silvestrelli (2003). Corpus officiel fixé à environ 65 œuvres.",
     "timeline": {
@@ -7459,16 +7459,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 1018,
       "paintingsCount": 1018,
       "details": [
-            {
-                  "label": "Gravures & estampes autographes (eaux-fortes)",
-                  "count": 1018,
-                  "icon": "🏛️",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Gravures & estampes autographes (eaux-fortes)",
+          "count": 1018,
+          "icon": "🏛️",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue raisonné Henri Focillon (1918) / John Wilton-Ely (1994)",
       "sourceNotes": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné d'Henri Focillon (1918), actualisé par John Wilton-Ely en 1994 (The Complete Etchings). En excluant ses dessins préparatoires, ce consensus scientifique fixe le corpus officiel et définitif de ses gravures (eaux-fortes) à très exactement 1 018 estampes."
-},
+    },
     "totalOeuvresEstimees": "1 018 gravures autographes (eaux-fortes)",
     "oeuvresConsensusNotice": "Catalogue raisonné d'Henri Focillon (1918) actualisé par John Wilton-Ely (1994). Fixe le corpus officiel de ses gravures à très exactement 1 018 estampes.",
     "timeline": {
@@ -7584,16 +7584,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 1528,
       "paintingsCount": 1528,
       "details": [
-            {
-                  "label": "Peintures à l'huile autographes",
-                  "count": 1528,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Peintures à l'huile autographes",
+          "count": 1528,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue critique Joachim Pissarro & Claire Durand-Ruel (2005)",
       "sourceNotes": "L'inventaire scientifique de référence mondiale est le titanesque Catalogue critique des peintures (Critical Catalogue of Paintings) établi par Joachim Pissarro et Claire Durand-Ruel Snollaerts (Wildenstein Institute, 2005, 3 volumes). Écartant l'œuvre sur papier, ce travail fixe le corpus officiel et définitif de ses peintures à l'huile à très exactement 1 528 œuvres."
-},
+    },
     "totalOeuvresEstimees": "1 528 peintures à l'huile autographes",
     "oeuvresConsensusNotice": "Catalogue critique des peintures par Joachim Pissarro et Claire Durand-Ruel Snollaerts (Wildenstein Institute, 2005, 3 volumes). Fixe le corpus officiel à très exactement 1 528 peintures à l'huile.",
     "timeline": {
@@ -7737,16 +7737,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 5,
       "paintingsCount": 5,
       "details": [
-            {
-                  "label": "Fresques monumentales documentées",
-                  "count": 5,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Fresques monumentales documentées",
+          "count": 5,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Archives padouanes & études Keith Christiansen",
       "sourceNotes": "En se basant sur les archives padouanes et les études de spécialistes comme Keith Christiansen, et en excluant les quelques rares terres cuites pour ne retenir que ses interventions documentées en fresque, le consensus scientifique fixe son corpus pictural authentifié à seulement 4 à 5 œuvres (abside de la chapelle Ovetari)."
-},
+    },
     "totalOeuvresEstimees": "4 à 5 œuvres documentées",
     "oeuvresConsensusNotice": "Archives padouanes et études critiques de Keith Christiansen. En raison de sa mort prématurée à 33 ans et des destructions de 1944, corpus authentifié à 4 à 5 œuvres en fresque.",
     "timeline": {
@@ -7851,16 +7851,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 382,
       "paintingsCount": 382,
       "details": [
-            {
-                  "label": "Peintures (huiles, laques, émaux et industrielles)",
-                  "count": 382,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Peintures (huiles, laques, émaux et industrielles)",
+          "count": 382,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue raisonné Francis V. O'Connor & Eugene V. Thaw (1978)",
       "sourceNotes": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné en quatre volumes établi par Francis Valentine O'Connor et Eugene Victor Thaw (1978). Ce travail fixe le corpus officiel de ses peintures (huiles, laques, émaux et peintures industrielles sur toile ou panneau) à environ 382 œuvres."
-},
+    },
     "totalOeuvresEstimees": "environ 382 peintures",
     "oeuvresConsensusNotice": "Catalogue raisonné en 4 volumes par Francis Valentine O'Connor et Eugene Victor Thaw (1978). Fixe le corpus officiel de ses peintures à environ 382 œuvres.",
     "timeline": {
@@ -7977,16 +7977,16 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "total": 252,
       "paintingsCount": 252,
       "details": [
-            {
-                  "label": "Peintures à l'huile autographes",
-                  "count": 252,
-                  "icon": "🎨",
-                  "color": "#d4af37"
-            }
+        {
+          "label": "Peintures à l'huile autographes",
+          "count": 252,
+          "icon": "🎨",
+          "color": "#d4af37"
+        }
       ],
       "sourceTitle": "Catalogue raisonné Pierre Rosenberg (2015)",
       "sourceNotes": "L'inventaire scientifique d'autorité mondiale et définitive est le monumental catalogue raisonné publié en 2015 par Pierre Rosenberg (Nicolas Poussin, Les tableaux). Écarte son œuvre dessiné pour fixer le corpus officiel et incontesté de ses peintures à l'huile à très exactement 252 œuvres."
-},
+    },
     "totalOeuvresEstimees": "252 peintures à l'huile autographes",
     "oeuvresConsensusNotice": "Catalogue raisonné définitif par Pierre Rosenberg (2015). Écarte l'œuvre dessiné pour fixer le corpus officiel de ses peintures à l'huile à très exactement 252 œuvres.",
     "timeline": {
@@ -9785,283 +9785,283 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     }
   },
   "rubens": {
-  "id": "rubens",
-  "name": "Rubens Pierre Paul",
-  "sortName": "Rubens Pierre Paul",
-  "sortLetter": "R",
-  "dates": "1577 – 1640",
-  "movement": "Baroque flamand, Peinture d'histoire, Mythologie & Portrait de cour",
-  "nationality": "Flamand (Siegen, actif à Anvers, Mantoue, Rome, Paris, Londres et Madrid)",
-  "techniques": "Huile sur toile et panneau de chêne, esquisse à l'huile (modello), dessin préparatoire, détrempe",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM8EpF1OUVXvqKvCQvukh6DE9rCJhj0JlfuEg01Mng8GirTDGRd9ZqaguvvDmLIEUJFkCXv82SUBxJSFjQAYNgqRy76cKDV9m75lFN0pmd_BUlHoDF9MioP1jw3opwXgllK0FHGGO882gAYfC9V53kIsw=w1942-h824-s-no-gm?authuser=0",
-  "portraitImg": "",
-  "bio": "\n      <p><strong>Le maître absolu du Baroque flamand et le prince des peintres</strong><br>\n      Pierre Paul Rubens (1577 – 1640) est le maître incontesté du Baroque flamand et l’un des artistes les plus polyvalents et influents de l'histoire de l'art occidental. À la fois peintre d'histoire de cour, décorateur de génie, humaniste érudit et diplomate de haut rang, il a dirigé à Anvers l'un des ateliers les plus productifs d'Europe, révolutionnant la peinture par son sens héroïque du mouvement, sa puissance dramatique et son exaltation sensuelle de la vie.</p>\n      <p><strong>L'énergie vitale, le dynamisme en diagonale et la chair incandescente</strong><br>\n      Son genre pictural fusionne avec maestria l'héritage de la Renaissance italienne — la puissance anatomique de Michel-Ange, le coloris lumineux et chaud de Titien, le clair-obscur dramatique de Caravage — avec le réalisme et la précision tactile flamands. Son style se caractérise par des compositions dynamiques en diagonale ou en spirale, des musculatures athlétiques, des carnations nacrées vibrantes de sang et de lumière, et une prodigieuse liberté de brosse célébrant l'ivresse des sens et la transcendance divine.</p>\n      <p><strong>De la vigueur anversoise au cycle Médicis et à la poésie champêtre de Steen</strong><br>\n      L'évolution de son art marque une souveraineté technique totale au service de l'Église de la Contre-Réforme et des cours princières : après le choc fondateur du séjour italien et les grands retables anversois des années 1610, il atteint le zénith décoratif dans les années 1620 avec le colossal cycle de Marie de Médicis au Palais du Luxembourg. Retiré dans les années 1630 en son château de Het Steen auprès de sa jeune épouse Hélène Fourment, son pinceau s'affranchit de toute commande officielle pour s'épanouir dans un lyrisme tardif pastoral, sensuel et crépusculaire qui préfigure le style Rococo.</p>\n    ",
-  "corpus": {
-    "total": 1400,
-    "paintingsCount": 1400,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 39,
-    "source": "Corpus Rubenianum Ludwig Burchard (Centrum voor de Vlaamse Primitieven & IRPA Bruxelles)",
-    "totalOeuvresEstimees": "~1 400 peintures strictement autographes répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Corpus Rubenianum Ludwig Burchard, publié par le Centrum voor de Vlaamse Primitieven et l'Institut Royal du Patrimoine Artistique de Bruxelles. Ce projet encyclopédique en plusieurs dizaines de volumes distingue strictement les œuvres entièrement autographes de celles issues de l'atelier. Le consensus scientifique muséal et universitaire fixe le corpus officiel des peintures strictement de la main de Rubens à environ 1 400 œuvres."
-  },
-  "timeline": {
-    "periods": [
-      {
-        "name": "1600 – 1619 : Le voyage en Italie et la vigueur baroque anversoise",
-        "title": "1600 – 1619 : Le voyage en Italie et la vigueur baroque anversoise",
-        "years": "1600 – 1619",
-        "color": "#c67a32",
-        "summary": "Après huit années décisives en Italie au service du duc de Mantoue, où il absorbe la leçon de Michel-Ange, Titien et Caravage, Rubens regagne Anvers en 1608. Nommé peintre de cour des archiducs Albert et Isabelle, il impose au Nord un baroque monumental, athlétique et flamboyant.",
-        "events": [
-          {
-            "year": "1600 – 1608",
-            "title": "Séjour en Italie et révélation de la Renaissance vénitienne et romaine",
-            "desc": "Au service de Vincent de Gonzague à Mantoue, il voyage à Rome, Venise et Gênes, assimilant la plastique antique, le coloris de Titien et le chiaroscuro caravagesque.",
-            "type": "turning_point",
-            "badge": "FORMATION ITALIENNE",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1602 – 1605",
-            "title": "Hercule et Omphale (Musée du Louvre)",
-            "desc": "Peinte à Rome pour un commanditaire génois, cette toile illustre l'inversion carnavalesque des rôles où le héros herculéen file la laine sous le regard moqueur d'Omphale.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE ITALIEN",
-            "icon": "🦁",
-            "artworkId": "peinture_rubens_hercule_et_omphale_louvre_1602"
-          },
-          {
-            "year": "1609",
-            "title": "Nomination comme peintre de cour des archiducs Albert et Isabelle",
-            "desc": "Établi à Anvers, il épouse Isabelle Brant et obtient le privilège exceptionnel de résider hors de la cour de Bruxelles tout en bénéficiant de franchises fiscales.",
-            "type": "turning_point",
-            "badge": "PEINTRE DE COUR",
-            "icon": "👑"
-          },
-          {
-            "year": "1610 – 1614",
-            "title": "Les grands retables anversois : L'Érection de la Croix et La Descente de Croix",
-            "desc": "Manifestes éclatants de la Contre-Réforme catholique à la cathédrale Notre-Dame d'Anvers, déployant une anatomie herculéenne et une diagonale pathétique colossale.",
-            "type": "masterpiece",
-            "badge": "TRIOMPHE DU BAROQUE",
-            "icon": "✝️"
-          },
-          {
-            "year": "1612",
-            "title": "Deux enfants endormis (Tokyo, National Museum of Western Art)",
-            "desc": "Étude intime et touchante sur le vif, traditionnellement identifiée aux fils de l'artiste Albert et Nicolas, peinte sur panneau avec une liberté de touche remarquable.",
-            "type": "turning_point",
-            "badge": "INTIMITÉ FAMILIALE",
-            "icon": "👶"
-          },
-          {
-            "year": "1614 – 1618",
-            "title": "Paysage avec les ruines du mont Palatin à Rome (Musée du Louvre)",
-            "desc": "Méditation nostalgique sur la grandeur déchue de la Ville éternelle, où la végétation luxuriante reconquiert les voûtes cyclopéennes des palais impériaux.",
-            "type": "turning_point",
-            "badge": "MÉDITATION ANTIQUE",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1615",
-            "title": "Ixion trompé par Junon (Musée du Louvre)",
-            "desc": "Allégorie de la démesure et de l'illusion des sens : Ixion étreint la nuée feinte créée par Jupiter sous le regard triomphal de la reine des dieux.",
-            "type": "turning_point",
-            "badge": "MYTHOLOGIE MORALISÉE",
-            "icon": "🦚"
-          },
-          {
-            "year": "1615",
-            "title": "L'Adoration des Bergers (Musée des Beaux-Arts de Rouen)",
-            "desc": "Clair-obscur magistral où l'Enfant Jésus devient l'unique source de lumière incandescente, illuminant les visages dévots des paysans et les ailes d'anges.",
-            "type": "masterpiece",
-            "badge": "CLAIR-OBSCUR SACRÉ",
-            "icon": "🌟",
-            "artworkId": "peinture_rubens_adoration_des_bergers_rouen_1615"
-          },
-          {
-            "year": "1615",
-            "title": "Portrait du peintre Frans Francken l'Ancien (Musée Fabre, Montpellier)",
-            "desc": "Hommage vibrant à son confrère peintre d'histoire de la guilde de Saint-Luc, alliant austérité de la fraise flamande et vivacité psychologique du regard.",
-            "type": "turning_point",
-            "badge": "PORTRAIT ANVERSOIS",
-            "icon": "🎨"
-          },
-          {
-            "year": "1616",
-            "title": "La Chasse aux tigres (Musée des Beaux-Arts de Rennes)",
-            "desc": "Commandée par le duc Maximilien de Bavière pour son château de Schleissheim : furieux corps-à-corps en spirale entre cavaliers orientaux, fauves et chevaux terrifiés.",
-            "type": "masterpiece",
-            "badge": "CHOC BAROQUE",
-            "icon": "🐅",
-            "artworkId": "peinture_rubens_la_chasse_aux_tigres_rennes_1616"
-          }
-        ]
-      },
-      {
-        "name": "1620 – 1630 : Le cycle Marie de Médicis, la diplomatie européenne et la pleine maturité",
-        "title": "1620 – 1630 : Le cycle Marie de Médicis, la diplomatie européenne et la pleine maturité",
-        "years": "1620 – 1630",
-        "color": "#4a7c59",
-        "summary": "Dans les années 1620, Rubens atteint le zénith de son prestige international. Marie de Médicis lui confie la monumentale Galerie du Luxembourg à Paris, qu'il transforme en le plus grandiose ensemble allégorique de l'art européen. Parallèlement, il œuvre comme négociateur et diplomate pour sceller la paix entre l'Espagne et l'Angleterre.",
-        "events": [
-          {
-            "year": "1620 – 1623",
-            "title": "Thomyris fait plonger la tête de Cyrus dans le sang (Musée du Louvre)",
-            "desc": "Grand tableau d'histoire inspiré d'Hérodote, illustrant le châtiment impitoyable de la reine scythe infligé au conquérant perse insatiable de conquêtes.",
-            "type": "turning_point",
-            "badge": "HISTOIRE SACRÉE & PROFANE",
-            "icon": "⚔️"
-          },
-          {
-            "year": "1620",
-            "title": "Allégorie de l'Autriche catholique (Musée Fabre, Montpellier)",
-            "desc": "Modello sur panneau commandé à l'aube de la guerre de Trente Ans, figurant la foi habsbourgeoise défendue par la force de Minerve contre l'hérésie réformée.",
-            "type": "turning_point",
-            "badge": "MODELLO POLITIQUE",
-            "icon": "🛡️"
-          },
-          {
-            "year": "1621 – 1625",
-            "title": "Le Débarquement de la reine à Marseille (Musée du Louvre)",
-            "desc": "Chef-d'œuvre suprême du cycle du Luxembourg : Marie de Médicis accueillie par la France tandis que les Néréides émergent de l'écume marine.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE MONUMENTAL",
-            "icon": "👑",
-            "artworkId": "peinture_rubens_debarquement_reine_marseille_louvre_1622"
-          },
-          {
-            "year": "1622 – 1625",
-            "title": "Le Couronnement de la reine à Saint-Denis (Musée du Louvre)",
-            "desc": "Faste monumental de la consécration royale sous les ogives sacrées de Saint-Denis, déployant la pourpre, l'or et l'onction monarchique.",
-            "type": "masterpiece",
-            "badge": "CYCLE DU LUXEMBOURG",
-            "icon": "⚜️",
-            "artworkId": "peinture_rubens_couronnement_reine_abbaye_saint_denis_louvre_1622"
-          },
-          {
-            "year": "1622 – 1625",
-            "title": "L'Apothéose de Henri IV et La Félicité de la Régence",
-            "desc": "Sommet de rhétorique visuelle où le Bien-Aimé s'élève parmi les dieux tandis que la Reine mère assume la conduite du navire de l'État dans l'Abondance.",
-            "type": "turning_point",
-            "badge": "RHÉTORIQUE VISUELLE",
-            "icon": "✨"
-          },
-          {
-            "year": "1626 – 1627",
-            "title": "L'Adoration des Mages (Musée du Louvre)",
-            "desc": "Somptueuse composition commandée pour le couvent des Annonciades d'Anvers, remarquable par la cascade de pourpre, d'or et d'encens qui entoure la Vierge à l'Enfant.",
-            "type": "masterpiece",
-            "badge": "FASTES D'ANVERS",
-            "icon": "🐪",
-            "artworkId": "peinture_rubens_adoration_des_mages_louvre_1626"
-          },
-          {
-            "year": "1628 – 1630",
-            "title": "Missions diplomatiques à Madrid et Londres, anoblissement par Charles Ier",
-            "desc": "Négocie avec succès la paix anglo-espagnole. À Madrid, il se lie d'amitié avec le jeune Velázquez et copie les chefs-d'œuvre de Titien de la collection royale.",
-            "type": "turning_point",
-            "badge": "PEINTRE & DIPLOMATE",
-            "icon": "📜"
-          },
-          {
-            "year": "1630",
-            "title": "L'Abondance - Abundantia (Modello)",
-            "desc": "Étude à l'huile d'une légèreté vaporeuse pour les décors plafonnants de la Banqueting House de Whitehall, allégorie de la prospérité féconde de la paix.",
-            "type": "turning_point",
-            "badge": "ALLÉGORIE DE WHITEHALL",
-            "icon": "🌾"
-          }
-        ]
-      },
-      {
-        "name": "1631 – 1640 : Le château de Steen, la félicité domestique et le lyrisme tardif",
-        "title": "1631 – 1640 : Le château de Steen, la félicité domestique et le lyrisme tardif",
-        "years": "1631 – 1640",
-        "color": "#8b4513",
-        "summary": "À la fin de sa vie, retiré dans sa propriété champêtre de Het Steen à Elewijt avec sa jeune épouse Hélène Fourment, Rubens peint pour son propre plaisir. Sa palette s'allège, sa touche devient aérienne et vibrante, célébrant l'amour conjugal, la fertilité de la terre et des paysages crépusculaires qui annoncent Watteau et le siècle des Lumières.",
-        "events": [
-          {
-            "year": "1630",
-            "title": "Mariage avec Hélène Fourment et renouveau créateur",
-            "desc": "À 53 ans, il épouse la jeune Hélène Fourment âgée de seize ans, qui devient son inspiratrice suprême et l'incarnation de la beauté féminine radieuse.",
-            "type": "turning_point",
-            "badge": "MUSE & INSPIRATION",
-            "icon": "💍"
-          },
-          {
-            "year": "1633 – 1634",
-            "title": "L'Adoration des Mages (King's College Chapel, Cambridge)",
-            "desc": "Retable monumental de plus de quatre mètres de haut peint pour le couvent des Dames blanches de Louvain, chef-d'œuvre de dynamisme ascensionnel et de coloris vénitien.",
-            "type": "turning_point",
-            "badge": "RETABLE GÉANT",
-            "icon": "👑"
-          },
-          {
-            "year": "1634",
-            "title": "Le Triomphe de Judas Macchabée (Musée d'Arts de Nantes)",
-            "desc": "Commandé par la cathédrale de Tournai, ce retable monumental illustre l'offrande sacrificielle pour le repos des guerriers tombés au combat.",
-            "type": "turning_point",
-            "badge": "ÉPOPÉE BIBLIQUE",
-            "icon": "⚔️"
-          },
-          {
-            "year": "1635",
-            "title": "Achat du château seigneurial de Het Steen à Elewijt",
-            "desc": "Rubens acquiert ce domaine du Brabant et passe ses étés à peindre des paysages champêtres d'une liberté absolue, libéré de toute commande officielle.",
-            "type": "turning_point",
-            "badge": "SEIGNEUR DE STEEN",
-            "icon": "🏰"
-          },
-          {
-            "year": "1635",
-            "title": "La Mort de Didon, reine de Carthage (Musée du Louvre)",
-            "desc": "Tragédie virgilienne d'un pathétique bouleversant : Didon abandonnée sur le bûcher transperce sa poitrine, peinte avec une sensualité charnelle poignante.",
-            "type": "turning_point",
-            "badge": "TRAGÉDIE ANTIQUE",
-            "icon": "🗡️"
-          },
-          {
-            "year": "1635 – 1637",
-            "title": "Tournoi près des fossés du château de Steen (Musée du Louvre)",
-            "desc": "Joute chevaleresque médiévale brossée avec une fougue étourdissante dans un paysage brabançon mordoré baigné d'une atmosphère crépusculaire.",
-            "type": "masterpiece",
-            "badge": "FOUGUE CHEVALERESQUE",
-            "icon": "🛡️",
-            "artworkId": "peinture_rubens_tournoi_fosses_chateau_de_steen_louvre_1635"
-          },
-          {
-            "year": "1635 – 1640",
-            "title": "Paysage du soir à l'oiseleur, avec pleine lune (Musée du Louvre)",
-            "desc": "Morceau de pure poésie atmosphérique où le disque d'argent de la lune se reflète dans les étangs sombres d'Elewijt, annonçant le paysage romantique.",
-            "type": "turning_point",
-            "badge": "POÉSIE NOCTURNE",
-            "icon": "🌕"
-          },
-          {
-            "year": "1639",
-            "title": "Hélène Fourment au carrosse (Musée du Louvre)",
-            "desc": "Portrait d'apparat intime où sa jeune épouse s'apprête à monter dans un carrosse doré devant son manoir, symbole d'une noblesse heureuse et comblée.",
-            "type": "turning_point",
-            "badge": "FÉLICITÉ CONJUGALE",
-            "icon": "🐎"
-          },
-          {
-            "year": "1639",
-            "title": "Les trois Grâces (Musée du Prado, Madrid)",
-            "desc": "Testament esthétique conservé dans sa collection personnelle jusqu'à sa mort : ode panthéiste aux chairs opulentes et à l'harmonieuse pulsation du vivant.",
-            "type": "masterpiece",
-            "badge": "TESTAMENT ÉTERNEL",
-            "icon": "🌸",
-            "artworkId": "peinture_rubens_les_trois_graces_madrid_prado_1639"
-          }
-        ]
-      }
-    ]
-  }
+    "id": "rubens",
+    "name": "Rubens Pierre Paul",
+    "sortName": "Rubens Pierre Paul",
+    "sortLetter": "R",
+    "dates": "1577 – 1640",
+    "movement": "Baroque flamand, Peinture d'histoire, Mythologie & Portrait de cour",
+    "nationality": "Flamand (Siegen, actif à Anvers, Mantoue, Rome, Paris, Londres et Madrid)",
+    "techniques": "Huile sur toile et panneau de chêne, esquisse à l'huile (modello), dessin préparatoire, détrempe",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM8EpF1OUVXvqKvCQvukh6DE9rCJhj0JlfuEg01Mng8GirTDGRd9ZqaguvvDmLIEUJFkCXv82SUBxJSFjQAYNgqRy76cKDV9m75lFN0pmd_BUlHoDF9MioP1jw3opwXgllK0FHGGO882gAYfC9V53kIsw=w1942-h824-s-no-gm?authuser=0",
+    "portraitImg": "",
+    "bio": "\n      <p><strong>Le maître absolu du Baroque flamand et le prince des peintres</strong><br>\n      Pierre Paul Rubens (1577 – 1640) est le maître incontesté du Baroque flamand et l’un des artistes les plus polyvalents et influents de l'histoire de l'art occidental. À la fois peintre d'histoire de cour, décorateur de génie, humaniste érudit et diplomate de haut rang, il a dirigé à Anvers l'un des ateliers les plus productifs d'Europe, révolutionnant la peinture par son sens héroïque du mouvement, sa puissance dramatique et son exaltation sensuelle de la vie.</p>\n      <p><strong>L'énergie vitale, le dynamisme en diagonale et la chair incandescente</strong><br>\n      Son genre pictural fusionne avec maestria l'héritage de la Renaissance italienne — la puissance anatomique de Michel-Ange, le coloris lumineux et chaud de Titien, le clair-obscur dramatique de Caravage — avec le réalisme et la précision tactile flamands. Son style se caractérise par des compositions dynamiques en diagonale ou en spirale, des musculatures athlétiques, des carnations nacrées vibrantes de sang et de lumière, et une prodigieuse liberté de brosse célébrant l'ivresse des sens et la transcendance divine.</p>\n      <p><strong>De la vigueur anversoise au cycle Médicis et à la poésie champêtre de Steen</strong><br>\n      L'évolution de son art marque une souveraineté technique totale au service de l'Église de la Contre-Réforme et des cours princières : après le choc fondateur du séjour italien et les grands retables anversois des années 1610, il atteint le zénith décoratif dans les années 1620 avec le colossal cycle de Marie de Médicis au Palais du Luxembourg. Retiré dans les années 1630 en son château de Het Steen auprès de sa jeune épouse Hélène Fourment, son pinceau s'affranchit de toute commande officielle pour s'épanouir dans un lyrisme tardif pastoral, sensuel et crépusculaire qui préfigure le style Rococo.</p>\n    ",
+    "corpus": {
+      "total": 1400,
+      "paintingsCount": 1400,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 39,
+      "source": "Corpus Rubenianum Ludwig Burchard (Centrum voor de Vlaamse Primitieven & IRPA Bruxelles)",
+      "totalOeuvresEstimees": "~1 400 peintures strictement autographes répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Corpus Rubenianum Ludwig Burchard, publié par le Centrum voor de Vlaamse Primitieven et l'Institut Royal du Patrimoine Artistique de Bruxelles. Ce projet encyclopédique en plusieurs dizaines de volumes distingue strictement les œuvres entièrement autographes de celles issues de l'atelier. Le consensus scientifique muséal et universitaire fixe le corpus officiel des peintures strictement de la main de Rubens à environ 1 400 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "name": "1600 – 1619 : Le voyage en Italie et la vigueur baroque anversoise",
+          "title": "1600 – 1619 : Le voyage en Italie et la vigueur baroque anversoise",
+          "years": "1600 – 1619",
+          "color": "#c67a32",
+          "summary": "Après huit années décisives en Italie au service du duc de Mantoue, où il absorbe la leçon de Michel-Ange, Titien et Caravage, Rubens regagne Anvers en 1608. Nommé peintre de cour des archiducs Albert et Isabelle, il impose au Nord un baroque monumental, athlétique et flamboyant.",
+          "events": [
+            {
+              "year": "1600 – 1608",
+              "title": "Séjour en Italie et révélation de la Renaissance vénitienne et romaine",
+              "desc": "Au service de Vincent de Gonzague à Mantoue, il voyage à Rome, Venise et Gênes, assimilant la plastique antique, le coloris de Titien et le chiaroscuro caravagesque.",
+              "type": "turning_point",
+              "badge": "FORMATION ITALIENNE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1602 – 1605",
+              "title": "Hercule et Omphale (Musée du Louvre)",
+              "desc": "Peinte à Rome pour un commanditaire génois, cette toile illustre l'inversion carnavalesque des rôles où le héros herculéen file la laine sous le regard moqueur d'Omphale.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE ITALIEN",
+              "icon": "🦁",
+              "artworkId": "peinture_rubens_hercule_et_omphale_louvre_1602"
+            },
+            {
+              "year": "1609",
+              "title": "Nomination comme peintre de cour des archiducs Albert et Isabelle",
+              "desc": "Établi à Anvers, il épouse Isabelle Brant et obtient le privilège exceptionnel de résider hors de la cour de Bruxelles tout en bénéficiant de franchises fiscales.",
+              "type": "turning_point",
+              "badge": "PEINTRE DE COUR",
+              "icon": "👑"
+            },
+            {
+              "year": "1610 – 1614",
+              "title": "Les grands retables anversois : L'Érection de la Croix et La Descente de Croix",
+              "desc": "Manifestes éclatants de la Contre-Réforme catholique à la cathédrale Notre-Dame d'Anvers, déployant une anatomie herculéenne et une diagonale pathétique colossale.",
+              "type": "masterpiece",
+              "badge": "TRIOMPHE DU BAROQUE",
+              "icon": "✝️"
+            },
+            {
+              "year": "1612",
+              "title": "Deux enfants endormis (Tokyo, National Museum of Western Art)",
+              "desc": "Étude intime et touchante sur le vif, traditionnellement identifiée aux fils de l'artiste Albert et Nicolas, peinte sur panneau avec une liberté de touche remarquable.",
+              "type": "turning_point",
+              "badge": "INTIMITÉ FAMILIALE",
+              "icon": "👶"
+            },
+            {
+              "year": "1614 – 1618",
+              "title": "Paysage avec les ruines du mont Palatin à Rome (Musée du Louvre)",
+              "desc": "Méditation nostalgique sur la grandeur déchue de la Ville éternelle, où la végétation luxuriante reconquiert les voûtes cyclopéennes des palais impériaux.",
+              "type": "turning_point",
+              "badge": "MÉDITATION ANTIQUE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1615",
+              "title": "Ixion trompé par Junon (Musée du Louvre)",
+              "desc": "Allégorie de la démesure et de l'illusion des sens : Ixion étreint la nuée feinte créée par Jupiter sous le regard triomphal de la reine des dieux.",
+              "type": "turning_point",
+              "badge": "MYTHOLOGIE MORALISÉE",
+              "icon": "🦚"
+            },
+            {
+              "year": "1615",
+              "title": "L'Adoration des Bergers (Musée des Beaux-Arts de Rouen)",
+              "desc": "Clair-obscur magistral où l'Enfant Jésus devient l'unique source de lumière incandescente, illuminant les visages dévots des paysans et les ailes d'anges.",
+              "type": "masterpiece",
+              "badge": "CLAIR-OBSCUR SACRÉ",
+              "icon": "🌟",
+              "artworkId": "peinture_rubens_adoration_des_bergers_rouen_1615"
+            },
+            {
+              "year": "1615",
+              "title": "Portrait du peintre Frans Francken l'Ancien (Musée Fabre, Montpellier)",
+              "desc": "Hommage vibrant à son confrère peintre d'histoire de la guilde de Saint-Luc, alliant austérité de la fraise flamande et vivacité psychologique du regard.",
+              "type": "turning_point",
+              "badge": "PORTRAIT ANVERSOIS",
+              "icon": "🎨"
+            },
+            {
+              "year": "1616",
+              "title": "La Chasse aux tigres (Musée des Beaux-Arts de Rennes)",
+              "desc": "Commandée par le duc Maximilien de Bavière pour son château de Schleissheim : furieux corps-à-corps en spirale entre cavaliers orientaux, fauves et chevaux terrifiés.",
+              "type": "masterpiece",
+              "badge": "CHOC BAROQUE",
+              "icon": "🐅",
+              "artworkId": "peinture_rubens_la_chasse_aux_tigres_rennes_1616"
+            }
+          ]
+        },
+        {
+          "name": "1620 – 1630 : Le cycle Marie de Médicis, la diplomatie européenne et la pleine maturité",
+          "title": "1620 – 1630 : Le cycle Marie de Médicis, la diplomatie européenne et la pleine maturité",
+          "years": "1620 – 1630",
+          "color": "#4a7c59",
+          "summary": "Dans les années 1620, Rubens atteint le zénith de son prestige international. Marie de Médicis lui confie la monumentale Galerie du Luxembourg à Paris, qu'il transforme en le plus grandiose ensemble allégorique de l'art européen. Parallèlement, il œuvre comme négociateur et diplomate pour sceller la paix entre l'Espagne et l'Angleterre.",
+          "events": [
+            {
+              "year": "1620 – 1623",
+              "title": "Thomyris fait plonger la tête de Cyrus dans le sang (Musée du Louvre)",
+              "desc": "Grand tableau d'histoire inspiré d'Hérodote, illustrant le châtiment impitoyable de la reine scythe infligé au conquérant perse insatiable de conquêtes.",
+              "type": "turning_point",
+              "badge": "HISTOIRE SACRÉE & PROFANE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1620",
+              "title": "Allégorie de l'Autriche catholique (Musée Fabre, Montpellier)",
+              "desc": "Modello sur panneau commandé à l'aube de la guerre de Trente Ans, figurant la foi habsbourgeoise défendue par la force de Minerve contre l'hérésie réformée.",
+              "type": "turning_point",
+              "badge": "MODELLO POLITIQUE",
+              "icon": "🛡️"
+            },
+            {
+              "year": "1621 – 1625",
+              "title": "Le Débarquement de la reine à Marseille (Musée du Louvre)",
+              "desc": "Chef-d'œuvre suprême du cycle du Luxembourg : Marie de Médicis accueillie par la France tandis que les Néréides émergent de l'écume marine.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE MONUMENTAL",
+              "icon": "👑",
+              "artworkId": "peinture_rubens_debarquement_reine_marseille_louvre_1622"
+            },
+            {
+              "year": "1622 – 1625",
+              "title": "Le Couronnement de la reine à Saint-Denis (Musée du Louvre)",
+              "desc": "Faste monumental de la consécration royale sous les ogives sacrées de Saint-Denis, déployant la pourpre, l'or et l'onction monarchique.",
+              "type": "masterpiece",
+              "badge": "CYCLE DU LUXEMBOURG",
+              "icon": "⚜️",
+              "artworkId": "peinture_rubens_couronnement_reine_abbaye_saint_denis_louvre_1622"
+            },
+            {
+              "year": "1622 – 1625",
+              "title": "L'Apothéose de Henri IV et La Félicité de la Régence",
+              "desc": "Sommet de rhétorique visuelle où le Bien-Aimé s'élève parmi les dieux tandis que la Reine mère assume la conduite du navire de l'État dans l'Abondance.",
+              "type": "turning_point",
+              "badge": "RHÉTORIQUE VISUELLE",
+              "icon": "✨"
+            },
+            {
+              "year": "1626 – 1627",
+              "title": "L'Adoration des Mages (Musée du Louvre)",
+              "desc": "Somptueuse composition commandée pour le couvent des Annonciades d'Anvers, remarquable par la cascade de pourpre, d'or et d'encens qui entoure la Vierge à l'Enfant.",
+              "type": "masterpiece",
+              "badge": "FASTES D'ANVERS",
+              "icon": "🐪",
+              "artworkId": "peinture_rubens_adoration_des_mages_louvre_1626"
+            },
+            {
+              "year": "1628 – 1630",
+              "title": "Missions diplomatiques à Madrid et Londres, anoblissement par Charles Ier",
+              "desc": "Négocie avec succès la paix anglo-espagnole. À Madrid, il se lie d'amitié avec le jeune Velázquez et copie les chefs-d'œuvre de Titien de la collection royale.",
+              "type": "turning_point",
+              "badge": "PEINTRE & DIPLOMATE",
+              "icon": "📜"
+            },
+            {
+              "year": "1630",
+              "title": "L'Abondance - Abundantia (Modello)",
+              "desc": "Étude à l'huile d'une légèreté vaporeuse pour les décors plafonnants de la Banqueting House de Whitehall, allégorie de la prospérité féconde de la paix.",
+              "type": "turning_point",
+              "badge": "ALLÉGORIE DE WHITEHALL",
+              "icon": "🌾"
+            }
+          ]
+        },
+        {
+          "name": "1631 – 1640 : Le château de Steen, la félicité domestique et le lyrisme tardif",
+          "title": "1631 – 1640 : Le château de Steen, la félicité domestique et le lyrisme tardif",
+          "years": "1631 – 1640",
+          "color": "#8b4513",
+          "summary": "À la fin de sa vie, retiré dans sa propriété champêtre de Het Steen à Elewijt avec sa jeune épouse Hélène Fourment, Rubens peint pour son propre plaisir. Sa palette s'allège, sa touche devient aérienne et vibrante, célébrant l'amour conjugal, la fertilité de la terre et des paysages crépusculaires qui annoncent Watteau et le siècle des Lumières.",
+          "events": [
+            {
+              "year": "1630",
+              "title": "Mariage avec Hélène Fourment et renouveau créateur",
+              "desc": "À 53 ans, il épouse la jeune Hélène Fourment âgée de seize ans, qui devient son inspiratrice suprême et l'incarnation de la beauté féminine radieuse.",
+              "type": "turning_point",
+              "badge": "MUSE & INSPIRATION",
+              "icon": "💍"
+            },
+            {
+              "year": "1633 – 1634",
+              "title": "L'Adoration des Mages (King's College Chapel, Cambridge)",
+              "desc": "Retable monumental de plus de quatre mètres de haut peint pour le couvent des Dames blanches de Louvain, chef-d'œuvre de dynamisme ascensionnel et de coloris vénitien.",
+              "type": "turning_point",
+              "badge": "RETABLE GÉANT",
+              "icon": "👑"
+            },
+            {
+              "year": "1634",
+              "title": "Le Triomphe de Judas Macchabée (Musée d'Arts de Nantes)",
+              "desc": "Commandé par la cathédrale de Tournai, ce retable monumental illustre l'offrande sacrificielle pour le repos des guerriers tombés au combat.",
+              "type": "turning_point",
+              "badge": "ÉPOPÉE BIBLIQUE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1635",
+              "title": "Achat du château seigneurial de Het Steen à Elewijt",
+              "desc": "Rubens acquiert ce domaine du Brabant et passe ses étés à peindre des paysages champêtres d'une liberté absolue, libéré de toute commande officielle.",
+              "type": "turning_point",
+              "badge": "SEIGNEUR DE STEEN",
+              "icon": "🏰"
+            },
+            {
+              "year": "1635",
+              "title": "La Mort de Didon, reine de Carthage (Musée du Louvre)",
+              "desc": "Tragédie virgilienne d'un pathétique bouleversant : Didon abandonnée sur le bûcher transperce sa poitrine, peinte avec une sensualité charnelle poignante.",
+              "type": "turning_point",
+              "badge": "TRAGÉDIE ANTIQUE",
+              "icon": "🗡️"
+            },
+            {
+              "year": "1635 – 1637",
+              "title": "Tournoi près des fossés du château de Steen (Musée du Louvre)",
+              "desc": "Joute chevaleresque médiévale brossée avec une fougue étourdissante dans un paysage brabançon mordoré baigné d'une atmosphère crépusculaire.",
+              "type": "masterpiece",
+              "badge": "FOUGUE CHEVALERESQUE",
+              "icon": "🛡️",
+              "artworkId": "peinture_rubens_tournoi_fosses_chateau_de_steen_louvre_1635"
+            },
+            {
+              "year": "1635 – 1640",
+              "title": "Paysage du soir à l'oiseleur, avec pleine lune (Musée du Louvre)",
+              "desc": "Morceau de pure poésie atmosphérique où le disque d'argent de la lune se reflète dans les étangs sombres d'Elewijt, annonçant le paysage romantique.",
+              "type": "turning_point",
+              "badge": "POÉSIE NOCTURNE",
+              "icon": "🌕"
+            },
+            {
+              "year": "1639",
+              "title": "Hélène Fourment au carrosse (Musée du Louvre)",
+              "desc": "Portrait d'apparat intime où sa jeune épouse s'apprête à monter dans un carrosse doré devant son manoir, symbole d'une noblesse heureuse et comblée.",
+              "type": "turning_point",
+              "badge": "FÉLICITÉ CONJUGALE",
+              "icon": "🐎"
+            },
+            {
+              "year": "1639",
+              "title": "Les trois Grâces (Musée du Prado, Madrid)",
+              "desc": "Testament esthétique conservé dans sa collection personnelle jusqu'à sa mort : ode panthéiste aux chairs opulentes et à l'harmonieuse pulsation du vivant.",
+              "type": "masterpiece",
+              "badge": "TESTAMENT ÉTERNEL",
+              "icon": "🌸",
+              "artworkId": "peinture_rubens_les_trois_graces_madrid_prado_1639"
+            }
+          ]
+        }
+      ]
+    }
   },
 
   "saint_phalle": {
@@ -10577,1134 +10577,1134 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
 
   "signorelli": {
-  "id": "signorelli",
-  "name": "Signorelli Luca",
-  "sortName": "Signorelli Luca",
-  "sortLetter": "S",
-  "dates": "v. 1445 – 1523",
-  "movement": "Renaissance italienne (Quattrocento)",
-  "nationality": "Italie (Cortone, République florentine)",
-  "school": "École ombrienne & toscane (Quattrocento)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM9f3ekcPV2f5BIc7W1sNb1VVCPuoEapQMOhZZYP13di_AuXwUPz_i9L4aI-_XZN87EauKwwKlDXrLj1MtHzyEBmwhSw3bBvu_P-wjkeApfkObB1CBE3OMMTynxqTQQGBh1qGaqaJEirXX4QC3Qskl7uw=w1836-h779-s-no-gm?authuser=0",
-  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczM9f3ekcPV2f5BIc7W1sNb1VVCPuoEapQMOhZZYP13di_AuXwUPz_i9L4aI-_XZN87EauKwwKlDXrLj1MtHzyEBmwhSw3bBvu_P-wjkeApfkObB1CBE3OMMTynxqTQQGBh1qGaqaJEirXX4QC3Qskl7uw=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p>Luca Signorelli (v. 1445 – 1523) est l'une des figures les plus puissantes et les plus singulières de la Renaissance italienne (Quattrocento). Élève de Piero della Francesca, il a développé une esthétique radicalement différente de celle de son maître, délaissant le calme géométrique pour une exploration physique et dramatique du corps humain qui influencera directement Michel-Ange.</p><p>Son genre pictural se définit par le nu monumental et la peinture d'histoire sacrée. Son style se caractérise par une maîtrise anatomique impressionnante, une ligne dure et nerveuse, et un goût pour les compositions complexes saturées de muscles en tension. Il utilise le corps humain comme principal vecteur d'expression émotionnelle, capable de rendre aussi bien la grâce que l'horreur.</p><p>L'évolution de son style marque le passage de la clarté du XVe siècle vers la force du XVIe siècle : après sa formation auprès de Piero della Francesca dans les années 1470-1480, il atteint le sommet de sa carrière à Orvieto (1499 – 1504) dans la chapelle San Brizio avec ses fresques visionnaires de la Fin du Monde et du Jugement Dernier. Vers la fin de sa vie à Cortone, il dirige un atelier prolifique perpétuant ses puissantes figures athlétiques.</p>",
-  "corpus": {
-    "total": 115,
-    "paintingsCount": 115,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 1,
-    "source": "Monographie Tom Henry (2012) & Catalogues critiques Mario Salmi / Laurence Kanter",
-    "totalOeuvresEstimees": "~115 peintures répertoriées (fresques par cycles, retables et panneaux)",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur la monographie de Tom Henry (The Life and Art of Luca Signorelli, Yale University Press, 2012) ainsi que sur les catalogues critiques antérieurs de Mario Salmi et Laurence Kanter. En regroupant ses grands ensembles de fresques par chapelles ou cycles majeurs et en retenant ses peintures autographes (panneaux, bannières de procession, retables et décors muraux), le consensus scientifique fixe le corpus officiel de ses peintures à environ 115 oeuvres."
+    "id": "signorelli",
+    "name": "Signorelli Luca",
+    "sortName": "Signorelli Luca",
+    "sortLetter": "S",
+    "dates": "v. 1445 – 1523",
+    "movement": "Renaissance italienne (Quattrocento)",
+    "nationality": "Italie (Cortone, République florentine)",
+    "school": "École ombrienne & toscane (Quattrocento)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM9f3ekcPV2f5BIc7W1sNb1VVCPuoEapQMOhZZYP13di_AuXwUPz_i9L4aI-_XZN87EauKwwKlDXrLj1MtHzyEBmwhSw3bBvu_P-wjkeApfkObB1CBE3OMMTynxqTQQGBh1qGaqaJEirXX4QC3Qskl7uw=w1836-h779-s-no-gm?authuser=0",
+    "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczM9f3ekcPV2f5BIc7W1sNb1VVCPuoEapQMOhZZYP13di_AuXwUPz_i9L4aI-_XZN87EauKwwKlDXrLj1MtHzyEBmwhSw3bBvu_P-wjkeApfkObB1CBE3OMMTynxqTQQGBh1qGaqaJEirXX4QC3Qskl7uw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p>Luca Signorelli (v. 1445 – 1523) est l'une des figures les plus puissantes et les plus singulières de la Renaissance italienne (Quattrocento). Élève de Piero della Francesca, il a développé une esthétique radicalement différente de celle de son maître, délaissant le calme géométrique pour une exploration physique et dramatique du corps humain qui influencera directement Michel-Ange.</p><p>Son genre pictural se définit par le nu monumental et la peinture d'histoire sacrée. Son style se caractérise par une maîtrise anatomique impressionnante, une ligne dure et nerveuse, et un goût pour les compositions complexes saturées de muscles en tension. Il utilise le corps humain comme principal vecteur d'expression émotionnelle, capable de rendre aussi bien la grâce que l'horreur.</p><p>L'évolution de son style marque le passage de la clarté du XVe siècle vers la force du XVIe siècle : après sa formation auprès de Piero della Francesca dans les années 1470-1480, il atteint le sommet de sa carrière à Orvieto (1499 – 1504) dans la chapelle San Brizio avec ses fresques visionnaires de la Fin du Monde et du Jugement Dernier. Vers la fin de sa vie à Cortone, il dirige un atelier prolifique perpétuant ses puissantes figures athlétiques.</p>",
+    "corpus": {
+      "total": 115,
+      "paintingsCount": 115,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Monographie Tom Henry (2012) & Catalogues critiques Mario Salmi / Laurence Kanter",
+      "totalOeuvresEstimees": "~115 peintures répertoriées (fresques par cycles, retables et panneaux)",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur la monographie de Tom Henry (The Life and Art of Luca Signorelli, Yale University Press, 2012) ainsi que sur les catalogues critiques antérieurs de Mario Salmi et Laurence Kanter. En regroupant ses grands ensembles de fresques par chapelles ou cycles majeurs et en retenant ses peintures autographes (panneaux, bannières de procession, retables et décors muraux), le consensus scientifique fixe le corpus officiel de ses peintures à environ 115 oeuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "years": "v. 1445 – 1489",
+          "title": "Formation auprès de Piero & Premières recherches anatomiques",
+          "color": "#0284c7",
+          "summary": "Apprenti de Piero della Francesca à Sansepolcro, il s'éloigne de l'immobilité contemplative de son maître pour explorer la dynamique musculaire et le dessin florentin.",
+          "events": [
+            {
+              "year": "v. 1445",
+              "title": "Naissance à Cortone en Toscane",
+              "desc": "Naît vers 1445 à Cortone au sein de la famille d'Egidio di Luca di Ventura, apparentée au peintre Lazzaro Vasari.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌱"
+            },
+            {
+              "year": "v. 1470",
+              "title": "Apprentissage auprès de Piero della Francesca",
+              "desc": "Se forme à Sansepolcro et Arezzo auprès de Piero della Francesca, acquérant la rigueur géométrique et la maîtrise des volumes dans l'espace.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🎓"
+            },
+            {
+              "year": "1482",
+              "title": "Chantier de la Chapelle Sixtine à Rome",
+              "desc": "Intervient à la Chapelle Sixtine aux côtés de Pérugin, participant à la fresque du Testament et Mort de Moïse.",
+              "type": "context",
+              "badge": "COMMANDE PONTIFICALE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "years": "1490 – 1504",
+          "title": "L'Apogée dramatique : Saint Jérôme & La Chapelle San Brizio d'Orvieto",
+          "color": "#d97706",
+          "summary": "Période de pleine maturité créatrice, marquée par la tension dramatique du corps ascétique et le monumental cycle eschatologique d'Orvieto.",
+          "events": [
+            {
+              "year": "1490",
+              "title": "Saint Jérôme en extase (Paris, Musée du Louvre)",
+              "desc": "Puissante figure ascétique à mi-corps : le saint vieillard frappe sa poitrine sanglante devant l'apparition du Christ en croix, dans un paysage d'Ombrie.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "signorelli_saint_jerome_en_extase_louvre_1490"
+            },
+            {
+              "year": "1499 – 1504",
+              "title": "Fresques de la Chapelle San Brizio à la cathédrale d'Orvieto",
+              "desc": "Sommet absolu de son art : L'Apocalypse, La Prédication de l'Antéchrist, La Résurrection de la chair et Les Damnés, un déluge de corps nus annonçant Michel-Ange.",
+              "type": "milestone",
+              "badge": "CHEF-D'ŒUVRE MONUMENTAL",
+              "icon": "⚡"
+            }
+          ]
+        },
+        {
+          "years": "1505 – 1523",
+          "title": "Dernières années à Cortone et rayonnement d'atelier",
+          "color": "#16a34a",
+          "summary": "Établi à Cortone, il dirige un atelier prolifique pour répondre aux commandes des églises toscanes et ombriennes jusqu'à sa mort en 1523.",
+          "events": [
+            {
+              "year": "1512",
+              "title": "Direction de l'atelier de Cortone et fonctions civiques",
+              "desc": "Occupe d'importantes charges municipales à Cortone tout en peignant de monumentaux retables pour les confréries et couvents de la région.",
+              "type": "context",
+              "badge": "MATURITÉ",
+              "icon": "📜"
+            },
+            {
+              "year": "1523",
+              "title": "Mort à Cortone à l'âge d'environ 78 ans",
+              "desc": "S'éteint le 16 octobre 1523 à Cortone, laissant une œuvre monumentale admirée par Raphaël et Michel-Ange, et consignée par Vasari.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "years": "v. 1445 – 1489",
-        "title": "Formation auprès de Piero & Premières recherches anatomiques",
-        "color": "#0284c7",
-        "summary": "Apprenti de Piero della Francesca à Sansepolcro, il s'éloigne de l'immobilité contemplative de son maître pour explorer la dynamique musculaire et le dessin florentin.",
-        "events": [
-          {
-            "year": "v. 1445",
-            "title": "Naissance à Cortone en Toscane",
-            "desc": "Naît vers 1445 à Cortone au sein de la famille d'Egidio di Luca di Ventura, apparentée au peintre Lazzaro Vasari.",
-            "type": "context",
-            "badge": "NAISSANCE",
-            "icon": "🌱"
-          },
-          {
-            "year": "v. 1470",
-            "title": "Apprentissage auprès de Piero della Francesca",
-            "desc": "Se forme à Sansepolcro et Arezzo auprès de Piero della Francesca, acquérant la rigueur géométrique et la maîtrise des volumes dans l'espace.",
-            "type": "context",
-            "badge": "FORMATION",
-            "icon": "🎓"
-          },
-          {
-            "year": "1482",
-            "title": "Chantier de la Chapelle Sixtine à Rome",
-            "desc": "Intervient à la Chapelle Sixtine aux côtés de Pérugin, participant à la fresque du Testament et Mort de Moïse.",
-            "type": "context",
-            "badge": "COMMANDE PONTIFICALE",
-            "icon": "🏛️"
-          }
-        ]
-      },
-      {
-        "years": "1490 – 1504",
-        "title": "L'Apogée dramatique : Saint Jérôme & La Chapelle San Brizio d'Orvieto",
-        "color": "#d97706",
-        "summary": "Période de pleine maturité créatrice, marquée par la tension dramatique du corps ascétique et le monumental cycle eschatologique d'Orvieto.",
-        "events": [
-          {
-            "year": "1490",
-            "title": "Saint Jérôme en extase (Paris, Musée du Louvre)",
-            "desc": "Puissante figure ascétique à mi-corps : le saint vieillard frappe sa poitrine sanglante devant l'apparition du Christ en croix, dans un paysage d'Ombrie.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "signorelli_saint_jerome_en_extase_louvre_1490"
-          },
-          {
-            "year": "1499 – 1504",
-            "title": "Fresques de la Chapelle San Brizio à la cathédrale d'Orvieto",
-            "desc": "Sommet absolu de son art : L'Apocalypse, La Prédication de l'Antéchrist, La Résurrection de la chair et Les Damnés, un déluge de corps nus annonçant Michel-Ange.",
-            "type": "milestone",
-            "badge": "CHEF-D'ŒUVRE MONUMENTAL",
-            "icon": "⚡"
-          }
-        ]
-      },
-      {
-        "years": "1505 – 1523",
-        "title": "Dernières années à Cortone et rayonnement d'atelier",
-        "color": "#16a34a",
-        "summary": "Établi à Cortone, il dirige un atelier prolifique pour répondre aux commandes des églises toscanes et ombriennes jusqu'à sa mort en 1523.",
-        "events": [
-          {
-            "year": "1512",
-            "title": "Direction de l'atelier de Cortone et fonctions civiques",
-            "desc": "Occupe d'importantes charges municipales à Cortone tout en peignant de monumentaux retables pour les confréries et couvents de la région.",
-            "type": "context",
-            "badge": "MATURITÉ",
-            "icon": "📜"
-          },
-          {
-            "year": "1523",
-            "title": "Mort à Cortone à l'âge d'environ 78 ans",
-            "desc": "S'éteint le 16 octobre 1523 à Cortone, laissant une œuvre monumentale admirée par Raphaël et Michel-Ange, et consignée par Vasari.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "sisley": {
-  "id": "sisley",
-  "name": "Sisley Alfred",
-  "sortName": "Sisley Alfred",
-  "sortLetter": "S",
-  "dates": "1839 – 1899",
-  "movement": "Impressionnisme (Paysage pur)",
-  "nationality": "Grande-Bretagne / France (Actif en France)",
-  "school": "École impressionniste française",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOTrg3sniLnTb3a8h76XnViLhxBRyrJHQKe4dAobV9QMEiTGKoT37eqNbLvA0vT7Dql7dQ5NVQEMiq26R3TKaiIbH-c7LnCoeuP6t3UORjVNTHwyRYeh6qNU8jY3Bymsn9NXUkVmUmsCcdYlEqaQb5YLA=w1836-h779-s-no-gm?authuser=0",
-  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczOTrg3sniLnTb3a8h76XnViLhxBRyrJHQKe4dAobV9QMEiTGKoT37eqNbLvA0vT7Dql7dQ5NVQEMiq26R3TKaiIbH-c7LnCoeuP6t3UORjVNTHwyRYeh6qNU8jY3Bymsn9NXUkVmUmsCcdYlEqaQb5YLA=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p>Alfred Sisley (1839 – 1899), né à Paris de parents anglais et mort à Moret-sur-Loing, est sans doute l'impressionniste le plus pur et le plus fidèle aux principes du mouvement. Bien qu'il ait partagé ses débuts avec Monet, Renoir et Bazille dans l'atelier de Gleyre, sa vie fut marquée par une grande précarité après la ruine de sa famille en 1870. Contrairement à ses amis, il ne connut jamais le succès de son vivant et resta toute sa carrière dévoué au paysage, fuyant les scènes de genre ou les portraits pour se consacrer exclusivement à la capture des variations atmosphériques de la banlieue parisienne et de la vallée de la Seine.</p><p>Son genre pictural est celui du paysage pur, où l'eau, le ciel et la terre se rejoignent dans une harmonie délicate. Le style de Sisley se distingue par une touche plus discrète et structurée que celle de Monet, et par une sensibilité exceptionnelle pour la lumière des saisons. Il est le peintre des ciels immenses, qui occupent souvent les deux tiers de ses toiles, et des effets de transparence. Son œuvre est imprégnée d'une certaine mélancolie et d'une grande sérénité, cherchant moins l'éclat solaire que les nuances subtiles de la lumière grise, des matins d'hiver ou des inondations, dont il a fait l'un de ses thèmes de prédilection.</p><p>L'évolution de son style témoigne d'une fidélité absolue à l'impressionnisme, bien qu'il ait gagné en liberté technique au fil des décennies. Ses premières toiles, influencées par Corot, présentent une gamme chromatique assez sombre et des formes bien définies. À partir des années 1870, sa palette s'éclaircit et sa touche devient plus vibrante, fragmentant la couleur pour rendre le frémissement des feuilles ou le reflet de l'eau. Vers la fin de sa vie, installé à Moret-sur-Loing, son pinceau se fait plus large et sa peinture plus dense, presque robuste, sans jamais perdre la finesse de ses harmonies colorées. Il laisse derrière lui une œuvre d'une grande cohérence, considérée aujourd'hui comme l'expression la plus poétique et la plus juste du paysage impressionniste.</p>",
-  "corpus": {
-    "total": 1050,
-    "paintingsCount": 1050,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 15,
-    "source": "Catalogue raisonné François Daulte (1959) & Sylvie Brame et François Lorenceau (2021)",
-    "totalOeuvresEstimees": "~1 000 à 1 050 peintures (et 71 pastels)",
-    "oeuvresConsensusNotice": "L'inventaire historique de référence a longtemps été le catalogue raisonné de François Daulte (1959, recensant 884 peintures), désormais complété et actualisé par le Catalogue raisonné des peintures et des pastels établi par Sylvie Brame et François Lorenceau (2021), qui répertorie plus de 1 000 peintures (environ 1 000 à 1 050 peintures, auxquelles s'ajoutent 71 pastels)."
+    "id": "sisley",
+    "name": "Sisley Alfred",
+    "sortName": "Sisley Alfred",
+    "sortLetter": "S",
+    "dates": "1839 – 1899",
+    "movement": "Impressionnisme (Paysage pur)",
+    "nationality": "Grande-Bretagne / France (Actif en France)",
+    "school": "École impressionniste française",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOTrg3sniLnTb3a8h76XnViLhxBRyrJHQKe4dAobV9QMEiTGKoT37eqNbLvA0vT7Dql7dQ5NVQEMiq26R3TKaiIbH-c7LnCoeuP6t3UORjVNTHwyRYeh6qNU8jY3Bymsn9NXUkVmUmsCcdYlEqaQb5YLA=w1836-h779-s-no-gm?authuser=0",
+    "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczOTrg3sniLnTb3a8h76XnViLhxBRyrJHQKe4dAobV9QMEiTGKoT37eqNbLvA0vT7Dql7dQ5NVQEMiq26R3TKaiIbH-c7LnCoeuP6t3UORjVNTHwyRYeh6qNU8jY3Bymsn9NXUkVmUmsCcdYlEqaQb5YLA=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p>Alfred Sisley (1839 – 1899), né à Paris de parents anglais et mort à Moret-sur-Loing, est sans doute l'impressionniste le plus pur et le plus fidèle aux principes du mouvement. Bien qu'il ait partagé ses débuts avec Monet, Renoir et Bazille dans l'atelier de Gleyre, sa vie fut marquée par une grande précarité après la ruine de sa famille en 1870. Contrairement à ses amis, il ne connut jamais le succès de son vivant et resta toute sa carrière dévoué au paysage, fuyant les scènes de genre ou les portraits pour se consacrer exclusivement à la capture des variations atmosphériques de la banlieue parisienne et de la vallée de la Seine.</p><p>Son genre pictural est celui du paysage pur, où l'eau, le ciel et la terre se rejoignent dans une harmonie délicate. Le style de Sisley se distingue par une touche plus discrète et structurée que celle de Monet, et par une sensibilité exceptionnelle pour la lumière des saisons. Il est le peintre des ciels immenses, qui occupent souvent les deux tiers de ses toiles, et des effets de transparence. Son œuvre est imprégnée d'une certaine mélancolie et d'une grande sérénité, cherchant moins l'éclat solaire que les nuances subtiles de la lumière grise, des matins d'hiver ou des inondations, dont il a fait l'un de ses thèmes de prédilection.</p><p>L'évolution de son style témoigne d'une fidélité absolue à l'impressionnisme, bien qu'il ait gagné en liberté technique au fil des décennies. Ses premières toiles, influencées par Corot, présentent une gamme chromatique assez sombre et des formes bien définies. À partir des années 1870, sa palette s'éclaircit et sa touche devient plus vibrante, fragmentant la couleur pour rendre le frémissement des feuilles ou le reflet de l'eau. Vers la fin de sa vie, installé à Moret-sur-Loing, son pinceau se fait plus large et sa peinture plus dense, presque robuste, sans jamais perdre la finesse de ses harmonies colorées. Il laisse derrière lui une œuvre d'une grande cohérence, considérée aujourd'hui comme l'expression la plus poétique et la plus juste du paysage impressionniste.</p>",
+    "corpus": {
+      "total": 1050,
+      "paintingsCount": 1050,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 15,
+      "source": "Catalogue raisonné François Daulte (1959) & Sylvie Brame et François Lorenceau (2021)",
+      "totalOeuvresEstimees": "~1 000 à 1 050 peintures (et 71 pastels)",
+      "oeuvresConsensusNotice": "L'inventaire historique de référence a longtemps été le catalogue raisonné de François Daulte (1959, recensant 884 peintures), désormais complété et actualisé par le Catalogue raisonné des peintures et des pastels établi par Sylvie Brame et François Lorenceau (2021), qui répertorie plus de 1 000 peintures (environ 1 000 à 1 050 peintures, auxquelles s'ajoutent 71 pastels)."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "years": "1839 – 1874",
+          "title": "Formation, Réalisme de jeunesse & Naissance de l'Impressionnisme",
+          "color": "#0284c7",
+          "summary": "Formé dans l'atelier de Gleyre avec Monet, Renoir et Bazille, il peint en forêt de Fontainebleau et participe à la Première Exposition impressionniste en 1874.",
+          "events": [
+            {
+              "year": "1839",
+              "title": "Naissance à Paris dans une famille marchande britannique",
+              "desc": "Naît le 30 octobre 1839 à Paris de William Sisley et Felicia Sell, marchands anglais établis dans le commerce de la soie.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌱"
+            },
+            {
+              "year": "1862",
+              "title": "Entrée à l'atelier de Charles Gleyre",
+              "desc": "Rencontre Monet, Renoir et Frédéric Bazille à l'atelier Gleyre ; le groupe part peindre sur le motif en forêt de Fontainebleau.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🎨"
+            },
+            {
+              "year": "1867",
+              "title": "Le héron aux ailes déployées (Montpellier, Musée Fabre)",
+              "desc": "Nature morte au gibier d'une rare puissance dramatique, peinte dans l'atelier partagé avec Bazille sous l'influence du réalisme de Courbet.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "sisley_le_heron_aux_ailes_deployees_montpellier_1867"
+            },
+            {
+              "year": "1870",
+              "title": "Une rue, probablement à Port-Marly (Cambridge, Fitzwilliam Museum)",
+              "desc": "Scène de village francilien où s'affirme la sensibilité de Sisley pour l'atmosphère des rues calmes et la structure des architectures sous la lumière.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "sisley_une_rue_probablement_a_port_marly_fitzwilliam_1870"
+            },
+            {
+              "year": "1874",
+              "title": "Première Exposition impressionniste chez Nadar",
+              "desc": "Participe activement à la première exposition du groupe boulevard des Capucines, présentant cinq paysages franciliens.",
+              "type": "context",
+              "badge": "SALON HISTORIQUE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "years": "1875 – 1879",
+          "title": "L'Âge d'or de Louveciennes et Port-Marly : La Seine, Inondations & Neiges",
+          "color": "#d97706",
+          "summary": "Période la plus féconde et célèbre : installé à Marly et Louveciennes, il peint les inondations historiques de 1876 et les effets d'hiver.",
+          "events": [
+            {
+              "year": "1875",
+              "title": "Le Chemin de Montbuisson à Louveciennes (Paris, Musée de l'Orangerie)",
+              "desc": "Harmonie lumineuse d'un chemin de terre bordé d'arbres et de maisons villageoises, capturant avec finesse l'atmosphère d'un après-midi ensoleillé.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "sisley_le_chemin_de_montbuisson_a_louveciennes_orangerie_1875"
+            },
+            {
+              "year": "1875",
+              "title": "Route tournante, vue de la Seine (Musée des Beaux-Arts de Rouen)",
+              "desc": "Perspective atmosphérique remarquable guidée par un chemin sinueux menant à la boucle miroitante du fleuve sous un ciel bleu d'été.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "sisley_route_tournante_vue_de_la_seine_rouen_1875"
+            },
+            {
+              "year": "1876",
+              "title": "L'Inondation à Port-Marly (Musée des Beaux-Arts de Rouen)",
+              "desc": "Toile majeure de la série mythique des crues de la Seine : les eaux transforment la route en miroir liquide reflétant le ciel nuageux et la bâtisse du négociant.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "sisley_l_inondation_a_port_marly_rouen_1876"
+            },
+            {
+              "year": "1876",
+              "title": "La Place du Chenil à Marly, effet de neige (Musée des Beaux-Arts de Rouen)",
+              "desc": "Virtuosité dans le rendu du manteau neigeux silencieux et de la lumière feutrée d'un ciel gris d'hiver enveloppant le village.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "sisley_la_place_du_chenil_a_marly_effet_de_neige_rouen_1876"
+            }
+          ]
+        },
+        {
+          "years": "1880 – 1899",
+          "title": "La Retraite de Moret-sur-Loing, la Normandie & Les Côtes du Pays de Galles",
+          "color": "#16a34a",
+          "summary": "Fixé définitivement à Moret-sur-Loing, il peint le canal, la cathédrale gothique, séjourne en Normandie et découvre la rudesse de la côte galloise.",
+          "events": [
+            {
+              "year": "1880",
+              "title": "Installation définitive à Moret-sur-Loing",
+              "desc": "S'installe au confluent de la Seine et du Loing, où il trouve son havre de paix créateur et peint inlassablement les ponts, moulins et peupliers.",
+              "type": "context",
+              "badge": "INSTALLATION",
+              "icon": "🏡"
+            },
+            {
+              "year": "1893",
+              "title": "Église Notre-Dame de Moret-sur-Loing (Musée des Beaux-Arts de Rouen)",
+              "desc": "Élément clé de sa série de quatorze toiles sur l'église gothique sous les variations de lumière, en dialogue direct avec les Cathédrales de Monet.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "sisley_eglise_notre_dame_de_moret_sur_loing_rouen_1893"
+            },
+            {
+              "year": "1894",
+              "title": "Séjours en Normandie sur les bords de Seine",
+              "desc": "Peint la boucle de la Seine à Rouen, La Bouille et Sahurs, traduisant l'effet du vent sur le fleuve et la sérénité des crépuscules normands.",
+              "type": "milestone",
+              "badge": "SÉJOUR NORMAND",
+              "icon": "🌊"
+            },
+            {
+              "year": "1897",
+              "title": "Sur les falaises, Langland Bay, Pays de Galles (Musée des Beaux-Arts de Rouen)",
+              "desc": "Unique voyage en Grande-Bretagne : touche vigoureuse et palette nacrée pour saisir la grandeur sauvage des falaises galloises et de l'océan.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "sisley_sur_les_falaises_langland_bay_rouen_1897"
+            },
+            {
+              "year": "1899",
+              "title": "Mort à Moret-sur-Loing à l'âge de 59 ans",
+              "desc": "Meurt le 29 janvier 1899 à Moret-sur-Loing dans le dénuement, peu après avoir fait ses adieux à Claude Monet. Sa vente posthume consacrera enfin son génie.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "years": "1839 – 1874",
-        "title": "Formation, Réalisme de jeunesse & Naissance de l'Impressionnisme",
-        "color": "#0284c7",
-        "summary": "Formé dans l'atelier de Gleyre avec Monet, Renoir et Bazille, il peint en forêt de Fontainebleau et participe à la Première Exposition impressionniste en 1874.",
-        "events": [
-          {
-            "year": "1839",
-            "title": "Naissance à Paris dans une famille marchande britannique",
-            "desc": "Naît le 30 octobre 1839 à Paris de William Sisley et Felicia Sell, marchands anglais établis dans le commerce de la soie.",
-            "type": "context",
-            "badge": "NAISSANCE",
-            "icon": "🌱"
-          },
-          {
-            "year": "1862",
-            "title": "Entrée à l'atelier de Charles Gleyre",
-            "desc": "Rencontre Monet, Renoir et Frédéric Bazille à l'atelier Gleyre ; le groupe part peindre sur le motif en forêt de Fontainebleau.",
-            "type": "context",
-            "badge": "FORMATION",
-            "icon": "🎨"
-          },
-          {
-            "year": "1867",
-            "title": "Le héron aux ailes déployées (Montpellier, Musée Fabre)",
-            "desc": "Nature morte au gibier d'une rare puissance dramatique, peinte dans l'atelier partagé avec Bazille sous l'influence du réalisme de Courbet.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "sisley_le_heron_aux_ailes_deployees_montpellier_1867"
-          },
-          {
-            "year": "1870",
-            "title": "Une rue, probablement à Port-Marly (Cambridge, Fitzwilliam Museum)",
-            "desc": "Scène de village francilien où s'affirme la sensibilité de Sisley pour l'atmosphère des rues calmes et la structure des architectures sous la lumière.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "sisley_une_rue_probablement_a_port_marly_fitzwilliam_1870"
-          },
-          {
-            "year": "1874",
-            "title": "Première Exposition impressionniste chez Nadar",
-            "desc": "Participe activement à la première exposition du groupe boulevard des Capucines, présentant cinq paysages franciliens.",
-            "type": "context",
-            "badge": "SALON HISTORIQUE",
-            "icon": "🏛️"
-          }
-        ]
-      },
-      {
-        "years": "1875 – 1879",
-        "title": "L'Âge d'or de Louveciennes et Port-Marly : La Seine, Inondations & Neiges",
-        "color": "#d97706",
-        "summary": "Période la plus féconde et célèbre : installé à Marly et Louveciennes, il peint les inondations historiques de 1876 et les effets d'hiver.",
-        "events": [
-          {
-            "year": "1875",
-            "title": "Le Chemin de Montbuisson à Louveciennes (Paris, Musée de l'Orangerie)",
-            "desc": "Harmonie lumineuse d'un chemin de terre bordé d'arbres et de maisons villageoises, capturant avec finesse l'atmosphère d'un après-midi ensoleillé.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "sisley_le_chemin_de_montbuisson_a_louveciennes_orangerie_1875"
-          },
-          {
-            "year": "1875",
-            "title": "Route tournante, vue de la Seine (Musée des Beaux-Arts de Rouen)",
-            "desc": "Perspective atmosphérique remarquable guidée par un chemin sinueux menant à la boucle miroitante du fleuve sous un ciel bleu d'été.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "sisley_route_tournante_vue_de_la_seine_rouen_1875"
-          },
-          {
-            "year": "1876",
-            "title": "L'Inondation à Port-Marly (Musée des Beaux-Arts de Rouen)",
-            "desc": "Toile majeure de la série mythique des crues de la Seine : les eaux transforment la route en miroir liquide reflétant le ciel nuageux et la bâtisse du négociant.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "sisley_l_inondation_a_port_marly_rouen_1876"
-          },
-          {
-            "year": "1876",
-            "title": "La Place du Chenil à Marly, effet de neige (Musée des Beaux-Arts de Rouen)",
-            "desc": "Virtuosité dans le rendu du manteau neigeux silencieux et de la lumière feutrée d'un ciel gris d'hiver enveloppant le village.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "sisley_la_place_du_chenil_a_marly_effet_de_neige_rouen_1876"
-          }
-        ]
-      },
-      {
-        "years": "1880 – 1899",
-        "title": "La Retraite de Moret-sur-Loing, la Normandie & Les Côtes du Pays de Galles",
-        "color": "#16a34a",
-        "summary": "Fixé définitivement à Moret-sur-Loing, il peint le canal, la cathédrale gothique, séjourne en Normandie et découvre la rudesse de la côte galloise.",
-        "events": [
-          {
-            "year": "1880",
-            "title": "Installation définitive à Moret-sur-Loing",
-            "desc": "S'installe au confluent de la Seine et du Loing, où il trouve son havre de paix créateur et peint inlassablement les ponts, moulins et peupliers.",
-            "type": "context",
-            "badge": "INSTALLATION",
-            "icon": "🏡"
-          },
-          {
-            "year": "1893",
-            "title": "Église Notre-Dame de Moret-sur-Loing (Musée des Beaux-Arts de Rouen)",
-            "desc": "Élément clé de sa série de quatorze toiles sur l'église gothique sous les variations de lumière, en dialogue direct avec les Cathédrales de Monet.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "sisley_eglise_notre_dame_de_moret_sur_loing_rouen_1893"
-          },
-          {
-            "year": "1894",
-            "title": "Séjours en Normandie sur les bords de Seine",
-            "desc": "Peint la boucle de la Seine à Rouen, La Bouille et Sahurs, traduisant l'effet du vent sur le fleuve et la sérénité des crépuscules normands.",
-            "type": "milestone",
-            "badge": "SÉJOUR NORMAND",
-            "icon": "🌊"
-          },
-          {
-            "year": "1897",
-            "title": "Sur les falaises, Langland Bay, Pays de Galles (Musée des Beaux-Arts de Rouen)",
-            "desc": "Unique voyage en Grande-Bretagne : touche vigoureuse et palette nacrée pour saisir la grandeur sauvage des falaises galloises et de l'océan.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "sisley_sur_les_falaises_langland_bay_rouen_1897"
-          },
-          {
-            "year": "1899",
-            "title": "Mort à Moret-sur-Loing à l'âge de 59 ans",
-            "desc": "Meurt le 29 janvier 1899 à Moret-sur-Loing dans le dénuement, peu après avoir fait ses adieux à Claude Monet. Sa vente posthume consacrera enfin son génie.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "soulages": {
-  "id": "soulages",
-  "name": "Soulages Pierre",
-  "sortName": "Soulages Pierre",
-  "sortLetter": "S",
-  "dates": "1919 – 2022",
-  "movement": "Abstraction & Outrenoir (Art informel)",
-  "nationality": "France (Rodez, Aveyron)",
-  "school": "École de Paris (Abstraction de l'après-guerre)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNhy53veWG_BC7ISgRX14TvwlnJEVN7DZ9wQ83OYQ4HUhAy8TqYvtId7OhRbFFhD3GKyifR3pVtAwEp2hWwQAgoD6QoFpLRWg_Lj5vRu1Uo5LiYifnQbgZr_kSAKrNlgINR4zm3MnL6RvuVly1W3CyMfw=w1836-h779-s-no-gm?authuser=0",
-  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczNhy53veWG_BC7ISgRX14TvwlnJEVN7DZ9wQ83OYQ4HUhAy8TqYvtId7OhRbFFhD3GKyifR3pVtAwEp2hWwQAgoD6QoFpLRWg_Lj5vRu1Uo5LiYifnQbgZr_kSAKrNlgINR4zm3MnL6RvuVly1W3CyMfw=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p>Pierre Soulages (1919 – 2022), né à Rodez et mort à Nîmes à l'âge de 102 ans, est le maître absolu de l'abstraction française et l'un des peintres les plus influents du XXe siècle. Surnommé « le peintre du noir », il a consacré plus de 80 ans de carrière à explorer les possibilités infinies d'une seule couleur, ou plutôt d'une seule lumière. Refusant de s'inscrire dans les courants de son époque (comme l'existentialisme ou le surréalisme), il a construit une œuvre radicale et intemporelle, marquée par un rapport physique à la matière et une quête de l'essentiel qui l'a mené à devenir le premier artiste contemporain exposé au Musée du Louvre de son vivant.</p><p>Son genre pictural est une abstraction totale, non figurative, où le sujet n'est pas ce qui est représenté, mais la peinture elle-même. Son style se définit par l'utilisation de larges brosses, de spatules et de racloirs pour structurer la surface de la toile. Il privilégie les formes puissantes, souvent sombres, qui s'organisent en signes ou en rythmes sur des fonds clairs. Pour Soulages, l'espace ne vient pas de la perspective, mais de l'interaction entre les aplats de couleur et le support, créant une tension entre la force du geste et la profondeur du champ visuel.</p><p>L'évolution de son travail est marquée par une rupture historique en 1979, lorsqu'il invente l'Outrenoir (le noir au-delà du noir). Avant cette date, ses toiles jouaient sur le contraste entre le noir et d'autres couleurs (ocres, bleus, blancs). À partir de 1979, il ne peint plus avec le noir, mais avec la lumière réfléchie par le noir. En travaillant la pâte épaisse pour créer des stries, des lissages ou des entailles, il transforme la surface picturale en un miroir changeant. Il achève sa carrière en simplifiant encore son geste, atteignant une forme de monumentalité sereine qui a trouvé son écrin idéal dans l'abbatiale Sainte-Foy de Conques, dont il a conçu les vitraux.</p>",
-  "corpus": {
-    "total": 1730,
-    "paintingsCount": 1730,
-    "drawingsCount": 600,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 13,
-    "source": "Catalogue raisonné Pierre Encrevé (1994–2025, Seuil / Gallimard)",
-    "totalOeuvresEstimees": "~1 730 peintures sur toile répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné des peintures (L'Œuvre complet) établi par l'historien d'art Pierre Encrevé en cinq volumes (publiés entre 1994 et 2025, du Seuil à Gallimard). En retenant exclusivement la peinture sur toile — le cœur de son œuvre cataloguée, qui s'étend de 1946 à 2022 —, le consensus scientifique et muséal fixe le corpus officiel de ses peintures sur toile à environ 1 730 œuvres (auxquelles s'ajoutent notamment environ 600 peintures sur papier, des estampes et les 104 vitraux de Conques)."
+    "id": "soulages",
+    "name": "Soulages Pierre",
+    "sortName": "Soulages Pierre",
+    "sortLetter": "S",
+    "dates": "1919 – 2022",
+    "movement": "Abstraction & Outrenoir (Art informel)",
+    "nationality": "France (Rodez, Aveyron)",
+    "school": "École de Paris (Abstraction de l'après-guerre)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNhy53veWG_BC7ISgRX14TvwlnJEVN7DZ9wQ83OYQ4HUhAy8TqYvtId7OhRbFFhD3GKyifR3pVtAwEp2hWwQAgoD6QoFpLRWg_Lj5vRu1Uo5LiYifnQbgZr_kSAKrNlgINR4zm3MnL6RvuVly1W3CyMfw=w1836-h779-s-no-gm?authuser=0",
+    "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczNhy53veWG_BC7ISgRX14TvwlnJEVN7DZ9wQ83OYQ4HUhAy8TqYvtId7OhRbFFhD3GKyifR3pVtAwEp2hWwQAgoD6QoFpLRWg_Lj5vRu1Uo5LiYifnQbgZr_kSAKrNlgINR4zm3MnL6RvuVly1W3CyMfw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p>Pierre Soulages (1919 – 2022), né à Rodez et mort à Nîmes à l'âge de 102 ans, est le maître absolu de l'abstraction française et l'un des peintres les plus influents du XXe siècle. Surnommé « le peintre du noir », il a consacré plus de 80 ans de carrière à explorer les possibilités infinies d'une seule couleur, ou plutôt d'une seule lumière. Refusant de s'inscrire dans les courants de son époque (comme l'existentialisme ou le surréalisme), il a construit une œuvre radicale et intemporelle, marquée par un rapport physique à la matière et une quête de l'essentiel qui l'a mené à devenir le premier artiste contemporain exposé au Musée du Louvre de son vivant.</p><p>Son genre pictural est une abstraction totale, non figurative, où le sujet n'est pas ce qui est représenté, mais la peinture elle-même. Son style se définit par l'utilisation de larges brosses, de spatules et de racloirs pour structurer la surface de la toile. Il privilégie les formes puissantes, souvent sombres, qui s'organisent en signes ou en rythmes sur des fonds clairs. Pour Soulages, l'espace ne vient pas de la perspective, mais de l'interaction entre les aplats de couleur et le support, créant une tension entre la force du geste et la profondeur du champ visuel.</p><p>L'évolution de son travail est marquée par une rupture historique en 1979, lorsqu'il invente l'Outrenoir (le noir au-delà du noir). Avant cette date, ses toiles jouaient sur le contraste entre le noir et d'autres couleurs (ocres, bleus, blancs). À partir de 1979, il ne peint plus avec le noir, mais avec la lumière réfléchie par le noir. En travaillant la pâte épaisse pour créer des stries, des lissages ou des entailles, il transforme la surface picturale en un miroir changeant. Il achève sa carrière en simplifiant encore son geste, atteignant une forme de monumentalité sereine qui a trouvé son écrin idéal dans l'abbatiale Sainte-Foy de Conques, dont il a conçu les vitraux.</p>",
+    "corpus": {
+      "total": 1730,
+      "paintingsCount": 1730,
+      "drawingsCount": 600,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 13,
+      "source": "Catalogue raisonné Pierre Encrevé (1994–2025, Seuil / Gallimard)",
+      "totalOeuvresEstimees": "~1 730 peintures sur toile répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné des peintures (L'Œuvre complet) établi par l'historien d'art Pierre Encrevé en cinq volumes (publiés entre 1994 et 2025, du Seuil à Gallimard). En retenant exclusivement la peinture sur toile — le cœur de son œuvre cataloguée, qui s'étend de 1946 à 2022 —, le consensus scientifique et muséal fixe le corpus officiel de ses peintures sur toile à environ 1 730 œuvres (auxquelles s'ajoutent notamment environ 600 peintures sur papier, des estampes et les 104 vitraux de Conques)."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "years": "1919 – 1978",
+          "title": "Jeunesse, Débuts au Brou de noix & L'Abstraction gestuelle des contrastes",
+          "color": "#0284c7",
+          "summary": "Enfance à Rodez fascinée par l'art roman et les statues-menhirs, installation à Paris en 1946 et reconnaissance internationale rapide à New York et Paris.",
+          "events": [
+            {
+              "year": "1919",
+              "title": "Naissance à Rodez en Aveyron",
+              "desc": "Naît le 24 décembre 1919 à Rodez. Dès l'adolescence, il admire l'art roman de Conques et les statues-menhirs du musée Fenaille.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌱"
+            },
+            {
+              "year": "1947",
+              "title": "Installation à Paris & Premiers brous de noix",
+              "desc": "S'installe à Paris et expose au Salon des Surindépendants ses fameux brous de noix aux signes sombres, admirés par Picabia et James Johnson Sweeney.",
+              "type": "milestone",
+              "badge": "DÉBUTS PARISIENS",
+              "icon": "🎨"
+            },
+            {
+              "year": "1950",
+              "title": "Peinture 92 x 73 cm, 13 juin 1950 (Musée d'Arts de Nantes)",
+              "desc": "Bandes sombres vigoureuses superposées en charpente monumentale, laissant filtrer des trouées de lumière ocre et gris bleuté.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "soulages_peinture_92x73_cm_13_juin_1950_nantes"
+            },
+            {
+              "year": "1956",
+              "title": "Peinture 131 x 162 cm, 14 août 1956 (Centre Pompidou, Paris)",
+              "desc": "Toile majeure de la période gestuelle : larges brosses et lames de caoutchouc sculptant des masses noires au rythme autoritaire et poétique.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "soulages_peinture_131x162_14_aout_1956_pompidou"
+            },
+            {
+              "year": "1971",
+              "title": "Peinture 130 x 365 cm, 21 septembre 1971 (Musée Fabre, Montpellier)",
+              "desc": "Format panoramique exceptionnel explorant la vibration spatiale et la profondeur lumineuse d'un bleu d'outremer saturé sur fond clair.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "soulages_peinture_130x365_cm_21_septembre_1971_montpellier"
+            },
+            {
+              "year": "1974",
+              "title": "Peinture 130 x 349 cm, 12 janvier 1974 (Musée d'Arts de Nantes)",
+              "desc": "Puissance sculpturale des registres horizontaux noirs et blancs, obligeant le regard à un balayage latéral temporel de la matière.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "soulages_peinture_130x349_cm_12_janvier_1974_nantes"
+            }
+          ]
+        },
+        {
+          "years": "1979 – 1999",
+          "title": "La Révolution de l'Outrenoir : Sculpter la lumière du noir",
+          "color": "#d97706",
+          "summary": "En janvier 1979, un accident créateur fait basculer son art : il ne peint plus avec le noir, mais avec la lumière diffractée par les reliefs de la pâte.",
+          "events": [
+            {
+              "year": "1979",
+              "title": "Invention de l'Outrenoir dans son atelier parisien",
+              "desc": "Après des heures de travail infructueux sur une toile saturée de noir, il découvre que les reflets sur la texture créent un autre champ mental : l'Outrenoir.",
+              "type": "milestone",
+              "badge": "RUPTURE HISTORIQUE",
+              "icon": "⚡"
+            },
+            {
+              "year": "1986",
+              "title": "Peinture 324 x 362 cm, 1986 (Musée Fabre, Montpellier)",
+              "desc": "Polyptyque architectural monumental combinant sillons obliques argentés et zones lisses et mates absorbant l'obscurité.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "soulages_peinture_324x362_cm_1986_montpellier"
+            },
+            {
+              "year": "1987 – 1994",
+              "title": "Les 104 vitraux de l'abbatiale Sainte-Foy de Conques",
+              "desc": "Crée un verre translucide et non transparent respectant la pureté romane de l'édifice et modulant la lumière naturelle au fil des heures.",
+              "type": "milestone",
+              "badge": "COMMANDE D'ÉTAT",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1996",
+              "title": "Peinture 324 x 181 cm, 30 décembre 1996 (Musée Fabre, Montpellier)",
+              "desc": "Confrontation verticale de plus de trois mètres : aplats mats absorbants opposés à des stries horizontales étincelantes sous l'éclairage.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "soulages_peinture_324x181_cm_30_decembre_1996_montpellier"
+            },
+            {
+              "year": "1997",
+              "title": "Peinture 290 x 654 cm, janvier 1997 (Musée Fabre, Montpellier)",
+              "desc": "Mur d'Outrenoir étiré sur plus de six mètres : réseau dense de sillons gravés transformant la surface en un environnement phénoménologique pur.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "soulages_peinture_290x654_cm_janvier_1997_montpellier"
+            }
+          ]
+        },
+        {
+          "years": "2000 – 2022",
+          "title": "Monumentalité sereine, Consécration au Louvre & Postérité séculaire",
+          "color": "#16a34a",
+          "summary": "Dernières décennies marquées par une économie de geste souveraine, l'ouverture du musée de Rodez et l'hommage exceptionnel du Louvre pour son centenaire.",
+          "events": [
+            {
+              "year": "2001",
+              "title": "Peinture 222 x 222 cm, 1er septembre 2001 (Musée Fabre, Montpellier)",
+              "desc": "Rigueur géométrique du format carré parfait et tension entre le noir dense et les trouées de clarté blanche du support.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "soulages_peinture_222x222_cm_1er_septembre_2001_montpellier"
+            },
+            {
+              "year": "2014",
+              "title": "Inauguration du Musée Soulages à Rodez",
+              "desc": "Ouverture du musée conçu par RCR Arquitectes abritant la donation exceptionnelle de l'artiste (peintures, brous de noix et cartons de Conques).",
+              "type": "milestone",
+              "badge": "MUSÉE MONOGRAPHIQUE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "2019",
+              "title": "Exposition du centenaire au Salon Carré du Musée du Louvre",
+              "desc": "Hommage national rarissime accordé à un artiste vivant au cœur des collections historiques du Louvre pour célébrer son centième anniversaire.",
+              "type": "milestone",
+              "badge": "CONSÉCRATION",
+              "icon": "👑"
+            },
+            {
+              "year": "2022",
+              "title": "Mort à Nîmes à l'âge de 102 ans",
+              "desc": "S'éteint le 25 octobre 2022 à Nîmes. Hommage national rendu dans la cour carrée du Louvre présidé par le chef de l'État.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "years": "1919 – 1978",
-        "title": "Jeunesse, Débuts au Brou de noix & L'Abstraction gestuelle des contrastes",
-        "color": "#0284c7",
-        "summary": "Enfance à Rodez fascinée par l'art roman et les statues-menhirs, installation à Paris en 1946 et reconnaissance internationale rapide à New York et Paris.",
-        "events": [
-          {
-            "year": "1919",
-            "title": "Naissance à Rodez en Aveyron",
-            "desc": "Naît le 24 décembre 1919 à Rodez. Dès l'adolescence, il admire l'art roman de Conques et les statues-menhirs du musée Fenaille.",
-            "type": "context",
-            "badge": "NAISSANCE",
-            "icon": "🌱"
-          },
-          {
-            "year": "1947",
-            "title": "Installation à Paris & Premiers brous de noix",
-            "desc": "S'installe à Paris et expose au Salon des Surindépendants ses fameux brous de noix aux signes sombres, admirés par Picabia et James Johnson Sweeney.",
-            "type": "milestone",
-            "badge": "DÉBUTS PARISIENS",
-            "icon": "🎨"
-          },
-          {
-            "year": "1950",
-            "title": "Peinture 92 x 73 cm, 13 juin 1950 (Musée d'Arts de Nantes)",
-            "desc": "Bandes sombres vigoureuses superposées en charpente monumentale, laissant filtrer des trouées de lumière ocre et gris bleuté.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "soulages_peinture_92x73_cm_13_juin_1950_nantes"
-          },
-          {
-            "year": "1956",
-            "title": "Peinture 131 x 162 cm, 14 août 1956 (Centre Pompidou, Paris)",
-            "desc": "Toile majeure de la période gestuelle : larges brosses et lames de caoutchouc sculptant des masses noires au rythme autoritaire et poétique.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "soulages_peinture_131x162_14_aout_1956_pompidou"
-          },
-          {
-            "year": "1971",
-            "title": "Peinture 130 x 365 cm, 21 septembre 1971 (Musée Fabre, Montpellier)",
-            "desc": "Format panoramique exceptionnel explorant la vibration spatiale et la profondeur lumineuse d'un bleu d'outremer saturé sur fond clair.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "soulages_peinture_130x365_cm_21_septembre_1971_montpellier"
-          },
-          {
-            "year": "1974",
-            "title": "Peinture 130 x 349 cm, 12 janvier 1974 (Musée d'Arts de Nantes)",
-            "desc": "Puissance sculpturale des registres horizontaux noirs et blancs, obligeant le regard à un balayage latéral temporel de la matière.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "soulages_peinture_130x349_cm_12_janvier_1974_nantes"
-          }
-        ]
-      },
-      {
-        "years": "1979 – 1999",
-        "title": "La Révolution de l'Outrenoir : Sculpter la lumière du noir",
-        "color": "#d97706",
-        "summary": "En janvier 1979, un accident créateur fait basculer son art : il ne peint plus avec le noir, mais avec la lumière diffractée par les reliefs de la pâte.",
-        "events": [
-          {
-            "year": "1979",
-            "title": "Invention de l'Outrenoir dans son atelier parisien",
-            "desc": "Après des heures de travail infructueux sur une toile saturée de noir, il découvre que les reflets sur la texture créent un autre champ mental : l'Outrenoir.",
-            "type": "milestone",
-            "badge": "RUPTURE HISTORIQUE",
-            "icon": "⚡"
-          },
-          {
-            "year": "1986",
-            "title": "Peinture 324 x 362 cm, 1986 (Musée Fabre, Montpellier)",
-            "desc": "Polyptyque architectural monumental combinant sillons obliques argentés et zones lisses et mates absorbant l'obscurité.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "soulages_peinture_324x362_cm_1986_montpellier"
-          },
-          {
-            "year": "1987 – 1994",
-            "title": "Les 104 vitraux de l'abbatiale Sainte-Foy de Conques",
-            "desc": "Crée un verre translucide et non transparent respectant la pureté romane de l'édifice et modulant la lumière naturelle au fil des heures.",
-            "type": "milestone",
-            "badge": "COMMANDE D'ÉTAT",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1996",
-            "title": "Peinture 324 x 181 cm, 30 décembre 1996 (Musée Fabre, Montpellier)",
-            "desc": "Confrontation verticale de plus de trois mètres : aplats mats absorbants opposés à des stries horizontales étincelantes sous l'éclairage.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "soulages_peinture_324x181_cm_30_decembre_1996_montpellier"
-          },
-          {
-            "year": "1997",
-            "title": "Peinture 290 x 654 cm, janvier 1997 (Musée Fabre, Montpellier)",
-            "desc": "Mur d'Outrenoir étiré sur plus de six mètres : réseau dense de sillons gravés transformant la surface en un environnement phénoménologique pur.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "soulages_peinture_290x654_cm_janvier_1997_montpellier"
-          }
-        ]
-      },
-      {
-        "years": "2000 – 2022",
-        "title": "Monumentalité sereine, Consécration au Louvre & Postérité séculaire",
-        "color": "#16a34a",
-        "summary": "Dernières décennies marquées par une économie de geste souveraine, l'ouverture du musée de Rodez et l'hommage exceptionnel du Louvre pour son centenaire.",
-        "events": [
-          {
-            "year": "2001",
-            "title": "Peinture 222 x 222 cm, 1er septembre 2001 (Musée Fabre, Montpellier)",
-            "desc": "Rigueur géométrique du format carré parfait et tension entre le noir dense et les trouées de clarté blanche du support.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "soulages_peinture_222x222_cm_1er_septembre_2001_montpellier"
-          },
-          {
-            "year": "2014",
-            "title": "Inauguration du Musée Soulages à Rodez",
-            "desc": "Ouverture du musée conçu par RCR Arquitectes abritant la donation exceptionnelle de l'artiste (peintures, brous de noix et cartons de Conques).",
-            "type": "milestone",
-            "badge": "MUSÉE MONOGRAPHIQUE",
-            "icon": "🏛️"
-          },
-          {
-            "year": "2019",
-            "title": "Exposition du centenaire au Salon Carré du Musée du Louvre",
-            "desc": "Hommage national rarissime accordé à un artiste vivant au cœur des collections historiques du Louvre pour célébrer son centième anniversaire.",
-            "type": "milestone",
-            "badge": "CONSÉCRATION",
-            "icon": "👑"
-          },
-          {
-            "year": "2022",
-            "title": "Mort à Nîmes à l'âge de 102 ans",
-            "desc": "S'éteint le 25 octobre 2022 à Nîmes. Hommage national rendu dans la cour carrée du Louvre présidé par le chef de l'État.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "soutine": {
-  "id": "soutine",
-  "name": "Soutine Chaïm",
-  "sortName": "Soutine Chaïm",
-  "sortLetter": "S",
-  "dates": "1893 – 1943",
-  "movement": "Expressionnisme (École de Paris)",
-  "nationality": "Russie / France (Actif en France)",
-  "school": "École de Paris",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP4Tay3Y9rqn5Tpl1d-8UvhMGlsrpD_EH7TGsskRa3pjxJElLouNve3IJdA3BfuR7GvKHUSmVJT6-vo0OgymqdxYdQaJLhlf27spsN-ADqBycbW-i3kverLdQF8CoqFm4zfZXqFxI2NPIzraIV3-LXQtQ=w1836-h779-s-no-gm?authuser=0",
-  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczP4Tay3Y9rqn5Tpl1d-8UvhMGlsrpD_EH7TGsskRa3pjxJElLouNve3IJdA3BfuR7GvKHUSmVJT6-vo0OgymqdxYdQaJLhlf27spsN-ADqBycbW-i3kverLdQF8CoqFm4zfZXqFxI2NPIzraIV3-LXQtQ=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p>Chaïm Soutine (1893 – 1943) est l'une des voix les plus déchirantes de l'École de Paris et de l'expressionnisme. Né dans un shtetl de l'Empire russe (actuelle Biélorussie) et émigré en France, il a incarné la figure de l'artiste écorché vif, guidé par une urgence intérieure absolue. Héritier spirituel de Rembrandt et de Goya, il a réinventé la tradition picturale classique par une véhémence gestuelle et une charge émotionnelle d'une rare violence charnelle.</p><p>Son genre pictural se définit par le portrait psychologique, la nature morte aux carcasses et le paysage tourmenté. Son style se caractérise par une pâte épaisse, pétrie à pleines mains ou au couteau, des distorsions anatomiques aiguës et des empâtements volcaniques. Sa peinture ne décrit pas : elle convulse. Les couleurs, dominées par des rouges sanguins, des jaunes bilieux et des verts sourds, semblent extraites de la matière vivante même.</p><p>L'évolution de son style marque un passage du vertige tellurique vers une solennité tragique : après le vertige de Céret (1919 – 1922) où terre et maisons semblent emportées par un séisme, il accède à la sécurité matérielle grâce au collectionneur américain Albert Barnes en 1923. Il peint alors ses célèbres bêtes écorchées et carcasses de bœufs, avant d'apaiser son geste dans les années 1930 à travers sa poignante série d'anonymes au travail (valets, pâtissiers, enfants de chœur).</p>",
-  "corpus": {
-    "total": 340,
-    "paintingsCount": 340,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 1,
-    "source": "Catalogue raisonné Maurice Tuchman, Esti Dunow et Klaus Perls (Taschen, 1993)",
-    "totalOeuvresEstimees": "~340 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné établi par Maurice Tuchman, Esti Dunow et Klaus Perls (Chaïm Soutine (1893–1943) Catalogue Raisonné, Taschen, 1993, en deux volumes). En retenant ses peintures à l'huile cataloguées (portraits, paysages, natures mortes, bœufs écorchés et scènes de genre) et en écartant ses rares dessins, le consensus muséal situe le corpus officiel de ses peintures autour d'environ 340."
+    "id": "soutine",
+    "name": "Soutine Chaïm",
+    "sortName": "Soutine Chaïm",
+    "sortLetter": "S",
+    "dates": "1893 – 1943",
+    "movement": "Expressionnisme (École de Paris)",
+    "nationality": "Russie / France (Actif en France)",
+    "school": "École de Paris",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP4Tay3Y9rqn5Tpl1d-8UvhMGlsrpD_EH7TGsskRa3pjxJElLouNve3IJdA3BfuR7GvKHUSmVJT6-vo0OgymqdxYdQaJLhlf27spsN-ADqBycbW-i3kverLdQF8CoqFm4zfZXqFxI2NPIzraIV3-LXQtQ=w1836-h779-s-no-gm?authuser=0",
+    "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczP4Tay3Y9rqn5Tpl1d-8UvhMGlsrpD_EH7TGsskRa3pjxJElLouNve3IJdA3BfuR7GvKHUSmVJT6-vo0OgymqdxYdQaJLhlf27spsN-ADqBycbW-i3kverLdQF8CoqFm4zfZXqFxI2NPIzraIV3-LXQtQ=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p>Chaïm Soutine (1893 – 1943) est l'une des voix les plus déchirantes de l'École de Paris et de l'expressionnisme. Né dans un shtetl de l'Empire russe (actuelle Biélorussie) et émigré en France, il a incarné la figure de l'artiste écorché vif, guidé par une urgence intérieure absolue. Héritier spirituel de Rembrandt et de Goya, il a réinventé la tradition picturale classique par une véhémence gestuelle et une charge émotionnelle d'une rare violence charnelle.</p><p>Son genre pictural se définit par le portrait psychologique, la nature morte aux carcasses et le paysage tourmenté. Son style se caractérise par une pâte épaisse, pétrie à pleines mains ou au couteau, des distorsions anatomiques aiguës et des empâtements volcaniques. Sa peinture ne décrit pas : elle convulse. Les couleurs, dominées par des rouges sanguins, des jaunes bilieux et des verts sourds, semblent extraites de la matière vivante même.</p><p>L'évolution de son style marque un passage du vertige tellurique vers une solennité tragique : après le vertige de Céret (1919 – 1922) où terre et maisons semblent emportées par un séisme, il accède à la sécurité matérielle grâce au collectionneur américain Albert Barnes en 1923. Il peint alors ses célèbres bêtes écorchées et carcasses de bœufs, avant d'apaiser son geste dans les années 1930 à travers sa poignante série d'anonymes au travail (valets, pâtissiers, enfants de chœur).</p>",
+    "corpus": {
+      "total": 340,
+      "paintingsCount": 340,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Catalogue raisonné Maurice Tuchman, Esti Dunow et Klaus Perls (Taschen, 1993)",
+      "totalOeuvresEstimees": "~340 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue raisonné établi par Maurice Tuchman, Esti Dunow et Klaus Perls (Chaïm Soutine (1893–1943) Catalogue Raisonné, Taschen, 1993, en deux volumes). En retenant ses peintures à l'huile cataloguées (portraits, paysages, natures mortes, bœufs écorchés et scènes de genre) et en écartant ses rares dessins, le consensus muséal situe le corpus officiel de ses peintures autour d'environ 340."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "years": "1893 – 1922",
+          "title": "Origines dans le Shtetl, Ruche de Montparnasse & Le Vertige de Céret",
+          "color": "#0284c7",
+          "summary": "Émigre de Smilavitchi à Paris en 1913, se lie avec Modigliani à La Ruche, puis peint à Céret des toiles convulsives d'une intensité tragique.",
+          "events": [
+            {
+              "year": "1893",
+              "title": "Naissance à Smilavitchi (Empire russe)",
+              "desc": "Naît dans une famille juive modeste au sein d'un shtetl biélorusse, dixième de onze enfants d'un tailleur de village.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌱"
+            },
+            {
+              "year": "1913",
+              "title": "Arrivée à Paris et installation à La Ruche",
+              "desc": "Arrive à Montparnasse, loge à La Ruche et noue une amitié fraternelle avec Amedeo Modigliani et le marchand Léopold Zborowski.",
+              "type": "context",
+              "badge": "ÉCOLE DE PARIS",
+              "icon": "🎨"
+            },
+            {
+              "year": "1920",
+              "title": "La Folle (Tokyo, Musée national d'Art occidental)",
+              "desc": "Portrait expressionniste convulsif peint à Céret : manteau écarlate volcanique, regard écarquillé de détresse et mains noueuses pathétiques.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "soutine_la_folle_tokyo_1920"
+            }
+          ]
+        },
+        {
+          "years": "1923 – 1929",
+          "title": "La Révélation Barnes, les Carcasses de bœuf & La Consécration",
+          "color": "#d97706",
+          "summary": "Le collectionneur américain Albert Barnes achète en bloc plus de cinquante toiles en 1923 ; Soutine peint sa célèbre suite de bêtes écorchées.",
+          "events": [
+            {
+              "year": "1923",
+              "title": "Achat historique du Dr Albert Barnes",
+              "desc": "Le collectionneur de Philadelphie découvre ses toiles chez Zborowski et achète un ensemble considérable, apportant célébrité et aisance financière.",
+              "type": "milestone",
+              "badge": "TOURNANT MAJEUR",
+              "icon": "⚡"
+            },
+            {
+              "year": "1925",
+              "title": "Cycle monumental du Bœuf écorché d'après Rembrandt",
+              "desc": "Installe des carcasses de viande dans son atelier parisien, peignant la chair en décomposition transfigurée en symphonie de vermillon et d'or.",
+              "type": "milestone",
+              "badge": "CHEF-D'ŒUVRE EXPRESSIONNISTE",
+              "icon": "🥩"
+            }
+          ]
+        },
+        {
+          "years": "1930 – 1943",
+          "title": "Portraits d'uniformes, Réfugié dans la clandestinité & Mort tragique",
+          "color": "#16a34a",
+          "summary": "Période d'apaisement plastique avec les portraits d'enfants de chœur et grooms, puis traque sous l'Occupation nazie jusqu'à sa mort en 1943.",
+          "events": [
+            {
+              "year": "1933",
+              "title": "Série des Chasseurs, Grooms et Enfants de chœur",
+              "desc": "Portraits d'anonymes au travail magnifiés par l'uniforme coloré, conférant aux humbles une gravité et une dignité monumentales.",
+              "type": "milestone",
+              "badge": "PORTRAITS D'UNIFORMES",
+              "icon": "👔"
+            },
+            {
+              "year": "1943",
+              "title": "Mort dans la clandestinité sous l'Occupation",
+              "desc": "Réfugié en Touraine sous une fausse identité pour fuir les persécutions antisémites, il meurt à Paris le 9 août 1943 des suites d'un ulcère perforé.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "years": "1893 – 1922",
-        "title": "Origines dans le Shtetl, Ruche de Montparnasse & Le Vertige de Céret",
-        "color": "#0284c7",
-        "summary": "Émigre de Smilavitchi à Paris en 1913, se lie avec Modigliani à La Ruche, puis peint à Céret des toiles convulsives d'une intensité tragique.",
-        "events": [
-          {
-            "year": "1893",
-            "title": "Naissance à Smilavitchi (Empire russe)",
-            "desc": "Naît dans une famille juive modeste au sein d'un shtetl biélorusse, dixième de onze enfants d'un tailleur de village.",
-            "type": "context",
-            "badge": "NAISSANCE",
-            "icon": "🌱"
-          },
-          {
-            "year": "1913",
-            "title": "Arrivée à Paris et installation à La Ruche",
-            "desc": "Arrive à Montparnasse, loge à La Ruche et noue une amitié fraternelle avec Amedeo Modigliani et le marchand Léopold Zborowski.",
-            "type": "context",
-            "badge": "ÉCOLE DE PARIS",
-            "icon": "🎨"
-          },
-          {
-            "year": "1920",
-            "title": "La Folle (Tokyo, Musée national d'Art occidental)",
-            "desc": "Portrait expressionniste convulsif peint à Céret : manteau écarlate volcanique, regard écarquillé de détresse et mains noueuses pathétiques.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "soutine_la_folle_tokyo_1920"
-          }
-        ]
-      },
-      {
-        "years": "1923 – 1929",
-        "title": "La Révélation Barnes, les Carcasses de bœuf & La Consécration",
-        "color": "#d97706",
-        "summary": "Le collectionneur américain Albert Barnes achète en bloc plus de cinquante toiles en 1923 ; Soutine peint sa célèbre suite de bêtes écorchées.",
-        "events": [
-          {
-            "year": "1923",
-            "title": "Achat historique du Dr Albert Barnes",
-            "desc": "Le collectionneur de Philadelphie découvre ses toiles chez Zborowski et achète un ensemble considérable, apportant célébrité et aisance financière.",
-            "type": "milestone",
-            "badge": "TOURNANT MAJEUR",
-            "icon": "⚡"
-          },
-          {
-            "year": "1925",
-            "title": "Cycle monumental du Bœuf écorché d'après Rembrandt",
-            "desc": "Installe des carcasses de viande dans son atelier parisien, peignant la chair en décomposition transfigurée en symphonie de vermillon et d'or.",
-            "type": "milestone",
-            "badge": "CHEF-D'ŒUVRE EXPRESSIONNISTE",
-            "icon": "🥩"
-          }
-        ]
-      },
-      {
-        "years": "1930 – 1943",
-        "title": "Portraits d'uniformes, Réfugié dans la clandestinité & Mort tragique",
-        "color": "#16a34a",
-        "summary": "Période d'apaisement plastique avec les portraits d'enfants de chœur et grooms, puis traque sous l'Occupation nazie jusqu'à sa mort en 1943.",
-        "events": [
-          {
-            "year": "1933",
-            "title": "Série des Chasseurs, Grooms et Enfants de chœur",
-            "desc": "Portraits d'anonymes au travail magnifiés par l'uniforme coloré, conférant aux humbles une gravité et une dignité monumentales.",
-            "type": "milestone",
-            "badge": "PORTRAITS D'UNIFORMES",
-            "icon": "👔"
-          },
-          {
-            "year": "1943",
-            "title": "Mort dans la clandestinité sous l'Occupation",
-            "desc": "Réfugié en Touraine sous une fausse identité pour fuir les persécutions antisémites, il meurt à Paris le 9 août 1943 des suites d'un ulcère perforé.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "tanguy": {
-  "id": "tanguy",
-  "name": "Tanguy Yves",
-  "sortName": "Tanguy Yves",
-  "sortLetter": "T",
-  "dates": "1900 – 1955",
-  "movement": "Surréalisme (Onirisme & Biomorphisme)",
-  "nationality": "France / États-Unis",
-  "school": "Groupe surréaliste",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNF4V1WqdyOkzCzyH8_ImqRukOyTRhWwFCra_VmpKiqJdwQ7GU-ugIrpKzUiPFsd8Oal_q_6-CBP81dT3awaiC8LdrXKr3jl8Cnb4N-95FIWoqizgfIoO6CZRZA98cIBjv8mRS4q4lHqmVY80G5-xTLGw=w1836-h779-s-no-gm?authuser=0",
-  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczNF4V1WqdyOkzCzyH8_ImqRukOyTRhWwFCra_VmpKiqJdwQ7GU-ugIrpKzUiPFsd8Oal_q_6-CBP81dT3awaiC8LdrXKr3jl8Cnb4N-95FIWoqizgfIoO6CZRZA98cIBjv8mRS4q4lHqmVY80G5-xTLGw=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p>Yves Tanguy (1900 – 1955) est l'une des figures les plus pures et les plus énigmatiques du Surréalisme. Marin de formation dans la marine marchande avant de devenir peintre par vocation après avoir vu une toile de Giorgio de Chirico dans la vitrine de la galerie Paul Guillaume, il a créé un univers visuel absolument unique, sans équivalent dans l'histoire de l'art, évoquant des paysages mentaux situés aux confins du rêve et de l'hallucination.</p><p>Son genre pictural se définit par le biomorphisme et l'onirisme métaphysique. Contrairement à Salvador Dalí qui déforme des objets réels, Tanguy invente des formes organiques et minérales totalement imaginaires. Son style se caractérise par une ligne d'horizon extrêmement basse, créant des espaces infinis, et par des objets aux textures ambiguës (entre l'os, le galet et la chair) qui projettent des ombres portées longues et nettes sous une lumière irréelle.</p><p>L'évolution de son style marque un passage de la fluidité vers une densification minérale : après ses « paysages de rêve » fluides des années 1920 où les formes flottent dans un éther gazeux, il s'exile aux États-Unis en 1939 avec sa femme la peintre Kay Sage. Son univers se durcit alors, les concrétions se multiplient et se pétrifient. Dans sa période cristalline finale, ses compositions saturées forment des architectures fantastiques et labyrinthiques d'une précision photographique troublante.</p>",
-  "corpus": {
-    "total": 370,
-    "paintingsCount": 370,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 2,
-    "source": "Catalogue Kay Sage (1963) & Comité Yves Tanguy",
-    "totalOeuvresEstimees": "~370 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire de référence historique a été établi par son épouse, la peintre Kay Sage, et publié en 1963 par la galerie Pierre Matisse à New York (Yves Tanguy : Un recueil de ses œuvres / A Summary of His Works, répertoriant 428 œuvres reproduites incluant huiles et gouaches), tandis que les travaux ultérieurs (et l'inventaire mené par le Comité Yves Tanguy) ont affiné le recensement de ses toiles. En retenant strictement ses peintures (huiles sur toile et sur panneau, à l'exclusion de ses gouaches, dessins, collages et gravures), le consensus critique et muséal situe son corpus officiel autour d'environ 370 peintures."
+    "id": "tanguy",
+    "name": "Tanguy Yves",
+    "sortName": "Tanguy Yves",
+    "sortLetter": "T",
+    "dates": "1900 – 1955",
+    "movement": "Surréalisme (Onirisme & Biomorphisme)",
+    "nationality": "France / États-Unis",
+    "school": "Groupe surréaliste",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNF4V1WqdyOkzCzyH8_ImqRukOyTRhWwFCra_VmpKiqJdwQ7GU-ugIrpKzUiPFsd8Oal_q_6-CBP81dT3awaiC8LdrXKr3jl8Cnb4N-95FIWoqizgfIoO6CZRZA98cIBjv8mRS4q4lHqmVY80G5-xTLGw=w1836-h779-s-no-gm?authuser=0",
+    "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczNF4V1WqdyOkzCzyH8_ImqRukOyTRhWwFCra_VmpKiqJdwQ7GU-ugIrpKzUiPFsd8Oal_q_6-CBP81dT3awaiC8LdrXKr3jl8Cnb4N-95FIWoqizgfIoO6CZRZA98cIBjv8mRS4q4lHqmVY80G5-xTLGw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p>Yves Tanguy (1900 – 1955) est l'une des figures les plus pures et les plus énigmatiques du Surréalisme. Marin de formation dans la marine marchande avant de devenir peintre par vocation après avoir vu une toile de Giorgio de Chirico dans la vitrine de la galerie Paul Guillaume, il a créé un univers visuel absolument unique, sans équivalent dans l'histoire de l'art, évoquant des paysages mentaux situés aux confins du rêve et de l'hallucination.</p><p>Son genre pictural se définit par le biomorphisme et l'onirisme métaphysique. Contrairement à Salvador Dalí qui déforme des objets réels, Tanguy invente des formes organiques et minérales totalement imaginaires. Son style se caractérise par une ligne d'horizon extrêmement basse, créant des espaces infinis, et par des objets aux textures ambiguës (entre l'os, le galet et la chair) qui projettent des ombres portées longues et nettes sous une lumière irréelle.</p><p>L'évolution de son style marque un passage de la fluidité vers une densification minérale : après ses « paysages de rêve » fluides des années 1920 où les formes flottent dans un éther gazeux, il s'exile aux États-Unis en 1939 avec sa femme la peintre Kay Sage. Son univers se durcit alors, les concrétions se multiplient et se pétrifient. Dans sa période cristalline finale, ses compositions saturées forment des architectures fantastiques et labyrinthiques d'une précision photographique troublante.</p>",
+    "corpus": {
+      "total": 370,
+      "paintingsCount": 370,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 2,
+      "source": "Catalogue Kay Sage (1963) & Comité Yves Tanguy",
+      "totalOeuvresEstimees": "~370 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire de référence historique a été établi par son épouse, la peintre Kay Sage, et publié en 1963 par la galerie Pierre Matisse à New York (Yves Tanguy : Un recueil de ses œuvres / A Summary of His Works, répertoriant 428 œuvres reproduites incluant huiles et gouaches), tandis que les travaux ultérieurs (et l'inventaire mené par le Comité Yves Tanguy) ont affiné le recensement de ses toiles. En retenant strictement ses peintures (huiles sur toile et sur panneau, à l'exclusion de ses gouaches, dessins, collages et gravures), le consensus critique et muséal situe son corpus officiel autour d'environ 370 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "years": "1900 – 1938",
+          "title": "Choc visuel de De Chirico, Adhésion au Surréalisme & Paysages de rêve",
+          "color": "#0284c7",
+          "summary": "Après la marine marchande, il découvre la peinture en 1923, rejoint Breton et les surréalistes et invente ses espaces oniriques infinis.",
+          "events": [
+            {
+              "year": "1900",
+              "title": "Naissance à Paris dans une famille bretonne",
+              "desc": "Naît le 5 janvier 1900 au ministère de la Marine à Paris. Il passe ses étés d'enfance dans le Finistère, dont les dolmens et chaos rocheux marqueront son imaginaire.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌱"
+            },
+            {
+              "year": "1925",
+              "title": "Rencontre avec André Breton et adhésion au Surréalisme",
+              "desc": "Adhère au groupe surréaliste de la rue du Château avec Jacques Prévert, participant aux cadavres exquis et adoptant l'automatisme psychique.",
+              "type": "milestone",
+              "badge": "ADHÉSION SURRÉALISTE",
+              "icon": "🌀"
+            },
+            {
+              "year": "1927",
+              "title": "Sans titre (Musée d'arts de Nantes)",
+              "desc": "Paysage mental désolé : plaine minérale parsemée de formes biomorphiques projetant des ombres noires sous un ciel bleu infini.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "tanguy_sans_titre_nantes_1927"
+            },
+            {
+              "year": "1929",
+              "title": "L'Inspiration (Musée des Beaux-Arts de Rennes)",
+              "desc": "Désert onirique où une fumée noire s'élève dans un ciel brumeux au-dessus de concrétions minérales traitées avec un modelé d'une précision chirurgicale.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "tanguy_l_inspiration_rennes_1929"
+            }
+          ]
+        },
+        {
+          "years": "1939 – 1949",
+          "title": "L'Exil américain à Woodbury avec Kay Sage & La Minéralisation des formes",
+          "color": "#d97706",
+          "summary": "Fuyant la guerre en Europe, il s'installe dans le Connecticut avec la peintre Kay Sage ; son univers se durcit en structures géologiques pétrifiées.",
+          "events": [
+            {
+              "year": "1939",
+              "title": "Exil à New York et mariage avec Kay Sage",
+              "desc": "Rejoint New York au début de la Seconde Guerre mondiale puis s'établit dans une ferme de Woodbury (Connecticut) avec Kay Sage.",
+              "type": "context",
+              "badge": "EXIL AMÉRICAIN",
+              "icon": "🏡"
+            },
+            {
+              "year": "1942",
+              "title": "Multiplication et accumulation des structures minérales",
+              "desc": "Ses paysages mentaux s'élargissent en espaces désolés où les formes biomorphiques s'empilent en ossatures géologiques complexes.",
+              "type": "milestone",
+              "badge": "ÉVOLUTION STYLISTIQUE",
+              "icon": "🪨"
+            }
+          ]
+        },
+        {
+          "years": "1950 – 1955",
+          "title": "La Période cristalline, Architectures fantastiques & Mort soudaine",
+          "color": "#16a34a",
+          "summary": "Dernières années marquées par des toiles saturées de concrétions emboîtées d'une netteté photographique, interrompues par une hémorragie cérébrale à 55 ans.",
+          "events": [
+            {
+              "year": "1954",
+              "title": "Multiplication des architectures imaginaires",
+              "desc": "Ses toiles de maturité ultime atteignent une virtuosité technique saisissante, saturant la surface de motifs labyrinthiques sous une lumière glacée.",
+              "type": "milestone",
+              "badge": "PÉRIODE CRISTALLINE",
+              "icon": "💎"
+            },
+            {
+              "year": "1955",
+              "title": "Mort subite à Woodbury (Connecticut)",
+              "desc": "Succombe brutalement à une hémorragie cérébrale le 15 janvier 1955. Selon ses vœux, ses cendres sont dispersées par Pierre Matisse sur la côte de Douarnenez.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "years": "1900 – 1938",
-        "title": "Choc visuel de De Chirico, Adhésion au Surréalisme & Paysages de rêve",
-        "color": "#0284c7",
-        "summary": "Après la marine marchande, il découvre la peinture en 1923, rejoint Breton et les surréalistes et invente ses espaces oniriques infinis.",
-        "events": [
-          {
-            "year": "1900",
-            "title": "Naissance à Paris dans une famille bretonne",
-            "desc": "Naît le 5 janvier 1900 au ministère de la Marine à Paris. Il passe ses étés d'enfance dans le Finistère, dont les dolmens et chaos rocheux marqueront son imaginaire.",
-            "type": "context",
-            "badge": "NAISSANCE",
-            "icon": "🌱"
-          },
-          {
-            "year": "1925",
-            "title": "Rencontre avec André Breton et adhésion au Surréalisme",
-            "desc": "Adhère au groupe surréaliste de la rue du Château avec Jacques Prévert, participant aux cadavres exquis et adoptant l'automatisme psychique.",
-            "type": "milestone",
-            "badge": "ADHÉSION SURRÉALISTE",
-            "icon": "🌀"
-          },
-          {
-            "year": "1927",
-            "title": "Sans titre (Musée d'arts de Nantes)",
-            "desc": "Paysage mental désolé : plaine minérale parsemée de formes biomorphiques projetant des ombres noires sous un ciel bleu infini.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "tanguy_sans_titre_nantes_1927"
-          },
-          {
-            "year": "1929",
-            "title": "L'Inspiration (Musée des Beaux-Arts de Rennes)",
-            "desc": "Désert onirique où une fumée noire s'élève dans un ciel brumeux au-dessus de concrétions minérales traitées avec un modelé d'une précision chirurgicale.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "tanguy_l_inspiration_rennes_1929"
-          }
-        ]
-      },
-      {
-        "years": "1939 – 1949",
-        "title": "L'Exil américain à Woodbury avec Kay Sage & La Minéralisation des formes",
-        "color": "#d97706",
-        "summary": "Fuyant la guerre en Europe, il s'installe dans le Connecticut avec la peintre Kay Sage ; son univers se durcit en structures géologiques pétrifiées.",
-        "events": [
-          {
-            "year": "1939",
-            "title": "Exil à New York et mariage avec Kay Sage",
-            "desc": "Rejoint New York au début de la Seconde Guerre mondiale puis s'établit dans une ferme de Woodbury (Connecticut) avec Kay Sage.",
-            "type": "context",
-            "badge": "EXIL AMÉRICAIN",
-            "icon": "🏡"
-          },
-          {
-            "year": "1942",
-            "title": "Multiplication et accumulation des structures minérales",
-            "desc": "Ses paysages mentaux s'élargissent en espaces désolés où les formes biomorphiques s'empilent en ossatures géologiques complexes.",
-            "type": "milestone",
-            "badge": "ÉVOLUTION STYLISTIQUE",
-            "icon": "🪨"
-          }
-        ]
-      },
-      {
-        "years": "1950 – 1955",
-        "title": "La Période cristalline, Architectures fantastiques & Mort soudaine",
-        "color": "#16a34a",
-        "summary": "Dernières années marquées par des toiles saturées de concrétions emboîtées d'une netteté photographique, interrompues par une hémorragie cérébrale à 55 ans.",
-        "events": [
-          {
-            "year": "1954",
-            "title": "Multiplication des architectures imaginaires",
-            "desc": "Ses toiles de maturité ultime atteignent une virtuosité technique saisissante, saturant la surface de motifs labyrinthiques sous une lumière glacée.",
-            "type": "milestone",
-            "badge": "PÉRIODE CRISTALLINE",
-            "icon": "💎"
-          },
-          {
-            "year": "1955",
-            "title": "Mort subite à Woodbury (Connecticut)",
-            "desc": "Succombe brutalement à une hémorragie cérébrale le 15 janvier 1955. Selon ses vœux, ses cendres sont dispersées par Pierre Matisse sur la côte de Douarnenez.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "teniers": {
-  "id": "teniers",
-  "name": "Teniers David le Jeune",
-  "sortName": "Teniers David le Jeune",
-  "sortLetter": "T",
-  "dates": "1610 – 1690",
-  "movement": "Baroque flamand (Scènes de genre & Paysages)",
-  "nationality": "Flandre (Anvers / Bruxelles, Pays-Bas espagnols)",
-  "school": "École flamande d'Anvers",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMeCeSkpQbMbXr-ZXdkZTpqgWY4M9XCd_r7tHwtQ1QnFAcgrUdYOn5ZHkAnTdfg4Qbx-zbOjXhNhGfhOjsfYv0-3mlgVrSTq25qKOsch7mXTCP7mlcz3MiT0nFKHFkyrlav1aF1Qt31bX8eOsBvl-waqg=w1836-h779-s-no-gm?authuser=0",
-  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczMeCeSkpQbMbXr-ZXdkZTpqgWY4M9XCd_r7tHwtQ1QnFAcgrUdYOn5ZHkAnTdfg4Qbx-zbOjXhNhGfhOjsfYv0-3mlgVrSTq25qKOsch7mXTCP7mlcz3MiT0nFKHFkyrlav1aF1Qt31bX8eOsBvl-waqg=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p>David Teniers le Jeune (1610 – 1690) est l'un des peintres flamands les plus prolifiques et les plus célèbres de son temps. Gendre de Jan Brueghel l'Ancien et peintre de cour de l'archiduc Léopold-Guillaume, il a porté la peinture de genre à un niveau de raffinement et de succès international exceptionnel, influençant durablement le goût européen pour les scènes villageoises et les paysages ruraux.</p><p>Son genre pictural se définit par la représentation de la vie quotidienne et des cabinets d'amateurs. Contrairement à la rudesse de ses prédécesseurs, Teniers apporte une élégance et une précision technique aux scènes de kermesses, de cabarets et de cuisines. Son style se caractérise par une lumière claire et argentée, une touche fluide et une palette harmonieuse, souvent dominée par des gris bleutés et des terres légères. Il est également le maître de la « singerie » et des scènes de tentations fantastiques.</p><p>L'évolution de son style marque une ascension sociale et artistique : après ses débuts influencés par Brouwer dans les années 1630, il développe dans les années 1640-1650 sa manière argentée la plus célèbre, où les paysages s'ouvrent à de vastes étendues d'eau. Nommé peintre de cour et conservateur de l'archiduc à Bruxelles, il documente sa prestigieuse collection à travers des galeries de peintures et participe activement à la fondation de l'Académie royale des Beaux-Arts d'Anvers.</p>",
-  "corpus": {
-    "total": 850,
-    "paintingsCount": 850,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 1,
-    "source": "Monographies Margret Klinge (1991) & Hans Vlieghe (2011)",
-    "totalOeuvresEstimees": "~850 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur les catalogues et monographies majeurs consacrés au maître — notamment les travaux de Margret Klinge (David Teniers de Jonge: schilderijen, tekeningen, Anvers, 1991) et de Hans Vlieghe (David Teniers the Younger (1610–1690), Turnhout, 2011), qui affinent et trient l'ancien recensement très large de John Smith (1831). En se concentrant sur ses peintures authentifiées (huiles sur panneau de chêne, sur toile et sur cuivre, à l'exclusion des gravures d'après ses compositions et des copies d'atelier), le consensus muséal situe le corpus officiel de ses peintures autour d'environ 850 peintures."
+    "id": "teniers",
+    "name": "Teniers David le Jeune",
+    "sortName": "Teniers David le Jeune",
+    "sortLetter": "T",
+    "dates": "1610 – 1690",
+    "movement": "Baroque flamand (Scènes de genre & Paysages)",
+    "nationality": "Flandre (Anvers / Bruxelles, Pays-Bas espagnols)",
+    "school": "École flamande d'Anvers",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMeCeSkpQbMbXr-ZXdkZTpqgWY4M9XCd_r7tHwtQ1QnFAcgrUdYOn5ZHkAnTdfg4Qbx-zbOjXhNhGfhOjsfYv0-3mlgVrSTq25qKOsch7mXTCP7mlcz3MiT0nFKHFkyrlav1aF1Qt31bX8eOsBvl-waqg=w1836-h779-s-no-gm?authuser=0",
+    "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczMeCeSkpQbMbXr-ZXdkZTpqgWY4M9XCd_r7tHwtQ1QnFAcgrUdYOn5ZHkAnTdfg4Qbx-zbOjXhNhGfhOjsfYv0-3mlgVrSTq25qKOsch7mXTCP7mlcz3MiT0nFKHFkyrlav1aF1Qt31bX8eOsBvl-waqg=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p>David Teniers le Jeune (1610 – 1690) est l'un des peintres flamands les plus prolifiques et les plus célèbres de son temps. Gendre de Jan Brueghel l'Ancien et peintre de cour de l'archiduc Léopold-Guillaume, il a porté la peinture de genre à un niveau de raffinement et de succès international exceptionnel, influençant durablement le goût européen pour les scènes villageoises et les paysages ruraux.</p><p>Son genre pictural se définit par la représentation de la vie quotidienne et des cabinets d'amateurs. Contrairement à la rudesse de ses prédécesseurs, Teniers apporte une élégance et une précision technique aux scènes de kermesses, de cabarets et de cuisines. Son style se caractérise par une lumière claire et argentée, une touche fluide et une palette harmonieuse, souvent dominée par des gris bleutés et des terres légères. Il est également le maître de la « singerie » et des scènes de tentations fantastiques.</p><p>L'évolution de son style marque une ascension sociale et artistique : après ses débuts influencés par Brouwer dans les années 1630, il développe dans les années 1640-1650 sa manière argentée la plus célèbre, où les paysages s'ouvrent à de vastes étendues d'eau. Nommé peintre de cour et conservateur de l'archiduc à Bruxelles, il documente sa prestigieuse collection à travers des galeries de peintures et participe activement à la fondation de l'Académie royale des Beaux-Arts d'Anvers.</p>",
+    "corpus": {
+      "total": 850,
+      "paintingsCount": 850,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Monographies Margret Klinge (1991) & Hans Vlieghe (2011)",
+      "totalOeuvresEstimees": "~850 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur les catalogues et monographies majeurs consacrés au maître — notamment les travaux de Margret Klinge (David Teniers de Jonge: schilderijen, tekeningen, Anvers, 1991) et de Hans Vlieghe (David Teniers the Younger (1610–1690), Turnhout, 2011), qui affinent et trient l'ancien recensement très large de John Smith (1831). En se concentrant sur ses peintures authentifiées (huiles sur panneau de chêne, sur toile et sur cuivre, à l'exclusion des gravures d'après ses compositions et des copies d'atelier), le consensus muséal situe le corpus officiel de ses peintures autour d'environ 850 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "years": "1610 – 1639",
+          "title": "Formation anversoise & L'influence d'Adriaen Brouwer",
+          "color": "#0284c7",
+          "summary": "Formé par son père David Teniers l'Ancien et reçu maître à la guilde de Saint-Luc d'Anvers en 1632, il peint des tavernes et scènes villageoises dans une veine satirique et sombre.",
+          "events": [
+            {
+              "year": "1610",
+              "title": "Naissance à Anvers",
+              "desc": "Baptisé le 15 décembre 1610 à Anvers, fils du peintre David Teniers l'Ancien et de Dymphna Cornelisz de Wilde.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌱"
+            },
+            {
+              "year": "1632",
+              "title": "Maître de la Guilde de Saint-Luc d'Anvers",
+              "desc": "Accède à la maîtrise et développe des scènes de tavernes enfumées influencées par le réalisme picaresque d'Adriaen Brouwer.",
+              "type": "milestone",
+              "badge": "MAÎTRISE",
+              "icon": "🎨"
+            },
+            {
+              "year": "1637",
+              "title": "Mariage avec Anna Brueghel",
+              "desc": "Épouse la fille de Jan Brueghel l'Ancien (Velours) sous le parrainage de Pierre Paul Rubens, scellant son alliance avec l'aristocratie picturale anversoise.",
+              "type": "context",
+              "badge": "ALLIANCE ARTISTIQUE",
+              "icon": "💍"
+            }
+          ]
+        },
+        {
+          "years": "1640 – 1655",
+          "title": "La Lumière argentée & L'Apogée bruxellois auprès de l'Archiduc",
+          "color": "#d97706",
+          "summary": "Épanouissement de sa touche fluide et claire : grandes kermesses villageoises, paysages aristocratiques et nomination comme peintre de cour de l'archiduc Léopold-Guillaume.",
+          "events": [
+            {
+              "year": "1645",
+              "title": "Doyen de la Guilde de Saint-Luc d'Anvers",
+              "desc": "Consécration civique et professionnelle : il est élu doyen de la prestigieuse corporation des artistes d'Anvers.",
+              "type": "milestone",
+              "badge": "DOYEN",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1651",
+              "title": "Nomination comme peintre de cour à Bruxelles",
+              "desc": "L'archiduc Léopold-Guillaume, gouverneur général des Pays-Bas méridionaux, le nomme peintre de cour et conservateur de sa galerie princière.",
+              "type": "milestone",
+              "badge": "COUR ARCHIDUCALE",
+              "icon": "👑"
+            },
+            {
+              "year": "1652",
+              "title": "Paysage au château (Montpellier, Musée Fabre)",
+              "desc": "Harmonie sereine de la maturité : vaste étendue d'eau argentée reflétant un ciel vaporeux, architecture castrale et promenade aristocratique au premier plan.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "teniers_paysage_au_chateau_montpellier_1652"
+            }
+          ]
+        },
+        {
+          "years": "1656 – 1690",
+          "title": "Le Theatrum Pictorium, Fondation de l'Académie & Postérité",
+          "color": "#16a34a",
+          "summary": "Publication du premier catalogue de collection illustré (Theatrum Pictorium), fondation de l'Académie d'Anvers en 1663 et commandes royales européennes.",
+          "events": [
+            {
+              "year": "1660",
+              "title": "Publication du Theatrum Pictorium",
+              "desc": "Fait graver et édite le premier catalogue illustré d'une grande collection princière au monde, documentant les chefs-d'œuvre italiens de l'archiduc.",
+              "type": "milestone",
+              "badge": "PREMIER CATALOGUE D'ART",
+              "icon": "📖"
+            },
+            {
+              "year": "1663",
+              "title": "Fondation de l'Académie Royale d'Anvers",
+              "desc": "Obtient du roi Philippe IV d'Espagne les lettres patentes créant l'Académie royale des Beaux-Arts d'Anvers, inspirée des modèles italiens et parisiens.",
+              "type": "milestone",
+              "badge": "FONDATION ACADÉMIQUE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1690",
+              "title": "Mort à Bruxelles à l'âge de 79 ans",
+              "desc": "S'éteint le 25 avril 1690 à Bruxelles, honoré dans toute l'Europe et collectionné avec passion par Louis XIV et les monarques européens.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "years": "1610 – 1639",
-        "title": "Formation anversoise & L'influence d'Adriaen Brouwer",
-        "color": "#0284c7",
-        "summary": "Formé par son père David Teniers l'Ancien et reçu maître à la guilde de Saint-Luc d'Anvers en 1632, il peint des tavernes et scènes villageoises dans une veine satirique et sombre.",
-        "events": [
-          {
-            "year": "1610",
-            "title": "Naissance à Anvers",
-            "desc": "Baptisé le 15 décembre 1610 à Anvers, fils du peintre David Teniers l'Ancien et de Dymphna Cornelisz de Wilde.",
-            "type": "context",
-            "badge": "NAISSANCE",
-            "icon": "🌱"
-          },
-          {
-            "year": "1632",
-            "title": "Maître de la Guilde de Saint-Luc d'Anvers",
-            "desc": "Accède à la maîtrise et développe des scènes de tavernes enfumées influencées par le réalisme picaresque d'Adriaen Brouwer.",
-            "type": "milestone",
-            "badge": "MAÎTRISE",
-            "icon": "🎨"
-          },
-          {
-            "year": "1637",
-            "title": "Mariage avec Anna Brueghel",
-            "desc": "Épouse la fille de Jan Brueghel l'Ancien (Velours) sous le parrainage de Pierre Paul Rubens, scellant son alliance avec l'aristocratie picturale anversoise.",
-            "type": "context",
-            "badge": "ALLIANCE ARTISTIQUE",
-            "icon": "💍"
-          }
-        ]
-      },
-      {
-        "years": "1640 – 1655",
-        "title": "La Lumière argentée & L'Apogée bruxellois auprès de l'Archiduc",
-        "color": "#d97706",
-        "summary": "Épanouissement de sa touche fluide et claire : grandes kermesses villageoises, paysages aristocratiques et nomination comme peintre de cour de l'archiduc Léopold-Guillaume.",
-        "events": [
-          {
-            "year": "1645",
-            "title": "Doyen de la Guilde de Saint-Luc d'Anvers",
-            "desc": "Consécration civique et professionnelle : il est élu doyen de la prestigieuse corporation des artistes d'Anvers.",
-            "type": "milestone",
-            "badge": "DOYEN",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1651",
-            "title": "Nomination comme peintre de cour à Bruxelles",
-            "desc": "L'archiduc Léopold-Guillaume, gouverneur général des Pays-Bas méridionaux, le nomme peintre de cour et conservateur de sa galerie princière.",
-            "type": "milestone",
-            "badge": "COUR ARCHIDUCALE",
-            "icon": "👑"
-          },
-          {
-            "year": "1652",
-            "title": "Paysage au château (Montpellier, Musée Fabre)",
-            "desc": "Harmonie sereine de la maturité : vaste étendue d'eau argentée reflétant un ciel vaporeux, architecture castrale et promenade aristocratique au premier plan.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "teniers_paysage_au_chateau_montpellier_1652"
-          }
-        ]
-      },
-      {
-        "years": "1656 – 1690",
-        "title": "Le Theatrum Pictorium, Fondation de l'Académie & Postérité",
-        "color": "#16a34a",
-        "summary": "Publication du premier catalogue de collection illustré (Theatrum Pictorium), fondation de l'Académie d'Anvers en 1663 et commandes royales européennes.",
-        "events": [
-          {
-            "year": "1660",
-            "title": "Publication du Theatrum Pictorium",
-            "desc": "Fait graver et édite le premier catalogue illustré d'une grande collection princière au monde, documentant les chefs-d'œuvre italiens de l'archiduc.",
-            "type": "milestone",
-            "badge": "PREMIER CATALOGUE D'ART",
-            "icon": "📖"
-          },
-          {
-            "year": "1663",
-            "title": "Fondation de l'Académie Royale d'Anvers",
-            "desc": "Obtient du roi Philippe IV d'Espagne les lettres patentes créant l'Académie royale des Beaux-Arts d'Anvers, inspirée des modèles italiens et parisiens.",
-            "type": "milestone",
-            "badge": "FONDATION ACADÉMIQUE",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1690",
-            "title": "Mort à Bruxelles à l'âge de 79 ans",
-            "desc": "S'éteint le 25 avril 1690 à Bruxelles, honoré dans toute l'Europe et collectionné avec passion par Louis XIV et les monarques européens.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "tintoret": {
-  "id": "tintoret",
-  "name": "Tintoret (Jacopo Robusti)",
-  "sortName": "Tintoret",
-  "sortLetter": "T",
-  "dates": "1518 – 1594",
-  "movement": "Maniérisme vénitien & Haute Renaissance",
-  "nationality": "Italie (République de Venise)",
-  "school": "École vénitienne du Cinquecento",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczO0pIRFF2eImrDdbtgzEeKucMJ4g2LMnaO5RKVA5apCkghDRuwq1OzkSq7WiOMGzpn7vGxGY1vxA_UIep78MZm5kP80gyT1l3ex9MtGITY5KupfjlA_ehgb9BA_soVZaJGnJ6heEo40SaqFbfAvTzbjhQ=w1836-h779-s-no-gm?authuser=0",
-  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczO0pIRFF2eImrDdbtgzEeKucMJ4g2LMnaO5RKVA5apCkghDRuwq1OzkSq7WiOMGzpn7vGxGY1vxA_UIep78MZm5kP80gyT1l3ex9MtGITY5KupfjlA_ehgb9BA_soVZaJGnJ6heEo40SaqFbfAvTzbjhQ=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p>Jacopo Robusti, dit Le Tintoret (Il Tintoretto, 1518 – 1594), est le génie visionnaire et impétueux du Maniérisme vénitien. Fils d'un teinturier de soie vénitien (d'où son surnom), il s'était fixé pour ambition absolue de fusionner « le dessin de Michel-Ange et la couleur de Titien ». Artiste à l'énergie proverbiale, il a bouleversé les traditions de la Sérénissime par la rapidité foudroyante de son exécution (la <em>prestezza</em>) et l'audace spectaculaire de ses mises en scène dramatiques.</p><p>Son genre pictural est marqué par un dynamisme surnaturel et une ferveur spirituelle saisissante. Le style du Tintoret se caractérise par des perspectives fuyantes vertigineuses, des compositions en diagonale et une lumière artificielle et électrique qui déchire les ténèbres pour frapper les anatomies en tension. Grand rival de Véronèse et de Titien, il devient le peintre souverain de la Scuola Grande di San Rocco, qu'il transforme durant près de vingt-cinq ans en l'un des monuments les plus grandioses de l'art mondial.</p><p>L'évolution de son art le mène d'une virtuosité théâtrale précoce (<em>Le Miracle de l'esclave</em>, 1548) à un mysticisme cosmique et sombre dans ses dernières années (<em>La Cène</em> de San Giorgio Maggiore), préfigurant l'art baroque et influençant profondément son élève El Greco par son traitement incandescent de la lumière spirituelle.</p>",
-  "corpus": {
-    "total": 275,
-    "paintingsCount": 275,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 5,
-    "source": "Catalogue raisonné Rodolfo Pallucchini & Paola Rossi (1982) & Rétrospective Nichols / Echols / Ilchman (2018)",
-    "totalOeuvresEstimees": "~275 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur le catalogue raisonné établi par Rodolfo Pallucchini et Paola Rossi (Tintoretto : Le opere sacre e profane, Alfieri / Electa, 1982, en deux volumes), affiné par les monographies ultérieures de Tom Nichols, Robert Echols et Frederick Ilchman (notamment lors de la grande rétrospective de 2018–2019). En retenant ses peintures autographes ou majoritairement exécutées sous sa direction (toiles monumentales, retables, scènes mythologiques, plafonds et portraits, en comptabilisant chaque cycle ou ensemble cohérent au même titre qu'un tableau isolé, et en écartant les copies tardives d'atelier et les œuvres entièrement de la main de Domenico), le consensus scientifique situe son corpus officiel de peintures autour d'environ 275 peintures."
+    "id": "tintoret",
+    "name": "Tintoret (Jacopo Robusti)",
+    "sortName": "Tintoret",
+    "sortLetter": "T",
+    "dates": "1518 – 1594",
+    "movement": "Maniérisme vénitien & Haute Renaissance",
+    "nationality": "Italie (République de Venise)",
+    "school": "École vénitienne du Cinquecento",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczO0pIRFF2eImrDdbtgzEeKucMJ4g2LMnaO5RKVA5apCkghDRuwq1OzkSq7WiOMGzpn7vGxGY1vxA_UIep78MZm5kP80gyT1l3ex9MtGITY5KupfjlA_ehgb9BA_soVZaJGnJ6heEo40SaqFbfAvTzbjhQ=w1836-h779-s-no-gm?authuser=0",
+    "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczO0pIRFF2eImrDdbtgzEeKucMJ4g2LMnaO5RKVA5apCkghDRuwq1OzkSq7WiOMGzpn7vGxGY1vxA_UIep78MZm5kP80gyT1l3ex9MtGITY5KupfjlA_ehgb9BA_soVZaJGnJ6heEo40SaqFbfAvTzbjhQ=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p>Jacopo Robusti, dit Le Tintoret (Il Tintoretto, 1518 – 1594), est le génie visionnaire et impétueux du Maniérisme vénitien. Fils d'un teinturier de soie vénitien (d'où son surnom), il s'était fixé pour ambition absolue de fusionner « le dessin de Michel-Ange et la couleur de Titien ». Artiste à l'énergie proverbiale, il a bouleversé les traditions de la Sérénissime par la rapidité foudroyante de son exécution (la <em>prestezza</em>) et l'audace spectaculaire de ses mises en scène dramatiques.</p><p>Son genre pictural est marqué par un dynamisme surnaturel et une ferveur spirituelle saisissante. Le style du Tintoret se caractérise par des perspectives fuyantes vertigineuses, des compositions en diagonale et une lumière artificielle et électrique qui déchire les ténèbres pour frapper les anatomies en tension. Grand rival de Véronèse et de Titien, il devient le peintre souverain de la Scuola Grande di San Rocco, qu'il transforme durant près de vingt-cinq ans en l'un des monuments les plus grandioses de l'art mondial.</p><p>L'évolution de son art le mène d'une virtuosité théâtrale précoce (<em>Le Miracle de l'esclave</em>, 1548) à un mysticisme cosmique et sombre dans ses dernières années (<em>La Cène</em> de San Giorgio Maggiore), préfigurant l'art baroque et influençant profondément son élève El Greco par son traitement incandescent de la lumière spirituelle.</p>",
+    "corpus": {
+      "total": 275,
+      "paintingsCount": 275,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 5,
+      "source": "Catalogue raisonné Rodolfo Pallucchini & Paola Rossi (1982) & Rétrospective Nichols / Echols / Ilchman (2018)",
+      "totalOeuvresEstimees": "~275 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur le catalogue raisonné établi par Rodolfo Pallucchini et Paola Rossi (Tintoretto : Le opere sacre e profane, Alfieri / Electa, 1982, en deux volumes), affiné par les monographies ultérieures de Tom Nichols, Robert Echols et Frederick Ilchman (notamment lors de la grande rétrospective de 2018–2019). En retenant ses peintures autographes ou majoritairement exécutées sous sa direction (toiles monumentales, retables, scènes mythologiques, plafonds et portraits, en comptabilisant chaque cycle ou ensemble cohérent au même titre qu'un tableau isolé, et en écartant les copies tardives d'atelier et les œuvres entièrement de la main de Domenico), le consensus scientifique situe son corpus officiel de peintures autour d'environ 275 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "years": "1518 – 1555",
+          "title": "Jeunesse, Le Coup d'éclat du Miracle de l'Esclave & Portraits patriciens",
+          "color": "#0284c7",
+          "summary": "Formation atypique à Venise, triomphe retentissant à la Scuola Grande di San Marco en 1548 et déploiement d'un style maniériste fougueux alliant mythes sensuels et portraits aristocratiques.",
+          "events": [
+            {
+              "year": "1518",
+              "title": "Naissance à Venise, fils d'un teinturier",
+              "desc": "Naît à Venise en 1518, aîné des vingt-et-un enfants du teinturier (tintore) Giovanni Battista Robusti.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌱"
+            },
+            {
+              "year": "1548",
+              "title": "Le Miracle de saint Marc sauvant l'esclave",
+              "desc": "Chef-d'œuvre révolutionnaire peint pour la Scuola di San Marco : raccourci plongeant fulgurant et lumière théâtrale qui sidèrent Venise et Pietro Aretino.",
+              "type": "milestone",
+              "badge": "TRIOMPHE ÉCLATANT",
+              "icon": "⚡"
+            },
+            {
+              "year": "1550",
+              "title": "Léda et le cygne (Florence, Galerie des Offices)",
+              "desc": "Sensualité profane et élégance maniériste : le corps nacré de Léda en diagonale sinueuse sur tentures pourpres au sein d'une opulente chambre vénitienne.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "tintoret_leda_et_le_cygne_florence_1550"
+            },
+            {
+              "year": "1552",
+              "title": "Portrait d'homme, dit de Soranzo (Musée d'arts de Nantes)",
+              "desc": "Sondage psychologique saisissant d'un patricien vénitien à la barbe rousse foisonnante, émergeant d'un fond ténébreux.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "tintoret_portrait_d_homme_soranzo_nantes_1552"
+            },
+            {
+              "year": "1555",
+              "title": "Portrait d’un jeune homme en David",
+              "desc": "Portrait allégorique aristocratique : le jeune modèle en pourpoint de velours pourpre s'appuie sur l'épée géante devant le corps vaincu de Goliath.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "tintoret_portrait_d_un_jeune_homme_en_david_1555"
+            },
+            {
+              "year": "1555",
+              "title": "Suzanne au bain (Paris, Musée du Louvre)",
+              "desc": "Poésie lumineuse du nu féminin resplendissant au cœur d'un treillage de roses, observant son reflet face aux vieillards dissimulés.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "tintoret_suzanne_au_bain_louvre_1555"
+            }
+          ]
+        },
+        {
+          "years": "1556 – 1579",
+          "title": "Le Monument de San Rocco & Les Grandes commandes de la République",
+          "color": "#d97706",
+          "summary": "Conquête audacieuse du décor de la Scuola Grande di San Rocco en 1564 où il installe sans frais sa Crucifixion monumentale, rivalisant avec Titien et Véronèse au Palais des Doges.",
+          "events": [
+            {
+              "year": "1564 – 1588",
+              "title": "Cycle monumental de la Scuola Grande di San Rocco",
+              "desc": "Pendant près d'un quart de siècle, il couvre les plafonds et parois de dizaines de toiles visionnaires, constituant la « chapelle Sixtine vénitienne ».",
+              "type": "milestone",
+              "badge": "CHEF-D'ŒUVRE MONUMENTAL",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1575",
+              "title": "Portrait d'homme âgé tenant un mouchoir (Paris, Musée du Louvre)",
+              "desc": "Méditation sublime sur la dignité du grand âge : touche rapide (prestezza) sculptant la barbe argentée et regard empreint de gravitas républicaine.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "tintoret_portrait_d_homme_age_au_mouchoir_louvre_1575"
+            },
+            {
+              "year": "1577",
+              "title": "Incendie du Palais des Doges et grands décors d'État",
+              "desc": "Mobilisé pour reconstruire la gloire visuelle de la République dans la Salle du Scrutin et la Salle du Collège aux côtés de Véronèse.",
+              "type": "milestone",
+              "badge": "COMMANDES D'ÉTAT",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "years": "1580 – 1594",
+          "title": "Le Paradis colosal, Mysticisme ultime & Apothéose",
+          "color": "#16a34a",
+          "summary": "Réalisation du gigantesque Paradis pour la Salle du Grand Conseil (la plus grande toile du monde) et ultime Cène crépusculaire à San Giorgio Maggiore.",
+          "events": [
+            {
+              "year": "1588 – 1592",
+              "title": "Le Paradis du Palais des Doges",
+              "desc": "Peint avec son fils Domenico la plus grande toile sur châssis de l'histoire (22 × 7 mètres), tourbillon cosmique de plus de cinq cents figures d'élus.",
+              "type": "milestone",
+              "badge": "TOILE GIGANTESQUE",
+              "icon": "🌌"
+            },
+            {
+              "year": "1594",
+              "title": "La Cène de la basilique San Giorgio Maggiore & Mort",
+              "desc": "S'éteint le 31 mai 1594 à Venise après avoir achevé sa dernière Cène nocturne où la fumée des lampes d'huile se métamorphose en une nuée d'anges incandescents.",
+              "type": "context",
+              "badge": "TESTAMENT PICTURAL",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "years": "1518 – 1555",
-        "title": "Jeunesse, Le Coup d'éclat du Miracle de l'Esclave & Portraits patriciens",
-        "color": "#0284c7",
-        "summary": "Formation atypique à Venise, triomphe retentissant à la Scuola Grande di San Marco en 1548 et déploiement d'un style maniériste fougueux alliant mythes sensuels et portraits aristocratiques.",
-        "events": [
-          {
-            "year": "1518",
-            "title": "Naissance à Venise, fils d'un teinturier",
-            "desc": "Naît à Venise en 1518, aîné des vingt-et-un enfants du teinturier (tintore) Giovanni Battista Robusti.",
-            "type": "context",
-            "badge": "NAISSANCE",
-            "icon": "🌱"
-          },
-          {
-            "year": "1548",
-            "title": "Le Miracle de saint Marc sauvant l'esclave",
-            "desc": "Chef-d'œuvre révolutionnaire peint pour la Scuola di San Marco : raccourci plongeant fulgurant et lumière théâtrale qui sidèrent Venise et Pietro Aretino.",
-            "type": "milestone",
-            "badge": "TRIOMPHE ÉCLATANT",
-            "icon": "⚡"
-          },
-          {
-            "year": "1550",
-            "title": "Léda et le cygne (Florence, Galerie des Offices)",
-            "desc": "Sensualité profane et élégance maniériste : le corps nacré de Léda en diagonale sinueuse sur tentures pourpres au sein d'une opulente chambre vénitienne.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "tintoret_leda_et_le_cygne_florence_1550"
-          },
-          {
-            "year": "1552",
-            "title": "Portrait d'homme, dit de Soranzo (Musée d'arts de Nantes)",
-            "desc": "Sondage psychologique saisissant d'un patricien vénitien à la barbe rousse foisonnante, émergeant d'un fond ténébreux.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "tintoret_portrait_d_homme_soranzo_nantes_1552"
-          },
-          {
-            "year": "1555",
-            "title": "Portrait d’un jeune homme en David",
-            "desc": "Portrait allégorique aristocratique : le jeune modèle en pourpoint de velours pourpre s'appuie sur l'épée géante devant le corps vaincu de Goliath.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "tintoret_portrait_d_un_jeune_homme_en_david_1555"
-          },
-          {
-            "year": "1555",
-            "title": "Suzanne au bain (Paris, Musée du Louvre)",
-            "desc": "Poésie lumineuse du nu féminin resplendissant au cœur d'un treillage de roses, observant son reflet face aux vieillards dissimulés.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "tintoret_suzanne_au_bain_louvre_1555"
-          }
-        ]
-      },
-      {
-        "years": "1556 – 1579",
-        "title": "Le Monument de San Rocco & Les Grandes commandes de la République",
-        "color": "#d97706",
-        "summary": "Conquête audacieuse du décor de la Scuola Grande di San Rocco en 1564 où il installe sans frais sa Crucifixion monumentale, rivalisant avec Titien et Véronèse au Palais des Doges.",
-        "events": [
-          {
-            "year": "1564 – 1588",
-            "title": "Cycle monumental de la Scuola Grande di San Rocco",
-            "desc": "Pendant près d'un quart de siècle, il couvre les plafonds et parois de dizaines de toiles visionnaires, constituant la « chapelle Sixtine vénitienne ».",
-            "type": "milestone",
-            "badge": "CHEF-D'ŒUVRE MONUMENTAL",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1575",
-            "title": "Portrait d'homme âgé tenant un mouchoir (Paris, Musée du Louvre)",
-            "desc": "Méditation sublime sur la dignité du grand âge : touche rapide (prestezza) sculptant la barbe argentée et regard empreint de gravitas républicaine.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "tintoret_portrait_d_homme_age_au_mouchoir_louvre_1575"
-          },
-          {
-            "year": "1577",
-            "title": "Incendie du Palais des Doges et grands décors d'État",
-            "desc": "Mobilisé pour reconstruire la gloire visuelle de la République dans la Salle du Scrutin et la Salle du Collège aux côtés de Véronèse.",
-            "type": "milestone",
-            "badge": "COMMANDES D'ÉTAT",
-            "icon": "👑"
-          }
-        ]
-      },
-      {
-        "years": "1580 – 1594",
-        "title": "Le Paradis colosal, Mysticisme ultime & Apothéose",
-        "color": "#16a34a",
-        "summary": "Réalisation du gigantesque Paradis pour la Salle du Grand Conseil (la plus grande toile du monde) et ultime Cène crépusculaire à San Giorgio Maggiore.",
-        "events": [
-          {
-            "year": "1588 – 1592",
-            "title": "Le Paradis du Palais des Doges",
-            "desc": "Peint avec son fils Domenico la plus grande toile sur châssis de l'histoire (22 × 7 mètres), tourbillon cosmique de plus de cinq cents figures d'élus.",
-            "type": "milestone",
-            "badge": "TOILE GIGANTESQUE",
-            "icon": "🌌"
-          },
-          {
-            "year": "1594",
-            "title": "La Cène de la basilique San Giorgio Maggiore & Mort",
-            "desc": "S'éteint le 31 mai 1594 à Venise après avoir achevé sa dernière Cène nocturne où la fumée des lampes d'huile se métamorphose en une nuée d'anges incandescents.",
-            "type": "context",
-            "badge": "TESTAMENT PICTURAL",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "titien": {
-  "id": "titien",
-  "name": "Titien (Tiziano Vecellio)",
-  "sortName": "Titien",
-  "sortLetter": "T",
-  "dates": "v. 1488 – 1576",
-  "movement": "Haute Renaissance vénitienne (Colorito)",
-  "nationality": "Italie (République de Venise / Pieve di Cadore)",
-  "school": "École vénitienne du Cinquecento",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM_BAiRNMuBjCbBD6_8n4AZTHb6MLMK7_8wqxPhrDti1WZDjxlZv6uCt4qhCd_5PTVXUbMuuw7NnRXWp3u1w_dvyW-H9AJKLpyjLyuiMUnSObLK7qQodYNRvPYzGsTRE5nhV8kz9LhPNXnX5Yvn9wEv_g=w1836-h779-s-no-gm?authuser=0",
-  "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczM_BAiRNMuBjCbBD6_8n4AZTHb6MLMK7_8wqxPhrDti1WZDjxlZv6uCt4qhCd_5PTVXUbMuuw7NnRXWp3u1w_dvyW-H9AJKLpyjLyuiMUnSObLK7qQodYNRvPYzGsTRE5nhV8kz9LhPNXnX5Yvn9wEv_g=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p>Tiziano Vecellio, dit Le Titien (v. 1488 – 1576), né à Pieve di Cadore dans les Dolomites et mort presque centenaire à Venise, est le maître souverain et incontesté de l'école vénitienne et l'une des figures fondatrices de toute la peinture occidentale. Formé auprès de Giovanni Bellini et émule de Giorgione, il devient dès 1516 le peintre officiel de la Sérénissime avant de conquérir une renommée européenne absolue, peignant pour les ducs de Ferrare et de Mantoue, les papes Farnèse et surtout l'empereur Charles Quint, qui le nomma comte palatin et chevalier de l'Éperon d'or.</p><p>Son génie se définit par le triomphe de la couleur sur la ligne (le <em>colorito</em> vénitien). Titien excelle avec une aisance égale dans tous les genres : le retable sacré d'une majesté héroïque (<em>L'Assomption des Frari</em>), les fables mythologiques ardentes et sensuelles (les <em>Poésies</em> peintes pour Philippe II d'Espagne) et le portrait psychologique d'État, où il invente la pose aristocratique moderne faite d'autorité morale, de mélancolie et de distinction suprême.</p><p>L'évolution de son style parcourt sept décennies de création ininterrompue, passant de la perfection lumineuse et satinée de sa jeunesse (<em>La Vierge au lapin</em>, <em>L'Homme au gant</em>, <em>Vénus d'Urbino</em>) à la liberté révolutionnaire de sa « manière tardive ». Dans ses dernières années, le maître broie ses pigments, applique la matière à touches rugueuses, larges, parfois directement au doigt, dissolvant les contours dans une lumière crépusculaire et tragique qui ouvrira directement la voie à Velázquez, Rembrandt et Delacroix.</p>",
-  "corpus": {
-    "total": 275,
-    "paintingsCount": 275,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 16,
-    "source": "Catalogue raisonné Harold E. Wethey (3 vol., 1969–1975) & Synthèse critique Peter Humfrey (2007)",
-    "totalOeuvresEstimees": "~275 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur le catalogue raisonné monumental d'Harold E. Wethey (The Paintings of Titian, 3 volumes, Phaidon, 1969–1975), enrichi par les synthèses critiques ultérieures comme celles de Peter Humfrey (Titian: The Complete Paintings, 2007) et les catalogues d'exposition récents. En isolant les peintures authentifiées ou de sa main (huiles sur toile et sur panneau, en traitant les cycles ou ensembles décoratifs liés comme des unités cohérentes et en laissant de côté les œuvres d'atelier tardives, les copies et les estampes), le consensus scientifique situe son corpus officiel de peintures autour d'environ 275 peintures."
-  },
-  "timeline": {
-    "periods": [
-      {
-        "years": "v. 1488 – 1525",
-        "title": "Jeunesse giorgionesque, L'Assomption des Frari & Épopée des Camerini",
-        "color": "#0284c7",
-        "summary": "Formé auprès de Bellini, il collabore avec Giorgione au Fondaco dei Tedeschi, s'impose avec l'Assomption en 1518 et peint ses fables dionysiaques pour Alphonse d'Este.",
-        "events": [
-          {
-            "year": "v. 1488",
-            "title": "Naissance à Pieve di Cadore",
-            "desc": "Naît au cœur des Dolomites dans une famille de notables montagnards, avant de rejoindre Venise dès l'enfance pour se former à la peinture.",
-            "type": "context",
-            "badge": "NAISSANCE",
-            "icon": "🌱"
-          },
-          {
-            "year": "1515",
-            "title": "La Femme au miroir (Paris, Musée du Louvre)",
-            "desc": "Sommet de grâce vénitienne : la beauté idéale féminine célébrée dans le décolleté de batiste fine et le double jeu spéculaire des reflets.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "titien_la_femme_au_miroir_louvre_1515"
-          },
-          {
-            "year": "1518",
-            "title": "Triomphe de L'Assomption de la Vierge aux Frari",
-            "desc": "Coup de tonnerre dans la Sérénissime : retable colossal de près de sept mètres de haut où le dynamisme ascendant de Marie sidère les contemporains.",
-            "type": "milestone",
-            "badge": "RETABLE HISTORIQUE",
-            "icon": "⛪"
-          },
-          {
-            "year": "1520",
-            "title": "L'Homme au gant (Paris, Musée du Louvre)",
-            "desc": "Archétype du courtisan de la Renaissance : silhouette sombre, sprezzatura élégante et regard mélancolique d'une distinction aristocratique insurpassée.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "titien_l_homme_au_gant_louvre_1520"
-          },
-          {
-            "year": "1520 – 1523",
-            "title": "Bacchus et Ariane (Londres, National Gallery)",
-            "desc": "Fable mythologique pour le duc de Ferrare : saut athlétique du dieu dionysiaque sur fond de ciel au lapis-lazuli pur et cortège dionysiaque exubérant.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "titien_bacchus_et_ariane_londres_1520"
-          },
-          {
-            "year": "1520 – 1525",
-            "title": "Le Transport du Christ vers le tombeau (Paris, Musée du Louvre)",
-            "desc": "Tragédie poignante de la mort divine : le corps lourd et blême du Christ porté vers le sépulcre sous un ciel d'orage crépusculaire.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "titien_le_transport_du_christ_vers_le_tombeau_louvre_1520"
-          }
-        ]
-      },
-      {
-        "years": "1526 – 1548",
-        "title": "Maturité classique, Peintre des Empereurs & Maniérisme héroïque",
-        "color": "#d97706",
-        "summary": "Épanouissement pastoral, amitié intime avec Pierre l'Arétin, peintre exclusif de Charles Quint et rencontre avec le pape Paul III à Rome.",
-        "events": [
-          {
-            "year": "1525 – 1530",
-            "title": "La Vierge au lapin (Paris, Musée du Louvre)",
-            "desc": "Sainte Conversation champêtre baignée dans la lumière crépusculaire des Dolomites, mêlant ferveur dévote et poésie pastorale.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "titien_la_vierge_au_lapin_louvre_1525"
-          },
-          {
-            "year": "1538",
-            "title": "Portrait de François Ier (Paris, Musée du Louvre)",
-            "desc": "Portrait d'apparat du Roi-Chevalier peint de profil à distance d'après une médaille de Cellini, incarnant la magnificence royale.",
-            "type": "masterpiece",
-            "badge": "PORTRAIT ROYAL",
-            "icon": "👑",
-            "artworkId": "titien_francois_ier_louvre_1538"
-          },
-          {
-            "year": "1538",
-            "title": "La Vénus d'Urbino (Florence, Galerie des Offices)",
-            "desc": "Sommet absolu du nu féminin occidental : regard direct et souverain de la déesse alanguie, harmonie soyeuse des draps et allégorie conjugale.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE ABSOLU",
-            "icon": "🎨",
-            "artworkId": "titien_venus_d_urbino_florence_1538"
-          },
-          {
-            "year": "1542 – 1543",
-            "title": "Le Couronnement d'épines (Paris, Musée du Louvre)",
-            "desc": "Maniérisme puissant et violent : blocs d'architecture rustique encadrant le supplice physique du Christ sous la poussée brutale des roseaux.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "titien_le_couronnement_d_epines_louvre_1542"
-          },
-          {
-            "year": "1548",
-            "title": "Charles Quint à cheval à Mühlberg (Madrid, Prado)",
-            "desc": "Invention du portrait équestre moderne : l'empereur en armure sombre chevauchant au soleil couchant dans une solitude impériale héroïque.",
-            "type": "milestone",
-            "badge": "PORTRAIT IMPÉRIAL",
-            "icon": "🐎"
-          }
-        ]
-      },
-      {
-        "years": "1549 – 1576",
-        "title": "La Manière tardive, Les Poésies de Philippe II & Le Drame de la matière",
-        "color": "#16a34a",
-        "summary": "Cycle des Poésies mythologiques pour Philippe II, facture libre peinte au doigt et ultime Piétà tragique avant sa mort lors de la peste de Venise.",
-        "events": [
-          {
-            "year": "1554 – 1562",
-            "title": "Le cycle des Poésies pour le roi Philippe II d'Espagne",
-            "desc": "Danaé, Diane et Actéon, Le Viol d'Europe : érotisme tragique et dissolution des formes dans une pâte picturale libre et flamboyante.",
-            "type": "milestone",
-            "badge": "CYCLE ROYAL",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1576",
-            "title": "La Pietà pour sa propre sépulture & Mort à Venise",
-            "desc": "S'éteint le 27 août 1576 à près de 90 ans durant la grande épidémie de peste. La République lui accorde des obsèques solennelles en l'église des Frari.",
-            "type": "context",
-            "badge": "APOTHÉOSE",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  
-  }
+    "id": "titien",
+    "name": "Titien (Tiziano Vecellio)",
+    "sortName": "Titien",
+    "sortLetter": "T",
+    "dates": "v. 1488 – 1576",
+    "movement": "Haute Renaissance vénitienne (Colorito)",
+    "nationality": "Italie (République de Venise / Pieve di Cadore)",
+    "school": "École vénitienne du Cinquecento",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM_BAiRNMuBjCbBD6_8n4AZTHb6MLMK7_8wqxPhrDti1WZDjxlZv6uCt4qhCd_5PTVXUbMuuw7NnRXWp3u1w_dvyW-H9AJKLpyjLyuiMUnSObLK7qQodYNRvPYzGsTRE5nhV8kz9LhPNXnX5Yvn9wEv_g=w1836-h779-s-no-gm?authuser=0",
+    "heroImage": "https://lh3.googleusercontent.com/pw/AP1GczM_BAiRNMuBjCbBD6_8n4AZTHb6MLMK7_8wqxPhrDti1WZDjxlZv6uCt4qhCd_5PTVXUbMuuw7NnRXWp3u1w_dvyW-H9AJKLpyjLyuiMUnSObLK7qQodYNRvPYzGsTRE5nhV8kz9LhPNXnX5Yvn9wEv_g=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p>Tiziano Vecellio, dit Le Titien (v. 1488 – 1576), né à Pieve di Cadore dans les Dolomites et mort presque centenaire à Venise, est le maître souverain et incontesté de l'école vénitienne et l'une des figures fondatrices de toute la peinture occidentale. Formé auprès de Giovanni Bellini et émule de Giorgione, il devient dès 1516 le peintre officiel de la Sérénissime avant de conquérir une renommée européenne absolue, peignant pour les ducs de Ferrare et de Mantoue, les papes Farnèse et surtout l'empereur Charles Quint, qui le nomma comte palatin et chevalier de l'Éperon d'or.</p><p>Son génie se définit par le triomphe de la couleur sur la ligne (le <em>colorito</em> vénitien). Titien excelle avec une aisance égale dans tous les genres : le retable sacré d'une majesté héroïque (<em>L'Assomption des Frari</em>), les fables mythologiques ardentes et sensuelles (les <em>Poésies</em> peintes pour Philippe II d'Espagne) et le portrait psychologique d'État, où il invente la pose aristocratique moderne faite d'autorité morale, de mélancolie et de distinction suprême.</p><p>L'évolution de son style parcourt sept décennies de création ininterrompue, passant de la perfection lumineuse et satinée de sa jeunesse (<em>La Vierge au lapin</em>, <em>L'Homme au gant</em>, <em>Vénus d'Urbino</em>) à la liberté révolutionnaire de sa « manière tardive ». Dans ses dernières années, le maître broie ses pigments, applique la matière à touches rugueuses, larges, parfois directement au doigt, dissolvant les contours dans une lumière crépusculaire et tragique qui ouvrira directement la voie à Velázquez, Rembrandt et Delacroix.</p>",
+    "corpus": {
+      "total": 275,
+      "paintingsCount": 275,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 16,
+      "source": "Catalogue raisonné Harold E. Wethey (3 vol., 1969–1975) & Synthèse critique Peter Humfrey (2007)",
+      "totalOeuvresEstimees": "~275 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur le catalogue raisonné monumental d'Harold E. Wethey (The Paintings of Titian, 3 volumes, Phaidon, 1969–1975), enrichi par les synthèses critiques ultérieures comme celles de Peter Humfrey (Titian: The Complete Paintings, 2007) et les catalogues d'exposition récents. En isolant les peintures authentifiées ou de sa main (huiles sur toile et sur panneau, en traitant les cycles ou ensembles décoratifs liés comme des unités cohérentes et en laissant de côté les œuvres d'atelier tardives, les copies et les estampes), le consensus scientifique situe son corpus officiel de peintures autour d'environ 275 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "years": "v. 1488 – 1525",
+          "title": "Jeunesse giorgionesque, L'Assomption des Frari & Épopée des Camerini",
+          "color": "#0284c7",
+          "summary": "Formé auprès de Bellini, il collabore avec Giorgione au Fondaco dei Tedeschi, s'impose avec l'Assomption en 1518 et peint ses fables dionysiaques pour Alphonse d'Este.",
+          "events": [
+            {
+              "year": "v. 1488",
+              "title": "Naissance à Pieve di Cadore",
+              "desc": "Naît au cœur des Dolomites dans une famille de notables montagnards, avant de rejoindre Venise dès l'enfance pour se former à la peinture.",
+              "type": "context",
+              "badge": "NAISSANCE",
+              "icon": "🌱"
+            },
+            {
+              "year": "1515",
+              "title": "La Femme au miroir (Paris, Musée du Louvre)",
+              "desc": "Sommet de grâce vénitienne : la beauté idéale féminine célébrée dans le décolleté de batiste fine et le double jeu spéculaire des reflets.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "titien_la_femme_au_miroir_louvre_1515"
+            },
+            {
+              "year": "1518",
+              "title": "Triomphe de L'Assomption de la Vierge aux Frari",
+              "desc": "Coup de tonnerre dans la Sérénissime : retable colossal de près de sept mètres de haut où le dynamisme ascendant de Marie sidère les contemporains.",
+              "type": "milestone",
+              "badge": "RETABLE HISTORIQUE",
+              "icon": "⛪"
+            },
+            {
+              "year": "1520",
+              "title": "L'Homme au gant (Paris, Musée du Louvre)",
+              "desc": "Archétype du courtisan de la Renaissance : silhouette sombre, sprezzatura élégante et regard mélancolique d'une distinction aristocratique insurpassée.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "titien_l_homme_au_gant_louvre_1520"
+            },
+            {
+              "year": "1520 – 1523",
+              "title": "Bacchus et Ariane (Londres, National Gallery)",
+              "desc": "Fable mythologique pour le duc de Ferrare : saut athlétique du dieu dionysiaque sur fond de ciel au lapis-lazuli pur et cortège dionysiaque exubérant.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "titien_bacchus_et_ariane_londres_1520"
+            },
+            {
+              "year": "1520 – 1525",
+              "title": "Le Transport du Christ vers le tombeau (Paris, Musée du Louvre)",
+              "desc": "Tragédie poignante de la mort divine : le corps lourd et blême du Christ porté vers le sépulcre sous un ciel d'orage crépusculaire.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "titien_le_transport_du_christ_vers_le_tombeau_louvre_1520"
+            }
+          ]
+        },
+        {
+          "years": "1526 – 1548",
+          "title": "Maturité classique, Peintre des Empereurs & Maniérisme héroïque",
+          "color": "#d97706",
+          "summary": "Épanouissement pastoral, amitié intime avec Pierre l'Arétin, peintre exclusif de Charles Quint et rencontre avec le pape Paul III à Rome.",
+          "events": [
+            {
+              "year": "1525 – 1530",
+              "title": "La Vierge au lapin (Paris, Musée du Louvre)",
+              "desc": "Sainte Conversation champêtre baignée dans la lumière crépusculaire des Dolomites, mêlant ferveur dévote et poésie pastorale.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "titien_la_vierge_au_lapin_louvre_1525"
+            },
+            {
+              "year": "1538",
+              "title": "Portrait de François Ier (Paris, Musée du Louvre)",
+              "desc": "Portrait d'apparat du Roi-Chevalier peint de profil à distance d'après une médaille de Cellini, incarnant la magnificence royale.",
+              "type": "masterpiece",
+              "badge": "PORTRAIT ROYAL",
+              "icon": "👑",
+              "artworkId": "titien_francois_ier_louvre_1538"
+            },
+            {
+              "year": "1538",
+              "title": "La Vénus d'Urbino (Florence, Galerie des Offices)",
+              "desc": "Sommet absolu du nu féminin occidental : regard direct et souverain de la déesse alanguie, harmonie soyeuse des draps et allégorie conjugale.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE ABSOLU",
+              "icon": "🎨",
+              "artworkId": "titien_venus_d_urbino_florence_1538"
+            },
+            {
+              "year": "1542 – 1543",
+              "title": "Le Couronnement d'épines (Paris, Musée du Louvre)",
+              "desc": "Maniérisme puissant et violent : blocs d'architecture rustique encadrant le supplice physique du Christ sous la poussée brutale des roseaux.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "titien_le_couronnement_d_epines_louvre_1542"
+            },
+            {
+              "year": "1548",
+              "title": "Charles Quint à cheval à Mühlberg (Madrid, Prado)",
+              "desc": "Invention du portrait équestre moderne : l'empereur en armure sombre chevauchant au soleil couchant dans une solitude impériale héroïque.",
+              "type": "milestone",
+              "badge": "PORTRAIT IMPÉRIAL",
+              "icon": "🐎"
+            }
+          ]
+        },
+        {
+          "years": "1549 – 1576",
+          "title": "La Manière tardive, Les Poésies de Philippe II & Le Drame de la matière",
+          "color": "#16a34a",
+          "summary": "Cycle des Poésies mythologiques pour Philippe II, facture libre peinte au doigt et ultime Piétà tragique avant sa mort lors de la peste de Venise.",
+          "events": [
+            {
+              "year": "1554 – 1562",
+              "title": "Le cycle des Poésies pour le roi Philippe II d'Espagne",
+              "desc": "Danaé, Diane et Actéon, Le Viol d'Europe : érotisme tragique et dissolution des formes dans une pâte picturale libre et flamboyante.",
+              "type": "milestone",
+              "badge": "CYCLE ROYAL",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1576",
+              "title": "La Pietà pour sa propre sépulture & Mort à Venise",
+              "desc": "S'éteint le 27 août 1576 à près de 90 ans durant la grande épidémie de peste. La République lui accorde des obsèques solennelles en l'église des Frari.",
+              "type": "context",
+              "badge": "APOTHÉOSE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+
+    }
   },
   "toulouse_lautrec": {
     "id": "toulouse_lautrec",
@@ -12809,811 +12809,811 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   }
-,
+  ,
 
   "van_eyck": {
-  "id": "van_eyck",
-  "name": "Van Eyck Jan",
-  "sortName": "Van Eyck Jan",
-  "sortLetter": "V",
-  "dates": "v. 1390 – 1441",
-  "movement": "Primitifs flamands (Révolution de la peinture à l'huile & Réalisme optique)",
-  "nationality": "Flamande (Bruges / Gand)",
-  "school": "École des Primitifs flamands (XVe siècle)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNWE1i5uZ9baQSXB-JBybBirmfDjSetPg0nkW2xMBGp6wlQbV6EstJeq5rRR6MwScfb7LjnUxXYi-gk8OxBdwUr-Cm1lBd6hlNdIzbfQCUoi1hS1YO7wZbKGVzv_vS3xiSjGVt7prn6wVhrJF2-6B0C8A=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Jan van Eyck (v. 1390 – 1441)</strong> est le père fondateur de la peinture flamande et l'un des plus immenses génies de l'histoire de l'art occidental. Peintre de cour de Philippe le Bon, duc de Bourgogne, il a porté la technique de la peinture à l'huile à un niveau de perfectionnement inédit, permettant de capturer la lumière, l'espace et la matière avec un naturalisme si saisissant qu'il a semblé magique à ses contemporains.</p><p>Son genre pictural se définit par le retable monumental, le portrait bourgeois et le paysage microscopique. Son style se caractérise par l'utilisation de glacis transparents successifs qui font vibrer la lumière de l'intérieur de la toile. Van Eyck combine une observation quasi scientifique du détail (les reflets dans un miroir, les pores de la peau, les fils d'un tapis) avec une vision théologique profonde où chaque élément de la réalité visible devient le symbole d'une réalité divine invisible.</p><p>L'évolution de son style marque l'avènement de l'individualisme moderne et de la spatialité réelle : la révolution du Retable de Gand (achevé en 1432), où les corps d'Adam et Ève et les paysages ouvrent l'espace sur une profondeur infinie ; le portrait en trois-quarts comme présence vivante affichant sa fière devise « Als ich kan » (L'Homme au turban rouge) ; et la perfection de l'espace sacré et profane dans Les Époux Arnolfini et La Vierge au chancelier Rolin, fusionnant portrait contemporain et mystère divin dans une unité lumineuse absolue.</p>",
-  "corpus": {
-    "total": 22,
-    "paintingsCount": 22,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 1,
-    "source": "Consensus scientifique & Catalogues Max J. Friedländer, Erwin Panofsky, Till-Holger Borchert",
-    "totalOeuvresEstimees": "~22 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur les travaux fondateurs de Max J. Friedländer (Early Netherlandish Painting, vol. I), d'Erwin Panofsky, de Till-Holger Borchert (Van Eyck, 2008 / 2020) et du Corpus of Fifteenth-Century Painting in the Southern Netherlands and the Principality of Liège. En retenant strictement les peintures sur panneau conservées dont l'attribution à Jan van Eyck (ou à son atelier étroit sous sa direction) fait consensus — en comptabilisant chaque polyptyque ou retable majeur (comme L'Agneau mystique) comme une unité cohérente, et en écartant les copies tardives, les œuvres perdues connues uniquement par des répliques et les miniatures discutées —, le corpus officiel des peintures conservées se situe autour d'environ 22 oeuvres."
+    "id": "van_eyck",
+    "name": "Van Eyck Jan",
+    "sortName": "Van Eyck Jan",
+    "sortLetter": "V",
+    "dates": "v. 1390 – 1441",
+    "movement": "Primitifs flamands (Révolution de la peinture à l'huile & Réalisme optique)",
+    "nationality": "Flamande (Bruges / Gand)",
+    "school": "École des Primitifs flamands (XVe siècle)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNWE1i5uZ9baQSXB-JBybBirmfDjSetPg0nkW2xMBGp6wlQbV6EstJeq5rRR6MwScfb7LjnUxXYi-gk8OxBdwUr-Cm1lBd6hlNdIzbfQCUoi1hS1YO7wZbKGVzv_vS3xiSjGVt7prn6wVhrJF2-6B0C8A=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Jan van Eyck (v. 1390 – 1441)</strong> est le père fondateur de la peinture flamande et l'un des plus immenses génies de l'histoire de l'art occidental. Peintre de cour de Philippe le Bon, duc de Bourgogne, il a porté la technique de la peinture à l'huile à un niveau de perfectionnement inédit, permettant de capturer la lumière, l'espace et la matière avec un naturalisme si saisissant qu'il a semblé magique à ses contemporains.</p><p>Son genre pictural se définit par le retable monumental, le portrait bourgeois et le paysage microscopique. Son style se caractérise par l'utilisation de glacis transparents successifs qui font vibrer la lumière de l'intérieur de la toile. Van Eyck combine une observation quasi scientifique du détail (les reflets dans un miroir, les pores de la peau, les fils d'un tapis) avec une vision théologique profonde où chaque élément de la réalité visible devient le symbole d'une réalité divine invisible.</p><p>L'évolution de son style marque l'avènement de l'individualisme moderne et de la spatialité réelle : la révolution du Retable de Gand (achevé en 1432), où les corps d'Adam et Ève et les paysages ouvrent l'espace sur une profondeur infinie ; le portrait en trois-quarts comme présence vivante affichant sa fière devise « Als ich kan » (L'Homme au turban rouge) ; et la perfection de l'espace sacré et profane dans Les Époux Arnolfini et La Vierge au chancelier Rolin, fusionnant portrait contemporain et mystère divin dans une unité lumineuse absolue.</p>",
+    "corpus": {
+      "total": 22,
+      "paintingsCount": 22,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Consensus scientifique & Catalogues Max J. Friedländer, Erwin Panofsky, Till-Holger Borchert",
+      "totalOeuvresEstimees": "~22 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur les travaux fondateurs de Max J. Friedländer (Early Netherlandish Painting, vol. I), d'Erwin Panofsky, de Till-Holger Borchert (Van Eyck, 2008 / 2020) et du Corpus of Fifteenth-Century Painting in the Southern Netherlands and the Principality of Liège. En retenant strictement les peintures sur panneau conservées dont l'attribution à Jan van Eyck (ou à son atelier étroit sous sa direction) fait consensus — en comptabilisant chaque polyptyque ou retable majeur (comme L'Agneau mystique) comme une unité cohérente, et en écartant les copies tardives, les œuvres perdues connues uniquement par des répliques et les miniatures discutées —, le corpus officiel des peintures conservées se situe autour d'environ 22 oeuvres."
+    },
+    "timeline": {
+      "birth": {
+        "year": "v. 1390",
+        "place": "Maaseik (Principauté de Liège)",
+        "title": "Naissance de Jan van Eyck",
+        "desc": "Naît vers 1390 dans la région mosane, issu d'une lignée de peintres d'exception aux côtés de son frère aîné Hubert van Eyck."
+      },
+      "death": {
+        "year": "1441",
+        "place": "Bruges (Flandre)",
+        "title": "Mort de Jan van Eyck",
+        "desc": "S'éteint le 9 juillet 1441 à Bruges, comblé d'honneurs par le duc de Bourgogne, et inhumé dans l'église Saint-Donatien."
+      },
+      "periods": [
+        {
+          "title": "La Révolution du Retable de Gand & Premières Années (1422 – 1432)",
+          "years": "1422 – 1432",
+          "summary": "Peintre officiel du duc de Bourgogne Philippe le Bon et chargé de missions diplomatiques secrètes, il parachève à Gand le polyptyque fondateur de la peinture occidentale moderne.",
+          "color": "#d4af37",
+          "events": [
+            {
+              "year": "1422 – 1425",
+              "title": "Au service de Jean de Bavière à La Haye",
+              "desc": "Travaille comme peintre officiel et valet de chambre à la cour de Hollande, exécutant décors et miniatures d'une minutie virtuose.",
+              "type": "context",
+              "badge": "COUR DE HOLLANDE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1425",
+              "title": "Entrée au service du duc Philippe le Bon",
+              "desc": "Nommé peintre et familier de cour du duc de Bourgogne, il effectue plusieurs missions secrètes en Espagne et au Portugal pour négocier le mariage ducal.",
+              "type": "turning_point",
+              "badge": "PEINTRE DUCAL",
+              "icon": "👑"
+            },
+            {
+              "year": "1432",
+              "title": "Achèvement du Retable de l'Agneau Mystique (Gand)",
+              "desc": "Inauguré dans la cathédrale Saint-Bavon de Gand : polyptyque monumental de douze panneaux révolutionnant la lumière, la perspective optique et le nu réaliste.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE MONUMENTAL",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "Le Portrait comme Présence Vivante & Devises Eyckiennes (1432 – 1435)",
+          "years": "1432 – 1435",
+          "summary": "Fixé définitivement à Bruges, il révolutionne le portrait en trois-quarts et signe ses œuvres de sa célèbre devise humaniste 'Als ich kan'.",
+          "color": "#38bdf8",
+          "events": [
+            {
+              "year": "1433",
+              "title": "L'Homme au turban rouge (Londres, National Gallery)",
+              "desc": "Autoportrait présumé : regard inquisiteur fixant directement le spectateur et affirmation fière de son identité d'artiste.",
+              "type": "masterpiece",
+              "badge": "PORTRAIT MYTHIQUE",
+              "icon": "👤"
+            },
+            {
+              "year": "1434",
+              "title": "Les Époux Arnolfini (Londres, National Gallery)",
+              "desc": "Chef-d'œuvre absolu du double portrait et de la spatialité domestique, intégrant le célèbre miroir convexe où le peintre se pose en témoin oculaire.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "van_eyck_portrait_des_epoux_arnolfini_londres_1434"
+            }
+          ]
+        },
+        {
+          "title": "La Perfection de l'Espace Sacré & Apogée Brugeoise (1435 – 1441)",
+          "years": "1435 – 1441",
+          "summary": "Au sommet de son autorité artistique, il réalise pour de hauts dignitaires bourguignons des retables où le sacré fusionne avec la splendeur du réel sensible.",
+          "color": "#10b981",
+          "events": [
+            {
+              "year": "1435",
+              "title": "La Vierge au chancelier Rolin (Paris, Musée du Louvre)",
+              "desc": "Confrontation silencieuse du puissant chancelier bourguignon et de la Vierge dans une loggia ouvrant sur une cité idéale aux mille détails microscopiques.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1436",
+              "title": "La Vierge au chanoine Van der Paele (Bruges, Groeningemuseum)",
+              "desc": "Triomphe absolu du rendu tactile des matières : reflets sur l'armure de saint Georges, brocarts d'or et velours profonds sous une lumière céleste unifiée.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "birth": {
-      "year": "v. 1390",
-      "place": "Maaseik (Principauté de Liège)",
-      "title": "Naissance de Jan van Eyck",
-      "desc": "Naît vers 1390 dans la région mosane, issu d'une lignée de peintres d'exception aux côtés de son frère aîné Hubert van Eyck."
-    },
-    "death": {
-      "year": "1441",
-      "place": "Bruges (Flandre)",
-      "title": "Mort de Jan van Eyck",
-      "desc": "S'éteint le 9 juillet 1441 à Bruges, comblé d'honneurs par le duc de Bourgogne, et inhumé dans l'église Saint-Donatien."
-    },
-    "periods": [
-      {
-        "title": "La Révolution du Retable de Gand & Premières Années (1422 – 1432)",
-        "years": "1422 – 1432",
-        "summary": "Peintre officiel du duc de Bourgogne Philippe le Bon et chargé de missions diplomatiques secrètes, il parachève à Gand le polyptyque fondateur de la peinture occidentale moderne.",
-        "color": "#d4af37",
-        "events": [
-          {
-            "year": "1422 – 1425",
-            "title": "Au service de Jean de Bavière à La Haye",
-            "desc": "Travaille comme peintre officiel et valet de chambre à la cour de Hollande, exécutant décors et miniatures d'une minutie virtuose.",
-            "type": "context",
-            "badge": "COUR DE HOLLANDE",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1425",
-            "title": "Entrée au service du duc Philippe le Bon",
-            "desc": "Nommé peintre et familier de cour du duc de Bourgogne, il effectue plusieurs missions secrètes en Espagne et au Portugal pour négocier le mariage ducal.",
-            "type": "turning_point",
-            "badge": "PEINTRE DUCAL",
-            "icon": "👑"
-          },
-          {
-            "year": "1432",
-            "title": "Achèvement du Retable de l'Agneau Mystique (Gand)",
-            "desc": "Inauguré dans la cathédrale Saint-Bavon de Gand : polyptyque monumental de douze panneaux révolutionnant la lumière, la perspective optique et le nu réaliste.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE MONUMENTAL",
-            "icon": "✨"
-          }
-        ]
-      },
-      {
-        "title": "Le Portrait comme Présence Vivante & Devises Eyckiennes (1432 – 1435)",
-        "years": "1432 – 1435",
-        "summary": "Fixé définitivement à Bruges, il révolutionne le portrait en trois-quarts et signe ses œuvres de sa célèbre devise humaniste 'Als ich kan'.",
-        "color": "#38bdf8",
-        "events": [
-          {
-            "year": "1433",
-            "title": "L'Homme au turban rouge (Londres, National Gallery)",
-            "desc": "Autoportrait présumé : regard inquisiteur fixant directement le spectateur et affirmation fière de son identité d'artiste.",
-            "type": "masterpiece",
-            "badge": "PORTRAIT MYTHIQUE",
-            "icon": "👤"
-          },
-          {
-            "year": "1434",
-            "title": "Les Époux Arnolfini (Londres, National Gallery)",
-            "desc": "Chef-d'œuvre absolu du double portrait et de la spatialité domestique, intégrant le célèbre miroir convexe où le peintre se pose en témoin oculaire.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "van_eyck_portrait_des_epoux_arnolfini_londres_1434"
-          }
-        ]
-      },
-      {
-        "title": "La Perfection de l'Espace Sacré & Apogée Brugeoise (1435 – 1441)",
-        "years": "1435 – 1441",
-        "summary": "Au sommet de son autorité artistique, il réalise pour de hauts dignitaires bourguignons des retables où le sacré fusionne avec la splendeur du réel sensible.",
-        "color": "#10b981",
-        "events": [
-          {
-            "year": "1435",
-            "title": "La Vierge au chancelier Rolin (Paris, Musée du Louvre)",
-            "desc": "Confrontation silencieuse du puissant chancelier bourguignon et de la Vierge dans une loggia ouvrant sur une cité idéale aux mille détails microscopiques.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1436",
-            "title": "La Vierge au chanoine Van der Paele (Bruges, Groeningemuseum)",
-            "desc": "Triomphe absolu du rendu tactile des matières : reflets sur l'armure de saint Georges, brocarts d'or et velours profonds sous une lumière céleste unifiée.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "👑"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "van_gogh": {
-  "id": "van_gogh",
-  "name": "Van Gogh Vincent",
-  "sortName": "Van Gogh Vincent",
-  "sortLetter": "V",
-  "dates": "1853 – 1890",
-  "movement": "Post-impressionnisme & Pionnier de l'Expressionnisme",
-  "nationality": "Néerlandaise (Pays-Bas / France)",
-  "school": "Post-impressionnisme / Émancipation chromatique moderne",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP8fYIZJq-mpm5KaLPULK1YcIrnTTfAMfxLuiwZ1uoLCqz1hVF7ViNpJBbrsEkwwhSo6W8Sw-66MwuPmUhaPw_p0w4q5Kmyqd3HCkJGvE9KU_a6U-eXM8XO7T3yP37p_KfujgYtWUeGMa6uVTyytJ3kCw=w1584-h672-s-no-gm?authuser=0",
-  "bio": "<p><strong>Vincent van Gogh (1853 – 1890)</strong> est l'une des figures les plus universelles de l'histoire de l'art, dont la ferveur créatrice et la quête existentielle ont posé les fondations de l'expressionnisme moderne. Autodidacte passionné d'abord habité par une vocation évangélique auprès des mineurs du Borinage, il fait le choix sacrificiel de la peinture à vingt-sept ans, soutenu indéfectiblement par son frère marchand d'art Théo.</p><p>Son genre pictural parcourt le réalisme social paysan, le paysage incandescent, la nature morte vibrante et le portrait psychologique intime. Son style se caractérise par une pâte picturale généreuse appliquée en touches nerveuses, tourbillonnantes ou hachurées, libérant la couleur de sa fonction mimétique pour en faire le véhicule d'une charge affective et spirituelle paroxystique.</p><p>L'évolution de son œuvre fulgurante se déploie en une décennie : de la période hollandaise sombre et terreuse de Nuenen (<em>Le Tisserand</em>, <em>Les Mangeurs de pommes de terre</em>) à l'éblouissement solaire d'Arles en 1888 (la symphonie jaune des <em>Tournesols</em>, <em>La Chaise de Vincent</em>) ; puis au lyrisme tourmenté de l'asile de Saint-Rémy (<em>Les Oliviers</em>, <em>La Nuit étoilée</em>) jusqu'aux ultimes toiles fiévreuses d'Auvers-sur-Oise en 1890 (<em>Plaine près d'Auvers</em>), où le paysage devient le sismographe déchirant de son âme.</p>",
-  "corpus": {
-    "total": 864,
-    "paintingsCount": 864,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 10,
-    "source": "Catalogues raisonnés Jacob Baart de la Faille (1970) & Jan Hulsker (1996)",
-    "totalOeuvresEstimees": "~864 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue raisonné historique de Jacob Baart de la Faille (The Works of Vincent van Gogh, révisé en 1970) ainsi que sur l'édition critique de Jan Hulsker (The New Complete Van Gogh, 1996) et les recherches continues du Van Gogh Museum d'Amsterdam. Bien que sa production globale dépasse les 2 100 œuvres tous supports confondus (dessins, lettres illustrées, aquarelles), le consensus muséal fixe le corpus officiel de ses peintures (huiles sur toile, sur carton ou sur bois) autour d'environ 864 oeuvres."
+    "id": "van_gogh",
+    "name": "Van Gogh Vincent",
+    "sortName": "Van Gogh Vincent",
+    "sortLetter": "V",
+    "dates": "1853 – 1890",
+    "movement": "Post-impressionnisme & Pionnier de l'Expressionnisme",
+    "nationality": "Néerlandaise (Pays-Bas / France)",
+    "school": "Post-impressionnisme / Émancipation chromatique moderne",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP8fYIZJq-mpm5KaLPULK1YcIrnTTfAMfxLuiwZ1uoLCqz1hVF7ViNpJBbrsEkwwhSo6W8Sw-66MwuPmUhaPw_p0w4q5Kmyqd3HCkJGvE9KU_a6U-eXM8XO7T3yP37p_KfujgYtWUeGMa6uVTyytJ3kCw=w1584-h672-s-no-gm?authuser=0",
+    "bio": "<p><strong>Vincent van Gogh (1853 – 1890)</strong> est l'une des figures les plus universelles de l'histoire de l'art, dont la ferveur créatrice et la quête existentielle ont posé les fondations de l'expressionnisme moderne. Autodidacte passionné d'abord habité par une vocation évangélique auprès des mineurs du Borinage, il fait le choix sacrificiel de la peinture à vingt-sept ans, soutenu indéfectiblement par son frère marchand d'art Théo.</p><p>Son genre pictural parcourt le réalisme social paysan, le paysage incandescent, la nature morte vibrante et le portrait psychologique intime. Son style se caractérise par une pâte picturale généreuse appliquée en touches nerveuses, tourbillonnantes ou hachurées, libérant la couleur de sa fonction mimétique pour en faire le véhicule d'une charge affective et spirituelle paroxystique.</p><p>L'évolution de son œuvre fulgurante se déploie en une décennie : de la période hollandaise sombre et terreuse de Nuenen (<em>Le Tisserand</em>, <em>Les Mangeurs de pommes de terre</em>) à l'éblouissement solaire d'Arles en 1888 (la symphonie jaune des <em>Tournesols</em>, <em>La Chaise de Vincent</em>) ; puis au lyrisme tourmenté de l'asile de Saint-Rémy (<em>Les Oliviers</em>, <em>La Nuit étoilée</em>) jusqu'aux ultimes toiles fiévreuses d'Auvers-sur-Oise en 1890 (<em>Plaine près d'Auvers</em>), où le paysage devient le sismographe déchirant de son âme.</p>",
+    "corpus": {
+      "total": 864,
+      "paintingsCount": 864,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 10,
+      "source": "Catalogues raisonnés Jacob Baart de la Faille (1970) & Jan Hulsker (1996)",
+      "totalOeuvresEstimees": "~864 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue raisonné historique de Jacob Baart de la Faille (The Works of Vincent van Gogh, révisé en 1970) ainsi que sur l'édition critique de Jan Hulsker (The New Complete Van Gogh, 1996) et les recherches continues du Van Gogh Museum d'Amsterdam. Bien que sa production globale dépasse les 2 100 œuvres tous supports confondus (dessins, lettres illustrées, aquarelles), le consensus muséal fixe le corpus officiel de ses peintures (huiles sur toile, sur carton ou sur bois) autour d'environ 864 oeuvres."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1853",
+        "place": "Groot-Zundert (Pays-Bas)",
+        "title": "Naissance de Vincent van Gogh",
+        "desc": "Né le 30 mars 1853, fils d'un pasteur calviniste néerlandais. Développe très jeune une vive sensibilité à la nature et à la littérature."
+      },
+      "death": {
+        "year": "1890",
+        "place": "Auvers-sur-Oise (France)",
+        "title": "Mort de Vincent van Gogh",
+        "desc": "S'éteint le 29 juillet 1890 à Auvers-sur-Oise à l'âge de 37 ans, veillé par son frère adoré Théo qui le rejoindra six mois plus tard."
+      },
+      "periods": [
+        {
+          "title": "Période Hollandaise & Réalisme Social à Nuenen (1880 – 1885)",
+          "years": "1880 – 1885",
+          "summary": "Après ses échecs pastoraux, il se voue corps et âme au dessin et à la peinture. À Nuenen, il vit au plus près des tisserands et des paysans dans des tonalités sombres et denses inspirées de Rembrandt.",
+          "color": "#78716c",
+          "events": [
+            {
+              "year": "1880",
+              "title": "Vocation artistique au Borinage",
+              "desc": "Décide de consacrer sa vie à l'art après avoir partagé la misère des mineurs de fond belges dans un élan de charité absolue.",
+              "type": "turning_point",
+              "badge": "ENGAGEMENT EXTRÊME",
+              "icon": "🔥"
+            },
+            {
+              "year": "1884",
+              "title": "Le Tisserand, vu de trois-quarts droit (Munich, Neue Pinakothek)",
+              "desc": "Étude monumentale du monde ouvrier rural où le corps de l'artisan semble fusionner avec l'imposant métier de bois mécanique.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "van_gogh_le_tisserand_munich_1884"
+            },
+            {
+              "year": "1885",
+              "title": "Les Mangeurs de pommes de terre (Amsterdam, Van Gogh Museum)",
+              "desc": "Premier chef-d'œuvre du réalisme paysan hollandais, peint dans des teintes de terre crue et de lampe à pétrole.",
+              "type": "masterpiece",
+              "badge": "MANIFESTE SOCIAL",
+              "icon": "🥔"
+            }
+          ]
+        },
+        {
+          "title": "La Révolution de la Lumière : Paris & L'Atelier du Midi à Arles (1886 – 1888)",
+          "years": "1886 – 1888",
+          "summary": "Le séjour parisien auprès de Théo déverrouille sa palette au contact des impressionnistes. En février 1888, il gagne Arles où la lumière provençale déclenche une frénésie créatrice sans égale.",
+          "color": "#f59e0b",
+          "events": [
+            {
+              "year": "1886 – 1887",
+              "title": "Le creuset parisien & Découverte de l'estampe japonaise",
+              "desc": "Fréquente l'atelier Cormon, découvre Signac, Gauguin et Toulouse-Lautrec, et s'initie aux aplats lumineux de l'ukiyo-e.",
+              "type": "context",
+              "badge": "AVANT-GARDE PARISIENNE",
+              "icon": "🗼"
+            },
+            {
+              "year": "1888 (mars)",
+              "title": "Verger en fleurs, abricotiers (Édimbourg, National Galleries)",
+              "desc": "Éclosion printanière féerique à son arrivée en Provence, traduisant le réveil de la nature par touches japonisantes légères.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "van_gogh_verger_en_fleurs_abricotiers_edimbourg_1888"
+            },
+            {
+              "year": "1888 (août)",
+              "title": "Tournesols dans un vase, fond bleu turquoise (Munich, Neue Pinakothek)",
+              "desc": "Contraste éclatant entre les corolles d'or flamboyant et un fond vert-bleu turquoise d'une intensité décorative pure.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "van_gogh_tournesols_fond_bleu_munich_1888"
+            },
+            {
+              "year": "1888 (août)",
+              "title": "Tournesols dans un vase, fond jaune (Londres, National Gallery)",
+              "desc": "Le triomphe universel de la symphonie jaune sur jaune, hymne solaire préparé pour accueillir Gauguin dans la Maison jaune.",
+              "type": "masterpiece",
+              "badge": "ICÔNE MONDIALE",
+              "icon": "🌻",
+              "artworkId": "van_gogh_les_tournesols_londres_1888"
+            },
+            {
+              "year": "1888 (décembre)",
+              "title": "La Chaise de Vincent avec sa pipe (Londres, National Gallery)",
+              "desc": "Autoportrait symbolique et humble à travers une chaise paillée de paysan posée sur des tomettes rouges, en contrepoint à celle de Gauguin.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "van_gogh_la_chaise_de_vincent_londres_1888"
+            }
+          ]
+        },
+        {
+          "title": "Saint-Rémy de Provence & L'Apothéose Tragique d'Auvers (1889 – 1890)",
+          "years": "1889 – 1890",
+          "summary": "Interné volontaire à l'asile Saint-Paul-de-Mausole, il canalise ses crises dans des spirales d'une puissance expressive totale, avant de rejoindre le docteur Gachet à Auvers-sur-Oise pour un chant du cygne sublime.",
+          "color": "#3b82f6",
+          "events": [
+            {
+              "year": "1889 (janvier)",
+              "title": "Autoportrait à l'oreille bandée (Londres, Courtauld Institute)",
+              "desc": "Témoignage bouleversant de résilience peint après le drame de la rupture avec Gauguin, affirmant la victoire de l'acte de peindre.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "van_gogh_autoportrait_a_l_oreille_bandee_londres_1889"
+            },
+            {
+              "year": "1889 (avril)",
+              "title": "Vue d'Arles avec arbres en fleurs (Munich, Neue Pinakothek)",
+              "desc": "Dernier regard jeté sur les toits d'Arles à travers une résille de peupliers et d'arbres fruitiers en fleurs avant son départ pour l'asile.",
+              "type": "masterpiece",
+              "badge": "PAYSAGE PROVENÇAL",
+              "icon": "🌳"
+            },
+            {
+              "year": "1889 (juin)",
+              "title": "Les Oliviers (Édimbourg, National Galleries of Scotland)",
+              "desc": "Rythme tellurique et tourbillonnant des feuillages argentés et du sol ondulant sous la chaîne des Alpilles bleutées.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "van_gogh_les_oliviers_edimbourg_1889"
+            },
+            {
+              "year": "1889 (mai)",
+              "title": "Rosier en fleurs (Tokyo, Musée national d'Art occidental)",
+              "desc": "Pénétration contemplative dans la végétation luxuriante du jardin de l'hospice de Saint-Rémy.",
+              "type": "masterpiece",
+              "badge": "NATURE VIBRANTE",
+              "icon": "🌹"
+            },
+            {
+              "year": "1890 (juillet)",
+              "title": "Plaine près d'Auvers par temps d'orage (Munich, Neue Pinakothek)",
+              "desc": "Vaste horizon panoramique sous des ciels d'orage tourmentés peint quelques jours avant sa mort, transfigurant la solitude humaine en infini cosmique.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE ULTIME",
+              "icon": "🌾",
+              "artworkId": "van_gogh_plaine_pres_d_auvers_munich_1890"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "birth": {
-      "year": "1853",
-      "place": "Groot-Zundert (Pays-Bas)",
-      "title": "Naissance de Vincent van Gogh",
-      "desc": "Né le 30 mars 1853, fils d'un pasteur calviniste néerlandais. Développe très jeune une vive sensibilité à la nature et à la littérature."
-    },
-    "death": {
-      "year": "1890",
-      "place": "Auvers-sur-Oise (France)",
-      "title": "Mort de Vincent van Gogh",
-      "desc": "S'éteint le 29 juillet 1890 à Auvers-sur-Oise à l'âge de 37 ans, veillé par son frère adoré Théo qui le rejoindra six mois plus tard."
-    },
-    "periods": [
-      {
-        "title": "Période Hollandaise & Réalisme Social à Nuenen (1880 – 1885)",
-        "years": "1880 – 1885",
-        "summary": "Après ses échecs pastoraux, il se voue corps et âme au dessin et à la peinture. À Nuenen, il vit au plus près des tisserands et des paysans dans des tonalités sombres et denses inspirées de Rembrandt.",
-        "color": "#78716c",
-        "events": [
-          {
-            "year": "1880",
-            "title": "Vocation artistique au Borinage",
-            "desc": "Décide de consacrer sa vie à l'art après avoir partagé la misère des mineurs de fond belges dans un élan de charité absolue.",
-            "type": "turning_point",
-            "badge": "ENGAGEMENT EXTRÊME",
-            "icon": "🔥"
-          },
-          {
-            "year": "1884",
-            "title": "Le Tisserand, vu de trois-quarts droit (Munich, Neue Pinakothek)",
-            "desc": "Étude monumentale du monde ouvrier rural où le corps de l'artisan semble fusionner avec l'imposant métier de bois mécanique.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "van_gogh_le_tisserand_munich_1884"
-          },
-          {
-            "year": "1885",
-            "title": "Les Mangeurs de pommes de terre (Amsterdam, Van Gogh Museum)",
-            "desc": "Premier chef-d'œuvre du réalisme paysan hollandais, peint dans des teintes de terre crue et de lampe à pétrole.",
-            "type": "masterpiece",
-            "badge": "MANIFESTE SOCIAL",
-            "icon": "🥔"
-          }
-        ]
-      },
-      {
-        "title": "La Révolution de la Lumière : Paris & L'Atelier du Midi à Arles (1886 – 1888)",
-        "years": "1886 – 1888",
-        "summary": "Le séjour parisien auprès de Théo déverrouille sa palette au contact des impressionnistes. En février 1888, il gagne Arles où la lumière provençale déclenche une frénésie créatrice sans égale.",
-        "color": "#f59e0b",
-        "events": [
-          {
-            "year": "1886 – 1887",
-            "title": "Le creuset parisien & Découverte de l'estampe japonaise",
-            "desc": "Fréquente l'atelier Cormon, découvre Signac, Gauguin et Toulouse-Lautrec, et s'initie aux aplats lumineux de l'ukiyo-e.",
-            "type": "context",
-            "badge": "AVANT-GARDE PARISIENNE",
-            "icon": "🗼"
-          },
-          {
-            "year": "1888 (mars)",
-            "title": "Verger en fleurs, abricotiers (Édimbourg, National Galleries)",
-            "desc": "Éclosion printanière féerique à son arrivée en Provence, traduisant le réveil de la nature par touches japonisantes légères.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "van_gogh_verger_en_fleurs_abricotiers_edimbourg_1888"
-          },
-          {
-            "year": "1888 (août)",
-            "title": "Tournesols dans un vase, fond bleu turquoise (Munich, Neue Pinakothek)",
-            "desc": "Contraste éclatant entre les corolles d'or flamboyant et un fond vert-bleu turquoise d'une intensité décorative pure.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "van_gogh_tournesols_fond_bleu_munich_1888"
-          },
-          {
-            "year": "1888 (août)",
-            "title": "Tournesols dans un vase, fond jaune (Londres, National Gallery)",
-            "desc": "Le triomphe universel de la symphonie jaune sur jaune, hymne solaire préparé pour accueillir Gauguin dans la Maison jaune.",
-            "type": "masterpiece",
-            "badge": "ICÔNE MONDIALE",
-            "icon": "🌻",
-            "artworkId": "van_gogh_les_tournesols_londres_1888"
-          },
-          {
-            "year": "1888 (décembre)",
-            "title": "La Chaise de Vincent avec sa pipe (Londres, National Gallery)",
-            "desc": "Autoportrait symbolique et humble à travers une chaise paillée de paysan posée sur des tomettes rouges, en contrepoint à celle de Gauguin.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "van_gogh_la_chaise_de_vincent_londres_1888"
-          }
-        ]
-      },
-      {
-        "title": "Saint-Rémy de Provence & L'Apothéose Tragique d'Auvers (1889 – 1890)",
-        "years": "1889 – 1890",
-        "summary": "Interné volontaire à l'asile Saint-Paul-de-Mausole, il canalise ses crises dans des spirales d'une puissance expressive totale, avant de rejoindre le docteur Gachet à Auvers-sur-Oise pour un chant du cygne sublime.",
-        "color": "#3b82f6",
-        "events": [
-          {
-            "year": "1889 (janvier)",
-            "title": "Autoportrait à l'oreille bandée (Londres, Courtauld Institute)",
-            "desc": "Témoignage bouleversant de résilience peint après le drame de la rupture avec Gauguin, affirmant la victoire de l'acte de peindre.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "van_gogh_autoportrait_a_l_oreille_bandee_londres_1889"
-          },
-          {
-            "year": "1889 (avril)",
-            "title": "Vue d'Arles avec arbres en fleurs (Munich, Neue Pinakothek)",
-            "desc": "Dernier regard jeté sur les toits d'Arles à travers une résille de peupliers et d'arbres fruitiers en fleurs avant son départ pour l'asile.",
-            "type": "masterpiece",
-            "badge": "PAYSAGE PROVENÇAL",
-            "icon": "🌳"
-          },
-          {
-            "year": "1889 (juin)",
-            "title": "Les Oliviers (Édimbourg, National Galleries of Scotland)",
-            "desc": "Rythme tellurique et tourbillonnant des feuillages argentés et du sol ondulant sous la chaîne des Alpilles bleutées.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "van_gogh_les_oliviers_edimbourg_1889"
-          },
-          {
-            "year": "1889 (mai)",
-            "title": "Rosier en fleurs (Tokyo, Musée national d'Art occidental)",
-            "desc": "Pénétration contemplative dans la végétation luxuriante du jardin de l'hospice de Saint-Rémy.",
-            "type": "masterpiece",
-            "badge": "NATURE VIBRANTE",
-            "icon": "🌹"
-          },
-          {
-            "year": "1890 (juillet)",
-            "title": "Plaine près d'Auvers par temps d'orage (Munich, Neue Pinakothek)",
-            "desc": "Vaste horizon panoramique sous des ciels d'orage tourmentés peint quelques jours avant sa mort, transfigurant la solitude humaine en infini cosmique.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE ULTIME",
-            "icon": "🌾",
-            "artworkId": "van_gogh_plaine_pres_d_auvers_munich_1890"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "vanni": {
-  "id": "vanni",
-  "name": "Vanni Lippo",
-  "sortName": "Vanni Lippo",
-  "sortLetter": "V",
-  "dates": "1344 – 1375",
-  "movement": "École siennoise du Trecento & Gothique international",
-  "nationality": "Italienne (Sienne)",
-  "school": "École siennoise (Trecento post-peste noire)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN2SILEkBGb-dkFLQH2bcdD4wd42eg28Xn2sheodJtFix_RWWCgfl1xr0yFPoXh6d9qzU_v9n7zwUa0lv0SxovhiMcOPlPbYnU-LwBoTr-11gh2JkBONswoT7tWwhOP-5zy4lDoRfnL0toYLK5QJQgSoA=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Lippo Vanni (actif documenté à Sienne entre 1344 et 1375)</strong> est l'un des maîtres les plus raffinés de l'école siennoise du Trecento, célèbre à la fois comme peintre sur panneau, fresquiste et enlumineur de premier ordre. Évoluant au lendemain de la peste noire de 1348 qui a décimé les grands fondateurs de l'art siennois (Ambrogio et Pietro Lorenzetti), il a su préserver et revivifier l'héritage courtois et sinueux de Simone Martini tout en l'associant à une solide construction spatiale et à une inventivité ornementale d'une minutie d'orfèvre.</p><p>Son genre d'expression se définit par le retable d'autel polyptyque et triptyque portatif, le décor à fresque narratif et en grisaille, l'enluminure de manuscrits liturgiques monumentaux (antiphonaires, gradueux) et la peinture d'étendards civiques. Son style se caractérise par une ligne calligraphique d'une grande fluidité, l'usage virtuose des poinçons sur feuille d'or pour gaufrer nimbes et bordures, une palette chatoyante dominée par des laques précieuses et un modelé délicat des visages aux yeux allongés empreints d'une grâce mélancolique.</p><p>L'évolution de son style marque un passage de l'art du miniaturiste méticuleux vers la grande commande monumentale et civique : de ses débuts d'enlumineur pour l'hôpital Santa Maria della Scala dans les années 1340-1350 (culminant avec le triptyque de 1358 au Vatican) ; aux cycles muraux de San Leonardo al Lago dans les années 1360 affirmant une remarquable maîtrise de la narration architecturale ; jusqu'à sa fresque commémorative de <em>La Bataille de Valdichiana</em> (1372) au Palazzo Pubblico de Sienne et son triptyque illusionniste de San Francesco, affirmant son rang de maître officiel de la République.</p>",
-  "corpus": {
-    "total": 22,
-    "paintingsCount": 22,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 0,
-    "source": "Consensus scientifique & Études Bernard Berenson, Millard Meiss, Henk van Os, Cristina De Benedictis",
-    "totalOeuvresEstimees": "~22 peintures et ensembles de fresques conservés",
-    "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur les travaux des spécialistes de la peinture siennoise du Trecento — notamment Bernard Berenson, Millard Meiss (Painting in Florence and Siena after the Black Death, 1951), Henk van Os (Sienese Altarpieces, 1984) et les notices critiques de Cristina De Benedictis et Luciano Bellosi. En écartant les feuillets enluminés et les livres liturgiques pour ne retenir que ses peintures sur panneau (polyptyques, triptyques, Vierges à l'Enfant) et ses ensembles de fresques conservés (en comptabilisant chaque cycle mural cohérent ou polyptyque majeur comme une unité), le consensus scientifique situe son corpus officiel à environ 22 oeuvres conservées."
-  },
-  "timeline": {
-    "birth": {
-      "year": "v. 1315",
-      "place": "Sienne (Toscane)",
-      "title": "Naissance présumée de Lippo Vanni",
-      "desc": "Issu d'une famille d'artistes siennois, documenté actif pour la première fois en 1344."
+    "id": "vanni",
+    "name": "Vanni Lippo",
+    "sortName": "Vanni Lippo",
+    "sortLetter": "V",
+    "dates": "1344 – 1375",
+    "movement": "École siennoise du Trecento & Gothique international",
+    "nationality": "Italienne (Sienne)",
+    "school": "École siennoise (Trecento post-peste noire)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN2SILEkBGb-dkFLQH2bcdD4wd42eg28Xn2sheodJtFix_RWWCgfl1xr0yFPoXh6d9qzU_v9n7zwUa0lv0SxovhiMcOPlPbYnU-LwBoTr-11gh2JkBONswoT7tWwhOP-5zy4lDoRfnL0toYLK5QJQgSoA=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Lippo Vanni (actif documenté à Sienne entre 1344 et 1375)</strong> est l'un des maîtres les plus raffinés de l'école siennoise du Trecento, célèbre à la fois comme peintre sur panneau, fresquiste et enlumineur de premier ordre. Évoluant au lendemain de la peste noire de 1348 qui a décimé les grands fondateurs de l'art siennois (Ambrogio et Pietro Lorenzetti), il a su préserver et revivifier l'héritage courtois et sinueux de Simone Martini tout en l'associant à une solide construction spatiale et à une inventivité ornementale d'une minutie d'orfèvre.</p><p>Son genre d'expression se définit par le retable d'autel polyptyque et triptyque portatif, le décor à fresque narratif et en grisaille, l'enluminure de manuscrits liturgiques monumentaux (antiphonaires, gradueux) et la peinture d'étendards civiques. Son style se caractérise par une ligne calligraphique d'une grande fluidité, l'usage virtuose des poinçons sur feuille d'or pour gaufrer nimbes et bordures, une palette chatoyante dominée par des laques précieuses et un modelé délicat des visages aux yeux allongés empreints d'une grâce mélancolique.</p><p>L'évolution de son style marque un passage de l'art du miniaturiste méticuleux vers la grande commande monumentale et civique : de ses débuts d'enlumineur pour l'hôpital Santa Maria della Scala dans les années 1340-1350 (culminant avec le triptyque de 1358 au Vatican) ; aux cycles muraux de San Leonardo al Lago dans les années 1360 affirmant une remarquable maîtrise de la narration architecturale ; jusqu'à sa fresque commémorative de <em>La Bataille de Valdichiana</em> (1372) au Palazzo Pubblico de Sienne et son triptyque illusionniste de San Francesco, affirmant son rang de maître officiel de la République.</p>",
+    "corpus": {
+      "total": 22,
+      "paintingsCount": 22,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Consensus scientifique & Études Bernard Berenson, Millard Meiss, Henk van Os, Cristina De Benedictis",
+      "totalOeuvresEstimees": "~22 peintures et ensembles de fresques conservés",
+      "oeuvresConsensusNotice": "L'inventaire critique de référence s'appuie sur les travaux des spécialistes de la peinture siennoise du Trecento — notamment Bernard Berenson, Millard Meiss (Painting in Florence and Siena after the Black Death, 1951), Henk van Os (Sienese Altarpieces, 1984) et les notices critiques de Cristina De Benedictis et Luciano Bellosi. En écartant les feuillets enluminés et les livres liturgiques pour ne retenir que ses peintures sur panneau (polyptyques, triptyques, Vierges à l'Enfant) et ses ensembles de fresques conservés (en comptabilisant chaque cycle mural cohérent ou polyptyque majeur comme une unité), le consensus scientifique situe son corpus officiel à environ 22 oeuvres conservées."
     },
-    "death": {
-      "year": "v. 1375",
-      "place": "Sienne (Toscane)",
-      "title": "Mort de Lippo Vanni",
-      "desc": "Disparaît vers 1375 après avoir occupé de hautes fonctions civiques de prieur au gouvernement communal de Sienne."
-    },
-    "periods": [
-      {
-        "title": "L'Art de la Miniature & Les Premiers Retables (1344 – 1358)",
-        "years": "1344 – 1358",
-        "summary": "Débute comme enlumineur de chœur pour la cathédrale et les grands hôpitaux siennois avant de traduire son luxe ornemental sur panneau de bois.",
-        "color": "#d4af37",
-        "events": [
-          {
-            "year": "1344 – 1345",
-            "title": "Livres liturgiques de Santa Maria della Scala",
-            "desc": "Exécute les lettrines historiées et les enluminures du graduel de l'hôpital Santa Maria della Scala de Sienne.",
-            "type": "context",
-            "badge": "ENLUMINURE SACRÉE",
-            "icon": "📜"
-          },
-          {
-            "year": "1358",
-            "title": "Triptyque d'autel (Rome / Musées du Vatican)",
-            "desc": "Réalise pour le couvent de Santi Domenico e Sisto à Rome un triptyque portatif somptueux alliant feuille d'or ciselée et tendresse martienne.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE TRECENTO",
-            "icon": "✨"
-          }
-        ]
+    "timeline": {
+      "birth": {
+        "year": "v. 1315",
+        "place": "Sienne (Toscane)",
+        "title": "Naissance présumée de Lippo Vanni",
+        "desc": "Issu d'une famille d'artistes siennois, documenté actif pour la première fois en 1344."
       },
-      {
-        "title": "L'Affirmation Spatiale & Les Fresques Monastiques (1359 – 1369)",
-        "years": "1359 – 1369",
-        "summary": "Se tourne vers la peinture monumentale à fresque dans les couvents et ermitages du territoire siennois, affermissant la perspective et la narration.",
-        "color": "#38bdf8",
-        "events": [
-          {
-            "year": "v. 1360 – 1365",
-            "title": "Cycle de la Vie de la Vierge à San Leonardo al Lago",
-            "desc": "Décore le chœur de l'ermitage augustinien près de Monteriggioni d'un cycle de fresques intimes d'une grande pureté géométrique.",
-            "type": "masterpiece",
-            "badge": "CYCLE MURAL",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1365",
-            "title": "Vierge à l'Enfant trônant pour San Domenico",
-            "desc": "Peint pour la basilique San Domenico de Sienne un retable monumental affirmant la grandeur protectrice de la Mère céleste.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "👑"
-          }
-        ]
+      "death": {
+        "year": "v. 1375",
+        "place": "Sienne (Toscane)",
+        "title": "Mort de Lippo Vanni",
+        "desc": "Disparaît vers 1375 après avoir occupé de hautes fonctions civiques de prieur au gouvernement communal de Sienne."
       },
-      {
-        "title": "Les Commandes Civiques & La Maturité de San Francesco (1370 – 1375)",
-        "years": "1370 – 1375",
-        "summary": "Élu parmi les magistrats de la République de Sienne, il décore le palais communal et signe d'audacieux trompe-l'œil picturaux.",
-        "color": "#10b981",
-        "events": [
-          {
-            "year": "1372",
-            "title": "La Bataille de Valdichiana (Palazzo Pubblico, Sienne)",
-            "desc": "Fresque monochrome monumentale commémorant la victoire militaire de Sienne sur les mercenaires de Niccolò da Montefeltro.",
-            "type": "masterpiece",
-            "badge": "FRESQUE CIVIQUE",
-            "icon": "⚔️"
-          },
-          {
-            "year": "1374",
-            "title": "Triptyque illusionniste de San Francesco (Sienne)",
-            "desc": "Chef-d'œuvre de virtuosité en tempera et or feignant un retable sculpté en marbre blanc aux reliefs d'une saisissante présence optique.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE OPTIQUE",
-            "icon": "🎨"
-          }
-        ]
-      }
-    ]
+      "periods": [
+        {
+          "title": "L'Art de la Miniature & Les Premiers Retables (1344 – 1358)",
+          "years": "1344 – 1358",
+          "summary": "Débute comme enlumineur de chœur pour la cathédrale et les grands hôpitaux siennois avant de traduire son luxe ornemental sur panneau de bois.",
+          "color": "#d4af37",
+          "events": [
+            {
+              "year": "1344 – 1345",
+              "title": "Livres liturgiques de Santa Maria della Scala",
+              "desc": "Exécute les lettrines historiées et les enluminures du graduel de l'hôpital Santa Maria della Scala de Sienne.",
+              "type": "context",
+              "badge": "ENLUMINURE SACRÉE",
+              "icon": "📜"
+            },
+            {
+              "year": "1358",
+              "title": "Triptyque d'autel (Rome / Musées du Vatican)",
+              "desc": "Réalise pour le couvent de Santi Domenico e Sisto à Rome un triptyque portatif somptueux alliant feuille d'or ciselée et tendresse martienne.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE TRECENTO",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "L'Affirmation Spatiale & Les Fresques Monastiques (1359 – 1369)",
+          "years": "1359 – 1369",
+          "summary": "Se tourne vers la peinture monumentale à fresque dans les couvents et ermitages du territoire siennois, affermissant la perspective et la narration.",
+          "color": "#38bdf8",
+          "events": [
+            {
+              "year": "v. 1360 – 1365",
+              "title": "Cycle de la Vie de la Vierge à San Leonardo al Lago",
+              "desc": "Décore le chœur de l'ermitage augustinien près de Monteriggioni d'un cycle de fresques intimes d'une grande pureté géométrique.",
+              "type": "masterpiece",
+              "badge": "CYCLE MURAL",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1365",
+              "title": "Vierge à l'Enfant trônant pour San Domenico",
+              "desc": "Peint pour la basilique San Domenico de Sienne un retable monumental affirmant la grandeur protectrice de la Mère céleste.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "Les Commandes Civiques & La Maturité de San Francesco (1370 – 1375)",
+          "years": "1370 – 1375",
+          "summary": "Élu parmi les magistrats de la République de Sienne, il décore le palais communal et signe d'audacieux trompe-l'œil picturaux.",
+          "color": "#10b981",
+          "events": [
+            {
+              "year": "1372",
+              "title": "La Bataille de Valdichiana (Palazzo Pubblico, Sienne)",
+              "desc": "Fresque monochrome monumentale commémorant la victoire militaire de Sienne sur les mercenaires de Niccolò da Montefeltro.",
+              "type": "masterpiece",
+              "badge": "FRESQUE CIVIQUE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1374",
+              "title": "Triptyque illusionniste de San Francesco (Sienne)",
+              "desc": "Chef-d'œuvre de virtuosité en tempera et or feignant un retable sculpté en marbre blanc aux reliefs d'une saisissante présence optique.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE OPTIQUE",
+              "icon": "🎨"
+            }
+          ]
+        }
+      ]
+    }
   }
-}
-,
+  ,
 
   "ruisdael": {
-  "id": "ruisdael",
-  "name": "Ruisdael Jacob van",
-  "sortName": "Ruisdael Jacob van",
-  "sortLetter": "R",
-  "dates": "1628 – 1682",
-  "movement": "Âge d'or néerlandais (Paysage héroïque & psychologique)",
-  "nationality": "Néerlandaise (Haarlem / Amsterdam)",
-  "school": "École hollandaise du Siècle d'or (Haarlem / Amsterdam)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMZph3ZorISBvAg3Fnq6lHRj9Upsx_7rZMxAfB03u7OAbf3EMSzVw8cblRTN8cs13dRtn7AVjHgqxfHV85fmDbtMT1VgurgPADrwKQPjK7XzsHsd2T_MPGR7HEEMN2JnhUA1CV89fA-4JezgzsXtvf0fw=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Jacob van Ruisdael (1628 – 1682)</strong> est considéré comme le plus grand paysagiste de l'Âge d'or néerlandais. Son œuvre marque l'apogée du paysage réaliste en Europe, transformant la simple observation de la nature en une expérience spirituelle et dramatique d'une puissance inégalée.</p><p>Son genre pictural est le paysage héroïque et psychologique. Contrairement à ses prédécesseurs qui cherchaient une topographie exacte, Ruisdael compose des paysages qui reflètent des états d'âme. Son style se caractérise par des ciels immenses chargés de nuages tourmentés, des contrastes de lumière saisissants et une attention quasi scientifique au rendu des arbres, des rochers et de l'eau. Il introduit dans la peinture néerlandaise une dimension monumentale et parfois mélancolique, où la nature semble dominer l'homme.</p><p>L'évolution de son style montre une maîtrise croissante de la mise en scène dramatique : de la période d'Haarlem à ses débuts, centrée sur les dunes sablonneuses et la structure minutieuse des chênes séculaires (<em>Le Buisson</em>) ; aux voyages des années 1650 introduisant torrents, cascades et reliefs accidentés inspirés de l'Allemagne et du Grand Nord ; jusqu'à sa pleine maturité philosophique à Amsterdam (<em>Le Coup de soleil</em>, <em>L'Entrée d'un bois</em>), où les vanités paysagères méditent sur la fugacité humaine face à l'éternité du cosmos.</p>",
-  "corpus": {
-    "total": 686,
-    "paintingsCount": 686,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 8,
-    "source": "Catalogue raisonné par Seymour Slive (Yale University Press, 2001)",
-    "totalOeuvresEstimees": "~686 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Catalogue raisonné établi par Seymour Slive (Jacob van Ruisdael: A Complete Catalogue of His Paintings, Drawings and Etchings, Yale University Press, 2001). En retenant exclusivement ses peintures à l'huile sur toile et sur panneau authentifiées (paysages panoramiques, forêts, cascades, marines, paysages d'hiver et vues urbaines, à l'exclusion de ses quelque 140 dessins et 13 eaux-fortes), le catalogue de Slive fixe le corpus officiel de ses peintures à 686 oeuvres."
+    "id": "ruisdael",
+    "name": "Ruisdael Jacob van",
+    "sortName": "Ruisdael Jacob van",
+    "sortLetter": "R",
+    "dates": "1628 – 1682",
+    "movement": "Âge d'or néerlandais (Paysage héroïque & psychologique)",
+    "nationality": "Néerlandaise (Haarlem / Amsterdam)",
+    "school": "École hollandaise du Siècle d'or (Haarlem / Amsterdam)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMZph3ZorISBvAg3Fnq6lHRj9Upsx_7rZMxAfB03u7OAbf3EMSzVw8cblRTN8cs13dRtn7AVjHgqxfHV85fmDbtMT1VgurgPADrwKQPjK7XzsHsd2T_MPGR7HEEMN2JnhUA1CV89fA-4JezgzsXtvf0fw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Jacob van Ruisdael (1628 – 1682)</strong> est considéré comme le plus grand paysagiste de l'Âge d'or néerlandais. Son œuvre marque l'apogée du paysage réaliste en Europe, transformant la simple observation de la nature en une expérience spirituelle et dramatique d'une puissance inégalée.</p><p>Son genre pictural est le paysage héroïque et psychologique. Contrairement à ses prédécesseurs qui cherchaient une topographie exacte, Ruisdael compose des paysages qui reflètent des états d'âme. Son style se caractérise par des ciels immenses chargés de nuages tourmentés, des contrastes de lumière saisissants et une attention quasi scientifique au rendu des arbres, des rochers et de l'eau. Il introduit dans la peinture néerlandaise une dimension monumentale et parfois mélancolique, où la nature semble dominer l'homme.</p><p>L'évolution de son style montre une maîtrise croissante de la mise en scène dramatique : de la période d'Haarlem à ses débuts, centrée sur les dunes sablonneuses et la structure minutieuse des chênes séculaires (<em>Le Buisson</em>) ; aux voyages des années 1650 introduisant torrents, cascades et reliefs accidentés inspirés de l'Allemagne et du Grand Nord ; jusqu'à sa pleine maturité philosophique à Amsterdam (<em>Le Coup de soleil</em>, <em>L'Entrée d'un bois</em>), où les vanités paysagères méditent sur la fugacité humaine face à l'éternité du cosmos.</p>",
+    "corpus": {
+      "total": 686,
+      "paintingsCount": 686,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 8,
+      "source": "Catalogue raisonné par Seymour Slive (Yale University Press, 2001)",
+      "totalOeuvresEstimees": "~686 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Catalogue raisonné établi par Seymour Slive (Jacob van Ruisdael: A Complete Catalogue of His Paintings, Drawings and Etchings, Yale University Press, 2001). En retenant exclusivement ses peintures à l'huile sur toile et sur panneau authentifiées (paysages panoramiques, forêts, cascades, marines, paysages d'hiver et vues urbaines, à l'exclusion de ses quelque 140 dessins et 13 eaux-fortes), le catalogue de Slive fixe le corpus officiel de ses peintures à 686 oeuvres."
+    },
+    "timeline": {
+      "birth": {
+        "year": "1628",
+        "place": "Haarlem (Provinces-Unies)",
+        "title": "Naissance de Jacob van Ruisdael",
+        "desc": "Né à Haarlem dans une famille d'artistes peintres et d'encadreurs, fils d'Isaack van Ruisdael et neveu de Salomon van Ruysdael."
+      },
+      "death": {
+        "year": "1682",
+        "place": "Amsterdam (Provinces-Unies)",
+        "title": "Mort de Jacob van Ruisdael",
+        "desc": "S'éteint en mars 1682 à Amsterdam et est inhumé solennellement le 14 mars 1682 dans la nef de l'église Saint-Bavon de Haarlem."
+      },
+      "periods": [
+        {
+          "title": "Les Débuts à Haarlem & L'Observation Scrupuleuse des Dunes (1646 – 1650)",
+          "years": "1646 – 1650",
+          "summary": "Admis très jeune à la guilde de Saint-Luc, il révolutionne le paysage de dunes par une observation minutieuse des arbres tourmentés et un sentiment dramatique précoce.",
+          "color": "#d4af37",
+          "events": [
+            {
+              "year": "1640 – 1650",
+              "title": "Une route à travers une forêt de chênes (Tokyo)",
+              "desc": "Étude magistrale d'arbres séculaires aux ramures noueuses sur tertre sablonneux, affirmant sa vision panthéiste du paysage.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌳",
+              "artworkId": "ruisdael_une_route_a_travers_une_foret_de_chenes_tokyo_1640"
+            },
+            {
+              "year": "1646 – 1647",
+              "title": "Le Buisson (Paris, Musée du Louvre)",
+              "desc": "Chef-d'œuvre de jeunesse : un buisson d'églantiers et de chênes luttant contre le vent marin sous un ciel de cumulus héroïques.",
+              "type": "masterpiece",
+              "badge": "ICÔNE DU LOUVRE",
+              "icon": "🎨",
+              "artworkId": "ruisdael_le_buisson_louvre_1646"
+            },
+            {
+              "year": "1648",
+              "title": "Admission à la guilde de Saint-Luc de Haarlem",
+              "desc": "Reçu maître indépendant au sein de la corporation des peintres de sa ville natale.",
+              "type": "turning_point",
+              "badge": "GUILDE SAINT-LUC",
+              "icon": "📜"
+            },
+            {
+              "year": "1649",
+              "title": "Paysage par temps d'orage (Montpellier, Musée Fabre)",
+              "desc": "Composition pré-romantique où l'arbre mort au premier plan dialogue avec des nuées d'un gris menaçant chargées de pluie.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚡",
+              "artworkId": "ruisdael_paysage_par_temps_d_orage_montpellier_1649"
+            }
+          ]
+        },
+        {
+          "title": "Les Voyages, Le Relief Germanique & L'Eau Vive (1650 – 1656)",
+          "years": "1650 – 1656",
+          "summary": "Son périple vers la frontière westphalienne enrichit son imaginaire de châteaux escarpés, de torrents rugissants et de forêts denses.",
+          "color": "#38bdf8",
+          "events": [
+            {
+              "year": "1650 – 1652",
+              "title": "Voyage en Westphalie avec Nicolaes Berchem",
+              "desc": "Découverte de la forteresse médiévale de Bentheim et des contreforts montagneux qui transformeront son approche du relief.",
+              "type": "context",
+              "badge": "VOYAGE INITIATIQUE",
+              "icon": "🏰"
+            },
+            {
+              "year": "v. 1650 – 1655",
+              "title": "La Route (Paris, Musée du Louvre)",
+              "desc": "Chemin sablonneux sinueux s'élevant vers un sous-bois dense, guidant l'œil dans une alternance virtuose d'ombres et d'éclaircies.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "ruisdael_la_route_louvre_1650"
+            },
+            {
+              "year": "v. 1655",
+              "title": "Paysage avec une cascade (Montpellier, Musée Fabre)",
+              "desc": "Introduction spectaculaire du motif des eaux tumultueuses dévalant entre les rochers au pied d'une habitation de montagne.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌊",
+              "artworkId": "ruisdael_paysage_avec_une_cascade_montpellier_1655"
+            }
+          ]
+        },
+        {
+          "title": "L'Apogée à Amsterdam & Les Méditations Métaphysiques (1657 – 1682)",
+          "years": "1657 – 1682",
+          "summary": "Établi au cœur de la capitale économique des Provinces-Unies, il atteint le sommet de sa puissance spirituelle avec ses vanités paysagères monumentales.",
+          "color": "#10b981",
+          "events": [
+            {
+              "year": "1659",
+              "title": "Citoyenneté d'Amsterdam",
+              "desc": "Obtient le droit de bourgeoisie à Amsterdam où sa réputation d'incomparable maître du paysage s'impose à l'élite marchande.",
+              "type": "turning_point",
+              "badge": "AMSTERDAM",
+              "icon": "🏛️"
+            },
+            {
+              "year": "v. 1660",
+              "title": "Le Coup de soleil (Paris, Musée du Louvre)",
+              "desc": "Poème visuel absolu : trouée lumineuse sublime éclairant un champ au milieu d'une plaine dominée par un château et un ciel monumental.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE SUBLIME",
+              "icon": "☀️",
+              "artworkId": "ruisdael_le_coup_de_soleil_louvre_1660"
+            },
+            {
+              "year": "v. 1660",
+              "title": "Cascade dans un bois de chêne (Montpellier, Musée Fabre)",
+              "desc": "Synthèse magistrale entre la permanence des arbres séculaires et le flux perpétuel d'un torrent écumant sous la lumière zénithale.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎨",
+              "artworkId": "ruisdael_cascade_dans_un_bois_de_chene_montpellier_1660"
+            },
+            {
+              "year": "v. 1660 – 1670",
+              "title": "L'Entrée d'un bois (Paris, Musée du Louvre)",
+              "desc": "Le tronc spectral d'un bouleau abattu au seuil de la futaie obscure, métaphore grandiose du renouveau perpétuel de la nature.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌲",
+              "artworkId": "ruisdael_l_entree_d_un_bois_louvre_1660"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "birth": {
-      "year": "1628",
-      "place": "Haarlem (Provinces-Unies)",
-      "title": "Naissance de Jacob van Ruisdael",
-      "desc": "Né à Haarlem dans une famille d'artistes peintres et d'encadreurs, fils d'Isaack van Ruisdael et neveu de Salomon van Ruysdael."
-    },
-    "death": {
-      "year": "1682",
-      "place": "Amsterdam (Provinces-Unies)",
-      "title": "Mort de Jacob van Ruisdael",
-      "desc": "S'éteint en mars 1682 à Amsterdam et est inhumé solennellement le 14 mars 1682 dans la nef de l'église Saint-Bavon de Haarlem."
-    },
-    "periods": [
-      {
-        "title": "Les Débuts à Haarlem & L'Observation Scrupuleuse des Dunes (1646 – 1650)",
-        "years": "1646 – 1650",
-        "summary": "Admis très jeune à la guilde de Saint-Luc, il révolutionne le paysage de dunes par une observation minutieuse des arbres tourmentés et un sentiment dramatique précoce.",
-        "color": "#d4af37",
-        "events": [
-          {
-            "year": "1640 – 1650",
-            "title": "Une route à travers une forêt de chênes (Tokyo)",
-            "desc": "Étude magistrale d'arbres séculaires aux ramures noueuses sur tertre sablonneux, affirmant sa vision panthéiste du paysage.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🌳",
-            "artworkId": "ruisdael_une_route_a_travers_une_foret_de_chenes_tokyo_1640"
-          },
-          {
-            "year": "1646 – 1647",
-            "title": "Le Buisson (Paris, Musée du Louvre)",
-            "desc": "Chef-d'œuvre de jeunesse : un buisson d'églantiers et de chênes luttant contre le vent marin sous un ciel de cumulus héroïques.",
-            "type": "masterpiece",
-            "badge": "ICÔNE DU LOUVRE",
-            "icon": "🎨",
-            "artworkId": "ruisdael_le_buisson_louvre_1646"
-          },
-          {
-            "year": "1648",
-            "title": "Admission à la guilde de Saint-Luc de Haarlem",
-            "desc": "Reçu maître indépendant au sein de la corporation des peintres de sa ville natale.",
-            "type": "turning_point",
-            "badge": "GUILDE SAINT-LUC",
-            "icon": "📜"
-          },
-          {
-            "year": "1649",
-            "title": "Paysage par temps d'orage (Montpellier, Musée Fabre)",
-            "desc": "Composition pré-romantique où l'arbre mort au premier plan dialogue avec des nuées d'un gris menaçant chargées de pluie.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "⚡",
-            "artworkId": "ruisdael_paysage_par_temps_d_orage_montpellier_1649"
-          }
-        ]
-      },
-      {
-        "title": "Les Voyages, Le Relief Germanique & L'Eau Vive (1650 – 1656)",
-        "years": "1650 – 1656",
-        "summary": "Son périple vers la frontière westphalienne enrichit son imaginaire de châteaux escarpés, de torrents rugissants et de forêts denses.",
-        "color": "#38bdf8",
-        "events": [
-          {
-            "year": "1650 – 1652",
-            "title": "Voyage en Westphalie avec Nicolaes Berchem",
-            "desc": "Découverte de la forteresse médiévale de Bentheim et des contreforts montagneux qui transformeront son approche du relief.",
-            "type": "context",
-            "badge": "VOYAGE INITIATIQUE",
-            "icon": "🏰"
-          },
-          {
-            "year": "v. 1650 – 1655",
-            "title": "La Route (Paris, Musée du Louvre)",
-            "desc": "Chemin sablonneux sinueux s'élevant vers un sous-bois dense, guidant l'œil dans une alternance virtuose d'ombres et d'éclaircies.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "ruisdael_la_route_louvre_1650"
-          },
-          {
-            "year": "v. 1655",
-            "title": "Paysage avec une cascade (Montpellier, Musée Fabre)",
-            "desc": "Introduction spectaculaire du motif des eaux tumultueuses dévalant entre les rochers au pied d'une habitation de montagne.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🌊",
-            "artworkId": "ruisdael_paysage_avec_une_cascade_montpellier_1655"
-          }
-        ]
-      },
-      {
-        "title": "L'Apogée à Amsterdam & Les Méditations Métaphysiques (1657 – 1682)",
-        "years": "1657 – 1682",
-        "summary": "Établi au cœur de la capitale économique des Provinces-Unies, il atteint le sommet de sa puissance spirituelle avec ses vanités paysagères monumentales.",
-        "color": "#10b981",
-        "events": [
-          {
-            "year": "1659",
-            "title": "Citoyenneté d'Amsterdam",
-            "desc": "Obtient le droit de bourgeoisie à Amsterdam où sa réputation d'incomparable maître du paysage s'impose à l'élite marchande.",
-            "type": "turning_point",
-            "badge": "AMSTERDAM",
-            "icon": "🏛️"
-          },
-          {
-            "year": "v. 1660",
-            "title": "Le Coup de soleil (Paris, Musée du Louvre)",
-            "desc": "Poème visuel absolu : trouée lumineuse sublime éclairant un champ au milieu d'une plaine dominée par un château et un ciel monumental.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE SUBLIME",
-            "icon": "☀️",
-            "artworkId": "ruisdael_le_coup_de_soleil_louvre_1660"
-          },
-          {
-            "year": "v. 1660",
-            "title": "Cascade dans un bois de chêne (Montpellier, Musée Fabre)",
-            "desc": "Synthèse magistrale entre la permanence des arbres séculaires et le flux perpétuel d'un torrent écumant sous la lumière zénithale.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🎨",
-            "artworkId": "ruisdael_cascade_dans_un_bois_de_chene_montpellier_1660"
-          },
-          {
-            "year": "v. 1660 – 1670",
-            "title": "L'Entrée d'un bois (Paris, Musée du Louvre)",
-            "desc": "Le tronc spectral d'un bouleau abattu au seuil de la futaie obscure, métaphore grandiose du renouveau perpétuel de la nature.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🌲",
-            "artworkId": "ruisdael_l_entree_d_un_bois_louvre_1660"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "ruysdael": {
-  "id": "ruysdael",
-  "name": "Ruysdael Salomon van",
-  "sortName": "Ruysdael Salomon van",
-  "sortLetter": "R",
-  "dates": "v. 1602 – 1670",
-  "movement": "Âge d'or néerlandais (Paysage tonal & fluvial)",
-  "nationality": "Néerlandaise (Naarden / Haarlem)",
-  "school": "École hollandaise du Siècle d'or (Haarlem)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNMfIUz5iNMeoAT2Mra-ehKeVnGd4AZWa9Bn_GaeyH6CvqDoa43QLvSC4oDiA7SywArbpXdp_bQpV60sQ2f6yXTJ1G4sKy8L6qClK02g0NO_K1QaVY_paDmJnfYIlsJ1sqw7xqOMgYGOHLxbNNheRoCMQ=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Salomon van Ruysdael (v. 1602 – 1670)</strong> est, avec Jan van Goyen, l'un des principaux représentants de la phase dite « monochrome » ou tonale du paysage néerlandais. Oncle du célèbre Jacob van Ruisdael, il a joué un rôle déterminant dans la définition du paysage national des Provinces-Unies, transformant la campagne hollandaise, ses rivières et ses cieux en sujets d'une poésie calme et lumineuse.</p><p>Son genre pictural se définit par le paysage fluvial et la maîtrise des valeurs atmosphériques. Son style se caractérise par une palette de couleurs restreinte — dominée par les verts olive, les bruns et les gris — qui lui permet d'unifier la composition. Il excelle à rendre l'humidité de l'air et les reflets mouvants de l'eau, utilisant souvent des diagonales de berges boisées pour conduire l'œil vers un horizon lointain et bas.</p><p>L'évolution de son style marque un passage d'un dépouillement tonal vers une plus grande richesse chromatique et monumentale : de la période monochrome des années 1630 où la couleur est sacrifiée à l'étude pure de l'espace atmosphérique ; à la maturité des années 1640-1650 avec ses célèbres traversées en bac animées de voyageurs et de bétail (<em>Le Débarcadère</em>, <em>Le Bac</em>) ; jusqu'aux dernières années plus décoratives où il explore la nature morte de chasse avec une semblable vérité de matière.</p>",
-  "corpus": {
-    "total": 600,
-    "paintingsCount": 600,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 2,
-    "source": "Catalogue raisonné par Wolfgang Stechow (1938 / 1975) & archives RKD",
-    "totalOeuvresEstimees": "~600 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence est le catalogue raisonné établi par Wolfgang Stechow (Salomon van Ruysdael. Eine Einführung in seine Kunst. Mit kritischem Katalog der Gemälde, Berlin, 1938, édition révisée en 1975), enrichi par les ajouts documentés dans la base du RKD (Netherlands Institute for Art History) et les catalogues muséaux. En retenant exclusivement ses peintures à l'huile sur panneau ou sur toile (paysages fluviaux, bacs, vues de villes, marines et natures mortes, à l'exclusion des attributions douteuses et des copies tardives), le consensus critique situe son corpus officiel autour d'environ 600 peintures."
+    "id": "ruysdael",
+    "name": "Ruysdael Salomon van",
+    "sortName": "Ruysdael Salomon van",
+    "sortLetter": "R",
+    "dates": "v. 1602 – 1670",
+    "movement": "Âge d'or néerlandais (Paysage tonal & fluvial)",
+    "nationality": "Néerlandaise (Naarden / Haarlem)",
+    "school": "École hollandaise du Siècle d'or (Haarlem)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNMfIUz5iNMeoAT2Mra-ehKeVnGd4AZWa9Bn_GaeyH6CvqDoa43QLvSC4oDiA7SywArbpXdp_bQpV60sQ2f6yXTJ1G4sKy8L6qClK02g0NO_K1QaVY_paDmJnfYIlsJ1sqw7xqOMgYGOHLxbNNheRoCMQ=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Salomon van Ruysdael (v. 1602 – 1670)</strong> est, avec Jan van Goyen, l'un des principaux représentants de la phase dite « monochrome » ou tonale du paysage néerlandais. Oncle du célèbre Jacob van Ruisdael, il a joué un rôle déterminant dans la définition du paysage national des Provinces-Unies, transformant la campagne hollandaise, ses rivières et ses cieux en sujets d'une poésie calme et lumineuse.</p><p>Son genre pictural se définit par le paysage fluvial et la maîtrise des valeurs atmosphériques. Son style se caractérise par une palette de couleurs restreinte — dominée par les verts olive, les bruns et les gris — qui lui permet d'unifier la composition. Il excelle à rendre l'humidité de l'air et les reflets mouvants de l'eau, utilisant souvent des diagonales de berges boisées pour conduire l'œil vers un horizon lointain et bas.</p><p>L'évolution de son style marque un passage d'un dépouillement tonal vers une plus grande richesse chromatique et monumentale : de la période monochrome des années 1630 où la couleur est sacrifiée à l'étude pure de l'espace atmosphérique ; à la maturité des années 1640-1650 avec ses célèbres traversées en bac animées de voyageurs et de bétail (<em>Le Débarcadère</em>, <em>Le Bac</em>) ; jusqu'aux dernières années plus décoratives où il explore la nature morte de chasse avec une semblable vérité de matière.</p>",
+    "corpus": {
+      "total": 600,
+      "paintingsCount": 600,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 2,
+      "source": "Catalogue raisonné par Wolfgang Stechow (1938 / 1975) & archives RKD",
+      "totalOeuvresEstimees": "~600 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence est le catalogue raisonné établi par Wolfgang Stechow (Salomon van Ruysdael. Eine Einführung in seine Kunst. Mit kritischem Katalog der Gemälde, Berlin, 1938, édition révisée en 1975), enrichi par les ajouts documentés dans la base du RKD (Netherlands Institute for Art History) et les catalogues muséaux. En retenant exclusivement ses peintures à l'huile sur panneau ou sur toile (paysages fluviaux, bacs, vues de villes, marines et natures mortes, à l'exclusion des attributions douteuses et des copies tardives), le consensus critique situe son corpus officiel autour d'environ 600 peintures."
+    },
+    "timeline": {
+      "birth": {
+        "year": "v. 1602",
+        "place": "Naarden (Provinces-Unies)",
+        "title": "Naissance de Salomon van Ruysdael",
+        "desc": "Naît vers 1602 sous le nom de Salomon de Gooyer avant d'adopter avec son frère le patronyme Ruysdael d'après le château de Ruisdael."
+      },
+      "death": {
+        "year": "1670",
+        "place": "Haarlem (Provinces-Unies)",
+        "title": "Mort de Salomon van Ruysdael",
+        "desc": "Inhumé le 3 novembre 1670 en l'église Saint-Bavon de Haarlem, après une brillante carrière civique et artistique."
+      },
+      "periods": [
+        {
+          "title": "La Période Monochrome & L'Essor du Paysage Tonal (1623 – 1639)",
+          "years": "1623 – 1639",
+          "summary": "Installé à Haarlem aux côtés de Jan van Goyen et d'Esaias van de Velde, il participe à l'invention de la peinture tonale atmosphérique hollandaise.",
+          "color": "#d4af37",
+          "events": [
+            {
+              "year": "1623",
+              "title": "Entrée à la guilde de Saint-Luc de Haarlem",
+              "desc": "Reçu maître de la guilde, il affirme sa vocation de peintre paysagiste sensible aux ciels mouvants de Hollande.",
+              "type": "turning_point",
+              "badge": "GUILDE SAINT-LUC",
+              "icon": "📜"
+            },
+            {
+              "year": "v. 1635",
+              "title": "Les premiers paysages fluviaux dépouillés",
+              "desc": "Adopte une palette sobre d'ocres et de verts rompus pour capter la fluidité liquide et l'air humide des canaux.",
+              "type": "context",
+              "badge": "PHASE MONOCHROME",
+              "icon": "🌫️"
+            }
+          ]
+        },
+        {
+          "title": "La Maturité, Les Traversées en Bac & Les Marines (1640 – 1655)",
+          "years": "1640 – 1655",
+          "summary": "Apogée de sa production : il crée ses chefs-d'œuvre de traversées en bac où la vie laborieuse et paisible des Provinces-Unies s'intègre harmonieusement aux voies d'eau.",
+          "color": "#38bdf8",
+          "events": [
+            {
+              "year": "v. 1640",
+              "title": "Le Débarcadère (Paris, Musée du Louvre)",
+              "desc": "Harmonieuse construction en diagonale où l'embarcation chargée de bétail et de villageois glisse sous la lumière argentée du large.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⛵",
+              "artworkId": "ruysdael_le_debarcadere_louvre_1640"
+            },
+            {
+              "year": "1647",
+              "title": "Le Bac (Paris, Musée du Louvre)",
+              "desc": "Chef-d'œuvre du paysage fluvial habité : le bac bondé de chevaux et de voyageurs traverse l'eau limpide au pied de ruines chargées d'histoire.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE DU LOUVRE",
+              "icon": "🎨",
+              "artworkId": "ruysdael_le_bac_louvre_1647"
+            },
+            {
+              "year": "1648",
+              "title": "Doyen de la guilde de Saint-Luc",
+              "desc": "Élu à la tête de la prestigieuse corporation artistique de Haarlem l'année de la reconnaissance officielle de la République par la paix de Münster.",
+              "type": "turning_point",
+              "badge": "NOTABILITÉ CIVIQUE",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "La Période Tardive & Les Natures Mortes (1656 – 1670)",
+          "years": "1656 – 1670",
+          "summary": "Sa palette s'enrichit de contrastes chromatiques plus affirmés et il élargit son registre pictural à d'élégantes scènes de chasse et natures mortes.",
+          "color": "#10b981",
+          "events": [
+            {
+              "year": "v. 1660",
+              "title": "Natures mortes de chasse et trophées",
+              "desc": "Exécute des gibiers suspendus d'une grande vérité tactile, démontrant sa maîtrise virtuose des plumages et des lumières d'intérieur.",
+              "type": "context",
+              "badge": "NATURE MORTE",
+              "icon": "🦆"
+            },
+            {
+              "year": "1670",
+              "title": "Fin de vie à Haarlem",
+              "desc": "S'éteint respecté de tous après avoir fixé pour l'éternité la poésie sereine des horizons hollandais.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "birth": {
-      "year": "v. 1602",
-      "place": "Naarden (Provinces-Unies)",
-      "title": "Naissance de Salomon van Ruysdael",
-      "desc": "Naît vers 1602 sous le nom de Salomon de Gooyer avant d'adopter avec son frère le patronyme Ruysdael d'après le château de Ruisdael."
-    },
-    "death": {
-      "year": "1670",
-      "place": "Haarlem (Provinces-Unies)",
-      "title": "Mort de Salomon van Ruysdael",
-      "desc": "Inhumé le 3 novembre 1670 en l'église Saint-Bavon de Haarlem, après une brillante carrière civique et artistique."
-    },
-    "periods": [
-      {
-        "title": "La Période Monochrome & L'Essor du Paysage Tonal (1623 – 1639)",
-        "years": "1623 – 1639",
-        "summary": "Installé à Haarlem aux côtés de Jan van Goyen et d'Esaias van de Velde, il participe à l'invention de la peinture tonale atmosphérique hollandaise.",
-        "color": "#d4af37",
-        "events": [
-          {
-            "year": "1623",
-            "title": "Entrée à la guilde de Saint-Luc de Haarlem",
-            "desc": "Reçu maître de la guilde, il affirme sa vocation de peintre paysagiste sensible aux ciels mouvants de Hollande.",
-            "type": "turning_point",
-            "badge": "GUILDE SAINT-LUC",
-            "icon": "📜"
-          },
-          {
-            "year": "v. 1635",
-            "title": "Les premiers paysages fluviaux dépouillés",
-            "desc": "Adopte une palette sobre d'ocres et de verts rompus pour capter la fluidité liquide et l'air humide des canaux.",
-            "type": "context",
-            "badge": "PHASE MONOCHROME",
-            "icon": "🌫️"
-          }
-        ]
-      },
-      {
-        "title": "La Maturité, Les Traversées en Bac & Les Marines (1640 – 1655)",
-        "years": "1640 – 1655",
-        "summary": "Apogée de sa production : il crée ses chefs-d'œuvre de traversées en bac où la vie laborieuse et paisible des Provinces-Unies s'intègre harmonieusement aux voies d'eau.",
-        "color": "#38bdf8",
-        "events": [
-          {
-            "year": "v. 1640",
-            "title": "Le Débarcadère (Paris, Musée du Louvre)",
-            "desc": "Harmonieuse construction en diagonale où l'embarcation chargée de bétail et de villageois glisse sous la lumière argentée du large.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "⛵",
-            "artworkId": "ruysdael_le_debarcadere_louvre_1640"
-          },
-          {
-            "year": "1647",
-            "title": "Le Bac (Paris, Musée du Louvre)",
-            "desc": "Chef-d'œuvre du paysage fluvial habité : le bac bondé de chevaux et de voyageurs traverse l'eau limpide au pied de ruines chargées d'histoire.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE DU LOUVRE",
-            "icon": "🎨",
-            "artworkId": "ruysdael_le_bac_louvre_1647"
-          },
-          {
-            "year": "1648",
-            "title": "Doyen de la guilde de Saint-Luc",
-            "desc": "Élu à la tête de la prestigieuse corporation artistique de Haarlem l'année de la reconnaissance officielle de la République par la paix de Münster.",
-            "type": "turning_point",
-            "badge": "NOTABILITÉ CIVIQUE",
-            "icon": "👑"
-          }
-        ]
-      },
-      {
-        "title": "La Période Tardive & Les Natures Mortes (1656 – 1670)",
-        "years": "1656 – 1670",
-        "summary": "Sa palette s'enrichit de contrastes chromatiques plus affirmés et il élargit son registre pictural à d'élégantes scènes de chasse et natures mortes.",
-        "color": "#10b981",
-        "events": [
-          {
-            "year": "v. 1660",
-            "title": "Natures mortes de chasse et trophées",
-            "desc": "Exécute des gibiers suspendus d'une grande vérité tactile, démontrant sa maîtrise virtuose des plumages et des lumières d'intérieur.",
-            "type": "context",
-            "badge": "NATURE MORTE",
-            "icon": "🦆"
-          },
-          {
-            "year": "1670",
-            "title": "Fin de vie à Haarlem",
-            "desc": "S'éteint respecté de tous après avoir fixé pour l'éternité la poésie sereine des horizons hollandais.",
-            "type": "context",
-            "badge": "MÉMOIRE",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "vasarely": {
-  "id": "vasarely",
-  "name": "Vasarely Victor",
-  "sortName": "Vasarely Victor",
-  "sortLetter": "V",
-  "dates": "1906 – 1997",
-  "movement": "Op Art (Art Optique) & Art Cinétique",
-  "nationality": "Franco-hongroise (Pécs / Paris / Aix-en-Provence)",
-  "school": "Art optique et cinétique international",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMjNkXrVL2_OB7A23tbN5BnAHnR_ZrI5REKroS5Xyx3-IiiWdxfHjEjUsij8A9bv4ZYr2c3jv-HkJkTTBwieRYpn6NFE_cwkt0vyvAHDyAB38D7zv_Z9hYniHny4VVRxiGWYAgILv34TdUjFdKGPSFbbg=w1836-h787-s-no-gm?authuser=0",
-  "bio": "<p><strong>Victor Vasarely (1906 – 1997)</strong> est le père incontesté de l'Op Art (Art Optique). D'origine hongroise et naturalisé français, il a cherché à créer un art social, accessible à tous, en s'appuyant sur les lois de la perception visuelle. Pour lui, l'art ne doit plus être une fenêtre sur le monde, mais un générateur de sensations cinétiques capables de déstabiliser l'œil du spectateur.</p><p>Son genre pictural se définit par l'abstraction géométrique et le cinétisme. Son style se caractérise par l'utilisation de formes géométriques simples (carrés, cercles, losanges) et de contrastes de couleurs vibrants pour créer des illusions de relief, de profondeur et de mouvement. Il a inventé l'« unité plastique », un alphabet visuel où la couleur et la forme sont indissociables.</p><p>L'évolution de son style marque une progression vers la tridimensionnalité et l'intégration architecturale : de la période graphique et Denfert des années 1930-1940 où les contrastes noir et blanc zébrés suggèrent le mouvement ; à la période cinétique du Manifeste Jaune dans les années 1950 (<em>Geminorum</em>) jouant sur les permutations modulaires pures ; jusqu'à la période Vega et ses structures universelles bombées ou creusées des années 1960-1970, culminant dans les monumentales intégrations polychromes de sa Fondation d'Aix-en-Provence.</p>",
-  "corpus": {
-    "total": 1500,
-    "paintingsCount": 1500,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 1,
-    "source": "Catalogue raisonné Comité Pierre Vasarely & Fondation Vasarely",
-    "totalOeuvresEstimees": "~1 500 peintures originales",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur le catalogue raisonné en cours d'achèvement par le Comité Vasarely (dirigé par Pierre Vasarely) ainsi que sur les archives et collections de la Fondation Vasarely d'Aix-en-Provence et du Musée Vasarely de Pécs. En retenant exclusivement ses peintures originales (huiles, acryliques et tempéras sur toile ou sur bois, en laissant de côté les milliers de sérigraphies et multiples tirés d'après ses compositions), le consensus muséal situe son corpus officiel autour d'environ 1 500 peintures."
-  },
-  "timeline": {
-    "birth": {
-      "year": "1906",
-      "place": "Pécs (Hongrie)",
-      "title": "Naissance de Victor Vasarely",
-      "desc": "Né Győző Vásárhelyi le 9 avril 1906 à Pécs en Hongrie. Étudie la médecine avant de se consacrer à l'art à l'académie Mühely de Budapest."
+    "id": "vasarely",
+    "name": "Vasarely Victor",
+    "sortName": "Vasarely Victor",
+    "sortLetter": "V",
+    "dates": "1906 – 1997",
+    "movement": "Op Art (Art Optique) & Art Cinétique",
+    "nationality": "Franco-hongroise (Pécs / Paris / Aix-en-Provence)",
+    "school": "Art optique et cinétique international",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMjNkXrVL2_OB7A23tbN5BnAHnR_ZrI5REKroS5Xyx3-IiiWdxfHjEjUsij8A9bv4ZYr2c3jv-HkJkTTBwieRYpn6NFE_cwkt0vyvAHDyAB38D7zv_Z9hYniHny4VVRxiGWYAgILv34TdUjFdKGPSFbbg=w1836-h787-s-no-gm?authuser=0",
+    "bio": "<p><strong>Victor Vasarely (1906 – 1997)</strong> est le père incontesté de l'Op Art (Art Optique). D'origine hongroise et naturalisé français, il a cherché à créer un art social, accessible à tous, en s'appuyant sur les lois de la perception visuelle. Pour lui, l'art ne doit plus être une fenêtre sur le monde, mais un générateur de sensations cinétiques capables de déstabiliser l'œil du spectateur.</p><p>Son genre pictural se définit par l'abstraction géométrique et le cinétisme. Son style se caractérise par l'utilisation de formes géométriques simples (carrés, cercles, losanges) et de contrastes de couleurs vibrants pour créer des illusions de relief, de profondeur et de mouvement. Il a inventé l'« unité plastique », un alphabet visuel où la couleur et la forme sont indissociables.</p><p>L'évolution de son style marque une progression vers la tridimensionnalité et l'intégration architecturale : de la période graphique et Denfert des années 1930-1940 où les contrastes noir et blanc zébrés suggèrent le mouvement ; à la période cinétique du Manifeste Jaune dans les années 1950 (<em>Geminorum</em>) jouant sur les permutations modulaires pures ; jusqu'à la période Vega et ses structures universelles bombées ou creusées des années 1960-1970, culminant dans les monumentales intégrations polychromes de sa Fondation d'Aix-en-Provence.</p>",
+    "corpus": {
+      "total": 1500,
+      "paintingsCount": 1500,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Catalogue raisonné Comité Pierre Vasarely & Fondation Vasarely",
+      "totalOeuvresEstimees": "~1 500 peintures originales",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur le catalogue raisonné en cours d'achèvement par le Comité Vasarely (dirigé par Pierre Vasarely) ainsi que sur les archives et collections de la Fondation Vasarely d'Aix-en-Provence et du Musée Vasarely de Pécs. En retenant exclusivement ses peintures originales (huiles, acryliques et tempéras sur toile ou sur bois, en laissant de côté les milliers de sérigraphies et multiples tirés d'après ses compositions), le consensus muséal situe son corpus officiel autour d'environ 1 500 peintures."
     },
-    "death": {
-      "year": "1997",
-      "place": "Paris (France)",
-      "title": "Mort de Victor Vasarely",
-      "desc": "S'éteint le 15 mars 1997 à Paris à l'âge de 90 ans, salué dans le monde entier comme le visionnaire absolu de l'art géométrique contemporain."
-    },
-    "periods": [
-      {
-        "title": "Période Graphique, Le Mühely & Les Recherches de Denfert (1930 – 1950)",
-        "years": "1930 – 1950",
-        "summary": "Formé au Bauhaus hongrois, il s'établit à Paris en 1930 comme graphiste avant d'explorer les réfractions d'ondes, les zèbres et les carreaux du métro Denfert-Rochereau.",
-        "color": "#d4af37",
-        "events": [
-          {
-            "year": "1930",
-            "title": "Installation à Paris",
-            "desc": "S'installe dans la capitale française et travaille pour les grandes agences publicitaires comme Havas et Draeger, développant son sens du contraste rétinien.",
-            "type": "turning_point",
-            "badge": "PARIS",
-            "icon": "🗼"
-          },
-          {
-            "year": "1944",
-            "title": "Exposition inaugurale de la Galerie Denise René",
-            "desc": "Participe à la fondation de la galerie d'avant-garde avec Denise René qui deviendra le temple mondial de l'art cinétique.",
-            "type": "context",
-            "badge": "GALERIE DENISE RENÉ",
-            "icon": "🏛️"
-          }
-        ]
+    "timeline": {
+      "birth": {
+        "year": "1906",
+        "place": "Pécs (Hongrie)",
+        "title": "Naissance de Victor Vasarely",
+        "desc": "Né Győző Vásárhelyi le 9 avril 1906 à Pécs en Hongrie. Étudie la médecine avant de se consacrer à l'art à l'académie Mühely de Budapest."
       },
-      {
-        "title": "Période Noir & Blanc, Cinétisme & Le Manifeste Jaune (1951 – 1960)",
-        "years": "1951 – 1960",
-        "summary": "Abandonne toute figuration pour concevoir l'unité plastique : des matrices binaires déstabilisant la perception par d'intenses vibrations optiques.",
-        "color": "#38bdf8",
-        "events": [
-          {
-            "year": "1955",
-            "title": "Le Mouvement & Le Manifeste Jaune",
-            "desc": "Théorise l'art cinétique lors de l'exposition mythique chez Denise René aux côtés d'Alexander Calder, Marcel Duchamp et Jean Tinguely.",
-            "type": "turning_point",
-            "badge": "MANIFESTE JAUNE",
-            "icon": "📜"
-          },
-          {
-            "year": "1956",
-            "title": "Geminorum (Nantes, Musée d'Arts)",
-            "desc": "Sommet de la période Noir et Blanc : quatre quadrants géométriques dont les permutations inversées créent une sensation de volume en perpétuelle pulsation.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE OP ART",
-            "icon": "⚡",
-            "artworkId": "vasarely_geminorum_nantes_1956"
-          }
-        ]
+      "death": {
+        "year": "1997",
+        "place": "Paris (France)",
+        "title": "Mort de Victor Vasarely",
+        "desc": "S'éteint le 15 mars 1997 à Paris à l'âge de 90 ans, salué dans le monde entier comme le visionnaire absolu de l'art géométrique contemporain."
       },
-      {
-        "title": "La Série Vega, Les Intégrations Monumentales & La Cité Polychrome (1961 – 1997)",
-        "years": "1961 – 1997",
-        "summary": "Consécration internationale : déformations sphériques de trames modulaires (Vega) et concrétisation de son utopie sociale d'art dans la cité.",
-        "color": "#10b981",
-        "events": [
-          {
-            "year": "1965",
-            "title": "The Responsive Eye au MoMA de New York",
-            "desc": "Consécration universelle de l'Op Art : ses œuvres fascinent des foules immenses et déclenchent une vague mondiale de mode et de design.",
-            "type": "turning_point",
-            "badge": "TRIOMPHE AU MOMA",
-            "icon": "👁️"
-          },
-          {
-            "year": "1976",
-            "title": "Inauguration de la Fondation Vasarely à Aix-en-Provence",
-            "desc": "Conçoit lui-même le bâtiment architectonique aux seize alvéoles polygonales abritant ses intégrations monumentales en verre, tapisserie et céramique.",
-            "type": "masterpiece",
-            "badge": "FONDATION D'AIX",
-            "icon": "🏛️"
-          }
-        ]
-      }
-    ]
-  }
+      "periods": [
+        {
+          "title": "Période Graphique, Le Mühely & Les Recherches de Denfert (1930 – 1950)",
+          "years": "1930 – 1950",
+          "summary": "Formé au Bauhaus hongrois, il s'établit à Paris en 1930 comme graphiste avant d'explorer les réfractions d'ondes, les zèbres et les carreaux du métro Denfert-Rochereau.",
+          "color": "#d4af37",
+          "events": [
+            {
+              "year": "1930",
+              "title": "Installation à Paris",
+              "desc": "S'installe dans la capitale française et travaille pour les grandes agences publicitaires comme Havas et Draeger, développant son sens du contraste rétinien.",
+              "type": "turning_point",
+              "badge": "PARIS",
+              "icon": "🗼"
+            },
+            {
+              "year": "1944",
+              "title": "Exposition inaugurale de la Galerie Denise René",
+              "desc": "Participe à la fondation de la galerie d'avant-garde avec Denise René qui deviendra le temple mondial de l'art cinétique.",
+              "type": "context",
+              "badge": "GALERIE DENISE RENÉ",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Période Noir & Blanc, Cinétisme & Le Manifeste Jaune (1951 – 1960)",
+          "years": "1951 – 1960",
+          "summary": "Abandonne toute figuration pour concevoir l'unité plastique : des matrices binaires déstabilisant la perception par d'intenses vibrations optiques.",
+          "color": "#38bdf8",
+          "events": [
+            {
+              "year": "1955",
+              "title": "Le Mouvement & Le Manifeste Jaune",
+              "desc": "Théorise l'art cinétique lors de l'exposition mythique chez Denise René aux côtés d'Alexander Calder, Marcel Duchamp et Jean Tinguely.",
+              "type": "turning_point",
+              "badge": "MANIFESTE JAUNE",
+              "icon": "📜"
+            },
+            {
+              "year": "1956",
+              "title": "Geminorum (Nantes, Musée d'Arts)",
+              "desc": "Sommet de la période Noir et Blanc : quatre quadrants géométriques dont les permutations inversées créent une sensation de volume en perpétuelle pulsation.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE OP ART",
+              "icon": "⚡",
+              "artworkId": "vasarely_geminorum_nantes_1956"
+            }
+          ]
+        },
+        {
+          "title": "La Série Vega, Les Intégrations Monumentales & La Cité Polychrome (1961 – 1997)",
+          "years": "1961 – 1997",
+          "summary": "Consécration internationale : déformations sphériques de trames modulaires (Vega) et concrétisation de son utopie sociale d'art dans la cité.",
+          "color": "#10b981",
+          "events": [
+            {
+              "year": "1965",
+              "title": "The Responsive Eye au MoMA de New York",
+              "desc": "Consécration universelle de l'Op Art : ses œuvres fascinent des foules immenses et déclenchent une vague mondiale de mode et de design.",
+              "type": "turning_point",
+              "badge": "TRIOMPHE AU MOMA",
+              "icon": "👁️"
+            },
+            {
+              "year": "1976",
+              "title": "Inauguration de la Fondation Vasarely à Aix-en-Provence",
+              "desc": "Conçoit lui-même le bâtiment architectonique aux seize alvéoles polygonales abritant ses intégrations monumentales en verre, tapisserie et céramique.",
+              "type": "masterpiece",
+              "badge": "FONDATION D'AIX",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
   },
   "vasari": {
     "id": "vasari",
@@ -14048,489 +14048,489 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     }
   },
   "vermeer": {
-      "id": "vermeer",
-      "name": "Vermeer Johannes",
-      "sortName": "Vermeer Johannes",
-      "sortLetter": "V",
-      "dates": "1632 – 1675",
-      "movement": "Âge d'or néerlandais (École de Delft & Intimisme optique)",
-      "nationality": "Néerlandaise",
-      "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNPeWRK3ah5fra5lehoa0XRSw9qX8rsLix5VHXwLzP5BTuh41hUloBHybnap0yxeUNUkwAuQ4xTm9YIo5_B-2foHd-F16Jv3o5uugM9GCunBmpfwR11N9VvWDHVxJwfiWHtP99onWi91ZLhoRG2aQF2kA=w1836-h779-s-no-gm",
-      "bio": "<p><strong>Johannes Vermeer</strong> (1632 – 1675), surnommé le « Sphinx de Delft », est l'une des figures les plus fascinantes et universellement admirées de la peinture occidentale. Longtemps oublié après sa mort prématurée à l'âge de 43 ans, puis redécouvert au milieu du XIXe siècle par le critique français Théophile Thoré-Bürger, il a bâti une œuvre d'une rareté et d'une perfection incomparables, comptant seulement une trentaine de toiles authentifiées. Vivant et travaillant toute son existence à Delft, il exerçait également le métier de marchand d'art et dirigea à deux reprises la prestigieuse guilde locale de Saint-Luc.</p><p>Son genre pictural de prédilection est la scène de genre intimiste et la vue urbaine topographique. À rebours de la verve narrative, du désordre joyeux ou de l'anecdote morale de ses contemporains comme Jan Steen ou Pieter de Hooch, Vermeer suspend le cours du temps dans des intérieurs bourgeois d'une pureté géométrique quasi mathématique. Son style se caractérise par une manipulation prodigieuse de la lumière diurne — pénétrant presque toujours par une baie vitrée latérale à gauche —, par l'usage virtuose du pointillé optique (<em>pointillé</em>) traduisant les éclats scintillants sur les objets, et par une palette somptueuse dominée par le bleu outremer naturel (lapis-lazuli précieux dont il usa sans compter), le jaune citron éclatant et les blancs nacrés.</p><p>L'évolution de sa création s'étend de ses débuts historiques et religieux inspirés du caravagisme d'Utrecht (<em>Sainte Praxède</em>, <em>Diane et ses compagnes</em>, 1655) à ses chefs-d'œuvre de pleine maturité méditative des années 1660 (<em>La Laitière</em>, <em>La Fille à la perle</em>, <em>Vue de Delft</em>, <em>L'Astronome</em>, <em>La Dentellière</em>). Dans ses toiles tardives des années 1670, comme <em>Une dame debout au virginal</em>, sa touche se fait plus stylisée et abstraite, consacrant une méditation visuelle insurpassée sur le silence, la réfraction lumineuse et l'harmonie secrète du monde visible.</p>",
-      "corpus": {
-          "total": 35,
-          "paintingsCount": 35,
-          "drawingsCount": null,
-          "engravingsCount": null,
-          "sculpturesCount": null,
-          "seenCount": 4,
-          "source": "Catalogues raisonnés Blankert (1978), Wheelock (1995), Liedtke (2008) & Rétrospective Rijksmuseum (2023)",
-          "totalOeuvresEstimees": "~35 peintures répertoriées",
-          "oeuvresConsensusNotice": "Le corpus de Johannes Vermeer est l'un des plus restreints et rigoureusement examinés de l'histoire de l'art. En s'appuyant sur les travaux de référence d'Albert Blankert, d'Arthur K. Wheelock Jr., de Walter Liedtke et sur le consensus scientifique établi lors de la rétrospective historique du Rijksmuseum d'Amsterdam en 2023, le nombre d'œuvres autographes authentifiées conservées dans le monde est fixé à environ 35 peintures."
-      },
-      "timeline": {
-          "periods": [
-              {
-                  "title": "Jeunesse, Formation & Peinture d'Histoire",
-                  "years": "1653 – 1658",
-                  "color": "#d4af37",
-                  "summary": "Inscription à la guilde de Saint-Luc de Delft, mariage avec Catharina Bolnes et premières toiles d'histoire religieuse et mythologique.",
-                  "events": [
-                      {
-                          "year": "1653",
-                          "title": "Entrée à la Guilde de Saint-Luc de Delft",
-                          "desc": "Admis comme maître peintre à la guilde des peintres de Delft le 29 décembre 1653, après avoir épousé Catharina Bolnes.",
-                          "type": "context",
-                          "badge": "MAÎTRISE",
-                          "icon": "🏛️"
-                      },
-                      {
-                          "year": "1655",
-                          "title": "Sainte Praxède (Tokyo, Musée d'Art occidental)",
-                          "desc": "Interprétation précoce inspirée du maître florentin Ficherelli : compassion mystique d'une jeune vierge romaine recueillant le sang des martyrs.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "✨",
-                          "artworkId": "vermeer_sainte_praxede_tokyo_1655"
-                      }
-                  ]
-              },
-              {
-                  "title": "L'Apogée de l'Intimisme & Magie de la Lumière",
-                  "years": "1658 – 1669",
-                  "color": "#d4af37",
-                  "summary": "Élaboration des scènes de genre intimistes illuminées par une fenêtre latérale, rigueur géométrique et poésie du silence.",
-                  "events": [
-                      {
-                          "year": "1662 – 1663",
-                          "title": "Doyen de la Guilde de Saint-Luc",
-                          "desc": "Élu doyen des peintres de Delft, témoignant de l'estime unanime de ses pairs malgré sa faible production commerciale.",
-                          "type": "context",
-                          "badge": "RECONNAISSANCE",
-                          "icon": "👑"
-                      },
-                      {
-                          "year": "1668",
-                          "title": "L'Astronome (Paris, Musée du Louvre)",
-                          "desc": "Savant en robe de chambre en soie observant un globe céleste : alliance sublime entre la recherche scientifique et la transcendance divine.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "🧭",
-                          "artworkId": "vermeer_l_astronome_louvre_1668"
-                      },
-                      {
-                          "year": "1669",
-                          "title": "La Dentellière (Paris, Musée du Louvre)",
-                          "desc": "Cadrage serré et concentration absolue d'une jeune femme penchée sur ses fuseaux, sommet d'économie expressive et de pureté plastique.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "🧵",
-                          "artworkId": "vermeer_la_dentelliere_louvre_1669"
-                      }
-                  ]
-              },
-              {
-                  "title": "Dernières Années, Allégories & Stylisation Pure",
-                  "years": "1670 – 1675",
-                  "color": "#d4af37",
-                  "summary": "Évolution vers un dessin plus linéaire et épuré, crise économique consécutive à l'invasion française (Rampjaar) et mort subite.",
-                  "events": [
-                      {
-                          "year": "v. 1670 – 1672",
-                          "title": "Une dame debout au virginal (Londres, National Gallery)",
-                          "desc": "Élégante au clavier sous l'égide d'un tableau d'Amour : célébration de l'harmonie musicale et de la fidélité amoureuse.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "🎶",
-                          "artworkId": "vermeer_dame_debout_au_virginal_londres_1670"
-                      },
-                      {
-                          "year": "1672",
-                          "title": "L'Année désastreuse (Rampjaar) & Ruine financière",
-                          "desc": "L'invasion des Provinces-Unies par la France de Louis XIV paralyse le marché de l'art, plongeant l'artiste et sa famille nombreuse dans la gêne.",
-                          "type": "history",
-                          "badge": "CRISE",
-                          "icon": "⚔️"
-                      },
-                      {
-                          "year": "1675",
-                          "title": "Mort à Delft & Inhumation à la Oude Kerk",
-                          "desc": "S'éteint brutalement le 15 décembre 1675 à 43 ans. Sa veuve doit céder plusieurs toiles pour régler ses dettes funéraires.",
-                          "type": "context",
-                          "badge": "DISPARITION",
-                          "icon": "🕊️"
-                      }
-                  ]
-              }
+    "id": "vermeer",
+    "name": "Vermeer Johannes",
+    "sortName": "Vermeer Johannes",
+    "sortLetter": "V",
+    "dates": "1632 – 1675",
+    "movement": "Âge d'or néerlandais (École de Delft & Intimisme optique)",
+    "nationality": "Néerlandaise",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNPeWRK3ah5fra5lehoa0XRSw9qX8rsLix5VHXwLzP5BTuh41hUloBHybnap0yxeUNUkwAuQ4xTm9YIo5_B-2foHd-F16Jv3o5uugM9GCunBmpfwR11N9VvWDHVxJwfiWHtP99onWi91ZLhoRG2aQF2kA=w1836-h779-s-no-gm",
+    "bio": "<p><strong>Johannes Vermeer</strong> (1632 – 1675), surnommé le « Sphinx de Delft », est l'une des figures les plus fascinantes et universellement admirées de la peinture occidentale. Longtemps oublié après sa mort prématurée à l'âge de 43 ans, puis redécouvert au milieu du XIXe siècle par le critique français Théophile Thoré-Bürger, il a bâti une œuvre d'une rareté et d'une perfection incomparables, comptant seulement une trentaine de toiles authentifiées. Vivant et travaillant toute son existence à Delft, il exerçait également le métier de marchand d'art et dirigea à deux reprises la prestigieuse guilde locale de Saint-Luc.</p><p>Son genre pictural de prédilection est la scène de genre intimiste et la vue urbaine topographique. À rebours de la verve narrative, du désordre joyeux ou de l'anecdote morale de ses contemporains comme Jan Steen ou Pieter de Hooch, Vermeer suspend le cours du temps dans des intérieurs bourgeois d'une pureté géométrique quasi mathématique. Son style se caractérise par une manipulation prodigieuse de la lumière diurne — pénétrant presque toujours par une baie vitrée latérale à gauche —, par l'usage virtuose du pointillé optique (<em>pointillé</em>) traduisant les éclats scintillants sur les objets, et par une palette somptueuse dominée par le bleu outremer naturel (lapis-lazuli précieux dont il usa sans compter), le jaune citron éclatant et les blancs nacrés.</p><p>L'évolution de sa création s'étend de ses débuts historiques et religieux inspirés du caravagisme d'Utrecht (<em>Sainte Praxède</em>, <em>Diane et ses compagnes</em>, 1655) à ses chefs-d'œuvre de pleine maturité méditative des années 1660 (<em>La Laitière</em>, <em>La Fille à la perle</em>, <em>Vue de Delft</em>, <em>L'Astronome</em>, <em>La Dentellière</em>). Dans ses toiles tardives des années 1670, comme <em>Une dame debout au virginal</em>, sa touche se fait plus stylisée et abstraite, consacrant une méditation visuelle insurpassée sur le silence, la réfraction lumineuse et l'harmonie secrète du monde visible.</p>",
+    "corpus": {
+      "total": 35,
+      "paintingsCount": 35,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 4,
+      "source": "Catalogues raisonnés Blankert (1978), Wheelock (1995), Liedtke (2008) & Rétrospective Rijksmuseum (2023)",
+      "totalOeuvresEstimees": "~35 peintures répertoriées",
+      "oeuvresConsensusNotice": "Le corpus de Johannes Vermeer est l'un des plus restreints et rigoureusement examinés de l'histoire de l'art. En s'appuyant sur les travaux de référence d'Albert Blankert, d'Arthur K. Wheelock Jr., de Walter Liedtke et sur le consensus scientifique établi lors de la rétrospective historique du Rijksmuseum d'Amsterdam en 2023, le nombre d'œuvres autographes authentifiées conservées dans le monde est fixé à environ 35 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse, Formation & Peinture d'Histoire",
+          "years": "1653 – 1658",
+          "color": "#d4af37",
+          "summary": "Inscription à la guilde de Saint-Luc de Delft, mariage avec Catharina Bolnes et premières toiles d'histoire religieuse et mythologique.",
+          "events": [
+            {
+              "year": "1653",
+              "title": "Entrée à la Guilde de Saint-Luc de Delft",
+              "desc": "Admis comme maître peintre à la guilde des peintres de Delft le 29 décembre 1653, après avoir épousé Catharina Bolnes.",
+              "type": "context",
+              "badge": "MAÎTRISE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1655",
+              "title": "Sainte Praxède (Tokyo, Musée d'Art occidental)",
+              "desc": "Interprétation précoce inspirée du maître florentin Ficherelli : compassion mystique d'une jeune vierge romaine recueillant le sang des martyrs.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "✨",
+              "artworkId": "vermeer_sainte_praxede_tokyo_1655"
+            }
           ]
-      }
+        },
+        {
+          "title": "L'Apogée de l'Intimisme & Magie de la Lumière",
+          "years": "1658 – 1669",
+          "color": "#d4af37",
+          "summary": "Élaboration des scènes de genre intimistes illuminées par une fenêtre latérale, rigueur géométrique et poésie du silence.",
+          "events": [
+            {
+              "year": "1662 – 1663",
+              "title": "Doyen de la Guilde de Saint-Luc",
+              "desc": "Élu doyen des peintres de Delft, témoignant de l'estime unanime de ses pairs malgré sa faible production commerciale.",
+              "type": "context",
+              "badge": "RECONNAISSANCE",
+              "icon": "👑"
+            },
+            {
+              "year": "1668",
+              "title": "L'Astronome (Paris, Musée du Louvre)",
+              "desc": "Savant en robe de chambre en soie observant un globe céleste : alliance sublime entre la recherche scientifique et la transcendance divine.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🧭",
+              "artworkId": "vermeer_l_astronome_louvre_1668"
+            },
+            {
+              "year": "1669",
+              "title": "La Dentellière (Paris, Musée du Louvre)",
+              "desc": "Cadrage serré et concentration absolue d'une jeune femme penchée sur ses fuseaux, sommet d'économie expressive et de pureté plastique.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🧵",
+              "artworkId": "vermeer_la_dentelliere_louvre_1669"
+            }
+          ]
+        },
+        {
+          "title": "Dernières Années, Allégories & Stylisation Pure",
+          "years": "1670 – 1675",
+          "color": "#d4af37",
+          "summary": "Évolution vers un dessin plus linéaire et épuré, crise économique consécutive à l'invasion française (Rampjaar) et mort subite.",
+          "events": [
+            {
+              "year": "v. 1670 – 1672",
+              "title": "Une dame debout au virginal (Londres, National Gallery)",
+              "desc": "Élégante au clavier sous l'égide d'un tableau d'Amour : célébration de l'harmonie musicale et de la fidélité amoureuse.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎶",
+              "artworkId": "vermeer_dame_debout_au_virginal_londres_1670"
+            },
+            {
+              "year": "1672",
+              "title": "L'Année désastreuse (Rampjaar) & Ruine financière",
+              "desc": "L'invasion des Provinces-Unies par la France de Louis XIV paralyse le marché de l'art, plongeant l'artiste et sa famille nombreuse dans la gêne.",
+              "type": "history",
+              "badge": "CRISE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1675",
+              "title": "Mort à Delft & Inhumation à la Oude Kerk",
+              "desc": "S'éteint brutalement le 15 décembre 1675 à 43 ans. Sa veuve doit céder plusieurs toiles pour régler ses dettes funéraires.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
   "veronese": {
-      "id": "veronese",
-      "name": "Véronèse Paolo (Paolo Caliari)",
-      "sortName": "Véronèse Paolo",
-      "sortLetter": "V",
-      "dates": "1528 – 1588",
-      "movement": "Renaissance vénitienne (Cinquecento & Maniérisme triomphant)",
-      "nationality": "Italienne (Venise)",
-      "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPjnlGRerEXcYNcMG-o5GvmMoG5alFRrf27HjmFzz1OGXT4dQ8hSxlcdYemnD5pdMpG_QS2xLDr1_BXmhjH3n-92FdaPLg0HlMeV5X7TIl8NMDvaMomP91W1VHRtShBiwo_wRuU_GYCjjM6FnRNHjRiPA=w1836-h779-s-no-gm",
-      "bio": "<p><strong>Paolo Caliari, dit Véronèse</strong> (1528 – 1588), né à Vérone et mort à Venise, forme avec Titien et le Tintoret la triade souveraine de la peinture vénitienne du Cinquecento. Installé définitivement dans la cité des Doges au début des années 1550, il s'est imposé comme le peintre suprême du faste, de la lumière argentée et de l'opulence républicaine, traduisant dans des toiles colossales la splendeur triomphante de la Sérénissime à son apogée maritime et commerciale.</p><p>Son genre d'expression embrasse les immenses banquets bibliques transformés en festins aristocratiques, le grand décor de plafond en trompe-l'œil (<em>sotto in su</em>), les allégories politiques civiques et les scènes mythologiques galantes. Son style se singularise par une clarté lumineuse sereine qui s'oppose au dramatisme sombre du Tintoret : architectures palladiennes grandioses en marbre blanc, harmonies chromatiques éclatantes de brocarts dorés, soieries moirées, vert émeraude et lilas tendre, et mise en scène peuplée de courtisans, de musiciens et d'animaux exotiques.</p><p>Son parcours créateur est jalonné de commandes d'État et monastiques monumentales : le décor de l'église San Sebastiano, les fresques humanistes de la Villa Barbaro à Maser conçues avec Palladio, et les immenses Cènes (<em>Les Noces de Cana</em> du Louvre, <em>Le Repas chez Simon le Pharisien</em> de Versailles). Convoqué en 1573 par le tribunal de l'Inquisition pour avoir introduit des nains, des bouffons et des soldats allemands dans une Cène sacrée (rebaptisée <em>Le Repas chez Levi</em>), il revendiqua avec panache la liberté poétique absolue de l'artiste : « Nous autres peintres, nous prenons la même liberté que les poètes et les fous ».</p>",
-      "corpus": {
-          "total": 280,
-          "paintingsCount": 280,
-          "drawingsCount": null,
-          "engravingsCount": null,
-          "sculpturesCount": null,
-          "seenCount": 14,
-          "source": "Catalogues raisonnés Terisio Pignatti & Filippo Pedrocco (1995), Richard Cocke (2001) & Xavier F. Salomon",
-          "totalOeuvresEstimees": "~280 peintures et cycles décoratifs répertoriés",
-          "oeuvresConsensusNotice": "Le corpus authentifié de Paolo Véronèse et de son prolifique atelier familial (les héritiers Caliari) est établi par les inventaires critiques de Terisio Pignatti, Filippo Pedrocco et Richard Cocke. Il compte environ 280 toiles autographes d'envergure, cycles monumentaux de fresques et retables religieux conservés dans les musées internationaux (Louvre, Venise, Versailles, Londres, Madrid)."
-      },
-      "timeline": {
-          "periods": [
-              {
-                  "title": "Jeunesse à Vérone & Éclosion à Venise",
-                  "years": "1546 – 1555",
-                  "color": "#d4af37",
-                  "summary": "Formation auprès d'Antonio Badile à Vérone, assimilation du maniérisme mantouan et triomphe immédiat au Palais des Doges.",
-                  "events": [
-                      {
-                          "year": "1546 – 1548",
-                          "title": "Portrait de femme avec un enfant et un chien (Paris, Louvre)",
-                          "desc": "Noblesse vénitienne précoce : équilibre souverain entre l'intimité du lien maternel et la dignité aristocratique du costume d'apparat.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "👤",
-                          "artworkId": "veronese_portrait_de_femme_avec_enfant_et_chien_louvre_1546"
-                      },
-                      {
-                          "year": "1547",
-                          "title": "Le Mariage mystique de sainte Catherine (Tokyo, NMWA)",
-                          "desc": "Composition de jeunesse illustrant l'union mystique de l'Enfant divin et de la princesse martyre au cœur d'une atmosphère lumineuse.",
-                          "type": "context",
-                          "badge": "SACRÉ",
-                          "icon": "✨"
-                      },
-                      {
-                          "year": "1554",
-                          "title": "Jupiter foudroyant les Vices (Paris, Louvre)",
-                          "desc": "Plafond monumental commandé pour la Salle du Conseil des Dix au Palais des Doges : vertige de la perspective en contre-plongée (sotto in su).",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "⚡",
-                          "artworkId": "veronese_jupiter_foudroyant_les_vices_louvre_1554"
-                      }
-                  ]
-              },
-              {
-                  "title": "Les Grands Banquets, San Sebastiano & Villa Barbaro",
-                  "years": "1556 – 1572",
-                  "color": "#d4af37",
-                  "summary": "Décor intégral de San Sebastiano, collaboration avec Palladio à Maser et création des immenses banquets scénographiques.",
-                  "events": [
-                      {
-                          "year": "1559",
-                          "title": "Les Pèlerins d'Emmaüs (Paris, Louvre)",
-                          "desc": "Transposition spectaculaire de l'épisode évangélique dans une loggia patricienne, incluant les membres d'une illustre famille commanditaire.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "🍷",
-                          "artworkId": "veronese_les_pelerins_d_emmaus_louvre_1559"
-                      },
-                      {
-                          "year": "1560",
-                          "title": "Le Mariage mystique de sainte Catherine (Montpellier, Musée Fabre)",
-                          "desc": "Maturité classique éblouissante où les étoffes chatoyantes et les accords nacrés subliment la vision mystique.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "👑",
-                          "artworkId": "veronese_mariage_mystique_sainte_catherine_montpellier_1560"
-                      },
-                      {
-                          "year": "1565 – 1566",
-                          "title": "Grands retables de Rouen : Christ de la peste & Saint Barnabé",
-                          "desc": "Puissance dramatique de l'intercession mariale face aux épidémies et miracles thaumaturgiques de l'apôtre Barnabé.",
-                          "type": "context",
-                          "badge": "RETABLE",
-                          "icon": "🙏"
-                      },
-                      {
-                          "year": "1570",
-                          "title": "Le Repas chez Simon le Pharisien (Versailles)",
-                          "desc": "Colossal banquet biblique de près de 10 mètres de long, offert à Louis XIV par Venise et installé au Salon d'Hercule.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "🏛️",
-                          "artworkId": "veronese_repas_chez_simon_le_pharisien_versailles_1570"
-                      }
-                  ]
-              },
-              {
-                  "title": "Procès de l'Inquisition, Mythologies & Maturité Tardive",
-                  "years": "1573 – 1588",
-                  "color": "#d4af37",
-                  "summary": "Audition célèbre devant le Saint-Office en 1573, développement d'un ton plus sombre et méditatif et dernières toiles mythologiques.",
-                  "events": [
-                      {
-                          "year": "1573",
-                          "title": "Procès devant l'Inquisition vénitienne",
-                          "desc": "Accusé d'irrévérence pour des ajouts pittoresques dans une Cène, il défend victorieusement la liberté créatrice souveraine des peintres.",
-                          "type": "history",
-                          "badge": "INQUISITION",
-                          "icon": "📜"
-                      },
-                      {
-                          "year": "v. 1575 – 1580",
-                          "title": "Persée et Andromède (Rennes, Musée des Beaux-Arts)",
-                          "desc": "Héroïsme mythologique d'après Ovide : le preux volant délivre Andromède en pourfendant le monstre marin au milieu des vagues.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "🐉",
-                          "artworkId": "veronese_persee_et_andromede_rennes_1575"
-                      },
-                      {
-                          "year": "1580",
-                          "title": "La Crucifixion (Paris, Musée du Louvre)",
-                          "desc": "Ciel d'orage ténébreux sur le Golgotha : le maître délaisse le faste pour une gravité spirituelle bouleversante.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "✝️",
-                          "artworkId": "veronese_crucifixion_louvre_1580"
-                      },
-                      {
-                          "year": "v. 1580 – 1585",
-                          "title": "Suzanne et les vieillards (Paris, Musée du Louvre)",
-                          "desc": "Drame biblique de la vertu outragée dans un jardin clos, où la carnation nacrée de Suzanne s'oppose au complot des vieillards.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "🌹",
-                          "artworkId": "veronese_suzanne_et_les_vieillards_louvre_1580"
-                      },
-                      {
-                          "year": "1588",
-                          "title": "Mort à Venise & Inhumation à San Sebastiano",
-                          "desc": "Emporté par une pneumonie le 19 avril 1588 à 60 ans. Il repose au cœur de l'église San Sebastiano qu'il avait entièrement décorée.",
-                          "type": "context",
-                          "badge": "MÉMOIRE",
-                          "icon": "🕊️"
-                      }
-                  ]
-              }
+    "id": "veronese",
+    "name": "Véronèse Paolo (Paolo Caliari)",
+    "sortName": "Véronèse Paolo",
+    "sortLetter": "V",
+    "dates": "1528 – 1588",
+    "movement": "Renaissance vénitienne (Cinquecento & Maniérisme triomphant)",
+    "nationality": "Italienne (Venise)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPjnlGRerEXcYNcMG-o5GvmMoG5alFRrf27HjmFzz1OGXT4dQ8hSxlcdYemnD5pdMpG_QS2xLDr1_BXmhjH3n-92FdaPLg0HlMeV5X7TIl8NMDvaMomP91W1VHRtShBiwo_wRuU_GYCjjM6FnRNHjRiPA=w1836-h779-s-no-gm",
+    "bio": "<p><strong>Paolo Caliari, dit Véronèse</strong> (1528 – 1588), né à Vérone et mort à Venise, forme avec Titien et le Tintoret la triade souveraine de la peinture vénitienne du Cinquecento. Installé définitivement dans la cité des Doges au début des années 1550, il s'est imposé comme le peintre suprême du faste, de la lumière argentée et de l'opulence républicaine, traduisant dans des toiles colossales la splendeur triomphante de la Sérénissime à son apogée maritime et commerciale.</p><p>Son genre d'expression embrasse les immenses banquets bibliques transformés en festins aristocratiques, le grand décor de plafond en trompe-l'œil (<em>sotto in su</em>), les allégories politiques civiques et les scènes mythologiques galantes. Son style se singularise par une clarté lumineuse sereine qui s'oppose au dramatisme sombre du Tintoret : architectures palladiennes grandioses en marbre blanc, harmonies chromatiques éclatantes de brocarts dorés, soieries moirées, vert émeraude et lilas tendre, et mise en scène peuplée de courtisans, de musiciens et d'animaux exotiques.</p><p>Son parcours créateur est jalonné de commandes d'État et monastiques monumentales : le décor de l'église San Sebastiano, les fresques humanistes de la Villa Barbaro à Maser conçues avec Palladio, et les immenses Cènes (<em>Les Noces de Cana</em> du Louvre, <em>Le Repas chez Simon le Pharisien</em> de Versailles). Convoqué en 1573 par le tribunal de l'Inquisition pour avoir introduit des nains, des bouffons et des soldats allemands dans une Cène sacrée (rebaptisée <em>Le Repas chez Levi</em>), il revendiqua avec panache la liberté poétique absolue de l'artiste : « Nous autres peintres, nous prenons la même liberté que les poètes et les fous ».</p>",
+    "corpus": {
+      "total": 280,
+      "paintingsCount": 280,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 14,
+      "source": "Catalogues raisonnés Terisio Pignatti & Filippo Pedrocco (1995), Richard Cocke (2001) & Xavier F. Salomon",
+      "totalOeuvresEstimees": "~280 peintures et cycles décoratifs répertoriés",
+      "oeuvresConsensusNotice": "Le corpus authentifié de Paolo Véronèse et de son prolifique atelier familial (les héritiers Caliari) est établi par les inventaires critiques de Terisio Pignatti, Filippo Pedrocco et Richard Cocke. Il compte environ 280 toiles autographes d'envergure, cycles monumentaux de fresques et retables religieux conservés dans les musées internationaux (Louvre, Venise, Versailles, Londres, Madrid)."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse à Vérone & Éclosion à Venise",
+          "years": "1546 – 1555",
+          "color": "#d4af37",
+          "summary": "Formation auprès d'Antonio Badile à Vérone, assimilation du maniérisme mantouan et triomphe immédiat au Palais des Doges.",
+          "events": [
+            {
+              "year": "1546 – 1548",
+              "title": "Portrait de femme avec un enfant et un chien (Paris, Louvre)",
+              "desc": "Noblesse vénitienne précoce : équilibre souverain entre l'intimité du lien maternel et la dignité aristocratique du costume d'apparat.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👤",
+              "artworkId": "veronese_portrait_de_femme_avec_enfant_et_chien_louvre_1546"
+            },
+            {
+              "year": "1547",
+              "title": "Le Mariage mystique de sainte Catherine (Tokyo, NMWA)",
+              "desc": "Composition de jeunesse illustrant l'union mystique de l'Enfant divin et de la princesse martyre au cœur d'une atmosphère lumineuse.",
+              "type": "context",
+              "badge": "SACRÉ",
+              "icon": "✨"
+            },
+            {
+              "year": "1554",
+              "title": "Jupiter foudroyant les Vices (Paris, Louvre)",
+              "desc": "Plafond monumental commandé pour la Salle du Conseil des Dix au Palais des Doges : vertige de la perspective en contre-plongée (sotto in su).",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚡",
+              "artworkId": "veronese_jupiter_foudroyant_les_vices_louvre_1554"
+            }
           ]
-      }
+        },
+        {
+          "title": "Les Grands Banquets, San Sebastiano & Villa Barbaro",
+          "years": "1556 – 1572",
+          "color": "#d4af37",
+          "summary": "Décor intégral de San Sebastiano, collaboration avec Palladio à Maser et création des immenses banquets scénographiques.",
+          "events": [
+            {
+              "year": "1559",
+              "title": "Les Pèlerins d'Emmaüs (Paris, Louvre)",
+              "desc": "Transposition spectaculaire de l'épisode évangélique dans une loggia patricienne, incluant les membres d'une illustre famille commanditaire.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🍷",
+              "artworkId": "veronese_les_pelerins_d_emmaus_louvre_1559"
+            },
+            {
+              "year": "1560",
+              "title": "Le Mariage mystique de sainte Catherine (Montpellier, Musée Fabre)",
+              "desc": "Maturité classique éblouissante où les étoffes chatoyantes et les accords nacrés subliment la vision mystique.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑",
+              "artworkId": "veronese_mariage_mystique_sainte_catherine_montpellier_1560"
+            },
+            {
+              "year": "1565 – 1566",
+              "title": "Grands retables de Rouen : Christ de la peste & Saint Barnabé",
+              "desc": "Puissance dramatique de l'intercession mariale face aux épidémies et miracles thaumaturgiques de l'apôtre Barnabé.",
+              "type": "context",
+              "badge": "RETABLE",
+              "icon": "🙏"
+            },
+            {
+              "year": "1570",
+              "title": "Le Repas chez Simon le Pharisien (Versailles)",
+              "desc": "Colossal banquet biblique de près de 10 mètres de long, offert à Louis XIV par Venise et installé au Salon d'Hercule.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🏛️",
+              "artworkId": "veronese_repas_chez_simon_le_pharisien_versailles_1570"
+            }
+          ]
+        },
+        {
+          "title": "Procès de l'Inquisition, Mythologies & Maturité Tardive",
+          "years": "1573 – 1588",
+          "color": "#d4af37",
+          "summary": "Audition célèbre devant le Saint-Office en 1573, développement d'un ton plus sombre et méditatif et dernières toiles mythologiques.",
+          "events": [
+            {
+              "year": "1573",
+              "title": "Procès devant l'Inquisition vénitienne",
+              "desc": "Accusé d'irrévérence pour des ajouts pittoresques dans une Cène, il défend victorieusement la liberté créatrice souveraine des peintres.",
+              "type": "history",
+              "badge": "INQUISITION",
+              "icon": "📜"
+            },
+            {
+              "year": "v. 1575 – 1580",
+              "title": "Persée et Andromède (Rennes, Musée des Beaux-Arts)",
+              "desc": "Héroïsme mythologique d'après Ovide : le preux volant délivre Andromède en pourfendant le monstre marin au milieu des vagues.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🐉",
+              "artworkId": "veronese_persee_et_andromede_rennes_1575"
+            },
+            {
+              "year": "1580",
+              "title": "La Crucifixion (Paris, Musée du Louvre)",
+              "desc": "Ciel d'orage ténébreux sur le Golgotha : le maître délaisse le faste pour une gravité spirituelle bouleversante.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "✝️",
+              "artworkId": "veronese_crucifixion_louvre_1580"
+            },
+            {
+              "year": "v. 1580 – 1585",
+              "title": "Suzanne et les vieillards (Paris, Musée du Louvre)",
+              "desc": "Drame biblique de la vertu outragée dans un jardin clos, où la carnation nacrée de Suzanne s'oppose au complot des vieillards.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌹",
+              "artworkId": "veronese_suzanne_et_les_vieillards_louvre_1580"
+            },
+            {
+              "year": "1588",
+              "title": "Mort à Venise & Inhumation à San Sebastiano",
+              "desc": "Emporté par une pneumonie le 19 avril 1588 à 60 ans. Il repose au cœur de l'église San Sebastiano qu'il avait entièrement décorée.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
   "vigee_le_brun": {
-      "id": "vigee_le_brun",
-      "name": "Vigée Le Brun Élisabeth",
-      "sortName": "Vigée Le Brun Élisabeth",
-      "sortLetter": "V",
-      "dates": "1755 – 1842",
-      "movement": "Néoclassicisme sentimental & Lumières (Portrait royal & sensibilité pré-romantique)",
-      "nationality": "Française",
-      "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNQoJGCOL5wU_fg4zBxao94X1dKq2LgWtHUoz2NSmXd7j822gPkMfUysbmCyhJ-L9dxAb4AL6yMHxrlgOQNyRPNAm2oXRFVPcZwB-SPgZv-VhkLlLn8CZZJTYFD56Bj2w48OOOBCCZlXhgxoXEqlqNxuw=w1836-h779-s-no-gm",
-      "bio": "<p><strong>Élisabeth Louise Vigée Le Brun</strong> (1755 – 1842), née et morte à Paris, est l'une des artistes les plus célèbres, douées et prolifiques de l'histoire de l'art européen, ainsi que l'une des rares femmes à s'être hissée au sommet absolu de la hiérarchie artistique sous l'Ancien Régime. Fille du pastelliste Louis Vigée, mariée au marchand d'art Jean-Baptiste-Pierre Le Brun, elle devint la peintre attitrée, confidente et amie intime de la reine Marie-Antoinette, renouvelant en profondeur le portrait officiel en y introduisant un naturel, une fraîcheur et une grâce sentimentale d'esprit rousseauiste.</p><p>Son genre d'expression est le portrait aristocratique, le portrait maternel intimiste et l'effigie d'apparat théâtrale. Son style se singularise par une maîtrise consommée des étoffes vaporeuses (moussellines blanches, velours soyeux, châles orientaux), par des chairs lumineuses aux carnations fraîches et par l'inauguration d'une convention expressive révolutionnaire : le sourire entrouvert découvrant les dents, défiant les codes compassés de l'Académie royale où elle fut admise en 1683 grâce à l'intervention directe du roi Louis XVI.</p><p>Contrainte à l'émigration dès la nuit du 5 au 6 octobre 1789 pour échapper à la vindicte révolutionnaire, elle entama une odyssée européenne triomphale de douze années à travers l'Italie (Rome, Naples, Venise), l'Autriche (Vienne) et la Russie impériale de Catherine II et Paul Ier à Saint-Pétersbourg. Partout sollicitée par les têtes couronnées, elle peignit avec une vitalité inaltérable avant de rentrer en France sous le Consulat et de rédiger ses captivants <em>Souvenirs</em>, précieux témoignage sur la douceur de vivre du XVIIIe siècle finissant.</p>",
-      "corpus": {
-          "total": 660,
-          "paintingsCount": 660,
-          "drawingsCount": null,
-          "engravingsCount": null,
-          "sculpturesCount": null,
-          "seenCount": 1,
-          "source": "Catalogue raisonné Joseph Baillio & Rétrospective Grand Palais / Met / Musée des Beaux-Arts du Canada (2015-2016)",
-          "totalOeuvresEstimees": "~660 peintures et pastels répertoriés",
-          "oeuvresConsensusNotice": "L'inventaire scientifique de référence établi par Joseph Baillio et les commissaires de la rétrospective internationale de 2015-2016 répertorie environ 660 peintures à l'huile et pastels, ainsi qu'environ 200 paysages et dessins, attestant d'une fécondité créatrice prodigieuse maintenue tout au long d'une carrière de plus de six décennies."
-      },
-      "timeline": {
-          "periods": [
-              {
-                  "title": "Jeunesse, Triomphe à Versailles & Marie-Antoinette",
-                  "years": "1770 – 1789",
-                  "color": "#d4af37",
-                  "summary": "Portraitiste précoce dès l'adolescence, réception à l'Académie royale de peinture et statut de peintre officielle de la reine de France.",
-                  "events": [
-                      {
-                          "year": "1778",
-                          "title": "Premier portrait officiel de Marie-Antoinette",
-                          "desc": "Appelée à Versailles pour immortaliser la reine en grand habit de cour ; début d'une complicité artistique et d'une amitié indéfectible.",
-                          "type": "context",
-                          "badge": "VERSAILLES",
-                          "icon": "👑"
-                      },
-                      {
-                          "year": "1783",
-                          "title": "Réception à l'Académie royale de peinture et de sculpture",
-                          "desc": "Admise le 31 mai 1783 avec La Paix ramenant l'Abondance sur ordre direct de Louis XVI, surmontant les réticences corporatistes.",
-                          "type": "context",
-                          "badge": "ACADÉMIE",
-                          "icon": "🏛️"
-                      }
-                  ]
-              },
-              {
-                  "title": "L'Émigration Dorée à travers l'Europe des Cours",
-                  "years": "1789 – 1802",
-                  "color": "#d4af37",
-                  "summary": "Fuite hors de France au déclenchement de la Révolution, succès éclatant à Rome, Naples, Vienne et Saint-Pétersbourg.",
-                  "events": [
-                      {
-                          "year": "1789 – 1792",
-                          "title": "Séjour en Italie & Académies de Rome et Florence",
-                          "desc": "Triomphe à Rome, Naples et Venise. Réalise son autoportrait pour la galerie des Offices et portraiture la reine Marie-Caroline de Naples.",
-                          "type": "context",
-                          "badge": "ITALIE",
-                          "icon": "🇮🇹"
-                      },
-                      {
-                          "year": "1795 – 1801",
-                          "title": "Apogée à la cour impériale de Russie (Saint-Pétersbourg)",
-                          "desc": "Six années de gloire sous Catherine II et Paul Ier : admise à l'Académie des Beaux-Arts de Saint-Pétersbourg et portraitiste de toute la noblesse russe.",
-                          "type": "context",
-                          "badge": "RUSSIE",
-                          "icon": "❄️"
-                      }
-                  ]
-              },
-              {
-                  "title": "Le Retour en France, Séjours à Londres & les Souvenirs",
-                  "years": "1802 – 1842",
-                  "color": "#d4af37",
-                  "summary": "Radiation de la liste des émigrés, séjour à Londres, salon parisien brillant et rédaction de ses célèbres Mémoires.",
-                  "events": [
-                      {
-                          "year": "1803",
-                          "title": "Madame Grassini dans le rôle de Zaïre (Rouen, Musée des Beaux-Arts)",
-                          "desc": "Portrait théâtral de la prestigieuse cantatrice italienne dans la tragédie de Voltaire, alliant ferveur romantique et costume oriental.",
-                          "type": "masterpiece",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "🎭",
-                          "artworkId": "vigee_le_brun_madame_grassini_zaire_rouen_1803"
-                      },
-                      {
-                          "year": "1835 – 1837",
-                          "title": "Publication des « Souvenirs »",
-                          "desc": "Fait paraître ses mémoires autobiographiques en trois volumes, chronique passionnante de l'Europe des Lumières et des cours royales.",
-                          "type": "context",
-                          "badge": "MÉMOIRES",
-                          "icon": "📖"
-                      },
-                      {
-                          "year": "1842",
-                          "title": "Mort à Paris & Épitaphe à Louveciennes",
-                          "desc": "S'éteint le 30 mars 1842 à l'âge de 86 ans. Elle repose au cimetière de Louveciennes sous l'épitaphe : « Ici, enfin, je repose... ».",
-                          "type": "context",
-                          "badge": "DISPARITION",
-                          "icon": "🕊️"
-                      }
-                  ]
-              }
+    "id": "vigee_le_brun",
+    "name": "Vigée Le Brun Élisabeth",
+    "sortName": "Vigée Le Brun Élisabeth",
+    "sortLetter": "V",
+    "dates": "1755 – 1842",
+    "movement": "Néoclassicisme sentimental & Lumières (Portrait royal & sensibilité pré-romantique)",
+    "nationality": "Française",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNQoJGCOL5wU_fg4zBxao94X1dKq2LgWtHUoz2NSmXd7j822gPkMfUysbmCyhJ-L9dxAb4AL6yMHxrlgOQNyRPNAm2oXRFVPcZwB-SPgZv-VhkLlLn8CZZJTYFD56Bj2w48OOOBCCZlXhgxoXEqlqNxuw=w1836-h779-s-no-gm",
+    "bio": "<p><strong>Élisabeth Louise Vigée Le Brun</strong> (1755 – 1842), née et morte à Paris, est l'une des artistes les plus célèbres, douées et prolifiques de l'histoire de l'art européen, ainsi que l'une des rares femmes à s'être hissée au sommet absolu de la hiérarchie artistique sous l'Ancien Régime. Fille du pastelliste Louis Vigée, mariée au marchand d'art Jean-Baptiste-Pierre Le Brun, elle devint la peintre attitrée, confidente et amie intime de la reine Marie-Antoinette, renouvelant en profondeur le portrait officiel en y introduisant un naturel, une fraîcheur et une grâce sentimentale d'esprit rousseauiste.</p><p>Son genre d'expression est le portrait aristocratique, le portrait maternel intimiste et l'effigie d'apparat théâtrale. Son style se singularise par une maîtrise consommée des étoffes vaporeuses (moussellines blanches, velours soyeux, châles orientaux), par des chairs lumineuses aux carnations fraîches et par l'inauguration d'une convention expressive révolutionnaire : le sourire entrouvert découvrant les dents, défiant les codes compassés de l'Académie royale où elle fut admise en 1683 grâce à l'intervention directe du roi Louis XVI.</p><p>Contrainte à l'émigration dès la nuit du 5 au 6 octobre 1789 pour échapper à la vindicte révolutionnaire, elle entama une odyssée européenne triomphale de douze années à travers l'Italie (Rome, Naples, Venise), l'Autriche (Vienne) et la Russie impériale de Catherine II et Paul Ier à Saint-Pétersbourg. Partout sollicitée par les têtes couronnées, elle peignit avec une vitalité inaltérable avant de rentrer en France sous le Consulat et de rédiger ses captivants <em>Souvenirs</em>, précieux témoignage sur la douceur de vivre du XVIIIe siècle finissant.</p>",
+    "corpus": {
+      "total": 660,
+      "paintingsCount": 660,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Catalogue raisonné Joseph Baillio & Rétrospective Grand Palais / Met / Musée des Beaux-Arts du Canada (2015-2016)",
+      "totalOeuvresEstimees": "~660 peintures et pastels répertoriés",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence établi par Joseph Baillio et les commissaires de la rétrospective internationale de 2015-2016 répertorie environ 660 peintures à l'huile et pastels, ainsi qu'environ 200 paysages et dessins, attestant d'une fécondité créatrice prodigieuse maintenue tout au long d'une carrière de plus de six décennies."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse, Triomphe à Versailles & Marie-Antoinette",
+          "years": "1770 – 1789",
+          "color": "#d4af37",
+          "summary": "Portraitiste précoce dès l'adolescence, réception à l'Académie royale de peinture et statut de peintre officielle de la reine de France.",
+          "events": [
+            {
+              "year": "1778",
+              "title": "Premier portrait officiel de Marie-Antoinette",
+              "desc": "Appelée à Versailles pour immortaliser la reine en grand habit de cour ; début d'une complicité artistique et d'une amitié indéfectible.",
+              "type": "context",
+              "badge": "VERSAILLES",
+              "icon": "👑"
+            },
+            {
+              "year": "1783",
+              "title": "Réception à l'Académie royale de peinture et de sculpture",
+              "desc": "Admise le 31 mai 1783 avec La Paix ramenant l'Abondance sur ordre direct de Louis XVI, surmontant les réticences corporatistes.",
+              "type": "context",
+              "badge": "ACADÉMIE",
+              "icon": "🏛️"
+            }
           ]
-      }
+        },
+        {
+          "title": "L'Émigration Dorée à travers l'Europe des Cours",
+          "years": "1789 – 1802",
+          "color": "#d4af37",
+          "summary": "Fuite hors de France au déclenchement de la Révolution, succès éclatant à Rome, Naples, Vienne et Saint-Pétersbourg.",
+          "events": [
+            {
+              "year": "1789 – 1792",
+              "title": "Séjour en Italie & Académies de Rome et Florence",
+              "desc": "Triomphe à Rome, Naples et Venise. Réalise son autoportrait pour la galerie des Offices et portraiture la reine Marie-Caroline de Naples.",
+              "type": "context",
+              "badge": "ITALIE",
+              "icon": "🇮🇹"
+            },
+            {
+              "year": "1795 – 1801",
+              "title": "Apogée à la cour impériale de Russie (Saint-Pétersbourg)",
+              "desc": "Six années de gloire sous Catherine II et Paul Ier : admise à l'Académie des Beaux-Arts de Saint-Pétersbourg et portraitiste de toute la noblesse russe.",
+              "type": "context",
+              "badge": "RUSSIE",
+              "icon": "❄️"
+            }
+          ]
+        },
+        {
+          "title": "Le Retour en France, Séjours à Londres & les Souvenirs",
+          "years": "1802 – 1842",
+          "color": "#d4af37",
+          "summary": "Radiation de la liste des émigrés, séjour à Londres, salon parisien brillant et rédaction de ses célèbres Mémoires.",
+          "events": [
+            {
+              "year": "1803",
+              "title": "Madame Grassini dans le rôle de Zaïre (Rouen, Musée des Beaux-Arts)",
+              "desc": "Portrait théâtral de la prestigieuse cantatrice italienne dans la tragédie de Voltaire, alliant ferveur romantique et costume oriental.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🎭",
+              "artworkId": "vigee_le_brun_madame_grassini_zaire_rouen_1803"
+            },
+            {
+              "year": "1835 – 1837",
+              "title": "Publication des « Souvenirs »",
+              "desc": "Fait paraître ses mémoires autobiographiques en trois volumes, chronique passionnante de l'Europe des Lumières et des cours royales.",
+              "type": "context",
+              "badge": "MÉMOIRES",
+              "icon": "📖"
+            },
+            {
+              "year": "1842",
+              "title": "Mort à Paris & Épitaphe à Louveciennes",
+              "desc": "S'éteint le 30 mars 1842 à l'âge de 86 ans. Elle repose au cimetière de Louveciennes sous l'épitaphe : « Ici, enfin, je repose... ».",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
   "villers": {
-      "id": "villers",
-      "name": "Villers Marie-Denise (née Lemoine)",
-      "sortName": "Villers Marie-Denise",
-      "sortLetter": "V",
-      "dates": "1774 – 1821",
-      "movement": "Néoclassicisme davidien & Consulat (Portrait intimiste & lumière en contre-jour)",
-      "nationality": "Française",
-      "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPuDViH6zj9L2nPmhAhq2sO6XDYV4NGsT8FJF-YLyOOHEgqxy6zIJa5625Zh06qQWQ2TuzKVgRBEDaEgjlECIkrYNRBE1aUpHcQhlspmh-I7Bt_NUUTXEUbK0U8evjYtS1VpiNNoI5ullv4dlLU7LO_qg=w1836-h779-s-no-gm",
-      "bio": "<p><strong>Marie-Denise Villers</strong> (née Lemoine, 1774 – 1821), née et morte à Paris, est l'une des figures les plus brillantes du néoclassicisme français sous le Directoire et l'Empire. Issue d'une remarquable lignée familiale de femmes artistes — sœur cadette de Marie-Victoire Lemoine et de Marie-Élisabeth Gabiou, ainsi que cousine de Jeanne-Élisabeth Chaudet —, elle s'est formée dans l'orbite des plus grands peintres de son temps, notamment Anne-Louis Girodet et sans doute Jacques-Louis David. Longtemps éclipsée par l'historiographie patriarcale du XIXe siècle et victime d'attributions erronées à ses maîtres masculins, sa redécouverte à partir de 1996 par l'historienne de l'art Margaret Oppenheimer a constitué une révélation majeure.</p><p>Son genre de prédilection est le portrait intimiste, l'étude de figure féminine en intérieur et la scène de genre pré-romantique. Son style se singularise par une audace technique exceptionnelle dans le rendu du contre-jour : la lumière diffuse venue de grandes baies vitrées silhouette les visages avec une douceur sculpturale, faisant vibrer les transparences de la mousseline et révélant une intensité psychologique rare, dépourvue de toute mièvrerie décorative.</p><p>Son chef-d'œuvre le plus universellement célèbre, <em>Jeune Femme dessinant</em> (1801, New York, Metropolitan Museum of Art), fut longtemps admiré comme un sommet de David ou de Girodet avant que les recherches modernes n'en restituent la paternité à Villers. Exposé au Salon de 1801 sous le titre d'<em>Étude d'une jeune femme d'après nature</em>, ce tableau manifeste d'une jeune peintre observant le spectateur à travers une vitre brisée s'impose aujourd'hui comme une icône magistrale de l'émancipation artistique féminine à l'aube du XIXe siècle.</p>",
-      "corpus": {
-          "total": 8,
-          "paintingsCount": 8,
-          "drawingsCount": null,
-          "engravingsCount": null,
-          "sculpturesCount": null,
-          "seenCount": 0,
-          "source": "Recherches Margaret Oppenheimer (1996), Séverine Sofio, Carole Blumenfeld & Metropolitan Museum of Art",
-          "totalOeuvresEstimees": "~8 à 12 peintures authentifiées",
-          "oeuvresConsensusNotice": "En raison de la dispersion des collections privées post-révolutionnaires et des nombreuses attributions abusives à David ou Girodet, le corpus formellement identifié de Marie-Denise Villers compte aujourd'hui entre 8 et 12 peintures majeures conservées dans les musées internationaux (Metropolitan Museum de New York, Louvre) et de prestigieuses collections particulières."
-      },
-      "timeline": {
-          "periods": [
-              {
-                  "title": "Formation d'une Fratrie d'Artistes & Révolution",
-                  "years": "1774 – 1798",
-                  "color": "#d4af37",
-                  "summary": "Éveil précoce dans une famille de peintres féminines à Paris, formation auprès de Girodet et mariage avec Michel-Jean-Maximilien Villers.",
-                  "events": [
-                      {
-                          "year": "1774",
-                          "title": "Naissance à Paris dans une famille d'artistes",
-                          "desc": "Grandit dans un milieu acquis à la création artistique aux côtés de ses sœurs aînées Marie-Victoire et Marie-Élisabeth Lemoine.",
-                          "type": "context",
-                          "badge": "ORIGINES",
-                          "icon": "🎨"
-                      },
-                      {
-                          "year": "1794",
-                          "title": "Mariage avec Michel-Jean-Maximilien Villers",
-                          "desc": "Épouse un étudiant en architecture et partisan des idées nouvelles, continuant à signer ses œuvres sous son nom de femme mariée.",
-                          "type": "context",
-                          "badge": "MARIAGE",
-                          "icon": "💍"
-                      }
-                  ]
-              },
-              {
-                  "title": "L'Apogée aux Salons du Consulat & les Chefs-d'œuvre",
-                  "years": "1799 – 1805",
-                  "color": "#d4af37",
-                  "summary": "Participation retentissante aux Salons du Louvre, création de Jeune Femme dessinant et consécration critique.",
-                  "events": [
-                      {
-                          "year": "1799",
-                          "title": "Débuts remarqués au Salon du Louvre",
-                          "desc": "Expose une Peinture représentant une femme assise, avec ses enfants, saluée pour la fermeté de son dessin davidien.",
-                          "type": "context",
-                          "badge": "SALON",
-                          "icon": "🏛️"
-                      },
-                      {
-                          "year": "1801",
-                          "title": "Jeune Femme dessinant (New York, Metropolitan Museum)",
-                          "desc": "Chef-d'œuvre universel du contre-jour exposé au Salon de 1801, longtemps attribué à David avant sa réattribution magistrale à Villers.",
-                          "type": "context",
-                          "badge": "CHEF-D'ŒUVRE",
-                          "icon": "✨"
-                      },
-                      {
-                          "year": "1802",
-                          "title": "Une étude de femme d'après nature (Salon de 1802)",
-                          "desc": "Affirmation de son goût pour la vérité sans fard et la psychologie intimiste des visages saisis dans la clarté du jour.",
-                          "type": "context",
-                          "badge": "NATURALISME",
-                          "icon": "👁️"
-                      }
-                  ]
-              },
-              {
-                  "title": "Dernières Années & Redécouverte Historique",
-                  "years": "1806 – 1821",
-                  "color": "#d4af37",
-                  "summary": "Fin de carrière plus discrète à Paris, disparition prématurée à 47 ans et réhabilitation historiographique contemporaine.",
-                  "events": [
-                      {
-                          "year": "1814",
-                          "title": "Dernière participation documentée au Salon",
-                          "desc": "Présente un Portrait de femme au Salon de la Première Restauration avant de se retirer progressivement de la vie publique.",
-                          "type": "context",
-                          "badge": "SALON",
-                          "icon": "🖼️"
-                      },
-                      {
-                          "year": "1821",
-                          "title": "Mort à Paris & Postérité",
-                          "desc": "S'éteint le 19 août 1821 à l'âge de 47 ans. Sa mémoire artistique sera réhabilitée par les recherches pionnières à la fin du XXe siècle.",
-                          "type": "context",
-                          "badge": "DISPARITION",
-                          "icon": "🕊️"
-                      }
-                  ]
-              }
+    "id": "villers",
+    "name": "Villers Marie-Denise (née Lemoine)",
+    "sortName": "Villers Marie-Denise",
+    "sortLetter": "V",
+    "dates": "1774 – 1821",
+    "movement": "Néoclassicisme davidien & Consulat (Portrait intimiste & lumière en contre-jour)",
+    "nationality": "Française",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPuDViH6zj9L2nPmhAhq2sO6XDYV4NGsT8FJF-YLyOOHEgqxy6zIJa5625Zh06qQWQ2TuzKVgRBEDaEgjlECIkrYNRBE1aUpHcQhlspmh-I7Bt_NUUTXEUbK0U8evjYtS1VpiNNoI5ullv4dlLU7LO_qg=w1836-h779-s-no-gm",
+    "bio": "<p><strong>Marie-Denise Villers</strong> (née Lemoine, 1774 – 1821), née et morte à Paris, est l'une des figures les plus brillantes du néoclassicisme français sous le Directoire et l'Empire. Issue d'une remarquable lignée familiale de femmes artistes — sœur cadette de Marie-Victoire Lemoine et de Marie-Élisabeth Gabiou, ainsi que cousine de Jeanne-Élisabeth Chaudet —, elle s'est formée dans l'orbite des plus grands peintres de son temps, notamment Anne-Louis Girodet et sans doute Jacques-Louis David. Longtemps éclipsée par l'historiographie patriarcale du XIXe siècle et victime d'attributions erronées à ses maîtres masculins, sa redécouverte à partir de 1996 par l'historienne de l'art Margaret Oppenheimer a constitué une révélation majeure.</p><p>Son genre de prédilection est le portrait intimiste, l'étude de figure féminine en intérieur et la scène de genre pré-romantique. Son style se singularise par une audace technique exceptionnelle dans le rendu du contre-jour : la lumière diffuse venue de grandes baies vitrées silhouette les visages avec une douceur sculpturale, faisant vibrer les transparences de la mousseline et révélant une intensité psychologique rare, dépourvue de toute mièvrerie décorative.</p><p>Son chef-d'œuvre le plus universellement célèbre, <em>Jeune Femme dessinant</em> (1801, New York, Metropolitan Museum of Art), fut longtemps admiré comme un sommet de David ou de Girodet avant que les recherches modernes n'en restituent la paternité à Villers. Exposé au Salon de 1801 sous le titre d'<em>Étude d'une jeune femme d'après nature</em>, ce tableau manifeste d'une jeune peintre observant le spectateur à travers une vitre brisée s'impose aujourd'hui comme une icône magistrale de l'émancipation artistique féminine à l'aube du XIXe siècle.</p>",
+    "corpus": {
+      "total": 8,
+      "paintingsCount": 8,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Recherches Margaret Oppenheimer (1996), Séverine Sofio, Carole Blumenfeld & Metropolitan Museum of Art",
+      "totalOeuvresEstimees": "~8 à 12 peintures authentifiées",
+      "oeuvresConsensusNotice": "En raison de la dispersion des collections privées post-révolutionnaires et des nombreuses attributions abusives à David ou Girodet, le corpus formellement identifié de Marie-Denise Villers compte aujourd'hui entre 8 et 12 peintures majeures conservées dans les musées internationaux (Metropolitan Museum de New York, Louvre) et de prestigieuses collections particulières."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Formation d'une Fratrie d'Artistes & Révolution",
+          "years": "1774 – 1798",
+          "color": "#d4af37",
+          "summary": "Éveil précoce dans une famille de peintres féminines à Paris, formation auprès de Girodet et mariage avec Michel-Jean-Maximilien Villers.",
+          "events": [
+            {
+              "year": "1774",
+              "title": "Naissance à Paris dans une famille d'artistes",
+              "desc": "Grandit dans un milieu acquis à la création artistique aux côtés de ses sœurs aînées Marie-Victoire et Marie-Élisabeth Lemoine.",
+              "type": "context",
+              "badge": "ORIGINES",
+              "icon": "🎨"
+            },
+            {
+              "year": "1794",
+              "title": "Mariage avec Michel-Jean-Maximilien Villers",
+              "desc": "Épouse un étudiant en architecture et partisan des idées nouvelles, continuant à signer ses œuvres sous son nom de femme mariée.",
+              "type": "context",
+              "badge": "MARIAGE",
+              "icon": "💍"
+            }
           ]
-      }
+        },
+        {
+          "title": "L'Apogée aux Salons du Consulat & les Chefs-d'œuvre",
+          "years": "1799 – 1805",
+          "color": "#d4af37",
+          "summary": "Participation retentissante aux Salons du Louvre, création de Jeune Femme dessinant et consécration critique.",
+          "events": [
+            {
+              "year": "1799",
+              "title": "Débuts remarqués au Salon du Louvre",
+              "desc": "Expose une Peinture représentant une femme assise, avec ses enfants, saluée pour la fermeté de son dessin davidien.",
+              "type": "context",
+              "badge": "SALON",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1801",
+              "title": "Jeune Femme dessinant (New York, Metropolitan Museum)",
+              "desc": "Chef-d'œuvre universel du contre-jour exposé au Salon de 1801, longtemps attribué à David avant sa réattribution magistrale à Villers.",
+              "type": "context",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "✨"
+            },
+            {
+              "year": "1802",
+              "title": "Une étude de femme d'après nature (Salon de 1802)",
+              "desc": "Affirmation de son goût pour la vérité sans fard et la psychologie intimiste des visages saisis dans la clarté du jour.",
+              "type": "context",
+              "badge": "NATURALISME",
+              "icon": "👁️"
+            }
+          ]
+        },
+        {
+          "title": "Dernières Années & Redécouverte Historique",
+          "years": "1806 – 1821",
+          "color": "#d4af37",
+          "summary": "Fin de carrière plus discrète à Paris, disparition prématurée à 47 ans et réhabilitation historiographique contemporaine.",
+          "events": [
+            {
+              "year": "1814",
+              "title": "Dernière participation documentée au Salon",
+              "desc": "Présente un Portrait de femme au Salon de la Première Restauration avant de se retirer progressivement de la vie publique.",
+              "type": "context",
+              "badge": "SALON",
+              "icon": "🖼️"
+            },
+            {
+              "year": "1821",
+              "title": "Mort à Paris & Postérité",
+              "desc": "S'éteint le 19 août 1821 à l'âge de 47 ans. Sa mémoire artistique sera réhabilitée par les recherches pionnières à la fin du XXe siècle.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
