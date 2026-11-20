@@ -15390,12 +15390,28 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         "summary": "Compositions resserrées sur carton, aplats audacieux et scènes de couturières avec sa mère.",
         "events": [
           {
+            "year": "1890",
+            "title": "La fondation des Nabis et l'Atelier de la rue Truffaut",
+            "desc": "Au sortir de l'Académie Julian, il rejoint Denis, Bonnard et Roussel sous l'égide du Talisman de Sérusier ; il installe son atelier chez sa mère, corsetière, dont les étoffes nourrissent son univers.",
+            "type": "context",
+            "badge": "NABIS",
+            "icon": "🎨"
+          },
+          {
             "year": "1892",
             "title": "La Mère et la Sœur de l'artiste (MoMA, New York)",
             "desc": "Manifeste de l'intimisme nabi où les motifs de robe se confondent avec le papier peint.",
             "type": "masterpiece",
             "badge": "CHEF-D'ŒUVRE",
             "icon": "🧵"
+          },
+          {
+            "year": "1894",
+            "title": "Les Neuf Panneaux des Jardins publics pour Alexandre Natanson",
+            "desc": "Réalise pour le salon du directeur de La Revue Blanche une suite décorative monumentale révolutionnant le grand décor d'appartement.",
+            "type": "masterpiece",
+            "badge": "DÉCOR",
+            "icon": "🌳"
           }
         ]
       },
@@ -15413,19 +15429,51 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             "badge": "INTIMISME",
             "icon": "☕",
             "artworkId": "vuillard_le_dejeuner_nantes_1903"
+          },
+          {
+            "year": "1908",
+            "title": "Les décors à la détrempe pour Claude Anet et les princes Bibesco",
+            "desc": "Explore les intérieurs feutrés de ses commanditaires parisiens, adoptant la peinture à la détrempe pour sa matité sourde et veloutée.",
+            "type": "masterpiece",
+            "badge": "DÉTREMPE",
+            "icon": "✨"
+          },
+          {
+            "year": "1913",
+            "title": "La Comédie au foyer du Théâtre des Champs-Élysées",
+            "desc": "Participe avec Maurice Denis à la décoration du théâtre d'Auguste Perret avenue Montaigne, livrant de vastes allégories comiques et tragiques.",
+            "type": "masterpiece",
+            "badge": "MONUMENTAL",
+            "icon": "🎭"
           }
         ]
       },
       {
-        "title": "Portraits de Société & Intérieurs de la Haute Bourgeoisie",
+        "title": "Portraits de Société & Consécration Académique",
         "years": "1920 – 1940",
         "color": "#d4af37",
         "summary": "Portraits minutieux des collectionneurs et mécènes au cœur de leurs salons parisiens.",
         "events": [
           {
+            "year": "1925",
+            "title": "L'effigie des salons parisiens et du Tout-Paris intellectuel",
+            "desc": "Immortalise dans leurs intérieurs saturés d'objets d'art la comtesse Anna de Noailles, David David-Weill ou Jane Renouardt, alliant précision documentaire et mystère feutré.",
+            "type": "context",
+            "badge": "SOCIÉTÉ",
+            "icon": "🛋️"
+          },
+          {
+            "year": "1938",
+            "title": "Rétrospective aux Arts décoratifs et entrée à l'Institut",
+            "desc": "Le Musée des Arts décoratifs consacre une immense rétrospective à son œuvre, et il est élu à l'Académie des beaux-arts.",
+            "type": "context",
+            "badge": "HOMMAGE",
+            "icon": "🏛️"
+          },
+          {
             "year": "1940",
-            "title": "Mort à La Baule",
-            "desc": "S'éteint durant l'exode à l'âge de 71 ans, laissant une œuvre décorative et humaine majeure.",
+            "title": "Mort à La Baule durant l'exode",
+            "desc": "S'éteint en Loire-Inférieure auprès de ses amis Hessel à l'âge de 71 ans, laissant une œuvre décorative et humaine de premier ordre.",
             "type": "context",
             "badge": "POSTÉRITÉ",
             "icon": "🕊️"
@@ -15434,7 +15482,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       }
     ]
   }
-},
+  },
 
   "warhol": {
   "id": "warhol",

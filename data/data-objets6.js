@@ -1073,7 +1073,7 @@ window.ART_OBJECTS = [
   "type": "Peinture",
   "medium": "Acrylique et sérigraphie sur toile",
   "isHighlight": true,
-  "backgroundId": "la_cene_leonard_de_vinci",
+  "backgroundId": "la_cene_dernier_repas",
   "deptBanner": "https://lh3.googleusercontent.com/pw/AP1GczOIIXIb0jQf4AzzRd12tjc_KRXTdyfwOZDKEsI14lB0GsdYdMyguNzBLUXLKzDUWrwjnmihiIwRha9w0a-5xGSk480euUw5kVoch1GgoMvKnsg8I99OLA0TBTPDmqKfxObNF2jUUToCWcNjSTLixZdPQQ=w1584-h672-s-no-gm?authuser=0",
   "chips": [
     "1986",
