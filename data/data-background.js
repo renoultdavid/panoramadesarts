@@ -3785,7 +3785,7 @@ window.BACKGROUNDS_REGISTRY = {
     "title": "Le Baptême du Christ dans le Jourdain",
     "subtitle": "L'inauguration du ministère public de Jésus et la manifestation de la Trinité",
     "desc": "<p>Épisode fondateur consigné par les quatre Évangiles synoptiques, le baptême de Jésus par Jean le Baptiste dans les eaux du Jourdain marque le début de la vie publique du Messie. Alors que Jean prêchait un baptême de repentance, Jésus se présente à lui dans un geste d'humilité souveraine. Au moment où le Christ sort de l'eau, le ciel s'ouvre, l'Esprit Saint descend sous l'aspect corporel d'une colombe, et la voix du Père résonne : « Celui-ci est mon Fils bien-aimé, en qui j'ai mis toute mon affection ». Cet événement constitue la première théophanie trinitaire explicite du Nouveau Testament.</p><p>Dans l'iconographie chrétienne, de Verrocchio et Léonard de Vinci à Piero della Francesca, la scène rassemble le fleuve d'eau vive, les anges recueillant les vêtements du Sauveur et les symboles de renouveau spirituel, signifiant la rédemption de l'humanité et la victoire sur la mort.</p>",
-    "keywords": ["bapteme", "baptême", "jourdain", "jean baptiste", "saint esprit", "colombe", "jesus", "christ", "verrocchio"]
+    "keywords": ["bapteme", "baptême", "jourdain", "bapteme du christ", "baptême du christ"]
   },
   "vierge_aux_rochers_rencontre_apocryphe": {
     "id": "vierge_aux_rochers_rencontre_apocryphe",
@@ -3852,6 +3852,106 @@ window.BACKGROUNDS_REGISTRY = {
     "desc": "<p>Dans la philosophie classique et l'humanisme du XVIIe siècle, la Vertu (<em>Virtus</em>) n'est pas une simple retenue passive, mais une force d'action héroïque et une discipline de l'esprit dominant les passions déréglées. Inspirée de l'<em>Iconologia</em> de Cesare Ripa, la Vertu est traditionnellement figurée sous les traits d'une femme guerrière digne, armée d'une lance pour combattre les vices et tenant le laurier réservé aux âmes immortelles.</p><p>Peinte par Simon Vouet pour le château de Chilly du marquis d'Effiat, l'œuvre incarne l'idéal de grandeur et de probité exigé des grands serviteurs de la monarchie : drapée d'un manteau azur volant au vent, le pas assuré et le regard tourné vers les sphères célestes, elle guide l'âme vers les sommets de l'honneur.</p>",
     "keywords": ["allegorie de la vertu", "allégorie de la vertu", "vertu", "chilly", "effiat", "laurier", "morale"]
   },
+
+  "le_jugement_de_paris": {
+    "id": "le_jugement_de_paris",
+    "badge": "MYTHOLOGIE GRECQUE",
+    "title": "Le Jugement de Pâris : La Pomme de Discorde",
+    "subtitle": "L'élection de la plus belle des déesses à l'origine de la guerre de Troie",
+    "desc": "<p>Épisode fondateur de la mythologie grecque, le Jugement de Pâris trouve son origine dans la rancœur d'Éris, déesse de la Discorde, qui lança lors des noces de Thétis et Pélée une pomme d'or marquée de l'inscription « À la plus belle ». Revendiquée par Héra, Athéna et Aphrodite, la décision fut confiée par Zeus au prince troyen Pâris. Séduit par la promesse d'Aphrodite (Vénus) de lui accorder l'amour de la plus belle mortelle, Hélène de Sparte, Pâris lui remet le trophée, déclenchant ainsi l'engrenage fatal de la guerre de Troie.</p><p>Dans la peinture européenne, de Rubens et Cranach à Watteau, ce sujet devient le cadre privilégié pour célébrer le nu féminin, la grâce pastorale et l'élégance galante des déesses de l'Olympe.</p>",
+    "keywords": ["paris", "pâris", "jugement de paris", "jugement de pâris", "pomme d'or", "aphrodite", "minerve", "junon"]
+  },
+
+  "pelerinage_a_l_ile_de_cythere": {
+    "id": "pelerinage_a_l_ile_de_cythere",
+    "badge": "MYTHE & FÊTE GALANTE",
+    "title": "L'Île de Cythère et le Pèlerinage de l'Amour",
+    "subtitle": "L'utopie pastorale des amants sous la protection tutélaire de Vénus",
+    "desc": "<p>Dans l'Antiquité grecque, l'île de Cythère, située au large du Péloponnèse, était vénérée comme le sanctuaire insulaire d'Aphrodite, sortie de l'écume des flots à ses rivages. Au XVIIIe siècle, la littérature galante et le théâtre métamorphosent cette île mythique en une Arcadie moderne, terre promise où les cœurs sensibles s'embarquent pour vivre un idéal d'amour pur et de plaisir partagé.</p><p>Chez Antoine Watteau, le pèlerinage transcende la fête de cour pour devenir une élégie mélancolique sur le caractère fugace du bonheur et la fuite du temps, où les couples s'apprêtent à quitter le rivage enchanté sous la bienveillance des putti ailés.</p>",
+    "keywords": ["cythere", "cythère", "pelerinage", "pèlerinage", "fete galante", "fête galante", "embarquement"]
+  },
+
+  "gilles_pierrot_commedia_dell_arte": {
+    "id": "gilles_pierrot_commedia_dell_arte",
+    "badge": "THÉÂTRE & COMMEDIA",
+    "title": "Pierrot (Gilles) et la Commedia dell'Arte",
+    "subtitle": "Le valet blanc lunaire érigé en symbole universel de la solitude humaine",
+    "desc": "<p>Héritier du Pedrolino de la Commedia dell'arte italienne, le personnage de Pierrot (souvent confondu en France avec le Gilles des théâtres de foire) se caractérise par sa blouse blanche trop ample à gros boutons, sa fraise plissée et sa mine enfarinée. Alors qu'Arlequin et Brighella incarnent la ruse vive et l'action bondissante, Pierrot figure l'amoureux naïf, maladroit et rêveur, perpétuellement évincé et spectateur méditatif des passions humaines.</p><p>Dans le chef-d'œuvre de Watteau, la silhouette immobile et solennelle de Pierrot s'affranchit de la farce comique pour atteindre une dimension tragique et universelle, personnifiant l'artiste isolé au milieu de la comédie sociale.</p>",
+    "keywords": ["pierrot", "gilles", "commedia dell'arte", "theatre de foire", "blouse blanche"]
+  },
+
+  "jupiter_et_antiope_nymphe_satyre": {
+    "id": "jupiter_et_antiope_nymphe_satyre",
+    "badge": "MYTHOLOGIE OVIDIENNE",
+    "title": "Jupiter et Antiope (Nymphe et Satyre)",
+    "subtitle": "La ruse pastorale du maître des dieux pour approcher la belle Antiope",
+    "desc": "<p>Rapporté par Ovide dans ses Métamorphoses, cet épisode relate comment Zeus (Jupiter), fasciné par la beauté de la nymphe Antiope, fille du roi thébain Nyctée, se métamorphosa en satyre cornu et velu pour la surprendre durant son sommeil dans les bois. De cette union divine naîtront les jumeaux Amphion et Zéthos, futurs bâtisseurs des remparts de Thèbes.</p><p>Le thème pictural, immortalisé par Titien, Corrège puis Watteau, explore le vif contraste plastique entre la sensualité diaphane de la nymphe endormie et la rusticité ténébreuse du faune dévoilant la beauté féminine.</p>",
+    "keywords": ["antiope", "satyre", "jupiter et antiope", "nymphe et satyre", "sommeil"]
+  },
+
+  "diane_au_bain": {
+    "id": "diane_au_bain",
+    "badge": "MYTHOLOGIE & INTIMITÉ",
+    "title": "Diane au Bain et la Virginité Sacrée",
+    "subtitle": "L'intimité préservée de la déesse chasseresse dans la clairière sylvestre",
+    "desc": "<p>Déesse de la chasse, des forêts et de la lune, Artémis (Diane) exigeait une chasteté absolue de ses compagnes nymphes et défendait farouchement son intimité contre le regard des mortels, comme le rappela le sort funeste d'Actéon changé en cerf pour l'avoir contemplée nue. Les peintres du XVIIIe siècle, de Watteau à Boucher, humanisent ce mythe austère en le dépouillant de son tragique pour célébrer la grâce d'un corps féminin au repos au bord d'une onde claire.</p>",
+    "keywords": ["diane au bain", "diane chasseresse", "nymphes", "bain"]
+  },
+
+  "faune_statuaire_antique": {
+    "id": "faune_statuaire_antique",
+    "badge": "MYTHOLOGIE & DÉCOR",
+    "title": "Le Faune et la Poésie Champêtre Bacchique",
+    "subtitle": "L'évocation pastorale des divinités des bois et des jardins antiques",
+    "desc": "<p>Dans la mythologie romaine, Faunus est une antique divinité protectrice des troupeaux, des bois et des récoltes, assimilée au dieu grec Pan et au cortège bacchique. Vénéré sous forme d'hermès ou de statues champêtres dans les jardins de la Renaissance et des Lumières, le faune symbolise la fertilité sauvage, la musique agreste de la flûte de roseau et l'hédonisme de la vie en plein air.</p>",
+    "keywords": ["faune", "faunus", "pan", "bacchus", "statuaire antique"]
+  },
+
+  "arlequin_commedia_dell_arte": {
+    "id": "arlequin_commedia_dell_arte",
+    "badge": "THÉÂTRE & FARCE",
+    "title": "Arlequin et les Masques de la Farce Italienne",
+    "subtitle": "Le valet agile de Bergame, symbole d'ironie populaire et de liberté théâtrale",
+    "desc": "<p>Originaire de Bergame dans la tradition de la Commedia dell'arte, Arlequin (Arlecchino) est reconnaissable à son pourpoint et sa culotte rapiécés de losanges multicolores, son masque de cuir noir et sa batte de bois. Agile, gourmand, spirituel et imprévisible, il subvertit avec facétie l'autorité des maîtres comme Pantalon ou le Docteur. Dans la pièce « Arlequin empereur dans la Lune » représentée à la Foire Saint-Germain, la farce parodie la grandeur politique avec une ironie cinglante.</p>",
+    "keywords": ["arlequin", "harlequin", "commedia dell'arte", "empereur dans la lune"]
+  },
+
+  "saint_dominique_de_guzman": {
+    "id": "saint_dominique_de_guzman",
+    "badge": "VIE DE SAINT & HAGIOGRAPHIE",
+    "title": "Saint Dominique de Guzmán et l'Ordre des Frères Prêcheurs",
+    "subtitle": "L'ascétisme mystique, l'érudition théologique et les « Chiens du Seigneur »",
+    "desc": "<p>Né à Caleruega en Castille, Dominique de Guzmán (1170 – 1221) est le saint fondateur de l'Ordre des Frères Prêcheurs (les Dominicains). Vêtus de l'habit blanc sous la chape de laine noire, les dominicains se consacrent à l'étude des Écritures, à la pauvreté évangélique et à la prédication apostolique. Les attributs hagiographiques du saint associent le bréviaire, le lys symbole de chasteté et le chien portant une torche allumée dans sa gueule (illustration du calembour latin <em>Domini canes</em>, « les chiens du Seigneur », destinés à embraser la terre de la foi catholique).</p>",
+    "keywords": ["saint dominique", "dominique de guzman", "dominicains", "domini canes", "precheurs"]
+  },
+
+  "les_douze_apotres": {
+    "id": "les_douze_apotres",
+    "badge": "RÉCIT ÉVANGÉLIQUE",
+    "title": "Le Collège des Apôtres : Témoins et Piliers de l'Église",
+    "subtitle": "Les douze disciples choisis par le Christ pour porter la Parole au monde",
+    "desc": "<p>Choisis par le Christ pour être les « pêcheurs d'hommes » et les piliers de la communauté naissante, les douze Apôtres incarnent la diversité des vocations humaines sanctifiées par l'Esprit Saint à la Pentecôte. Dans l'iconographie religieuse de la Contre-Réforme espagnole, notamment chez Zurbarán et Ribera, la série des apôtres (Apostolado) se présente comme une galerie de portraits sévères et monumentaux en pied, où chaque apôtre tient l'instrument de son martyre ou son attribut évangélique.</p>",
+    "keywords": ["apotres", "apôtres", "douze apotres", "apostolado", "disciples"]
+  },
+
+  "marilyn_monroe_icone_pop": {
+    "id": "marilyn_monroe_icone_pop",
+    "badge": "ICÔNE POP & SOCIÉTÉ",
+    "title": "Marilyn Monroe : L'Icône Moderne et la Tragédie du Mythe",
+    "subtitle": "L'héroïne hollywoodienne immortalisée par la sérigraphie d'Andy Warhol",
+    "desc": "<p>Disparue tragiquement en août 1962 à l'âge de 36 ans, Marilyn Monroe (Norma Jeane Mortenson) est la quintessence du glamour hollywoodien et du star-system américain. Immédiatement après sa mort, Andy Warhol s'empare de la photographie publicitaire du film <em>Niagara</em> (1953) pour ériger son visage en icône sérielle suprême du XXe siècle. Par la répétition sérigraphique, Warhol explore la tension vertigineuse entre le masque public éclatant et le deuil secret d'une existence consumée par l'industrie de l'image.</p>",
+    "keywords": ["marilyn", "marilyn monroe", "tondo", "diptyque marilyn", "black marilyn", "pop art"]
+  },
+
+  "la_cene_leonard_de_vinci": {
+    "id": "la_cene_leonard_de_vinci",
+    "badge": "ART SACRÉ & HISTOIRE",
+    "title": "La Cène : Du Chef-d'Œuvre de la Renaissance à la Relecture Pop",
+    "subtitle": "Le dernier repas du Christ revisité entre spiritualité et culture visuelle",
+    "desc": "<p>Peinte par Léonard de Vinci entre 1495 et 1498 au réfectoire du couvent Santa Maria delle Grazie à Milan, La Cène immortalise l'instant dramatique où le Christ annonce : « En vérité, je vous le dis, l'un de vous me trahira ». Cette icône absolue de la peinture occidentale a été réinterprétée en 1986 par Andy Warhol dans sa dernière grande série testamentaire, confrontant la fresque sainte aux motifs industriels et militaires de son époque.</p>",
+    "keywords": ["la cene", "la cène", "dernier repas", "apôtres leonard", "camouflage"]
+  }
+
 };
 
 
@@ -3900,3 +4000,13 @@ window.BACKGROUNDS_REGISTRY["charite"] = window.BACKGROUNDS_REGISTRY["allegorie_
 window.BACKGROUNDS_REGISTRY["saint_eustache"] = window.BACKGROUNDS_REGISTRY["saint_eustache_martyr_apotheose"];
 window.BACKGROUNDS_REGISTRY["louis_xiii_france_navarre"] = window.BACKGROUNDS_REGISTRY["louis_xiii_france_navarre_monarchie"];
 window.BACKGROUNDS_REGISTRY["allegorie_vertu"] = window.BACKGROUNDS_REGISTRY["allegorie_vertu_chilly"];
+
+window.BACKGROUNDS_REGISTRY["jugement_de_paris"] = window.BACKGROUNDS_REGISTRY["le_jugement_de_paris"];
+window.BACKGROUNDS_REGISTRY["cythere"] = window.BACKGROUNDS_REGISTRY["pelerinage_a_l_ile_de_cythere"];
+window.BACKGROUNDS_REGISTRY["pierrot"] = window.BACKGROUNDS_REGISTRY["gilles_pierrot_commedia_dell_arte"];
+window.BACKGROUNDS_REGISTRY["gilles"] = window.BACKGROUNDS_REGISTRY["gilles_pierrot_commedia_dell_arte"];
+window.BACKGROUNDS_REGISTRY["jupiter_et_antiope"] = window.BACKGROUNDS_REGISTRY["jupiter_et_antiope_nymphe_satyre"];
+window.BACKGROUNDS_REGISTRY["saint_dominique"] = window.BACKGROUNDS_REGISTRY["saint_dominique_de_guzman"];
+window.BACKGROUNDS_REGISTRY["apotres"] = window.BACKGROUNDS_REGISTRY["les_douze_apotres"];
+window.BACKGROUNDS_REGISTRY["marilyn"] = window.BACKGROUNDS_REGISTRY["marilyn_monroe_icone_pop"];
+window.BACKGROUNDS_REGISTRY["la_cene"] = window.BACKGROUNDS_REGISTRY["la_cene_leonard_de_vinci"];

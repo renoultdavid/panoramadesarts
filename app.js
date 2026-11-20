@@ -10809,7 +10809,7 @@ function initSearchEngine() {
     });
 
     const totalCountEl = document.getElementById('alphabet-total-count');
-    const totalNotices = Object.keys(window.ARTISTS_REGISTRY || {}).length;
+    const totalNotices = new Set(Object.values(window.ARTISTS_REGISTRY || {}).filter(a => a && a.id).map(a => a.id)).size;
     if (totalCountEl) {
       totalCountEl.textContent = totalNotices;
     }

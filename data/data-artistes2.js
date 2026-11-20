@@ -15042,6 +15042,538 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     ]
   }
 }
+,
+
+  "waterhouse": {
+  "id": "waterhouse",
+  "name": "Waterhouse John William",
+  "sortName": "Waterhouse John William",
+  "sortLetter": "W",
+  "dates": "1849 – 1917",
+  "movement": "Confrérie préraphaélite & Néo-classicisme victorien (Symbolisme féerique)",
+  "nationality": "Britannique (Rome / Londres)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMWv0JzX3VLi5qEe4yPEl-2fpBxWFkk1n2aPbayj-xAHqVjAjI23om88RPp_Qha60K33wE35YIWO1X7MbYfJHsTbBeqoHkDPyuz7mAVkizV7itnj7_7GPYoVdIv6whWOLv2nhA0XvmyX6pJzTbhwniZzw=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>John William Waterhouse</strong> (1849 – 1917) est le dernier grand représentant et le continuateur inspiré de la Confrérie préraphaélite et du néo-classicisme victorien. Bien qu'il n'ait pas appartenu au groupe fondateur de 1848, il en a ravivé la flamme esthétique et thématique jusqu'à l'aube du XXe siècle. Surnommé « le dernier des préraphaélites », il a fusionné le naturalisme minutieux de Millais avec la sensualité onirique de Rossetti et la rigueur compositionnelle de Leighton, créant un univers singulier peuplé d'héroïnes tragiques, de sirènes et de nymphes mythologiques.</p><p>Son genre d'expression se définit par la grande peinture d'histoire littéraire et mythologique, le portrait de femme en héroïne romantique et la scène de genre néo-antique. Son style se caractérise par une palette vibrante de couleurs d'émail, une touche de plus en plus fluide et impressionniste au fil de sa carrière (notamment dans le rendu des paysages et des étoffes), une construction savante fondée sur des lignes sinueuses et une idéalisation de la beauté féminine — le « type Waterhouse » — aux longs cheveux rutilants et au regard empreint de mélancolie et de mystère.</p><p>L'évolution de son art s'articule entre sa formation classique et l'influence d'Alma-Tadema (années 1870–1880, <em>Dolce Far Niente</em>, <em>Consulting the Oracle</em>), son apogée préraphaélite et arthurien (1888–années 1890, <em>The Lady of Shalott</em>, <em>Circe Invidiosa</em>, <em>Hylas and the Nymphs</em>) et sa fluidité symboliste tardive (1900–1917, <em>I Am Half-Sick of Shadows</em>), maintenant avec ferveur la poésie du rêve victorien jusqu'à sa mort à Londres.</p>",
+  "corpus": {
+    "total": 210,
+    "paintingsCount": 210,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 0,
+    "source": "Monographies & Catalogues de référence (Anthony Hobson, Peter Trippi)",
+    "totalOeuvresEstimees": "~210 peintures répertoriées",
+    "oeuvresConsensusNotice": "Les inventaires critiques de référence — notamment la monographie et le catalogue d'Anthony Hobson (The Art and Life of J. W. Waterhouse RA, 1980 ; J. W. Waterhouse, Phaidon, 1989) ainsi que le catalogue établi par Peter Trippi (J. W. Waterhouse, 2002) — recensent l'ensemble de ses peintures à l'huile (tableaux d'exposition de la Royal Academy, scènes mythologiques, héroïnes littéraires, études de têtes et paysages peints, en écartant ses carnets de croquis et dessins préparatoires). Le consensus scientifique et muséal fixe le corpus officiel des peintures de Waterhouse autour d'environ 210 œuvres."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "title": "Formation classique & Néo-classicisme victorien",
+        "years": "1870 – 1887",
+        "color": "#d4af37",
+        "summary": "Formation à la Royal Academy et premières scènes néo-antiques dans la lignée d'Alma-Tadema.",
+        "events": [
+          {
+            "year": "1880",
+            "title": "Dolce Far Niente",
+            "desc": "Scène de genre néo-antique remarquée pour sa précision archéologique et sa sensualité méditerranéenne.",
+            "type": "masterpiece",
+            "badge": "ACADÉMISME",
+            "icon": "🏺"
+          },
+          {
+            "year": "1885",
+            "title": "Élection comme associé de la Royal Academy",
+            "desc": "Consécration académique rapide suite au triomphe de Consulting the Oracle.",
+            "type": "context",
+            "badge": "DISTINCTION",
+            "icon": "🏛️"
+          }
+        ]
+      },
+      {
+        "title": "Le Cycle arthurien & L'Apogée préraphaélite",
+        "years": "1888 – 1899",
+        "color": "#d4af37",
+        "summary": "Création des chefs-d'œuvre arthuriens et mythologiques immortalisant les nymphes et enchanteresses.",
+        "events": [
+          {
+            "year": "1888",
+            "title": "The Lady of Shalott (Londres, Tate Britain)",
+            "desc": "Chef-d'œuvre absolu inspiré de Tennyson : naturalisme de l'eau et broderie funèbre.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "⛵"
+          },
+          {
+            "year": "1896",
+            "title": "Hylas and the Nymphs (Manchester Art Gallery)",
+            "desc": "Séduction fatale du compagnon d'Hercule par sept nymphes surgissant des nymphéas.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🌸"
+          }
+        ]
+      },
+      {
+        "title": "Fluidité symboliste & Méditations crépusculaires",
+        "years": "1900 – 1917",
+        "color": "#d4af37",
+        "summary": "Touche plus libre et intimiste imprégnée d'impressionnisme et de mélancolie poétique.",
+        "events": [
+          {
+            "year": "1915",
+            "title": "I Am Half-Sick of Shadows, Said the Lady of Shalott",
+            "desc": "Méditation testamentaire sur le métier à tisser et le miroir reflétant le monde extérieur.",
+            "type": "masterpiece",
+            "badge": "TESTAMENT",
+            "icon": "🪞"
+          },
+          {
+            "year": "1917",
+            "title": "Mort à Londres",
+            "desc": "Disparaît à l'âge de 67 ans, salué comme le dernier chantre du rêve victorien.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "watteau": {
+  "id": "watteau",
+  "name": "Watteau Antoine (Jean-Antoine Watteau)",
+  "sortName": "Watteau Antoine",
+  "sortLetter": "W",
+  "dates": "1684 – 1721",
+  "movement": "Rococo français & Maître des Fêtes galantes (Peinture théâtrale)",
+  "nationality": "Française (Valenciennes / Paris)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN5gxU84V6OvZiklneZIGtk_8Jn7Zg0y_yF4Pxz3VgKIh33JuomJO-N0jcGcivu0_RtFTD6wm610knfU2Gj2b2iLyGXAZVWwyuwjXm5GDdW-m2SmTFpHe7Pj94p3XlPnB7NpmB10frOtddRA4JiMkaZ1Q=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Antoine Watteau</strong> (1684 – 1721), né à Valenciennes et mort prématurément à Nogent-sur-Marne, est le créateur génial d'un genre pictural nouveau : la fête galante. En rompant avec la pompe académique et la solennité du Grand Siècle de Louis XIV, il a inauguré avec une liberté sans précédent l'esprit du XVIIIe siècle, célébrant la légèreté, la rêverie amoureuse et la poésie mélancolique du théâtre et des plaisirs aristocratiques.</p><p>Son genre pictural se définit par la fête galante, la scène de plein air issue de la Commedia dell'arte, le décor mural d'arabesques et le nu mythologique intimiste. Son style se caractérise par une touche vibrante et frémissante, une palette chatoyante héritée de Rubens et des maîtres vénitiens (découverts chez son mécène Pierre Crozat), des étoffes de soie aux reflets moirés changeants et une atmosphère crépusculaire où la félicité apparente est toujours baignée d'une indicible nostalgie de l'éphémère.</p><p>L'évolution de son art s'articule entre l'apprentissage du décor léger auprès de Claude Audran et les farces théâtrales (v. 1707, <em>L'Enjôleur</em>, <em>Le Faune</em>, <em>Arlequin empereur dans la Lune</em>), la consécration académique et les fables amoureuses (1715–1717, <em>Diane au bain</em>, <em>Nymphe et satyre</em>, <em>Le Pèlerinage à l'île de Cythère</em>) et ses chefs-d'œuvre testamentaires (1718–1721, <em>Pierrot (Gilles)</em>, <em>Le Jugement de Pâris</em>, <em>L'Enseigne de Gersaint</em>).</p>",
+  "corpus": {
+    "total": 165,
+    "paintingsCount": 165,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 8,
+    "source": "Consensus scientifique & Catalogues critiques (Pierre Rosenberg, Margaret Morgan Grasselli)",
+    "totalOeuvresEstimees": "~165 toiles authentifiées",
+    "oeuvresConsensusNotice": "En retenant exclusivement les peintures authentifiées ou très largement reconnues comme de la main de Watteau (fêtes galantes, scènes de théâtre, enseignes, arabesques peintes et études de têtes à l'huile, à l'exclusion de ses dessins et des gravures d'après ses compositions), le consensus scientifique et muséal fixe son corpus officiel conservé autour d'environ 165 toiles."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "title": "Formation, Arabesques d'Audran & Commedia dell'Arte",
+        "years": "1702 – 1712",
+        "color": "#d4af37",
+        "summary": "Apprentissage auprès de Gillot et Claude Audran, découverte des arabesques et premières fables théâtrales.",
+        "events": [
+          {
+            "year": "v. 1707",
+            "title": "L'Enjôleur (Musée des Beaux-Arts de Valenciennes)",
+            "desc": "Panneau décoratif en arabesque mêlant figures théâtrales et rinceaux rocailles précoces.",
+            "type": "artwork",
+            "badge": "ARABESQUE",
+            "icon": "🎭",
+            "artworkId": "watteau_l_enjoleur_valenciennes_1707"
+          },
+          {
+            "year": "v. 1707",
+            "title": "Le Faune (Musée des Beaux-Arts de Valenciennes)",
+            "desc": "Pendant de L'Enjôleur associant statuaire antique champêtre et légèreté ornementale.",
+            "type": "artwork",
+            "badge": "DÉCOR",
+            "icon": "🌿",
+            "artworkId": "watteau_le_faune_valenciennes_1707"
+          },
+          {
+            "year": "v. 1707",
+            "title": "Arlequin empereur dans la Lune (Musée d'Arts de Nantes)",
+            "desc": "Farce satirique inspirée de la scène foraine transposant la condition humaine sous le masque.",
+            "type": "artwork",
+            "badge": "THÉÂTRE",
+            "icon": "🌙",
+            "artworkId": "watteau_arlequin_empereur_dans_la_lune_nantes_1707"
+          }
+        ]
+      },
+      {
+        "title": "Le Triomphe de la Fête Galante & Réception à l'Académie",
+        "years": "1713 – 1717",
+        "color": "#d4af37",
+        "summary": "Séjour chez Pierre Crozat, étude de Rubens et création du genre officiel de la fête galante.",
+        "events": [
+          {
+            "year": "v. 1715",
+            "title": "Diane au bain (Paris, Musée du Louvre)",
+            "desc": "Nu mythologique intimiste dépouillé de pompe académique au bord d'une clairière sylvestre.",
+            "type": "artwork",
+            "badge": "MYTHOLOGIE",
+            "icon": "🏹",
+            "artworkId": "watteau_diane_au_bain_louvre_1715"
+          },
+          {
+            "year": "v. 1715",
+            "title": "Nymphe et satyre (Jupiter et Antiope) (Paris, Musée du Louvre)",
+            "desc": "Puissant nu en oculus célébrant la chair nacrée et la vigueur sensuelle rubénienne.",
+            "type": "artwork",
+            "badge": "NU FÉMININ",
+            "icon": "✨",
+            "artworkId": "watteau_nymphe_et_satyre_jupiter_antiope_louvre_1715"
+          },
+          {
+            "year": "1717",
+            "title": "Le Pèlerinage à l'île de Cythère (Paris, Musée du Louvre)",
+            "desc": "Morceau de réception créant le titre de 'peintre de fêtes galantes', chef-d'œuvre universel du Louvre.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "👑",
+            "artworkId": "watteau_le_pelerinage_a_l_ile_de_cythere_louvre_1717"
+          }
+        ]
+      },
+      {
+        "title": "Les Chefs-d'Œuvre Testamentaires & Apothéose Mélancolique",
+        "years": "1718 – 1721",
+        "color": "#d4af37",
+        "summary": "Dernières années marquées par la maladie, création de Pierrot et de L'Enseigne de Gersaint.",
+        "events": [
+          {
+            "year": "v. 1718 – 1719",
+            "title": "Pierrot (dit Gilles) (Paris, Musée du Louvre)",
+            "desc": "Monumental portrait en satin blanc érigeant le valet comique en icône poignante de solitude.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🤍",
+            "artworkId": "watteau_pierrot_gilles_louvre_1718"
+          },
+          {
+            "year": "v. 1718 – 1721",
+            "title": "Le Jugement de Pâris (Paris, Musée du Louvre)",
+            "desc": "Fable rococo et sensualité pastorale de Vénus recevant la pomme d'or dans les nuées.",
+            "type": "artwork",
+            "badge": "MYTHOLOGIE",
+            "icon": "🍎",
+            "artworkId": "watteau_le_jugement_de_paris_louvre_1718_1721"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "zurbaran": {
+  "id": "zurbaran",
+  "name": "Zurbarán Francisco de",
+  "sortName": "Zurbarán Francisco de",
+  "sortLetter": "Z",
+  "dates": "1598 – 1664",
+  "movement": "Siècle d'or espagnol & Ténébrisme monastique (Le Caravage espagnol)",
+  "nationality": "Espagnole (Estrémadure / Séville)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM-2aeZDAaBxvFQwXrf6vTP6cSjK1uRDr-n6ytZztRcP7u3gN0fh9QzWeu80C9JraK7gxcjgRuVGPeNzmoPM4b3VrHBRs6sPXW0_QH9sJ6QWWnbvK9Sp81JX5BMGRL-41pgURQJv_HlvQEUqUFlyYR1mg=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Francisco de Zurbarán</strong> (1598 – 1664), né à Fuente de Cantos en Estrémadure et mort à Madrid, est l'un des maîtres souverains du Siècle d'or espagnol. Surnommé le « Caravage espagnol », il a consacré le cœur de sa carrière à Séville pour répondre aux commandes monumentales des grands ordres religieux (Chartreux, Hiéronymites, Dominicains, Franciscains). Son art, profondément ancré dans l'esprit de la Contre-Réforme, se distingue par une austérité mystique et un silence contemplatif d'une intensité inégalée.</p><p>Son genre pictural atteint son apogée dans le cycle monastique, l'effigie en pied de saints en extase, les saintes parées comme des infantes et la nature morte méditative (bodegón). Son style se caractérise par un usage magistral du ténébrisme où des lumières crues et sculptantes découpent les volumes sur des fonds d'un noir opaque, ainsi qu'une texture tactile prodigieuse dans le rendu des lainages blancs épais, des drapés raides et des objets sacrés simples élevés au rang de prière silencieuse.</p><p>L'évolution de son art s'articule entre la vigueur ténébriste des premières commandes sévillanes (1626–1633, <em>Saint Dominique de Guzmán</em>, cycles des <em>Apôtres</em>), la consécration monastique monumentale (1634–1645, cycles de Guadalupe et de Jerez) et un adoucissement vaporeux dans ses dernières années madrilènes sous l'influence de Murillo et Velázquez.</p>",
+  "corpus": {
+    "total": 294,
+    "paintingsCount": 294,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 3,
+    "source": "Catalogue raisonné et critique de l'œuvre peint (Odile Delenda, Wildenstein Institute)",
+    "totalOeuvresEstimees": "~294 peintures à l'huile authentifiées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue raisonné établi par Odile Delenda (Francisco de Zurbarán, 1598–1664 : Catalogue raisonné et critique de l'œuvre peint, 2 volumes, Wildenstein Institute / Fundación Arte Hispánico, 2009–2010), complété par les catalogues des grandes rétrospectives internationales. En retenant exclusivement les peintures à l'huile sur toile et sur panneau authentifiées de la main du maître, le catalogue critique fixe le corpus officiel de Zurbarán à 294 œuvres."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "title": "Premières Commandes Sévillanes & Révélation Ténébriste",
+        "years": "1620 – 1633",
+        "color": "#d4af37",
+        "summary": "Installation à Séville et commandes prestigieuses pour les couvents dominicains et portugais.",
+        "events": [
+          {
+            "year": "1626",
+            "title": "Saint Dominique de Guzmán (Tokyo, NMWA)",
+            "desc": "Effigie sculpturale du fondateur des Frères Prêcheurs avec le chien à la torche et les lys de pureté.",
+            "type": "artwork",
+            "badge": "HAGIOGRAPHIE",
+            "icon": "⛪",
+            "artworkId": "zurbaran_saint_dominique_de_guzman_tokyo_1626"
+          },
+          {
+            "year": "1633",
+            "title": "Suite des Apôtres (Lisbonne, Museu Nacional de Arte Antiga)",
+            "desc": "Cycle monumental pour San Vicente de Fora érigeant les disciples en colonnes de recueillement.",
+            "type": "artwork",
+            "badge": "CYCLE MONASTIQUE",
+            "icon": "📜",
+            "artworkId": "zurbaran_apotres_lisbonne_1633"
+          },
+          {
+            "year": "1633",
+            "title": "Apôtres (Suite de Lisbonne)",
+            "desc": "Présence plastique austère et maîtrise des draperies aux terres d'ombre et ocres denses.",
+            "type": "artwork",
+            "badge": "APÔTRES",
+            "icon": "✝️",
+            "artworkId": "zurbaran_apotres_1633"
+          }
+        ]
+      },
+      {
+        "title": "Apogée Monastique : Guadalupe & Les Chartreuses",
+        "years": "1634 – 1649",
+        "color": "#d4af37",
+        "summary": "Création des immenses cycles des Hiéronymites de Guadalupe et des Chartreux de Jerez.",
+        "events": [
+          {
+            "year": "1638 – 1639",
+            "title": "Cycle des Hiéronymites de Guadalupe",
+            "desc": "Sommet du Siècle d'or espagnol : vision mystique et rigueur ascétique des frères en méditation.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🏛️"
+          }
+        ]
+      },
+      {
+        "title": "Séjour Madrilène & Clarté Vaporeuse Tardive",
+        "years": "1650 – 1664",
+        "color": "#d4af37",
+        "summary": "Adoucissement de la palette et scènes mariales empreintes de tendresse mystique à Madrid.",
+        "events": [
+          {
+            "year": "1664",
+            "title": "Mort à Madrid",
+            "desc": "Disparaît à Madrid à l'âge de 65 ans, laissant un monument immortel de foi picturale.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "vuillard": {
+  "id": "vuillard",
+  "name": "Vuillard Édouard",
+  "sortName": "Vuillard Édouard",
+  "sortLetter": "V",
+  "dates": "1868 – 1940",
+  "movement": "Nabis & Intimisme (Peinture décorative & Scènes d'intérieur)",
+  "nationality": "Française (Cuiseaux / Paris)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMaqrUjTOmSGxOPa2-7X6T-11jHbT_8ZFc6kjGBRMr_nApQ5cWImh60KzHeaAfvDeOTQA3ZPo1sCsrg7kgsSK_zpPcykgE8wqPIVcrXIFsMwh6BrB6Udiv0AaQmUOtdQScp8j5FZZdXI9XJ8xXUxG2YIQ=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Édouard Vuillard</strong> (1868 – 1940), né à Cuiseaux et mort à La Baule, est le maître souverain de l'Intimisme et l'une des figures majeures du groupe des Nabis. S'il partage avec son complice Pierre Bonnard l'attachement à la poésie du quotidien domestique, Vuillard s'en distingue par une sensibilité plus secrète, dense et feutrée, transformant le cadre bourgeois en un puzzle optique où la figure humaine s'entrelace intimement avec le tissu des décors environnants.</p><p>Son genre pictural se concentre sur la scène d'intérieur, le portrait de société, le décor monumental et les atmosphères feutrées de l'espace privé. Son style se caractérise par la saturation ornementale de l'espace (papiers peints floraux, tentures, tapis brodés), une perspective aplatie héritée de l'estampe japonaise, une pâte savoureuse travaillée à la détrempe ou à l'huile par petites touches vibrantes, et des accords de tons rompus (bruns, ocres, vert olive, carmins étouffés) suggérant le mystère et la quiétude du foyer.</p><p>Son parcours stylistique s'articule entre l'audace nabie des petits cartons des débuts (années 1890), l'épanouissement des grands panneaux décoratifs de maturité (années 1900–1910, <em>Le Déjeuner</em>) et les portraits d'apparat mondains de l'entre-deux-guerres (après 1920) documentant avec une précision presque analytique les intérieurs de ses contemporains.</p>",
+  "corpus": {
+    "total": 2150,
+    "paintingsCount": 2150,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 1,
+    "source": "Catalogue critique des peintures et pastels (Antoine Salomon & Guy Cogeval, Wildenstein Institute / Skira)",
+    "totalOeuvresEstimees": "~2 150 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue critique des peintures et pastels établi par Antoine Salomon et Guy Cogeval (Vuillard : Le catalogue critique des peintures et pastels, 3 volumes, Wildenstein Institute / Skira, 2003). En ne retenant que ses peintures à proprement parler (toiles, panneaux, détrempes et grands panneaux décoratifs, à l'exclusion des pastels sur papier, dessins préparatoires et lithographies), le catalogue critique situe son corpus officiel autour d'environ 2 150 peintures."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "title": "La Période Nabi & L'Expérimentation des Petits Formats",
+        "years": "1890 – 1899",
+        "color": "#d4af37",
+        "summary": "Compositions resserrées sur carton, aplats audacieux et scènes de couturières avec sa mère.",
+        "events": [
+          {
+            "year": "1892",
+            "title": "La Mère et la Sœur de l'artiste (MoMA, New York)",
+            "desc": "Manifeste de l'intimisme nabi où les motifs de robe se confondent avec le papier peint.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🧵"
+          }
+        ]
+      },
+      {
+        "title": "Les Grands Décors & La Maturité Intimiste",
+        "years": "1900 – 1919",
+        "color": "#d4af37",
+        "summary": "Panneaux décoratifs monumentaux, ouverture de l'espace et touches denses en résonance poétique.",
+        "events": [
+          {
+            "year": "1903",
+            "title": "Le Déjeuner (Musée d'Arts de Nantes)",
+            "desc": "Scène domestique feutrée où la femme à table fusionne avec le semis floral du décor.",
+            "type": "artwork",
+            "badge": "INTIMISME",
+            "icon": "☕",
+            "artworkId": "vuillard_le_dejeuner_nantes_1903"
+          }
+        ]
+      },
+      {
+        "title": "Portraits de Société & Intérieurs de la Haute Bourgeoisie",
+        "years": "1920 – 1940",
+        "color": "#d4af37",
+        "summary": "Portraits minutieux des collectionneurs et mécènes au cœur de leurs salons parisiens.",
+        "events": [
+          {
+            "year": "1940",
+            "title": "Mort à La Baule",
+            "desc": "S'éteint durant l'exode à l'âge de 71 ans, laissant une œuvre décorative et humaine majeure.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "warhol": {
+  "id": "warhol",
+  "name": "Warhol Andy (Andrew Warhola)",
+  "sortName": "Warhol Andy",
+  "sortLetter": "W",
+  "dates": "1928 – 1987",
+  "movement": "Pop Art américain (Sérigraphie & Répétition mécanique)",
+  "nationality": "Américaine (Pittsburgh / New York)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOIIXIb0jQf4AzzRd12tjc_KRXTdyfwOZDKEsI14lB0GsdYdMyguNzBLUXLKzDUWrwjnmihiIwRha9w0a-5xGSk480euUw5kVoch1GgoMvKnsg8I99OLA0TBTPDmqKfxObNF2jUUToCWcNjSTLixZdPQQ=w1584-h672-s-no-gm?authuser=0",
+  "bio": "<p><strong>Andy Warhol</strong> (1928 – 1987), né Andrew Warhola à Pittsburgh et mort à New York, est la figure centrale et le maître absolu du Pop Art américain. Ancien illustrateur publicitaire prodige, il a révolutionné l'histoire de l'art du XXe siècle en abolissant la frontière entre la culture noble et la culture commerciale de masse, érigeant la production en série, la reproductibilité mécanique et le culte de la célébrité en une nouvelle métaphysique esthétique.</p><p>Son genre pictural repose sur l'appropriation sérielle d'images préexistantes diffusées par les médias de masse, les emballages industriels et les icônes planétaires du cinéma et de la politique. Son style se caractérise par l'usage exclusif de la sérigraphie sur toile, des aplats de couleurs acryliques acides ou stridentes appliqués avec des bavures et des décalages calculés, et une dramaturgie visuelle où la répétition obsessionnelle anesthésie la perception de la tragédie tout en figeant le sujet dans l'immortalité plastique.</p><p>L'évolution de son art s'articule entre l'esthétique du supermarché et les icônes de la tragédie hollywoodienne (années 1960, boîtes de soupe <em>Campbell</em>, <em>Marilyn</em>, <em>Liz Taylor</em>, <em>Double Mona Lisa</em>), la consécration de la « Factory » et les portraits de genre (années 1970, <em>Black Marilyn</em>, <em>Ladies and Gentlemen</em>) et les séries monumentales testamentaires réinterprétant les mythes de l'histoire de l'art (années 1980, <em>La Cène</em> au camouflage, ultimes <em>Autoportraits</em> au masque spectral).</p>",
+  "corpus": {
+    "total": 3800,
+    "paintingsCount": 3800,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 10,
+    "source": "Andy Warhol Catalogue Raisonné: Paintings and Sculptures (Georg Frei & Neil Printz, Phaidon)",
+    "totalOeuvresEstimees": "~3 800 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Andy Warhol Catalogue Raisonné: Paintings and Sculptures dirigé par Georg Frei et Neil Printz (avec Sally King-Nero, publié chez Phaidon depuis 2002, couvrant la période 1961–1987 en plusieurs volumes de référence). En retenant exclusivement ses peintures sur toile uniques ou en séries peintes (y compris ses tableaux peints à la main de 1960–1962 et ses toiles sérigraphiées de la maturité, en comptabilisant les diptyques ou ensembles conçus comme une œuvre unique et en écartant les éditions graphiques sur papier), le corpus officiel des peintures répertoriées au catalogue raisonné s'élève à environ 3 800 peintures."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "title": "L'Esthétique du Supermarché & Les Premières Icônes",
+        "years": "1960 – 1965",
+        "color": "#d4af37",
+        "summary": "Adoption de la sérigraphie sur toile, création des boîtes de soupe et des portraits de stars après le drame.",
+        "events": [
+          {
+            "year": "1960",
+            "title": "Liz Taylor (Munich, Pinakothek der Moderne)",
+            "desc": "Portrait sérigraphié noir et blanc de la star hollywoodienne issu de La Chatte sur un toit brûlant.",
+            "type": "artwork",
+            "badge": "PORTRAIT",
+            "icon": "🎬",
+            "artworkId": "warhol_liz_taylor_munich_1960"
+          },
+          {
+            "year": "1962",
+            "title": "Grande boîte de soupe Campbell's, 19¢ (Houston, Menil Collection)",
+            "desc": "Boîte au couvercle ouvert révélant son prix marqué au tampon, élevant l'ordinaire au musée.",
+            "type": "artwork",
+            "badge": "POP ART",
+            "icon": "🥫",
+            "artworkId": "warhol_grande_boite_soupe_campbell_houston_1962"
+          },
+          {
+            "year": "1962",
+            "title": "Diptyque Marilyn (Londres, Tate Modern)",
+            "desc": "Cinquante portraits sérigraphiés opposant la saturation polychrome au déclin monochrome du deuil.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🌟",
+            "artworkId": "warhol_diptyque_marilyn_londres_1962"
+          },
+          {
+            "year": "1962",
+            "title": "Round Marilyn (Munich, Brandhorst)",
+            "desc": "Tondo circulaire isolant l'actrice sur fond vert-bleu acide comme une sainte laïque.",
+            "type": "context",
+            "badge": "TONDO",
+            "icon": "⭕"
+          },
+          {
+            "year": "1963",
+            "title": "Double Mona Lisa (Houston, Menil Collection)",
+            "desc": "Appropriation sérielle du chef-d'œuvre de Léonard de Vinci lors de sa venue aux États-Unis.",
+            "type": "artwork",
+            "badge": "APPROPRIATION",
+            "icon": "🖼️",
+            "artworkId": "warhol_double_mona_lisa_houston_1963"
+          }
+        ]
+      },
+      {
+        "title": "La Factory, Le Mythe Public & Ladies and Gentlemen",
+        "years": "1966 – 1979",
+        "color": "#d4af37",
+        "summary": "Émergence de Warhol comme marque internationale et exploration des identités marginalisées.",
+        "events": [
+          {
+            "year": "1967",
+            "title": "Autoportrait (Munich, Pinakothek der Moderne)",
+            "desc": "L'artiste posant l'index devant la bouche en cadrage serré sur fond pourpre électrique.",
+            "type": "artwork",
+            "badge": "AUTOPORTRAIT",
+            "icon": "👤",
+            "artworkId": "warhol_autoportrait_munich_1967"
+          },
+          {
+            "year": "1972",
+            "title": "Black Marilyn (Munich, Pinakothek der Moderne)",
+            "desc": "Inversion spectrale négative ton sur ton célébrant la persistance fantomatique de l'idole.",
+            "type": "artwork",
+            "badge": "DEUIL",
+            "icon": "🖤",
+            "artworkId": "warhol_black_marilyn_munich_1972"
+          },
+          {
+            "year": "1975",
+            "title": "Ladies and Gentlemen (Munich, Pinakothek der Moderne)",
+            "desc": "Hommage vibrant aux drag queens de Greenwich Village par des touches expressives et charnelles.",
+            "type": "artwork",
+            "badge": "COMMUNAUTÉ",
+            "icon": "💄",
+            "artworkId": "warhol_ladies_and_gentlemen_femmes_munich_1975"
+          }
+        ]
+      },
+      {
+        "title": "Relectures Historiques, Camouflage & Testament",
+        "years": "1980 – 1987",
+        "color": "#d4af37",
+        "summary": "Dernières séries colossales réinterprétant les grands maîtres et confrontation avec la mort.",
+        "events": [
+          {
+            "year": "1986",
+            "title": "La Cène (Camouflage) (Houston, Menil Collection)",
+            "desc": "Scène biblique de Léonard de Vinci recouverte d'un motif militaire acide interrogeant le sacré.",
+            "type": "masterpiece",
+            "badge": "TESTAMENT",
+            "icon": "✝️",
+            "artworkId": "warhol_la_cene_camouflage_houston_1986"
+          },
+          {
+            "year": "1986",
+            "title": "Autoportrait à la perruque effrayante (Munich)",
+            "desc": "Visage spectral émergeant d'un noir abyssal sous une perruque dressée comme des éclairs.",
+            "type": "context",
+            "badge": "FIN DE VIE",
+            "icon": "⚡"
+          }
+        ]
+      }
+    ]
+  }
+}
 });
 
 
@@ -15292,3 +15824,25 @@ window.ARTISTS_REGISTRY["de_vlaminck"] = window.ARTISTS_REGISTRY["vlaminck"];
 window.ARTISTS_REGISTRY["vlaminck_maurice"] = window.ARTISTS_REGISTRY["vlaminck"];
 window.ARTISTS_REGISTRY["simon_vouet"] = window.ARTISTS_REGISTRY["vouet"];
 window.ARTISTS_REGISTRY["vouet_simon"] = window.ARTISTS_REGISTRY["vouet"];
+
+
+window.ARTISTS_REGISTRY["john_william_waterhouse"] = window.ARTISTS_REGISTRY["waterhouse"];
+window.ARTISTS_REGISTRY["waterhouse_john_william"] = window.ARTISTS_REGISTRY["waterhouse"];
+window.ARTISTS_REGISTRY["j_w_waterhouse"] = window.ARTISTS_REGISTRY["waterhouse"];
+
+window.ARTISTS_REGISTRY["antoine_watteau"] = window.ARTISTS_REGISTRY["watteau"];
+window.ARTISTS_REGISTRY["jean_antoine_watteau"] = window.ARTISTS_REGISTRY["watteau"];
+window.ARTISTS_REGISTRY["watteau_antoine"] = window.ARTISTS_REGISTRY["watteau"];
+window.ARTISTS_REGISTRY["watteau_jean_antoine"] = window.ARTISTS_REGISTRY["watteau"];
+
+window.ARTISTS_REGISTRY["francisco_de_zurbaran"] = window.ARTISTS_REGISTRY["zurbaran"];
+window.ARTISTS_REGISTRY["zurbaran_francisco"] = window.ARTISTS_REGISTRY["zurbaran"];
+window.ARTISTS_REGISTRY["francisco_zurbaran"] = window.ARTISTS_REGISTRY["zurbaran"];
+
+window.ARTISTS_REGISTRY["edouard_vuillard"] = window.ARTISTS_REGISTRY["vuillard"];
+window.ARTISTS_REGISTRY["vuillard_edouard"] = window.ARTISTS_REGISTRY["vuillard"];
+
+window.ARTISTS_REGISTRY["andy_warhol"] = window.ARTISTS_REGISTRY["warhol"];
+window.ARTISTS_REGISTRY["warhol_andy"] = window.ARTISTS_REGISTRY["warhol"];
+window.ARTISTS_REGISTRY["andrew_warhola"] = window.ARTISTS_REGISTRY["warhol"];
+window.ARTISTS_REGISTRY["warhola"] = window.ARTISTS_REGISTRY["warhol"];
