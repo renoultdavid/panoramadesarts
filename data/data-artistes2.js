@@ -13189,6 +13189,402 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     ]
   }
 }
+,
+
+  "ruisdael": {
+  "id": "ruisdael",
+  "name": "Ruisdael Jacob van",
+  "sortName": "Ruisdael Jacob van",
+  "sortLetter": "R",
+  "dates": "1628 – 1682",
+  "movement": "Âge d'or néerlandais (Paysage héroïque & psychologique)",
+  "nationality": "Néerlandaise (Haarlem / Amsterdam)",
+  "school": "École hollandaise du Siècle d'or (Haarlem / Amsterdam)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMZph3ZorISBvAg3Fnq6lHRj9Upsx_7rZMxAfB03u7OAbf3EMSzVw8cblRTN8cs13dRtn7AVjHgqxfHV85fmDbtMT1VgurgPADrwKQPjK7XzsHsd2T_MPGR7HEEMN2JnhUA1CV89fA-4JezgzsXtvf0fw=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Jacob van Ruisdael (1628 – 1682)</strong> est considéré comme le plus grand paysagiste de l'Âge d'or néerlandais. Son œuvre marque l'apogée du paysage réaliste en Europe, transformant la simple observation de la nature en une expérience spirituelle et dramatique d'une puissance inégalée.</p><p>Son genre pictural est le paysage héroïque et psychologique. Contrairement à ses prédécesseurs qui cherchaient une topographie exacte, Ruisdael compose des paysages qui reflètent des états d'âme. Son style se caractérise par des ciels immenses chargés de nuages tourmentés, des contrastes de lumière saisissants et une attention quasi scientifique au rendu des arbres, des rochers et de l'eau. Il introduit dans la peinture néerlandaise une dimension monumentale et parfois mélancolique, où la nature semble dominer l'homme.</p><p>L'évolution de son style montre une maîtrise croissante de la mise en scène dramatique : de la période d'Haarlem à ses débuts, centrée sur les dunes sablonneuses et la structure minutieuse des chênes séculaires (<em>Le Buisson</em>) ; aux voyages des années 1650 introduisant torrents, cascades et reliefs accidentés inspirés de l'Allemagne et du Grand Nord ; jusqu'à sa pleine maturité philosophique à Amsterdam (<em>Le Coup de soleil</em>, <em>L'Entrée d'un bois</em>), où les vanités paysagères méditent sur la fugacité humaine face à l'éternité du cosmos.</p>",
+  "corpus": {
+    "total": 686,
+    "paintingsCount": 686,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 8,
+    "source": "Catalogue raisonné par Seymour Slive (Yale University Press, 2001)",
+    "totalOeuvresEstimees": "~686 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Catalogue raisonné établi par Seymour Slive (Jacob van Ruisdael: A Complete Catalogue of His Paintings, Drawings and Etchings, Yale University Press, 2001). En retenant exclusivement ses peintures à l'huile sur toile et sur panneau authentifiées (paysages panoramiques, forêts, cascades, marines, paysages d'hiver et vues urbaines, à l'exclusion de ses quelque 140 dessins et 13 eaux-fortes), le catalogue de Slive fixe le corpus officiel de ses peintures à 686 oeuvres."
+  },
+  "timeline": {
+    "birth": {
+      "year": "1628",
+      "place": "Haarlem (Provinces-Unies)",
+      "title": "Naissance de Jacob van Ruisdael",
+      "desc": "Né à Haarlem dans une famille d'artistes peintres et d'encadreurs, fils d'Isaack van Ruisdael et neveu de Salomon van Ruysdael."
+    },
+    "death": {
+      "year": "1682",
+      "place": "Amsterdam (Provinces-Unies)",
+      "title": "Mort de Jacob van Ruisdael",
+      "desc": "S'éteint en mars 1682 à Amsterdam et est inhumé solennellement le 14 mars 1682 dans la nef de l'église Saint-Bavon de Haarlem."
+    },
+    "periods": [
+      {
+        "title": "Les Débuts à Haarlem & L'Observation Scrupuleuse des Dunes (1646 – 1650)",
+        "years": "1646 – 1650",
+        "summary": "Admis très jeune à la guilde de Saint-Luc, il révolutionne le paysage de dunes par une observation minutieuse des arbres tourmentés et un sentiment dramatique précoce.",
+        "color": "#d4af37",
+        "events": [
+          {
+            "year": "1640 – 1650",
+            "title": "Une route à travers une forêt de chênes (Tokyo)",
+            "desc": "Étude magistrale d'arbres séculaires aux ramures noueuses sur tertre sablonneux, affirmant sa vision panthéiste du paysage.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🌳",
+            "artworkId": "ruisdael_une_route_a_travers_une_foret_de_chenes_tokyo_1640"
+          },
+          {
+            "year": "1646 – 1647",
+            "title": "Le Buisson (Paris, Musée du Louvre)",
+            "desc": "Chef-d'œuvre de jeunesse : un buisson d'églantiers et de chênes luttant contre le vent marin sous un ciel de cumulus héroïques.",
+            "type": "masterpiece",
+            "badge": "ICÔNE DU LOUVRE",
+            "icon": "🎨",
+            "artworkId": "ruisdael_le_buisson_louvre_1646"
+          },
+          {
+            "year": "1648",
+            "title": "Admission à la guilde de Saint-Luc de Haarlem",
+            "desc": "Reçu maître indépendant au sein de la corporation des peintres de sa ville natale.",
+            "type": "turning_point",
+            "badge": "GUILDE SAINT-LUC",
+            "icon": "📜"
+          },
+          {
+            "year": "1649",
+            "title": "Paysage par temps d'orage (Montpellier, Musée Fabre)",
+            "desc": "Composition pré-romantique où l'arbre mort au premier plan dialogue avec des nuées d'un gris menaçant chargées de pluie.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "⚡",
+            "artworkId": "ruisdael_paysage_par_temps_d_orage_montpellier_1649"
+          }
+        ]
+      },
+      {
+        "title": "Les Voyages, Le Relief Germanique & L'Eau Vive (1650 – 1656)",
+        "years": "1650 – 1656",
+        "summary": "Son périple vers la frontière westphalienne enrichit son imaginaire de châteaux escarpés, de torrents rugissants et de forêts denses.",
+        "color": "#38bdf8",
+        "events": [
+          {
+            "year": "1650 – 1652",
+            "title": "Voyage en Westphalie avec Nicolaes Berchem",
+            "desc": "Découverte de la forteresse médiévale de Bentheim et des contreforts montagneux qui transformeront son approche du relief.",
+            "type": "context",
+            "badge": "VOYAGE INITIATIQUE",
+            "icon": "🏰"
+          },
+          {
+            "year": "v. 1650 – 1655",
+            "title": "La Route (Paris, Musée du Louvre)",
+            "desc": "Chemin sablonneux sinueux s'élevant vers un sous-bois dense, guidant l'œil dans une alternance virtuose d'ombres et d'éclaircies.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "ruisdael_la_route_louvre_1650"
+          },
+          {
+            "year": "v. 1655",
+            "title": "Paysage avec une cascade (Montpellier, Musée Fabre)",
+            "desc": "Introduction spectaculaire du motif des eaux tumultueuses dévalant entre les rochers au pied d'une habitation de montagne.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🌊",
+            "artworkId": "ruisdael_paysage_avec_une_cascade_montpellier_1655"
+          }
+        ]
+      },
+      {
+        "title": "L'Apogée à Amsterdam & Les Méditations Métaphysiques (1657 – 1682)",
+        "years": "1657 – 1682",
+        "summary": "Établi au cœur de la capitale économique des Provinces-Unies, il atteint le sommet de sa puissance spirituelle avec ses vanités paysagères monumentales.",
+        "color": "#10b981",
+        "events": [
+          {
+            "year": "1659",
+            "title": "Citoyenneté d'Amsterdam",
+            "desc": "Obtient le droit de bourgeoisie à Amsterdam où sa réputation d'incomparable maître du paysage s'impose à l'élite marchande.",
+            "type": "turning_point",
+            "badge": "AMSTERDAM",
+            "icon": "🏛️"
+          },
+          {
+            "year": "v. 1660",
+            "title": "Le Coup de soleil (Paris, Musée du Louvre)",
+            "desc": "Poème visuel absolu : trouée lumineuse sublime éclairant un champ au milieu d'une plaine dominée par un château et un ciel monumental.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE SUBLIME",
+            "icon": "☀️",
+            "artworkId": "ruisdael_le_coup_de_soleil_louvre_1660"
+          },
+          {
+            "year": "v. 1660",
+            "title": "Cascade dans un bois de chêne (Montpellier, Musée Fabre)",
+            "desc": "Synthèse magistrale entre la permanence des arbres séculaires et le flux perpétuel d'un torrent écumant sous la lumière zénithale.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🎨",
+            "artworkId": "ruisdael_cascade_dans_un_bois_de_chene_montpellier_1660"
+          },
+          {
+            "year": "v. 1660 – 1670",
+            "title": "L'Entrée d'un bois (Paris, Musée du Louvre)",
+            "desc": "Le tronc spectral d'un bouleau abattu au seuil de la futaie obscure, métaphore grandiose du renouveau perpétuel de la nature.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🌲",
+            "artworkId": "ruisdael_l_entree_d_un_bois_louvre_1660"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "ruysdael": {
+  "id": "ruysdael",
+  "name": "Ruysdael Salomon van",
+  "sortName": "Ruysdael Salomon van",
+  "sortLetter": "R",
+  "dates": "v. 1602 – 1670",
+  "movement": "Âge d'or néerlandais (Paysage tonal & fluvial)",
+  "nationality": "Néerlandaise (Naarden / Haarlem)",
+  "school": "École hollandaise du Siècle d'or (Haarlem)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNMfIUz5iNMeoAT2Mra-ehKeVnGd4AZWa9Bn_GaeyH6CvqDoa43QLvSC4oDiA7SywArbpXdp_bQpV60sQ2f6yXTJ1G4sKy8L6qClK02g0NO_K1QaVY_paDmJnfYIlsJ1sqw7xqOMgYGOHLxbNNheRoCMQ=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Salomon van Ruysdael (v. 1602 – 1670)</strong> est, avec Jan van Goyen, l'un des principaux représentants de la phase dite « monochrome » ou tonale du paysage néerlandais. Oncle du célèbre Jacob van Ruisdael, il a joué un rôle déterminant dans la définition du paysage national des Provinces-Unies, transformant la campagne hollandaise, ses rivières et ses cieux en sujets d'une poésie calme et lumineuse.</p><p>Son genre pictural se définit par le paysage fluvial et la maîtrise des valeurs atmosphériques. Son style se caractérise par une palette de couleurs restreinte — dominée par les verts olive, les bruns et les gris — qui lui permet d'unifier la composition. Il excelle à rendre l'humidité de l'air et les reflets mouvants de l'eau, utilisant souvent des diagonales de berges boisées pour conduire l'œil vers un horizon lointain et bas.</p><p>L'évolution de son style marque un passage d'un dépouillement tonal vers une plus grande richesse chromatique et monumentale : de la période monochrome des années 1630 où la couleur est sacrifiée à l'étude pure de l'espace atmosphérique ; à la maturité des années 1640-1650 avec ses célèbres traversées en bac animées de voyageurs et de bétail (<em>Le Débarcadère</em>, <em>Le Bac</em>) ; jusqu'aux dernières années plus décoratives où il explore la nature morte de chasse avec une semblable vérité de matière.</p>",
+  "corpus": {
+    "total": 600,
+    "paintingsCount": 600,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 2,
+    "source": "Catalogue raisonné par Wolfgang Stechow (1938 / 1975) & archives RKD",
+    "totalOeuvresEstimees": "~600 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence est le catalogue raisonné établi par Wolfgang Stechow (Salomon van Ruysdael. Eine Einführung in seine Kunst. Mit kritischem Katalog der Gemälde, Berlin, 1938, édition révisée en 1975), enrichi par les ajouts documentés dans la base du RKD (Netherlands Institute for Art History) et les catalogues muséaux. En retenant exclusivement ses peintures à l'huile sur panneau ou sur toile (paysages fluviaux, bacs, vues de villes, marines et natures mortes, à l'exclusion des attributions douteuses et des copies tardives), le consensus critique situe son corpus officiel autour d'environ 600 peintures."
+  },
+  "timeline": {
+    "birth": {
+      "year": "v. 1602",
+      "place": "Naarden (Provinces-Unies)",
+      "title": "Naissance de Salomon van Ruysdael",
+      "desc": "Naît vers 1602 sous le nom de Salomon de Gooyer avant d'adopter avec son frère le patronyme Ruysdael d'après le château de Ruisdael."
+    },
+    "death": {
+      "year": "1670",
+      "place": "Haarlem (Provinces-Unies)",
+      "title": "Mort de Salomon van Ruysdael",
+      "desc": "Inhumé le 3 novembre 1670 en l'église Saint-Bavon de Haarlem, après une brillante carrière civique et artistique."
+    },
+    "periods": [
+      {
+        "title": "La Période Monochrome & L'Essor du Paysage Tonal (1623 – 1639)",
+        "years": "1623 – 1639",
+        "summary": "Installé à Haarlem aux côtés de Jan van Goyen et d'Esaias van de Velde, il participe à l'invention de la peinture tonale atmosphérique hollandaise.",
+        "color": "#d4af37",
+        "events": [
+          {
+            "year": "1623",
+            "title": "Entrée à la guilde de Saint-Luc de Haarlem",
+            "desc": "Reçu maître de la guilde, il affirme sa vocation de peintre paysagiste sensible aux ciels mouvants de Hollande.",
+            "type": "turning_point",
+            "badge": "GUILDE SAINT-LUC",
+            "icon": "📜"
+          },
+          {
+            "year": "v. 1635",
+            "title": "Les premiers paysages fluviaux dépouillés",
+            "desc": "Adopte une palette sobre d'ocres et de verts rompus pour capter la fluidité liquide et l'air humide des canaux.",
+            "type": "context",
+            "badge": "PHASE MONOCHROME",
+            "icon": "🌫️"
+          }
+        ]
+      },
+      {
+        "title": "La Maturité, Les Traversées en Bac & Les Marines (1640 – 1655)",
+        "years": "1640 – 1655",
+        "summary": "Apogée de sa production : il crée ses chefs-d'œuvre de traversées en bac où la vie laborieuse et paisible des Provinces-Unies s'intègre harmonieusement aux voies d'eau.",
+        "color": "#38bdf8",
+        "events": [
+          {
+            "year": "v. 1640",
+            "title": "Le Débarcadère (Paris, Musée du Louvre)",
+            "desc": "Harmonieuse construction en diagonale où l'embarcation chargée de bétail et de villageois glisse sous la lumière argentée du large.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "⛵",
+            "artworkId": "ruysdael_le_debarcadere_louvre_1640"
+          },
+          {
+            "year": "1647",
+            "title": "Le Bac (Paris, Musée du Louvre)",
+            "desc": "Chef-d'œuvre du paysage fluvial habité : le bac bondé de chevaux et de voyageurs traverse l'eau limpide au pied de ruines chargées d'histoire.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE DU LOUVRE",
+            "icon": "🎨",
+            "artworkId": "ruysdael_le_bac_louvre_1647"
+          },
+          {
+            "year": "1648",
+            "title": "Doyen de la guilde de Saint-Luc",
+            "desc": "Élu à la tête de la prestigieuse corporation artistique de Haarlem l'année de la reconnaissance officielle de la République par la paix de Münster.",
+            "type": "turning_point",
+            "badge": "NOTABILITÉ CIVIQUE",
+            "icon": "👑"
+          }
+        ]
+      },
+      {
+        "title": "La Période Tardive & Les Natures Mortes (1656 – 1670)",
+        "years": "1656 – 1670",
+        "summary": "Sa palette s'enrichit de contrastes chromatiques plus affirmés et il élargit son registre pictural à d'élégantes scènes de chasse et natures mortes.",
+        "color": "#10b981",
+        "events": [
+          {
+            "year": "v. 1660",
+            "title": "Natures mortes de chasse et trophées",
+            "desc": "Exécute des gibiers suspendus d'une grande vérité tactile, démontrant sa maîtrise virtuose des plumages et des lumières d'intérieur.",
+            "type": "context",
+            "badge": "NATURE MORTE",
+            "icon": "🦆"
+          },
+          {
+            "year": "1670",
+            "title": "Fin de vie à Haarlem",
+            "desc": "S'éteint respecté de tous après avoir fixé pour l'éternité la poésie sereine des horizons hollandais.",
+            "type": "context",
+            "badge": "MÉMOIRE",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "vasarely": {
+  "id": "vasarely",
+  "name": "Vasarely Victor",
+  "sortName": "Vasarely Victor",
+  "sortLetter": "V",
+  "dates": "1906 – 1997",
+  "movement": "Op Art (Art Optique) & Art Cinétique",
+  "nationality": "Franco-hongroise (Pécs / Paris / Aix-en-Provence)",
+  "school": "Art optique et cinétique international",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMjNkXrVL2_OB7A23tbN5BnAHnR_ZrI5REKroS5Xyx3-IiiWdxfHjEjUsij8A9bv4ZYr2c3jv-HkJkTTBwieRYpn6NFE_cwkt0vyvAHDyAB38D7zv_Z9hYniHny4VVRxiGWYAgILv34TdUjFdKGPSFbbg=w1836-h787-s-no-gm?authuser=0",
+  "bio": "<p><strong>Victor Vasarely (1906 – 1997)</strong> est le père incontesté de l'Op Art (Art Optique). D'origine hongroise et naturalisé français, il a cherché à créer un art social, accessible à tous, en s'appuyant sur les lois de la perception visuelle. Pour lui, l'art ne doit plus être une fenêtre sur le monde, mais un générateur de sensations cinétiques capables de déstabiliser l'œil du spectateur.</p><p>Son genre pictural se définit par l'abstraction géométrique et le cinétisme. Son style se caractérise par l'utilisation de formes géométriques simples (carrés, cercles, losanges) et de contrastes de couleurs vibrants pour créer des illusions de relief, de profondeur et de mouvement. Il a inventé l'« unité plastique », un alphabet visuel où la couleur et la forme sont indissociables.</p><p>L'évolution de son style marque une progression vers la tridimensionnalité et l'intégration architecturale : de la période graphique et Denfert des années 1930-1940 où les contrastes noir et blanc zébrés suggèrent le mouvement ; à la période cinétique du Manifeste Jaune dans les années 1950 (<em>Geminorum</em>) jouant sur les permutations modulaires pures ; jusqu'à la période Vega et ses structures universelles bombées ou creusées des années 1960-1970, culminant dans les monumentales intégrations polychromes de sa Fondation d'Aix-en-Provence.</p>",
+  "corpus": {
+    "total": 1500,
+    "paintingsCount": 1500,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 1,
+    "source": "Catalogue raisonné Comité Pierre Vasarely & Fondation Vasarely",
+    "totalOeuvresEstimees": "~1 500 peintures originales",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur le catalogue raisonné en cours d'achèvement par le Comité Vasarely (dirigé par Pierre Vasarely) ainsi que sur les archives et collections de la Fondation Vasarely d'Aix-en-Provence et du Musée Vasarely de Pécs. En retenant exclusivement ses peintures originales (huiles, acryliques et tempéras sur toile ou sur bois, en laissant de côté les milliers de sérigraphies et multiples tirés d'après ses compositions), le consensus muséal situe son corpus officiel autour d'environ 1 500 peintures."
+  },
+  "timeline": {
+    "birth": {
+      "year": "1906",
+      "place": "Pécs (Hongrie)",
+      "title": "Naissance de Victor Vasarely",
+      "desc": "Né Győző Vásárhelyi le 9 avril 1906 à Pécs en Hongrie. Étudie la médecine avant de se consacrer à l'art à l'académie Mühely de Budapest."
+    },
+    "death": {
+      "year": "1997",
+      "place": "Paris (France)",
+      "title": "Mort de Victor Vasarely",
+      "desc": "S'éteint le 15 mars 1997 à Paris à l'âge de 90 ans, salué dans le monde entier comme le visionnaire absolu de l'art géométrique contemporain."
+    },
+    "periods": [
+      {
+        "title": "Période Graphique, Le Mühely & Les Recherches de Denfert (1930 – 1950)",
+        "years": "1930 – 1950",
+        "summary": "Formé au Bauhaus hongrois, il s'établit à Paris en 1930 comme graphiste avant d'explorer les réfractions d'ondes, les zèbres et les carreaux du métro Denfert-Rochereau.",
+        "color": "#d4af37",
+        "events": [
+          {
+            "year": "1930",
+            "title": "Installation à Paris",
+            "desc": "S'installe dans la capitale française et travaille pour les grandes agences publicitaires comme Havas et Draeger, développant son sens du contraste rétinien.",
+            "type": "turning_point",
+            "badge": "PARIS",
+            "icon": "🗼"
+          },
+          {
+            "year": "1944",
+            "title": "Exposition inaugurale de la Galerie Denise René",
+            "desc": "Participe à la fondation de la galerie d'avant-garde avec Denise René qui deviendra le temple mondial de l'art cinétique.",
+            "type": "context",
+            "badge": "GALERIE DENISE RENÉ",
+            "icon": "🏛️"
+          }
+        ]
+      },
+      {
+        "title": "Période Noir & Blanc, Cinétisme & Le Manifeste Jaune (1951 – 1960)",
+        "years": "1951 – 1960",
+        "summary": "Abandonne toute figuration pour concevoir l'unité plastique : des matrices binaires déstabilisant la perception par d'intenses vibrations optiques.",
+        "color": "#38bdf8",
+        "events": [
+          {
+            "year": "1955",
+            "title": "Le Mouvement & Le Manifeste Jaune",
+            "desc": "Théorise l'art cinétique lors de l'exposition mythique chez Denise René aux côtés d'Alexander Calder, Marcel Duchamp et Jean Tinguely.",
+            "type": "turning_point",
+            "badge": "MANIFESTE JAUNE",
+            "icon": "📜"
+          },
+          {
+            "year": "1956",
+            "title": "Geminorum (Nantes, Musée d'Arts)",
+            "desc": "Sommet de la période Noir et Blanc : quatre quadrants géométriques dont les permutations inversées créent une sensation de volume en perpétuelle pulsation.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE OP ART",
+            "icon": "⚡",
+            "artworkId": "vasarely_geminorum_nantes_1956"
+          }
+        ]
+      },
+      {
+        "title": "La Série Vega, Les Intégrations Monumentales & La Cité Polychrome (1961 – 1997)",
+        "years": "1961 – 1997",
+        "summary": "Consécration internationale : déformations sphériques de trames modulaires (Vega) et concrétisation de son utopie sociale d'art dans la cité.",
+        "color": "#10b981",
+        "events": [
+          {
+            "year": "1965",
+            "title": "The Responsive Eye au MoMA de New York",
+            "desc": "Consécration universelle de l'Op Art : ses œuvres fascinent des foules immenses et déclenchent une vague mondiale de mode et de design.",
+            "type": "turning_point",
+            "badge": "TRIOMPHE AU MOMA",
+            "icon": "👁️"
+          },
+          {
+            "year": "1976",
+            "title": "Inauguration de la Fondation Vasarely à Aix-en-Provence",
+            "desc": "Conçoit lui-même le bâtiment architectonique aux seize alvéoles polygonales abritant ses intégrations monumentales en verre, tapisserie et céramique.",
+            "type": "masterpiece",
+            "badge": "FONDATION D'AIX",
+            "icon": "🏛️"
+          }
+        ]
+      }
+    ]
+  }
+}
 });
 
 
@@ -13377,3 +13773,16 @@ window.ARTISTS_REGISTRY["van-gogh"] = window.ARTISTS_REGISTRY["van_gogh"];
 
 window.ARTISTS_REGISTRY["lippo_vanni"] = window.ARTISTS_REGISTRY["vanni"];
 window.ARTISTS_REGISTRY["vanni_lippo"] = window.ARTISTS_REGISTRY["vanni"];
+
+window.ARTISTS_REGISTRY["jacob_van_ruisdael"] = window.ARTISTS_REGISTRY["ruisdael"];
+window.ARTISTS_REGISTRY["van_ruisdael"] = window.ARTISTS_REGISTRY["ruisdael"];
+window.ARTISTS_REGISTRY["ruisdael_jacob"] = window.ARTISTS_REGISTRY["ruisdael"];
+window.ARTISTS_REGISTRY["jacob_ruisdael"] = window.ARTISTS_REGISTRY["ruisdael"];
+
+window.ARTISTS_REGISTRY["salomon_van_ruysdael"] = window.ARTISTS_REGISTRY["ruysdael"];
+window.ARTISTS_REGISTRY["van_ruysdael"] = window.ARTISTS_REGISTRY["ruysdael"];
+window.ARTISTS_REGISTRY["ruysdael_salomon"] = window.ARTISTS_REGISTRY["ruysdael"];
+window.ARTISTS_REGISTRY["salomon_ruysdael"] = window.ARTISTS_REGISTRY["ruysdael"];
+
+window.ARTISTS_REGISTRY["victor_vasarely"] = window.ARTISTS_REGISTRY["vasarely"];
+window.ARTISTS_REGISTRY["vasarely_victor"] = window.ARTISTS_REGISTRY["vasarely"];
