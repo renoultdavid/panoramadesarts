@@ -9370,7 +9370,8 @@ function renderStoryTrigger(art) {
   }
 
   const bg = findBackgroundForArtwork(art);
-  if (bg && bg.text) {
+  const bgContent = bg ? (bg.desc || bg.text || bg.narrative || '') : '';
+  if (bg && (bgContent || bg.title)) {
     triggerEl.style.display = 'block';
     const badgeEl = document.getElementById('story-drawer-badge');
     const titleEl = document.getElementById('story-drawer-title');
@@ -9388,7 +9389,7 @@ function renderStoryTrigger(art) {
         sourceEl.style.display = 'none';
       }
     }
-    if (bodyEl) bodyEl.innerHTML = bg.text;
+    if (bodyEl) bodyEl.innerHTML = bgContent || `<p>${escapeHtml(bg.subtitle || bg.title || '')}</p>`;
   } else {
     triggerEl.style.display = 'none';
   }

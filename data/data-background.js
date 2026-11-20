@@ -3811,6 +3811,47 @@ window.BACKGROUNDS_REGISTRY = {
     "desc": "<p>Fils de Zacharie et d'Élisabeth, saint Jean le Baptiste est le prophète charnière entre l'Ancien et le Nouveau Testament. Ermite austère vêtu d'une peau de chameau, il baptise dans le Jourdain en clamant : « Je suis la voix de celui qui crie dans le désert : Aplanissez le chemin du Seigneur ». Désignant Jésus comme l'Agneau de Dieu qui ôte le péché du monde, il s'efface humblement devant le Messie (« Il faut qu'il grandisse et que je diminue »).</p><p>Dans le chef-d'œuvre testamentaire de Léonard de Vinci, Jean-Baptiste émerge des ténèbres absolues grâce au sfumato, pointant son index vers le ciel d'un geste universel pour diriger l'attention du spectateur vers la révélation mystique du Dieu invisible.</p>",
     "keywords": ["jean baptiste", "precurseur", "index", "voie", "desert", "agneau de dieu", "prophete", "sfumato"]
   },
+
+  "presentation_au_temple_simeon": {
+    "id": "presentation_au_temple_simeon",
+    "badge": "RÉCIT ÉVANGÉLIQUE",
+    "title": "La Présentation au Temple et la Prophétie de Siméon",
+    "subtitle": "Le rachat du premier-né à Jérusalem et l'illumination des nations",
+    "desc": "<p>Conformément à la Loi mosaïque de purification (Lévitique 12 et Exode 13), Marie et Joseph présentent l'Enfant Jésus au Temple de Jérusalem quarante jours après sa naissance, offrant le sacrifice des pauvres : un couple de tourterelles. Poussé par l'Esprit Saint, le vieillard Siméon, à qui il avait été promis qu'il ne mourrait pas avant d'avoir vu le Messie, accueille l'Enfant dans ses bras et entonne le cantique du <em>Nunc dimittis</em> : « Maintenant, Seigneur, tu laisses ton serviteur s'en aller en paix... car mes yeux ont vu ton salut, lumière pour éclairer les nations ».</p><p>Dans la grande tradition du retable d'autel baroque, de Vouet à Rubens, la composition met en scène l'architecture monumentale du sanctuaire, la noble humilité de Marie et la prophétie de Siméon annonçant à la Vierge qu'un glaive de douleur lui transpercera l'âme, liant l'enfance du Christ au sacrifice rédempteur de la Passion.</p>",
+    "keywords": ["presentation au temple", "présentation au temple", "simeon", "siméon", "temple", "tourterelles", "purification", "nunc dimittis"]
+  },
+  "allegorie_charite_vertu_theologale": {
+    "id": "allegorie_charite_vertu_theologale",
+    "badge": "ALLÉGORIE CHRÉTIENNE",
+    "title": "La Charité : Sommet des Vertus Théologales",
+    "subtitle": "L'amour divin incandescent et la bienveillance universelle",
+    "desc": "<p>Parmi les trois vertus théologales définies par saint Paul dans la Première épître aux Corinthiens (la Foi, l'Espérance et la Charité), la Charité (<em>Caritas</em> ou <em>Agape</em>) est proclamée comme « la plus grande de toutes ». Elle incarne l'amour désintéressé de Dieu pour l'humanité et le devoir d'amour fraternel envers le prochain.</p><p>Simon Vouet renouvelle magnifiquement ce thème dans l'art français du Grand Siècle : s'écartant de la formule médiévale de la matrone allaitant plusieurs nourrissons, il personnifie la Charité sous les traits d'une jeune femme rayonnante, parée d'or et d'azur, brandissant un cœur embrasé — symbole du feu de l'amour divin qui consume toute tiédeur — et tenant la palme de la victoire céleste, entourée d'angelots célébrant la pureté de l'âme réconciliée.</p>",
+    "keywords": ["charite", "charité", "vertu theologale", "coeur enflamme", "coeur enflammé", "amour divin"]
+  },
+  "saint_eustache_martyr_apotheose": {
+    "id": "saint_eustache_martyr_apotheose",
+    "badge": "LÉGENDE MARTYROLOGIQUE",
+    "title": "Saint Eustache : Du Prodige du Cerf à l'Apothéose Céleste",
+    "subtitle": "La foi inébranlable du général romain et le triomphe du martyre familial",
+    "desc": "<p>Selon la <em>Légende dorée</em>, Placide, vaillant général romain sous l'empereur Trajan, chassait dans les forêts lorsqu'il aperçut un cerf magnifique portant entre ses bois un crucifix lumineux. La voix du Christ l'interpella : « Pourquoi me poursuis-tu, moi qui t'aime ? ». Converti avec son épouse Théopiste et ses deux fils, il prit le nom d'Eustache. Éprouvé par une série d'épreuves bibliques rappelant celles de Job (ruine, perte de sa famille, exil), il resta inébranlable dans sa foi. Sous Hadrien, refusant de sacrifier aux idoles païennes, il fut condamné avec les siens au supplice dans un taureau d'airain incandescent.</p><p>Chef-d'œuvre commandé pour le maître-autel de l'église Saint-Eustache à Paris, la toile de Simon Vouet illustre l'apothéose glorieuse : la famille unie est enlevée sur des nuées lumineuses par les anges, transformant le martyre terrestre en triomphe céleste éternel.</p>",
+    "keywords": ["saint eustache", "eustache", "theopiste", "martyr", "cerf", "apotheose", "apothéose"]
+  },
+  "louis_xiii_france_navarre_monarchie": {
+    "id": "louis_xiii_france_navarre_monarchie",
+    "badge": "MYTHOLOGIE POLITIQUE",
+    "title": "L'Allégorie Royale : Louis XIII entre la France et la Navarre",
+    "subtitle": "La concorde des royaumes sous l'égide du monarque juste et victorieux",
+    "desc": "<p>Héritier d'Henri IV qui avait scellé l'union personnelle du royaume de France et du royaume de Navarre, Louis XIII (dit « le Juste ») a consolidé l'autorité royale face aux factions aristocratiques et aux conflits religieux, préparant l'âge classique de la monarchie absolue avec le concours du cardinal de Richelieu.</p><p>Dans le grand décor commandé pour le château de Saint-Germain-en-Laye, Simon Vouet crée une théâtralité baroque éclatante : le monarque en armure d'apparat fleurdelisée et ceint de lauriers de triomphe est flanqué de deux figures féminines personnifiant la France et la Navarre. Leurs gestes de dévotion et d'allégeance célèbrent la fidélité inébranlable des provinces unies sous la bannière royale, sublimant la propagande d'État en un somptueux spectacle de cour.</p>",
+    "keywords": ["louis xiii", "france et navarre", "france", "navarre", "monarchie", "allegorie royale", "richelieu"]
+  },
+  "allegorie_vertu_chilly": {
+    "id": "allegorie_vertu_chilly",
+    "badge": "ALLÉGORIE MORALE",
+    "title": "L'Allégorie de la Vertu Triomphante",
+    "subtitle": "La rectitude morale, le combat contre le vice et la couronne d'immortalité",
+    "desc": "<p>Dans la philosophie classique et l'humanisme du XVIIe siècle, la Vertu (<em>Virtus</em>) n'est pas une simple retenue passive, mais une force d'action héroïque et une discipline de l'esprit dominant les passions déréglées. Inspirée de l'<em>Iconologia</em> de Cesare Ripa, la Vertu est traditionnellement figurée sous les traits d'une femme guerrière digne, armée d'une lance pour combattre les vices et tenant le laurier réservé aux âmes immortelles.</p><p>Peinte par Simon Vouet pour le château de Chilly du marquis d'Effiat, l'œuvre incarne l'idéal de grandeur et de probité exigé des grands serviteurs de la monarchie : drapée d'un manteau azur volant au vent, le pas assuré et le regard tourné vers les sphères célestes, elle guide l'âme vers les sommets de l'honneur.</p>",
+    "keywords": ["allegorie de la vertu", "allégorie de la vertu", "vertu", "chilly", "effiat", "laurier", "morale"]
+  },
 };
 
 
@@ -3853,3 +3894,9 @@ window.BACKGROUNDS_REGISTRY["sainte_anne"] = window.BACKGROUNDS_REGISTRY["sainte
 window.BACKGROUNDS_REGISTRY["saint_jean_baptiste"] = window.BACKGROUNDS_REGISTRY["saint_jean_baptiste_precurseur_desert"];
 window.BACKGROUNDS_REGISTRY["eliezer_et_rebecca"] = window.BACKGROUNDS_REGISTRY["eliezer_et_rebecca_genese"];
 window.BACKGROUNDS_REGISTRY["sainte_catherine"] = window.BACKGROUNDS_REGISTRY["mariage_mystique_sainte_catherine"];
+
+window.BACKGROUNDS_REGISTRY["presentation_au_temple"] = window.BACKGROUNDS_REGISTRY["presentation_au_temple_simeon"];
+window.BACKGROUNDS_REGISTRY["charite"] = window.BACKGROUNDS_REGISTRY["allegorie_charite_vertu_theologale"];
+window.BACKGROUNDS_REGISTRY["saint_eustache"] = window.BACKGROUNDS_REGISTRY["saint_eustache_martyr_apotheose"];
+window.BACKGROUNDS_REGISTRY["louis_xiii_france_navarre"] = window.BACKGROUNDS_REGISTRY["louis_xiii_france_navarre_monarchie"];
+window.BACKGROUNDS_REGISTRY["allegorie_vertu"] = window.BACKGROUNDS_REGISTRY["allegorie_vertu_chilly"];

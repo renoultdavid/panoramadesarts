@@ -14741,6 +14741,306 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       }
     ]
   }
+},
+  "vlaminck": {
+  "id": "vlaminck",
+  "name": "Vlaminck Maurice (Maurice de Vlaminck)",
+  "sortName": "Vlaminck Maurice",
+  "sortLetter": "V",
+  "dates": "1876 – 1958",
+  "movement": "Fauvisme instinctif de Chatou & Expressionnisme rural (Matière tellurique & Paysages d'orage)",
+  "nationality": "Française (Paris, Chatou, Rueil-la-Gadelière)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPm3hfmxCF2E2EcO8uzy3pA30vsBYqZvIJ_oLG78h2EGCyaRgd1sUlhwC2MedXIv6c1fNyCPepPqa5MSJsmA-z1D9kDQ0MRRhuQsOw8R4HVXozsoW33sgxzAjBo5VF_1wsXgLWpTNJf8vgQDCVTLC611Q=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Maurice de Vlaminck</strong> (1876 – 1958), né à Paris et mort à Rueil-la-Gadelière en Eure-et-Loir, est l'un des pionniers les plus fougueux et intransigeants du Fauvisme, mouvement dont il a constitué le pôle instinctif, tellurique et viscéral aux côtés d'André Derain et d'Henri Matisse. Autodidacte revendiqué avec fierté, athlète accompli, coureur cycliste professionnel et violoniste de cabaret pour subsister, cet esprit farouche et réfractaire à tout enseignement académique entendait peindre « avec ses tripes et ses tripes seules », fustigeant les musées et les théories esthétiques comme des entraves au jaillissement de la vie pure. Après la déflagration chromatique incandescente des années fauves à Chatou, il a opéré un tournant expressionniste profondément singulier, consacrant la seconde moitié de son existence à des paysages ruraux dramatiques et tourmentés, balayés par le vent, la boue et les tempêtes de neige.</p><p>Son genre d'expression se définit par le paysage rural et d'orage, la marine fluviale (les bords de Seine de Chatou et Bougival), la nature morte d'atelier et le portrait expressionniste. Son style se caractérise d'abord, durant la période fauve, par l'emploi de couleurs pures sorties directement du tube sans mélange préalable, appliquées en touches pâteuses, saccadées et zébrées qui font vibrer la surface de la toile dans une exaltation émotionnelle brute. Sous l'influence décisive de Van Gogh et de Cézanne, sa palette s'apaise temporairement vers des ocres et des bleus d'ardoise, avant d'évoluer vers une matière picturale lourde, grumeleuse et sensuelle, maçonnée avec énergie au couteau à peindre dans des contrastes violents de noirs bitumeux, de terres de Sienne sombres et de blancs crayeux éclatants.</p><p>L'évolution de son art marque un passage de l'embrasement solaire vers une austérité tragique et grandiose : des bords de Seine partagés avec Derain dans la célèbre « cage aux fauves » du Salon d'automne de 1905 (<em>Restaurant de la Machine à Bougival</em>, <em>Les Arbres rouges</em>), jusqu'à son repli solitaire en Beauce et dans le Perche après le traumatisme de la Grande Guerre, peignant inlassablement des routes désertes sous des ciels d'encre zébrés d'éclairs qui constituent un sommet de la peinture de terroir expressionniste en France au XXe siècle.</p>",
+  "corpus": {
+    "total": 2150,
+    "paintingsCount": 2150,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 0,
+    "source": "Wildenstein Institute (Maïthé Vallès-Bled, Catalogue critique des peintures et céramiques)",
+    "totalOeuvresEstimees": "~2 150 peintures répertoriées",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue critique des peintures et céramiques de Maurice de Vlaminck établi par Maïthé Vallès-Bled pour le Wildenstein Institute (Vlaminck : Catalogue critique des peintures et céramiques, 2008). En retenant exclusivement ses peintures à l'huile authentifiées et répertoriées au catalogue critique (en écartant les gouaches et aquarelles sur papier, les estampes, les céramiques peintes avec André Metthey et les faux notoires), le consensus muséal fixe son corpus officiel autour d'environ 2 150 œuvres."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "title": "L'École de Chatou & L'Embrasement Fauve",
+        "years": "1900 – 1907",
+        "color": "#ef4444",
+        "summary": "Rencontre avec Derain, découverte fulgurante de Van Gogh et scandale de la cage aux fauves au Salon d'automne.",
+        "events": [
+          {
+            "year": "1900",
+            "title": "Rencontre avec André Derain",
+            "desc": "Une rencontre de fortune lors d'un déraillement de train près de Chatou scelle une amitié fondatrice et le partage d'un atelier insulaire.",
+            "type": "peer",
+            "badge": "RENCONTRE",
+            "icon": "🤝"
+          },
+          {
+            "year": "1901",
+            "title": "Révélation de la rétrospective Van Gogh",
+            "desc": "Visite la rétrospective Van Gogh à la galerie Bernheim-Jeune : bouleversé, il déclare aimer Van Gogh plus que son propre père.",
+            "type": "context",
+            "badge": "RÉVÉLATION",
+            "icon": "🌻"
+          },
+          {
+            "year": "1905",
+            "title": "Le scandale du Salon d'automne",
+            "desc": "Expose dans la salle VII baptisée la « cage aux fauves » par Louis Vauxcelles : ses couleurs pures scandalisent le public parisien.",
+            "type": "masterpiece",
+            "badge": "FAUVISME",
+            "icon": "🔥"
+          },
+          {
+            "year": "1906",
+            "title": "Achat par Ambroise Vollard",
+            "desc": "Le grand marchand Ambroise Vollard lui achète l'intégralité de son atelier, lui assurant pour la première fois une indépendance matérielle.",
+            "type": "context",
+            "badge": "MÉCÉNAT",
+            "icon": "💼"
+          }
+        ]
+      },
+      {
+        "title": "Période Cézanienne & Rejet du Cubisme",
+        "years": "1908 – 1914",
+        "color": "#38bdf8",
+        "summary": "Structuration géométrique des volumes après la rétrospective Cézanne et refus catégorique de l'abstraction cérébrale.",
+        "events": [
+          {
+            "year": "1908",
+            "title": "L'influence de Paul Cézanne",
+            "desc": "Après la rétrospective Cézanne de 1907, il modère l'anarchie des tons vifs pour structurer ses paysages par des ocres et des bleus sourds.",
+            "type": "context",
+            "badge": "ÉVOLUTION",
+            "icon": "📐"
+          },
+          {
+            "year": "1910",
+            "title": "Rejet virulent du cubisme",
+            "desc": "Refuse catégoriquement de suivre Braque et Picasso dans le cubisme, qu'il dénonce comme un artifice cérébral destructeur de l'émotion.",
+            "type": "context",
+            "badge": "ENGAGEMENT",
+            "icon": "⚡"
+          }
+        ]
+      },
+      {
+        "title": "La Retraite Rurale & Les Paysages d'Orage",
+        "years": "1918 – 1958",
+        "color": "#a855f7",
+        "summary": "Installation en Eure-et-Loir, matière pâteuse au couteau, routes désertes sous la neige et ciels d'encre tourmentés.",
+        "events": [
+          {
+            "year": "1925",
+            "title": "Installation à La Tourillière (Rueil-la-Gadelière)",
+            "desc": "S'établit définitivement dans une ferme isolée du Perche, peignant la rudesse de la terre et des chaumières sous l'orage.",
+            "type": "context",
+            "badge": "ATELIER",
+            "icon": "🏡"
+          },
+          {
+            "year": "1937",
+            "title": "Consécration internationale",
+            "desc": "Grande exposition rétrospective aux Maîtres de l'art indépendant au Petit Palais à Paris, consacrant sa stature de peintre de la matière.",
+            "type": "context",
+            "badge": "RÉTROSPECTIVE",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1958",
+            "title": "Mort à Rueil-la-Gadelière",
+            "desc": "S'éteint le 11 octobre 1958 à l'âge de 82 ans dans sa propriété d'Eure-et-Loir, laissant une œuvre expressionniste puissante et sans concession.",
+            "type": "context",
+            "badge": "DISPARITION",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
+},
+  "vouet": {
+  "id": "vouet",
+  "name": "Vouet Simon",
+  "sortName": "Vouet Simon",
+  "sortLetter": "V",
+  "dates": "1590 – 1649",
+  "movement": "Baroque français & Classicisme lumineux (Premier peintre du Roi Louis XIII, Caravagisme romain & Grand style parisien)",
+  "nationality": "Française (Paris, Rome)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOkt1y3eT-WHQ7_fJvM5mSQhpQreFz9XSUKDIgRzRdppQTG7LYePMrZm7iYdVWOtpyFm2O80DxwA1gGPp4Aap1nYGu55_rvIvpNC_eoctSRjt_4cYYGLrxm5vCDLZFAE6_6XvdBfc_CePg3mCXTle8uLw=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Simon Vouet</strong> (1590 – 1649), né et mort à Paris, est la figure fondatrice qui a véritablement importé le grand langage du Baroque italien en France, rénovant en profondeur la peinture française et préparant l'éclosion du grand classicisme du siècle de Louis XIV avec ses illustres disciples Charles Le Brun et Eustache Le Sueur. Enfant prodige voyageant très tôt en Angleterre et à Constantinople, il passe près de quinze années décisives en Italie (1612 – 1627), principalement à Rome où il connaît une ascension fulgurante. Protégé par le cardinal Barberini (le futur pape Urbain VIII) et par les plus grandes familles patriciennes, il est élu en 1624 à la tête de la prestigieuse Académie de Saint-Luc, consécration suprême pour un artiste étranger. Rappelé en France par lettre royale de Louis XIII en 1627, il est nommé Premier peintre du Roi et reçoit un logement au Louvre, régnant en maître incontesté sur la scène artistique parisienne pendant plus de deux décennies.</p><p>Son genre pictural est marqué par une synthèse magistrale entre le dynamisme plastique italien et une grâce mesurée profondément française. Si ses premières années romaines sont fortement marquées par le naturalisme vigoureux et le clair-obscur dramatique du Caravage (<em>Portraits de jeune homme</em> d'Ajaccio et du Louvre), il s'en émancipe avec éclat pour concevoir un style ample, lumineux, aéré et triomphal. Ses compositions allégoriques, ses retables religieux pour les couvents parisiens et ses grands décors princiers (pour le Palais-Royal de Richelieu, le château de Chilly ou Saint-Germain-en-Laye) se déploient dans des perspectives ascendantes théâtrales. Il y utilise une palette solaire incomparable, faisant chanter des accords majeurs de jaunes d'or rayonnants, de bleus d'azur profonds, de blancs de satin et de pourpres délicates.</p><p>L'évolution de son art illustre la transition du ténébrisme romain vers la pleine clarté décorative du Grand Siècle : des figures isolées sculptées par la lumière oblique (<em>Jeune homme en armure</em>) aux manifestations monumentales de l'apothéose sacrée (<em>Saint Eustache et sa famille</em> à Nantes, <em>La Présentation au Temple</em> peinte pour les Jésuites sur commande de Richelieu) et de la rhétorique monarchique (<em>Louis XIII entre la France et la Navarre</em>, <em>Gaucher de Châtillon</em>), Vouet a créé le creuset du grand art officiel français avant l'avènement versaillais.</p>",
+  "corpus": {
+    "total": 220,
+    "paintingsCount": 220,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 10,
+    "source": "William R. Crelly, Jacques Thuillier & Arnauld Brejon de Lavergnée (Catalogue critique)",
+    "totalOeuvresEstimees": "~220 peintures et grands décors conservés",
+    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur la monographie et le catalogue critique établis par William R. Crelly (The Painting of Simon Vouet, Yale University Press, 1962), enrichis et actualisés par les recherches fondamentales de Jacques Thuillier (notamment le catalogue de la rétrospective historique du Grand Palais en 1990–1991) et d'Arnauld Brejon de Lavergnée. En retenant strictement les peintures sur toile et décors peints conservés ou documentés attribués au maître (tableaux d'autel, mythologies, allégories, portraits et fragments de grands décors, à l'exclusion de ses nombreux dessins à la pierre noire et craie blanche ainsi que des tapisseries tissées d'après ses modèles), le consensus muséal fixe son corpus officiel autour d'environ 220 peintures."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "title": "Les Années Romaines & La Flamme Caravagesque",
+        "years": "1613 – 1627",
+        "color": "#ef4444",
+        "summary": "Séjour en Italie, assimilation du clair-obscur du Caravage et élection comme prince de l'Académie de Saint-Luc.",
+        "events": [
+          {
+            "year": "1613",
+            "title": "Arrivée à Rome",
+            "desc": "Bénéficiant d'une pension royale grâce à l'ambassadeur de France, il s'installe à Rome et étudie les maîtres de la Renaissance et l'avant-garde caravagesque.",
+            "type": "context",
+            "badge": "VOYAGE",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1615 – 1620",
+            "title": "Portrait de jeune homme (Musée Fesch, Ajaccio)",
+            "desc": "Portrait intimiste au clair-obscur vigoureux et à la fraise empesée, révélant la subtilité du modelé caravagesque.",
+            "type": "context",
+            "badge": "JALON MAJEUR",
+            "icon": "👤"
+          },
+          {
+            "year": "1616 – 1618",
+            "title": "Portrait de jeune homme (Musée du Louvre)",
+            "desc": "Chef-d'œuvre de la période romaine : regard pénétrant et mélancolique émergeant d'un fond d'obscurité pure.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "✨",
+            "artworkId": "vouet_portrait_jeune_homme_louvre_1616"
+          },
+          {
+            "year": "1624",
+            "title": "Prince de l'Académie de Saint-Luc",
+            "desc": "Élu à la tête de la célèbre corporation des artistes romains : triomphe professionnel inédit pour un peintre français à Rome.",
+            "type": "context",
+            "badge": "CONSÉCRATION",
+            "icon": "👑"
+          }
+        ]
+      },
+      {
+        "title": "Le Retour Triomphal à Paris & Premier Peintre du Roi",
+        "years": "1627 – 1636",
+        "color": "#d4af37",
+        "summary": "Rappelé par Louis XIII, il fonde un grand atelier et crée les décors royaux et allégoriques du Louvre et de Richelieu.",
+        "events": [
+          {
+            "year": "1627",
+            "title": "Nomination comme Premier peintre du Roi",
+            "desc": "Rappelé par Louis XIII à Paris, il reçoit un atelier au Louvre et devient le maître d'œuvre de toutes les grandes commandes de la cour.",
+            "type": "context",
+            "badge": "COUR ROYALE",
+            "icon": "⚜️"
+          },
+          {
+            "year": "v. 1630 – 1635",
+            "title": "Jeune homme en armure (Musée du Louvre)",
+            "desc": "Portrait martial d'une fière assurance, où le manteau jaune doré contraste avec l'acier bruni de la cuirasse.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "⚔️",
+            "artworkId": "vouet_jeune_homme_en_armure_louvre_1630"
+          },
+          {
+            "year": "1632 – 1635",
+            "title": "Gaucher de Châtillon (Musée du Louvre)",
+            "desc": "Panneau pour la Galerie des Hommes Illustres du Palais-Royal commandée par le cardinal de Richelieu.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🛡️",
+            "artworkId": "vouet_gaucher_de_chatillon_louvre_1632"
+          },
+          {
+            "year": "v. 1634",
+            "title": "Allégorie de la Vertu (Musée du Louvre)",
+            "desc": "Figure héroïque peinte pour le château de Chilly du marquis d'Effiat, alliant la puissance du laurier au vol du manteau azur.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🌿",
+            "artworkId": "vouet_allegorie_de_la_vertu_louvre_1634"
+          },
+          {
+            "year": "v. 1634",
+            "title": "Saint Eustache et sa famille portés au ciel (Musée des Beaux-Arts, Nantes)",
+            "desc": "Apothéose céleste monumentale peinte pour le maître-autel de l'église Saint-Eustache de Paris.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "☁️",
+            "artworkId": "vouet_saint_eustache_et_sa_famille_nantes_1634"
+          },
+          {
+            "year": "v. 1635",
+            "title": "La Charité (Musée du Louvre)",
+            "desc": "Allégorie solaire et fervente de l'amour divin tenant un cœur ardent au cœur d'un paysage lumineux.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "💛",
+            "artworkId": "vouet_la_charite_louvre_1635"
+          },
+          {
+            "year": "v. 1636",
+            "title": "Louis XIII entre la France et la Navarre (Musée du Louvre)",
+            "desc": "Grande composition d'État pour Saint-Germain-en-Laye célébrant la concorde royale et l'union des couronnes.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "👑",
+            "artworkId": "vouet_louis_xiii_france_et_navarre_louvre_1636"
+          }
+        ]
+      },
+      {
+        "title": "La Plénitude du Grand Style & Les Grands Décors",
+        "years": "1637 – 1649",
+        "color": "#38bdf8",
+        "summary": "Apogée des grands retables d'église, chefs-d'œuvre de dévotion privée et formation des futurs maîtres du siècle de Louis XIV.",
+        "events": [
+          {
+            "year": "1640 – 1645",
+            "title": "La Vierge Hesselin (Musée du Louvre)",
+            "desc": "Madone intimiste peinte pour Louis Hesselin avec la branche de chêne symbolique et le manteau bleu royal.",
+            "type": "context",
+            "badge": "JALON MAJEUR",
+            "icon": "🌳"
+          },
+          {
+            "year": "1641",
+            "title": "La Présentation au Temple (Musée du Louvre)",
+            "desc": "Retable grandiose commandé par Richelieu pour les Jésuites de la rue Saint-Antoine : sommet du baroque français.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🕯️",
+            "artworkId": "vouet_la_presentation_au_temple_louvre_1641"
+          },
+          {
+            "year": "1648",
+            "title": "Fondation de l'Académie royale de peinture",
+            "desc": "Ses élèves Charles Le Brun et Eustache Le Sueur fondent l'Académie royale, institutionnalisant l'héritage de Vouet.",
+            "type": "context",
+            "badge": "POSTÉRITÉ",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1649",
+            "title": "Mort à Paris",
+            "desc": "S'éteint le 30 juin 1649 à l'âge de 59 ans dans son appartement des galeries du Louvre, célébré comme le père de l'école française moderne.",
+            "type": "context",
+            "badge": "DISPARITION",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
+  }
 }
 });
 
@@ -14986,3 +15286,9 @@ window.ARTISTS_REGISTRY["leonardo_da_vinci"] = window.ARTISTS_REGISTRY["vinci"];
 window.ARTISTS_REGISTRY["de_vinci"] = window.ARTISTS_REGISTRY["vinci"];
 window.ARTISTS_REGISTRY["da_vinci"] = window.ARTISTS_REGISTRY["vinci"];
 window.ARTISTS_REGISTRY["leonardo"] = window.ARTISTS_REGISTRY["vinci"];
+
+window.ARTISTS_REGISTRY["maurice_de_vlaminck"] = window.ARTISTS_REGISTRY["vlaminck"];
+window.ARTISTS_REGISTRY["de_vlaminck"] = window.ARTISTS_REGISTRY["vlaminck"];
+window.ARTISTS_REGISTRY["vlaminck_maurice"] = window.ARTISTS_REGISTRY["vlaminck"];
+window.ARTISTS_REGISTRY["simon_vouet"] = window.ARTISTS_REGISTRY["vouet"];
+window.ARTISTS_REGISTRY["vouet_simon"] = window.ARTISTS_REGISTRY["vouet"];
