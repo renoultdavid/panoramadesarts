@@ -3778,6 +3778,39 @@ window.BACKGROUNDS_REGISTRY = {
     "subtitle": "Le dilemme tragique entre amour d'Orient et fidélité chrétienne",
     "desc": "<p>Créée en 1732 à la Comédie-Française, Zaïre est l'un des chefs-d'œuvre dramatiques majeurs de Voltaire. Située à Jérusalem au temps des Croisades, la pièce met en scène la captive chrétienne Zaïre, aimée passionnément du noble sultan Orosmane. Déchirée entre son amour pour le prince musulman et la révélation inopinée de sa famille et de sa foi chrétienne par son père Lusignan et son frère Nérestan, l'héroïne est victime d'un quiproquo fatal dicté par la jalousie d'Orosmane. Cette tragédie humaniste explore avec acuité la tolérance religieuse, la fatalité du fanatisme et la noblesse des sentiments brisés par les préjugés du monde.</p>"
   },
+
+  "bapteme_du_christ_jourdain": {
+    "id": "bapteme_du_christ_jourdain",
+    "badge": "RÉCIT ÉVANGÉLIQUE",
+    "title": "Le Baptême du Christ dans le Jourdain",
+    "subtitle": "L'inauguration du ministère public de Jésus et la manifestation de la Trinité",
+    "desc": "<p>Épisode fondateur consigné par les quatre Évangiles synoptiques, le baptême de Jésus par Jean le Baptiste dans les eaux du Jourdain marque le début de la vie publique du Messie. Alors que Jean prêchait un baptême de repentance, Jésus se présente à lui dans un geste d'humilité souveraine. Au moment où le Christ sort de l'eau, le ciel s'ouvre, l'Esprit Saint descend sous l'aspect corporel d'une colombe, et la voix du Père résonne : « Celui-ci est mon Fils bien-aimé, en qui j'ai mis toute mon affection ». Cet événement constitue la première théophanie trinitaire explicite du Nouveau Testament.</p><p>Dans l'iconographie chrétienne, de Verrocchio et Léonard de Vinci à Piero della Francesca, la scène rassemble le fleuve d'eau vive, les anges recueillant les vêtements du Sauveur et les symboles de renouveau spirituel, signifiant la rédemption de l'humanité et la victoire sur la mort.</p>",
+    "keywords": ["bapteme", "baptême", "jourdain", "jean baptiste", "saint esprit", "colombe", "jesus", "christ", "verrocchio"]
+  },
+  "vierge_aux_rochers_rencontre_apocryphe": {
+    "id": "vierge_aux_rochers_rencontre_apocryphe",
+    "badge": "TRADITION APOCRYPHE",
+    "title": "La Rencontre au Désert : L'Enfant Jésus et Saint Jean-Baptiste",
+    "subtitle": "L'épisode mystique de la Fuite en Égypte au cœur du paysage minéral",
+    "desc": "<p>Tiré des traditions chrétiennes apocryphes et des <em>Méditations sur la vie du Christ</em> du Pseudo-Bonaventure, ce récit relate la rencontre miraculeuse entre la Sainte Famille et le jeune Jean le Baptiste réfugié au désert durant la Fuite en Égypte pour échapper au massacre des Innocents ordonné par Hérode. Accompagné de l'archange Uriel, le petit Jean reconnaît immédiatement la divinité de son cousin et s'agenouille en adoration, recevant la bénédiction du Sauveur sous le regard protecteur de Marie.</p><p>Léonard de Vinci a magnifié cette scène dans <em>La Vierge aux rochers</em> en la transposant dans un décor géologique mystérieux de cavernes et d'eaux primordiales, unissant la pureté virginale de Marie à la genèse du cosmos et à la préfiguration du sacrifice pascal.</p>",
+    "keywords": ["vierge aux rochers", "rochers", "grotte", "rencontre", "fuite en egypte", "uriel", "jean baptiste enfant", "jesus enfant"]
+  },
+  "sainte_anne_trinitaire_lignee": {
+    "id": "sainte_anne_trinitaire_lignee",
+    "badge": "THÉOLOGIE MARIALE",
+    "title": "Sainte Anne Trinitaire : La Généalogie du Salut",
+    "subtitle": "La lignée divine d'Anne, Marie et Jésus face au destin sacrificiel",
+    "desc": "<p>Le motif théologique de Sainte Anne trinitaire (<em>Anna Metterza</em>) réunit trois générations en un même groupe pyramidal : sainte Anne, sa fille la Vierge Marie et l'Enfant Jésus. Très populaire à la fin du Moyen Âge et à la Renaissance, cette dévotion souligne l'Immaculée Conception de Marie et l'incarnation charnelle du Verbe au sein d'une lignée humaine sanctifiée.</p><p>Léonard de Vinci y insuffle un dynamisme plastique et psychologique révolutionnaire : l'Enfant saisit un agneau sacrificiel — préfiguration de la Passion —, tandis que Marie tente maternellement de le retenir et qu'Anne, incarnation de l'Église et de la Providence divine, accepte avec sérénité le sacrifice nécessaire à la rédemption des hommes.</p>",
+    "keywords": ["sainte anne", "sainte anne trinitaire", "agneau", "passion", "lignee", "generations", "immaculee conception"]
+  },
+  "saint_jean_baptiste_precurseur_desert": {
+    "id": "saint_jean_baptiste_precurseur_desert",
+    "badge": "FIGURE ÉVANGÉLIQUE",
+    "title": "Saint Jean-Baptiste : Le Précurseur et la Voix du Désert",
+    "subtitle": "Le dernier des prophètes de l'Ancienne Alliance annonçant la Lumière du monde",
+    "desc": "<p>Fils de Zacharie et d'Élisabeth, saint Jean le Baptiste est le prophète charnière entre l'Ancien et le Nouveau Testament. Ermite austère vêtu d'une peau de chameau, il baptise dans le Jourdain en clamant : « Je suis la voix de celui qui crie dans le désert : Aplanissez le chemin du Seigneur ». Désignant Jésus comme l'Agneau de Dieu qui ôte le péché du monde, il s'efface humblement devant le Messie (« Il faut qu'il grandisse et que je diminue »).</p><p>Dans le chef-d'œuvre testamentaire de Léonard de Vinci, Jean-Baptiste émerge des ténèbres absolues grâce au sfumato, pointant son index vers le ciel d'un geste universel pour diriger l'attention du spectateur vers la révélation mystique du Dieu invisible.</p>",
+    "keywords": ["jean baptiste", "precurseur", "index", "voie", "desert", "agneau de dieu", "prophete", "sfumato"]
+  },
 };
 
 
@@ -3813,3 +3846,10 @@ window.BACKGROUNDS_REGISTRY["jardin_des_oliviers"] = window.BACKGROUNDS_REGISTRY
 window.BACKGROUNDS_REGISTRY["democrite"] = window.BACKGROUNDS_REGISTRY["democrite_philosophe_rieur_heraclite"];
 
 window.BACKGROUNDS_REGISTRY["leda_et_le_cygne"] = window.BACKGROUNDS_REGISTRY["leda_et_le_cygne_metamorphose_zeus"];
+
+window.BACKGROUNDS_REGISTRY["bapteme_du_christ"] = window.BACKGROUNDS_REGISTRY["bapteme_du_christ_jourdain"];
+window.BACKGROUNDS_REGISTRY["vierge_aux_rochers"] = window.BACKGROUNDS_REGISTRY["vierge_aux_rochers_rencontre_apocryphe"];
+window.BACKGROUNDS_REGISTRY["sainte_anne"] = window.BACKGROUNDS_REGISTRY["sainte_anne_trinitaire_lignee"];
+window.BACKGROUNDS_REGISTRY["saint_jean_baptiste"] = window.BACKGROUNDS_REGISTRY["saint_jean_baptiste_precurseur_desert"];
+window.BACKGROUNDS_REGISTRY["eliezer_et_rebecca"] = window.BACKGROUNDS_REGISTRY["eliezer_et_rebecca_genese"];
+window.BACKGROUNDS_REGISTRY["sainte_catherine"] = window.BACKGROUNDS_REGISTRY["mariage_mystique_sainte_catherine"];

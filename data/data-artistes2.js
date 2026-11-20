@@ -1,6 +1,6 @@
 /* ==========================================================================
-   REGISTRE DES PEINTRES & NOTICES MONOGRAPHIQUES - VOLUME 2
-   Contient les nouveaux maîtres intégrés au portail (Hopper, Ingres, etc.)
+   PORTAIL DES ARTS — DATA ARTISTES 2 (SUITE ALPHABÉTIQUE)
+   Monographies enrichies d'artistes majeurs (Hopper, Ingres, etc.)
    ========================================================================== */
 window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   "hopper": {
@@ -14531,7 +14531,217 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "vinci": {
+  "id": "vinci",
+  "name": "Vinci Léonard (Leonardo da Vinci)",
+  "sortName": "Vinci Léonard",
+  "sortLetter": "V",
+  "dates": "1452 – 1519",
+  "movement": "Haute Renaissance florentine & milanaise (Sfumato, Perspective atmosphérique & Science de la nature)",
+  "nationality": "Italienne (Florence, Milan, Amboise)",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNa82pQxJZJHbcQnf2dlaFdJVGgwcExv-Zrw_JfP2AEAAQ6t6Bg8LwD7QhIhqFXmNhX28oytzF5fYf2C4duDMzem4qKj58moqMNi69aFCxkCJJNzR9R_TJWpdN-bHKHamUdlNrccrE4L9HOym6a9-EVRQ=w1836-h779-s-no-gm?authuser=0",
+  "bio": "<p><strong>Léonard de Vinci</strong> (Leonardo di ser Piero da Vinci, 1452 – 1519), né à Vinci près de Florence et mort au château du Clos Lucé à Amboise, est l'incarnation absolue de l'« Homme universel » de la Renaissance (<em>Homo universalis</em>). Son génie visionnaire a embrassé avec une égale ferveur la peinture, l'anatomie humaine et animale, l'ingénierie civile et militaire, la géologie, l'optique et l'hydraulique. Formé au sein du prestigieux atelier polytechnique d'Andrea del Verrocchio à Florence, il a exercé son art entre Florence, la cour ducale de Ludovic Sforza (dit le More) à Milan, Rome sous le pontificat des Médicis, et enfin la France où il a passé les trois dernières années de sa vie comme « premier peintre, ingénieur et architecte du Roi » François Ier. Bien qu'il ait laissé un nombre restreint de peintures achevées — souvent ralenti par sa curiosité encyclopédique et sa quête insurmontable de perfection —, chacune de ses toiles a provoqué un séisme esthétique, redéfinissant à jamais les règles de la représentation picturale en Occident.</p><p>Son genre pictural est fondé sur une observation scientifique et empirique rigoureuse des lois de la nature et des phénomènes physiques. Pour Léonard, la peinture n'est pas un simple artisanat, mais une « chose mentale » (<em>cosa mentale</em>) et la reine de toutes les sciences, capable de révéler les mécanismes cachés de la Création. Il est le créateur et le maître incontesté du <strong>sfumato</strong> (« enfumé »), une technique révolutionnaire consistant à superposer de multiples couches de glacis translucides (jusqu'à une trentaine de couches de quelques micromètres d'épaisseur) afin de dissoudre les contours nets et les lignes géométriques rigides. Cette transition imperceptible entre ombre et lumière mime l'acuité visuelle de l'œil humain et traduit la présence palpable de l'air et de l'humidité. Ses compositions religieuses et ses portraits sublimes (dont <em>La Joconde</em>, <em>La Cène</em> ou <em>La Vierge aux rochers</em>) se caractérisent par une profondeur psychologique inédite, où les postures en spirale (<em>contrapposto</em>) et les expressions fugaces traduisent ce que Léonard nommait les « mouvements de l'âme » (<em>moti mentali</em>).</p><p>L'évolution de son art illustre une trajectoire magistrale : partant de la précision graphique lumineuse et de la virtuosité orfèvre héritées de Verrocchio (<em>Le Baptême du Christ</em>, <em>L'Annonciation</em>), il plonge rapidement dans une étude vertigineuse de l'obscurité, de l'espace atmosphérique et de l'unité dramatique (<em>L'Adoration des Mages</em>, <em>La Vierge aux rochers</em>). À la maturité milanaise et florentine succède une période d'expérimentations spatiales et géologiques grandioses, culminant dans la composition pyramidale fluide de <em>Sainte Anne</em> et la poésie mélancolique de <em>La Scapigliata</em>, jusqu'à son testament spirituel avec <em>Saint Jean-Baptiste</em>, où la figure androgyne et luminescente semble surgir du mystère primordial de l'infini.</p>",
+  "corpus": {
+    "total": 17,
+    "paintingsCount": 17,
+    "drawingsCount": null,
+    "engravingsCount": null,
+    "sculpturesCount": null,
+    "seenCount": 11,
+    "source": "Consensus scientifique (peintures sur panneau et murales conservées)",
+    "totalOeuvresEstimees": "17 peintures conservées",
+    "oeuvresConsensusNotice": "En retenant exclusivement les peintures sur panneau et peintures murales conservées de sa main (y compris ses premières participations majeures chez Verrocchio comme Le Baptême du Christ et les œuvres largement attribuées comme La Belle Ferronnière ou le Salvator Mundi selon les critères muséaux), le consensus scientifique fixe son corpus officiel conservé à 17 œuvres."
+  },
+  "timeline": {
+    "periods": [
+      {
+        "title": "Jeunesse florentine & Atelier de Verrocchio",
+        "years": "1452 – 1481",
+        "color": "#d4af37",
+        "summary": "Apprentissage d'orfèvrerie et de peinture auprès de Verrocchio, premiers chefs-d'œuvre et invention de la perspective atmosphérique.",
+        "events": [
+          {
+            "year": "1452",
+            "title": "Naissance à Vinci",
+            "desc": "Naissance le 15 avril 1452 dans le bourg toscan de Vinci, fils illégitime du notaire ser Piero et d'une paysanne nommée Caterina.",
+            "type": "context",
+            "badge": "BIOGRAPHIE",
+            "icon": "🌱"
+          },
+          {
+            "year": "1469",
+            "title": "Entrée dans la Bottega d'Andrea del Verrocchio",
+            "desc": "Rejoint à Florence l'atelier le plus renommé de la ville, apprenant le dessin de drapés, la fonte du bronze, la chimie des pigments et l'optique.",
+            "type": "context",
+            "badge": "FORMATION",
+            "icon": "🏛️"
+          },
+          {
+            "year": "1472 – 1475",
+            "title": "Le Baptême du Christ (Offices, Florence)",
+            "desc": "Intervention magistrale aux côtés de Verrocchio : Léonard peint l'ange de gauche au sfumato vaporeux et le paysage brumeux.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "✨",
+            "artworkId": "vinci_bapteme_du_christ_offices_1472"
+          },
+          {
+            "year": "1472 – 1475",
+            "title": "L'Annonciation (Offices, Florence)",
+            "desc": "Première commande autonome d'envergure, inaugurant l'ouverture sur le paysage infini et l'étude anatomique des ailes d'oiseau.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🕊️",
+            "artworkId": "vinci_annonciation_offices_1472"
+          },
+          {
+            "year": "v. 1475",
+            "title": "La Madone à l'œillet (Alte Pinakothek, Munich)",
+            "desc": "Expérimentation précoce du clair-obscur et d'une ferveur maternelle où l'œillet préfigure le sacrifice du Calvaire.",
+            "type": "masterpiece",
+            "badge": "JALON MAJEUR",
+            "icon": "🌹"
+          },
+          {
+            "year": "1481",
+            "title": "L'Adoration des Mages (Offices, Florence)",
+            "desc": "Panneau monumental inachevé commandé par San Donato a Scopeto : tourbillon d'émotions et manifeste des mouvements de l'âme.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "👑",
+            "artworkId": "vinci_adoration_des_mages_offices_1481"
+          }
+        ]
+      },
+      {
+        "title": "Premier séjour milanais & Cour des Sforza",
+        "years": "1482 – 1499",
+        "color": "#38bdf8",
+        "summary": "Service auprès du duc Ludovic Sforza : ingénierie, scénographies princières, portraits de cour et chefs-d'œuvre religieux monumentaux.",
+        "events": [
+          {
+            "year": "1482",
+            "title": "Installation à Milan auprès de Ludovic le More",
+            "desc": "Présente une lettre fameuse vantant ses compétences d'ingénieur militaire, de bâtisseur, d'organisateur de fêtes et de peintre.",
+            "type": "context",
+            "badge": "MÉCÉNAT",
+            "icon": "⚔️"
+          },
+          {
+            "year": "1483 – 1486",
+            "title": "La Vierge aux rochers (Musée du Louvre)",
+            "desc": "Première version commandée par la confrérie de l'Immaculée Conception : apogée du sfumato au cœur d'une grotte primordiale.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "💎",
+            "artworkId": "vinci_la_vierge_aux_rochers_louvre_1483"
+          },
+          {
+            "year": "v. 1490",
+            "title": "La Belle Ferronnière (Musée du Louvre)",
+            "desc": "Effigie fascinante de Lucrezia Crivelli : regard intense, modelé sculptural et expression énigmatique de la vie intérieure.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "👑",
+            "artworkId": "vinci_la_belle_ferronniere_louvre_1490"
+          },
+          {
+            "year": "1495 – 1498",
+            "title": "La Cène (Santa Maria delle Grazie, Milan)",
+            "desc": "Fresque murale monumentale au réfectoire des dominicains : saisie tragique du moment où le Christ annonce la trahison.",
+            "type": "masterpiece",
+            "badge": "MONUMENT",
+            "icon": "🍷"
+          }
+        ]
+      },
+      {
+        "title": "Itinérances, Retours à Florence & Seconde Maturité",
+        "years": "1500 – 1515",
+        "color": "#a855f7",
+        "summary": "Période nomade entre Mantoue, Venise, Florence et Milan, marquée par les recherches hydrauliques et les grands portraits universels.",
+        "events": [
+          {
+            "year": "1501",
+            "title": "Sainte Anne, la Vierge et l'Enfant (Musée du Louvre)",
+            "desc": "Commencée à Florence et travaillée jusqu'à sa mort : pyramide vivante reliant trois générations au destin sacrificiel.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "🐑",
+            "artworkId": "vinci_sainte_anne_la_vierge_et_l_enfant_louvre_1501"
+          },
+          {
+            "year": "1501",
+            "title": "La Madone aux fuseaux (Édimbourg)",
+            "desc": "Composition intimiste peinte pour Florimond Robertet, où l'Enfant contemple le fuseau en forme de croix.",
+            "type": "masterpiece",
+            "badge": "JALON MAJEUR",
+            "icon": "🧶"
+          },
+          {
+            "year": "1503 – 1506",
+            "title": "La Joconde (Mona Lisa) & La Bataille d'Anghiari",
+            "desc": "Entreprend le portrait de Lisa Gherardini au Louvre et la fresque disparue du Palazzo Vecchio en rivalité avec Michel-Ange.",
+            "type": "masterpiece",
+            "badge": "LÉGENDE",
+            "icon": "👁️"
+          },
+          {
+            "year": "1503 – 1508",
+            "title": "La Vierge aux rochers - Seconde version (National Gallery, Londres)",
+            "desc": "Version achevée pour Milan aux tonalités plus froides et sculpturales, affirmant la pureté céleste de Marie.",
+            "type": "masterpiece",
+            "badge": "JALON MAJEUR",
+            "icon": "⛰️"
+          },
+          {
+            "year": "v. 1508",
+            "title": "La Scapigliata (Galerie nationale de Parme)",
+            "desc": "Tête de jeune fille échevelée en terre d'ombre et céruse sur bois : miracle d'introspection et de grâce suspendue.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "💫",
+            "artworkId": "vinci_la_scapigliata_parme_1509"
+          }
+        ]
+      },
+      {
+        "title": "Rome & Les Dernières Années en France",
+        "years": "1516 – 1519",
+        "color": "#ec4899",
+        "summary": "Séjour au Vatican sous Léon X, puis installation triomphale à Amboise auprès de François Ier comme premier peintre du Roi.",
+        "events": [
+          {
+            "year": "1513 – 1516",
+            "title": "Saint Jean-Baptiste (Musée du Louvre)",
+            "desc": "Ultime chef-d'œuvre testamentaire : figure luminescente émergeant de la nuit et désignant le ciel d'un sourire énigmatique.",
+            "type": "masterpiece",
+            "badge": "CHEF-D'ŒUVRE",
+            "icon": "👆",
+            "artworkId": "vinci_saint_jean_baptiste_louvre_1513"
+          },
+          {
+            "year": "1516",
+            "title": "Arrivée au Manoir du Clos Lucé à Amboise",
+            "desc": "Invité par le jeune roi François Ier qui lui offre une pension royale, lui confiant l'urbanisme de Romorantin et les fêtes de cour.",
+            "type": "context",
+            "badge": "COUR ROYALE",
+            "icon": "👑"
+          },
+          {
+            "year": "1519",
+            "title": "Mort à Amboise",
+            "desc": "S'éteint le 2 mai 1519 à l'âge de 67 ans au Clos Lucé, léguant ses précieux carnets, manuscrits et dessins à Francesco Melzi.",
+            "type": "context",
+            "badge": "MÉMOIRE",
+            "icon": "🕊️"
+          }
+        ]
+      }
+    ]
   }
+}
 });
 
 
@@ -14770,3 +14980,9 @@ window.ARTISTS_REGISTRY["le_brun_elisabeth"] = window.ARTISTS_REGISTRY["vigee_le
 window.ARTISTS_REGISTRY["marie_denise_villers"] = window.ARTISTS_REGISTRY["villers"];
 window.ARTISTS_REGISTRY["villers_marie_denise"] = window.ARTISTS_REGISTRY["villers"];
 window.ARTISTS_REGISTRY["marie_denise_lemoine"] = window.ARTISTS_REGISTRY["villers"];
+
+window.ARTISTS_REGISTRY["leonard_de_vinci"] = window.ARTISTS_REGISTRY["vinci"];
+window.ARTISTS_REGISTRY["leonardo_da_vinci"] = window.ARTISTS_REGISTRY["vinci"];
+window.ARTISTS_REGISTRY["de_vinci"] = window.ARTISTS_REGISTRY["vinci"];
+window.ARTISTS_REGISTRY["da_vinci"] = window.ARTISTS_REGISTRY["vinci"];
+window.ARTISTS_REGISTRY["leonardo"] = window.ARTISTS_REGISTRY["vinci"];
