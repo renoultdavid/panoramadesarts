@@ -3721,7 +3721,63 @@ window.BACKGROUNDS_REGISTRY = {
     "vanité du monde"
   ],
   "text": "<p>Dans la philosophie morale de l'Antiquité gréco-romaine, Démocrite d'Abdère (v. 460 – 370 av. J.-C.) forme un diptyque allégorique légendaire avec Héraclite d'Éphèse. Alors qu'Héraclite pleurait perpétuellement sur la misère, l'inconstance et l'aveuglement des hommes, Démocrite ne paraissait jamais en public sans éclater d'un rire inextinguible, considérant que toutes les entreprises humaines — l'ambition, les honneurs, l'amassement des richesses — n'étaient que pure folie et dérisoire vanité face à l'immensité de la nature atomique.</p><p>Redécouvert avec ferveur par les humanistes de la Renaissance (Érasme, Montaigne) puis repris magistralement au Siècle d'or par Vélasquez, Ribera ou Rembrandt, le rire de Démocrite devient une vanité picturale subversive. En désignant le globe terrestre d'un sourire narquois, le penseur rieur invite le spectateur à une distance lucide et désabusée : rire de la comédie du monde pour ne pas en mourir de chagrin.</p>"
-}
+},
+  "sainte_praxede_martyrs_rome": {
+    "id": "sainte_praxede_martyrs_rome",
+    "badge": "HAGIOGRAPHIE CHRÉTIENNE",
+    "title": "Sainte Praxède : La Dévotion aux Martyrs et le Recueillement du Sang",
+    "subtitle": "La charité héroïque des premiers siècles de l'Église romaine",
+    "desc": "<p>Vierge romaine du IIe siècle, sainte Praxède (fille du sénateur Pudens et sœur de sainte Pudentienne) incarna le dévouement suprême envers les premiers chrétiens persécutés. Bravant les décrets impériaux, elle recueillait et enterrait les corps des martyrs, épongeant pieusement leur sang versé dans un puits ou une urne sacrée pour en préserver la relique sainte. Son geste, mêlant compassion mystique et acte de piété silencieuse, a inspiré aux artistes de la Contre-Réforme une méditation poignante sur le sacrifice, la fidélité évangélique et la charité agissante face à la tyrannie.</p>"
+  },
+  "mariage_mystique_sainte_catherine": {
+    "id": "mariage_mystique_sainte_catherine",
+    "badge": "MYSTIQUE CHRÉTIENNE",
+    "title": "Le Mariage Mystique de Sainte Catherine d'Alexandrie",
+    "subtitle": "L'union spirituelle de la princesse martyre avec l'Enfant Jésus",
+    "desc": "<p>Selon la Légende dorée de Jacques de Voragine, sainte Catherine d'Alexandrie, princesse d'Égypte renommée pour son immense érudition et sa beauté, refusa d'épouser tout prétendant mortel. Après avoir reçu le baptême, elle eut la vision sublime de la Vierge Marie lui présentant l'Enfant Jésus, qui passa un anneau à son doigt, la consacrant comme son épouse spirituelle. Cette alliance mystique, préfiguration de son martyre sous l'empereur Maxence, est devenue l'un des motifs les plus célébrés de l'art européen, incarnant l'élévation de l'âme par la foi, le renoncement aux grandeurs terrestres et la pureté céleste.</p>"
+  },
+  "eliezer_et_rebecca_genese": {
+    "id": "eliezer_et_rebecca_genese",
+    "badge": "ANCIEN TESTAMENT",
+    "title": "Éliézer et Rebecca au Puits",
+    "subtitle": "La providence divine et la quête de l'épouse d'Isaac (Genèse 24)",
+    "desc": "<p>Envoyé en Mésopotamie par le patriarche Abraham pour trouver une épouse digne de son fils Isaac au sein de sa parenté, le fidèle serviteur Éliézer pria Dieu de lui accorder un signe près du puits de Nahor : la jeune fille qui offrirait spontanément à boire à ses chameaux serait l'élue. Rebecca, par sa générosité et sa grâce prévenante, accomplit exactement ce présage. Éliézer lui offrit des parures d'or avant de la conduire en terre promise. Cet épisode pastoral et providentiel célèbre l'hospitalité bienveillante, la fidélité aux alliances sacrées et la souveraineté du destin divin guidant les pères fondateurs.</p>"
+  },
+  "jupiter_foudroyant_les_vices_allegorie": {
+    "id": "jupiter_foudroyant_les_vices_allegorie",
+    "badge": "ALLÉGORIE CIVIQUE & MYTHOLOGIE",
+    "title": "Jupiter Foudroyant les Vices : La Justice Souveraine",
+    "subtitle": "Le triomphe de l'ordre moral et républicain sur les passions destructrices",
+    "desc": "<p>Commandé pour le plafond de la Salle des Audiences du Conseil des Dix au Palais des Doges de Venise, ce thème allégorique et mythologique figure Jupiter, maître de l'Olympe juché sur son aigle, précipitant sa foudre céleste pour anéantir les Vices personnifiés (la Trahison, l'Avarice, la Discorde, l'Orgueil). Conçu comme un manifeste politique et éthique de la Sérénissime, le sujet affirme l'inflexibilité de la justice d'État face à la corruption et aux complots, célébrant l'harmonie civique garantie par une vigilance implacable.</p>"
+  },
+  "intercession_vierge_peste": {
+    "id": "intercession_vierge_peste",
+    "badge": "DEVOTION & ART SACRÉ",
+    "title": "L'Intercession Mariale : Le Christ Arrêtant la Peste",
+    "subtitle": "La supplication de la Vierge Marie protectrice contre les épidémies",
+    "desc": "<p>Face aux ravages récurrents des épidémies de peste qui décimaient les cités européennes à la Renaissance, les communautés religieuses et civiques plaçaient leur salut dans l'intercession de la Mère de Dieu. Représentant le Christ irrité prêt à punir l'humanité mais apaisé par la prière instante et miséricordieuse de la Vierge à genoux, ce thème incarne la fonction médiatrice de Marie comme refuge des pécheurs et consolatrice des affligés, rappelant la fragilité humaine face aux fléaux invisibles et la primauté de l'espérance spirituelle.</p>"
+  },
+  "saint_barnabe_guerison_miracle": {
+    "id": "saint_barnabe_guerison_miracle",
+    "badge": "ACTES DES APÔTRES & HAGIOGRAPHIE",
+    "title": "Saint Barnabé Guérissant les Malades",
+    "subtitle": "Le pouvoir thaumaturgique et la charité fraternelle de l'apôtre chypriote",
+    "desc": "<p>Compagnon dévoué de saint Paul et figure fondatrice des premières missions chrétiennes à Antioche et à Chypre, l'apôtre Barnabé (dont le nom signifie « fils d'encouragement ») se distingua par son zèle évangélique et son pouvoir de guérison conféré par l'Esprit Saint. Posant les mains sur les infirmes et les lépreux ou proclamant l'Évangile au milieu des foules souffrantes, il incarne la tendresse active de l'Église primitive, où le miracle physique est inséparable de la rédemption spirituelle et du soulagement des corps meurtris.</p>"
+  },
+  "persee_delivrant_andromede": {
+    "id": "persee_delivrant_andromede",
+    "badge": "MYTHOLOGIE GRECQUE & MÉTAMORPHOSES",
+    "title": "Persée Délivrant Andromède du Monstre Marin",
+    "subtitle": "La victoire héroïque sur les ténèbres océaniques et la conquête de l'amour",
+    "desc": "<p>Chanté par Ovide dans les Métamorphoses, le mythe de Persée et Andromède narre le sauvetage in extremis de la princesse éthiopienne, enchaînée à un récif marin en sacrifice au monstre Céto pour expier l'orgueil de sa mère Cassiopée. Fendant les airs grâce à ses sandales ailées après avoir tranché la tête de Méduse, Persée fond sur la bête féroce, la terrasse de son glaive et libère la jeune captive. Le récit symbolise la victoire de l'intelligence et du courage héroïque sur le chaos aveugle, célébrant l'affranchissement de la beauté innocente.</p>"
+  },
+  "zaire_tragedie_voltaire_opera": {
+    "id": "zaire_tragedie_voltaire_opera",
+    "badge": "LITTÉRATURE & THÉÂTRE DES LUMIÈRES",
+    "title": "Zaïre de Voltaire : Tragédie du Devoir et de la Passion",
+    "subtitle": "Le dilemme tragique entre amour d'Orient et fidélité chrétienne",
+    "desc": "<p>Créée en 1732 à la Comédie-Française, Zaïre est l'un des chefs-d'œuvre dramatiques majeurs de Voltaire. Située à Jérusalem au temps des Croisades, la pièce met en scène la captive chrétienne Zaïre, aimée passionnément du noble sultan Orosmane. Déchirée entre son amour pour le prince musulman et la révélation inopinée de sa famille et de sa foi chrétienne par son père Lusignan et son frère Nérestan, l'héroïne est victime d'un quiproquo fatal dicté par la jalousie d'Orosmane. Cette tragédie humaniste explore avec acuité la tolérance religieuse, la fatalité du fanatisme et la noblesse des sentiments brisés par les préjugés du monde.</p>"
+  },
 };
 
 
@@ -3755,3 +3811,5 @@ window.BACKGROUNDS_REGISTRY["annonciation"] = window.BACKGROUNDS_REGISTRY["annon
 window.BACKGROUNDS_REGISTRY["gethsemani"] = window.BACKGROUNDS_REGISTRY["agonie_christ_jardin_des_oliviers_gethsemani"];
 window.BACKGROUNDS_REGISTRY["jardin_des_oliviers"] = window.BACKGROUNDS_REGISTRY["agonie_christ_jardin_des_oliviers_gethsemani"];
 window.BACKGROUNDS_REGISTRY["democrite"] = window.BACKGROUNDS_REGISTRY["democrite_philosophe_rieur_heraclite"];
+
+window.BACKGROUNDS_REGISTRY["leda_et_le_cygne"] = window.BACKGROUNDS_REGISTRY["leda_et_le_cygne_metamorphose_zeus"];

@@ -3822,6 +3822,13 @@ const DOMAIN_ICONS = {
 // Liaison sélective : sélection typologique équilibrée par grands domaines (sculpture, peinture, céramique, funéraire, orfèvrerie)
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ART_OBJECTS && window.ART_OBJECTS.length > 0) {
+    function cleanImgUrl(url) {
+      if (!url || typeof url !== 'string') return url;
+      if (url.includes('lh3.googleusercontent.com/d/') && !url.includes('=s')) {
+        url = url.split(/[?=]/)[0] + '=s1600';
+      }
+      return url.replace(/[?&]authuser=\d+/g, '').replace(/\?$/, '');
+    }
     // Normalisation préventive des images (fallback image / img vers imgSrc et réciproque) et des types d'œuvres
     window.ART_OBJECTS.forEach(art => {
       if (!art.imgSrc && (art.image || art.img)) {
@@ -3830,6 +3837,9 @@ window.addEventListener('DOMContentLoaded', () => {
       if (!art.image && art.imgSrc) {
         art.image = art.imgSrc;
       }
+      if (art.imgSrc) art.imgSrc = cleanImgUrl(art.imgSrc);
+      if (art.image) art.image = cleanImgUrl(art.image);
+      if (art.deptBanner) art.deptBanner = cleanImgUrl(art.deptBanner);
       if (!art.civId && (art.artist || art.artistId || (art.periodId && art.periodId.startsWith('occ')) || (art.id && (art.id.startsWith('occ_') || art.id.startsWith('peinture_'))))) {
         art.civId = 'occident';
       }
@@ -5586,8 +5596,17 @@ function classifyGlobalThemesAndSubthemes(a, recIdParam) {
   const title = (a.title || '').trim();
   const titleLow = title.toLowerCase();
   const cat = `${a.category || ''} ${a.subpart || ''}`.toLowerCase();
-  const themes = new Set(Array.isArray(a.themes) ? a.themes : []);
-  const subthemes = new Set(Array.isArray(a.subthemes) ? a.subthemes : []);
+
+  // Si des thèmes ont été explicitement déclarés sur l'objet au catalogue, ils font foi prioritaire
+  if (Array.isArray(a.themes) && a.themes.length > 0) {
+    return {
+      themes: new Set(a.themes),
+      subthemes: new Set(Array.isArray(a.subthemes) ? a.subthemes : [])
+    };
+  }
+
+  const themes = new Set();
+  const subthemes = new Set();
 
   // 1. AUTOPORTRAITS, ATELIER & INTROSPECTION
   const isSelfPortrait =
@@ -6158,10 +6177,11 @@ function renderArtistVerticalTimeline(artistRecord, timelineData, artistArts) {
       chapterEl.className = 'artist-v-chapter';
       chapterEl.style.setProperty('--chapter-color', pColor);
 
+      const periodTitle = period.title || period.name || (period.years ? `Période (${period.years})` : 'Période');
       chapterEl.innerHTML = `
         <div class="artist-v-chapter-header">
           <div class="artist-v-chapter-years">${escapeHtmlAttr(period.years || period.range || '')}</div>
-          <h3 class="artist-v-chapter-title">${escapeHtmlAttr(period.title || period.name || 'Période')}</h3>
+          <h3 class="artist-v-chapter-title">${escapeHtmlAttr(periodTitle)}</h3>
           ${period.summary ? `<div class="artist-v-chapter-summary">${escapeHtmlAttr(period.summary)}</div>` : ''}
         </div>
       `;
@@ -8328,7 +8348,10 @@ function populateModalData(art) {
     if (!this.dataset.fb && this.src.indexOf('/d/') !== -1) {
       this.dataset.fb = '1';
       var id = this.src.split('/d/')[1].split(/[?=]/)[0];
-      this.src = 'https://drive.google.com/thumbnail?id=' + id + '&sz=w1600';
+      this.src = 'https://lh3.googleusercontent.com/d/' + id + '=s1600';
+    } else if (!this.dataset.fb && this.src.indexOf('authuser=') !== -1) {
+      this.dataset.fb = '1';
+      this.src = this.src.replace(/[?&]authuser=\d+/g, '');
     }
   };
   modalImg.src = art.imgSrc;
@@ -11675,7 +11698,7 @@ function createGalleryCardElement(art, modalList) {
 
   card.innerHTML = `
     <div class="gallery-card-pedestal" style="position: relative;">
-      <img src="${art.imgSrc || art.image || ''}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.fb){this.dataset.fb='1';if(this.src.indexOf('/d/')!==-1){var id=this.src.split('/d/')[1].split(/[?=]/)[0];this.src='https://drive.google.com/thumbnail?id='+id+'&sz=w1600';}}" />
+      <img src="${art.imgSrc || art.image || ''}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="if(!this.dataset.fb){this.dataset.fb='1';if(this.src.indexOf('/d/')!==-1){var id=this.src.split('/d/')[1].split(/[?=]/)[0];this.src='https://lh3.googleusercontent.com/d/'+id+'=s1600';}else if(this.src.indexOf('authuser=')!==-1){this.src=this.src.replace(/[?&]authuser=\\d+/g,'');}}" />
       ${hasFocus ? `
         <span class="badge-corner-focus" title="Mode Focus disponible">
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>

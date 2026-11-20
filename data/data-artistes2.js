@@ -11730,8 +11730,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "title": "Formation & Bohème montmartroise (1882 – 1889)",
+          "title": "Formation & Bohème montmartroise",
           "years": "1882 – 1889",
+          "color": "#d4af37",
+          "summary": "Apprentissage académique aux ateliers Bonnat et Cormon puis installation définitive sur la butte Montmartre.",
           "events": [
             {
               "year": "1882 – 1884",
@@ -11752,8 +11754,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "L'Âge d'or du Moulin-Rouge & Révolution de l'Affiche (1889 – 1895)",
+          "title": "L'Âge d'or du Moulin-Rouge & Révolution de l'Affiche",
           "years": "1889 – 1895",
+          "color": "#d4af37",
+          "summary": "Chroniqueur graphique des cabarets parisiens et invention magistrale de l'affiche lithographique moderne.",
           "events": [
             {
               "year": "1889",
@@ -11782,8 +11786,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "Les Maisons Closes, le Déclin et l'Héritage (1895 – 1901)",
+          "title": "Les Maisons Closes, le Déclin et l'Héritage",
           "years": "1895 – 1901",
+          "color": "#d4af37",
+          "summary": "Immersion bienveillante dans le quotidien des maisons de tolérance, série du Cirque et disparition prématurée.",
           "events": [
             {
               "year": "1896",
@@ -11838,8 +11844,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "title": "Néoclassicisme & Apprentissage du Sublime (1790 – 1819)",
+          "title": "Néoclassicisme & Apprentissage du Sublime",
           "years": "1790 – 1819",
+          "color": "#d4af37",
+          "summary": "Formation à la Royal Academy, émulation avec les maîtres hollandais et Claude Lorrain dans la quête du Sublime.",
           "events": [
             {
               "year": "1799 – 1802",
@@ -11861,8 +11869,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "Le Choc de l'Italie & L'Ivresse Chromatique (1819 – 1839)",
+          "title": "Le Choc de l'Italie & L'Ivresse Chromatique",
           "years": "1819 – 1839",
+          "color": "#d4af37",
+          "summary": "Éblouissement face à la lumière vénitienne et romaine, libération souveraine de la couleur et chefs-d'œuvre maritimes.",
           "events": [
             {
               "year": "1819",
@@ -11883,8 +11893,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "L'Apothéose Visionnaire de la Lumière (1840 – 1851)",
+          "title": "L'Apothéose Visionnaire de la Lumière",
           "years": "1840 – 1851",
+          "color": "#d4af37",
+          "summary": "Dissolution quasi-abstraite des formes dans le rayonnement solaire, préfigurant l'impressionnisme moderne.",
           "events": [
             {
               "year": "1840",
@@ -11959,8 +11971,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "title": "Black Mountain College & Révélation de Rome (1950 – 1965)",
+          "title": "Black Mountain College & Révélation de Rome",
           "years": "1950 – 1965",
+          "color": "#d4af37",
+          "summary": "Émulation avec Rauschenberg, découverte fondatrice de la Méditerranée et installation définitive à Rome.",
           "events": [
             {
               "year": "1951 – 1952",
@@ -11981,8 +11995,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "Les Tableaux Noirs (Blackboards) & Mythologies (1966 – 1985)",
+          "title": "Les Tableaux Noirs (Blackboards) & Mythologies",
           "years": "1966 – 1985",
+          "color": "#d4af37",
+          "summary": "Série iconique des peintures à la craie sur fond gris et grands cycles inspirés de l'Iliade d'Homère.",
           "events": [
             {
               "year": "1966 – 1971",
@@ -12003,8 +12019,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "Apothéose Chromatique, Lépante & Bacchus (1986 – 2011)",
+          "title": "Apothéose Chromatique, Lépante & Bacchus",
           "years": "1986 – 2011",
+          "color": "#d4af37",
+          "summary": "Explosion dionysiaque de la matière picturale, cycles monumentaux de Lépante et décor pérenne du musée du Louvre.",
           "events": [
             {
               "year": "2001",
@@ -12067,8 +12085,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "title": "Apprentissage chez Ghiberti & Mosaïques vénitiennes (1407 – 1430)",
+          "title": "Apprentissage chez Ghiberti & Mosaïques vénitiennes",
           "years": "1407 – 1430",
+          "color": "#d4af37",
+          "summary": "Formation d'orfèvre et de sculpteur dans l'atelier de Lorenzo Ghiberti puis séjour à Venise comme maître mosaïste à Saint-Marc.",
           "events": [
             {
               "year": "1407 – 1414",
@@ -12089,8 +12109,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "Maturité florentine & Vertige de la Perspective (1431 – 1460)",
+          "title": "Maturité florentine & Vertige de la Perspective",
           "years": "1431 – 1460",
+          "color": "#d4af37",
+          "summary": "Élaboration passionnée de la perspective linéaire mathématique et création des fresques du Duomo et du triptyque de San Romano.",
           "events": [
             {
               "year": "1436",
@@ -12112,8 +12134,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "Dernières Années, Urbin & Poésie Nocturne (1461 – 1475)",
+          "title": "Dernières Années, Urbin & Poésie Nocturne",
           "years": "1461 – 1475",
+          "color": "#d4af37",
+          "summary": "Séjour à la cour d'Urbin pour le duc de Montefeltro et création de La Chasse nocturne, sommet de poésie géométrique.",
           "events": [
             {
               "year": "1465 – 1468",
@@ -12168,8 +12192,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "title": "Les Débuts & Montmagny (1903 – 1909)",
+          "title": "Les Débuts & Période de Montmagny",
           "years": "1903 – 1909",
+          "color": "#d4af37",
+          "summary": "Premières toiles thérapeutiques peintes sur le motif en banlieue nord sous l'impulsion de sa mère Suzanne Valadon.",
           "events": [
             {
               "year": "1903 – 1905",
@@ -12190,8 +12216,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "L'Apogée de la « Période Blanche » (1910 – 1914)",
+          "title": "L'Apogée de la « Période Blanche »",
           "years": "1910 – 1914",
+          "color": "#d4af37",
+          "summary": "Mélange novateur de plâtre, blanc de zinc et colle pour recréer la matière crayeuse des façades et ruelles montmartroises.",
           "events": [
             {
               "year": "1910 – 1912",
@@ -12212,8 +12240,10 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
           ]
         },
         {
-          "title": "La Période Colorée, Retraite et Légende (1915 – 1955)",
+          "title": "La Période Colorée, Retraite et Légende",
           "years": "1915 – 1955",
+          "color": "#d4af37",
+          "summary": "Évolution vers une palette plus vive, reconnaissance officielle et retraite paisible dans le Sud-Ouest.",
           "events": [
             {
               "year": "1928",
@@ -13821,9 +13851,9 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "domenico_veneziano": {
     "id": "domenico_veneziano",
-    "name": "Domenico Veneziano (Domenico di Bartolomeo)",
-    "sortName": "Domenico Veneziano",
-    "sortLetter": "D",
+    "name": "Veneziano Domenico (Domenico di Bartolomeo)",
+    "sortName": "Veneziano Domenico",
+    "sortLetter": "V",
     "dates": "v. 1410 – 1461",
     "movement": "Première Renaissance florentine (Quattrocento & Pittura di luce)",
     "nationality": "Italienne (Venise / Florence)",
@@ -13919,7 +13949,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "paolo_veneziano": {
     "id": "paolo_veneziano",
-    "name": "Paolo Veneziano",
+    "name": "Veneziano Paolo",
     "sortName": "Veneziano Paolo",
     "sortLetter": "V",
     "dates": "actif v. 1333 – 1358",
@@ -14016,6 +14046,491 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+  "vermeer": {
+      "id": "vermeer",
+      "name": "Vermeer Johannes",
+      "sortName": "Vermeer Johannes",
+      "sortLetter": "V",
+      "dates": "1632 – 1675",
+      "movement": "Âge d'or néerlandais (École de Delft & Intimisme optique)",
+      "nationality": "Néerlandaise",
+      "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNPeWRK3ah5fra5lehoa0XRSw9qX8rsLix5VHXwLzP5BTuh41hUloBHybnap0yxeUNUkwAuQ4xTm9YIo5_B-2foHd-F16Jv3o5uugM9GCunBmpfwR11N9VvWDHVxJwfiWHtP99onWi91ZLhoRG2aQF2kA=w1836-h779-s-no-gm",
+      "bio": "<p><strong>Johannes Vermeer</strong> (1632 – 1675), surnommé le « Sphinx de Delft », est l'une des figures les plus fascinantes et universellement admirées de la peinture occidentale. Longtemps oublié après sa mort prématurée à l'âge de 43 ans, puis redécouvert au milieu du XIXe siècle par le critique français Théophile Thoré-Bürger, il a bâti une œuvre d'une rareté et d'une perfection incomparables, comptant seulement une trentaine de toiles authentifiées. Vivant et travaillant toute son existence à Delft, il exerçait également le métier de marchand d'art et dirigea à deux reprises la prestigieuse guilde locale de Saint-Luc.</p><p>Son genre pictural de prédilection est la scène de genre intimiste et la vue urbaine topographique. À rebours de la verve narrative, du désordre joyeux ou de l'anecdote morale de ses contemporains comme Jan Steen ou Pieter de Hooch, Vermeer suspend le cours du temps dans des intérieurs bourgeois d'une pureté géométrique quasi mathématique. Son style se caractérise par une manipulation prodigieuse de la lumière diurne — pénétrant presque toujours par une baie vitrée latérale à gauche —, par l'usage virtuose du pointillé optique (<em>pointillé</em>) traduisant les éclats scintillants sur les objets, et par une palette somptueuse dominée par le bleu outremer naturel (lapis-lazuli précieux dont il usa sans compter), le jaune citron éclatant et les blancs nacrés.</p><p>L'évolution de sa création s'étend de ses débuts historiques et religieux inspirés du caravagisme d'Utrecht (<em>Sainte Praxède</em>, <em>Diane et ses compagnes</em>, 1655) à ses chefs-d'œuvre de pleine maturité méditative des années 1660 (<em>La Laitière</em>, <em>La Fille à la perle</em>, <em>Vue de Delft</em>, <em>L'Astronome</em>, <em>La Dentellière</em>). Dans ses toiles tardives des années 1670, comme <em>Une dame debout au virginal</em>, sa touche se fait plus stylisée et abstraite, consacrant une méditation visuelle insurpassée sur le silence, la réfraction lumineuse et l'harmonie secrète du monde visible.</p>",
+      "corpus": {
+          "total": 35,
+          "paintingsCount": 35,
+          "drawingsCount": null,
+          "engravingsCount": null,
+          "sculpturesCount": null,
+          "seenCount": 4,
+          "source": "Catalogues raisonnés Blankert (1978), Wheelock (1995), Liedtke (2008) & Rétrospective Rijksmuseum (2023)",
+          "totalOeuvresEstimees": "~35 peintures répertoriées",
+          "oeuvresConsensusNotice": "Le corpus de Johannes Vermeer est l'un des plus restreints et rigoureusement examinés de l'histoire de l'art. En s'appuyant sur les travaux de référence d'Albert Blankert, d'Arthur K. Wheelock Jr., de Walter Liedtke et sur le consensus scientifique établi lors de la rétrospective historique du Rijksmuseum d'Amsterdam en 2023, le nombre d'œuvres autographes authentifiées conservées dans le monde est fixé à environ 35 peintures."
+      },
+      "timeline": {
+          "periods": [
+              {
+                  "title": "Jeunesse, Formation & Peinture d'Histoire",
+                  "years": "1653 – 1658",
+                  "color": "#d4af37",
+                  "summary": "Inscription à la guilde de Saint-Luc de Delft, mariage avec Catharina Bolnes et premières toiles d'histoire religieuse et mythologique.",
+                  "events": [
+                      {
+                          "year": "1653",
+                          "title": "Entrée à la Guilde de Saint-Luc de Delft",
+                          "desc": "Admis comme maître peintre à la guilde des peintres de Delft le 29 décembre 1653, après avoir épousé Catharina Bolnes.",
+                          "type": "context",
+                          "badge": "MAÎTRISE",
+                          "icon": "🏛️"
+                      },
+                      {
+                          "year": "1655",
+                          "title": "Sainte Praxède (Tokyo, Musée d'Art occidental)",
+                          "desc": "Interprétation précoce inspirée du maître florentin Ficherelli : compassion mystique d'une jeune vierge romaine recueillant le sang des martyrs.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "✨",
+                          "artworkId": "vermeer_sainte_praxede_tokyo_1655"
+                      }
+                  ]
+              },
+              {
+                  "title": "L'Apogée de l'Intimisme & Magie de la Lumière",
+                  "years": "1658 – 1669",
+                  "color": "#d4af37",
+                  "summary": "Élaboration des scènes de genre intimistes illuminées par une fenêtre latérale, rigueur géométrique et poésie du silence.",
+                  "events": [
+                      {
+                          "year": "1662 – 1663",
+                          "title": "Doyen de la Guilde de Saint-Luc",
+                          "desc": "Élu doyen des peintres de Delft, témoignant de l'estime unanime de ses pairs malgré sa faible production commerciale.",
+                          "type": "context",
+                          "badge": "RECONNAISSANCE",
+                          "icon": "👑"
+                      },
+                      {
+                          "year": "1668",
+                          "title": "L'Astronome (Paris, Musée du Louvre)",
+                          "desc": "Savant en robe de chambre en soie observant un globe céleste : alliance sublime entre la recherche scientifique et la transcendance divine.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "🧭",
+                          "artworkId": "vermeer_l_astronome_louvre_1668"
+                      },
+                      {
+                          "year": "1669",
+                          "title": "La Dentellière (Paris, Musée du Louvre)",
+                          "desc": "Cadrage serré et concentration absolue d'une jeune femme penchée sur ses fuseaux, sommet d'économie expressive et de pureté plastique.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "🧵",
+                          "artworkId": "vermeer_la_dentelliere_louvre_1669"
+                      }
+                  ]
+              },
+              {
+                  "title": "Dernières Années, Allégories & Stylisation Pure",
+                  "years": "1670 – 1675",
+                  "color": "#d4af37",
+                  "summary": "Évolution vers un dessin plus linéaire et épuré, crise économique consécutive à l'invasion française (Rampjaar) et mort subite.",
+                  "events": [
+                      {
+                          "year": "v. 1670 – 1672",
+                          "title": "Une dame debout au virginal (Londres, National Gallery)",
+                          "desc": "Élégante au clavier sous l'égide d'un tableau d'Amour : célébration de l'harmonie musicale et de la fidélité amoureuse.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "🎶",
+                          "artworkId": "vermeer_dame_debout_au_virginal_londres_1670"
+                      },
+                      {
+                          "year": "1672",
+                          "title": "L'Année désastreuse (Rampjaar) & Ruine financière",
+                          "desc": "L'invasion des Provinces-Unies par la France de Louis XIV paralyse le marché de l'art, plongeant l'artiste et sa famille nombreuse dans la gêne.",
+                          "type": "history",
+                          "badge": "CRISE",
+                          "icon": "⚔️"
+                      },
+                      {
+                          "year": "1675",
+                          "title": "Mort à Delft & Inhumation à la Oude Kerk",
+                          "desc": "S'éteint brutalement le 15 décembre 1675 à 43 ans. Sa veuve doit céder plusieurs toiles pour régler ses dettes funéraires.",
+                          "type": "context",
+                          "badge": "DISPARITION",
+                          "icon": "🕊️"
+                      }
+                  ]
+              }
+          ]
+      }
+  },
+  "veronese": {
+      "id": "veronese",
+      "name": "Véronèse Paolo (Paolo Caliari)",
+      "sortName": "Véronèse Paolo",
+      "sortLetter": "V",
+      "dates": "1528 – 1588",
+      "movement": "Renaissance vénitienne (Cinquecento & Maniérisme triomphant)",
+      "nationality": "Italienne (Venise)",
+      "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPjnlGRerEXcYNcMG-o5GvmMoG5alFRrf27HjmFzz1OGXT4dQ8hSxlcdYemnD5pdMpG_QS2xLDr1_BXmhjH3n-92FdaPLg0HlMeV5X7TIl8NMDvaMomP91W1VHRtShBiwo_wRuU_GYCjjM6FnRNHjRiPA=w1836-h779-s-no-gm",
+      "bio": "<p><strong>Paolo Caliari, dit Véronèse</strong> (1528 – 1588), né à Vérone et mort à Venise, forme avec Titien et le Tintoret la triade souveraine de la peinture vénitienne du Cinquecento. Installé définitivement dans la cité des Doges au début des années 1550, il s'est imposé comme le peintre suprême du faste, de la lumière argentée et de l'opulence républicaine, traduisant dans des toiles colossales la splendeur triomphante de la Sérénissime à son apogée maritime et commerciale.</p><p>Son genre d'expression embrasse les immenses banquets bibliques transformés en festins aristocratiques, le grand décor de plafond en trompe-l'œil (<em>sotto in su</em>), les allégories politiques civiques et les scènes mythologiques galantes. Son style se singularise par une clarté lumineuse sereine qui s'oppose au dramatisme sombre du Tintoret : architectures palladiennes grandioses en marbre blanc, harmonies chromatiques éclatantes de brocarts dorés, soieries moirées, vert émeraude et lilas tendre, et mise en scène peuplée de courtisans, de musiciens et d'animaux exotiques.</p><p>Son parcours créateur est jalonné de commandes d'État et monastiques monumentales : le décor de l'église San Sebastiano, les fresques humanistes de la Villa Barbaro à Maser conçues avec Palladio, et les immenses Cènes (<em>Les Noces de Cana</em> du Louvre, <em>Le Repas chez Simon le Pharisien</em> de Versailles). Convoqué en 1573 par le tribunal de l'Inquisition pour avoir introduit des nains, des bouffons et des soldats allemands dans une Cène sacrée (rebaptisée <em>Le Repas chez Levi</em>), il revendiqua avec panache la liberté poétique absolue de l'artiste : « Nous autres peintres, nous prenons la même liberté que les poètes et les fous ».</p>",
+      "corpus": {
+          "total": 280,
+          "paintingsCount": 280,
+          "drawingsCount": null,
+          "engravingsCount": null,
+          "sculpturesCount": null,
+          "seenCount": 14,
+          "source": "Catalogues raisonnés Terisio Pignatti & Filippo Pedrocco (1995), Richard Cocke (2001) & Xavier F. Salomon",
+          "totalOeuvresEstimees": "~280 peintures et cycles décoratifs répertoriés",
+          "oeuvresConsensusNotice": "Le corpus authentifié de Paolo Véronèse et de son prolifique atelier familial (les héritiers Caliari) est établi par les inventaires critiques de Terisio Pignatti, Filippo Pedrocco et Richard Cocke. Il compte environ 280 toiles autographes d'envergure, cycles monumentaux de fresques et retables religieux conservés dans les musées internationaux (Louvre, Venise, Versailles, Londres, Madrid)."
+      },
+      "timeline": {
+          "periods": [
+              {
+                  "title": "Jeunesse à Vérone & Éclosion à Venise",
+                  "years": "1546 – 1555",
+                  "color": "#d4af37",
+                  "summary": "Formation auprès d'Antonio Badile à Vérone, assimilation du maniérisme mantouan et triomphe immédiat au Palais des Doges.",
+                  "events": [
+                      {
+                          "year": "1546 – 1548",
+                          "title": "Portrait de femme avec un enfant et un chien (Paris, Louvre)",
+                          "desc": "Noblesse vénitienne précoce : équilibre souverain entre l'intimité du lien maternel et la dignité aristocratique du costume d'apparat.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "👤",
+                          "artworkId": "veronese_portrait_de_femme_avec_enfant_et_chien_louvre_1546"
+                      },
+                      {
+                          "year": "1547",
+                          "title": "Le Mariage mystique de sainte Catherine (Tokyo, NMWA)",
+                          "desc": "Composition de jeunesse illustrant l'union mystique de l'Enfant divin et de la princesse martyre au cœur d'une atmosphère lumineuse.",
+                          "type": "context",
+                          "badge": "SACRÉ",
+                          "icon": "✨"
+                      },
+                      {
+                          "year": "1554",
+                          "title": "Jupiter foudroyant les Vices (Paris, Louvre)",
+                          "desc": "Plafond monumental commandé pour la Salle du Conseil des Dix au Palais des Doges : vertige de la perspective en contre-plongée (sotto in su).",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "⚡",
+                          "artworkId": "veronese_jupiter_foudroyant_les_vices_louvre_1554"
+                      }
+                  ]
+              },
+              {
+                  "title": "Les Grands Banquets, San Sebastiano & Villa Barbaro",
+                  "years": "1556 – 1572",
+                  "color": "#d4af37",
+                  "summary": "Décor intégral de San Sebastiano, collaboration avec Palladio à Maser et création des immenses banquets scénographiques.",
+                  "events": [
+                      {
+                          "year": "1559",
+                          "title": "Les Pèlerins d'Emmaüs (Paris, Louvre)",
+                          "desc": "Transposition spectaculaire de l'épisode évangélique dans une loggia patricienne, incluant les membres d'une illustre famille commanditaire.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "🍷",
+                          "artworkId": "veronese_les_pelerins_d_emmaus_louvre_1559"
+                      },
+                      {
+                          "year": "1560",
+                          "title": "Le Mariage mystique de sainte Catherine (Montpellier, Musée Fabre)",
+                          "desc": "Maturité classique éblouissante où les étoffes chatoyantes et les accords nacrés subliment la vision mystique.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "👑",
+                          "artworkId": "veronese_mariage_mystique_sainte_catherine_montpellier_1560"
+                      },
+                      {
+                          "year": "1565 – 1566",
+                          "title": "Grands retables de Rouen : Christ de la peste & Saint Barnabé",
+                          "desc": "Puissance dramatique de l'intercession mariale face aux épidémies et miracles thaumaturgiques de l'apôtre Barnabé.",
+                          "type": "context",
+                          "badge": "RETABLE",
+                          "icon": "🙏"
+                      },
+                      {
+                          "year": "1570",
+                          "title": "Le Repas chez Simon le Pharisien (Versailles)",
+                          "desc": "Colossal banquet biblique de près de 10 mètres de long, offert à Louis XIV par Venise et installé au Salon d'Hercule.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "🏛️",
+                          "artworkId": "veronese_repas_chez_simon_le_pharisien_versailles_1570"
+                      }
+                  ]
+              },
+              {
+                  "title": "Procès de l'Inquisition, Mythologies & Maturité Tardive",
+                  "years": "1573 – 1588",
+                  "color": "#d4af37",
+                  "summary": "Audition célèbre devant le Saint-Office en 1573, développement d'un ton plus sombre et méditatif et dernières toiles mythologiques.",
+                  "events": [
+                      {
+                          "year": "1573",
+                          "title": "Procès devant l'Inquisition vénitienne",
+                          "desc": "Accusé d'irrévérence pour des ajouts pittoresques dans une Cène, il défend victorieusement la liberté créatrice souveraine des peintres.",
+                          "type": "history",
+                          "badge": "INQUISITION",
+                          "icon": "📜"
+                      },
+                      {
+                          "year": "v. 1575 – 1580",
+                          "title": "Persée et Andromède (Rennes, Musée des Beaux-Arts)",
+                          "desc": "Héroïsme mythologique d'après Ovide : le preux volant délivre Andromède en pourfendant le monstre marin au milieu des vagues.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "🐉",
+                          "artworkId": "veronese_persee_et_andromede_rennes_1575"
+                      },
+                      {
+                          "year": "1580",
+                          "title": "La Crucifixion (Paris, Musée du Louvre)",
+                          "desc": "Ciel d'orage ténébreux sur le Golgotha : le maître délaisse le faste pour une gravité spirituelle bouleversante.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "✝️",
+                          "artworkId": "veronese_crucifixion_louvre_1580"
+                      },
+                      {
+                          "year": "v. 1580 – 1585",
+                          "title": "Suzanne et les vieillards (Paris, Musée du Louvre)",
+                          "desc": "Drame biblique de la vertu outragée dans un jardin clos, où la carnation nacrée de Suzanne s'oppose au complot des vieillards.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "🌹",
+                          "artworkId": "veronese_suzanne_et_les_vieillards_louvre_1580"
+                      },
+                      {
+                          "year": "1588",
+                          "title": "Mort à Venise & Inhumation à San Sebastiano",
+                          "desc": "Emporté par une pneumonie le 19 avril 1588 à 60 ans. Il repose au cœur de l'église San Sebastiano qu'il avait entièrement décorée.",
+                          "type": "context",
+                          "badge": "MÉMOIRE",
+                          "icon": "🕊️"
+                      }
+                  ]
+              }
+          ]
+      }
+  },
+  "vigee_le_brun": {
+      "id": "vigee_le_brun",
+      "name": "Vigée Le Brun Élisabeth",
+      "sortName": "Vigée Le Brun Élisabeth",
+      "sortLetter": "V",
+      "dates": "1755 – 1842",
+      "movement": "Néoclassicisme sentimental & Lumières (Portrait royal & sensibilité pré-romantique)",
+      "nationality": "Française",
+      "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNQoJGCOL5wU_fg4zBxao94X1dKq2LgWtHUoz2NSmXd7j822gPkMfUysbmCyhJ-L9dxAb4AL6yMHxrlgOQNyRPNAm2oXRFVPcZwB-SPgZv-VhkLlLn8CZZJTYFD56Bj2w48OOOBCCZlXhgxoXEqlqNxuw=w1836-h779-s-no-gm",
+      "bio": "<p><strong>Élisabeth Louise Vigée Le Brun</strong> (1755 – 1842), née et morte à Paris, est l'une des artistes les plus célèbres, douées et prolifiques de l'histoire de l'art européen, ainsi que l'une des rares femmes à s'être hissée au sommet absolu de la hiérarchie artistique sous l'Ancien Régime. Fille du pastelliste Louis Vigée, mariée au marchand d'art Jean-Baptiste-Pierre Le Brun, elle devint la peintre attitrée, confidente et amie intime de la reine Marie-Antoinette, renouvelant en profondeur le portrait officiel en y introduisant un naturel, une fraîcheur et une grâce sentimentale d'esprit rousseauiste.</p><p>Son genre d'expression est le portrait aristocratique, le portrait maternel intimiste et l'effigie d'apparat théâtrale. Son style se singularise par une maîtrise consommée des étoffes vaporeuses (moussellines blanches, velours soyeux, châles orientaux), par des chairs lumineuses aux carnations fraîches et par l'inauguration d'une convention expressive révolutionnaire : le sourire entrouvert découvrant les dents, défiant les codes compassés de l'Académie royale où elle fut admise en 1683 grâce à l'intervention directe du roi Louis XVI.</p><p>Contrainte à l'émigration dès la nuit du 5 au 6 octobre 1789 pour échapper à la vindicte révolutionnaire, elle entama une odyssée européenne triomphale de douze années à travers l'Italie (Rome, Naples, Venise), l'Autriche (Vienne) et la Russie impériale de Catherine II et Paul Ier à Saint-Pétersbourg. Partout sollicitée par les têtes couronnées, elle peignit avec une vitalité inaltérable avant de rentrer en France sous le Consulat et de rédiger ses captivants <em>Souvenirs</em>, précieux témoignage sur la douceur de vivre du XVIIIe siècle finissant.</p>",
+      "corpus": {
+          "total": 660,
+          "paintingsCount": 660,
+          "drawingsCount": null,
+          "engravingsCount": null,
+          "sculpturesCount": null,
+          "seenCount": 1,
+          "source": "Catalogue raisonné Joseph Baillio & Rétrospective Grand Palais / Met / Musée des Beaux-Arts du Canada (2015-2016)",
+          "totalOeuvresEstimees": "~660 peintures et pastels répertoriés",
+          "oeuvresConsensusNotice": "L'inventaire scientifique de référence établi par Joseph Baillio et les commissaires de la rétrospective internationale de 2015-2016 répertorie environ 660 peintures à l'huile et pastels, ainsi qu'environ 200 paysages et dessins, attestant d'une fécondité créatrice prodigieuse maintenue tout au long d'une carrière de plus de six décennies."
+      },
+      "timeline": {
+          "periods": [
+              {
+                  "title": "Jeunesse, Triomphe à Versailles & Marie-Antoinette",
+                  "years": "1770 – 1789",
+                  "color": "#d4af37",
+                  "summary": "Portraitiste précoce dès l'adolescence, réception à l'Académie royale de peinture et statut de peintre officielle de la reine de France.",
+                  "events": [
+                      {
+                          "year": "1778",
+                          "title": "Premier portrait officiel de Marie-Antoinette",
+                          "desc": "Appelée à Versailles pour immortaliser la reine en grand habit de cour ; début d'une complicité artistique et d'une amitié indéfectible.",
+                          "type": "context",
+                          "badge": "VERSAILLES",
+                          "icon": "👑"
+                      },
+                      {
+                          "year": "1783",
+                          "title": "Réception à l'Académie royale de peinture et de sculpture",
+                          "desc": "Admise le 31 mai 1783 avec La Paix ramenant l'Abondance sur ordre direct de Louis XVI, surmontant les réticences corporatistes.",
+                          "type": "context",
+                          "badge": "ACADÉMIE",
+                          "icon": "🏛️"
+                      }
+                  ]
+              },
+              {
+                  "title": "L'Émigration Dorée à travers l'Europe des Cours",
+                  "years": "1789 – 1802",
+                  "color": "#d4af37",
+                  "summary": "Fuite hors de France au déclenchement de la Révolution, succès éclatant à Rome, Naples, Vienne et Saint-Pétersbourg.",
+                  "events": [
+                      {
+                          "year": "1789 – 1792",
+                          "title": "Séjour en Italie & Académies de Rome et Florence",
+                          "desc": "Triomphe à Rome, Naples et Venise. Réalise son autoportrait pour la galerie des Offices et portraiture la reine Marie-Caroline de Naples.",
+                          "type": "context",
+                          "badge": "ITALIE",
+                          "icon": "🇮🇹"
+                      },
+                      {
+                          "year": "1795 – 1801",
+                          "title": "Apogée à la cour impériale de Russie (Saint-Pétersbourg)",
+                          "desc": "Six années de gloire sous Catherine II et Paul Ier : admise à l'Académie des Beaux-Arts de Saint-Pétersbourg et portraitiste de toute la noblesse russe.",
+                          "type": "context",
+                          "badge": "RUSSIE",
+                          "icon": "❄️"
+                      }
+                  ]
+              },
+              {
+                  "title": "Le Retour en France, Séjours à Londres & les Souvenirs",
+                  "years": "1802 – 1842",
+                  "color": "#d4af37",
+                  "summary": "Radiation de la liste des émigrés, séjour à Londres, salon parisien brillant et rédaction de ses célèbres Mémoires.",
+                  "events": [
+                      {
+                          "year": "1803",
+                          "title": "Madame Grassini dans le rôle de Zaïre (Rouen, Musée des Beaux-Arts)",
+                          "desc": "Portrait théâtral de la prestigieuse cantatrice italienne dans la tragédie de Voltaire, alliant ferveur romantique et costume oriental.",
+                          "type": "masterpiece",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "🎭",
+                          "artworkId": "vigee_le_brun_madame_grassini_zaire_rouen_1803"
+                      },
+                      {
+                          "year": "1835 – 1837",
+                          "title": "Publication des « Souvenirs »",
+                          "desc": "Fait paraître ses mémoires autobiographiques en trois volumes, chronique passionnante de l'Europe des Lumières et des cours royales.",
+                          "type": "context",
+                          "badge": "MÉMOIRES",
+                          "icon": "📖"
+                      },
+                      {
+                          "year": "1842",
+                          "title": "Mort à Paris & Épitaphe à Louveciennes",
+                          "desc": "S'éteint le 30 mars 1842 à l'âge de 86 ans. Elle repose au cimetière de Louveciennes sous l'épitaphe : « Ici, enfin, je repose... ».",
+                          "type": "context",
+                          "badge": "DISPARITION",
+                          "icon": "🕊️"
+                      }
+                  ]
+              }
+          ]
+      }
+  },
+  "villers": {
+      "id": "villers",
+      "name": "Villers Marie-Denise (née Lemoine)",
+      "sortName": "Villers Marie-Denise",
+      "sortLetter": "V",
+      "dates": "1774 – 1821",
+      "movement": "Néoclassicisme davidien & Consulat (Portrait intimiste & lumière en contre-jour)",
+      "nationality": "Française",
+      "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPuDViH6zj9L2nPmhAhq2sO6XDYV4NGsT8FJF-YLyOOHEgqxy6zIJa5625Zh06qQWQ2TuzKVgRBEDaEgjlECIkrYNRBE1aUpHcQhlspmh-I7Bt_NUUTXEUbK0U8evjYtS1VpiNNoI5ullv4dlLU7LO_qg=w1836-h779-s-no-gm",
+      "bio": "<p><strong>Marie-Denise Villers</strong> (née Lemoine, 1774 – 1821), née et morte à Paris, est l'une des figures les plus brillantes du néoclassicisme français sous le Directoire et l'Empire. Issue d'une remarquable lignée familiale de femmes artistes — sœur cadette de Marie-Victoire Lemoine et de Marie-Élisabeth Gabiou, ainsi que cousine de Jeanne-Élisabeth Chaudet —, elle s'est formée dans l'orbite des plus grands peintres de son temps, notamment Anne-Louis Girodet et sans doute Jacques-Louis David. Longtemps éclipsée par l'historiographie patriarcale du XIXe siècle et victime d'attributions erronées à ses maîtres masculins, sa redécouverte à partir de 1996 par l'historienne de l'art Margaret Oppenheimer a constitué une révélation majeure.</p><p>Son genre de prédilection est le portrait intimiste, l'étude de figure féminine en intérieur et la scène de genre pré-romantique. Son style se singularise par une audace technique exceptionnelle dans le rendu du contre-jour : la lumière diffuse venue de grandes baies vitrées silhouette les visages avec une douceur sculpturale, faisant vibrer les transparences de la mousseline et révélant une intensité psychologique rare, dépourvue de toute mièvrerie décorative.</p><p>Son chef-d'œuvre le plus universellement célèbre, <em>Jeune Femme dessinant</em> (1801, New York, Metropolitan Museum of Art), fut longtemps admiré comme un sommet de David ou de Girodet avant que les recherches modernes n'en restituent la paternité à Villers. Exposé au Salon de 1801 sous le titre d'<em>Étude d'une jeune femme d'après nature</em>, ce tableau manifeste d'une jeune peintre observant le spectateur à travers une vitre brisée s'impose aujourd'hui comme une icône magistrale de l'émancipation artistique féminine à l'aube du XIXe siècle.</p>",
+      "corpus": {
+          "total": 8,
+          "paintingsCount": 8,
+          "drawingsCount": null,
+          "engravingsCount": null,
+          "sculpturesCount": null,
+          "seenCount": 0,
+          "source": "Recherches Margaret Oppenheimer (1996), Séverine Sofio, Carole Blumenfeld & Metropolitan Museum of Art",
+          "totalOeuvresEstimees": "~8 à 12 peintures authentifiées",
+          "oeuvresConsensusNotice": "En raison de la dispersion des collections privées post-révolutionnaires et des nombreuses attributions abusives à David ou Girodet, le corpus formellement identifié de Marie-Denise Villers compte aujourd'hui entre 8 et 12 peintures majeures conservées dans les musées internationaux (Metropolitan Museum de New York, Louvre) et de prestigieuses collections particulières."
+      },
+      "timeline": {
+          "periods": [
+              {
+                  "title": "Formation d'une Fratrie d'Artistes & Révolution",
+                  "years": "1774 – 1798",
+                  "color": "#d4af37",
+                  "summary": "Éveil précoce dans une famille de peintres féminines à Paris, formation auprès de Girodet et mariage avec Michel-Jean-Maximilien Villers.",
+                  "events": [
+                      {
+                          "year": "1774",
+                          "title": "Naissance à Paris dans une famille d'artistes",
+                          "desc": "Grandit dans un milieu acquis à la création artistique aux côtés de ses sœurs aînées Marie-Victoire et Marie-Élisabeth Lemoine.",
+                          "type": "context",
+                          "badge": "ORIGINES",
+                          "icon": "🎨"
+                      },
+                      {
+                          "year": "1794",
+                          "title": "Mariage avec Michel-Jean-Maximilien Villers",
+                          "desc": "Épouse un étudiant en architecture et partisan des idées nouvelles, continuant à signer ses œuvres sous son nom de femme mariée.",
+                          "type": "context",
+                          "badge": "MARIAGE",
+                          "icon": "💍"
+                      }
+                  ]
+              },
+              {
+                  "title": "L'Apogée aux Salons du Consulat & les Chefs-d'œuvre",
+                  "years": "1799 – 1805",
+                  "color": "#d4af37",
+                  "summary": "Participation retentissante aux Salons du Louvre, création de Jeune Femme dessinant et consécration critique.",
+                  "events": [
+                      {
+                          "year": "1799",
+                          "title": "Débuts remarqués au Salon du Louvre",
+                          "desc": "Expose une Peinture représentant une femme assise, avec ses enfants, saluée pour la fermeté de son dessin davidien.",
+                          "type": "context",
+                          "badge": "SALON",
+                          "icon": "🏛️"
+                      },
+                      {
+                          "year": "1801",
+                          "title": "Jeune Femme dessinant (New York, Metropolitan Museum)",
+                          "desc": "Chef-d'œuvre universel du contre-jour exposé au Salon de 1801, longtemps attribué à David avant sa réattribution magistrale à Villers.",
+                          "type": "context",
+                          "badge": "CHEF-D'ŒUVRE",
+                          "icon": "✨"
+                      },
+                      {
+                          "year": "1802",
+                          "title": "Une étude de femme d'après nature (Salon de 1802)",
+                          "desc": "Affirmation de son goût pour la vérité sans fard et la psychologie intimiste des visages saisis dans la clarté du jour.",
+                          "type": "context",
+                          "badge": "NATURALISME",
+                          "icon": "👁️"
+                      }
+                  ]
+              },
+              {
+                  "title": "Dernières Années & Redécouverte Historique",
+                  "years": "1806 – 1821",
+                  "color": "#d4af37",
+                  "summary": "Fin de carrière plus discrète à Paris, disparition prématurée à 47 ans et réhabilitation historiographique contemporaine.",
+                  "events": [
+                      {
+                          "year": "1814",
+                          "title": "Dernière participation documentée au Salon",
+                          "desc": "Présente un Portrait de femme au Salon de la Première Restauration avant de se retirer progressivement de la vie publique.",
+                          "type": "context",
+                          "badge": "SALON",
+                          "icon": "🖼️"
+                      },
+                      {
+                          "year": "1821",
+                          "title": "Mort à Paris & Postérité",
+                          "desc": "S'éteint le 19 août 1821 à l'âge de 47 ans. Sa mémoire artistique sera réhabilitée par les recherches pionnières à la fin du XXe siècle.",
+                          "type": "context",
+                          "badge": "DISPARITION",
+                          "icon": "🕊️"
+                      }
+                  ]
+              }
+          ]
+      }
   }
 });
 
@@ -14237,3 +14752,21 @@ window.ARTISTS_REGISTRY["domenico_di_bartolomeo"] = window.ARTISTS_REGISTRY["dom
 // Aliases Paolo Veneziano
 window.ARTISTS_REGISTRY["veneziano_paolo"] = window.ARTISTS_REGISTRY["paolo_veneziano"];
 window.ARTISTS_REGISTRY["paolo_da_venezia"] = window.ARTISTS_REGISTRY["paolo_veneziano"];
+
+// Alias pour Vermeer, Véronèse, Vigée Le Brun, Villers
+window.ARTISTS_REGISTRY["johannes_vermeer"] = window.ARTISTS_REGISTRY["vermeer"];
+window.ARTISTS_REGISTRY["vermeer_johannes"] = window.ARTISTS_REGISTRY["vermeer"];
+window.ARTISTS_REGISTRY["jan_vermeer"] = window.ARTISTS_REGISTRY["vermeer"];
+
+window.ARTISTS_REGISTRY["paolo_veronese"] = window.ARTISTS_REGISTRY["veronese"];
+window.ARTISTS_REGISTRY["veronese_paolo"] = window.ARTISTS_REGISTRY["veronese"];
+window.ARTISTS_REGISTRY["paolo_caliari"] = window.ARTISTS_REGISTRY["veronese"];
+window.ARTISTS_REGISTRY["caliari_paolo"] = window.ARTISTS_REGISTRY["veronese"];
+
+window.ARTISTS_REGISTRY["elisabeth_vigee_le_brun"] = window.ARTISTS_REGISTRY["vigee_le_brun"];
+window.ARTISTS_REGISTRY["vigee_lebrun"] = window.ARTISTS_REGISTRY["vigee_le_brun"];
+window.ARTISTS_REGISTRY["le_brun_elisabeth"] = window.ARTISTS_REGISTRY["vigee_le_brun"];
+
+window.ARTISTS_REGISTRY["marie_denise_villers"] = window.ARTISTS_REGISTRY["villers"];
+window.ARTISTS_REGISTRY["villers_marie_denise"] = window.ARTISTS_REGISTRY["villers"];
+window.ARTISTS_REGISTRY["marie_denise_lemoine"] = window.ARTISTS_REGISTRY["villers"];
