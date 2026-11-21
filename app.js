@@ -1696,7 +1696,10 @@ const BANNERS_REGISTRY = {
   sculpture_civile: "https://lh3.googleusercontent.com/pw/AP1GczPY6zIkwJb1Tddx8j2B_x9Rmr4EEfELpy00aatGZCTlszmqNSg14K3oOJQDTl3tV3-lPLpJ2HOSkhBvwjl3w3FuueunhZcqrsKwfQaPYPkDqcaS3j3OX4k3rb8QYnP3cX3ggunMFK3Gdik87HiYy5HU7g=w1836-h779-s-no-gm?authuser=0",
 
   // 15. Compression & Nouveau Réalisme
-  compression: "https://lh3.googleusercontent.com/pw/AP1GczP4YgCuLZVOE16Hq35B6YxFWz1Rw7OXcLvXc5872FLSrGCUL-gGU2i8XsEmpp6zyrqbh6nqLYQdkD65K49Q33Uso65Lacy7Fpczyv3lnetsOW_cqC7LaMVLTc-OAP4vnZDbu9feD8tTNUmzfhcQopQ_1A=w1836-h779-s-no-gm?authuser=0"
+  compression: "https://lh3.googleusercontent.com/pw/AP1GczP4YgCuLZVOE16Hq35B6YxFWz1Rw7OXcLvXc5872FLSrGCUL-gGU2i8XsEmpp6zyrqbh6nqLYQdkD65K49Q33Uso65Lacy7Fpczyv3lnetsOW_cqC7LaMVLTc-OAP4vnZDbu9feD8tTNUmzfhcQopQ_1A=w1836-h779-s-no-gm?authuser=0",
+
+  // 16. Sculpture religieuse, Calvaires & Arts sacrés
+  sculpture_religieuse: "https://lh3.googleusercontent.com/pw/AP1GczPbZq3hDy_qUKRmHm5JrtKwaNhLVKUmr456zjHwbS9Tpr8X1IWiMi5wGcgVC8DZa1klWVb1Fcr87ZWd9gIwKToWiyBMsCnB4trF6VEHxVVxp30kfF1hxoDSdZ7GdrocJ2JJk00oE9a_iRHhH2LClG9ZPw=w1836-h779-s-no-gm?authuser=0"
 };
 
 function getArtworkBanner(art) {
@@ -1712,6 +1715,10 @@ function getArtworkBanner(art) {
 
   if (domain === 'sculpture_civile' || aType.includes('fontaine') || fullText.includes('sculpture civile')) {
     return BANNERS_REGISTRY.sculpture_civile;
+  }
+
+  if (domain === 'sculpture_religieuse' || aType.includes('calvaire') || aType.includes('croix de chemin') || fullText.includes('calvaire') || fullText.includes('croix de kervalet') || fullText.includes('croix de boessé') || fullText.includes('croix de montsarrac')) {
+    return BANNERS_REGISTRY.sculpture_religieuse;
   }
 
   if (fullText.includes('compression') || aType.includes('compression')) {
@@ -3823,6 +3830,7 @@ const CIVILISATIONS_REGISTRY = [
 ];
 
 const DOMAIN_ICONS = {
+  sculpture_religieuse: "✝️",
   sculpture_civile: "⛲",
   architecture: "🏯",
   sculpture_statuaire: "🗿",
@@ -10478,6 +10486,17 @@ const TAXONOMY_CIVILISATIONS = {
 
 // 2. Référentiel des domaines techniques et typologies d'artefacts
 const TAXONOMY_DOMAINS = {
+  "sculpture_religieuse": {
+    label: "Sculpture religieuse, Calvaires & Arts sacrés",
+    types: [
+      "Croix de chemin & Calvaire monumental",
+      "Gisant, Enfeu & Sculpture funéraire chrétienne",
+      "Portail, Tympan & Décor de cathédrale",
+      "Retable, Chaire & Mobilier liturgique sculpté",
+      "Statuaire religieuse (Vierges, Saints & Apôtres)"
+    ]
+  },
+
   "sculpture_civile": {
     label: "Sculpture civile, Fontaines & Décors urbains",
     types: [
@@ -10704,33 +10723,89 @@ function initSearchEngine() {
     }
   }
 
-  // 3. Cascade : Domaine -> Typologies autorisées (toujours triées par ordre alphabétique A-Z)
+  // 3. Cascade : Domaine & Civilisation/Période -> Typologies contextuelles (triées de A à Z)
   function updateTypeDropdown() {
     if (!filterType) return;
+    const previousSelectedType = filterType.value;
+    const selectedCiv = filterCiv ? filterCiv.value : 'all';
+    const selectedPeriod = filterPeriod ? filterPeriod.value : 'all';
     const selectedDom = filterDomain ? filterDomain.value : 'all';
+
     filterType.innerHTML = '<option value="all">Toutes les formes / typologies</option>';
 
+    // Base de typologies théoriques candidates
+    let candidateTypes = new Set();
     if (selectedDom === 'all') {
-      const allTypes = new Set();
-      Object.values(TAXONOMY_DOMAINS).forEach(d => d.types.forEach(t => allTypes.add(t)));
-      Array.from(allTypes)
-        .sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }))
-        .forEach(t => {
-          const opt = document.createElement('option');
-          opt.value = t;
-          opt.textContent = t.charAt(0).toUpperCase() + t.slice(1);
-          filterType.appendChild(opt);
-        });
-    } else if (TAXONOMY_DOMAINS[selectedDom]) {
-      TAXONOMY_DOMAINS[selectedDom].types
-        .slice()
-        .sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }))
-        .forEach(t => {
-          const opt = document.createElement('option');
-          opt.value = t;
-          opt.textContent = t.charAt(0).toUpperCase() + t.slice(1);
-          filterType.appendChild(opt);
-        });
+      Object.values(TAXONOMY_DOMAINS).forEach(d => {
+        if (d && Array.isArray(d.types)) d.types.forEach(t => candidateTypes.add(t));
+      });
+    } else if (TAXONOMY_DOMAINS[selectedDom] && Array.isArray(TAXONOMY_DOMAINS[selectedDom].types)) {
+      TAXONOMY_DOMAINS[selectedDom].types.forEach(t => candidateTypes.add(t));
+    }
+
+    // Filtrage contextuel : n'afficher que les typologies qui existent réellement pour la sélection active
+    if (selectedCiv !== 'all' || selectedPeriod !== 'all' || selectedDom !== 'all') {
+      const catalog = window.ART_OBJECTS || [];
+      const presentTypes = new Set();
+
+      catalog.forEach(item => {
+        if (!item) return;
+
+        // Filtre civilisation
+        if (selectedCiv !== 'all') {
+          const cId = (item.civId || '').toLowerCase().trim();
+          if (cId !== selectedCiv) return;
+        }
+
+        // Filtre période
+        if (selectedPeriod !== 'all') {
+          const pId = (item.periodId || '').toLowerCase().trim();
+          if (pId !== selectedPeriod) return;
+        }
+
+        // Filtre domaine
+        if (selectedDom !== 'all') {
+          const d = (item.domain || '').toLowerCase().trim();
+          let domainMatched = false;
+          if (selectedDom === 'peinture_mosaique') {
+            domainMatched = (d === 'peinture_mosaique' || d === 'peinture' || d === 'peinture_fresque' || d === 'plafond_fresque' || d === 'ceramique_mosaique' || d === 'estampe' || d === 'dessin' || d === 'estampe_gravure' || d === 'dessin_art_graphique' || d === 'dessin_estampe');
+          } else if (selectedDom === 'sculpture_statuaire') {
+            domainMatched = (d === 'sculpture_statuaire' || d === 'sculpture');
+          } else if (selectedDom === 'architecture') {
+            domainMatched = (d === 'architecture' || d === 'monument');
+          } else {
+            domainMatched = (d === selectedDom);
+          }
+          if (!domainMatched) return;
+        }
+
+        if (item.artifactType) presentTypes.add(item.artifactType.trim());
+        if (item.category) presentTypes.add(item.category.trim());
+      });
+
+      const filteredTypes = new Set();
+      candidateTypes.forEach(t => {
+        if (presentTypes.has(t)) filteredTypes.add(t);
+      });
+
+      if (filteredTypes.size > 0) {
+        candidateTypes = filteredTypes;
+      }
+    }
+
+    const sortedTypes = Array.from(candidateTypes).sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
+
+    sortedTypes.forEach(t => {
+      const opt = document.createElement('option');
+      opt.value = t;
+      opt.textContent = t.charAt(0).toUpperCase() + t.slice(1);
+      filterType.appendChild(opt);
+    });
+
+    if (previousSelectedType && candidateTypes.has(previousSelectedType)) {
+      filterType.value = previousSelectedType;
+    } else {
+      filterType.value = 'all';
     }
   }
 
@@ -11441,6 +11516,7 @@ function initSearchEngine() {
   if (filterCiv) {
     filterCiv.addEventListener('change', () => {
       updatePeriodDropdown();
+      updateTypeDropdown();
       currentRenderLimit = PAGE_CHUNK;
       renderSearchGallery();
     });
@@ -11448,6 +11524,7 @@ function initSearchEngine() {
 
   if (filterPeriod) {
     filterPeriod.addEventListener('change', () => {
+      updateTypeDropdown();
       currentRenderLimit = PAGE_CHUNK;
       renderSearchGallery();
     });

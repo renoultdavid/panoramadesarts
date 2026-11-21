@@ -3960,6 +3960,15 @@ window.BACKGROUNDS_REGISTRY = {
     "keywords": ["neptune", "poseidon", "poséidon", "trident", "fontaine", "flots", "mer", "hippocampes", "tritons"]
   },
 
+"croix_de_chemin_calvaires_monumentaux_piete_populaire": {
+    "id": "croix_de_chemin_calvaires_monumentaux_piete_populaire",
+    "badge": "PATRIMOINE SACRÉ & DÉVOTION POPULAIRE",
+    "title": "Les Croix de Chemin et Calvaires Monumentaux : Bornes Sacrées et Piété Populaire",
+    "subtitle": "Du repère de pèlerinage médiéval au grand calvaire d'édification des communautés rurales et maritimes",
+    "desc": "<p>Du Moyen Âge central jusqu'au XIXe siècle, les croix de chemin, de carrefour et les calvaires monumentaux constituent l'une des expressions les plus vivantes et pérennes de la sculpture sacrée vernaculaire en Occident, tout particulièrement dans les régions de forte tradition rurale et maritime comme la Bretagne ou le Maine. Érigées à la croisée des chemins vicinaux, au seuil des villages, sur les landes ou face aux périls de l'océan, ces architectures de pierre jouent un rôle polyvalent, à la fois spirituel, géographique et social. Elles délimitent les paroisses et les espaces de paix sacrée (les sauvetés), balisent les routes de pèlerinage vers les grands sanctuaires, protègent les voyageurs contre les dangers des ténèbres et servent de stations solennelles lors des processions et des rogations rituelles.</p><p>Sur le plan sculptural et iconographique, ces monuments incarnent l'évolution de la ferveur religieuse à travers les âges. Les plus anciennes croix médiévales, taillées avec rusticité dans le granite ou le calcaire dur, présentent souvent un Christ hiératique et triomphant directement gravé dans le croisillon, affirmant la souveraineté divine sur le monde. À la fin du Moyen Âge et sous l'essor du gothique flamboyant, le calvaire se complexifie : fûts octogonaux ou torsadés, dais ouvragés d'accolades et de fleurons, croisillons enrichis d'édicules abritant la Vierge et saint Jean au pied de la Passion. En Bretagne, cette dévotion culmine avec les grands calvaires historiés à degrés, véritables bibles de pierre dressées en plein air où se déploient en haut-relief les scènes du martyre et de la résurrection pour instruire les populations.</p><p>Au-delà de leur valeur catéchétique, ces monuments de granite ou de grès sont indissociables de l'identité et de la mémoire collective des communautés villageoises. Souvent financés par de généreux donateurs locaux, des fabriques paroissiales ou des corporations de pêcheurs et de saulniers, ils témoignent d'une foi incarnée dans la rudesse des matières locales bravant l'érosion du vent et des embruns. À l'époque moderne et au XIXe siècle, leur réédification solennelle au cœur des hameaux ou au sommet des îles côtières scelle la mémoire des pardons et sert d'amer visuel aux marins, affirmant un dialogue indissoluble entre l'architecture de pierre, la sacralisation du paysage et l'âme d'un territoire.</p>",
+    "keywords": ["croix", "calvaire", "calvaires", "croix de chemin", "granite", "bretagne", "passion", "pardon", "crucifixion", "christ en croix", "patrimoine religieux"]
+  },
+
 "compression_nouveau_realisme_dechet_industriel": {
     "id": "compression_nouveau_realisme_dechet_industriel",
     "badge": "AVANT-GARDE DU XXe SIÈCLE",
@@ -4043,3 +4052,7 @@ window.BACKGROUNDS_REGISTRY["la_cene"] = window.BACKGROUNDS_REGISTRY["la_cene_de
 window.BACKGROUNDS_REGISTRY["compression"] = window.BACKGROUNDS_REGISTRY["compression_nouveau_realisme_dechet_industriel"];
 window.BACKGROUNDS_REGISTRY["nouveau_realisme"] = window.BACKGROUNDS_REGISTRY["compression_nouveau_realisme_dechet_industriel"];
 window.BACKGROUNDS_REGISTRY["art_de_la_compression"] = window.BACKGROUNDS_REGISTRY["compression_nouveau_realisme_dechet_industriel"];
+
+window.BACKGROUNDS_REGISTRY["croix_de_chemin"] = window.BACKGROUNDS_REGISTRY["croix_de_chemin_calvaires_monumentaux_piete_populaire"];
+window.BACKGROUNDS_REGISTRY["calvaire"] = window.BACKGROUNDS_REGISTRY["croix_de_chemin_calvaires_monumentaux_piete_populaire"];
+window.BACKGROUNDS_REGISTRY["calvaires"] = window.BACKGROUNDS_REGISTRY["croix_de_chemin_calvaires_monumentaux_piete_populaire"];
