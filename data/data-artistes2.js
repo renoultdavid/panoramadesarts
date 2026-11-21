@@ -9283,7 +9283,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
   },
   "romano": {
     "id": "romano",
-    "name": "Giulio Romano (Giulio Pippi)",
+    "name": "Romano Giulio (Giulio Pippi)",
     "sortName": "Romano Giulio",
     "sortLetter": "R",
     "dates": "v. 1499 – 1546",
@@ -16729,6 +16729,201 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
         }
       ]
     }
+  },
+
+  "claudel": {
+    "id": "claudel",
+    "name": "Claudel Camille",
+    "sortName": "Claudel Camille",
+    "sortLetter": "C",
+    "dates": "1864 – 1943",
+    "movement": "Naturalisme expressif, Symbolisme & Art nouveau",
+    "nationality": "Française (Fère-en-Tardenois / Nogent-sur-Seine / Paris)",
+    "techniques": "Modelage de la terre glaise et du plâtre, taille directe virtuose du marbre et de l'onyx, fonte du bronze à la cire perdue et ciselure fine",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1HZj4iLEgJCmTk21yHjvSA9bFdk7dtCj5=s1600",
+    "corpus": {
+      "total": 90,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 90,
+      "seenCount": 1,
+      "source": "Catalogue raisonné Reine-Marie Paris, Bruno Gaudichon & Musée Camille Claudel",
+      "totalOeuvresEstimees": "~90 créations sculpturales originales identifiées et conservées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue raisonné de Reine-Marie Paris (Camille Claudel, 1864–1943) et les travaux critiques de Bruno Gaudichon et d'Anne Rivière, en lien avec le Musée Camille Claudel à Nogent-sur-Seine et le Musée Rodin à Paris. En comptabilisant chaque création originale distincte conservée en bronze, marbre, onyx ou plâtre — sans multiplier par les tirages d'édition ultérieurs ni intégrer les œuvres disparues — le corpus officiel conservé compte environ 90 sculptures."
+    },
+    "bio": "<p><strong>Une vocation précoce et l'affirmation d'un génie autonome</strong><br>Camille Claudel (1864 – 1943), née à Fère-en-Tardenois et morte à Montdevergues, s'impose comme l'une des sculptrices les plus brillantes et les plus singulières du tournant des XIXe et XXe siècles. Animée dès l'enfance par une passion irrépressible pour le modelage de la glaise, elle s'installe à Paris où elle se forme à l'académie Colarossi — les femmes étant alors exclues de l'École des beaux-arts — avant de croiser en 1883 le chemin décisif d'Auguste Rodin. D'abord collaboratrice, praticienne et muse au sein de l'atelier du maître, elle développe rapidement une voix artistique autonome d'une intensité saisissante, nourrie par une maîtrise anatomique d'exception et une sensibilité vibrante.</p><p><strong>L'art de l'émotion intime, du marbre translucide et du lyrisme nerveux</strong><br>À la croisée du naturalisme expressif, du symbolisme et de l'Art nouveau, l'art de Camille Claudel se distingue par son acuité psychologique, son lyrisme passionné et la fluidité serpentine de ses compositions. Loin d'être un simple épigone de Rodin, elle affirme une écriture propre, privilégiant une ligne plus nerveuse, un modelé plus incisif et une exploration intime des tourments de l'âme, de l'abandon amoureux à l'effroi de la solitude. Elle excelle dans la taille directe de matériaux exigeants comme le marbre et l'onyx, dont elle magnifie les transparences naturelles pour suggérer le flux de l'eau ou la fragilité humaine, comme dans sa célèbre <em>Vague</em> inspirée de l'estampe japonaise.</p><p><strong>Des chefs-d'œuvre matriciels : de La Valse à la tragédie de L'Âge mûr</strong><br>Ses créations majeures traduisent une symbiose poignante entre virtuosité formelle et écho autobiographique. Dans <em>La Valse</em>, groupe tourbillonnant d'une rare sensualité, les corps enlacés semblent emportés par un vertige musical défiant les lois de la gravité. Avec <em>L'Âge mûr</em>, œuvre maîtresse à la composition diagonale implacable, elle met en scène le drame de l'arrachement et du destin à travers trois figures allégoriques d'une tension déchirante, tandis que ses portraits intimistes, tels que <em>La Petite Châtelaine</em> ou le buste de Rodin, témoignent d'une pénétration psychologique sans égale.</p><p><strong>Une modernité bouleversante injustement brisée par l'exil</strong><br>Bien que sa trajectoire artistique ait été prématurément et tragiquement brisée par trente années de réclusion psychiatrique à partir de 1913, Camille Claudel a profondément enrichi la sculpture occidentale par son audace spatiale, sa sincérité désarmante et la fougue de son modelage. Elle occupe aujourd'hui une place centrale et indiscutable parmi les pionnières de l'art moderne européen.</p>",
+    "timeline": {
+      "periods": [
+        {
+          "title": "La Période de formation et l'Émulation avec Rodin",
+          "years": "1883 – 1892",
+          "color": "#ec4899",
+          "summary": "Atelier partagé avec Rodin, portraits virtuoses et naissance de La Valse.",
+          "events": [
+            {
+              "year": "1888",
+              "title": "Buste d'Auguste Rodin en bronze",
+              "desc": "Portrait d'une puissance herculéenne sculpté avec un modelé vigoureux qui immortalise les traits du maître.",
+              "type": "masterpiece",
+              "badge": "PORTRAIT",
+              "icon": "🗿"
+            },
+            {
+              "year": "1893",
+              "title": "Création de La Valse",
+              "desc": "Couple tournoyant dans un drapé aérien défiant l'équilibre sculptural académique.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "💃"
+            }
+          ]
+        },
+        {
+          "title": "La Pleine Maturité créatrice et L'Âge Mûr",
+          "years": "1893 – 1905",
+          "color": "#8b5cf6",
+          "summary": "Rupture avec Rodin, affirmation d'une œuvre indépendante et dramatique.",
+          "events": [
+            {
+              "year": "1894",
+              "title": "L'Âge mûr (L'Homme et la Parque / L'Implorante)",
+              "desc": "Le chef-d'œuvre tragique de l'arrachement où l'homme mûr est emporté par le destin sous les supplications de la jeunesse.",
+              "type": "masterpiece",
+              "artworkId": "claudel_l_implorante_l_age_mur_tokyo_1894",
+              "badge": "ALLÉGORIE",
+              "icon": "💔"
+            },
+            {
+              "year": "1897",
+              "title": "La Vague en marbre et onyx",
+              "desc": "Composition japonisante d'une virtuosité absolue saisissant trois baigneuses sous une écume de pierre translucide.",
+              "type": "masterpiece",
+              "badge": "JAPONISME",
+              "icon": "🌊"
+            }
+          ]
+        },
+        {
+          "title": "L'Isolement et le Drame de l'Internement",
+          "years": "1906 – 1943",
+          "color": "#64748b",
+          "summary": "Retrait du monde, destructions d'œuvres et silence forcé de l'asile.",
+          "events": [
+            {
+              "year": "1913",
+              "title": "Internement psychiatrique à Ville-Évrard puis Montdevergues",
+              "desc": "Arrêt brutal de toute création sculpturale et réclusion jusqu'à sa mort en 1943.",
+              "type": "context",
+              "badge": "TRAGÉDIE",
+              "icon": "🕯️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "giacometti": {
+    "id": "giacometti",
+    "name": "Giacometti Alberto",
+    "sortName": "Giacometti Alberto",
+    "sortLetter": "G",
+    "dates": "1901 – 1966",
+    "movement": "Sculpture moderne • Cubisme, Surréalisme & Existentialisme",
+    "nationality": "Suisse (Borgonovo / Genève / Paris)",
+    "techniques": "Modelage du plâtre et de l'argile, fonte du bronze patiné à froid, ciselure et griffures de surface, peinture à l'huile et dessin sur papier",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1NMrxC_faZbKYAXvC62q2T9zI47nxGKMT=s1600",
+    "corpus": {
+      "total": 600,
+      "seen": 2,
+      "seenCount": 2,
+      "paintingsCount": 250,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 600,
+      "details": [
+        {
+          "label": "Sculptures autonomes et modèles originaux",
+          "count": 600,
+          "icon": "🗿",
+          "color": "#ec4899",
+          "seen": 1
+        },
+        {
+          "label": "Portraits et peintures à l'huile répertoriés",
+          "count": 250,
+          "icon": "🎨",
+          "color": "#d4af37",
+          "seen": 1
+        }
+      ],
+      "source": "Fondation Alberto et Annette Giacometti (Paris) & Reinhold Hohl",
+      "totalOeuvresEstimees": "~600 modèles originaux et sculptures autonomes répertoriés",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue raisonné de la Fondation Alberto et Annette Giacometti à Paris (sous la direction de Catherine Grenier) et les inventaires historiques de Reinhold Hohl, de Herbert Matter et de Christian Klemm pour la Fondation Giacometti de Zurich. En retenant chaque modèle original en plâtre ou sculpture autonome distincte conçue entre 1914 et 1966 — sans multiplier par les fontes en bronze d'une même pièce et sans inclure peintures et dessins —, le corpus officiel s'établit autour de 600 œuvres sculpturales."
+    },
+    "bio": "<p><strong>Des avant-gardes cubistes aux objets oniriques du surréalisme</strong><br>Alberto Giacometti (1901 – 1966), né à Borgonovo en Suisse et mort à Coire, s'impose comme l'une des figures les plus fondamentales et singulières de la sculpture du XXe siècle. Fils du peintre postimpressionniste Giovanni Giacometti, il s'établit à Paris en 1922 pour étudier auprès d'Antoine Bourdelle. Rejetant rapidement le modelage académique, il se passionne pour la stylisation des arts premiers et les déconstructions cubistes avant de rejoindre le groupe surréaliste d'André Breton au début des années 1930, créant des sculptures-objets pionnières à fonctionnement symbolique telles que <em>La Boule suspendue</em> et <em>Le Palais à quatre heures du matin</em>.</p><p><strong>L'obsession du réel et l'avènement des silhouettes filiformes</strong><br>Après une rupture avec le surréalisme en 1835 pour revenir à l'étude acharnée du modèle vivant, son art subit une métamorphose radicale au lendemain de la Seconde Guerre mondiale, en résonance étroite avec la pensée existentialiste de Jean-Paul Sartre. Hanté par l'impossibilité de fixer la présence fuyante de l'être humain et la distance infranchissable qui le sépare du regardeur, Giacometti réduit la masse sculptée à l'extrême. Ses figures deviennent des apparitions filiformes et effilées, dressées sur des socles massifs, modelées dans un plâtre tourmenté et griffé qui semble corrodé par l'espace environnant.</p><p><strong>L'Homme qui marche et la matérialisation de l'espace vital</strong><br>Ses créations iconiques d'après-guerre, au premier rang desquelles <em>L'Homme qui marche</em>, <em>La Femme debout</em> et les compositions urbaines comme <em>La Place</em>, incarnent la vulnérabilité poignante, la solitude métaphysique mais aussi la persistance tenace de l'humanité face au néant. Parallèlement à son œuvre sculpté, il développe une peinture et un dessin obsessionnels, traquant sans relâche sur la toile ou le papier les traits de ses proches — notamment son frère Diego et son épouse Annette — dans des réseaux denses de gris et de lignes vibrantes.</p><p><strong>Une quête perpétuelle au cœur de la condition humaine</strong><br>Travaillant inlassablement dans la précarité volontaire de son minuscule atelier de la rue Hippolyte-Maindron à Paris, n'hésitant jamais à détruire le soir ce qu'il avait façonné le matin, Alberto Giacometti a révolutionné le rapport entre la figure et le vide. En érigeant la fragilité, le doute et l'inachèvement en vertus cardinales, il a légué à l'histoire de l'art l'une des réflexions plastiques les plus profondes et bouleversantes sur la condition humaine moderne.</p>",
+    "timeline": {
+      "periods": [
+        {
+          "title": "La Période surréaliste et les Objets à fonctionnement symbolique",
+          "years": "1925 – 1934",
+          "color": "#f59e0b",
+          "summary": "Expérimentations cubistes, idoles plates et consécration au sein du mouvement d'André Breton.",
+          "events": [
+            {
+              "year": "1828",
+              "title": "Femme (Femme plate)",
+              "desc": "Plaque de bronze quasi bidimensionnelle marquant la rupture avec le volume académique et l'avènement du signe totémique.",
+              "type": "masterpiece",
+              "artworkId": "giacometti_femme_plate_bronze_paris_1928",
+              "badge": "AVANT-GARDE",
+              "icon": "✨"
+            },
+            {
+              "year": "1930",
+              "title": "La Boule suspendue",
+              "desc": "Sculpture-objet mobile inaugurant la participation de Giacometti au mouvement surréaliste.",
+              "type": "masterpiece",
+              "badge": "SURRÉALISME",
+              "icon": "🔮"
+            }
+          ]
+        },
+        {
+          "title": "La Crise du modèle et la Naissance du style filiforme",
+          "years": "1935 – 1949",
+          "color": "#ef4444",
+          "summary": "Retour au réel, réduction dramatique des échelles et émergence des figures étirées.",
+          "events": [
+            {
+              "year": "1947",
+              "title": "L'Homme qui pointe et Les Femmes de Venise",
+              "desc": "Invention des silhouettes filiformes en bronze érodées par le vide et la lumière.",
+              "type": "masterpiece",
+              "badge": "EXISTENTIEL",
+              "icon": "🧍"
+            }
+          ]
+        },
+        {
+          "title": "La Consécration universelle et L'Homme qui marche",
+          "years": "1950 – 1966",
+          "color": "#10b981",
+          "summary": "Icônes universelles de la modernité, grands prix internationaux et rétrospectives mondiales.",
+          "events": [
+            {
+              "year": "1960",
+              "title": "L'Homme qui marche I",
+              "desc": "L'icône absolue de l'art moderne du XXe siècle, incarnant l'avancée résolue et fragile de l'humanité.",
+              "type": "masterpiece",
+              "badge": "ICÔNE",
+              "icon": "🚶"
+            }
+          ]
+        }
+      ]
+    }
   }
 });
 
@@ -17050,3 +17245,10 @@ window.ARTISTS_REGISTRY["canova_antonio"] = window.ARTISTS_REGISTRY["canova"];
 // Aliases Auguste Rodin
 window.ARTISTS_REGISTRY["auguste_rodin"] = window.ARTISTS_REGISTRY["rodin"];
 window.ARTISTS_REGISTRY["rodin_auguste"] = window.ARTISTS_REGISTRY["rodin"];
+// Aliases Camille Claudel
+window.ARTISTS_REGISTRY["camille_claudel"] = window.ARTISTS_REGISTRY["claudel"];
+window.ARTISTS_REGISTRY["claudel_camille"] = window.ARTISTS_REGISTRY["claudel"];
+
+// Aliases Alberto Giacometti
+window.ARTISTS_REGISTRY["alberto_giacometti"] = window.ARTISTS_REGISTRY["giacometti"];
+window.ARTISTS_REGISTRY["giacometti_alberto"] = window.ARTISTS_REGISTRY["giacometti"];
