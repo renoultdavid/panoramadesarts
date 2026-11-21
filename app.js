@@ -8563,8 +8563,15 @@ function populateModalData(art) {
 
   // DIAPORAMA SOUS-VUES / DÉTAILS D'UNE ŒUVRE MONUMENTALE
   const viewsCarouselEl = document.getElementById('modal-views-carousel');
+  const modalPedestalCol = document.querySelector('.modal-pedestal-col');
+  const hasMultipleViews = Boolean(art.views && art.views.length > 1);
+
+  if (modalPedestalCol) {
+    modalPedestalCol.classList.toggle('has-views-carousel', hasMultipleViews);
+  }
+
   if (viewsCarouselEl) {
-    if (art.views && art.views.length > 1) {
+    if (hasMultipleViews) {
       let currentViewIdx = 0;
 
       function renderCurrentSubView(idx) {
@@ -10757,7 +10764,26 @@ function initSearchEngine() {
       });
   }
 
-  // 1b. Cascade : Civilisation -> Domaines autorisés (filtrés selon la présence réelle d'œuvres dans le catalogue)
+  // 1b. Helper de correspondance civilisation
+  function matchItemCivilisation(item, selectedCiv) {
+    if (!item || !selectedCiv || selectedCiv === 'all') return true;
+    const cId = (item.civId || (item.artist || item.artistId || (item.periodId && item.periodId.startsWith('occ')) || (item.id && item.id.startsWith('occ_')) ? 'occident' : '')).toLowerCase().trim();
+    if (selectedCiv === 'egypte') return cId.startsWith('egypte');
+    if (selectedCiv === 'egee') return cId === 'egee' || ['cyclades', 'crete', 'mycenes'].includes(cId);
+    if (selectedCiv === 'italie_etrusque') return cId === 'italie_etrusque' || cId.startsWith('etrusque') || cId.startsWith('italie');
+    if (selectedCiv === 'chypre') return cId.startsWith('chypre');
+    if (selectedCiv === 'celte_europe') return cId.startsWith('celte') || cId.startsWith('neolithique');
+    if (selectedCiv === 'levant_phenicie') return ['levant_phenicie', 'amorrite', 'syrie_bronze', 'phenicie_fer', 'lycie_anatolie'].includes(cId) || cId.startsWith('lycie') || cId.startsWith('levant');
+    if (selectedCiv === 'canaries') return cId === 'canaries';
+    if (selectedCiv === 'ibere') return cId.startsWith('ibere');
+    if (selectedCiv === 'iran_perse') return cId.startsWith('iran');
+    if (selectedCiv === 'islam') return cId.startsWith('islam');
+    if (selectedCiv === 'mesopotamie') return cId.startsWith('meso');
+    if (selectedCiv === 'occident') return cId.startsWith('occ') || cId === 'occident';
+    return cId.startsWith(selectedCiv);
+  }
+
+  // 1c. Cascade : Civilisation -> Domaines autorisés (filtrés selon la présence réelle d'œuvres dans le catalogue)
   function updateDomainDropdown() {
     if (!filterDomain) return;
     const previousSelectedDomain = filterDomain.value;
@@ -10772,9 +10798,7 @@ function initSearchEngine() {
       const presentDomains = new Set();
 
       catalog.forEach(item => {
-        if (!item) return;
-        const cId = (item.civId || '').toLowerCase().trim();
-        if (cId !== selectedCiv) return;
+        if (!item || !matchItemCivilisation(item, selectedCiv)) return;
 
         const d = (item.domain || '').toLowerCase().trim();
         if (!d) return;
@@ -10867,15 +10891,18 @@ function initSearchEngine() {
         if (!item) return;
 
         // Filtre civilisation
-        if (selectedCiv !== 'all') {
-          const cId = (item.civId || '').toLowerCase().trim();
-          if (cId !== selectedCiv) return;
-        }
+        if (selectedCiv !== 'all' && !matchItemCivilisation(item, selectedCiv)) return;
 
         // Filtre période
         if (selectedPeriod !== 'all') {
-          const pId = (item.periodId || '').toLowerCase().trim();
-          if (pId !== selectedPeriod) return;
+          const pId = (item.periodId || item.civId || '').toLowerCase().trim();
+          if (selectedPeriod === 'etrusque') {
+            if (pId !== 'etrusque' && !pId.startsWith('etrusque_') && item.civId !== 'etrusque') return;
+          } else if (selectedPeriod === 'occ_baroque_classique') {
+            if (pId !== 'occ_baroque_classique' && pId !== 'occ_baroque') return;
+          } else if (pId !== selectedPeriod) {
+            return;
+          }
         }
 
         // Filtre domaine
@@ -10903,9 +10930,7 @@ function initSearchEngine() {
         if (presentTypes.has(t)) filteredTypes.add(t);
       });
 
-      if (filteredTypes.size > 0) {
-        candidateTypes = filteredTypes;
-      }
+      candidateTypes = filteredTypes;
     }
 
     const sortedTypes = Array.from(candidateTypes).sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
@@ -11711,9 +11736,13 @@ function initSearchEngine() {
       if (vTimeline) vTimeline.style.display = 'none';
       document.querySelectorAll('.btn-alpha-letter').forEach(b => b.classList.remove('active'));
       if (filterCiv) filterCiv.value = 'all';
+      updateDomainDropdown();
       if (filterDomain) filterDomain.value = 'all';
       updatePeriodDropdown();
+      if (filterPeriod) filterPeriod.value = 'all';
+      if (filterType) filterType.value = 'all';
       updateTypeDropdown();
+      if (filterType) filterType.value = 'all';
       if (filterText) filterText.value = '';
       if (filterSort) filterSort.value = 'recent';
       currentRenderLimit = PAGE_CHUNK;
@@ -11747,9 +11776,13 @@ function initSearchEngine() {
     if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
     if (btnFilterFocus) btnFilterFocus.classList.remove('is-active');
     if (filterCiv) filterCiv.value = 'all';
+    updateDomainDropdown();
     if (filterDomain) filterDomain.value = 'all';
     updatePeriodDropdown();
+    if (filterPeriod) filterPeriod.value = 'all';
+    if (filterType) filterType.value = 'all';
     updateTypeDropdown();
+    if (filterType) filterType.value = 'all';
 
     // 4. Appliquer le filtre sur l'étiquette cliquée
     activeMovementFilter = null;
@@ -11788,9 +11821,13 @@ function initSearchEngine() {
     if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
     if (btnFilterFocus) btnFilterFocus.classList.remove('is-active');
     if (filterCiv) filterCiv.value = 'all';
+    updateDomainDropdown();
     if (filterDomain) filterDomain.value = 'all';
     updatePeriodDropdown();
+    if (filterPeriod) filterPeriod.value = 'all';
+    if (filterType) filterType.value = 'all';
     updateTypeDropdown();
+    if (filterType) filterType.value = 'all';
 
     // 4. Activer le filtre d'éclairage culturel
     activeMovementFilter = null;
@@ -12043,24 +12080,9 @@ function renderSearchGallery() {
       if (!window.activeGlobalThemeFilter.matchedArtIds.has(item.id)) return false;
     }
 
-    // 1. Filtre Civilisation (compatible civId "egypte_ancien" et civId "egypte")
+    // 1. Filtre Civilisation (via helper unifié matchItemCivilisation)
     if (selectedCiv !== 'all') {
-      const cId = item.civId || (item.artist || item.artistId || (item.periodId && item.periodId.startsWith('occ')) || (item.id && item.id.startsWith('occ_')) ? 'occident' : '');
-      if (selectedCiv === 'egypte' && !cId.startsWith('egypte')) return false;
-      else if (selectedCiv === 'egee' && cId !== 'egee' && !['cyclades', 'crete', 'mycenes'].includes(cId)) return false;
-      else if (selectedCiv === 'italie_etrusque' && cId !== 'italie_etrusque' && !cId.startsWith('etrusque') && !cId.startsWith('italie')) return false;
-      else if (selectedCiv === 'chypre' && !cId.startsWith('chypre')) return false;
-      else if (selectedCiv === 'celte_europe' && !cId.startsWith('celte') && !cId.startsWith('neolithique')) return false;
-      else if (selectedCiv === 'levant_phenicie' && !['levant_phenicie', 'amorrite', 'syrie_bronze', 'phenicie_fer', 'lycie_anatolie'].includes(cId) && !cId.startsWith('lycie') && !cId.startsWith('levant')) return false;
-      else if (selectedCiv === 'canaries' && cId !== 'canaries') return false;
-      else if (selectedCiv === 'ibere' && !cId.startsWith('ibere')) return false;
-      else if (selectedCiv === 'iran_perse' && !cId.startsWith('iran')) return false;
-      else if (selectedCiv === 'islam' && !cId.startsWith('islam')) return false;
-      else if (selectedCiv === 'mesopotamie' && !cId.startsWith('meso')) return false;
-      else if (selectedCiv === 'occident' && !cId.startsWith('occ') && cId !== 'occident') return false;
-      else if (!['egypte', 'egee', 'italie_etrusque', 'chypre', 'celte_europe', 'levant_phenicie', 'canaries', 'ibere', 'iran_perse', 'islam', 'mesopotamie', 'occident'].includes(selectedCiv)) {
-        if (!cId.startsWith(selectedCiv)) return false;
-      }
+      if (!matchItemCivilisation(item, selectedCiv)) return false;
     }
 
     // 2. Filtre Période (stricte égalité, ou sous-période étrusque)
