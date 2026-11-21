@@ -1705,6 +1705,10 @@ function getArtworkBanner(art) {
   const fullText = `${cat} ${aType} ${domain} ${title}`;
 
   // 1. GRÈCE ANTIQUE : Choix dynamique selon la catégorie de l'œuvre
+  if (domain === 'sculpture_civile' || aType.includes('fontaine') || fullText.includes('sculpture civile')) {
+    return BANNERS_REGISTRY.sculpture_civile;
+  }
+
   const isGreek = cId === 'grece' || cId === 'egee' || pId.startsWith('grece_') || cId.startsWith('grece');
   if (isGreek) {
     if (fullText.includes('mosaïque') || fullText.includes('mosaique') || fullText.includes('emblema') || fullText.includes('tesselle')) {
@@ -3808,6 +3812,7 @@ const CIVILISATIONS_REGISTRY = [
 ];
 
 const DOMAIN_ICONS = {
+  sculpture_civile: "⛲",
   architecture: "🏯",
   sculpture_statuaire: "🗿",
   peinture_mosaique: "🎨",
@@ -10462,6 +10467,16 @@ const TAXONOMY_CIVILISATIONS = {
 
 // 2. Référentiel des domaines techniques et typologies d'artefacts
 const TAXONOMY_DOMAINS = {
+  "sculpture_civile": {
+    label: "Sculpture civile, Fontaines & Décors urbains",
+    types: [
+      "Arts précieux & Jeux historiques",
+      "Décor architectural civil (façades & mascarons)",
+      "Fontaine monumentale & Art hydraulique",
+      "Statuaire publique & Monuments civiques"
+    ]
+  },
+
   "architecture": {
     label: "Architecture & Grands Monuments",
     types: [
