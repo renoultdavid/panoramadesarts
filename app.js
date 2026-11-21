@@ -1702,7 +1702,8 @@ const BANNERS_REGISTRY = {
   sculpture_religieuse: "https://lh3.googleusercontent.com/pw/AP1GczPbZq3hDy_qUKRmHm5JrtKwaNhLVKUmr456zjHwbS9Tpr8X1IWiMi5wGcgVC8DZa1klWVb1Fcr87ZWd9gIwKToWiyBMsCnB4trF6VEHxVVxp30kfF1hxoDSdZ7GdrocJ2JJk00oE9a_iRHhH2LClG9ZPw=w1836-h779-s-no-gm?authuser=0",
 
   // 17. Portail, Tympan & Sculpture de cathédrale
-  sculpture_tympan: "https://lh3.googleusercontent.com/pw/AP1GczOEMY0CLUXIhfgAFi8UaKlq6fqCmoOnjDXiwpQMQSjtJLKtCIWhSN6YrSMg9_bUj57U_u_GVAAnPW9-oB2KbGhFI_c-lzpoNhyCcLFkwwpKZbC0Xbq-XyO9JyuobmVJrGms7fGULj6pQ_hQavWm0YDyhA=w1836-h779-s-no-gm?authuser=0"
+  sculpture_tympan: "https://lh3.googleusercontent.com/pw/AP1GczOEMY0CLUXIhfgAFi8UaKlq6fqCmoOnjDXiwpQMQSjtJLKtCIWhSN6YrSMg9_bUj57U_u_GVAAnPW9-oB2KbGhFI_c-lzpoNhyCcLFkwwpKZbC0Xbq-XyO9JyuobmVJrGms7fGULj6pQ_hQavWm0YDyhA=w1836-h779-s-no-gm?authuser=0",
+  sculpture_funeraire: "https://lh3.googleusercontent.com/pw/AP1GczNK1NFeP2pUMHN2re11jGAYDT6AGcZLqvcWf1zRAbsNNeFTHduHMYTpNOiIohXYm0evXu-wXhSwdVogPb-yU_AVHXxKpelOTrXYV_wUi1SjVNeAM5wzINfBPVBCIowvJJnOVZyi9_VOXWlkjKy62IvNCA=w1836-h779-s-no-gm?authuser=0",
 };
 
 function getArtworkBanner(art) {
@@ -1718,6 +1719,10 @@ function getArtworkBanner(art) {
 
   if (domain === 'sculpture_civile' || aType.includes('fontaine') || fullText.includes('sculpture civile')) {
     return BANNERS_REGISTRY.sculpture_civile;
+  }
+
+  if (aType.includes('gisant') || aType.includes('sarcophage') || fullText.includes('funéraire') || fullText.includes('tombeau') || fullText.includes('cénotaphe')) {
+    if (BANNERS_REGISTRY.sculpture_funeraire) return BANNERS_REGISTRY.sculpture_funeraire;
   }
 
   if (aType.includes('tympan') || aType.includes('portail') || fullText.includes('tympan') || fullText.includes('conques')) {
@@ -10571,6 +10576,7 @@ const TAXONOMY_DOMAINS = {
     types: [
       "Croix de chemin & Calvaire monumental",
       "Gisant, Enfeu & Sculpture funéraire chrétienne",
+      "Gisant, Sarcophage & Monument funéraire",
       "Portail, Tympan & Décor de cathédrale",
       "Retable, Chaire & Mobilier liturgique sculpté",
       "Statuaire religieuse (Vierges, Saints & Apôtres)"

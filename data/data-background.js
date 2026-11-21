@@ -3996,6 +3996,14 @@ window.BACKGROUNDS_REGISTRY = {
     "keywords": ["belfort", "siège de belfort", "siege de belfort", "1870", "denfert-rochereau", "lion de belfort", "résistance", "guerre franco-prussienne"]
   },
 
+  "sculpture_funeraire_gisants_et_tombeaux": {
+    "id": "sculpture_funeraire_gisants_et_tombeaux",
+    "badge": "ART SACRÉ & MÉMOIRE DES DÉFUNTS",
+    "title": "De la Mémoire Chrétienne au Panthéon des Hommes Illustres : L'Évolution du Monument Funéraire",
+    "sources": "Histoire de l'art médiéval et moderne, épigraphie et iconographie funéraire",
+    "text": "<p>Le monument funéraire en Occident constitue l'un des miroirs les plus profonds des croyances spirituelles, des structures sociales et de l'affirmation identitaire à travers les siècles. Dès les premiers siècles de l'ère chrétienne, les sarcophages sculptés dans le marbre romain opèrent une synthèse fondatrice : ils reprennent le vocabulaire architectural antique (colonnettes, strigiles, frises continues) tout en chargeant les scènes mythologiques ou bibliques d'un espoir nouveau de rédemption, de délivrance et de vie éternelle pour l'âme du défunt.</p><p>Au Moyen Âge central et flamboyant, l'art funéraire chrétien s'incarne magistralement dans la figure du gisant. Couché sur son lit de pierre, souvent représenté les yeux ouverts dans l'attente confiante de la Résurrection, le défunt apparaît les mains jointes, paré des attributs de son rang terrestre (couronnes, armures de chevalier, insignes épiscopaux ou livres de prières). Aux pieds reposent traditionnellement des animaux hautement symboliques : le lion pour le courage, la force et la royauté ; le chien pour la fidélité conjugale et religieuse. Avec l'avènement du gothique tardif et les traumatismes de la fin du Moyen Âge, la vision de la mort se dramatise avec l'apparition des transis cadavériques et des cortèges de pleurants enveloppés de longs manteaux de deuil, créant une dialectique poignante entre la corruption de la chair terrestre et le salut de l'esprit.</p><p>À la Renaissance et à l'époque classique, le tombeau se mue en arc de triomphe monumental et en manifeste humaniste. Si la ferveur religieuse demeure prégnante, l'édifice funéraire célèbre désormais la gloire civique, le génie individuel et la postérité intellectuelle. Dès les grands ensembles de Santa Croce à Florence, puis à Westminster ou dans les cathédrales royales, le monument devient le panthéon des savants, des philosophes, des artistes et des navigateurs, où les allégories des Vertus, de la Science et des Arts veillent à jamais sur la mémoire des grands hommes offerts à l'admiration de la postérité.</p>",
+    "keywords": ["funéraire", "funéraires", "gisant", "gisants", "tombeau", "tombeaux", "sarcophage", "sarcophages", "cénotaphe", "cénotaphes", "monument funéraire", "monuments funéraires", "enfeu", "transi", "transis", "pleurants"]
+  },
 };
 
 

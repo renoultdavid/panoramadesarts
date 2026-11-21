@@ -13626,12 +13626,12 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPBM0Jjv3iJLid4mhjYnzN2xGsEkr1_olEVESPY4s9rcLI5dpEyx2YLFdGV34DdGtlAE3UQWDsdFlFYTIqdwlQo9na5EDKPxSF4fHZC2FZhkwuS20m_pqryaNvn2ETPJ_eMvolZilPWkslE1R_Gekr6dA=w1836-h779-s-no-gm?authuser=0",
     "bio": "<p><strong>Giorgio Vasari</strong> (1511 – 1574), né à Arezzo et mort à Florence, est une figure monumentale de la culture italienne de la Renaissance. Protégé des Médicis et ami intime de Michel-Ange, il fut à la fois peintre d'histoire érudit, architecte majeur (concepteur du Palais des Offices et du Corridor vasarien) et surtout le père fondateur de l'histoire de l'art avec la publication de ses célèbres <em>Vies des meilleurs peintres, sculpteurs et architectes</em> (1550, 1568). En tant que créateur, il incarne l'intellectuel de cour accompli du maniérisme toscan, capable d'orchestrer d'immenses programmes décoratifs tout en codifiant les canons de l'art occidental.</p><p>Son genre pictural relève de la grande peinture d'histoire sacrée et profane, de la fresque monumentale et du portrait humaniste. Son style se caractérise par une virtuosité graphique héritée de Michel-Ange, l'usage de la <em>figura serpentinata</em>, des compositions théâtrales denses saturées de figures aux musculatures tendues, et des coloris acides et contrastés propres au maniérisme toscan. Il subordonne la couleur au <em>disegno</em> (le dessein et le dessin), considéré comme le principe intellectuel suprême de la création artistique.</p><p>L'évolution de sa carrière est marquée par ses collaborations initiales à Rome et Florence, son installation définitive au service du duc Cosme Ier de Médicis dès 1554 pour la rénovation grandiose du Palazzo Vecchio (Salone dei Cinquecento et Studiolo de François Ier), ses retables monumentaux (<em>L'Annonciation</em> du Louvre, <em>Le Jardin des Gethsémani</em> de Tokyo) et l'entreprise colossale de la fresque du <em>Jugement dernier</em> de la coupole du Duomo de Florence, achevée après sa mort par Federico Zuccari.</p>",
     "corpus": {
-      "total": 175,
+      "total": 176,
       "paintingsCount": 175,
       "drawingsCount": null,
       "engravingsCount": null,
-      "sculpturesCount": null,
-      "seenCount": 4,
+      "sculpturesCount": 1,
+      "seenCount": 5,
       "source": "Catalogues raisonnés Paola Barocchi, Luciano Berti & Charles Del Bravo",
       "totalOeuvresEstimees": "~175 peintures et cycles de fresques authentifiés",
       "oeuvresConsensusNotice": "La production de Giorgio Vasari et de son atelier florentin comprend environ 175 peintures de chevalet, retables d'autel et fresques majeures conservés dans les musées et édifices sacrés internationaux (Palazzo Vecchio, Offices, Louvre, Duomo de Florence)."
@@ -13685,6 +13685,15 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "badge": "CHEF-D'ŒUVRE",
               "icon": "🕊️",
               "artworkId": "vasari_l_annonciation_louvre_1564"
+            },
+            {
+              "year": "1564 – 1570",
+              "title": "Tombeau de Michel-Ange (Santa Croce, Florence)",
+              "desc": "Monument funéraire grandiose conçu par Vasari en hommage à son maître vénéré, orné du buste de Michel-Ange et des trois allégories de la Peinture, de la Sculpture et de l'Architecture.",
+              "type": "masterpiece",
+              "badge": "MONUMENT FUNÉRAIRE",
+              "icon": "🏛️",
+              "artworkId": "sculpture_florence_vasari_tombeau_michel_ange_1570"
             },
             {
               "year": "1568",
