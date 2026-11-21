@@ -1704,6 +1704,7 @@ const BANNERS_REGISTRY = {
   // 17. Portail, Tympan & Sculpture de cathédrale
   sculpture_tympan: "https://lh3.googleusercontent.com/pw/AP1GczOEMY0CLUXIhfgAFi8UaKlq6fqCmoOnjDXiwpQMQSjtJLKtCIWhSN6YrSMg9_bUj57U_u_GVAAnPW9-oB2KbGhFI_c-lzpoNhyCcLFkwwpKZbC0Xbq-XyO9JyuobmVJrGms7fGULj6pQ_hQavWm0YDyhA=w1836-h779-s-no-gm?authuser=0",
   sculpture_funeraire: "https://lh3.googleusercontent.com/pw/AP1GczNK1NFeP2pUMHN2re11jGAYDT6AGcZLqvcWf1zRAbsNNeFTHduHMYTpNOiIohXYm0evXu-wXhSwdVogPb-yU_AVHXxKpelOTrXYV_wUi1SjVNeAM5wzINfBPVBCIowvJJnOVZyi9_VOXWlkjKy62IvNCA=w1836-h779-s-no-gm?authuser=0",
+  sculpture_interieur_eglise: "https://lh3.googleusercontent.com/pw/AP1GczMCcd8ofc97Xih7QDwoFHS5BUpF8ibLAXBRKLvgnJ0cRSDQRDL-Q25-F4a6I8WPknrFHEuf-wGMhx8OxXMq67OTqiNexPwxkROxWI8P9AT0baXAKQcD-25uUqnn0Jv-fkOVbXAz1w-Hi3e6dcHAa9_2jw=w1836-h779-s-no-gm?authuser=0",
 };
 
 function getArtworkBanner(art) {
@@ -1719,6 +1720,10 @@ function getArtworkBanner(art) {
 
   if (domain === 'sculpture_civile' || aType.includes('fontaine') || fullText.includes('sculpture civile')) {
     return BANNERS_REGISTRY.sculpture_civile;
+  }
+
+  if (aType.includes('retable') || aType.includes('chaire') || aType.includes('tabernacle') || aType.includes('ambon') || fullText.includes('retable') || fullText.includes('chaire') || fullText.includes('tabernacle') || fullText.includes('clôture de chœur') || fullText.includes('rétrochoeur') || fullText.includes('trascoro') || fullText.includes('arbre de jessé')) {
+    if (BANNERS_REGISTRY.sculpture_interieur_eglise) return BANNERS_REGISTRY.sculpture_interieur_eglise;
   }
 
   if (aType.includes('gisant') || aType.includes('sarcophage') || fullText.includes('funéraire') || fullText.includes('tombeau') || fullText.includes('cénotaphe')) {
@@ -12143,11 +12148,35 @@ function renderSearchGallery() {
         const techTxt = ((item.artifactType || '') + ' ' + (item.category || '')).toLowerCase();
         matched = /pariétal|parietal|rupestre/.test(techTxt);
       } else {
-        const aType = (item.artifactType || '').toLowerCase();
-        const cat = (item.category || '').toLowerCase();
-        const techTxt = `${aType} ${cat}`;
-        matched = techTxt.includes(target);
+        const aType = (item.artifactType || '').toLowerCase().trim();
+        const cat = (item.category || '').toLowerCase().trim();
+
+        // 1. Correspondance directe sur artifactType (égalité stricte ou inclusion de tokens séparés par / ou & ou virgule)
+        const aTypeTokens = aType.split(/[\/,;&]/).map(s => s.trim()).filter(Boolean);
+        matched = (aType === target) || aTypeTokens.includes(target);
+
+        // 2. Si artifactType contient target (mais pas l'inverse, pour éviter qu'un mot court comme "calice" matche "cratère en calice")
+        if (!matched && aType) {
+          if (target.length >= 4 && aType.includes(target)) {
+            if (target === 'calice') {
+              matched = !aType.includes('cratère') && !aType.includes('cratere') && !aType.includes('antéfixe') && !aType.includes('antefixe');
+            } else if (target === 'cratère' || target === 'cratere') {
+              matched = aType.includes('cratère') || aType.includes('cratere');
+            } else {
+              matched = true;
+            }
+          }
+        }
+
+        // 3. Fallback sur category UNIQUEMENT si artifactType est vide
+        if (!matched && !aType && cat) {
+          const catTokens = cat.split(/[\/,;&]/).map(s => s.trim()).filter(Boolean);
+          matched = (cat === target) || catTokens.includes(target) || (target.length >= 5 && cat.includes(target));
+        }
+
+        // 4. Cas spécifiques architecturaux / liturgiques / mégalithiques
         if (!matched) {
+          const techTxt = `${aType} ${cat}`;
           if (target.includes('cloître') || target.includes('cloitre')) {
             matched = techTxt.includes('cloître') || techTxt.includes('cloitre');
           } else if (target.includes('nef')) {
@@ -12156,6 +12185,10 @@ function renderSearchGallery() {
             matched = techTxt.includes('plafond') || techTxt.includes('voûte') || techTxt.includes('voute');
           } else if (target.includes('portail') || target.includes('tympan')) {
             matched = techTxt.includes('portail') || techTxt.includes('tympan');
+          } else if (target.includes('retable') || target.includes('chaire') || target.includes('liturgique')) {
+            matched = techTxt.includes('retable') || techTxt.includes('chaire') || techTxt.includes('tabernacle') || techTxt.includes('ambon') || techTxt.includes('autel') || techTxt.includes('clôture de chœur') || techTxt.includes('trascoro') || techTxt.includes('rétrochoeur') || techTxt.includes('arbre de jessé');
+          } else if (target.includes('gisant') || target.includes('sarcophage') || target.includes('funéraire')) {
+            matched = techTxt.includes('gisant') || techTxt.includes('sarcophage') || techTxt.includes('tombeau') || techTxt.includes('cénotaphe') || techTxt.includes('funéraire') || techTxt.includes('enfeu') || techTxt.includes('plaque funéraire');
           } else if (target.includes('dolmen')) {
             matched = techTxt.includes('dolmen');
           } else if (target.includes('allée couverte') || target.includes('allee couverte')) {
