@@ -16309,6 +16309,313 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
+
+  "le_bernin": {
+    "id": "le_bernin",
+    "name": "Gian Lorenzo Bernini, dit Le Bernin",
+    "sortName": "Bernin (Gian Lorenzo Bernini)",
+    "sortLetter": "B",
+    "dates": "1598 – 1680",
+    "movement": "Baroque italien & Art total de la Rome pontificale",
+    "nationality": "Italienne (Naples / Rome)",
+    "techniques": "Sculpture sur marbre blanc de Carrare en taille directe, fonte du bronze à la cire perdue, stucs dorés, scénographies architecturales théâtrales et polychromie des marbres",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1g9Aou64DCBF68eiM45Lxxu7c_X-apQsv=s1600",
+    "corpus": {
+      "total": 105,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 105,
+      "seenCount": 2,
+      "source": "Monographies et catalogues Rudolf Wittkower, Irving Lavin & rétrospective Galleria Borghese (2017)",
+      "totalOeuvresEstimees": "~105 créations sculpturales distinctes répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur les monographies et catalogues critiques de Rudolf Wittkower (Gian Lorenzo Bernini: The Sculptor of the Roman Baroque) et d'Irving Lavin, complétés par les travaux de la Galleria Borghese. En retenant chaque création sculpturale autonome (groupes, statues, bustes, fontaines et tombeaux majeurs) et en écartant l'architecture pure, les dessins et les répliques d'atelier, le corpus officiel réunit environ 105 œuvres."
+    },
+    "bio": "<p><strong>Le génie absolu du baroque italien et le maître de la Rome pontificale</strong><br>Gian Lorenzo Bernini, dit Le Bernin (1598 – 1680), né à Naples et mort à Rome, est le génie absolu du baroque italien et l'un des artistes les plus complets de l'histoire de l'art, à la fois sculpteur virtuose, architecte révolutionnaire et peintre. Formé dès sa plus tendre enfance dans l'atelier de son père, le sculpteur maniériste Pietro Bernini, il s'établit à Rome où son talent précoce fulgurant attire l'attention passionnée du cardinal Scipione Borghese, puis celle d'une lignée ininterrompue de souverains pontifes, notamment Urbain VIII Barberini, faisant de lui pendant plus d'un demi-siècle le maître d'œuvre tout-puissant de la Rome pontificale triomphante.</p><p><strong>La révolution théâtrale et l'art de métamorphoser le marbre en chair vivante</strong><br>Figure de proue et fondateur de la sculpture baroque, Le Bernin rompt avec la réserve classique et l'équilibre statique de la Renaissance en insufflant à la pierre une vie, un dynamisme organique et une théâtralité dramatique jusqu'alors inconnus. Il choisit systématiquement de saisir l'action à son paroxysme narratif, immortalisant dans le marbre l'instant fugace de la métamorphose ou de l'acmé émotionnelle. Sa virtuosité technique stupéfiante parvient à rendre la pierre aussi souple et palpitante que la chair humaine, aussi vaporeuse qu'une étoffe soulevée par le vent ou aussi fluide que l'eau jaillissante et les frondaisons végétales, tout en orchestrant de savants clair-obscurs.</p><p><strong>Les groupes mythologiques de la Villa Borghese et l'avènement de l'art total</strong><br>Ses chefs-d'œuvre de jeunesse exécutés pour la Villa Borghese, tels qu'Apollon et Daphné, Le Rapt de Proserpine ou son David tendu dans une torsion hélicoïdale avant le lancer fatal, définissent pour toujours l'esthétique du mouvement capturé en plein vol. Dans le domaine sacré, Le Bernin abolit les frontières entre les disciplines pour concevoir le « bel composto », une fusion scénographique totale entre sculpture, architecture, fresque et lumière naturelle dirigée, dont l'apogée est atteint dans l'Extase de sainte Thérèse à la chapelle Cornaro, où un éclairage zénithal dissimulé transforme le ravissement mystique en une apparition céleste suspendue.</p><p><strong>L'architecte visionnaire de la Ville éternelle et l'héritage d'un siècle d'or</strong><br>Également architecte et urbaniste visionnaire, Le Bernin transforme durablement la physionomie monumentale de Rome en édifiant le gigantesque baldaquin de bronze torsadé au-dessus du tombeau de saint Pierre, l'immense colonnade elliptique enserrant la place Saint-Pierre pour symboliser les bras accueillants de l'Église, ainsi que la théâtrale fontaine des Quatre-Fleuves sur la place Navone. Par son pouvoir de fascination visuelle, son sens de la mise en scène et son énergie communicative, Le Bernin a exercé une hégémonie esthétique absolue sur toute la sculpture occidentale du Grand Siècle et inspiré les créateurs européens pendant plus de cent ans.</p>",
+    "timeline": {
+      "periods": [
+        {
+          "title": "Les Débuts romains et les Chefs-d'œuvre de la Villa Borghese",
+          "years": "1618 – 1625",
+          "color": "#d4af37",
+          "summary": "Création des groupes mythologiques virtuoses pour le cardinal Scipione Borghese.",
+          "events": [
+            {
+              "year": "1621",
+              "title": "Le Rapt de Proserpine pour la Villa Borghese",
+              "desc": "Le Bernin figure l'instant violent où Pluton saisit la nymphe, la pression des doigts dans la chair de marbre marquant une prouesse naturaliste inédite.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🗿"
+            },
+            {
+              "year": "1623",
+              "title": "Apollon et Daphné : la métamorphose végétale du marbre",
+              "desc": "Apogée de l'illusionnisme baroque où les doigts de la nymphe effrayée s'effilochent en feuilles de laurier.",
+              "type": "masterpiece",
+              "badge": "MÉTAMORPHOSE",
+              "icon": "🌿"
+            }
+          ]
+        },
+        {
+          "title": "Le Grand Siècle pontifical et le Bel Composto",
+          "years": "1625 – 1664",
+          "color": "#b45309",
+          "summary": "Urbanisme monumental de Rome, baldaquin de Saint-Pierre et apogée de la sculpture religieuse théâtrale.",
+          "events": [
+            {
+              "year": "1624",
+              "title": "Érection du Baldaquin monumental de Saint-Pierre",
+              "desc": "Fonte monumentale en bronze de colonnes torsadées symbolisant le triomphe de la papauté d'Urbain VIII au cœur de la basilique vaticane.",
+              "type": "context",
+              "badge": "ARCHITECTURE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1652",
+              "title": "L'Extase de sainte Thérèse à Santa Maria della Vittoria",
+              "desc": "Le chef-d'œuvre du « bel composto » mariant marbre, stucs dorés, éclairage caché et loges de spectateurs théâtraux.",
+              "type": "masterpiece",
+              "badge": "MYSTIQUE",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "Le Séjour à Paris et les Dernières Années romaines",
+          "years": "1665 – 1680",
+          "color": "#ec4899",
+          "summary": "Voyage en France à la cour de Louis XIV, statues équestres et chefs-d'œuvre de dévotion intime.",
+          "events": [
+            {
+              "year": "1665",
+              "title": "Le Buste de Louis XIV au Château de Versailles",
+              "desc": "Sculpté en quarante jours à Paris pour le jeune Roi-Soleil, fixant pour toujours l'archétype héroïque et flottant du portrait monarchique absolu.",
+              "type": "masterpiece",
+              "artworkId": "le_bernin_buste_de_louis_xiv_versailles_1665",
+              "badge": "PORTRAIT ROYAL",
+              "icon": "👑"
+            },
+            {
+              "year": "1665",
+              "title": "L'Enfant Jésus jouant avec un clou",
+              "desc": "Statuette de dévotion privée saisissant avec tendresse et gravité le contraste entre l'enfance divine et l'instrument sacrificiel de la Passion.",
+              "type": "masterpiece",
+              "artworkId": "le_bernin_enfant_jesus_jouant_avec_un_clou_louvre_1665",
+              "badge": "DÉVOTION",
+              "icon": "🙏"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "puget": {
+    "id": "puget",
+    "name": "Pierre Puget",
+    "sortName": "Puget (Pierre)",
+    "sortLetter": "P",
+    "dates": "1620 – 1694",
+    "movement": "Baroque français & Fougue michelangélesque",
+    "nationality": "Française (Marseille / Toulon / Gênes)",
+    "techniques": "Taille directe du marbre blanc de Carrare, bas-reliefs illusionnistes en marbre, sculpture ornementale sur bois de marine (proues et galères), modelage en terre cuite et peinture d'histoire",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1sTpZoydeJqqLM8vpKhXWqfc-0tqytifn=s1600",
+    "corpus": {
+      "total": 55,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 55,
+      "seenCount": 2,
+      "source": "Catalogue raisonné Klaus Herding & Geneviève Bresc-Bautier (2023)",
+      "totalOeuvresEstimees": "~55 sculptures et ensembles sculptés documentés",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue raisonné monumental en quatre volumes de Klaus Herding et Geneviève Bresc-Bautier (Éditions Faton / Société de l'Histoire de l'Art Français, 2023), complété par les rétrospectives de Marseille. En retenant l'ensemble des sculptures en marbre, bas-reliefs, bustes et terres cuites majeures, et en écartant l'architecture pure, les peintures et les œuvres disparues, le corpus compte environ 55 œuvres."
+    },
+    "bio": "<p><strong>Le Michel-Ange français et l'ardeur baroque méridionale</strong><br>Pierre Puget (1620 – 1694), né et mort à Marseille, est la figure la plus puissante et la plus singulière de la sculpture baroque française du XVIIe siècle. Formé dès son adolescence à la sculpture ornementale sur bois au sein des arsenaux de galères de Marseille, il parfait son art lors de séjours déterminants en Italie, à Rome et à Gênes, où il s'imprègne directement de la terrible grandeur anatomique de Michel-Ange, du dynamisme spatial de Pierre de Cortone et de la virtuosité pathétique du Bernin, développant un style fougueux et passionné qui contraste vivement avec les conventions de son époque.</p><p><strong>Une esthétique du pathétique, de l'effort physique et du tragique</strong><br>Surnommé avec admiration le « Michel-Ange de la France », Puget se démarque radicalement du classicisme mesuré, allégorique et ordonné promu par Charles Le Brun et l'Académie royale à la cour de Versailles. Son esthétique privilégie la tension musculaire paroxystique, l'intensité dramatique de la douleur physique et morale, ainsi qu'une composition en lignes obliques et torsions vigoureuses. Refusant l'idéalisation sereine, il s'attache à traduire la lutte tragique de l'homme contre les forces aveugles du destin, conférant au marbre une puissance brute et une vibration nerveuse sans équivalent dans l'art français du Grand Siècle.</p><p><strong>Les sommets de l'art du marbre : du Milon de Crotone aux Atlantes de Toulon</strong><br>Son chef-d'œuvre absolu, le monumental Milon de Crotone sculpté pour le parc de Versailles et aujourd'hui conservé au musée du Louvre, saisit le champion antique au comble du supplice avec un réalisme anatomique foudroyant. Dans le domaine du relief, son immense composition en marbre Alexandre et Diogène déploie une foule animée dans une perspective atmosphérique quasi picturale, tandis que les célèbres Atlantes du portail de l'hôtel de ville de Toulon exaltent la noblesse et l'écrasement de la condition humaine sous l'effort herculéen.</p><p><strong>L'indépendance d'un créateur indomptable préfigurant le romantisme</strong><br>Personnalité altière, fière et intransigeante, souvent tenue à l'écart des grandes charges parisiennes en raison de ses conflits avec l'administration royale de Colbert et Louvois, Pierre Puget a façonné ses chefs-d'œuvre loin de la cour, entre Toulon, Marseille et Gênes. Par son lyrisme tourmenté, sa liberté créatrice et son sens aigu du drame existentiel, il apparaît aujourd'hui comme le chaînon fondamental reliant l'héroïsme michelangélesque aux flamboyances de la sculpture romantique du XIXe siècle.</p>",
+    "timeline": {
+      "periods": [
+        {
+          "title": "L'Apprentissage maritime et les Séjours italiens",
+          "years": "1638 – 1658",
+          "color": "#3b82f6",
+          "summary": "Formation sur les galères de Toulon et absorption de la leçon baroque à Florence et Rome.",
+          "events": [
+            {
+              "year": "1640",
+              "title": "Séjour à Rome auprès de Pierre de Cortone",
+              "desc": "Puget collabore aux plafonds peints du palais Barberini et s'imprègne de la grande scénographie baroque italienne.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🎨"
+            },
+            {
+              "year": "1656",
+              "title": "Les Atlantes de l'Hôtel de Ville de Toulon",
+              "desc": "Deux colosses de pierre soutenant le balcon municipal, incarnant la force brute et la souffrance physique de la condition humaine.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Les Grandes Commandes de marbre et le Séjour génois",
+          "years": "1659 – 1670",
+          "color": "#10b981",
+          "summary": "Période de pleine maturité en Normandie et en Ligurie, réalisation d'Hercule terrassant l'hydre.",
+          "events": [
+            {
+              "year": "1659",
+              "title": "Hercule terrassant l'hydre de Lerne pour le château de Vaudreuil",
+              "desc": "Combat d'une furieuse énergie anatomique où le héros écrase le monstre polycéphale dans une puissante torsion hélicoïdale.",
+              "type": "masterpiece",
+              "artworkId": "puget_hercule_terrassant_l_hydre_de_lerne_rouen_1659",
+              "badge": "MYTHOLOGIE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1664",
+              "title": "Le Saint Sébastien de Santa Maria di Carignano à Gênes",
+              "desc": "Marbre somptueux exprimant l'extase et l'abandon du martyr avec une sensibilité baroque exaltée.",
+              "type": "masterpiece",
+              "badge": "GÊNES",
+              "icon": "🏹"
+            }
+          ]
+        },
+        {
+          "title": "L'Épopée de Versailles et les Dernières Années marseillaises",
+          "years": "1671 – 1694",
+          "color": "#f59e0b",
+          "summary": "Envoi à Versailles du Milon de Crotone et chefs-d'œuvre de bas-reliefs à Marseille.",
+          "events": [
+            {
+              "year": "1682",
+              "title": "Installation du Milon de Crotone dans le parc de Versailles",
+              "desc": "Le chef-d'œuvre tragique de l'athlète dévoré par le lion suscite l'admiration du roi Louis XIV et consacre la gloire nationale de Puget.",
+              "type": "masterpiece",
+              "artworkId": "puget_milon_de_crotone_louvre_1671",
+              "badge": "VERSAILLES",
+              "icon": "🦁"
+            },
+            {
+              "year": "1692",
+              "title": "Achèvement du bas-relief Alexandre et Diogène",
+              "desc": "Immense panneau de marbre rivalisant avec la peinture d'histoire par sa profondeur spatiale et le grouillement de ses figures.",
+              "type": "masterpiece",
+              "badge": "BAS-RELIEF",
+              "icon": "📜"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "canova": {
+    "id": "canova",
+    "name": "Antonio Canova",
+    "sortName": "Canova (Antonio)",
+    "sortLetter": "C",
+    "dates": "1757 – 1822",
+    "movement": "Néoclassicisme",
+    "nationality": "Italienne (Possagno / Venise / Rome)",
+    "techniques": "Taille du marbre blanc de Carrare, polissage virtuose à la pierre ponce, patines à la cire tiède, modèles préparatoires en plâtre et terre cuite (gypsothèque)",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1R5XEMjErRMLODpfbrMKNLdBnDQMgPi6Z=s1600",
+    "corpus": {
+      "total": 160,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 160,
+      "seenCount": 3,
+      "source": "Catalogues critiques Hugh Honour, Mario Praz, Giuseppe Pavanello & Gypsothèque de Possagno",
+      "totalOeuvresEstimees": "~160 créations sculpturales distinctes répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur les travaux fondamentaux d'Hugh Honour, de Mario Praz et de Giuseppe Pavanello, ainsi que sur les collections de la Gypsothèque de Possagno. En retenant chaque modèle et composition sculpturale distincte (statues, groupes, bustes, monuments) et en regroupant les répliques sous leur type originel, le corpus officiel de créations sculpturales compte environ 160 œuvres."
+    },
+    "bio": "<p><strong>Le maître incontesté du néoclassicisme européen et le sculpteur des souverains</strong><br>Antonio Canova (1757 – 1822), né à Possagno et mort à Venise, est le chef de file incontesté de la sculpture néoclassique européenne et l'un des créateurs les plus admirés et fêtés de son époque à travers tout le continent. Formé initialement à Venise dans une veine encore imprégnée de l'élégance rococo, il s'installe définitivement à Rome en 1779. Au contact des chefs-d'œuvre de l'Antiquité redécouverts à Herculanum et Pompéi et sous l'influence des théories esthétiques de Johann Joachim Winckelmann, il accomplit une révolution esthétique radicale qui impose un nouveau canon de perfection classique à toutes les cours européennes, servant tour à tour les papes, Napoléon Ier et les monarques étrangers.</p><p><strong>L'idéal de la « noble simplicité » et le raffinement sensuel de la matière</strong><br>Rejetant avec fermeté les convulsions dramatiques et l'agitation théâtrale du baroque, Canova érige en principe souverain la « noble simplicité et grandeur calme » de l'art antique. Son esthétique repose sur une recherche absolue de la beauté idéale, la pureté géométrique des contours, l'harmonieuse pondération des silhouettes et un équilibre psychologique apaisé. Loin de toute imitation froide ou académique, il insuffle à ses marbres une grâce mélancolique et une sensualité frémissante, magnifiées par un travail de finition exceptionnel : ses surfaces sont polies à l'extrême à la pierre ponce puis rehaussées d'un bain de cire rosée destiné à restituer la tiédeur satinée de l'épiderme humain.</p><p><strong>Les chefs-d'œuvre mythologiques : Psyché ranimée et la beauté suspendue</strong><br>Son chef-d'œuvre universel, Psyché ranimée par le baiser de l'Amour, conservé au musée du Louvre, illustre le sommet de cette poétique visuelle où l'entrelacement aérien des amants dessine une chorégraphie d'une légèreté presque immatérielle. Dans la statuaire héroïque, son Thésée sur le Minotaure consacre le triomphe de la raison civilisatrice sur la sauvagerie instinctive, tandis que son célèbre portrait de Paolina Borghese en Vénus victorieuse conjugue avec une audace subtile la divinisation mythologique et le naturalisme raffiné du mobilier contemporain.</p><p><strong>Monuments impériaux et règne de l'harmonie universelle</strong><br>Créateur de tombeaux monumentaux solennels, comme le mausolée de Marie-Christine d'Autriche à Vienne où défile une procession silencieuse de pleureuses, Canova a également sculpté les plus grands acteurs de l'épopée napoléonienne, dont le colossal Napoléon en Mars pacificateur et l'impératrice Marie-Louise en déesse de la Concorde. Nommé inspecteur général des Beaux-Arts par le pape Pie VII, il négocia avec un courage exemplaire la restitution des trésors artistiques spoliés par la France après la chute de l'Empire. Son héritage artistique a défini l'idéal plastique de tout le premier XIXe siècle européen.</p>",
+    "timeline": {
+      "periods": [
+        {
+          "title": "L'Affirmation romaine et le Manifeste néoclassique",
+          "years": "1779 – 1792",
+          "color": "#6366f1",
+          "summary": "Installation à Rome, rupture avec le baroque et création de Thésée sur le Minotaure et de Psyché.",
+          "events": [
+            {
+              "year": "1782",
+              "title": "Thésée sur le Minotaure : le calme victorieux de la raison",
+              "desc": "Le manifeste fondateur du néoclassicisme rompant avec la violence convulsive pour magnifier la méditation sereine du héros après le combat.",
+              "type": "masterpiece",
+              "artworkId": "canova_thesee_sur_le_minotaure_v_a_1782",
+              "badge": "MANIFESTE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1793",
+              "title": "Psyché ranimée par le baiser de l'Amour",
+              "desc": "Apogée de la grâce poétique et de la perfection des lignes courbes où le baiser réveille l'âme humaine de son sommeil léthargique.",
+              "type": "masterpiece",
+              "artworkId": "canova_psyche_ranimee_par_le_baiser_de_l_amour_louvre_1787",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🕊️"
+            }
+          ]
+        },
+        {
+          "title": "La Gloire impériale et les Portraits héroïques",
+          "years": "1793 – 1815",
+          "color": "#ec4899",
+          "summary": "Commandes de la cour napoléonienne, tombeaux monumentaux et portraits divinisés.",
+          "events": [
+            {
+              "year": "1805",
+              "title": "Mausolée de Marie-Christine d'Autriche à Vienne",
+              "desc": "Pyramide funéraire ornée d'un cortège silencieux incarnant la mélancolie funèbre et la dignité humaine face au mystère du trépas.",
+              "type": "masterpiece",
+              "badge": "MAUSOLÉE",
+              "icon": "⚰️"
+            },
+            {
+              "year": "1812",
+              "title": "Marie-Louise d'Autriche en déesse de la Concorde",
+              "desc": "Statue olympienne trônant avec sceptre et patère, symbolisant l'apaisement diplomatique des nations et l'idéal de concorde impériale.",
+              "type": "masterpiece",
+              "artworkId": "canova_marie_louise_d_autriche_en_concorde_parme_1812",
+              "badge": "PORTRAIT IMPÉRIAL",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "La Mission diplomatique et le Temple de Possagno",
+          "years": "1815 – 1822",
+          "color": "#14b8a6",
+          "summary": "Restitution des œuvres d'art à Rome et construction du Panthéon néoclassique de Possagno.",
+          "events": [
+            {
+              "year": "1815",
+              "title": "Négociations au Congrès de Paris pour le patrimoine pontifical",
+              "desc": "Canova obtient le rapatriement des chefs-d'œuvre confisqués par Napoléon, sauvant le patrimoine artistique de la Ville éternelle.",
+              "type": "context",
+              "badge": "DIPLOMATIE",
+              "icon": "📜"
+            },
+            {
+              "year": "1819",
+              "title": "Pose de la première pierre du Temple Canovien à Possagno",
+              "desc": "Édifice votif majestueux combinant le portique du Parthénon d'Athènes et la rotonde du Panthéon de Rome pour abriter son tombeau.",
+              "type": "context",
+              "badge": "TEMPLE",
+              "icon": "⛪"
+            }
+          ]
+        }
+      ]
+    }
+  },
 });
 
 
@@ -16612,3 +16919,17 @@ window.ARTISTS_REGISTRY["bardi_donato"] = window.ARTISTS_REGISTRY["donatello"];
 // Aliases Benvenuto Cellini
 window.ARTISTS_REGISTRY["benvenuto_cellini"] = window.ARTISTS_REGISTRY["cellini"];
 window.ARTISTS_REGISTRY["cellini_benvenuto"] = window.ARTISTS_REGISTRY["cellini"];
+
+// Aliases Le Bernin
+window.ARTISTS_REGISTRY["bernin"] = window.ARTISTS_REGISTRY["le_bernin"];
+window.ARTISTS_REGISTRY["gian_lorenzo_bernini"] = window.ARTISTS_REGISTRY["le_bernin"];
+window.ARTISTS_REGISTRY["bernini"] = window.ARTISTS_REGISTRY["le_bernin"];
+window.ARTISTS_REGISTRY["bernini_gian_lorenzo"] = window.ARTISTS_REGISTRY["le_bernin"];
+
+// Aliases Pierre Puget
+window.ARTISTS_REGISTRY["pierre_puget"] = window.ARTISTS_REGISTRY["puget"];
+window.ARTISTS_REGISTRY["puget_pierre"] = window.ARTISTS_REGISTRY["puget"];
+
+// Aliases Antonio Canova
+window.ARTISTS_REGISTRY["antonio_canova"] = window.ARTISTS_REGISTRY["canova"];
+window.ARTISTS_REGISTRY["canova_antonio"] = window.ARTISTS_REGISTRY["canova"];

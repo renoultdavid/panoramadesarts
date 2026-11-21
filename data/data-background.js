@@ -4375,6 +4375,130 @@ window.BACKGROUNDS_REGISTRY = {
       "art gothique"
     ],
     "text": "<p>Érigé vers 1230 contre un pilier du chœur oriental de la cathédrale impériale de Bamberg, le <em>Cavalier de Bamberg</em> (Bamberger Reiter) constitue la première grande statue équestre monumentale en pierre préservée de tout le Moyen Âge occidental.</p>\n<p>Représenté jeune, couronné et noblement monté sur un cheval à l'arrêt, le cavalier incarne la synthèse parfaite des vertus chevaleresques : la vaillance militaire, la piété chrétienne, la droiture du regard et la protection du sanctuaire ecclésiastique.</p>\n<p>Attribué tour à tour au roi saint Étienne de Hongrie, à l'empereur Henri II ou à un idéal chevaleresque impérial, ce chef-d'œuvre de la transition gothique allie la souplesse du naturalisme inspiré des grands chantiers rémois à la majesté solennelle de la foi médiévale.</p>"
+  },
+
+  "l_enfant_jesus_et_les_instruments_de_la_passion": {
+    "id": "l_enfant_jesus_et_les_instruments_de_la_passion",
+    "badge": "DÉVOTION CHRÉTIENNE & SPIRITUALITÉ",
+    "title": "L'Enfance du Christ et les Présages de la Passion : L'Innocence face au Destin Sacrificiel",
+    "sources": "Évangiles canoniques, Pères de l'Église & Traités de dévotion méditative du XVIIe siècle",
+    "keywords": [
+      "enfant jésus",
+      "enfant jesus",
+      "instruments de la passion",
+      "arma christi",
+      "clou de la passion",
+      "présage de la passion",
+      "méditation sur la croix",
+      "rédemption",
+      "dévotion baroque",
+      "enfance sacrée"
+    ],
+    "text": "<p>Dans la théologie et la dévotion spirituelle de l'époque baroque, la méditation sur l'enfance du Christ s'est profondément enrichie d'une poignante dimension prémonitoire. La piété des fidèles était invitée à contempler le Sauveur dans son innocence première, tout en discernant déjà dans ses gestes familiers les signes avant-coureurs de son sacrifice rédempteur sur le Golgotha.</p><p>Cette tradition iconographique associe l'Enfant Jésus aux instruments matériels de la Passion — les <em>Arma Christi</em> —, tels que la croix, la couronne d'épines ou les clous du crucifiement. Présenté manipulant ou contemplant un clou de fer avec la candeur et la curiosité d'un enfant en train de jouer, le divin nourrisson confronte le spectateur à un contraste émotionnel saisissant entre la tendresse humaine et l'inexorabilité du destin divin.</p><p>Ce motif dévotionnel intime répond aux préceptes de la Contre-Réforme, qui valorisaient l'empathie affective et la méditation personnelle sur l'Incarnation. L'instrument du martyre, loin d'apparaître uniquement comme une menace sanglante, devient le gage tangible du salut universel et le symbole de l'acceptation filiale du sacrifice pour la rédemption de l'humanité.</p>"
+  },
+
+  "milon_de_crotone_et_la_vulnerabilite_de_l_orgueil": {
+    "id": "milon_de_crotone_et_la_vulnerabilite_de_l_orgueil",
+    "badge": "MYTHOLOGIE ANTIQUE & VERTUS MORALES",
+    "title": "Milon de Crotone : La Fin Tragique de l'Athlète et la Faillibilité de la Force Humaine",
+    "sources": "Pausanias, Description de la Grèce & Aulu-Gelle, Nuits attiques (Livre XV)",
+    "keywords": [
+      "milon de crotone",
+      "milon",
+      "athlète antique",
+      "force physique",
+      "arbre fendu",
+      "lion",
+      "châtiment de l'orgueil",
+      "hubris",
+      "vulnérabilité",
+      "destin",
+      "crotone"
+    ],
+    "text": "<p>Figure légendaire de la Grande-Grèce du VIe siècle avant notre ère, Milon de Crotone était célébré par les auteurs antiques comme l'archétype de la force physique absolue et l'athlète le plus titré des Jeux panhelléniques, victorieux à six reprises lors des Jeux olympiques dans l'épreuve de la lutte.</p><p>Sa fin dramatique est devenue dans la tradition occidentale l'un des exemples moraux les plus puissants sur les dangers de l'<em>hubris</em> (la démesure orgueilleuse). Devenu âgé, l'athlète traversait une forêt lorsqu'il aperçut un tronc d'arbre partiellement ouvert par des coins de bois. Voulant éprouver si sa vigueur d'antan lui était restée, il tenta d'achever de fendre le tronc à mains nues. Mais les cales s'échappèrent et le bois se referma brutalement sur ses mains, le retenant captif sans recours. Incapable de se libérer, il fut assailli et dévoré par les bêtes sauvages de la forêt.</p><p>Loin d'un simple fait divers mythique, ce récit a inspiré les philosophes stoïciens et les artistes humanistes comme une allégorie tragique de la condition humaine : la force matérielle la plus invincible demeure impuissante et dérisoire face aux lois implacables de la nature, au vieillissement et aux ruses du destin.</p>"
+  },
+
+  "thesee_le_minotaure_et_le_triomphe_de_la_raison": {
+    "id": "thesee_le_minotaure_et_le_triomphe_de_la_raison",
+    "badge": "MYTHOLOGIE GRECQUE & HÉROÏSME",
+    "title": "Thésée et le Minotaure : Le Labyrinthe Crétois et la Victoire de la Cité sur le Chaos Bestial",
+    "sources": "Plutarque, Vies parallèles (Vie de Thésée) & Ovide, Les Métamorphoses (Livre VIII)",
+    "keywords": [
+      "thésée",
+      "thesee",
+      "minotaure",
+      "labyrinthe",
+      "crète",
+      "ariane",
+      "dédale",
+      "héros civilisateur",
+      "victoire de la raison",
+      "monstre",
+      "calme héroïque"
+    ],
+    "text": "<p>Le mythe de Thésée affrontant le Minotaure au cœur du dédale conçu par l'architecte Dédale constitue l'une des pierres angulaires de l'imaginaire héroïque grec. Le monstre, créature hybride à corps d'homme et tête de taureau née des amours contre-nature de Pasiphaé, incarnait pour les cités helléniques la violence brute, les pulsions destructrices et la barbarie primordiale.</p><p>Fils du roi Égée, Thésée s'embarque pour la Crète parmi les jeunes tributaires athéniens afin d'abattre le monstre et de libérer sa patrie de ce sacrifice sanglant. Guidé par le fil d'Ariane et armé de sa massue, il parvient au centre du labyrinthe, terrasse la créature bestiale et retrouve le chemin vers la lumière.</p><p>Au-delà de la péripétie martiale, ce combat fondamental symbolise le triomphe de l'intellect, du courage vertueux et de la civilisation ordonnée sur le chaos souterrain et la sauvagerie instinctive. Dans la vision néoclassique des Lumières, le moment suivant l'affrontement — où le héros victorieux contemple sa victime dans un calme méditatif — exalte la grandeur d'âme et la maîtrise morale au détriment de l'agitation sanglante.</p>"
+  },
+
+  "l_amour_et_psyche_le_baiser_et_l_immortalite_de_l_ame": {
+    "id": "l_amour_et_psyche_le_baiser_et_l_immortalite_de_l_ame",
+    "badge": "MYTHOLOGIE ANTIQUE & ALLÉGORIE DE L'ÂME",
+    "title": "L'Amour et Psyché : L'Initiation Mystique, le Sommeil Léthargique et l'Apothéose de l'Âme",
+    "sources": "Apulée, Les Métamorphoses ou L'Âne d'or (Livres IV à VI)",
+    "keywords": [
+      "amour et psyché",
+      "amour et psyche",
+      "cupidon et psyché",
+      "cupidon",
+      "psyché",
+      "psyche",
+      "apulée",
+      "baiser de l'amour",
+      "sommeil léthargique",
+      "immortalité de l'âme",
+      "beauté idéale"
+    ],
+    "text": "<p>Transmis dans toute sa splendeur poétique par l'écrivain latin Apulée au IIe siècle de notre ère, le mythe d'Éros (l'Amour) et de Psyché (dont le nom signifie en grec l'« Âme ») transcende le conte mythologique pour former une profonde allégorie initiatique sur la destinée humaine et la quête spirituelle de la beauté absolue.</p><p>Psyché, mortelle d'une beauté si éclatante qu'elle suscite la jalousie de Vénus, est soumise par la déesse à une série d'épreuves surhumaines. Pour sa dernière tâche, elle doit descendre aux Enfers réclamer à Proserpine un flacon renfermant un soupçon de beauté divine. Cédant à la curiosité, Psyché ouvre la boîte fatidique : il n'en sort qu'un sommeil léthargique et mortel qui la plonge instantanément dans l'inertie sur un rocher stérile.</p><p>Averti du danger, l'Amour vole à son secours. D'une caresse de ses ailes et d'un baiser rédempteur, il la réveille du sommeil de la mort avant de l'élever vers l'Olympe où Jupiter lui confère l'immortalité. Cette étreinte miraculeuse, figeant l'instant suspendu de l'éveil amoureux, incarne le triomphe sublime de l'amour céleste délivrant l'âme mortelle des ténèbres de la finitude.</p>"
+  },
+
+  "l_allegorie_de_la_concorde_et_la_pacification_imperiale": {
+    "id": "l_allegorie_de_la_concorde_et_la_pacification_imperiale",
+    "badge": "ALLÉGORIES CLASSIQUES & POUVOIR POLITIQUE",
+    "title": "L'Allégorie de la Concorde : La Paix Retrouvée, l'Harmonie Civique et l'Âge d'Or Souverain",
+    "sources": "Tite-Live, Histoire romaine & Cesare Ripa, Iconologia (1593)",
+    "keywords": [
+      "concorde",
+      "déesse concorde",
+      "concordia",
+      "paix retrouvée",
+      "patère",
+      "sceptre",
+      "harmonie civique",
+      "allégorie politique",
+      "pacification",
+      "renaissance de l'âge d'or"
+    ],
+    "text": "<p>Divinité vénérée dans la Rome antique, Concordia personnifiait l'entente harmonieuse entre les citoyens, la conciliation des ordres sociaux et l'union durable entre les peuples après les tourmentes des guerres civiles et des conflits armés.</p><p>Dans la tradition allégorique codifiée à la Renaissance par Cesare Ripa, la Concorde est traditionnellement figurée sous les traits d'une souveraine assise sur un trône auguste, vêtue de drapés classiques solennels. Elle tient dans sa main un sceptre, insigne de l'autorité équitable, et une patère (coupe libatoire), symbole des traités sacrés et de l'apaisement religieux scellant l'amitié entre les nations.</p><p>À l'époque moderne et sous les régimes impériaux, l'assimilation d'une figure régnante à la déesse de la Concorde permettait de célébrer une ère de restauration pacifique. Loin des attributs belliqueux de la victoire martiale, cette personnification magnifie la douceur bienfaitrice du gouvernement, la réconciliation politique et la promesse d'une prospérité retrouvée sous l'égide de la loi.</p>"
+  },
+
+  "les_tetes_de_caractere_et_la_physiognomonie_des_lumieres": {
+    "id": "les_tetes_de_caractere_et_la_physiognomonie_des_lumieres",
+    "badge": "SCIENCES DE L'ÂME & EXPRESSION DES PASSIONS",
+    "title": "Les Têtes de Caractère et la Physiognomonie : L'Exploration Viscérale des Passions Humaines",
+    "sources": "Johann Kaspar Lavater, Essai sur la physiognomonie (1775) & Traités anatomiques du XVIIIe siècle",
+    "keywords": [
+      "têtes de caractère",
+      "tetes de caractere",
+      "physiognomonie",
+      "expression des passions",
+      "grimace",
+      "dégoût",
+      "odorat",
+      "forte odeur",
+      "anatomie faciale",
+      "psychiatrie",
+      "siècle des lumières"
+    ],
+    "text": "<p>Au XVIIIe siècle, le Siècle des Lumières est marqué par une fascination scientifique et philosophique croissante pour l'expression des émotions intérieures et leur manifestation directe sur les traits du visage. Popularisée à travers toute l'Europe par le théologien suisse Johann Kaspar Lavater, la physiognomonie prétendait déchiffrer le tempérament, la santé mentale et les passions secrètes de l'âme à partir de la conformation osseuse et musculaire de la face.</p><p>Dans cette mouvance expérimentale, l'exploration des « têtes de caractère » pousse l'étude anatomique au-delà de la retenue académique et des canons du beau idéal. Les artistes et théoriciens scrutent les réflexes involontaires du corps humain confronté aux sensations élémentaires les plus brutes : la douleur aiguë, le dégoût viscéral, la stupeur, l'hilarité convulsive ou la répulsion olfactive provoquée par une odeur pestilentielle.</p><p>En fixant dans la matière métallique ou la pierre des grimaces exacerbées, où les yeux se plissent, le nez se rétracte en profonds plis horizontaux et la bouche se crispe dans un spasme défensif, ces œuvres pionnières rompent avec l'idéalisation classique pour ouvrir la voie à la psychologie moderne, révélant la vulnérabilité fascinante de la nature humaine mise à nu.</p>"
   }
 };
 
