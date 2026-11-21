@@ -3960,7 +3960,16 @@ window.BACKGROUNDS_REGISTRY = {
     "keywords": ["neptune", "poseidon", "poséidon", "trident", "fontaine", "flots", "mer", "hippocampes", "tritons"]
   },
 
-  "siege_de_belfort_1870_resistance": {
+"compression_nouveau_realisme_dechet_industriel": {
+    "id": "compression_nouveau_realisme_dechet_industriel",
+    "badge": "AVANT-GARDE DU XXe SIÈCLE",
+    "title": "L'Art de la Compression et la Poétique du Déchet Industriel",
+    "subtitle": "L'écrasement mécanique dirigé au cœur de la révolution du Nouveau Réalisme",
+    "desc": "<p>Au tournant des années 1960, au cœur des Trente Glorieuses et de l'avènement triomphant de la société de consommation de masse, la sculpture occidentale connaît l'une des ruptures les plus retentissantes de son histoire avec l'affirmation du Nouveau Réalisme. Face à l'épuisement de l'abstraction et au refus d'un savoir-faire artisanal traditionnel tourné vers le passé, une avant-garde audacieuse proclame l'appropriation directe, sans fard et sans illusion, de la réalité quotidienne et industrielle. L'atelier conventionnel cède la place aux casses d'automobiles, aux usines de démolition et aux dépotoirs de la périphérie urbaine. Dans ces territoires déclassés, les rebuts de la société technicienne — carrosseries embouties, tôles froissées, bidons écrasés et ferrailles tordues — sont envisagés non plus comme des détritus voués à l'oubli, mais comme les témoins organiques et les matériaux nobles de la modernité.</p><p>L'invention de la compression mécanique constitue le geste plastique le plus radical et spectaculaire de cette métamorphose esthétique. En détournant la presse hydraulique industrielle — machine gigantesque conçue pour broyer et recycler les épaves automobiles —, l'acte créateur abandonne la taille directe dans le marbre et le modelage de la glaise pour confier la métamorphose des formes à la contrainte brute d'une pression titanesque. Loin d'un automatisme aveugle, l'intervention artistique réside dans le choix minutieux des composants métalliques, l'agencement préalable des carcasses dans la cuve de compactage et la maîtrise du temps de broyage. En réduisant le volume initial de l'objet de près de 90 % tout en préservant les laques industrielles écaillées, les pliures imprévues et les entrelacs de câbles, l'écrasement dirigé fait surgir un monolithe compact d'une densité saisissante, conjuguant la rigueur d'un volume géométrique à l'expressivité tourmentée d'un haut-relief baroque.</p><p>Présentées pour la première fois avec éclat en 1960 au Salon de Mai, ces masses de ferraille compactée ont provoqué un séisme critique majeur avant de s'imposer comme des jalons indépassables de l'histoire de l'art. Au-delà du choc formel, la compression porte un regard lucide sur l'obsolescence accélérée et la production effrénée des biens manufacturés, tout en élevant le déchet anonyme au rang d'icône patrimoniale. En intégrant l'oxydation naturelle, les griffures et la mémoire silencieuse de l'usage dans la chair même de la sculpture, cette démarche a aboli pour toujours la frontière entre le débris industriel et le chef-d'œuvre muséal, conférant à la matière blessée du monde moderne une dignité monumentale universelle.</p>",
+    "keywords": ["compression", "nouveau réalisme", "nouveau realisme", "presse hydraulique", "ferraille", "déchet industriel", "dechet industriel", "salon de mai", "sculpture moderne", "métal"]
+  },
+
+    "siege_de_belfort_1870_resistance": {
     "id": "siege_de_belfort_1870_resistance",
     "badge": "HISTOIRE & MÉMOIRE NATIONALE",
     "title": "Le Siège de Belfort (1870–1871) et le Symbole de la Résistance Nationale",
@@ -4030,3 +4039,7 @@ window.BACKGROUNDS_REGISTRY["la_cene"] = window.BACKGROUNDS_REGISTRY["la_cene_le
 
 window.BACKGROUNDS_REGISTRY["la_cene_leonard_de_vinci"] = window.BACKGROUNDS_REGISTRY["la_cene_dernier_repas"];
 window.BACKGROUNDS_REGISTRY["la_cene"] = window.BACKGROUNDS_REGISTRY["la_cene_dernier_repas"];
+
+window.BACKGROUNDS_REGISTRY["compression"] = window.BACKGROUNDS_REGISTRY["compression_nouveau_realisme_dechet_industriel"];
+window.BACKGROUNDS_REGISTRY["nouveau_realisme"] = window.BACKGROUNDS_REGISTRY["compression_nouveau_realisme_dechet_industriel"];
+window.BACKGROUNDS_REGISTRY["art_de_la_compression"] = window.BACKGROUNDS_REGISTRY["compression_nouveau_realisme_dechet_industriel"];

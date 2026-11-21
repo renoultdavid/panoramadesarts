@@ -1690,7 +1690,13 @@ const BANNERS_REGISTRY = {
 
   // 13. Voie Occidentale (Renaissance & XIXe Réalisme)
   occ_renaissance: "https://lh3.googleusercontent.com/d/1fF4IimcuCoDeZ9aqrLxXEqu_Kg9kkFEp",
-  occ_xixe: "https://lh3.googleusercontent.com/d/1D3lvCtzmQDj3HMwjQkJb2ocBp33j-ljN"
+  occ_xixe: "https://lh3.googleusercontent.com/d/1D3lvCtzmQDj3HMwjQkJb2ocBp33j-ljN",
+
+  // 14. Sculpture civile & Fontaines
+  sculpture_civile: "https://lh3.googleusercontent.com/pw/AP1GczPY6zIkwJb1Tddx8j2B_x9Rmr4EEfELpy00aatGZCTlszmqNSg14K3oOJQDTl3tV3-lPLpJ2HOSkhBvwjl3w3FuueunhZcqrsKwfQaPYPkDqcaS3j3OX4k3rb8QYnP3cX3ggunMFK3Gdik87HiYy5HU7g=w1836-h779-s-no-gm?authuser=0",
+
+  // 15. Compression & Nouveau Réalisme
+  compression: "https://lh3.googleusercontent.com/pw/AP1GczP4YgCuLZVOE16Hq35B6YxFWz1Rw7OXcLvXc5872FLSrGCUL-gGU2i8XsEmpp6zyrqbh6nqLYQdkD65K49Q33Uso65Lacy7Fpczyv3lnetsOW_cqC7LaMVLTc-OAP4vnZDbu9feD8tTNUmzfhcQopQ_1A=w1836-h779-s-no-gm?authuser=0"
 };
 
 function getArtworkBanner(art) {
@@ -1704,10 +1710,15 @@ function getArtworkBanner(art) {
   const title = (art.title || '').toLowerCase();
   const fullText = `${cat} ${aType} ${domain} ${title}`;
 
-  // 1. GRÈCE ANTIQUE : Choix dynamique selon la catégorie de l'œuvre
   if (domain === 'sculpture_civile' || aType.includes('fontaine') || fullText.includes('sculpture civile')) {
     return BANNERS_REGISTRY.sculpture_civile;
   }
+
+  if (fullText.includes('compression') || aType.includes('compression')) {
+    return BANNERS_REGISTRY.compression;
+  }
+
+  // 1. GRÈCE ANTIQUE : Choix dynamique selon la catégorie de l'œuvre
 
   const isGreek = cId === 'grece' || cId === 'egee' || pId.startsWith('grece_') || cId.startsWith('grece');
   if (isGreek) {
@@ -10567,6 +10578,7 @@ const TAXONOMY_DOMAINS = {
     label: "Sculpture & Statuaire",
     types: [
       "Assemblage & Sculpture moderne",
+      "Compression & Assemblage industriel",
       "Bas-relief & Relief en creux",
       "Chapiteau-stèle votif / Relief biface",
       "Décor architectural (fronton, frise, métope, chapiteau)",

@@ -15747,7 +15747,126 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     }
   },
 
-  "giambologna": {
+"cesar": {
+    "id": "cesar",
+    "name": "César (César Baldaccini)",
+    "sortName": "César (César Baldaccini)",
+    "sortLetter": "C",
+    "dates": "1921 – 1998",
+    "movement": "Nouveau Réalisme & Sculpture contemporaine",
+    "nationality": "Française (Marseille / Paris)",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1H0q6tEPIUIzTuS2B1ypBVNpA2FAdc9NM=s1600",
+    "bio": "<p><strong>César Baldaccini, dit simplement César</strong> (1921 – 1998), né à Marseille et mort à Paris, est l'une des figures les plus emblématiques de la sculpture contemporaine de la seconde moitié du XXe siècle. Formé aux Beaux-Arts de Marseille puis de Paris, il s'éloigne rapidement de la taille directe et du modelage traditionnel, faute de moyens financiers, pour explorer les matériaux industriels de récupération comme la ferraille soudée. Dès les années 1950, il compose un bestiaire fantastique d'insectes, d'oiseaux et de figures hybrides, avant de devenir en 1960 l'un des membres fondateurs du Nouveau Réalisme aux côtés de Pierre Restany, Yves Klein et Arman.</p><p>Ce mouvement, qui prône une appropriation directe du réel urbain et industriel, trouve en César son expression la plus spectaculaire lorsqu'il découvre la puissance d'une presse hydraulique dans une casse automobile de Gennevilliers. Avec ses célèbres <em>Compressions dirigées</em>, il transforme des carcasses de voitures, des bidons ou des objets du quotidien en blocs géométriques denses et colorés, faisant de la machine un véritable outil de création plastique où l'artiste orchestre les volumes, les textures et les harmonies chromatiques des tôles froissées.</p><p>À l'opposé de ce geste de contrainte mécanique, il développe parallèlement les <em>Expansions</em> à partir de 1967, utilisant la mousse de polyuréthane liquide qu'il laisse se répandre et se figer librement dans l'espace, célébrant ainsi l'aléatoire et l'organique. Parallèlement, ses <em>Empreintes humaines</em>, à l'instar de son fameux <em>Pouce</em> monumental réalisé grâce au pantographe, témoignent d'un dialogue constant avec la tradition statuaire classique qu'il détourne par le changement d'échelle et l'usage de matériaux modernes comme la résine ou le bronze poli.</p><p>Sculpteur de la matière en perpétuelle métamorphose, César a profondément renouvelé le langage sculptural en abolissant la frontière entre le déchet industriel et l'œuvre d'art, laissant derrière lui une œuvre protéiforme marquée par une énergie vitale et un sens aigu de la forme.</p>",
+    "corpus": {
+      "total": 1250,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 1250,
+      "seenCount": 2,
+      "source": "Catalogue raisonné Denyse Durand-Ruel & fonds Centre Pompidou / MAC Marseille",
+      "totalOeuvresEstimees": "~1 250 créations sculpturales répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur les archives et le catalogue raisonné entrepris par Denyse Durand-Ruel (préface de Pierre Restany, Éditions de la Différence) ainsi que sur les fonds du Centre Pompidou à Paris et du Musée d'Art Contemporain (MAC) de Marseille, situant le corpus officiel d'œuvres sculpturales originales créées autour d'environ 1 250 numéros sur l'ensemble de sa carrière (1947–1998)."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "period": "1947–1959",
+          "title": "L'atelier de ferraille soudée & le bestiaire fantastique",
+          "events": [
+            {
+              "year": "1947",
+              "title": "Installation à Paris et découverte du métal de récupération",
+              "desc": "Face à la pénurie d'après-guerre et au coût du bronze, il récupère tubes, fils et tôles dans les ferrailles pour inventer sa technique de soudure à l'arc.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🔥"
+            },
+            {
+              "year": "1954",
+              "title": "Première exposition personnelle et achat par l'État du Poisson",
+              "desc": "À la Galerie Lucien Durand à Paris, ses monstres et créatures animales en ferraille soudée créent l'événement ; l'État acquiert son célèbre Poisson.",
+              "type": "masterpiece",
+              "badge": "RÉVÉLATION",
+              "icon": "🐟"
+            },
+            {
+              "year": "1956",
+              "title": "Consécration internationale à la Biennale de Venise",
+              "desc": "Représente la France à Venise avec son Torse monumental de ferraille ; sa notoriété européenne est définitivement établie.",
+              "type": "context",
+              "badge": "VENISE",
+              "icon": "🌍"
+            }
+          ]
+        },
+        {
+          "period": "1960–1966",
+          "title": "Le séisme des Compressions & le Nouveau Réalisme",
+          "events": [
+            {
+              "year": "1960",
+              "title": "Découverte de la presse hydraulique et scandale du Salon de Mai",
+              "desc": "Dans une casse de Gennevilliers, il découvre la puissance de compression des presses américaines et expose trois tonnes de voitures compactées.",
+              "type": "artwork",
+              "badge": "COMPRESSION",
+              "icon": "🚗",
+              "artworkId": "cesar_compression_1960_strasbourg"
+            },
+            {
+              "year": "1960",
+              "title": "Cofondation du Nouveau Réalisme avec Pierre Restany",
+              "desc": "Signe le manifeste du Nouveau Réalisme le 27 octobre 1960 aux côtés d'Yves Klein, Arman, Tinguely et Hains pour proclamer l'appropriation du réel industriel.",
+              "type": "context",
+              "badge": "MANIFESTE",
+              "icon": "📜"
+            },
+            {
+              "year": "1965",
+              "title": "L'agrandissement mécanique au pantographe et genèse du Pouce",
+              "desc": "Moule son propre pouce et le reproduit à échelle monumentale grâce au pantographe mécanique, dialoguant audacieusement avec la statuaire classique.",
+              "type": "masterpiece",
+              "badge": "EMPREINTE",
+              "icon": "👍"
+            }
+          ]
+        },
+        {
+          "period": "1967–1998",
+          "title": "L'aventure des Expansions & la maturité monumentale",
+          "events": [
+            {
+              "year": "1967",
+              "title": "Première coulée publique d'Expansions en polyuréthane",
+              "desc": "Au Salon de Mai, il réalise en public une Expansion de mousse chimique qui gonfle et se fige instantanément, célébrant le mouvement libre de la matière.",
+              "type": "masterpiece",
+              "badge": "EXPANSION",
+              "icon": "🧪"
+            },
+            {
+              "year": "1969",
+              "title": "L'Échassier et le réenchantement du bestiaire en ferraille",
+              "desc": "Compose son oiseau gracile en fer et métal doré soudé à l'arc, faisant dialoguer la légèreté de la silhouette animale avec la dureté des rebuts d'atelier.",
+              "type": "artwork",
+              "badge": "BESTIAIRE",
+              "icon": "🦩",
+              "artworkId": "cesar_echassier_1969_rennes"
+            },
+            {
+              "year": "1976",
+              "title": "Création du trophée des Césars et rétrospectives mondiales",
+              "desc": "Crée la célèbre statuette de bronze compressé pour le cinéma français ; couronné par de grandes rétrospectives au Jeu de Paume et à l'étranger.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🏆"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+    "giambologna": {
     "id": "giambologna",
     "name": "Giambologna (Jean Boulogne)",
     "sortName": "Giambologna (Jean Boulogne)",
@@ -16149,3 +16268,7 @@ window.ARTISTS_REGISTRY["giambologna_jean_boulogne"] = window.ARTISTS_REGISTRY["
 window.ARTISTS_REGISTRY["jean_boulogne"] = window.ARTISTS_REGISTRY["giambologna"];
 window.ARTISTS_REGISTRY["giovanni_bologna"] = window.ARTISTS_REGISTRY["giambologna"];
 window.ARTISTS_REGISTRY["boulogne_jean"] = window.ARTISTS_REGISTRY["giambologna"];
+
+window.ARTISTS_REGISTRY["cesar_baldaccini"] = window.ARTISTS_REGISTRY["cesar"];
+window.ARTISTS_REGISTRY["baldaccini_cesar"] = window.ARTISTS_REGISTRY["cesar"];
+window.ARTISTS_REGISTRY["baldaccini"] = window.ARTISTS_REGISTRY["cesar"];
