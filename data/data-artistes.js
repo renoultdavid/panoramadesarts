@@ -2000,14 +2000,27 @@ window.ARTISTS_REGISTRY = {
       L'évolution de son style, bien que brève, montre une quête d'authenticité de plus en plus radicale. La fougue militaire et hippique : Ses débuts sont marqués par des figures héroïques comme l' Officier de chasseurs à cheval. Il y exprime une fougue incroyable où le mouvement du cheval et de l'homme fusionne dans une atmosphère de bataille. Le choc du réel et le naufrage : Son chef-d'œuvre, Le Radeau de la Méduse (1819), marque le sommet de son art. Pour le peindre, il étudie des cadavres et des membres coupés afin de rendre la vérité de la souffrance. Il passe d'un romantisme épique à un naturalisme sombre et politique. L'exploration de l'âme (Les Monomanes) : À la fin de sa vie, il réalise une série de portraits de malades mentaux. Son style s'épure pour se concentrer sur la vérité psychologique et la dignité humaine. La touche se fait plus sobre, presque clinique, capturant l'aliénation avec une empathie révolutionnaire pour l'époque.</p>
     `,
     corpus: {
-      "total": 300,
+      "total": 306,
+      "seen": 16,
+      "seenCount": 16,
       "paintingsCount": 300,
+      "sculpturesCount": 6,
+      "drawingsCount": null,
+      "engravingsCount": null,
       "details": [
         {
           "label": "Peintures (huile sur toile et sur panneau)",
           "count": 300,
           "icon": "🎨",
-          "color": "#d4af37"
+          "color": "#d4af37",
+          "seen": 15
+        },
+        {
+          "label": "Sculptures modelées autographes (cires, terres cuites & plâtres)",
+          "count": 6,
+          "icon": "🗿",
+          "color": "#ec4899",
+          "seen": 1
         }
       ],
       "sourceTitle": "Germain Bazin (1987-1997)",

@@ -16312,8 +16312,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
 
   "le_bernin": {
     "id": "le_bernin",
-    "name": "Gian Lorenzo Bernini, dit Le Bernin",
-    "sortName": "Bernin (Gian Lorenzo Bernini)",
+    "name": "Bernin Gian Lorenzo (dit Le Bernin)",
+    "sortName": "Bernin Gian Lorenzo",
     "sortLetter": "B",
     "dates": "1598 – 1680",
     "movement": "Baroque italien & Art total de la Rome pontificale",
@@ -16414,8 +16414,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
 
   "puget": {
     "id": "puget",
-    "name": "Pierre Puget",
-    "sortName": "Puget (Pierre)",
+    "name": "Puget Pierre",
+    "sortName": "Puget Pierre",
     "sortLetter": "P",
     "dates": "1620 – 1694",
     "movement": "Baroque français & Fougue michelangélesque",
@@ -16516,8 +16516,8 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
 
   "canova": {
     "id": "canova",
-    "name": "Antonio Canova",
-    "sortName": "Canova (Antonio)",
+    "name": "Canova Antonio",
+    "sortName": "Canova Antonio",
     "sortLetter": "C",
     "dates": "1757 – 1822",
     "movement": "Néoclassicisme",
@@ -16616,6 +16616,120 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
+
+  "rodin": {
+    "id": "rodin",
+    "name": "Rodin Auguste",
+    "sortName": "Rodin Auguste",
+    "sortLetter": "R",
+    "dates": "1840 – 1917",
+    "movement": "Précurseur de la sculpture moderne • Symbolisme, Impressionnisme & Expressionnisme",
+    "nationality": "Française (Paris / Meudon)",
+    "techniques": "Modelage de la terre glaise et du plâtre, taille directe du marbre, fonte du bronze à la cire perdue et au sable, assemblage et réemploi de fragments anatomiques",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1tGy9v0-xbDr8RhmX5HgIQgvWcJszOLDq=s1600",
+    "corpus": {
+      "total": 320,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 320,
+      "seenCount": 11,
+      "source": "Musée Rodin (Paris) & Catalogue critique de Jérôme Le Blay",
+      "totalOeuvresEstimees": "~320 créations sculpturales originales distinctes répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur les catalogues et archives du Musée Rodin à Paris (notamment l'ouvrage d'Antoinette Le Normand-Romain, Rodin et le bronze : Catalogue des œuvres conservées au musée Rodin, 2007) et les travaux du comité Rodin sous la direction de Jérôme Le Blay. En retenant chaque modèle, figure autonome, groupe ou monument comme une unité de création distincte — sans multiplier par les épreuves en bronze ou les agrandissements successifs et en écartant les milliers d'esquisses d'atelier — le corpus officiel de créations sculpturales compte environ 320 œuvres."
+    },
+    "bio": "<p><strong>Le père de la sculpture moderne et la révélation michelangélesque</strong><br>Auguste Rodin (1840 – 1917), né à Paris et mort à Meudon, est unanimement reconnu comme le père de la sculpture moderne et le créateur visionnaire qui a fait basculer cet art dans le XXe siècle. Longtemps rejeté par l'École des beaux-arts et contraint de gagner sa vie pendant près de vingt ans comme praticien ornemaniste anonyme, il accomplit un voyage initiatique décisif en Italie en 1875. La découverte éblouissante des statues de Michel-Ange libère son tempérament créateur et lui inspire la volonté d'arracher définitivement la sculpture française aux canons académiques lisses et stériles du XIXe siècle.</p><p><strong>La révolution de la matière vivante, du non finito et du fragment expressif</strong><br>À la croisée de l'impressionnisme par son traitement vibrant de la lumière, du symbolisme par la profondeur mystique de ses thèmes et de l'expressionnisme par la violence de ses tensions corporelles, Rodin révolutionne l'approche de la forme en privilégiant le modelé organique, les méplats hardis et les surfaces accidentées. Il confère une autonomie plastique inédite au fragment anatomique, au « non finito » et aux traces directes du travail de la glaise, n'hésitant pas à exposer des torses sans tête ni membres pour concentrer toute la puissance expressive dans la pulsation musculaire et la vérité psychologique.</p><p><strong>La Porte de l'Enfer et les sommets de la statuaire monumentale</strong><br>Son projet monumental de <em>La Porte de l'Enfer</em>, commandé en 1880 et nourri par Dante et Baudelaire, constitue le creuset matriciel inépuisable de toute son existence créatrice, donnant naissance à des figures universellement célèbres telles que <em>Le Penseur</em>, <em>Le Baiser</em>, <em>Ugolin</em> et <em>Les Trois Ombres</em>. Dans la commande publique, il renverse les conventions du monument commémoratif avec <em>Les Bourgeois de Calais</em>, groupe sans piédestal élevé à même la terre pour abolir la distance avec le peuple, et son spectaculaire <em>Monument à Balzac</em>, monolithe drapé d'une modernité radicale qui déclencha l'une des plus retentissantes batailles esthétiques de la modernité.</p><p><strong>Une onde de choc universelle sur les avant-gardes du XXe siècle</strong><br>Par sa remise en cause révolutionnaire de l'espace tridimensionnel, son exploration viscérale des passions intérieures et sa conception de la matière sculptée comme réceptacle d'une énergie vitale tellurique, Auguste Rodin a ouvert la voie royale à toutes les audaces de la modernité. Il exerça un magnétisme irrésistible sur ses disciples et contemporains — au premier rang desquels Camille Claudel, Bourdelle, Maillol, Brancusi et Giacometti —, marquant d'une empreinte indélébile l'histoire de la sculpture universelle.</p>",
+    "timeline": {
+      "periods": [
+        {
+          "title": "La Rupture avec l'Académie et la Révélation italienne",
+          "years": "1875 – 1879",
+          "color": "#d97706",
+          "summary": "Voyage en Italie, choc michelangélesque et création de Saint Jean-Baptiste prêchant.",
+          "events": [
+            {
+              "year": "1877",
+              "title": "Le scandale de L'Âge d'airain",
+              "desc": "Accusé à tort de moulage sur nature tant le modelé est vivant, Rodin répond en affirmant sa maîtrise souveraine de l'anatomie.",
+              "type": "masterpiece",
+              "badge": "SCANDALE",
+              "icon": "⚡"
+            },
+            {
+              "year": "1878",
+              "title": "Saint Jean-Baptiste prêchant",
+              "desc": "Figure monumentale plus grande que nature, incarnant la marche prophétique par un appui révolutionnaire des deux pieds à plat sur le sol.",
+              "type": "masterpiece",
+              "artworkId": "rodin_saint_jean_baptiste_prechant_tokyo_1878",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🚶‍♂️"
+            }
+          ]
+        },
+        {
+          "title": "Le Grand Œuvre de La Porte de l'Enfer et les Bourgeois de Calais",
+          "years": "1880 – 1890",
+          "color": "#ef4444",
+          "summary": "Commande de La Porte de l'Enfer, naissance du Penseur, d'Adam, Ève et des Bourgeois de Calais.",
+          "events": [
+            {
+              "year": "1880",
+              "title": "Adam et Ève encadrant La Porte de l'Enfer",
+              "desc": "Création des deux colosses bibliques incarnant l'éveil douloureux de la chair et le repli tragique de l'humanité face au destin.",
+              "type": "masterpiece",
+              "artworkId": "rodin_adam_tokyo_1880",
+              "badge": "GENÈSE",
+              "icon": "🗿"
+            },
+            {
+              "year": "1880",
+              "title": "La Porte de l'Enfer",
+              "desc": "La matrice colossale de toute son œuvre inspirée de Dante et Baudelaire, réunissant plus de deux cents figures tourmentées.",
+              "type": "masterpiece",
+              "artworkId": "rodin_la_porte_de_l_enfer_tokyo_1880",
+              "badge": "MATRICE",
+              "icon": "🚪"
+            },
+            {
+              "year": "1889",
+              "title": "Les Bourgeois de Calais",
+              "desc": "Monument révolutionnaire à hauteur d'homme magnifiant le sacrifice civique et la tragédie intime des notables de 1347.",
+              "type": "masterpiece",
+              "artworkId": "rodin_bourgeois_de_calais_tokyo_1884",
+              "badge": "CIVIQUE",
+              "icon": "🗝️"
+            }
+          ]
+        },
+        {
+          "title": "La Consécration mondiale et les Icônes modernes",
+          "years": "1891 – 1917",
+          "color": "#8b5cf6",
+          "summary": "Monument à Balzac, agrandissement monumental du Penseur et consécration au pavillon de l'Alma.",
+          "events": [
+            {
+              "year": "1897",
+              "title": "Le Monument à Balzac",
+              "desc": "Monolithe drapé visionnaire rejeté au Salon de 1898, incarnant la puissance brute du créateur en marche vers la modernité.",
+              "type": "masterpiece",
+              "artworkId": "rodin_etude_monument_a_balzac_drape_tokyo_1897",
+              "badge": "AVANT-GARDE",
+              "icon": "✨"
+            },
+            {
+              "year": "1904",
+              "title": "L'Agrandissement monumental du Penseur",
+              "desc": "Icône mondiale de la méditation humaine, incarnant l'esprit en lutte avec la matière par une tension athlétique colossale.",
+              "type": "masterpiece",
+              "artworkId": "rodin_le_penseur_bronze_tokyo_1902",
+              "badge": "ICÔNE",
+              "icon": "🧠"
+            }
+          ]
+        }
+      ]
+    }
+  }
 });
 
 
@@ -16933,3 +17047,6 @@ window.ARTISTS_REGISTRY["puget_pierre"] = window.ARTISTS_REGISTRY["puget"];
 // Aliases Antonio Canova
 window.ARTISTS_REGISTRY["antonio_canova"] = window.ARTISTS_REGISTRY["canova"];
 window.ARTISTS_REGISTRY["canova_antonio"] = window.ARTISTS_REGISTRY["canova"];
+// Aliases Auguste Rodin
+window.ARTISTS_REGISTRY["auguste_rodin"] = window.ARTISTS_REGISTRY["rodin"];
+window.ARTISTS_REGISTRY["rodin_auguste"] = window.ARTISTS_REGISTRY["rodin"];

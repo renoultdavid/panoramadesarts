@@ -11885,7 +11885,10 @@ function getArtworkYearNumeric(art) {
   if (typeof art.centuryNumeric === 'number' && !Number.isNaN(art.centuryNumeric)) {
     return art.centuryNumeric;
   }
-  const raw = `${art.centuryDisplay || ''} ${art.century || ''}`;
+  if (typeof art.year === 'number' && !Number.isNaN(art.year)) {
+    return art.year;
+  }
+  const raw = `${art.centuryDisplay || ''} ${art.dateDisplay || ''} ${art.date || ''} ${art.period || ''} ${art.century || ''}`;
   const match = raw.match(/(-?\d{3,4})/);
   if (match) {
     return parseInt(match[1], 10);

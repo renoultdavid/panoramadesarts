@@ -4500,6 +4500,88 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Au XVIIIe siècle, le Siècle des Lumières est marqué par une fascination scientifique et philosophique croissante pour l'expression des émotions intérieures et leur manifestation directe sur les traits du visage. Popularisée à travers toute l'Europe par le théologien suisse Johann Kaspar Lavater, la physiognomonie prétendait déchiffrer le tempérament, la santé mentale et les passions secrètes de l'âme à partir de la conformation osseuse et musculaire de la face.</p><p>Dans cette mouvance expérimentale, l'exploration des « têtes de caractère » pousse l'étude anatomique au-delà de la retenue académique et des canons du beau idéal. Les artistes et théoriciens scrutent les réflexes involontaires du corps humain confronté aux sensations élémentaires les plus brutes : la douleur aiguë, le dégoût viscéral, la stupeur, l'hilarité convulsive ou la répulsion olfactive provoquée par une odeur pestilentielle.</p><p>En fixant dans la matière métallique ou la pierre des grimaces exacerbées, où les yeux se plissent, le nez se rétracte en profonds plis horizontaux et la bouche se crispe dans un spasme défensif, ces œuvres pionnières rompent avec l'idéalisation classique pour ouvrir la voie à la psychologie moderne, révélant la vulnérabilité fascinante de la nature humaine mise à nu.</p>"
   }
+,
+"le_devouement_des_bourgeois_de_calais_1347": {
+    "id": "le_devouement_des_bourgeois_de_calais_1347",
+    "badge": "HISTOIRE MÉDIÉVALE & HÉROÏSME CIVIQUE",
+    "title": "Le Dévouement des Bourgeois de Calais : Le Siège de 1347 et le Sacrifice Héroïque",
+    "sources": "Jean Froissart, Chroniques de France, d'Angleterre et des pays voisins (XIVe siècle)",
+    "keywords": [
+      "bourgeois de calais",
+      "calais",
+      "siège de calais",
+      "eustache de saint-pierre",
+      "jean d'aire",
+      "guerre de cent ans",
+      "édouard iii",
+      "edouard iii",
+      "corde au cou",
+      "clés de la ville",
+      "dévouement civique",
+      "sacrifice héroïque"
+    ],
+    "text": "<p>En 1347, au début de la guerre de Cent Ans, la cité maritime de Calais subit un siège impitoyable de onze mois imposé par le roi d'Angleterre Édouard III. Réduits à la famine et aux dernières extrémités après une résistance désespérée, les habitants sont contraints de négocier la reddition de la ville.</p><p>Le monarque anglais consent à épargner la population à une condition terrible : six des plus notables bourgeois de la cité doivent sortir tête nue, vêtus de simples chemises de bure, la corde au cou, et lui apporter en mains propres les clés de la ville et du château, prêts à être exécutés pour racheter leurs concitoyens. Menés par le vénérable Eustache de Saint-Pierre, suivi de Jean d'Aire, de Pierre et Jacques de Wissant, de Jean de Fiennes et d'Andrieu d'Andres, les six volontaires s'avancent vers le camp anglais avec une dignité tragique.</p><p>Devant leur abnégation et à la prière instante de son épouse, la reine Philippa de Hainaut, Édouard III finit par leur accorder la grâce de la vie. Ce sacrifice consenti librement est devenu dans la conscience occidentale le symbole suprême du courage civique, de la solidarité humaine et de l'héroïsme dépouillé de tout triomphalisme guerrier.</p>"
+  },
+
+  "la_comedie_humaine_et_le_monument_a_balzac": {
+    "id": "la_comedie_humaine_et_le_monument_a_balzac",
+    "badge": "LITTÉRATURE FRANÇAISE & GÉNIE CRÉATEUR",
+    "title": "Honoré de Balzac et La Comédie Humaine : La Puissance Visionnaire du Titan Réaliste",
+    "sources": "Honoré de Balzac, Avant-propos de La Comédie humaine (1842) & Correspondances",
+    "keywords": [
+      "balzac",
+      "honoré de balzac",
+      "la comédie humaine",
+      "la comedie humaine",
+      "robe de chambre",
+      "titan littéraire",
+      "génie créateur",
+      "monument à balzac",
+      "réalisme visionnaire",
+      "société des gens de lettres"
+    ],
+    "text": "<p>Honoré de Balzac (1799 – 1850) incarne l'une des forces créatrices les plus colossales de la littérature mondiale. Avec <em>La Comédie humaine</em>, fresque monumentale regroupant plus de quatre-vingt-dix romans et nouvelles et faisant vivre plus de deux mille personnages, l'écrivain s'est assigné pour tâche de rivaliser avec l'état civil et de radiographier la société française dans toute sa complexité sociale, morale et matérielle.</p><p>Travaillant la nuit dans la solitude de son cabinet, vêtu de sa célèbre robe de moine en flanelle blanche et soutenu par des flots ininterrompus de café noir, Balzac se concevait lui-même comme un forçat de la pensée et un voyant visionnaire capable de percer les rouages invisibles de l'âme humaine.</p><p>Dans la mémoire des arts plastiques, la célébration de son génie a marqué la rupture décisive entre la statuaire commémorative académique du XIXe siècle et la modernité expressive : le romancier n'est plus représenté comme un personnage anecdotique, mais comme un bloc de volonté tellurique, une force brute de la nature dont l'esprit bouillonne au-dessus des vanités du monde.</p>"
+  },
+
+  "la_mort_d_adonis_et_le_deuil_d_aphrodite": {
+    "id": "la_mort_d_adonis_et_le_deuil_d_aphrodite",
+    "badge": "MYTHOLOGIE OVIDIENNE & DRAME PASSIONNEL",
+    "title": "La Mort d'Adonis et le Deuil d'Aphrodite : La Fragilité de la Jeunesse et la Naissance de l'Anémone",
+    "sources": "Ovide, Les Métamorphoses (Livre X)",
+    "keywords": [
+      "adonis",
+      "mort d'adonis",
+      "aphrodite",
+      "vénus",
+      "sanglier",
+      "chasse",
+      "deuil amoureux",
+      "anémone",
+      "beauté éphémère",
+      "tragédie mythologique"
+    ],
+    "text": "<p>Dans les récits de la mythologie grecque et romaine chantés par Ovide, Adonis était un jeune chasseur mortel d'une perfection plastique si éblouissante qu'Aphrodite (Vénus), déesse souveraine de l'Amour, en tomba éperdument amoureuse, délaissant pour lui ses sanctuaires célestes.</p><p>Malgré les supplications réitérées de la déesse qui l'implorait de ne chasser que les bêtes inoffensives, le jeune homme affronta un féroce sanglier sauvage lors d'une traque téméraire. Chargé par la bête furieuse, il fut mortellement encorné à l'aine. Avertie par les gémissements de son amant agonisant, Aphrodite fendit les airs pour accourir auprès du corps inanimé étendu dans la poussière sanglante.</p><p>Éperdue de douleur, la déesse arrosa de larmes le cadavre du jeune homme et versa un nectar divin sur son sang répandu, d'où germa une fleur écarlate et délicate : l'anémone, dont les pétales fragiles sont si prompts à s'envoler au moindre souffle du vent. Ce drame mythologique exalte la douleur du deuil inconsolable et la brièveté poignante de la beauté terrestre emportée par la violence brute du destin.</p>"
+  },
+
+  "la_meditation_et_la_voix_interieure_du_poete": {
+    "id": "la_meditation_et_la_voix_interieure_du_poete",
+    "badge": "SYMBOLES & PSYCHOLOGIE DE LA CRÉATION",
+    "title": "La Méditation et la Voix Intérieure : L'Autonomie de l'Esprit Tourmenté et le Dialogue Poétique",
+    "sources": "Tradition symboliste & Traités sur la pensée créatrice au tournant du XXe siècle",
+    "keywords": [
+      "méditation",
+      "la méditation",
+      "voix intérieure",
+      "la voix intérieure",
+      "pensée tourmentée",
+      "inspiration poétique",
+      "victor hugo",
+      "repli intérieur",
+      "fragment expressif",
+      "torsion de l'esprit"
+    ],
+    "text": "<p>La personnification de la pensée et de la voix intérieure de l'âme a constitué un motif majeur du renouveau symboliste et psychologique de la fin du XIXe siècle. Écartant les attributs allégoriques traditionnels des Muses antiques, les artistes ont cherché à incarner plastiquement le dialogue intime que le créateur entretient avec ses propres visions, ses angoisses et ses élans poétiques.</p><p>Figurée sous les traits d'un corps humain en proie à une intense torsion physique, où le buste fléchit sous le poids de la réflexion et où la tête s'enfonce dans les replis de la chair et des membres, l'allégorie de la méditation matérialise l'effort cérébral ressenti comme une tension organique globale.</p><p>Cette approche moderne a également ouvert la voie à l'esthétique du fragment : en isolant la silhouette de toute narration illustrative et en concentrant la puissance expressive dans le jeu musculaire des ombres et de la lumière, l'art moderne a fait de la voix intérieure une présence autonome, miroir de l'interrogation existentielle de l'homme face au mystère du monde.</p>"
+  }
 };
 
 
