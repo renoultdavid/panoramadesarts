@@ -4170,6 +4170,212 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Dans la mythologie grecque, Hyacinthe était un jeune prince de Sparte d'une beauté si éclatante qu'il gagna l'amour passionné du dieu Apollon. Le dieu de la lumière, de la musique et des arts délaissait ses sanctuaires pour accompagner son jeune favori dans les bois et partager ses exercices d'athlétisme.</p>\n<p>Leur bonheur suscita la jalousie féroce de Zéphyr, le vent d'ouest, qui convoitait également le cœur du bel éphèbe. Un jour qu'Apollon et Hyacinthe s'exerçaient au lancer du disque, Apollon projeta le lourd palet de bronze vers le ciel. Zéphyr souffla violemment sur la trajectoire du disque pour le dévier ; retombant avec force, l'arme frappa mortellement le jeune prince au front.</p>\n<p>Déchiré par le chagrin et impuissant à ranimer l'être aimé malgré ses pouvoirs de guérison, Apollon fit jaillir du sang répandu sur l'herbe une fleur éclatante couleur de pourpre — la jacinthe —, sur les pétales de laquelle le dieu grava le cri de sa douleur éternelle (« AI, AI »).</p>"
   }
+,
+  "samson_et_les_philistins_la_machoire_d_ane": {
+    "id": "samson_et_les_philistins_la_machoire_d_ane",
+    "badge": "ANCIEN TESTAMENT & LIVRE DES JUGES",
+    "title": "Samson et les Philistins : L'Exploit Héroïque à la Mâchoire d'Âne",
+    "sources": "Livre des Juges (chapitre 15)",
+    "keywords": [
+      "samson",
+      "philistins",
+      "mâchoire d'âne",
+      "machoire d'ane",
+      "juge d'israël",
+      "force surhumaine",
+      "figura serpentinata"
+    ],
+    "text": "<p>Consacré à Dieu dès le sein maternel par le vœu de naziréat, Samson est le plus célèbre des juges bibliques d'Israël, doté d'une force physique prodigieuse liée à sa chevelure intonsée.</p>\n<p>Au chapitre 15 du <em>Livre des Juges</em>, livré aux Philistins pieds et poings liés par les hommes de Juda à Léhi, Samson voit l'Esprit du Seigneur fondre sur lui : ses liens se rompent comme du lin brûlé. Trouvant au sol une mâchoire d'âne encore fraîche, il s'en saisit comme d'une massue sacrée et abat à lui seul un millier d'ennemis (« Avec une mâchoire d'âne, j'ai fait un monceau, deux monceaux ; avec une mâchoire d'âne, j'ai battu mille hommes »).</p>\n<p>Dans l'art de la Renaissance et du maniérisme, cet épisode biblique offre aux artistes le prétexte à une exaltation de l'anatomie héroïque triomphante, où la fureur sacrée et la torsion dynamique des corps illustrent la victoire de l'élu de Dieu sur l'oppression.</p>"
+  }
+,
+  "mercure_messager_des_dieux_sprezzatura": {
+    "id": "mercure_messager_des_dieux_sprezzatura",
+    "badge": "MYTHOLOGIE ROMAINE & IDÉAL HUMANISTE",
+    "title": "Mercure Messager des Dieux : Vol Aérien, Caducée et Idéal de la Sprezzatura",
+    "sources": "Ovide, Fastes & Virgile, Énéide (Chant IV)",
+    "keywords": [
+      "mercure",
+      "hermès",
+      "pétase",
+      "talaria",
+      "caducée",
+      "zéphyr",
+      "sprezzatura",
+      "vol aérien"
+    ],
+    "text": "<p>Fils de Jupiter et de la nymphe Maïa, Mercure (Hermès dans le panthéon grec) est le messager véloce des divinités de l'Olympe, guide des voyageurs, patron des marchands et conducteur des âmes vers les Enfers (psychopompe).</p>\n<p>Revêtu de ses attributs emblématiques — le pétase ailé, les sandales pourvues d'ailerons (talaria) et le caducée d'or autour duquel s'enlacent deux serpents pacifiés —, il symbolise l'éloquence, l'ingéniosité et la vitesse de la pensée qui franchit sans effort les limites du monde terrestre.</p>\n<p>À la Renaissance, sa figure aérienne propulsée par le souffle d'un vent personnifie l'idéal courtisan de la <em>sprezzatura</em> théorisé par Baldassare Castiglione : cette grâce aristocratique suprême consistant à accomplir les prouesses les plus difficiles avec une aisance feinte et une légèreté souveraine défiant la pesanteur.</p>"
+  }
+,
+  "victoire_civique_florence_sur_pise": {
+    "id": "victoire_civique_florence_sur_pise",
+    "badge": "HISTOIRE DE TOSCANE & ALLÉGORIE POLITIQUE",
+    "title": "Florence et Pise : Rivalités Maritimes et Allégorie de la Victoire Civique",
+    "sources": "Chroniques florentines de Machiavel & Archives républicaines",
+    "keywords": [
+      "florence et pise",
+      "victoire de florence",
+      "pise",
+      "palazzo vecchio",
+      "salle des cinq-cents",
+      "médicis",
+      "allégorie civique"
+    ],
+    "text": "<p>Durant plusieurs siècles, la république de Florence et la cité maritime de Pise se sont livré une guerre implacable pour le contrôle du débouché commercial sur la mer Tyrrhénienne et l'embouchure de l'Arno.</p>\n<p>Après la conquête définitive de Pise en 1509 et l'avènement du principat des Médicis sous Cosme Ier, la domination florentine fut célébrée dans les programmes iconographiques officiels du Palazzo Vecchio comme le rétablissement de la paix et l'unification politique de toute la Toscane.</p>\n<p>L'allégorie de la Victoire terrasse traditionnellement un vieillard enchaîné symbolisant la ville conquise : la vigueur de la jeune république victorieuse s'oppose à l'épuisement de la puissance déchue, transformant le conflit militaire en une célébration de l'ordre politique et de la prospérité retrouvée.</p>"
+  }
+,
+  "allegorie_de_l_architecture_et_arts_liberaux": {
+    "id": "allegorie_de_l_architecture_et_arts_liberaux",
+    "badge": "PHILOSOPHIE HUMANISTE & ARTS LIBÉRAUX",
+    "title": "L'Allégorie de l'Architecture : Géométrie, Compas et Ennoblissement des Arts de Bâtir",
+    "sources": "Vitruve, De Architectura & Leon Battista Alberti, De re aedificatoria",
+    "keywords": [
+      "architecture",
+      "allégorie de l'architecture",
+      "compas",
+      "règle",
+      "arts libéraux",
+      "géométrie",
+      "vitruve"
+    ],
+    "text": "<p>Dans la pensée antique et humaniste, l'architecture dépasse largement le statut d'artisanat mécanique pour s'ériger en une science royale harmonieuse unissant le dessin, les mathématiques et la philosophie.</p>\n<p>Personnifiée sous les traits d'une femme digne et dénudée incarnant la vérité nue des proportions, l'Architecture tient pour attributs le compas et la règle, instruments de mesure symbolisant l'ordre géométrique, la rigueur cosmique et la maîtrise humaine de l'espace.</p>\n<p>À la Renaissance, l'allégorie de l'architecture exalte les grands chantiers princiers qui refondent les cités idéales, reflétant sur terre l'harmonie universelle instituée par le Grand Architecte du monde.</p>"
+  }
+,
+  "menagerie_de_bronze_et_grottes_mediceennes": {
+    "id": "menagerie_de_bronze_et_grottes_mediceennes",
+    "badge": "JARDINS DE LA RENAISSANCE & CURIOSITÉ SCIENTIFIQUE",
+    "title": "Les Grottes Médicéennes et le Bestiaire de Bronze : Recréation de la Nature à Castello",
+    "sources": "Giorgio Vasari & Traités d'histoire naturelle de la Renaissance",
+    "keywords": [
+      "grotte de castello",
+      "animaux de bronze",
+      "villa medicea",
+      "ménagerie",
+      "chouette",
+      "aigle",
+      "castello",
+      "cabinets de curiosités"
+    ],
+    "text": "<p>Aménagés par les ducs de Toscane à la Villa di Castello et dans les jardins de Boboli, les nymphées et grottes artificielles de la Renaissance constituent des théâtres magiques où se mêlent l'artifice humain et les forces de la nature.</p>\n<p>À l'intérieur de ces grottes tapissées de concrétions calcaires, de stalactites et de coquillages, des automates et des fontaines s'animaient au milieu d'une spectaculaire ménagerie sculptée dans le marbre et le bronze : oiseaux de proie, bêtes sauvages et animaux domestiques y figuraient avec un naturalisme scientifique saisissant.</p>\n<p>Ce goût pour la recréation illusionniste du vivant témoigne de la passion des Médicis pour les sciences naturelles et les cabinets de curiosités, célébrant le pouvoir de l'art à rivaliser avec la Création divine.</p>"
+  }
+,
+  "hercule_et_le_centaure_nessus": {
+    "id": "hercule_et_le_centaure_nessus",
+    "badge": "MYTHOLOGIE GRECQUE & EXPLOITS HÉROÏQUES",
+    "title": "Hercule et le Centaure Nessus : La Vertu Héroïque Face à la Violence Sauvage",
+    "sources": "Sophocle, Les Trachiniennes & Ovide, Les Métamorphoses (Livre IX)",
+    "keywords": [
+      "hercule",
+      "centaure",
+      "nessus",
+      "déjanire",
+      "massue",
+      "vertu héroïque",
+      "hybris"
+    ],
+    "text": "<p>Traversant le fleuve Événos avec son épouse Déjanire, le héros Hercule confie cette dernière au centaure Nessus, qui s'était offert pour lui faire franchir les flots tumultueux sur son dos de cheval.</p>\n<p>Parvenu sur l'autre rive, le centaure tente de violer Déjanire. Alerté par les cris de sa compagne, Hercule s'élance et terrasse le ravisseur dans un combat au corps-à-corps d'une férocité inouïe, affirmant le triomphe de la force civilisatrice sur les pulsions brutales de l'animalité.</p>\n<p>Dans la statuaire civique florentine, la figure d'Hercule terrasseur de monstres incarne par excellence le courage républicain et la vertu morale triomphant de la tyrannie et du chaos.</p>"
+  }
+,
+  "captifs_et_esclaves_du_tombeau_de_jules_ii": {
+    "id": "captifs_et_esclaves_du_tombeau_de_jules_ii",
+    "badge": "PHILOSOPHIE NÉOPLATONICIENNE & SCULPTURE DU CORPS",
+    "title": "Les Captifs et Esclaves : L'Âme Enchaînée à la Chair et l'Esthétique du Non-Finito",
+    "sources": "Marsile Ficin, Théologie platonicienne & Écrits de Michel-Ange",
+    "keywords": [
+      "esclaves",
+      "captifs",
+      "tombeau de jules ii",
+      "non finito",
+      "esclave rebelle",
+      "esclave mourant",
+      "néoplatonisme",
+      "taille directe"
+    ],
+    "text": "<p>Conçus pour orner le mausolée colossal du pape Jules II, les <em>Esclaves</em> (ou <em>Captifs</em>) constituent l'une des réflexions philosophiques et plastiques les plus profondes de toute l'histoire de l'art occidental.</p>\n<p>Nourrie par le néoplatonisme florentin de Marsile Ficin, cette iconographie transcende l'allégorie des cités soumises par la papauté pour figurer le drame de l'âme humaine : étincelle divine captive de la pesanteur corporelle et luttant éperdument pour s'extraire de la matière terrestre.</p>\n<p>À travers la technique de la taille directe et du célèbre <em>non-finito</em> (inachèvement), les corps puissants semblent émerger à coups de ciseau de la gangue minérale brute, faisant du bloc de marbre le lieu même d'une lutte tragique entre la création de la forme et l'inertie de la roche.</p>"
+  }
+,
+  "parties_du_jour_et_tombeaux_medicis": {
+    "id": "parties_du_jour_et_tombeaux_medicis",
+    "badge": "MÉDITATION MÉTAPHYSIQUE & ART FUNÉRAIRE",
+    "title": "Les Parties du Jour aux Tombeaux Médicis : Aurore, Crépuscule, Jour et Nuit",
+    "sources": "Poèmes de Michel-Ange & Giorgio Vasari, Les Vies",
+    "keywords": [
+      "aurore",
+      "crépuscule",
+      "jour",
+      "nuit",
+      "nouvelle sacristie",
+      "san lorenzo",
+      "parties du jour",
+      "memento mori"
+    ],
+    "text": "<p>Dans la Nouvelle Sacristie de la basilique San Lorenzo à Florence, les tombeaux des ducs Julien et Laurent de Médicis sont surmontés de quatre figures allégoriques colossales couchées sur les volutes des sarcophages : l'Aurore, le Crépuscule, le Jour et la Nuit.</p>\n<p>Ces figures incarnent la fuite inexorable du temps terrestre qui use et dévore l'existence humaine. Face au destin éphémère de la chair, les ducs ressuscités contemplent la Vierge sacrée, symbole de l'espérance éternelle.</p>\n<p>La célèbre statue de la <em>Nuit</em>, plongée dans un sommeil hanté par la chouette et le masque des cauchemars, inspira au maître des vers mélancoliques célébrant la félicité de ne point sentir ni voir les maux du siècle : « M'est doux dormir, et plus doux d'être de pierre ».</p>"
+  }
+,
+  "madone_medicis_et_la_maternite_sacree": {
+    "id": "madone_medicis_et_la_maternite_sacree",
+    "badge": "THÉOLOGIE DE L'INCARNATION & MATERNITÉ DIVINE",
+    "title": "La Madone Médicis : Pivot Spirituel du Sanctuaire et Prescience du Sacrifice",
+    "sources": "Évangile selon saint Luc & Rituels funéraires de la Renaissance",
+    "keywords": [
+      "madone médicis",
+      "vierge à l'enfant",
+      "nouvelle sacristie",
+      "san lorenzo",
+      "prescience de la passion",
+      "allaitement divin"
+    ],
+    "text": "<p>Placée au centre du mur d'entrée de la Nouvelle Sacristie de San Lorenzo, la <em>Madone Médicis</em> constitue le pivot liturgique et théologique vers lequel convergent les regards de tous les monuments de la chapelle funéraire.</p>\n<p>Marie est représentée assise, les jambes croisées dans une torsion complexe, tandis que l'Enfant Jésus, doté d'une vigueur anatomique surprenante, se retourne d'un mouvement vigoureux vers le sein maternel pour se nourrir.</p>\n<p>Le regard mélancolique et absent de la Vierge, tourné vers un horizon lointain, exprime la prescience tragique de la Passion future de son fils, transformant l'intimité nourricière en une méditation monumentale sur le salut des âmes et le rachat du monde.</p>"
+  }
+,
+  "brutus_et_le_tyrannicide_republicain": {
+    "id": "brutus_et_le_tyrannicide_republicain",
+    "badge": "HISTOIRE ROMAINE & IDÉAL RÉPUBLICAIN",
+    "title": "Marcus Junius Brutus et le Tyrannicide : L'Héroïsme Stoïque et la Liberté Civique",
+    "sources": "Plutarque, Vies parallèles (Vie de Brutus) & Cicéron, De Republica",
+    "keywords": [
+      "brutus",
+      "marcus junius brutus",
+      "tyrannicide",
+      "ides de mars",
+      "liberté républicaine",
+      "jules césar"
+    ],
+    "text": "<p>Descendant du premier consul romain qui chassa les rois tyrans de Rome, Marcus Junius Brutus devint en 44 avant J.-C., lors des Ides de Mars, le principal artisan de l'assassinat de Jules César au sénat romain pour restaurer la liberté républicaine.</p>\n<p>Dans la tradition stoïcienne et humaniste, son geste n'est pas jugé comme une trahison, mais comme l'acte sacrificiel suprême d'un citoyen prêt à immoler son ami pour sauver la patrie de l'autocratie.</p>\n<p>À Florence et en Italie, le portrait de Brutus fut brandi par les cercles républicains comme l'étendard moral de la résistance civique face à l'absolutisme princier, incarnant la <em>terribilità</em> et la fermeté inébranlable de la liberté de conscience.</p>"
+  }
+,
+  "pieta_bandini_et_le_drame_du_calvaire": {
+    "id": "pieta_bandini_et_le_drame_du_calvaire",
+    "badge": "PASSION DU CHRIST & MYSTIQUE DE LA RÉDEMPTION",
+    "title": "La Pietà et la Descente de Croix : Le Corps Brisé du Rédempteur et le Deuil Sacré",
+    "sources": "Évangile selon saint Jean (chapitre 19) & Récits de la Descente de Croix",
+    "keywords": [
+      "pietà",
+      "descente de croix",
+      "nicodème",
+      "marie-madeleine",
+      "corps du christ",
+      "passion",
+      "pieta bandini"
+    ],
+    "text": "<p>Après la crucifixion sur le mont Golgotha, le corps inerte de Jésus est descendu de la croix par ses fidèles disciples, Joseph d'Arimathie et Nicodème, avant d'être déposé dans les bras de sa mère éplorée.</p>\n<p>Dans la statuaire sacrée, ce groupe de douleur réunit la Vierge Marie, Marie-Madeleine et les témoins du Calvaire soutenant le corps affaissé du Sauveur brisé par la mort, avant son ensevelissement dans le sépulcre.</p>\n<p>L'extrême tension anatomique des bras retombants et le poids écrasant de la dépouille humaine deviennent l'expression sensible du sacrifice eucharistique et de la méditation métaphysique de l'homme face au mystère de sa propre finitude.</p>"
+  }
+,
+  "cavalier_de_bamberg_et_la_chevalerie_chretienne": {
+    "id": "cavalier_de_bamberg_et_la_chevalerie_chretienne",
+    "badge": "ART GOTHIQUE & IDÉAL CHEVALERESQUE",
+    "title": "Le Cavalier de Bamberg : L'Apogée de la Chevalerie Médiévale et du Roi Idéal",
+    "sources": "Chroniques de la cathédrale de Bamberg & Chansons de geste du XIIIe siècle",
+    "keywords": [
+      "cavalier de bamberg",
+      "bamberger reiter",
+      "chevalier chrétien",
+      "roi chrétien",
+      "statue équestre",
+      "cathédrale de bamberg",
+      "art gothique"
+    ],
+    "text": "<p>Érigé vers 1230 contre un pilier du chœur oriental de la cathédrale impériale de Bamberg, le <em>Cavalier de Bamberg</em> (Bamberger Reiter) constitue la première grande statue équestre monumentale en pierre préservée de tout le Moyen Âge occidental.</p>\n<p>Représenté jeune, couronné et noblement monté sur un cheval à l'arrêt, le cavalier incarne la synthèse parfaite des vertus chevaleresques : la vaillance militaire, la piété chrétienne, la droiture du regard et la protection du sanctuaire ecclésiastique.</p>\n<p>Attribué tour à tour au roi saint Étienne de Hongrie, à l'empereur Henri II ou à un idéal chevaleresque impérial, ce chef-d'œuvre de la transition gothique allie la souplesse du naturalisme inspiré des grands chantiers rémois à la majesté solennelle de la foi médiévale.</p>"
+  }
 };
 
 

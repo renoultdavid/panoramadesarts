@@ -1719,6 +1719,7 @@ function getArtworkBanner(art) {
   const domain = (art.domain || '').toLowerCase();
   const title = (art.title || '').toLowerCase();
   const fullText = `${cat} ${aType} ${domain} ${title}`;
+  const isGreek = cId === 'grece' || cId === 'egee' || pId.startsWith('grece_') || cId.startsWith('grece');
 
   if (domain === 'sculpture_civile' || aType.includes('fontaine') || fullText.includes('sculpture civile')) {
     return BANNERS_REGISTRY.sculpture_civile;
@@ -1749,8 +1750,6 @@ function getArtworkBanner(art) {
   }
 
   // 1. GRÈCE ANTIQUE : Choix dynamique selon la catégorie de l'œuvre
-
-  const isGreek = cId === 'grece' || cId === 'egee' || pId.startsWith('grece_') || cId.startsWith('grece');
   if (isGreek) {
     if (fullText.includes('mosaïque') || fullText.includes('mosaique') || fullText.includes('emblema') || fullText.includes('tesselle')) {
       return BANNERS_REGISTRY.grece_mosaique;
@@ -8572,7 +8571,7 @@ function populateModalData(art) {
     modalChips.appendChild(btnFocus);
   }
 
-  const rawNarrative = art.narrative || art.desc || art.description || '';
+  const rawNarrative = art.narrative || art.desc || art.description || art.text || '';
   modalNarrative.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
     ? enrichHTMLWithGlossary(rawNarrative)
     : rawNarrative;
