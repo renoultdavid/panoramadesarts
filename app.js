@@ -1705,6 +1705,8 @@ const BANNERS_REGISTRY = {
   sculpture_tympan: "https://lh3.googleusercontent.com/pw/AP1GczOEMY0CLUXIhfgAFi8UaKlq6fqCmoOnjDXiwpQMQSjtJLKtCIWhSN6YrSMg9_bUj57U_u_GVAAnPW9-oB2KbGhFI_c-lzpoNhyCcLFkwwpKZbC0Xbq-XyO9JyuobmVJrGms7fGULj6pQ_hQavWm0YDyhA=w1836-h779-s-no-gm?authuser=0",
   sculpture_funeraire: "https://lh3.googleusercontent.com/pw/AP1GczNK1NFeP2pUMHN2re11jGAYDT6AGcZLqvcWf1zRAbsNNeFTHduHMYTpNOiIohXYm0evXu-wXhSwdVogPb-yU_AVHXxKpelOTrXYV_wUi1SjVNeAM5wzINfBPVBCIowvJJnOVZyi9_VOXWlkjKy62IvNCA=w1836-h779-s-no-gm?authuser=0",
   sculpture_interieur_eglise: "https://lh3.googleusercontent.com/pw/AP1GczMCcd8ofc97Xih7QDwoFHS5BUpF8ibLAXBRKLvgnJ0cRSDQRDL-Q25-F4a6I8WPknrFHEuf-wGMhx8OxXMq67OTqiNexPwxkROxWI8P9AT0baXAKQcD-25uUqnn0Jv-fkOVbXAz1w-Hi3e6dcHAa9_2jw=w1836-h779-s-no-gm?authuser=0",
+  // 18. Sculpture & Statuaire (Occident / Ronde-bosse / Renaissance / Moderne)
+  sculpture_statuaire_occident: "https://lh3.googleusercontent.com/pw/AP1GczNoWUJrIYsTM2L1x-VT_gAB_JTboUpXuKQTo52v0QBoI_xR_kHf6xaCK62xdSptME9chfOu7VWznkfNr1yVdXxzonDp4sEtSrqERZfW83HsuUuUqO705zM-ctNZNSW7EAkPwYtuUOd4KXNk7rctpAVB1Q=w1836-h779-s-no-gm?authuser=0",
 };
 
 function getArtworkBanner(art) {
@@ -1732,6 +1734,10 @@ function getArtworkBanner(art) {
 
   if (aType.includes('tympan') || aType.includes('portail') || fullText.includes('tympan') || fullText.includes('conques')) {
     return BANNERS_REGISTRY.sculpture_tympan;
+  }
+
+  if (domain === 'sculpture_statuaire' || aType.includes('ronde-bosse') || aType.includes('statuaire') || fullText.includes('sculpture & statuaire')) {
+    if (!isGreek && BANNERS_REGISTRY.sculpture_statuaire_occident) return BANNERS_REGISTRY.sculpture_statuaire_occident;
   }
 
   if (domain === 'sculpture_religieuse' || aType.includes('calvaire') || aType.includes('croix de chemin') || fullText.includes('calvaire') || fullText.includes('croix de kervalet') || fullText.includes('croix de boessé') || fullText.includes('croix de montsarrac')) {
@@ -10698,7 +10704,7 @@ const TAXONOMY_DOMAINS = {
       "Ready-made & Art conceptuel",
       "Sculpture monumentale / Cuve de libation",
       "Sculpture monumentale extérieure (fontaine, calvaire, moaï)",
-      "Statuaire animale & gardienne (ronde-bosse)", "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)",
+      "Statuaire animale & gardienne (ronde-bosse)", "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)", "Statuaire religieuse (Vierges, Saints & Apôtres)", "Statuaire mythologique & allégorique (ronde-bosse)",
       "Alignement mégalithique", "Cromlech / Enceinte mégalithique", "Menhir / Monolithe dressé", "Statue-menhir anthropomorphe"
     ]
   },

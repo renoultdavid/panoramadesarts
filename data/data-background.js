@@ -4012,6 +4012,164 @@ window.BACKGROUNDS_REGISTRY = {
     "text": "<p>L'aménagement intérieur des édifices sacrés en Occident et dans l'Orient chrétien constitue le théâtre même de la liturgie et le lieu d'élévation spirituelle de l'assemblée des fidèles. Au-delà de la coquille architecturale des cathédrales et églises monastiques, le sanctuaire s'articule autour d'éléments monumentaux conçus pour porter la parole divine, protéger les saints sacrements et offrir un catéchisme visuel universel : retables monumentaux dressés au chevet, chaires et ambons surélevés, tabernacles en flèche ajourée, clôtures de chœur et jubés sculptés.</p><p>Dès le Moyen Âge, la chaire et l'ambon s'élèvent au cœur de la nef pour magnifier la proclamation des Écritures et la prédication. Qu'il s'agisse des ambons coptes reposant sur des colonnes de marbre symbolisant le collège apostolique ou des chaires flamboyantes ciselées dans le grès comme une dentelle minérale, la structure matérielle s'efface devant la fluidité de la parole sacrée. Parallèlement, le tabernacle (ou maison du Saint-Sacrement) déploie une verticalité vertigineuse, telle une flèche miniature reliant la terre au ciel, pour abriter le mystère eucharistique au plus près des voûtes étoilées.</p><p>À partir du XVe siècle et jusqu'à l'apogée baroque, le retable majeur s'impose comme le chef-d'œuvre absolu de la mise en scène chrétienne. D'abord polyptyque gothique mêlant panneaux peints et micro-architecture de bois sculpté, il devient avec la Renaissance et la Contre-Réforme un mur d'images colossal où l'or, la polychromie, les colonnes salomoniques torsadées et les scènes en haut-relief capturent la lumière divine. Conçu comme une Bible ouverte pour l'édification de tous, ce mobilier sacré abolit la frontière entre sculpture, orfèvrerie et architecture, offrant au fidèle un avant-goût éblouissant de la Jérusalem céleste.</p>",
     "keywords": ["retable", "retables", "chaire", "chaires", "ambon", "ambons", "tabernacle", "tabernacles", "mobilier liturgique", "autel", "autels", "maître-autel", "maitre-autel", "clôture de chœur", "cloture de choeur", "jubé", "jubes", "trascoro", "rétrochoeur", "retrochoeur", "talha dourada", "arbre de jessé", "arbre de jesse", "sakramenthaus"]
   },
+  "cantoria_tribune_musiciens_liturgie": {
+    "id": "cantoria_tribune_musiciens_liturgie",
+    "badge": "LITURGIE CHRÉTIENNE & ARCHITECTURE SACRÉE",
+    "title": "La Cantoria : Tribune des Chantres et Louange Musicale Divine",
+    "sources": "Livre des Psaumes (Psaume 150) & Rituels cathédraux de la Renaissance",
+    "keywords": [
+      "cantoria",
+      "tribune des chantres",
+      "putti",
+      "danse sacrée",
+      "psaume 150",
+      "musique sacrée",
+      "chant choral",
+      "sacristie des messes",
+      "cosmatesque"
+    ],
+    "text": "<p>Dans l'architecture ecclésiale de la fin du Moyen Âge et de la Renaissance italienne, la cantoria désigne la tribune surélevée spécialement aménagée dans le chœur ou au-dessus des portes de sacristies pour accueillir les chantres, les choristes et l'orgue de tribune lors des offices solennels.</p>\n<p>Sur le plan théologique et iconographique, ce balcon liturgique est intimement lié au Psaume 150 (« Louez Dieu dans son sanctuaire... Louez-le avec la harpe et la cithare, louez-le par les danses et les tambours »). La cantoria traduit dans la pierre et le marbre la joie jubilatoire du salut, incarnée par des rondes d'enfants et d'anges musiciens qui unissent la beauté du monde terrestre à l'harmonie céleste.</p>\n<p>À la Renaissance, l'aménagement des tribunes musicales devient l'occasion d'une synthèse magistrale entre les proportions classiques héritées des sarcophages antiques et l'éclat des décors polychromes ou mosaïqués inspirés de la tradition cosmatesque médiévale.</p>"
+  }
+,
+  "charlemagne_empereur_et_figure_tutelaire": {
+    "id": "charlemagne_empereur_et_figure_tutelaire",
+    "badge": "HISTOIRE MÉDIÉVALE & POUVOIR IMPÉRIAL",
+    "title": "Charlemagne : Empereur d'Occident et Figure Tutélaire de la Chrétienté",
+    "sources": "Éginhard, Vita Karoli Magni & Chansons de geste médiévales",
+    "keywords": [
+      "charlemagne",
+      "empereur",
+      "couronne carolingienne",
+      "sceptre",
+      "globe imperial",
+      "pierre le cérémonieux",
+      "couronne d'aragon",
+      "gérone"
+    ],
+    "text": "<p>Couronné empereur d'Occident par le pape Léon III à Rome le jour de Noël de l'an 800, Charlemagne (v. 742 – 814) incarne dans la mémoire politique et religieuse européenne le modèle indépassable du souverain chrétien unificateur et du protecteur de l'Église.</p>\n<p>Au bas Moyen Âge, les monarchies occidentales — en particulier les rois d'Aragon, de France et du Saint-Empire — revendiquent activement l'héritage carolingien pour asseoir leur légitimité sacrée, sceller des privilèges ecclésiastiques et exalter la défense des frontières de la chrétienté.</p>\n<p>Dans l'iconographie gothique, l'empereur est représenté en majesté, barbu et hiératique, revêtu des attributs suprêmes de la souveraineté : le sceptre fleurdelisé, symbole de justice temporelle, et le globe crucifère, affirmant la domination de la croix sur le monde connu.</p>"
+  }
+,
+  "saint_marc_evangeliste_et_patron_des_tisserands": {
+    "id": "saint_marc_evangeliste_et_patron_des_tisserands",
+    "badge": "HAGIOGRAPHIE & NOUVEAU TESTAMENT",
+    "title": "Saint Marc l'Évangéliste : Du Récit Évangélique au Patronage Civique et Corporatif",
+    "sources": "Actes des Apôtres & La Légende dorée de Jacques de Voragine",
+    "keywords": [
+      "saint marc",
+      "évangéliste",
+      "lion ailé",
+      "orsanmichele",
+      "linaioli",
+      "corporation",
+      "tisserands",
+      "contrapposto"
+    ],
+    "text": "<p>Disciple et compagnon de saint Pierre et de saint Paul, saint Marc est traditionnellement désigné comme l'auteur du deuxième Évangile canonique et le fondateur de la première communauté chrétienne d'Alexandrie en Égypte.</p>\n<p>Dans le tétramorphe biblique inspiré des visions d'Ézéchiel et de l'Apocalypse, il est symbolisé par le lion ailé, évoquant la « voix de celui qui crie dans le désert » au seuil de son texte sacré et la majesté royale du Christ ressuscité.</p>\n<p>Au-delà de son culte éclatant à Venise dont il est le saint patron tutélaire, saint Marc a été choisi en Toscane et dans les cités marchandes comme protecteur des guildes du textile, notamment la puissante corporation des tisserands de lin et marchands de tissus (Arte dei Linaioli), qui honoraient en lui le garant de la probité et de la dignité civique.</p>"
+  }
+,
+  "habacuc_et_les_prophetes_de_l_ancien_testament": {
+    "id": "habacuc_et_les_prophetes_de_l_ancien_testament",
+    "badge": "ANCIEN TESTAMENT & PROPHÉTISME",
+    "title": "Le Prophète Habacuc : La Sentinelle de la Foi et le Cri Face à l'Injustice",
+    "sources": "Livre d'Habacuc (Bible hébraïque / Ancien Testament)",
+    "keywords": [
+      "habacuc",
+      "prophète",
+      "campanile de giotto",
+      "zuccone",
+      "ancien testament",
+      "veille spirituelle",
+      "justice divine"
+    ],
+    "text": "<p>Compté parmi les douze « petits prophètes » de la tradition biblique, Habacuc vécut à la fin du VIIe siècle avant notre ère dans le royaume de Juda, à une époque d'angoisses politiques marquée par la montée en puissance de l'empire babylonien.</p>\n<p>Son livre se singularise par une tonalité d'une audace exceptionnelle : loin de se borner à transmettre un oracle, Habacuc interpelle directement Dieu avec véhémence, demandant pourquoi l'Éternel tolère le triomphe de la violence et l'oppression du juste par le méchant (« Jusques à quand, Seigneur, crierai-je sans que tu écoutes ? »).</p>\n<p>Se tenant sur sa tour de guet comme une sentinelle spirituelle, Habacuc reçoit la réponse divine fondamentale : « Le juste vivra par sa foi ». Dans l'art de la Renaissance, sa figure devient l'archétype du voyant inspiré, dépouillé de tout apparat terrestre, habité d'une ferveur ardente et d'une lucidité tragique.</p>"
+  }
+,
+  "mythe_attis_et_culte_phrygien": {
+    "id": "mythe_attis_et_culte_phrygien",
+    "badge": "MYTHOLOGIE GRECQUE & ORIENTALE",
+    "title": "Attis et le Culte Phrygien : Divinité de la Végétation et Mystères Sacrés",
+    "sources": "Ovide, Fastes (Livre IV) & Pausanias, Description de la Grèce",
+    "keywords": [
+      "attis",
+      "cybèle",
+      "amour-attis",
+      "culte phrygien",
+      "putto",
+      "renaissance printanière",
+      "dionysos"
+    ],
+    "text": "<p>Dans les religions antiques de l'Asie Mineure adoptées par la Grèce puis par Rome, Attis est le jeune et beau compagnon de Cybèle, la Grande Mère des dieux. Incarnation des cycles de la végétation, sa mort et sa résurrection annuelle symbolisent le renouveau du printemps après la rigueur de l'hiver.</p>\n<p>Le culte d'Attis comportait des fêtes de joie effrénée et de ferveur mystique au cours desquelles la musique des cymbales, des cors et des grelots accompagnait des danses sacrées célébrant la fécondité inépuisable de la nature.</p>\n<p>Redécouverte à la Renaissance à travers les écrits néoplatoniciens et les gemmes gravées, la figure d'Attis s'est souvent hybridée avec celles d'Éros, d'Harpocrate ou du jeune Dionysos, incarnant l'esprit espiègle de la jeunesse, la joie panique et la communion dionysiaque avec le cosmos.</p>"
+  }
+,
+  "marie_madeleine_penitente": {
+    "id": "marie_madeleine_penitente",
+    "badge": "HAGIOGRAPHIE & MYSTIQUE CHRÉTIENNE",
+    "title": "Sainte Marie-Madeleine au Désert : De la Rencontre Pascale à l'Ascèse Mystique",
+    "sources": "Évangiles canoniques & Jacques de Voragine, La Légende dorée",
+    "keywords": [
+      "marie madeleine",
+      "madeleine pénitente",
+      "ascèse",
+      "sainte-baume",
+      "désert",
+      "pénitence",
+      "noli me tangere",
+      "apôtre des apôtres"
+    ],
+    "text": "<p>Première témoin de la Résurrection au matin de Pâques (« Noli me tangere ») et saluée par saint Thomas d'Aquin comme « l'apôtre des apôtres », Marie de Magdala occupe une place singulière au cœur de la dévotion chrétienne.</p>\n<p>Selon la tradition médiévale popularisée par <em>La Légende dorée</em>, après avoir débarqué sur les côtes de Provence, Madeleine se serait retirée pendant trente années dans une grotte solitaire du massif de la Sainte-Baume. Privée de nourriture terrestre et de tout vêtement sinon sa propre et longue chevelure emmêlée, elle ne vivait que de prières et de contemplation mystique, nourrie chaque jour par les anges.</p>\n<p>Dans l'art européen, la Madeleine pénitente offre aux sculpteurs et peintres un contraste saisissant entre la sensualité de sa vie passée et l'émaciation ascétique de son renoncement, devenant l'allégorie universelle de la contrition, de la rédemption et de la lumière divine triomphant de la faiblesse de la chair.</p>"
+  }
+,
+  "nymphe_de_fontainebleau_et_decor_princier": {
+    "id": "nymphe_de_fontainebleau_et_decor_princier",
+    "badge": "RENAISSANCE FRANÇAISE & MYTHOLOGIE",
+    "title": "La Nymphe de Fontainebleau : Mythe Fluvial et Allégorie Bellifontaine sous François Ier",
+    "sources": "Mythes des Naïades & Programmes iconographiques de l'École de Fontainebleau",
+    "keywords": [
+      "nymphe de fontainebleau",
+      "fontainebleau",
+      "porte dorée",
+      "cerf royal",
+      "francois ier",
+      "nymphe",
+      "château d'anet",
+      "maniérisme"
+    ],
+    "text": "<p>Au cœur de la forêt royale de Fontainebleau, le château Renaissance édifié sous François Ier tire son nom légendaire d'une source cristalline baptisée « fontaine Belle-Eau », célébrée par les poètes humanistes comme le séjour d'une nymphe protectrice des eaux et des bois.</p>\n<p>Dans le programme décoratif élaboré pour la majestueuse Porte Dorée — l'entrée officielle des cortèges royaux —, l'allégorie de la nymphe fluviale s'unit à la figure du grand cerf aux bois imposants, emblème cynégétique et symbole de résurrection et de royauté dans la tradition française.</p>\n<p>Entourée de sangliers, de chiens de chasse et d'animaux de forêt émergeant d'ondes tourbillonnantes, la déesse des eaux incarne la générosité et la fertilité de la terre de France, sublimées par le raffinement linéaire et la sensualité sophistiquée du maniérisme italo-français.</p>"
+  }
+,
+  "cosme_ier_de_medicis_et_le_grand_duche_de_toscane": {
+    "id": "cosme_ier_de_medicis_et_le_grand_duche_de_toscane",
+    "badge": "HISTOIRE DE LA RENAISSANCE & POLITIQUE ITALIENNE",
+    "title": "Cosme Ier de Médicis et le Prince de la Renaissance : Autorité, Empire et Mécénat",
+    "sources": "Giorgio Vasari & Archives de l'État de Florence (Grand-Duché de Toscane)",
+    "keywords": [
+      "cosme ier",
+      "médicis",
+      "grand-duc de toscane",
+      "imperator",
+      "palazzo vecchio",
+      "galerie des offices",
+      "piazza della signoria"
+    ],
+    "text": "<p>Accédant au pouvoir à l'âge de dix-sept ans après l'assassinat du duc Alexandre en 1537, Cosme Ier de Médicis (1519 – 1574) s'impose rapidement comme l'un des hommes d'État les plus autoritaires et clairvoyants de son temps, parvenant à transformer la république florentine affaiblie en un puissant Grand-Duché de Toscane.</p>\n<p>Conscient du rôle décisif de l'art comme instrument de légitimation politique et de propagande impériale, Cosme s'entoure des plus grands créateurs de son époque, fondant l'Académie du dessin, réaménageant le Palazzo Vecchio et commandant la monumentale Galerie des Offices à Vasari.</p>\n<p>Dans le portrait princier, Cosme aime à être immortalisé sous les traits d'un <em>imperator</em> romain, revêtu d'une armure d'apparat au métal ciselé de créatures fantastiques et d'aigles victorieux, symbolisant la fermeté du commandement militaire, la paix restaurée et la renaissance des vertus antiques en Toscane.</p>"
+  }
+,
+  "mythe_apollon_et_hyacinthe": {
+    "id": "mythe_apollon_et_hyacinthe",
+    "badge": "MYTHOLOGIE GRECQUE & MÉTAMORPHOSES",
+    "title": "Le Mythe d'Apollon et Hyacinthe : L'Amour Divin, la Jalousie du Vent et la Métamorphose",
+    "sources": "Ovide, Les Métamorphoses (Livre X) & Philostrate, Images",
+    "keywords": [
+      "apollon et hyacinthe",
+      "hyacinthe",
+      "apollon",
+      "zéphyr",
+      "lancer de disque",
+      "métamorphose",
+      "fleur de jacinthe"
+    ],
+    "text": "<p>Dans la mythologie grecque, Hyacinthe était un jeune prince de Sparte d'une beauté si éclatante qu'il gagna l'amour passionné du dieu Apollon. Le dieu de la lumière, de la musique et des arts délaissait ses sanctuaires pour accompagner son jeune favori dans les bois et partager ses exercices d'athlétisme.</p>\n<p>Leur bonheur suscita la jalousie féroce de Zéphyr, le vent d'ouest, qui convoitait également le cœur du bel éphèbe. Un jour qu'Apollon et Hyacinthe s'exerçaient au lancer du disque, Apollon projeta le lourd palet de bronze vers le ciel. Zéphyr souffla violemment sur la trajectoire du disque pour le dévier ; retombant avec force, l'arme frappa mortellement le jeune prince au front.</p>\n<p>Déchiré par le chagrin et impuissant à ranimer l'être aimé malgré ses pouvoirs de guérison, Apollon fit jaillir du sang répandu sur l'herbe une fleur éclatante couleur de pourpre — la jacinthe —, sur les pétales de laquelle le dieu grava le cri de sa douleur éternelle (« AI, AI »).</p>"
+  }
 };
 
 

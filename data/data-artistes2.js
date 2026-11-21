@@ -15998,6 +15998,299 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       ]
     }
   },
+  "donatello": {
+    "id": "donatello",
+    "name": "Donatello (Donato di Niccolò di Betto Bardi)",
+    "sortName": "Donatello",
+    "sortLetter": "D",
+    "dates": "v. 1386 – 1466",
+    "movement": "Première Renaissance florentine (Quattrocento) & Invention du Stiacciato",
+    "nationality": "Italienne (Florence)",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1LfVpKLDMdelLDfNTI7__dmu_x6D_2Qhj",
+    "bio": "<p><strong>Donato di Niccolò di Betto Bardi, dit Donatello</strong> (v. 1386 – 1466), né et mort à Florence, est unanimement considéré comme le père de la sculpture moderne et le plus grand novateur du Quattrocento italien. Formé dans l'atelier d'orfèvrerie de Lorenzo Ghiberti et nourri par l'étude passionnée des vestiges antiques lors de ses séjours romains avec Brunelleschi, il opère une rupture décisive avec le gothique international en réintroduisant le réalisme anatomique, le <em>contrapposto</em> classique et la profondeur psychologique au cœur de l'art sculpté.</p><p>Maître incontesté de la première Renaissance florentine, Donatello ne se contente pas d'imiter l'Antiquité : il la réinvente en insufflant à ses figures une intensité dramatique et une vérité émotionnelle inédites. Il révolutionne notamment l'art du bas-relief grâce à la technique pionnière du <em>stiacciato</em>, un modelé d'une extrême finesse où les variations d'épaisseur millimétriques, combinées aux lois de la perspective linéaire, créent une illusion saisissante de profondeur spatiale et atmosphérique.</p><p>Son génie s'exprime dans une remarquable diversité de matériaux — du marbre blanc au bois polychrome, en passant par le bronze, la terre cuite et le stuc —, technique dans laquelle il accomplit des prouesses historiques. Avec son célèbre <em>David</em> en bronze, premier grand nu masculin en ronde-bosse fondu depuis l'Antiquité, il célèbre la grâce juvénile et l'harmonie des proportions, tandis que son monument équestre du <em>Gattamelata</em> à Padoue ressuscite la statuaire civique monumentale.</p><p>À la fin de sa vie, son style évolue vers un expressionnisme poignant et tourmenté, sacrifiant la beauté idéale au profit d'une spiritualité exacerbée, à l'image de sa <em>Marie-Madeleine pénitente</em> en bois sculpté au visage émacié. Par son audace technique, son exploration des passions humaines et sa maîtrise souveraine de l'espace, Donatello a ouvert la voie à toute la sculpture occidentale, exerçant une influence déterminante sur les générations suivantes, jusqu'à Michel-Ange.</p>",
+    "corpus": {
+      "total": 75,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 75,
+      "seenCount": 8,
+      "source": "Catalogues raisonnés H.W. Janson, Artur Rosenauer & John Pope-Hennessy",
+      "totalOeuvresEstimees": "~75 sculptures et ensembles monumentaux répertoriés",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue critique monumental établi par Horst W. Janson (The Sculpture of Donatello, Princeton University Press, 1957), enrichi par les travaux d'Artur Rosenauer (Donatello, 1993), de John Pope-Hennessy (Donatello Sculptor, 1993) et des grandes expositions internationales (dont celle du Palazzo Strozzi et du Bargello à Florence, puis du Victoria and Albert Museum de Londres et de la Gemäldegalerie de Berlin en 2022–2023). En retenant chaque œuvre sculpturale conservée dont l'attribution autographe à Donatello fait consensus — en comptabilisant chaque statue, monument public ou grand ensemble cohérent (comme le maître-autel de la basilique Saint-Antoine de Padoue ou les chaires de San Lorenzo) comme une entité de référence, ou en détaillant leurs reliefs majeurs —, le consensus muséal situe son corpus officiel autour d'environ 75 oeuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "L'Éveil du Quattrocento, le Naturalisme et le Renouveau Classique",
+          "years": "1406 – 1420",
+          "color": "#0284c7",
+          "summary": "Formation auprès de Ghiberti, redécouverte de Rome avec Brunelleschi et triomphe du contrapposto à Orsanmichele.",
+          "events": [
+            {
+              "year": "1408",
+              "title": "Le David victorieux en marbre pour le Palazzo Vecchio",
+              "desc": "Statue charnière marquant la transition du gothique tardif vers l'équilibre classique, installée au Palazzo Vecchio comme symbole républicain.",
+              "type": "artwork",
+              "badge": "STATUE",
+              "icon": "🗿",
+              "artworkId": "donatello_david_marbre_bargello_1408"
+            },
+            {
+              "year": "1411",
+              "title": "Saint Marc pour la corporation des Linaioli à Orsanmichele",
+              "desc": "Chef-d'œuvre fondateur inaugurant le contrapposto moderne et la correction optique magistrale des proportions pour être vue en contre-plongée.",
+              "type": "artwork",
+              "badge": "STATUE",
+              "icon": "🏛️",
+              "artworkId": "donatello_saint_marc_orsanmichele_1411"
+            },
+            {
+              "year": "1416",
+              "title": "Le Saint Georges et l'invention du bas-relief en stiacciato",
+              "desc": "Donatello invente le stiacciato dans le relief du combat contre le dragon, instaurant pour la première fois la perspective picturale dans le marbre.",
+              "type": "context",
+              "badge": "INNOVATION",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "Maturité Florentine, Audace Monumentale et Mécénat Médicéen",
+          "years": "1421 – 1445",
+          "color": "#d97706",
+          "summary": "Réalisme pathétique du Zuccone, bas-reliefs dorés et création du premier nu monumental en bronze.",
+          "events": [
+            {
+              "year": "1425",
+              "title": "Lo Zuccone (Le prophète Habacuc pour le campanile de Giotto)",
+              "desc": "Sommet du réalisme tragique du Quattrocento, figurant le prophète au crâne chauve avec une vérité humaine bouleversante.",
+              "type": "artwork",
+              "badge": "STATUE",
+              "icon": "🗿",
+              "artworkId": "donatello_lo_zuccone_habacuc_campanile_giotto_1423"
+            },
+            {
+              "year": "1435",
+              "title": "L'Annonciation Cavalcanti à Santa Croce",
+              "desc": "Haut-relief monumental en pietra serena dorée mêlant noblesse architecturale classique et émotion intime entre la Vierge et l'archange.",
+              "type": "artwork",
+              "badge": "RELIEF",
+              "icon": "🕊️",
+              "artworkId": "donatello_annonciation_cavalcanti_santa_croce_1435"
+            },
+            {
+              "year": "1435",
+              "title": "La Cantoria de la cathédrale Santa Maria del Fiore",
+              "desc": "Tribune des chantres révolutionnaire rythmée par la ronde éperdue des putti dansants sur fond de mosaïques cosmatesques.",
+              "type": "artwork",
+              "badge": "CANTORIA",
+              "icon": "🎶",
+              "artworkId": "donatello_cantoria_duomo_florence_1433"
+            },
+            {
+              "year": "1440",
+              "title": "Le David en bronze pour le palais Médicis",
+              "desc": "Premier nu masculin grandeur nature en bronze fondu depuis l'Antiquité, chef-d'œuvre d'harmonie anatomique et de grâce androgyne.",
+              "type": "artwork",
+              "badge": "BRONZE",
+              "icon": "👑",
+              "artworkId": "donatello_david_bronze_bargello_1440"
+            },
+            {
+              "year": "1440",
+              "title": "L'Amour-Attis énigmatique",
+              "desc": "Bronze virtuose mêlant attributs bacchiques, phrygiens et mercuriens dans une jubilation païenne redécouverte.",
+              "type": "artwork",
+              "badge": "BRONZE",
+              "icon": "🎭",
+              "artworkId": "donatello_amour_attis_bargello_1440"
+            }
+          ]
+        },
+        {
+          "title": "Le Séjour Padouan et l'Expressionnisme Poignant des Dernières Années",
+          "years": "1446 – 1466",
+          "color": "#7c3aed",
+          "summary": "Monument équestre du Gattamelata à Padoue et dépouillement ascétique de Marie-Madeleine.",
+          "events": [
+            {
+              "year": "1450",
+              "title": "Séjour à Padoue et monument équestre du Gattamelata",
+              "desc": "Résurrection du grand bronze équestre antique sur la place du Santo, révolutionnant l'art de l'Italie du Nord et influençant Mantegna.",
+              "type": "context",
+              "badge": "PADOUAN",
+              "icon": "🐎"
+            },
+            {
+              "year": "1455",
+              "title": "Sainte Marie-Madeleine pénitente",
+              "desc": "Sculpture en bois de peuplier d'un expressionnisme mystique absolu, figurant l'ascète décharnée vêtue de sa seule chevelure.",
+              "type": "artwork",
+              "badge": "BOIS",
+              "icon": "🙏",
+              "artworkId": "donatello_marie_madeleine_penitente_opera_duomo_1455"
+            },
+            {
+              "year": "1466",
+              "title": "Mort à Florence et sépulture à San Lorenzo",
+              "desc": "Inhumé avec les plus hauts honneurs civiques dans la crypte de la basilique San Lorenzo, au plus près du tombeau de son mécène Cosme l'Ancien.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "⚰️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "cellini": {
+    "id": "cellini",
+    "name": "Cellini Benvenuto",
+    "sortName": "Cellini Benvenuto",
+    "sortLetter": "C",
+    "dates": "1500 – 1571",
+    "movement": "Maniérisme florentin, Orfèvrerie d'apparat & Première École de Fontainebleau",
+    "nationality": "Italienne (Florence / Rome / France)",
+    "bannerImg": "https://lh3.googleusercontent.com/d/161v3MnDCiC7Avs2QyCBtdw-azg4Zja42",
+    "bio": "<p><strong>Benvenuto Cellini</strong> (1500 – 1571), né et mort à Florence, incarne l'archétype du créateur de la Renaissance tardive : à la fois orfèvre prodigieux, sculpteur audacieux, médailleur d'élite et écrivain au tempérament impétueux. Formé dès son jeune âge à l'orfèvrerie dans sa cité natale, il mène une existence tumultueuse et aventureuse entre Florence, Rome et la cour de France, se mettant au service des plus illustres mécènes de son siècle : les papes Clément VII et Paul III, le roi François Ier et le grand-duc Cosme Ier de Médicis.</p><p>Figure emblématique du maniérisme florentin, Cellini transpose la virtuosité, le raffinement ornemental et le sens de la préciosité de l'orfèvre dans la grande statuaire monumentale. Son esthétique privilégie l'élégance serpentine (<em>figura serpentinata</em>), les proportions étirées, la grâce aristocratique et une sensualité frémissante. Tout en admirant la puissance anatomique de Michel-Ange, il s'en détache par un goût prononcé pour le brio décoratif, la perfection des surfaces ciselées et le dynamisme théâtral.</p><p>Après avoir émerveillé la cour de France par sa célèbre <em>Salière</em> en or et son monumental haut-relief en bronze de la <em>Nymphe de Fontainebleau</em>, il réalise à Florence son chef-d'œuvre impérissable : le <em>Persée tenant la tête de Méduse</em> sous la Loggia dei Lanzi. Coulée d'un seul jet lors d'une épopée technique dramatique qu'il relatera avec panache, cette œuvre magistrale scelle son triomphe public.</p><p>Auteur d'une autobiographie monumentale (<em>La Vita</em>) qui constitue l'un des témoignages littéraires et humains les plus vivants du XVIe siècle, Cellini a su hisser les arts somptuaires au rang des arts majeurs et léguer à la postérité des créations d'une virtuosité technique et d'une perfection formelle insurpassées.</p>",
+    "corpus": {
+      "total": 30,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 30,
+      "seenCount": 8,
+      "source": "Monographies et catalogues Eugène Plon, John Pope-Hennessy & Alessandro Nova",
+      "totalOeuvresEstimees": "~30 sculptures en bronze/marbre, orfèvreries et médailles conservées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur les monographies et catalogues critiques d'Eugène Plon (Benvenuto Cellini, orfèvre, médailleur, sculpteur, 1883), de John Pope-Hennessy (Cellini, Abbeville Press, 1985), d'Alessandro Nova et sur les études techniques menées lors de la restauration du Persée à Florence et des expositions du Museo Nazionale del Bargello et du Kunsthistorisches Museum de Vienne. En retenant l'ensemble de ses œuvres conservées authentifiées et largement attribuées (grandes sculptures en bronze et marbre, bustes, statuettes, chefs-d'œuvre d'orfèvrerie survivants et principales médailles ou coins frappés reconnus de sa main, à l'exclusion des pièces perdues connues uniquement par sa Vita ou des objets d'atelier incertains), le consensus muséal fixe son corpus officiel conservé à environ 30 oeuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Rome, la Papauté et la Gloire de l'Orfèvre",
+          "years": "1520 – 1540",
+          "color": "#0284c7",
+          "summary": "Services auprès des papes Clément VII et Paul III, défense du château Saint-Ange et orfèvrerie d'apparat.",
+          "events": [
+            {
+              "year": "1527",
+              "title": "Défense héroïque du château Saint-Ange lors du sac de Rome",
+              "desc": "Cellini pointe les canons de la forteresse pontificale et fond les bijoux d'or du pape pour éviter leur pillage.",
+              "type": "context",
+              "badge": "HISTOIRE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1540",
+              "title": "Départ pour la France et commande de la Salière de François Ier",
+              "desc": "Invité à la cour de François Ier, il entreprend le chef-d'œuvre absolu de l'orfèvrerie Renaissance célébrant l'union de la Terre et de la Mer.",
+              "type": "context",
+              "badge": "ORFÈVRERIE",
+              "icon": "🏆"
+            }
+          ]
+        },
+        {
+          "title": "Le Séjour en France et le Décor Royal de Fontainebleau",
+          "years": "1540 – 1545",
+          "color": "#d97706",
+          "summary": "Création de grands bronzes pour la cour royale et affirmation du style maniériste bellifontain.",
+          "events": [
+            {
+              "year": "1542",
+              "title": "La Nymphe de Fontainebleau pour la Porte Dorée",
+              "desc": "Monumental haut-relief en bronze fondu pour l'entrée du château royal, marquant l'apogée du maniérisme de l'École de Fontainebleau.",
+              "type": "artwork",
+              "badge": "RELIEF",
+              "icon": "🦌",
+              "artworkId": "cellini_la_nymphe_de_fontainebleau_louvre_1542"
+            }
+          ]
+        },
+        {
+          "title": "Le Retour à Florence et le Triomphe Médicéen",
+          "years": "1545 – 1571",
+          "color": "#7c3aed",
+          "summary": "Mécénat de Cosme Ier, exploits du Persée sous la Loggia dei Lanzi et dialogue avec la statuaire antique.",
+          "events": [
+            {
+              "year": "1548",
+              "title": "Buste héroïque de Cosme Ier de Médicis",
+              "desc": "Effigie colossale en bronze du souverain toscan en imperator romain cuirassé à l'armure ornée de masques fantastiques.",
+              "type": "artwork",
+              "badge": "PORTRAIT",
+              "icon": "👑",
+              "artworkId": "cellini_buste_de_cosme_ier_de_medicis_bargello_1545"
+            },
+            {
+              "year": "1549",
+              "title": "Apollon et Hyacinthe en marbre de Carrare",
+              "desc": "Groupe élégant en marbre sculpté pour les jardins médicéens, illustrant la tragédie du jeune favori frappé par le disque.",
+              "type": "artwork",
+              "badge": "MARBRE",
+              "icon": "🏹",
+              "artworkId": "cellini_apollon_et_hyacinthe_bargello_1548"
+            },
+            {
+              "year": "1550",
+              "title": "Ganymède et l'Aigle de Jupiter",
+              "desc": "Restauration virtuose d'un torse gréco-romain antique complété en marbre de Carrare pour les collections de Cosme Ier.",
+              "type": "artwork",
+              "badge": "MARBRE",
+              "icon": "🦅",
+              "artworkId": "cellini_ganymede_bargello_1548"
+            },
+            {
+              "year": "1550",
+              "title": "Narcisse assis contemplant son reflet",
+              "desc": "Figure méditative et introspective en marbre de Carrare explorant les thèmes de l'illusion visuelle et de l'identité.",
+              "type": "artwork",
+              "badge": "MARBRE",
+              "icon": "💧",
+              "artworkId": "cellini_narcisse_bargello_1548"
+            },
+            {
+              "year": "1550",
+              "title": "Minerve casquée pour le piédestal du Persée",
+              "desc": "Statuette de bronze ciselée avec une minutie d'orfèvre logée dans les niches du piédestal en marbre de la Loggia dei Lanzi.",
+              "type": "artwork",
+              "badge": "BRONZE",
+              "icon": "🛡️",
+              "artworkId": "cellini_minerve_base_de_persee_bargello_1545"
+            },
+            {
+              "year": "1553",
+              "title": "Persée délivrant Andromède du monstre marin",
+              "desc": "Plaque narrative virtuose en bronze mariant le stiacciato hérité de Donatello à des reliefs puissants en saillie.",
+              "type": "artwork",
+              "badge": "RELIEF",
+              "icon": "🌊",
+              "artworkId": "cellini_persee_delivrant_andromede_bargello_1553"
+            },
+            {
+              "year": "1554",
+              "title": "Persée tenant la tête de Méduse sous la Loggia dei Lanzi",
+              "desc": "Inauguration triomphale du colosse de bronze sur la Piazza della Signoria, célébrant la victoire de l'ordre médicéen.",
+              "type": "artwork",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚔️",
+              "artworkId": "cellini_persee_tenant_la_tete_de_meduse_loggia_dei_lanzi_1545"
+            },
+            {
+              "year": "1571",
+              "title": "Rédaction de La Vita et funérailles solennelles",
+              "desc": "Mort à Florence après avoir dicté son autobiographie légendaire ; inhumé avec faste dans la chapelle des peintres de la Santissima Annunziata.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "📖"
+            }
+          ]
+        }
+      ]
+    }
+  },
 });
 
 
@@ -16281,3 +16574,23 @@ window.ARTISTS_REGISTRY["boulogne_jean"] = window.ARTISTS_REGISTRY["giambologna"
 window.ARTISTS_REGISTRY["cesar_baldaccini"] = window.ARTISTS_REGISTRY["cesar"];
 window.ARTISTS_REGISTRY["baldaccini_cesar"] = window.ARTISTS_REGISTRY["cesar"];
 window.ARTISTS_REGISTRY["baldaccini"] = window.ARTISTS_REGISTRY["cesar"];
+
+// Aliases Donatello
+window.ARTISTS_REGISTRY["donatello_bardi"] = window.ARTISTS_REGISTRY["donatello"];
+window.ARTISTS_REGISTRY["donato_di_niccolo_di_betto_bardi"] = window.ARTISTS_REGISTRY["donatello"];
+window.ARTISTS_REGISTRY["donato_bardi"] = window.ARTISTS_REGISTRY["donatello"];
+window.ARTISTS_REGISTRY["bardi_donato"] = window.ARTISTS_REGISTRY["donatello"];
+
+// Aliases Benvenuto Cellini
+window.ARTISTS_REGISTRY["benvenuto_cellini"] = window.ARTISTS_REGISTRY["cellini"];
+window.ARTISTS_REGISTRY["cellini_benvenuto"] = window.ARTISTS_REGISTRY["cellini"];
+
+// Aliases Donatello
+window.ARTISTS_REGISTRY["donatello_bardi"] = window.ARTISTS_REGISTRY["donatello"];
+window.ARTISTS_REGISTRY["donato_di_niccolo_di_betto_bardi"] = window.ARTISTS_REGISTRY["donatello"];
+window.ARTISTS_REGISTRY["donato_bardi"] = window.ARTISTS_REGISTRY["donatello"];
+window.ARTISTS_REGISTRY["bardi_donato"] = window.ARTISTS_REGISTRY["donatello"];
+
+// Aliases Benvenuto Cellini
+window.ARTISTS_REGISTRY["benvenuto_cellini"] = window.ARTISTS_REGISTRY["cellini"];
+window.ARTISTS_REGISTRY["cellini_benvenuto"] = window.ARTISTS_REGISTRY["cellini"];
