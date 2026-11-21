@@ -15621,7 +15621,255 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       }
     ]
   }
-}
+},
+
+"bartholdi": {
+    "id": "bartholdi",
+    "name": "Bartholdi Auguste",
+    "sortName": "Bartholdi Auguste",
+    "sortLetter": "B",
+    "dates": "1834 – 1904",
+    "movement": "Sculpture monumentale & Statuaire civique de la IIIe République",
+    "nationality": "Française (Colmar / Paris)",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1SBVCoTqCZjQm2SELTrpy7nOol0WkL9vC=s1600",
+    "bio": "<p><strong>Frédéric Auguste Bartholdi</strong> (1834 – 1904), né à Colmar et mort à Paris, s'impose comme l'une des figures majeures de la sculpture monumentale et patriotique de la seconde moitié du XIXe siècle. Initialement formé à la peinture auprès d'Ary Scheffer, il s'oriente rapidement vers la sculpture sous l'influence d'Antoine Étex et développe très tôt un goût prononcé pour le gigantisme, nourri par un voyage décisif en Égypte en 1855 où il découvre les colosses antiques.</p><p>Profondément ancré dans le courant académique tout en étant traversé par un souffle romantique, son art se caractérise par la recherche d'une lisibilité immédiate et d'une forte charge symbolique, destinées à toucher l'imaginaire collectif. Plutôt que de s'attacher aux subtilités psychologiques ou aux ruptures formelles de l'avant-garde de son temps, Bartholdi privilégie la puissance de l'allégorie, l'équilibre des masses et l'intégration architecturale de ses œuvres dans l'espace public, souvent pensées comme des repères civiques et républicains.</p><p>Son œuvre la plus célèbre, <em>La Liberté éclairant le monde</em>, offerte par la France aux États-Unis et inaugurée en 1886 dans la baie de New York, illustre cette synthèse entre maîtrise esthétique classique et prouesse d'ingénierie moderne, réalisée grâce à la structure métallique interne conçue par Gustave Eiffel. Cet exploit technique du cuivre repoussé lui permet de donner vie à des silhouettes colossales sans sacrifier la souplesse du drapé ni la noblesse de l'attitude.</p><p>Marqué par la guerre franco-prussienne de 1870 et l'annexion de son Alsace natale, il consacre une large part de sa carrière à célébrer l'héroïsme national, comme en témoignent le monumental <em>Lion de Belfort</em> taillé à même la roche ou encore la Fontaine des Quatre-Parties-du-Monde à Lyon. Par sa capacité à conjuguer grandeur épique, rigueur formelle et ferveur populaire, Bartholdi demeure le maître incontesté de la statuaire publique de la Troisième République.</p>",
+    "corpus": {
+      "total": 160,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 160,
+      "seenCount": 1,
+      "source": "Archives et collections du Musée Bartholdi à Colmar, catalogues de Jacques Betz (1954) et Régis Hueber",
+      "totalOeuvresEstimees": "~160 créations sculpturales originales",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence s'appuie sur les catalogues et archives du Musée Bartholdi à Colmar (sa maison natale, légataire de son fonds d'atelier et de ses archives), les travaux de Jacques Betz (Bartholdi, 1954), de Régis Hueber et les recherches menées autour des expositions du centenaire de sa mort en 2004 (Bartholdi, le sculpteur de la Liberté). En retenant chaque œuvre sculpturale distincte créée par l'artiste (en comptant chaque monument public, groupe, fontaine ou portrait sculpté comme une unité de création — sans multiplier le chiffre par les dizaines d'études préparatoires ou de tirages d'édition en bronze d'un même modèle —), le consensus muséal situe son corpus officiel d'œuvres sculpturales créées autour d'environ 160 créations originales."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Formation, Révélation d'Orient & Premiers Monuments Civiques",
+          "years": "1853 – 1870",
+          "color": "#0284c7",
+          "summary": "Apprentissage parisien, choc des colosses égyptiens et premières grandes commandes alsaciennes.",
+          "events": [
+            {
+              "year": "1855",
+              "title": "Le Voyage initiatique en Égypte et au Yémen",
+              "desc": "Découvre avec Jean-Léon Gérôme les colosses de Louxor et des pyramides, qui forgent son goût indéracinable pour le gigantisme.",
+              "type": "context",
+              "badge": "VOYAGE",
+              "icon": "🐪"
+            },
+            {
+              "year": "1856",
+              "title": "Le Monument au général Rapp à Colmar",
+              "desc": "À vingt-deux ans, érige sur le Champ-de-Mars de Colmar la statue en bronze de Rapp, son premier triomphe commémoratif public.",
+              "type": "masterpiece",
+              "badge": "BRONZE",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1869",
+              "title": "Le projet d'un phare colossal pour le canal de Suez",
+              "desc": "Conçoit pour Ferdinand de Lesseps le projet de l'Égypte éclairant l'Orient, matrice visionnaire de sa future Liberté.",
+              "type": "context",
+              "badge": "PROJET",
+              "icon": "🗼"
+            }
+          ]
+        },
+        {
+          "title": "Le Traumatisme de 1870, Le Lion et la Liberté de New York",
+          "years": "1871 – 1886",
+          "color": "#d97706",
+          "summary": "Engagement patriotique, sculpture colossale du Lion et apothéose universelle dans la baie de New York.",
+          "events": [
+            {
+              "year": "1871",
+              "title": "Premier voyage aux États-Unis et choix de Bedloe's Island",
+              "desc": "Mandaté par Édouard Laboulaye, il prospecte en Amérique pour promouvoir le monument républicain et choisit l'îlot dans le port de New York.",
+              "type": "context",
+              "badge": "AMÉRIQUE",
+              "icon": "🗽"
+            },
+            {
+              "year": "1880",
+              "title": "Achèvement du monumental Lion de Belfort",
+              "desc": "Colosse en haut-relief de 22 mètres de long sculpté dans le grès rose de la falaise, symbole indomptable de la défense nationale.",
+              "type": "artwork",
+              "badge": "COLOSSE",
+              "icon": "🦁",
+              "artworkId": "bartholdi_lion_de_belfort_1880"
+            },
+            {
+              "year": "1886",
+              "title": "Inauguration triomphale de la Liberté éclairant le monde",
+              "desc": "Le président Cleveland inaugure à New York la statue en cuivre repoussé haute de 46 mètres, montée sur l'ossature d'Eiffel.",
+              "type": "masterpiece",
+              "badge": "MONUMENT",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "Grands Monuments Républicains, Fontaines et Legs Ultime",
+          "years": "1887 – 1904",
+          "color": "#059669",
+          "summary": "Quadriges urbains, hommages républicains aux héros nationaux et création de son musée à Colmar.",
+          "events": [
+            {
+              "year": "1892",
+              "title": "La Fontaine des Quatre-Parties-du-Monde à Lyon",
+              "desc": "Déploie sur la place des Terreaux un spectaculaire quadrige marin en plomb incarnant la France et le char des fleuves.",
+              "type": "masterpiece",
+              "badge": "FONTAINE",
+              "icon": "⛲"
+            },
+            {
+              "year": "1902",
+              "title": "Le Vercingétorix de Clermont et le Tonnelier de Colmar",
+              "desc": "Érige la statue équestre de Vercingétorix et coiffe la Maison des Têtes de sa ville natale d'une statue en étain du tonnelier.",
+              "type": "context",
+              "badge": "HOMMAGE",
+              "icon": "🍇"
+            },
+            {
+              "year": "1904",
+              "title": "Disparition à Paris et legs de l'atelier de Colmar",
+              "desc": "S'éteint à 70 ans ; sa maison natale devient le Musée Bartholdi, préservant la mémoire du maître de la statuaire républicaine.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🏛️"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "giambologna": {
+    "id": "giambologna",
+    "name": "Giambologna (Jean Boulogne)",
+    "sortName": "Giambologna (Jean Boulogne)",
+    "sortLetter": "G",
+    "dates": "1529 – 1608",
+    "movement": "Maniérisme florentin tardif & Figura serpentinata",
+    "nationality": "Flamande & Italienne (Douai / Florence)",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1sS7HtSWFAjO7_xFQRiYhbXLjHEnAfewU=s1600",
+    "bio": "<p><strong>Jean Boulogne, dit Giambologna</strong> (1529 – 1608), né à Douai et mort à Florence, est l'un des plus grands sculpteurs européens de la seconde moitié du XVIe siècle. D'origine flamande, il se forme auprès de Jacques Du Broeucq avant de partir pour l'Italie en 1550, où il s'imprègne profondément de l'art antique et des chefs-d'œuvre de Michel-Ange. S'installant durablement à Florence, il devient le sculpteur officiel de la cour des Médicis, pour lesquels il réalise des commandes prestigieuses destinées aux palais et aux jardins de la ville.</p><p>Figure majeure du maniérisme tardif, Giambologna se distingue par sa recherche constante du mouvement, de l'élégance formelle et de la virtuosité technique. Il porte à son apogée la « figura serpentinata », une composition en spirale qui oblige le spectateur à tourner autour de l'œuvre pour en saisir tous les angles. Contrairement à la sculpture de la Haute Renaissance, souvent pensée pour être vue de face, ses créations offrent une multitude de points de vue tous aussi harmonieux et dynamiques les uns que les autres.</p><p>Son chef-d'œuvre absolu, <em>L'Enlèvement des Sabines</em>, sculpté dans un seul bloc de marbre pour la Loggia dei Lanzi à Florence, illustre parfaitement cette maîtrise de la torsion des corps et de l'équilibre complexe entre trois personnages entrelacés. Dans un tout autre registre, son célèbre <em>Mercure</em> en bronze semble défier les lois de la gravité en ne reposant que sur la pointe d'un seul pied, portée par le souffle du dieu Zéphyr.</p><p>Artiste d'une incroyable polyvalence, il travaille aussi bien le marbre monumental que le bronze, produisant des statuettes de cabinet très prisées des collectionneurs européens et diffusant ainsi son style dans toutes les cours royales. Son esthétique raffinée, privilégiant la grâce, le dynamisme et l'effet dramatique sur la simple narration, fait de lui un pont essentiel entre la Renaissance et le baroque du XVIIe siècle, influençant directement des maîtres comme Le Bernin.</p>",
+    "corpus": {
+      "total": 125,
+      "paintingsCount": null,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": 125,
+      "seenCount": 1,
+      "source": "Monographies et catalogues critiques d'Élisabeth Dhanens (1956) et Charles Avery (1987)",
+      "totalOeuvresEstimees": "~125 créations sculpturales",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur les monographies et catalogues critiques d'Élisabeth Dhanens (Jean Boulogne, Giovanni Bologna Fiammingo, 1956), de Charles Avery (Giambologna: The Complete Sculpture, Phaidon, 1987) et sur les catalogues des grandes expositions internationales (dont celle du Kunsthistorisches Museum de Vienne en 1978 et des Galeries des Offices / Bargello à Florence). En retenant chaque création sculpturale distincte inventée et exécutée par le maître ou sous sa conduite directe (en comptabilisant chaque grand monument, groupe en marbre, fontaine, relief ou modèle original de bronze comme une unité de création — sans multiplier le chiffre par les dizaines de fontes ultérieures d'un même type de statuette —), le consensus scientifique situe son corpus officiel de créations sculpturales autour d'environ 125 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Arrivée en Italie, Mécénat des Médicis et Fontaine de Neptune",
+          "years": "1550 – 1566",
+          "color": "#0284c7",
+          "summary": "Formation romaine auprès des antiques et premier chef-d'œuvre colossal à Bologne.",
+          "events": [
+            {
+              "year": "1550",
+              "title": "Voyage à Rome et rencontre avec Michel-Ange",
+              "desc": "Étudie les antiques romains ; la leçon de Michel-Ange l'incite à concevoir d'abord l'architecture dynamique des corps avant le fini.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1561",
+              "title": "Entrée au service officiel des Médicis à Florence",
+              "desc": "Pensionné par le prince François de Médicis et Vecchietti, il s'impose dans la cité toscane par ses statuettes de bronze.",
+              "type": "context",
+              "badge": "MÉDICIS",
+              "icon": "👑"
+            },
+            {
+              "year": "1566",
+              "title": "Inauguration de la Fontaine de Neptune à Bologne",
+              "desc": "Triomphe public de la statue colossale en bronze d'Il Gigante sur la Piazza del Nettuno, apaisant les flots de son bras impérieux.",
+              "type": "artwork",
+              "badge": "FONTAINE",
+              "icon": "🔱",
+              "artworkId": "giambologna_fontaine_de_neptune_bologne_1566"
+            }
+          ]
+        },
+        {
+          "title": "Apogée du Maniérisme : Le Mercure volant et L'Enlèvement des Sabines",
+          "years": "1567 – 1583",
+          "color": "#d97706",
+          "summary": "Élégance aérienne, invention de la figura serpentinata et exploits techniques du marbre.",
+          "events": [
+            {
+              "year": "1580",
+              "title": "Le Mercure volant défiant la pesanteur terrestre",
+              "desc": "Bronze virtuose où le messager divin s'élance sur la pointe d'un seul pied soutenu par le souffle du vent Zéphyr.",
+              "type": "masterpiece",
+              "badge": "BRONZE",
+              "icon": "🪽"
+            },
+            {
+              "year": "1580",
+              "title": "Le Colosse de l'Apennin à Pratolino",
+              "desc": "Sculpte à flanc de rocher un géant tutélaire de 14 mètres de haut alliant roche brute, coquillages et draperies de tuf.",
+              "type": "masterpiece",
+              "badge": "GÉANT",
+              "icon": "⛰️"
+            },
+            {
+              "year": "1583",
+              "title": "L'Enlèvement des Sabines sous la Loggia dei Lanzi",
+              "desc": "Taillé dans un seul bloc de marbre, ce groupe hélicoïdal à trois figures fixe le canon absolu de la figura serpentinata.",
+              "type": "masterpiece",
+              "badge": "MARBRE",
+              "icon": "✨"
+            }
+          ]
+        },
+        {
+          "title": "Monuments Équestres, Diffusion Européenne et Chapelle Salviati",
+          "years": "1584 – 1608",
+          "color": "#059669",
+          "summary": "Statues équestres colossales pour les cours royales et couronnement de sa gloire européenne.",
+          "events": [
+            {
+              "year": "1594",
+              "title": "La Statue équestre de Cosme Ier sur la Piazza della Signoria",
+              "desc": "Érige le prototype monumental de la statue équestre moderne en bronze, modèle admiré et copié dans toute l'Europe royale.",
+              "type": "masterpiece",
+              "badge": "ÉQUESTRE",
+              "icon": "🐎"
+            },
+            {
+              "year": "1599",
+              "title": "Hercule et le Centaure Nessus",
+              "desc": "Groupe en marbre d'une puissance dramatique inouïe affirmant le triomphe de la force héroïque sur l'instinct sauvage.",
+              "type": "masterpiece",
+              "badge": "MARBRE",
+              "icon": "🏹"
+            },
+            {
+              "year": "1608",
+              "title": "Disparition à Florence et chapelle de la Santissima Annunziata",
+              "desc": "S'éteint à 79 ans et repose dans la chapelle du Soccorso qu'il a lui-même ornée de ses propres bronzes sacrés.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
+  },
 });
 
 
@@ -15894,3 +16142,10 @@ window.ARTISTS_REGISTRY["andy_warhol"] = window.ARTISTS_REGISTRY["warhol"];
 window.ARTISTS_REGISTRY["warhol_andy"] = window.ARTISTS_REGISTRY["warhol"];
 window.ARTISTS_REGISTRY["andrew_warhola"] = window.ARTISTS_REGISTRY["warhol"];
 window.ARTISTS_REGISTRY["warhola"] = window.ARTISTS_REGISTRY["warhol"];
+window.ARTISTS_REGISTRY["bartholdi_auguste"] = window.ARTISTS_REGISTRY["bartholdi"];
+window.ARTISTS_REGISTRY["auguste_bartholdi"] = window.ARTISTS_REGISTRY["bartholdi"];
+window.ARTISTS_REGISTRY["frederic_auguste_bartholdi"] = window.ARTISTS_REGISTRY["bartholdi"];
+window.ARTISTS_REGISTRY["giambologna_jean_boulogne"] = window.ARTISTS_REGISTRY["giambologna"];
+window.ARTISTS_REGISTRY["jean_boulogne"] = window.ARTISTS_REGISTRY["giambologna"];
+window.ARTISTS_REGISTRY["giovanni_bologna"] = window.ARTISTS_REGISTRY["giambologna"];
+window.ARTISTS_REGISTRY["boulogne_jean"] = window.ARTISTS_REGISTRY["giambologna"];
