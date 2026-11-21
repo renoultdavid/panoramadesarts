@@ -11858,3 +11858,82 @@ body {
   background: var(--gold-pure) !important;
   color: #000 !important;
 }
+
+/* ==========================================================================
+   DIAPORAMA SOUS-VUES & DÉTAILS D'UNE ŒUVRE MONUMENTALE (MODALE)
+   ========================================================================== */
+.modal-views-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px auto 4px auto;
+  padding: 6px 14px;
+  background: rgba(12, 16, 23, 0.95);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  max-width: 95%;
+  flex-wrap: nowrap;
+}
+
+.modal-views-carousel .btn-view-nav {
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  color: var(--gold-pale, #d4af37);
+  font-size: 11px;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.modal-views-carousel .btn-view-nav:hover {
+  background: #d4af37;
+  color: #0b0f14;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+}
+
+.modal-views-carousel .view-indicator {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  color: #e6c875;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 320px;
+  font-weight: 600;
+}
+
+.modal-views-carousel .view-dots {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.modal-views-carousel .view-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.modal-views-carousel .view-dot.active {
+  background: #d4af37;
+  transform: scale(1.25);
+  box-shadow: 0 0 6px #d4af37;
+  border-color: #fff;
+}

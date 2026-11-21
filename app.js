@@ -1699,7 +1699,10 @@ const BANNERS_REGISTRY = {
   compression: "https://lh3.googleusercontent.com/pw/AP1GczP4YgCuLZVOE16Hq35B6YxFWz1Rw7OXcLvXc5872FLSrGCUL-gGU2i8XsEmpp6zyrqbh6nqLYQdkD65K49Q33Uso65Lacy7Fpczyv3lnetsOW_cqC7LaMVLTc-OAP4vnZDbu9feD8tTNUmzfhcQopQ_1A=w1836-h779-s-no-gm?authuser=0",
 
   // 16. Sculpture religieuse, Calvaires & Arts sacrés
-  sculpture_religieuse: "https://lh3.googleusercontent.com/pw/AP1GczPbZq3hDy_qUKRmHm5JrtKwaNhLVKUmr456zjHwbS9Tpr8X1IWiMi5wGcgVC8DZa1klWVb1Fcr87ZWd9gIwKToWiyBMsCnB4trF6VEHxVVxp30kfF1hxoDSdZ7GdrocJ2JJk00oE9a_iRHhH2LClG9ZPw=w1836-h779-s-no-gm?authuser=0"
+  sculpture_religieuse: "https://lh3.googleusercontent.com/pw/AP1GczPbZq3hDy_qUKRmHm5JrtKwaNhLVKUmr456zjHwbS9Tpr8X1IWiMi5wGcgVC8DZa1klWVb1Fcr87ZWd9gIwKToWiyBMsCnB4trF6VEHxVVxp30kfF1hxoDSdZ7GdrocJ2JJk00oE9a_iRHhH2LClG9ZPw=w1836-h779-s-no-gm?authuser=0",
+
+  // 17. Portail, Tympan & Sculpture de cathédrale
+  sculpture_tympan: "https://lh3.googleusercontent.com/pw/AP1GczOEMY0CLUXIhfgAFi8UaKlq6fqCmoOnjDXiwpQMQSjtJLKtCIWhSN6YrSMg9_bUj57U_u_GVAAnPW9-oB2KbGhFI_c-lzpoNhyCcLFkwwpKZbC0Xbq-XyO9JyuobmVJrGms7fGULj6pQ_hQavWm0YDyhA=w1836-h779-s-no-gm?authuser=0"
 };
 
 function getArtworkBanner(art) {
@@ -1715,6 +1718,10 @@ function getArtworkBanner(art) {
 
   if (domain === 'sculpture_civile' || aType.includes('fontaine') || fullText.includes('sculpture civile')) {
     return BANNERS_REGISTRY.sculpture_civile;
+  }
+
+  if (aType.includes('tympan') || aType.includes('portail') || fullText.includes('tympan') || fullText.includes('conques')) {
+    return BANNERS_REGISTRY.sculpture_tympan;
   }
 
   if (domain === 'sculpture_religieuse' || aType.includes('calvaire') || aType.includes('croix de chemin') || fullText.includes('calvaire') || fullText.includes('croix de kervalet') || fullText.includes('croix de boessé') || fullText.includes('croix de montsarrac')) {
@@ -8388,12 +8395,13 @@ function populateModalData(art) {
   // =========================================================================
   const creatorName = (art.artist || art.creator || '').trim();
   const isCommanditaire = creatorName.toLowerCase().includes('commanditaire');
+  const isAnonymous = !art.artistId || creatorName.toLowerCase().includes('anonyme') || creatorName.toLowerCase().includes('tailleur') || creatorName.toLowerCase().includes('inconnu') || creatorName.toLowerCase().includes('atelier de');
 
   // VOLET GAUCHE : Artiste en encadré rectangulaire doré cliquable à côté du type de peinture
   const btnPedestalArtist = document.getElementById('btn-pedestal-artist');
   const pedestalArtistName = document.getElementById('modal-pedestal-artist-name');
 
-  if (btnPedestalArtist && creatorName && !isCommanditaire) {
+  if (btnPedestalArtist && creatorName && !isCommanditaire && !isAnonymous) {
     if (pedestalArtistName) pedestalArtistName.textContent = creatorName.toUpperCase();
     btnPedestalArtist.style.display = 'inline-flex';
 
@@ -8552,6 +8560,71 @@ function populateModalData(art) {
   modalNarrative.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
     ? enrichHTMLWithGlossary(rawNarrative)
     : rawNarrative;
+
+  // DIAPORAMA SOUS-VUES / DÉTAILS D'UNE ŒUVRE MONUMENTALE
+  const viewsCarouselEl = document.getElementById('modal-views-carousel');
+  if (viewsCarouselEl) {
+    if (art.views && art.views.length > 1) {
+      let currentViewIdx = 0;
+
+      function renderCurrentSubView(idx) {
+        currentViewIdx = (idx + art.views.length) % art.views.length;
+        const v = art.views[currentViewIdx];
+        if (!v) return;
+
+        modalImg.src = v.image;
+        modalImg.alt = v.title || art.title;
+
+        const viewNarrative = v.caption || v.desc || v.description || rawNarrative;
+        modalNarrative.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
+          ? enrichHTMLWithGlossary(viewNarrative)
+          : viewNarrative;
+
+        const indicator = viewsCarouselEl.querySelector('.view-indicator');
+        if (indicator) {
+          indicator.textContent = 'Vue ' + (currentViewIdx + 1) + '/' + art.views.length + ' : ' + (v.title || '');
+          indicator.title = v.title || '';
+        }
+        viewsCarouselEl.querySelectorAll('.view-dot').forEach((dot, dIdx) => {
+          dot.classList.toggle('active', dIdx === currentViewIdx);
+        });
+      }
+
+      viewsCarouselEl.innerHTML = '<button type="button" class="btn-view-nav btn-view-prev" title="Vue précédente">◀</button>' +
+        '<span class="view-indicator">Vue 1/' + art.views.length + ' : ' + (art.views[0].title || '') + '</span>' +
+        '<div class="view-dots">' +
+        art.views.map((_, i) => '<span class="view-dot ' + (i === 0 ? 'active' : '') + '" data-idx="' + i + '" title="' + (typeof escapeHtmlAttr === 'function' ? escapeHtmlAttr(art.views[i].title || '') : '') + '"></span>').join('') +
+        '</div>' +
+        '<button type="button" class="btn-view-nav btn-view-next" title="Vue suivante">▶</button>';
+      viewsCarouselEl.style.display = 'flex';
+
+      const btnPrevView = viewsCarouselEl.querySelector('.btn-view-prev');
+      const btnNextView = viewsCarouselEl.querySelector('.btn-view-next');
+
+      if (btnPrevView) {
+        btnPrevView.onclick = (e) => {
+          e.stopPropagation();
+          renderCurrentSubView(currentViewIdx - 1);
+        };
+      }
+      if (btnNextView) {
+        btnNextView.onclick = (e) => {
+          e.stopPropagation();
+          renderCurrentSubView(currentViewIdx + 1);
+        };
+      }
+      viewsCarouselEl.querySelectorAll('.view-dot').forEach(dot => {
+        dot.onclick = (e) => {
+          e.stopPropagation();
+          const targetIdx = parseInt(dot.dataset.idx, 10);
+          renderCurrentSubView(targetIdx);
+        };
+      });
+    } else {
+      viewsCarouselEl.style.display = 'none';
+      viewsCarouselEl.innerHTML = '';
+    }
+  }
 
   // Encart d'Échelle Humaine intégrée dans la notice (colonne droite, référence homme 1,75 m)
   renderScaleStamp(art);
@@ -10684,9 +10757,43 @@ function initSearchEngine() {
       });
   }
 
-  if (filterDomain) {
+  // 1b. Cascade : Civilisation -> Domaines autorisés (filtrés selon la présence réelle d'œuvres dans le catalogue)
+  function updateDomainDropdown() {
+    if (!filterDomain) return;
+    const previousSelectedDomain = filterDomain.value;
+    const selectedCiv = filterCiv ? filterCiv.value : 'all';
+
     filterDomain.innerHTML = '<option value="all">Tous les domaines</option>';
-    Object.keys(TAXONOMY_DOMAINS)
+
+    let availableDomains = Object.keys(TAXONOMY_DOMAINS);
+
+    if (selectedCiv !== 'all') {
+      const catalog = window.ART_OBJECTS || [];
+      const presentDomains = new Set();
+
+      catalog.forEach(item => {
+        if (!item) return;
+        const cId = (item.civId || '').toLowerCase().trim();
+        if (cId !== selectedCiv) return;
+
+        const d = (item.domain || '').toLowerCase().trim();
+        if (!d) return;
+
+        if (d === 'peinture' || d === 'peinture_mosaique' || d === 'peinture_fresque' || d === 'plafond_fresque' || d === 'ceramique_mosaique' || d === 'estampe' || d === 'dessin' || d === 'estampe_gravure' || d === 'dessin_art_graphique' || d === 'dessin_estampe') {
+          presentDomains.add('peinture_mosaique');
+        } else if (d === 'sculpture' || d === 'sculpture_statuaire') {
+          presentDomains.add('sculpture_statuaire');
+        } else if (d === 'architecture' || d === 'monument') {
+          presentDomains.add('architecture');
+        } else if (TAXONOMY_DOMAINS[d]) {
+          presentDomains.add(d);
+        }
+      });
+
+      availableDomains = availableDomains.filter(domKey => presentDomains.has(domKey));
+    }
+
+    availableDomains
       .sort((a, b) => TAXONOMY_DOMAINS[a].label.localeCompare(TAXONOMY_DOMAINS[b].label, 'fr', { sensitivity: 'base' }))
       .forEach(k => {
         const opt = document.createElement('option');
@@ -10694,7 +10801,15 @@ function initSearchEngine() {
         opt.textContent = TAXONOMY_DOMAINS[k].label;
         filterDomain.appendChild(opt);
       });
+
+    if (previousSelectedDomain && availableDomains.includes(previousSelectedDomain)) {
+      filterDomain.value = previousSelectedDomain;
+    } else {
+      filterDomain.value = 'all';
+    }
   }
+
+  updateDomainDropdown();
 
   // 2. Cascade : Civilisation -> Périodes autorisées
   function updatePeriodDropdown() {
@@ -11515,6 +11630,7 @@ function initSearchEngine() {
   // Écouteurs de changement
   if (filterCiv) {
     filterCiv.addEventListener('change', () => {
+      updateDomainDropdown();
       updatePeriodDropdown();
       updateTypeDropdown();
       currentRenderLimit = PAGE_CHUNK;

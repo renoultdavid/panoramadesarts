@@ -1,10 +1,79 @@
 window.ART_OBJECTS = [
 {
+  "id": "sculpture_tympan_conques_jugement_dernier_xiie",
+  "title": "Portail et Tympan du Jugement Dernier",
+  "artistId": "",
+  "artist": "",
+  "artistSort": "",
+  "civId": "occident",
+  "periodId": "occ_roman",
+  "civName": "Occident chrétien & moderne",
+  "civilization": "France (Rouergue - Abbatiale Sainte-Foy de Conques)",
+  "subpart": "Le chef-d'œuvre monumental de la sculpture romane méridionale et la vision grandiose de la Parousie (124 personnages)",
+  "date": "Début du XIIe siècle (v. 1107 – 1125)",
+  "dateDisplay": "Début du XIIe siècle (v. 1107 – 1125)",
+  "century": "XIIe siècle",
+  "centuryDisplay": "XIIe s. (v. 1120)",
+  "centuryNumeric": 1120,
+  "format": "Tympan monumental en haut-relief (avec 6 vues détaillées)",
+  "dimensions": "Largeur 6,70 m × Hauteur 3,50 m",
+  "site": "Façade occidentale de l'Abbatiale Sainte-Foy, Conques (Aveyron, France)",
+  "originSite": "Conques (Rouergue, France)",
+  "currentLocation": "Abbatiale Sainte-Foy de Conques",
+  "location": "Conques, France",
+  "domain": "sculpture_religieuse",
+  "artifactType": "Portail, Tympan & Décor de cathédrale",
+  "medium": "Calcaire jaune de Nauviale sculpté en haut-relief avec vestiges de polychromie originelle",
+  "themes": [
+    "espace_sacre",
+    "architecture_monuments"
+  ],
+  "subthemes": [
+    "portails_tympans_eglises",
+    "monuments_urbains"
+  ],
+  "backgroundId": "tympan_roman_jugement_dernier_bible_de_pierre",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNy54_66EfHcugcxaM_LnuFVz8cCvzbStBE4DNRo28yvZhWoZwoAhw5fICQK0aQnpX8ANSmeo4PS1ZtUcQGNFZWZXf42wvY28YoCipUSXZLl3YDQo1OcXN9BjJTdXDo5uzPaICVG7JfRYv2G0caaYHU6g=w1836-h1224-s-no-gm?authuser=0",
+  "description": "<p>Dominant la place de l'abbatiale Sainte-Foy de Conques, ce tympan sculpté au début du XIIe siècle constitue l'un des chefs-d'œuvre absolus de la sculpture romane méridionale. Cette « bible de pierre », vaste de 6,70 mètres de large, met en scène le Jugement dernier à travers 124 personnages répartis sur trois registres horizontaux, dont la polychromie originelle laisse encore deviner quelques traces bleues et rouges. Au centre de la composition, le Christ en majesté siège dans une mandorle étoilée, le bras droit levé vers les élus et le gauche abaissé vers les damnés, signifiant d'un geste souverain le destin éternel des âmes.</p><p>À la droite du Christ, l'ordre et la sérénité du Paradis sont représentés par une procession menée par la Vierge Marie et saint Pierre, suivis par des figures historiques liées à l'abbaye comme l'ermite Dadon, son fondateur, et l'empereur Charlemagne, son bienfaiteur légendaire. Sous eux, le linteau présente la « Maison du Père » où Abraham accueille les élus sous des arcades romanes, symbolisant la Jérusalem céleste. Une cloison sépare radicalement ce monde de paix du chaos de l'Enfer, situé à la gauche du Juge, où un démon hirsute armé d'une massue enfourne les réprouvés dans la gueule monstrueuse du Léviathan.</p><p>Le registre inférieur droit dépeint les supplices terrifiants présidés par Satan, dont les pieds reposent sur le ventre d'un damné représentant la paresse. Chaque péché capital trouve son châtiment iconographique : un démon arrache la langue de la Calomnie, un orgueilleux chevalier est désarçonné de sa monture, et un homme pendu par les pieds avec sa bourse évoque l'avarice. Entre le ciel et l'abîme, la pesée des âmes montre l'archange saint Michel face à un démon tricheur tentant de faire pencher la balance. L'ensemble est souligné par de nombreuses inscriptions latines gravées sur les bandeaux, rappelant aux pèlerins que « le jugement sera rude » pour ceux qui ne changent pas de vie.</p>",
+  "views": [
+    {
+      "title": "Vue d'ensemble du tympan",
+      "image": "https://lh3.googleusercontent.com/pw/AP1GczNy54_66EfHcugcxaM_LnuFVz8cCvzbStBE4DNRo28yvZhWoZwoAhw5fICQK0aQnpX8ANSmeo4PS1ZtUcQGNFZWZXf42wvY28YoCipUSXZLl3YDQo1OcXN9BjJTdXDo5uzPaICVG7JfRYv2G0caaYHU6g=w1836-h1224-s-no-gm?authuser=0",
+      "caption": "<p><strong>Vue d'ensemble du tympan (XIIe siècle) :</strong> Dominant la place de l'abbatiale Sainte-Foy de Conques, ce tympan sculpté au début du XIIe siècle constitue l'un des chefs-d'œuvre absolus de la sculpture romane méridionale. Cette « bible de pierre », vaste de 6,70 mètres de large, met en scène le Jugement dernier à travers 124 personnages répartis sur trois registres horizontaux, dont la polychromie originelle laisse encore deviner quelques traces bleues et rouges. Au centre de la composition, le Christ en majesté siège dans une mandorle étoilée, le bras droit levé vers les élus et le gauche abaissé vers les damnés, signifiant d'un geste souverain le destin éternel des âmes.</p><p>À la droite du Christ, l'ordre et la sérénité du Paradis sont représentés par une procession menée par la Vierge Marie et saint Pierre, suivis par des figures historiques liées à l'abbaye comme l'ermite Dadon et l'empereur Charlemagne. Sous eux, le linteau présente la « Maison du Père » où Abraham accueille les élus sous des arcades romanes. Une cloison sépare radicalement ce monde de paix du chaos de l'Enfer, où un démon hirsute enfourne les réprouvés dans la gueule monstrueuse du Léviathan.</p>"
+    },
+    {
+      "title": "Le Christ en Majesté",
+      "image": "https://lh3.googleusercontent.com/pw/AP1GczMI5_3HmteI410nbA_zqf9T7rrYfVWm9aEAMt761Uu14OtkQDy2cKv0TsRzjysE_iNs12H9KXiagyiP1yFd3lRfgxeN97_CmhBH5g0vNGlZYG7pRSMJC388AWVF_lbmfBTPQfawsB4m_IASxrhm8dXGMA=w1836-h1224-s-no-gm?authuser=0",
+      "caption": "<p><strong>Détail 1 : Le Christ en Majesté :</strong> Cette vue de détail du tympan de l'abbatiale Sainte-Foy de Conques se focalise sur la figure centrale du Christ en Majesté, point focal du Jugement dernier sculpté au XIIe siècle. Représenté dans une mandorle étoilée, le Christ siège sur un trône, le visage serein et barbu, dominant l'ensemble de la composition par sa stature imposante. Son geste est doublement significatif : la main droite levée accueille les élus vers le Paradis, tandis que la main gauche abaissée désigne le destin tragique des damnés, illustrant l'implacabilité du verdict divin.</p><p>L'étroit plan permet d'apprécier la finesse de la gravure et la persistance de la polychromie, notamment les teintes bleutées de sa robe et les ocres des éléments architecturaux environnants. Derrière lui, la mandorle est entourée de nuées stylisées et d'anges porteurs de phylactères, dont les inscriptions latines précisent la nature du jugement. Aux pieds du Christ, deux anges agenouillés tiennent des flambeaux, tandis qu'au-dessus de sa tête, la croix du sacrifice est portée par des anges, rappelant le fondement de la rédemption. Au-dessus du Christ, les instruments de la Passion (lance, clous) sont brandis comme des trophées, tandis qu'immédiatement sous ses pieds commence la pesée des âmes.</p>"
+    },
+    {
+      "title": "La Jérusalem céleste & Abraham",
+      "image": "https://lh3.googleusercontent.com/pw/AP1GczOWoEqOXdRalPIWAf0Jhf9jOPjJ4pRhrglLgRy5iOCDTL5OSoPxSCHQcROD4xfWGMtJ1vE_SHsNX9iyzsUu3q5sgRTgC8ex2-sMgyXaBRnQFLN0sij4fNtmoITQeYgyEsFzk4lEWbKAZWirJ8B6yYPFxw=w1836-h1224-s-no-gm?authuser=0",
+      "caption": "<p><strong>Détail 2 : La Jérusalem céleste et la demeure des élus :</strong> Cette vue de détail du tympan de l'abbatiale Sainte-Foy de Conques se focalise sur le registre inférieur gauche, représentant la Jérusalem céleste et la demeure des élus. Sous une enfilade d'arcades romanes qui évoquent l'architecture de l'abbatiale elle-même, les justes sont accueillis dans une atmosphère de paix et de sérénité absolue, contrastant radicalement avec le chaos de l'Enfer situé à l'opposé du portail. Au centre de cette galerie sacrée siège Abraham, figure patriarcale tenant contre lui deux enfants symbolisant les âmes des justes, une représentation traditionnelle du repos éternel.</p><p>À ses côtés, les élus sont représentés avec une grande dignité, vêtus de robes aux plis soigneusement sculptés qui conservent des traces de leur ancienne polychromie bleue et ocre. À l'extrême droite de cette section, une porte massive munie de ferrures détaillées marque l'entrée du Paradis ; elle est gardée par un ange qui accueille les nouveaux arrivants, tandis qu'un verrou sculpté souligne la sécurité définitive de cette demeure divine. Les inscriptions latines gravées sur les bandeaux de pierre, comme le passage « TRANS MUTETIS NISI MORES » (À moins que vous ne changiez vos mœurs), rappellent aux pèlerins que l'accès à cette félicité dépend de leur conduite terrestre.</p>"
+    },
+    {
+      "title": "Les tourments de l'Enfer & Satan",
+      "image": "https://lh3.googleusercontent.com/pw/AP1GczOdEb2pOfpDzSAPy3ANr4PbxL5dsCt4UgRG0odclKWp5g58inJmI_TDAk1PwJFWRKFpMaPjUe6pJ2hyqQZW5J4VcEiEnTA6vLfASkMpdvTfShApD9zpEtGjRrDAZDWZLUHsbxQSIo1LTyRWUTzA247jww=w1836-h1224-s-no-gm?authuser=0",
+      "caption": "<p><strong>Détail 3 : Les tourments de l'Enfer et Satan :</strong> Cette vue de détail du tympan de l'abbatiale Sainte-Foy de Conques se concentre sur la partie inférieure droite de la composition, consacrée aux tourments de l'Enfer, offrant une plongée saisissante dans l'imaginaire médiéval du châtiment éternel. Au centre de ce chaos organisé préside Satan, figure monstrueuse et hiératique, les cheveux dressés et les pieds reposant sur le ventre d'un damné, symbolisant sa domination absolue sur le royaume des ténèbres. Autour de lui, une multitude de démons aux traits simiesques ou hybrides s'adonnent avec une inventivité cruelle au supplice des pécheurs, illustrant par le geste la nature de leurs fautes terrestres.</p><p>La sculpture, d'une densité narrative exceptionnelle, met en scène une véritable typologie des péchés capitaux : on y distingue notamment l'avare, pendu avec sa bourse au cou, et la luxure, représentée par un couple enchaîné dont les corps sont livrés aux morsures des démons. Juste au-dessus de Satan, le linteau porte des inscriptions latines gravées qui commentent l'action et renforcent la portée didactique de l'œuvre. À gauche de cette scène, la gueule béante du Léviathan marque la frontière avec le monde des vivants, dévorant les réprouvés que les démons y poussent sans relâche. Cette section du portail constitue l'un des exemples les plus aboutis de la fonction « d'effroi salutaire » de l'art roman.</p>"
+    },
+    {
+      "title": "Le registre supérieur de l'Enfer",
+      "image": "https://lh3.googleusercontent.com/pw/AP1GczNbc08Vzm874pyVazgnLPLxHhNqNXzW3r3gHqpny3AReBDiDmkQoJvQKIfwCz984Gdit0hZJEt99cHhiluKx7eJaLj7cP6EJWzpmhOhofBM4BFIzI2YSJFW-B-NZJnlwMdcxBf0heU3bUHvoH6cj6u8PQ=w1836-h1222-s-no-gm?authuser=0",
+      "caption": "<p><strong>Détail 4 : Le registre supérieur de l'Enfer :</strong> Cette vue de détail du tympan de l'abbatiale Sainte-Foy de Conques se concentre sur le registre supérieur droit de l'Enfer, illustrant avec une vigueur terrifiante le basculement des âmes vers la damnation éternelle. Dans cette section, les sculpteurs du XIIe siècle ont représenté le chaos qui succède immédiatement au verdict divin, où des démons aux visages grimaçants et aux corps musculeux s'emparent violemment des réprouvés. La composition est saturée de personnages entrelacés, créant une impression de désordre inextricable qui s'oppose à la sérénité ordonnée du Paradis situé à l'opposé.</p><p>L'image permet d'observer de près la variété des supplices et la personnalisation des démons, certains étant dotés de massues ou de lances pour précipiter les damnés dans l'abîme. On y distingue des scènes de lutte physique intense où l'humanité est avilie, les corps étant tordus et bousculés sans ménagement vers les registres inférieurs présidés par Satan. Les inscriptions latines, visibles sur les bandeaux horizontaux, agissent comme des légendes morales, avertissant le spectateur que la perversité mène inévitablement à ce châtiment. L'éclairage rasant met en relief la profondeur de la sculpture, caractéristique du style de Conques qui privilégie un relief vigoureux pour être lisible d'en bas par les pèlerins.</p>"
+    },
+    {
+      "title": "La Pesée des âmes (Saint Michel et le démon)",
+      "image": "https://lh3.googleusercontent.com/pw/AP1GczM1BJbPjSgdrf0EuxqGkvqyxJ7GDc6lKptDo_RxgxfYylLnhh8rdd_bEWyiVQOOW788yB3BhBt8P3XiV5xZvDKShmG8NsayiN-AZ_Ivcm1Dm6iMInJOIeth6lR3izhUx87B05pHuKDZ77ik6yrNAkBeJQ=w1836-h1220-s-no-gm?authuser=0",
+      "caption": "<p><strong>Détail 5 : La Pesée des âmes (Psychostasie) :</strong> Moment crucial de la pesée des âmes, situé juste en dessous de la mandorle du Christ. La scène met en présence deux figures antagonistes : l'archange saint Michel, à gauche, et un démon particulièrement expressif, à droite. Entre eux se dresse le fléau de la balance, symbole de la justice divine qui évalue le poids des mérites et des péchés de chaque individu.</p><p>Le sculpteur du XIIe siècle a su introduire une certaine dramaturgie dans cette action sacrée. Le démon, doté d'un visage grimaçant et d'un corps sec, semble tricher en appuyant discrètement du doigt sur le plateau de la balance pour le faire pencher en sa faveur. Face à cette ruse, saint Michel reste d'une impassibilité sereine, sa silhouette drapée et son geste calme contrastant avec la nervosité de son adversaire maléfique. Sous ce duel spirituel, les têtes des ressuscités commencent à émerger de leurs tombeaux, tournées vers le Christ dans l'attente du verdict final qui les dirigera soit vers le Paradis des élus, soit vers le désordre de l'Enfer. Ce détail architectural souligne l'un des thèmes centraux de l'iconographie de Conques : l'équité divine face aux tentatives de corruption du malin.</p>"
+    }
+  ]
+},
+{
   "id": "croix_de_kervalet_batz_sur_mer_xiiie",
   "title": "La Croix de Kervalet",
   "artistId": "",
-  "artist": "Tailleur de pierre breton (anonyme)",
-  "artistSort": "Anonyme (Batz-sur-Mer)",
+  "artist": "",
+  "artistSort": "",
   "civId": "occident",
   "periodId": "occ_roman",
   "civName": "Occident chrétien & moderne",
@@ -40,8 +109,8 @@ window.ART_OBJECTS = [
   "id": "croix_de_boesse_yvre_l_eveque_xve",
   "title": "La Croix de Boessé",
   "artistId": "",
-  "artist": "Tailleur de pierre sarthois (anonyme)",
-  "artistSort": "Anonyme (Maine)",
+  "artist": "",
+  "artistSort": "",
   "civId": "occident",
   "periodId": "occ_cloitre",
   "civName": "Occident chrétien & moderne",
@@ -77,8 +146,8 @@ window.ART_OBJECTS = [
   "id": "calvaire_de_rochefort_en_terre_xvie",
   "title": "Calvaire de Rochefort-en-Terre",
   "artistId": "",
-  "artist": "Atelier de sculpteurs bretons (anonyme)",
-  "artistSort": "Anonyme (Rochefort-en-Terre)",
+  "artist": "",
+  "artistSort": "",
   "civId": "occident",
   "periodId": "occ_renaissance",
   "civName": "Occident chrétien & moderne",
@@ -114,8 +183,8 @@ window.ART_OBJECTS = [
   "id": "croix_de_montsarrac_sene_xvie",
   "title": "La Croix de Montsarrac",
   "artistId": "",
-  "artist": "Tailleur de pierre breton (anonyme)",
-  "artistSort": "Anonyme (Séné)",
+  "artist": "",
+  "artistSort": "",
   "civId": "occident",
   "periodId": "occ_renaissance",
   "civName": "Occident chrétien & moderne",
@@ -151,8 +220,8 @@ window.ART_OBJECTS = [
   "id": "calvaire_de_saint_cado_1822",
   "title": "Le Calvaire de Saint-Cado",
   "artistId": "",
-  "artist": "Tailleurs de pierre de la Ria d'Étel (anonymes)",
-  "artistSort": "Anonyme (Saint-Cado)",
+  "artist": "",
+  "artistSort": "",
   "civId": "occident",
   "periodId": "occ_xixe",
   "civName": "Occident chrétien & moderne",
@@ -188,8 +257,8 @@ window.ART_OBJECTS = [
   "id": "calvaire_du_trech_ile_aux_moines_1847",
   "title": "Le Calvaire du Trech",
   "artistId": "",
-  "artist": "Tailleurs de pierre du Morbihan (anonymes)",
-  "artistSort": "Anonyme (Île-aux-Moines)",
+  "artist": "",
+  "artistSort": "",
   "civId": "occident",
   "periodId": "occ_xixe",
   "civName": "Occident chrétien & moderne",

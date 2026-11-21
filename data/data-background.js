@@ -3960,6 +3960,15 @@ window.BACKGROUNDS_REGISTRY = {
     "keywords": ["neptune", "poseidon", "poséidon", "trident", "fontaine", "flots", "mer", "hippocampes", "tritons"]
   },
 
+"tympan_roman_jugement_dernier_bible_de_pierre": {
+    "id": "tympan_roman_jugement_dernier_bible_de_pierre",
+    "badge": "SCULPTURE ROMANE & APOCALYPSE",
+    "title": "Le Tympan Roman et le Jugement Dernier : La Bible de Pierre au Seuil du Sanctuaire",
+    "subtitle": "L'effroi salutaire, la pesée des âmes et la vision de gloire au portail des grandes abbatiales médiévales",
+    "desc": "<p>Chef-d'œuvre de la sculpture médiévale des XIe et XIIe siècles, le tympan semi-circulaire placé au-dessus du portail d'entrée des grandes églises de pèlerinage constitue le seuil théologique et plastique entre l'espace profane de la cité et l'espace sacré de la nef. Conçu pour frapper l'imagination des fidèles et des pèlerins avant leur pénétration dans le sanctuaire, ce demi-cercle de pierre taillée déploie un programme iconographique monumental centré sur les fins dernières de l'humanité : la seconde venue du Christ en gloire (la Parousie) et le triomphe eschatologique de la justice divine. À une époque où la majeure partie du peuple ne lit pas le latin, cette « bible de pierre » vivante, autrefois rehaussée de couleurs éclatantes (ocres, vermillons et bleus d'azur), remplit un rôle pastoral et catéchétique primordial en rendant visibles les mystères invisibles de l'Apocalypse.</p><p>La composition du tympan s'ordonne selon une rigoureuse géométrie sacrée qui matérialise la rupture entre l'ordre divin et l'anarchie du péché. Au centre trône le Christ en Majesté, inscrit dans la mandorle étoilée qui symbolise l'intersection des mondes céleste et terrestre. D'un geste souverain et immuable, le Juge suprême accueille de sa dextre levée le cortège paisible des élus, ordonnés en processions hiérarchiques sous les arcades lumineuses de la Jérusalem céleste, tandis que sa senestre abaissée voue les réprouvés aux ténèbres extérieures. Immédiatement sous le regard du Juge, l'épisode dramatique de la psychostasie — la pesée des âmes menée par l'archange saint Michel face aux ruses des démons tricheurs — dramatise l'ultime confrontation entre la miséricorde et le mal.</p><p>À la gauche du Sauveur se déploie l'univers terrifiant du chaos infernal, où Satan règne sur un bestiaire de monstres hybrides, de serpents et de démons hideux précipitant les pécheurs dans la gueule béante du Léviathan. Chaque péché capital — l'orgueil, l'avarice, la luxure ou la calomnie — y trouve son supplice correspondant, illustré avec un réalisme vigoureux et un sens aigu de la narration dramatique. Cette fonction d'« effroi salutaire » vise moins à désespérer le croyant qu'à l'engager sur la voie de la pénitence et de la conversion, rappelant à quiconque franchit le portail que la porte de l'église est le passage même vers la rédemption et la vie éternelle.</p>",
+    "keywords": ["tympan", "portail", "conques", "jugement dernier", "roman", "mandorle", "psychostasie", "pesée des âmes", "enfer", "paradis", "sainte-foy"]
+  },
+
 "croix_de_chemin_calvaires_monumentaux_piete_populaire": {
     "id": "croix_de_chemin_calvaires_monumentaux_piete_populaire",
     "badge": "PATRIMOINE SACRÉ & DÉVOTION POPULAIRE",
@@ -4056,3 +4065,7 @@ window.BACKGROUNDS_REGISTRY["art_de_la_compression"] = window.BACKGROUNDS_REGIST
 window.BACKGROUNDS_REGISTRY["croix_de_chemin"] = window.BACKGROUNDS_REGISTRY["croix_de_chemin_calvaires_monumentaux_piete_populaire"];
 window.BACKGROUNDS_REGISTRY["calvaire"] = window.BACKGROUNDS_REGISTRY["croix_de_chemin_calvaires_monumentaux_piete_populaire"];
 window.BACKGROUNDS_REGISTRY["calvaires"] = window.BACKGROUNDS_REGISTRY["croix_de_chemin_calvaires_monumentaux_piete_populaire"];
+
+window.BACKGROUNDS_REGISTRY["tympan"] = window.BACKGROUNDS_REGISTRY["tympan_roman_jugement_dernier_bible_de_pierre"];
+window.BACKGROUNDS_REGISTRY["portail_conques"] = window.BACKGROUNDS_REGISTRY["tympan_roman_jugement_dernier_bible_de_pierre"];
+window.BACKGROUNDS_REGISTRY["tympan_conques"] = window.BACKGROUNDS_REGISTRY["tympan_roman_jugement_dernier_bible_de_pierre"];
