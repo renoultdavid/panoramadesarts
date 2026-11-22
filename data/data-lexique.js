@@ -742,6 +742,25 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     etymology: "De lisse (« fil de chaîne du métier à tisser »)",
     domain: "Manufactures royales (Gobelins, Beauvais, Aubusson)",
     def: "Grandes séries de tentures tissées sur métiers de haute ou basse lisse dans les ateliers d'apparat royaux, célébrant les hauts faits monarchiques, mythologiques ou pastoraux."
+  },
+  // --- ART DU VITRAIL & GRANDES VERRIÈRES ---
+  "Vitrail roman & Baie narrative": {
+    title: "Vitrail roman & Baie narrative",
+    etymology: "Du latin vitreum (« verre ») et romanus",
+    domain: "Arts de la lumière & Narration sacrée",
+    def: "Baie en plein cintre formée de registres superposés ou de médaillons géométriques sertis de plomb, dominée par les accords vibrants du rouge rubis et du bleu de cobalt pour déployer une catéchèse visuelle lumineuse."
+  },
+  "Verrière gothique & Lancette": {
+    title: "Verrière gothique & Lancette",
+    etymology: "Verrière monumentale et fenêtre en arc brisé",
+    domain: "Architecture gothique & Arts du verre",
+    def: "Vaste baie ogivale divisée en lancettes élancées, inondant la nef et le chœur d'une clarté céleste (Lux Nova) à travers des récits bibliques denses et des figures tutélaires grandeur nature."
+  },
+  "Rose monumentale & Grande verrière": {
+    title: "Rose monumentale & Grande verrière",
+    etymology: "Du latin rosa, grande baie circulaire ajourée",
+    domain: "Architecture & Chefs-d'œuvre verriers",
+    def: "Imposante fenêtre circulaire polylobée à remplages de pierre rayonnants ou flamboyants, souvent rehaussée de jaune d'argent et de grisailles fines, symbolisant la roue cosmique, l'éternité et la perfection mariale."
   }
 };
 

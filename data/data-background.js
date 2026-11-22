@@ -4702,6 +4702,120 @@ window.BACKGROUNDS_REGISTRY = {
       "Mérovingiens"
     ],
     "text": "<p>Figure majeure de la Gaule mérovingienne du VIIe siècle, saint Éloi (Eligius, vers 588–660) incarne l'alliance exceptionnelle entre la virtuosité artisanale la plus raffinée, la haute administration d'État et la sainteté chrétienne. Apprenti orfèvre à Limoges, sa réputation de probité parvient à la cour du roi Clotaire II : chargé de fabriquer un trône d'or, il livre avec le métal fourni non pas un, mais deux sièges magnifiques sans garder la moindre once du précieux matériau, s'attirant la vénération royale et devenant le conseiller le plus intime et grand trésorier du roi Dagobert Ier.</p><p>Fondateur d'abbayes renommées telles que Solignac et Sainte-Marthe à Paris, Éloi renonce aux honneurs séculiers pour recevoir la prêtrise et être sacré évêque de Noyon-Tournai en 641, consacrant son ministère à l'évangélisation des Flandres, au rachat d'esclaves et au soin attentif des indigents et des malades.</p><p>La mémoire populaire a immortalisé le saint à travers la célèbre légende de la forge miraculeuse : face à un destrier fougueux réputé possédé par le démon et impossible à approcher, Éloi aurait détaché le membre de l'animal pour lui poser un fer sur son enclume avec sérénité, avant de replacer miraculeusement la patte intacte sur le cheval pacifié. Ce récit prodigieux en a fait le patron protecteur universel des maréchaux-ferrants, des cavaliers, des serruriers et de tous les orfèvres et métallurgistes.</p>"
+  },
+
+  "theologie_de_la_lumiere_lux_nova_art_du_vitrail": {
+    "id": "theologie_de_la_lumiere_lux_nova_art_du_vitrail",
+    "badge": "ARTS DE LA LUMIÈRE & THÉOLOGIE MÉDIÉVALE",
+    "title": "La Théologie de la Lumière (Lux Nova) et la Métaphysique du Vitrail Médiéval",
+    "sources": "Pseudo-Denys l'Aréopagite (Hiérarchie céleste), abbé Suger de Saint-Denis & traités médiévaux de la lumière",
+    "keywords": [
+      "Vitrail",
+      "Théologie de la lumière",
+      "Lux Nova",
+      "Rose",
+      "Verrière",
+      "Cathédrale",
+      "Gothique",
+      "Lumière divine",
+      "Verre coloré",
+      "Grisaille",
+      "Jaune d'argent"
+    ],
+    "text": "<p>Dans la théologie et l'esthétique du Moyen Âge central et flamboyant, la lumière n'est pas un simple phénomène optique, mais l'émanation la plus pure de la présence divine. Nourrie par la pensée néoplatonicienne du Pseudo-Denys l'Aréopagite et magnifiée dès le XIIe siècle par l'abbé Suger, la notion de <em>Lux Nova</em> (« Nouvelle Lumière ») postule que la clarté solaire, en traversant la matière translucide du verre teinté, est transfigurée en un éclat spirituel capable d'élever l'âme des fidèles du monde matériel vers la contemplation des vérités célestes.</p><p>Les cathédrales et grandes églises médiévales substituent ainsi aux murs de pierre massifs une membrane lumineuse continue. Les verres colorés au cobalt, au cuivre et au manganèse, sertis dans des résilles de plomb et rehaussés de grisailles délicates ou de jaune d'argent, filtrent le rayonnement extérieur pour métamorphoser l'espace liturgique en une Jérusalem céleste scintillante de pierreries vivantes.</p><p>Qu'elle s'exprime dans l'élan ascensionnel des lancettes ou dans le déploiement cosmique des grandes roses polylobées figurant la roue du temps et l'éternité divine, la baie vitrée agit comme une catéchèse visuelle monumentale. Elle unit l'architecture, la science des verriers et la doctrine sacrée dans un spectacle où la lumière devient le véhicule direct de la révélation.</p>"
+  },
+
+  "ascension_du_christ_et_college_apostolique": {
+    "id": "ascension_du_christ_et_college_apostolique",
+    "badge": "ÉVANGILE & THÉOPHANIE CÉLESTE",
+    "title": "L'Ascension du Christ : L'Élévation Céleste et la Mission Apostolique",
+    "sources": "Évangile selon saint Luc (24, 50-53) & Actes des Apôtres (1, 9-11)",
+    "keywords": [
+      "Ascension",
+      "Christ",
+      "Mont des Oliviers",
+      "Apôtres",
+      "Vierge Marie",
+      "Théophanie",
+      "Élévation céleste",
+      "Nuée",
+      "Orante"
+    ],
+    "text": "<p>Quarante jours après la Résurrection, l'Ascension constitue le couronnement de la mission terrestre du Christ et le point de départ de la prédication universelle de l'Église. Réunis sur le mont des Oliviers près de Jérusalem, les apôtres et la Vierge Marie assistent à l'élévation solennelle de Jésus qui, les mains levées en signe d'ultime bénédiction, s'élève vers les cieux avant d'être dérobé à leurs regards par une nuée lumineuse.</p><p>Dans la tradition iconographique romane et byzantine, la scène s'articule avec une rigueur hiératique. Au centre de la communauté des disciples stupéfaits, la Vierge Marie se tient debout, droite et sereine, les mains levées dans la posture immémoriale de l'orante : elle incarne l'Église demeurée sur terre, médiatrice constante et témoin inébranlable de la foi. Autour d'elle, les apôtres manifestent leur émerveillement par des gestes expressifs de ferveur, les yeux levés vers l'empyrée.</p><p>L'apparition de deux anges vêtus de blanc rappelle la promesse fondatrice : ce même Jésus qui monte au ciel reviendra avec gloire lors de la Parousie finale. L'Ascension n'est donc pas une séparation tragique, mais l'ouverture d'un temps nouveau, celui de l'Esprit Saint et du témoignage des apôtres guidant l'humanité vers son salut éternel.</p>"
+  },
+
+  "martyre_et_reliques_saint_etienne_protomartyr": {
+    "id": "martyre_et_reliques_saint_etienne_protomartyr",
+    "badge": "HAGIOGRAPHIE & PREMIERS MARTYRS",
+    "title": "Saint Étienne Protomartyr : La Lapidation, le Pardon et le Culte des Reliques",
+    "sources": "Actes des Apôtres (chapitres 6 et 7) & Récits de l'Inventio sancti Stephani",
+    "keywords": [
+      "Saint Étienne",
+      "Protomartyr",
+      "Lapidation",
+      "Diacre",
+      "Gamaliel",
+      "Reliques",
+      "Pardon des bourreaux",
+      "Jérusalem",
+      "Martyre chrétien"
+    ],
+    "text": "<p>Premier témoin à sceller sa foi chrétienne de son propre sang, saint Étienne, diacre ordonné par les apôtres à Jérusalem, incarne l'idéal du martyre parfait par sa fidélité héroïque et son imitation directe du sacrifice du Christ. Dénoncé devant le Sanhédrin pour son éloquence inspirée et sa contestation des cultes sacrificiels anciens, Étienne contemple les cieux ouverts et déclare voir le Fils de l'homme debout à la droite de Dieu, déclenchant la fureur de ses juges.</p><p>Entraîné hors des remparts de la ville sainte, Étienne est lapidé sous le regard d'un jeune homme nommé Saul (le futur saint Paul). Agenouillé sous les pierres, le diacre prie pour ses assassins, implorant Dieu de ne pas leur imputer ce péché, dans un acte sublime de charité évangélique. Selon la tradition chrétienne, son corps vénéré est recueilli secrètement par le sage rabbin Gamaliel et Nicodème pour être enseveli dignement.</p><p>La miraculeuse « invention » (redécouverte) de ses reliques en 415 à Caphargamala par le prêtre Lucien suscita une onde de ferveur à travers tout le bassin méditerranéen et la Gaule. Répandues dans les grands sanctuaires épiscopaux, ces reliques étaient invoquées pour opérer des guérisons prodigieuses et protéger les cités, faisant du protomartyr l'une des figures les plus puissamment célébrées de l'art médiéval.</p>"
+  },
+
+  "eglise_et_synagogue_allegorie_deux_alliances": {
+    "id": "eglise_et_synagogue_allegorie_deux_alliances",
+    "badge": "EXÉGÈSE MÉDIÉVALE & TYPOLOGIE BIBLIQUE",
+    "title": "L'Église et la Synagogue : L'Allégorie Médiévale des Deux Alliances",
+    "sources": "Typologie biblique médiévale, sermons patristiques & iconographie des portails et verrières",
+    "keywords": [
+      "Église et Synagogue",
+      "Ecclesia et Synagoga",
+      "Ancien Testament",
+      "Nouveau Testament",
+      "Deux Alliances",
+      "Allégorie chrétienne",
+      "Calice",
+      "Couronne",
+      "Saint Pierre"
+    ],
+    "text": "<p>Thème récurrent de la théologie figurative médiévale, le diptyque de l'Église et de la Synagogue (<em>Ecclesia et Synagoga</em>) matérialise la confrontation et la continuité entre l'Ancienne Alliance mosaïque et la Nouvelle Alliance scellée par le sacrifice du Christ. Élaborée dès l'époque carolingienne et épanouie dans les programmes iconographiques des cathédrales romanes et gothiques, cette allégorie théologique oppose deux figures féminines personnifiant les deux époques de l'histoire du salut.</p><p>D'un côté, l'Église triomphante se dresse altière, couronnée, tenant d'une main le calice eucharistique ou la croix vivifiante, souvent épaulée par l'apôtre Pierre garant de la doctrine apostolique. De l'autre, la Synagogue est figurée les yeux bandés par un voile symbolisant l'attente messianique non reconnue, son sceptre brisé et les Tables de la Loi prêtes à lui glisser des mains, soutenue par un prophète de l'Ancien Testament qui annonce néanmoins l'avènement du Messie.</p><p>Loin de se réduire à un simple motif polémique, cette composition visuelle cherchait à rendre intelligible la doctrine médiévale de la préfiguration (typologie biblique) : les prophéties et les figures de l'Ancien Testament trouvaient leur plein accomplissement dans les mystères du Nouveau Testament, unissant l'histoire humaine dans un dessein spirituel unique.</p>"
+  },
+
+  "delivrance_miraculeuse_saint_pierre_ange": {
+    "id": "delivrance_miraculeuse_saint_pierre_ange",
+    "badge": "ACTES DES APÔTRES & INTERVENTIONS ANGÉLIQUES",
+    "title": "La Délivrance Miraculeuse de Saint Pierre : L'Ange dans la Prison et la Victoire de la Foi",
+    "sources": "Actes des Apôtres (12, 1-19) & Commentaire patristique de la foi invincible",
+    "keywords": [
+      "Saint Pierre",
+      "Délivrance de prison",
+      "Ange du Seigneur",
+      "Hérode Agrippa",
+      "Chaînes brisées",
+      "Miracle apostolique",
+      "Prison"
+    ],
+    "text": "<p>Rapporté au douzième chapitre des Actes des Apôtres, le récit de la libération miraculeuse de saint Pierre constitue l'une des scènes les plus dramatiques et réconfortantes de l'hagiographie apostolique. Jeté au cachot à Jérusalem par le roi Hérode Agrippa à la veille de sa comparution, l'apôtre est étroitement gardé par quatre escouades de soldats, enchaîné entre deux gardes tandis que des sentinelles veillent devant la porte de fer.</p><p>Dans la nuit précédant son jugement, une lumière surnaturelle inonde soudain le cachot ténébreux : un ange du Seigneur apparaît, réveille Pierre en le frappant au côté et lui ordonne de se lever promptement. À l'instant même, les lourdes chaînes de fer tombent des mains de l'apôtre. Guidé par l'envoyé céleste, Pierre franchit sans encombre les premiers et seconds postes de garde plongés dans un sommeil miraculeux, avant que la lourde grille de fer menant à la ville ne s'ouvre d'elle-même devant eux.</p><p>Cette évasion prodigieuse a été célébrée tout au long du Moyen Âge comme le symbole triomphal de la protection accordée par la providence divine à l'Église persécutée. Elle illustre la puissance irrésistible de la prière collective des fidèles face à l'oppression séculière et réaffirme le rôle primordial de saint Pierre comme pasteur invincible institué par le Christ.</p>"
+  },
+
+  "saint_julien_premier_eveque_evangelisation_gaules": {
+    "id": "saint_julien_premier_eveque_evangelisation_gaules",
+    "badge": "ÉVANGÉLISATION DES GAULES & TRADITIONS ÉPISCOPALES",
+    "title": "Saint Julien et l'Évangélisation des Gaules : Le Ministère Pastoral et la Fondation Épiscopale",
+    "sources": "Actus pontificum Cenomannis, Grégoire de Tours & Légendaires mérovingiens",
+    "keywords": [
+      "Saint Julien",
+      "Évêque",
+      "Évangélisation",
+      "Premier évêque",
+      "Miracles",
+      "Fondation chrétienne",
+      "Gaules",
+      "Crosse pastorale",
+      "Mitre"
+    ],
+    "text": "<p>Compté parmi les grands pionniers de l'évangélisation des Gaules romaines, saint Julien incarne la figure vénérée de l'évêque fondateur, envoyé apostolique chargé d'établir les premières structures de la foi chrétienne au sein des provinces occidentales de l'Empire. Revêtu des ornements épiscopaux — la mitre et la crosse pastorale symbolisant la vigilance du bon pasteur —, il consacre son existence à annoncer l'Évangile, à bâtir des sanctuaires et à convertir les populations par l'exemple de sa charité.</p><p>La tradition hagiographique médiévale a paré son apostolat de nombreux miracles de bienveillance : faisant jaillir des sources d'eau vive par sa prière pour désaltérer les foules, guérissant les infirmes et délivrant les démunis de l'oppression, il suscite l'adhésion fervente des fidèles et jette les bases durables d'une communauté diocésaine unie autour de son siège épiscopal.</p><p>Dans l'art des cathédrales, la stature majestueuse du premier évêque sert d'ancre mémorielle et spirituelle. Elle rappelle que la cité terrestre s'enracine dans la sainteté de ses pères fondateurs, faisant de la figure épiscopale le garant de la continuité apostolique et le protecteur céleste permanent de la cité des hommes.</p>"
   }
 };
 
@@ -4783,3 +4897,12 @@ window.BACKGROUNDS_REGISTRY["conquete_normande"] = window.BACKGROUNDS_REGISTRY["
 window.BACKGROUNDS_REGISTRY["tapisserie_bayeux"] = window.BACKGROUNDS_REGISTRY["conquete_normande_bataille_hastings_1066"];
 window.BACKGROUNDS_REGISTRY["bataille_hastings"] = window.BACKGROUNDS_REGISTRY["conquete_normande_bataille_hastings_1066"];
 window.BACKGROUNDS_REGISTRY["saint_eloi"] = window.BACKGROUNDS_REGISTRY["saint_eloi_patron_des_orfevres_et_marechaux"];
+
+window.BACKGROUNDS_REGISTRY["vitrail"] = window.BACKGROUNDS_REGISTRY["theologie_de_la_lumiere_lux_nova_art_du_vitrail"];
+window.BACKGROUNDS_REGISTRY["lux_nova"] = window.BACKGROUNDS_REGISTRY["theologie_de_la_lumiere_lux_nova_art_du_vitrail"];
+window.BACKGROUNDS_REGISTRY["ascension"] = window.BACKGROUNDS_REGISTRY["ascension_du_christ_et_college_apostolique"];
+window.BACKGROUNDS_REGISTRY["saint_etienne"] = window.BACKGROUNDS_REGISTRY["martyre_et_reliques_saint_etienne_protomartyr"];
+window.BACKGROUNDS_REGISTRY["lapidation_etienne"] = window.BACKGROUNDS_REGISTRY["martyre_et_reliques_saint_etienne_protomartyr"];
+window.BACKGROUNDS_REGISTRY["eglise_synagogue"] = window.BACKGROUNDS_REGISTRY["eglise_et_synagogue_allegorie_deux_alliances"];
+window.BACKGROUNDS_REGISTRY["saint_pierre_prison"] = window.BACKGROUNDS_REGISTRY["delivrance_miraculeuse_saint_pierre_ange"];
+window.BACKGROUNDS_REGISTRY["saint_julien"] = window.BACKGROUNDS_REGISTRY["saint_julien_premier_eveque_evangelisation_gaules"];

@@ -411,6 +411,7 @@ function getArtDomainIcon(domain) {
   if (d.includes('ivoire') || d.includes('bois')) return '🪵';
   if (d.includes('arme') || d.includes('militaire') || d.includes('bouclier')) return '⚔️';
   if (d.includes('textile') || d.includes('tapisserie') || d.includes('broderie')) return '🧵';
+  if (d.includes('vitrail') || d.includes('verriere') || d.includes('verrière')) return '🪟';
   if (d.includes('livre') || d.includes('manuscrit') || d.includes('codex') || d.includes('incunable')) return '📖';
   return '💎';
 }
@@ -1711,6 +1712,10 @@ const BANNERS_REGISTRY = {
 
   // 19. Arts textiles, Tapisseries & Broderies
   art_textile: "https://lh3.googleusercontent.com/pw/AP1GczMzYSbHz5i8MO0yfgptemc4vh04ZND74SuiQwWTY8GAE_7_2ByFj_S9oCTDdS9L8r85EEZRauJMub3CrH3R7ibM2_p6i2T0NXVYmhyF1Lb5EZCLkpyrmicm-Qhb29q18yWRhN67ito6G4IQxF1be-lqDQ=w1836-h779-s-no-gm?authuser=0",
+
+  // 20. Art du Vitrail & Grandes Verrières
+  vitrail: "https://lh3.googleusercontent.com/pw/AP1GczNPn7w6v3vLLCflkUietzW-rqrZ0cMvL2_ksb1joMojOJd7SlNxd_uqN1B0ErdgFHdax-ccX_MGTGzHviLiuk-q1n8DSzBq7QcRpdC3jwssJ_0vgYMt-n1N6qP1bBSPyz3SypjixdBLcutuDG1itI7eHA=w1836-h779-s-no-gm?authuser=0",
+  art_du_vitrail: "https://lh3.googleusercontent.com/pw/AP1GczNPn7w6v3vLLCflkUietzW-rqrZ0cMvL2_ksb1joMojOJd7SlNxd_uqN1B0ErdgFHdax-ccX_MGTGzHviLiuk-q1n8DSzBq7QcRpdC3jwssJ_0vgYMt-n1N6qP1bBSPyz3SypjixdBLcutuDG1itI7eHA=w1836-h779-s-no-gm?authuser=0",
 };
 
 function getArtworkBanner(art) {
@@ -1727,6 +1732,10 @@ function getArtworkBanner(art) {
 
   if (domain === 'art_textile' || aType.includes('tapisserie') || aType.includes('broderie') || fullText.includes('tapisserie') || fullText.includes('broderie')) {
     if (BANNERS_REGISTRY.art_textile) return BANNERS_REGISTRY.art_textile;
+  }
+
+  if (domain === 'art_du_vitrail' || domain === 'vitrail' || aType.includes('vitrail') || aType.includes('verrière') || fullText.includes('vitrail') || fullText.includes('verrière')) {
+    if (BANNERS_REGISTRY.vitrail) return BANNERS_REGISTRY.vitrail;
   }
 
   if (domain === 'sculpture_civile' || aType.includes('fontaine') || fullText.includes('sculpture civile')) {
@@ -3871,7 +3880,9 @@ const DOMAIN_ICONS = {
   espace_sacre: "🏛️",
   vie_quotidienne: "📜",
   art_du_livre: "📖",
-  art_textile: "🧵"
+  art_textile: "🧵",
+  art_du_vitrail: "🪟",
+  vitrail: "🪟"
 };
 
 // Liaison sélective : sélection typologique équilibrée par grands domaines (sculpture, peinture, céramique, funéraire, orfèvrerie)
@@ -10734,6 +10745,15 @@ const TAXONOMY_DOMAINS = {
       "Lices royales & Manufactures d'État"
     ]
   },
+  "art_du_vitrail": {
+    label: "Art du Vitrail & Grandes Verrières",
+    types: [
+      "Vitrail",
+      "Vitrail roman & Baie narrative",
+      "Verrière gothique & Lancette",
+      "Rose monumentale & Grande verrière"
+    ]
+  },
   "vie_quotidienne": {
     label: "Vie quotidienne, Sciences, Usages & Écriture",
     types: [
@@ -10843,6 +10863,8 @@ function initSearchEngine() {
           presentDomains.add('sculpture_statuaire');
         } else if (d === 'architecture' || d === 'monument') {
           presentDomains.add('architecture');
+        } else if (d === 'vitrail' || d === 'art_du_vitrail') {
+          presentDomains.add('art_du_vitrail');
         } else if (TAXONOMY_DOMAINS[d]) {
           presentDomains.add(d);
         }
@@ -12145,6 +12167,8 @@ function renderSearchGallery() {
         domainMatched = (d === 'sculpture_statuaire' || d === 'sculpture');
       } else if (selectedDomain === 'architecture') {
         domainMatched = (d === 'architecture' || d === 'monument');
+      } else if (selectedDomain === 'art_du_vitrail' || selectedDomain === 'vitrail') {
+        domainMatched = (d === 'art_du_vitrail' || d === 'vitrail');
       } else {
         domainMatched = (d === selectedDomain);
       }
