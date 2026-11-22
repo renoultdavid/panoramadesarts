@@ -10748,10 +10748,8 @@ const TAXONOMY_DOMAINS = {
   "art_du_vitrail": {
     label: "Art du Vitrail & Grandes Verrières",
     types: [
-      "Vitrail",
-      "Vitrail roman & Baie narrative",
-      "Verrière gothique & Lancette",
-      "Rose monumentale & Grande verrière"
+      "Baie & Verrière",
+      "Rose & Rosace"
     ]
   },
   "vie_quotidienne": {

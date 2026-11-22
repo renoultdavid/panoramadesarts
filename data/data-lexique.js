@@ -744,6 +744,18 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     def: "Grandes séries de tentures tissées sur métiers de haute ou basse lisse dans les ateliers d'apparat royaux, célébrant les hauts faits monarchiques, mythologiques ou pastoraux."
   },
   // --- ART DU VITRAIL & GRANDES VERRIÈRES ---
+  "Baie & Verrière": {
+    title: "Baie & Verrière",
+    etymology: "Du latin vitreum (« verre ») et baie (« ouverture murale »)",
+    domain: "Arts de la lumière & Architecture sacrée",
+    def: "Ouverture architecturale verticale (en plein cintre ou en arc brisé) garnie de panneaux de verre teinté dans la masse et sertis de plomb. Qu'elle soit romane, gothique ou néo-gothique, la verrière déploie des récits sacrés en registres superposés ou met en majesté des figures tutélaires par la modulation lumineuse."
+  },
+  "Rose & Rosace": {
+    title: "Rose & Rosace",
+    etymology: "Du latin rosa (« rose »), grande baie circulaire",
+    domain: "Arts de la lumière & Architecture sacrée",
+    def: "Grande ouverture circulaire ajourée ménagée dans les façades ou les transepts des édifices sacrés, composée d'un réseau complexe d'ajours rayonnant autour d'un oculus central, symbolisant la roue cosmique, l'éternité divine et l'harmonie céleste."
+  },
   "Vitrail roman & Baie narrative": {
     title: "Vitrail roman & Baie narrative",
     etymology: "Du latin vitreum (« verre ») et romanus",

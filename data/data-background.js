@@ -4816,6 +4816,53 @@ window.BACKGROUNDS_REGISTRY = {
       "Mitre"
     ],
     "text": "<p>Compté parmi les grands pionniers de l'évangélisation des Gaules romaines, saint Julien incarne la figure vénérée de l'évêque fondateur, envoyé apostolique chargé d'établir les premières structures de la foi chrétienne au sein des provinces occidentales de l'Empire. Revêtu des ornements épiscopaux — la mitre et la crosse pastorale symbolisant la vigilance du bon pasteur —, il consacre son existence à annoncer l'Évangile, à bâtir des sanctuaires et à convertir les populations par l'exemple de sa charité.</p><p>La tradition hagiographique médiévale a paré son apostolat de nombreux miracles de bienveillance : faisant jaillir des sources d'eau vive par sa prière pour désaltérer les foules, guérissant les infirmes et délivrant les démunis de l'oppression, il suscite l'adhésion fervente des fidèles et jette les bases durables d'une communauté diocésaine unie autour de son siège épiscopal.</p><p>Dans l'art des cathédrales, la stature majestueuse du premier évêque sert d'ancre mémorielle et spirituelle. Elle rappelle que la cité terrestre s'enracine dans la sainteté de ses pères fondateurs, faisant de la figure épiscopale le garant de la continuité apostolique et le protecteur céleste permanent de la cité des hommes.</p>"
+  },
+  "noces_de_cana_et_vie_publique_du_christ": {
+    "id": "noces_de_cana_et_vie_publique_du_christ",
+    "badge": "RÉCIT ÉVANGÉLIQUE • VIE PUBLIQUE",
+    "title": "Les Noces de Cana et les Miracles de la Vie Publique du Christ",
+    "sources": "Évangile selon saint Jean (2, 1–11 ; 4, 1–42), Évangiles synoptiques",
+    "keywords": [
+      "Noces de Cana",
+      "Samaritaine au puits",
+      "Miracles",
+      "Eau changée en vin",
+      "Transfiguration",
+      "Vie publique du Christ"
+    ],
+    "text": "<p>Le ministère public du Christ s'ouvre par le miracle des noces de Cana, où, à l'intercession bienveillante de sa mère, l'eau des ablutions rituelles est mystérieusement métamorphosée en un vin d'une qualité suprême. Premier des « signes » rapportés par le quatrième évangéliste, cet épisode inaugure le temps des noces messianiques entre Dieu et l'humanité, manifestant la plénitude de la grâce nouvelle qui transcende l'ancienne Loi.</p><p>Tout au long de ses pérégrinations en Galilée et en Judée, la vie publique du Maître est jalonnée de rencontres fécondes et de prodiges libérateurs. À Jacob-puits, l'échange lumineux avec la femme samaritaine abolit les barrières sociales et religieuses en promettant l'eau vive qui étanche à jamais la soif de vérité ; sur les chemins, guérisons des aveugles, apaisement de la tempête et multiplications des pains révèlent une compassion agissante envers les détresses humaines.</p><p>Au sommet du mont Thabor, l'épisode éclatant de la Transfiguration dévoile aux apôtres privilégiés la splendeur eschatologique du Fils de Dieu, encadré de Moïse et d'Élie. À travers ces épisodes majeurs, l'art sacré déploie une véritable catéchèse de la foi, illustrant comment la parole incarnée s'atteste par des actes de souveraineté spirituelle et prépare les disciples au mystère pascal.</p>"
+  },
+  "sainte_cecile_martyre_et_patronne_des_musiciens": {
+    "id": "sainte_cecile_martyre_et_patronne_des_musiciens",
+    "badge": "HAGIOGRAPHIE • MARTYRS DE ROME",
+    "title": "Sainte Cécile : Virginité, Harmonie Céleste et Martyre",
+    "sources": "Actes de sainte Cécile (Ve s.), Jacques de Voragine, La Légende dorée",
+    "keywords": [
+      "Sainte Cécile",
+      "Musique sacrée",
+      "Orgue",
+      "Martyre",
+      "Couronne de roses",
+      "Chant intérieur",
+      "Rome chrétienne"
+    ],
+    "text": "<p>Issue d'une noble famille patricienne de la Rome antique, sainte Cécile est l'une des figures virginales et martyrologiques les plus vénérées de la chrétienté occidentale. Consacrée secrètement au Seigneur dès son jeune âge, elle parvient, le soir de ses noces avec le jeune païen Valérien, à convertir son époux en lui révélant la présence visible à ses côtés d'un ange gardien porteur de couronnes mystiques de roses et de lys.</p><p>La tradition rapporte qu'au milieu des fêtes et du tumulte des instruments profanes de son cortège nuptial, la jeune femme chantait en son cœur pour le seul Seigneur : cette légende poétique lui a valu de devenir dès la fin du Moyen Âge et à la Renaissance la sainte patronne des musiciens, des luthiers et des facteurs d'orgues, figurée tenant un orgue portatif ou plongée dans l'écoute ravie des concerts angéliques.</p><p>Arrêtée sous les persécutions romaines pour avoir enseveli les corps des martyrs et professé publiquement sa foi, elle survit miraculeusement aux vapeurs étouffantes des thermes avant de succomber sous les coups du bourreau. Son culte au Trastevere et dans toute l'Europe symbolise l'élévation de l'âme par l'harmonie céleste et la fidélité héroïque au-delà de la mort.</p>"
+  },
+  "grands_pasteurs_et_reformateurs_charles_borromee_francois_de_sales": {
+    "id": "grands_pasteurs_et_reformateurs_charles_borromee_francois_de_sales",
+    "badge": "HISTOIRE DE L'ÉGLISE • GRANDS PASTEURS",
+    "title": "Les Grands Pasteurs de la Réforme Catholique : Zèle, Charité et Érudition",
+    "sources": "Actes conciliaires de Trente, Hagiographies modernes, Écrits pastoraux",
+    "keywords": [
+      "Saint Charles Borromée",
+      "Saint François de Sales",
+      "Évêques",
+      "Contre-Réforme",
+      "Concile de Trente",
+      "Charité pastorale",
+      "Dévotion"
+    ],
+    "text": "<p>Figures de proue du renouveau spirituel et pastoral consécutif au Concile de Trente, saint Charles Borromée (archevêque de Milan) et saint François de Sales (évêque de Genève) incarnent le modèle accompli de l'évêque pasteur, combinant une ferveur ascétique sans compromis à une inépuisable tendresse apostolique.</p><p>Tandis que le prélat milanais réorganise avec rigueur la discipline ecclésiastique, fonde des séminaires modèles et se dévoue corps et âme auprès des pestiférés lors de la terrible épidémie de 1576, le saint évêque de Savoie déploie une théologie de la douceur et de la charité bienveillante, ouvrant la sainteté chrétienne à tous les états de vie à travers son célèbre traité d'introduction à la vie dévote.</p><p>Dans la statuaire et l'art verrier des cathédrales, l'association de ces figures tutélaires illustre la transmission vigilante de la doctrine et le soin pastoral des âmes, proclamant que la grandeur de l'autorité épiscopale ne réside point dans le faste des cours, mais dans le sacrifice personnel et l'amour inconditionnel du troupeau qui leur est confié.</p>"
   }
 };
 
@@ -4906,3 +4953,7 @@ window.BACKGROUNDS_REGISTRY["lapidation_etienne"] = window.BACKGROUNDS_REGISTRY[
 window.BACKGROUNDS_REGISTRY["eglise_synagogue"] = window.BACKGROUNDS_REGISTRY["eglise_et_synagogue_allegorie_deux_alliances"];
 window.BACKGROUNDS_REGISTRY["saint_pierre_prison"] = window.BACKGROUNDS_REGISTRY["delivrance_miraculeuse_saint_pierre_ange"];
 window.BACKGROUNDS_REGISTRY["saint_julien"] = window.BACKGROUNDS_REGISTRY["saint_julien_premier_eveque_evangelisation_gaules"];
+window.BACKGROUNDS_REGISTRY["noces_de_cana"] = window.BACKGROUNDS_REGISTRY["noces_de_cana_et_vie_publique_du_christ"];
+window.BACKGROUNDS_REGISTRY["sainte_cecile"] = window.BACKGROUNDS_REGISTRY["sainte_cecile_martyre_et_patronne_des_musiciens"];
+window.BACKGROUNDS_REGISTRY["charles_borromee"] = window.BACKGROUNDS_REGISTRY["grands_pasteurs_et_reformateurs_charles_borromee_francois_de_sales"];
+window.BACKGROUNDS_REGISTRY["francois_de_sales"] = window.BACKGROUNDS_REGISTRY["grands_pasteurs_et_reformateurs_charles_borromee_francois_de_sales"];

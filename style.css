@@ -6607,15 +6607,65 @@ body {
   }
 
   .modal-title-bandeau {
-    padding: 14px 16px 12px 16px !important;
+    position: relative !important;
+    padding: 12px 48px 10px 14px !important;
   }
 
-  .modal-title-bandeau .modal-headline {
-    font-size: 1.25rem !important;
+  .modal-header-main-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 6px !important;
+    width: 100% !important;
+  }
+
+  .modal-header-left-col {
+    width: 100% !important;
+    min-width: 0 !important;
   }
 
   .modal-title-bandeau .modal-civ-line {
+    font-size: 0.72rem !important;
+    margin-bottom: 2px !important;
+  }
+
+  .modal-title-bandeau .modal-headline {
+    font-size: 1.15rem !important;
+    line-height: 1.22 !important;
+    width: 100% !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .modal-header-right-col {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: baseline !important;
+    justify-content: flex-start !important;
+    gap: 6px 12px !important;
+    text-align: left !important;
+    margin-top: 2px !important;
+  }
+
+  .modal-header-date-row {
+    font-size: 0.88rem !important;
+  }
+
+  .modal-header-location-row {
     font-size: 0.75rem !important;
+    text-align: left !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+  }
+
+  .modal-header-main-grid .btn-dismiss-modal {
+    position: absolute !important;
+    top: 10px !important;
+    right: 12px !important;
+    margin: 0 !important;
+    z-index: 10 !important;
   }
 
   .modal-current-location-badge {
