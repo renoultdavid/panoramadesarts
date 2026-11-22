@@ -2546,12 +2546,15 @@ body {
 
 #master-drag-container {
   flex: 1 1 0 !important;
+  min-width: 0 !important;
+  width: 0 !important;
   cursor: grab;
   position: relative;
-  overflow: visible !important;
+  overflow: hidden !important;
   scrollbar-width: none !important;
   -ms-overflow-style: none !important;
   min-height: 100%;
+  height: auto !important;
   touch-action: pan-y;
 }
 

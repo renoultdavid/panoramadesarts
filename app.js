@@ -274,6 +274,20 @@ function getRibbonWidth() {
   return getUsableWidth() + 600;
 }
 
+function getTimelineContainerWidth() {
+  const wrapper = document.getElementById('timeline-split-wrapper');
+  const labelsCol = document.getElementById('timeline-labels-column');
+  if (wrapper && labelsCol) {
+    const w = wrapper.clientWidth - labelsCol.offsetWidth;
+    if (w > 100) return w;
+  }
+  const mCont = document.getElementById('master-drag-container');
+  if (mCont && mCont.clientWidth > 0 && mCont.clientWidth < 4000) {
+    return mCont.clientWidth;
+  }
+  return Math.max(320, window.innerWidth - (labelsCol ? labelsCol.offsetWidth : 230));
+}
+
 function yearToPixel(year) {
   const yMin = getYearMin();
   const totalY = getTotalYears();
@@ -7659,7 +7673,7 @@ window.addEventListener('mousemove', (e) => {
     lastRenderedCivKey = null;
   }
   curRibbonX = prevRibbonX + deltaX;
-  const containerW = masterContainer.clientWidth || window.innerWidth;
+  const containerW = getTimelineContainerWidth();
   const minX = -(getRibbonWidth() - containerW);
   curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
   
@@ -7765,7 +7779,7 @@ window.addEventListener('touchmove', (e) => {
 
   // Navigation temporelle horizontale
   curRibbonX = prevRibbonX + deltaX;
-  const containerW = (masterContainer && masterContainer.clientWidth) || window.innerWidth;
+  const containerW = getTimelineContainerWidth();
   const minX = -(getRibbonWidth() - containerW);
   curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
 
@@ -7832,7 +7846,7 @@ function zoomTimelineByFactor(screenX, factor) {
   const newRelX = yearToPixel(focalYear);
   curRibbonX = mouseInContainer - newRelX;
 
-  const containerW = masterContainer.clientWidth || window.innerWidth;
+  const containerW = getTimelineContainerWidth();
   const minX = -(getRibbonWidth() - containerW);
   curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
   prevRibbonX = curRibbonX;
@@ -7877,7 +7891,7 @@ function resetTimelineZoom() {
   const newRelX = yearToPixel(focalYear);
   curRibbonX = mouseInContainer - newRelX;
 
-  const containerW = masterContainer.clientWidth || window.innerWidth;
+  const containerW = getTimelineContainerWidth();
   const minX = -(getRibbonWidth() - containerW);
   curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
   prevRibbonX = curRibbonX;
@@ -7892,7 +7906,7 @@ function centerTimelineOnYear(targetYear, targetZoom = null) {
     timelineZoom = Math.max(0.4, Math.min(15.0, targetZoom));
     updateTimelineLayout();
   }
-  const containerWidth = masterContainer.clientWidth || window.innerWidth;
+  const containerWidth = getTimelineContainerWidth();
   const targetPixel = yearToPixel(targetYear);
   const minX = -(getRibbonWidth() - containerWidth);
   const focalScreenX = containerWidth * 0.45;
@@ -7925,7 +7939,7 @@ function handleTimelineWheel(e) {
     e.preventDefault();
     const delta = e.shiftKey ? e.deltaY : e.deltaX;
     curRibbonX = curRibbonX - delta;
-    const minX = -(getRibbonWidth() - masterContainer.clientWidth);
+    const minX = -(getRibbonWidth() - getTimelineContainerWidth());
     curRibbonX = Math.max(minX, Math.min(0, curRibbonX));
     prevRibbonX = curRibbonX;
 
@@ -10761,7 +10775,7 @@ function jumpFromArtworkToTimeline(art) {
   }
 
   // 5. Centrer le ruban chronologique sur cette époque
-  const containerWidth = masterContainer ? masterContainer.clientWidth : window.innerWidth;
+  const containerWidth = getTimelineContainerWidth();
   const targetPixel = yearToPixel(targetYear);
   const minX = -(getRibbonWidth() - containerWidth);
   curRibbonX = Math.max(minX, Math.min(0, (containerWidth / 2) - targetPixel));
@@ -14165,8 +14179,7 @@ function jumpTimelineToYear(targetYear) {
     switchTimelineEra(targetYear >= 1000 ? 'modern' : 'ancient');
   }
 
-  const container = document.getElementById('master-drag-container');
-  const containerWidth = container ? container.clientWidth : window.innerWidth;
+  const containerWidth = typeof getTimelineContainerWidth === 'function' ? getTimelineContainerWidth() : window.innerWidth;
   const targetPixel = typeof yearToPixel === 'function' ? yearToPixel(targetYear) : 0;
   const totalRibbonW = typeof getRibbonWidth === 'function' ? getRibbonWidth() : 50000;
   const minX = -(totalRibbonW - containerWidth);
