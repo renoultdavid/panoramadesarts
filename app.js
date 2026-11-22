@@ -3422,6 +3422,68 @@ const CIVILISATIONS_REGISTRY = [
   },
   // --- JAPON & MONDES D'ASIE (sur lane: "asie") ---
   {
+    id: "japon_classique",
+    name: "Japon : Époques Heian & Kamakura",
+    epoch: "794 à 1333 ap. J.-C.",
+    yearStart: 794,
+    yearEnd: 1333,
+    lane: "asie",
+    themeColor: "#b45309",
+    sidePos: "pos-right",
+    travelingOrigin: "85.0% 45.0%",
+    haloId: "halo-japon",
+    bannerImg: BANNERS_REGISTRY.japon_momoyama || "https://lh3.googleusercontent.com/d/1UljcU6PG_BxteZqrVduo4fA8oT62Y5a-",
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>L'âge d'or de la cour impériale et l'émergence des guerriers samouraïs</strong><br>
+      De l'établissement de la capitale impériale à Heian-kyō (Kyoto) en 794 jusqu'à la chute du shogunat de Kamakura en 1333, le Japon forge l'identité de ses arts classiques.</p>
+      <p>L'époque de Heian consacre le triomphe du raffinement de cour : essor des rouleaux narratifs peints (<em>emakimono</em>) de style <em>yamato-e</em>, calligraphie poétique et floraison du bouddhisme de la Terre Pure illustré par le pavillon du Phénix au Byōdō-in. Avec l'avènement du premier shogunat militaire à Kamakura à la fin du XIIe siècle, la sculpture bouddhique atteint un réalisme puissant et vigoureux sous le ciseau des maîtres de l'école Kei (Unkei, Kaikei).</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Heian et Kamakura dans le monde</strong></p>
+      <p>Pendant que Kyoto et Kamakura élèvent leurs temples de bois et leurs bouddhas colossaux, l'Occident voit fleurir l'art roman puis s'élancer les cathédrales gothiques.<br>
+      En Chine, les dynasties Song et Yuan portent la peinture de paysage au lavis à son zénith.</p>
+    `,
+    themeAlbums: [
+      { label: "🌸 Art de cour Heian & Rouleaux Emakimono", url: "" },
+      { label: "🗿 Statuaire bouddhique Kei d'Unkei", url: "" },
+      { label: "⚔️ Armures & Sabres de guerriers samouraïs", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "japon_muromachi",
+    name: "Japon : Époque de Muromachi",
+    epoch: "1336 à 1573 ap. J.-C.",
+    yearStart: 1336,
+    yearEnd: 1573,
+    lane: "asie",
+    themeColor: "#ca8a04",
+    sidePos: "pos-right",
+    travelingOrigin: "85.0% 45.0%",
+    haloId: "halo-japon",
+    bannerImg: BANNERS_REGISTRY.japon_momoyama || "https://lh3.googleusercontent.com/d/1UljcU6PG_BxteZqrVduo4fA8oT62Y5a-",
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>La culture Zen, l'art du lavis et la quête de l'épure</strong><br>
+      Sous le shogunat des Ashikaga à Kyoto, le Japon connaît une effervescence esthétique majeure sous l'impulsion spirituelle du bouddhisme Zen.</p>
+      <p>L'architecture castrale et religieuse donne naissance au Pavillon d'Or (<em>Kinkaku-ji</em>) et au Pavillon d'Argent (<em>Ginkaku-ji</em>). La peinture monochrome à l'encre de Chine (<em>suibokuga</em>) atteint son sommet avec le maître Sesshū Tōyō. C'est aussi l'éclosion des jardins de pierres secs (<em>karesansui</em>), du théâtre Nō et des premiers pavillons consacrés au rituel du thé.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Muromachi au temps de la Renaissance</strong></p>
+      <p>Tandis que les maîtres zen tracent leurs paysages d'encre à Kyoto, l'Europe vit la fin de la guerre de Cent Ans puis la Renaissance italienne des Médicis.<br>
+      En Chine, les empereurs Ming édifient la Cité Interdite et exportent leurs célèbres porcelaines.</p>
+    `,
+    themeAlbums: [
+      { label: "🖌️ Lavis d'encre (Suibokuga) de Sesshū", url: "" },
+      { label: "🍵 Pavillons d'Or & Jardins secs Zen", url: "" },
+      { label: "🎭 Masques & Étoffes du Théâtre Nō", url: "" }
+    ],
+    artifacts: []
+  },
+  {
     id: "japon_momoyama",
     name: "Japon : Époque Azuchi-Momoyama",
     epoch: "1568 à 1600 ap. J.-C.",
@@ -3462,6 +3524,36 @@ const CIVILISATIONS_REGISTRY = [
       { label: "🏯 Châteaux forts & Donjons Tenshukaku", url: "" },
       { label: "🍵 Cérémonie du thé & Wabi-sabi", url: "" },
       { label: "✨ Paravents dorés de l'École Kanō", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "japon_edo",
+    name: "Japon : Époque d'Edo (Tokugawa)",
+    epoch: "1603 à 1868 ap. J.-C.",
+    yearStart: 1603,
+    yearEnd: 1868,
+    lane: "asie",
+    themeColor: "#eab308",
+    sidePos: "pos-right",
+    travelingOrigin: "85.0% 45.0%",
+    haloId: "halo-japon",
+    bannerImg: BANNERS_REGISTRY.japon_momoyama || "https://lh3.googleusercontent.com/d/1UljcU6PG_BxteZqrVduo4fA8oT62Y5a-",
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>La paix Tokugawa, la culture du monde flottant et l'art de l'estampe</strong><br>
+      Après la bataille de Sekigahara, Tokugawa Ieyasu fonde le shogunat d'Edo (Tokyo) et instaure deux siècles et demi de paix intérieure et d'isolement diplomatique (<em>sakoku</em>).</p>
+      <p>Cette ère voit l'épanouissement fulgurant des arts urbains et populaires : l'estampe polychrome sur bois (<em>ukiyo-e</em>) immortalisée par Hokusai, Hiroshige et Utamaro, la peinture décorative de l'école Rimpa (Ogata Kōrin) sur paravents d'or, la céramique d'Imari et les laques saupoudrés d'or (<em>maki-e</em>).</p>
+    `,
+    concurrentHtml: `
+      <p><strong>L'époque d'Edo face à l'Europe des Lumières</strong></p>
+      <p>Pendant que le Japon cultive ses arts dans la paix d'Edo, l'Occident traverse le Siècle des Lumières, la Révolution française et les révolutions industrielles du XIXe siècle, avant que l'amiral Perry n'ouvre l'archipel en 1853.</p>
+    `,
+    themeAlbums: [
+      { label: "🌊 Estampes Ukiyo-e (Hokusai & Hiroshige)", url: "" },
+      { label: "🌸 Paravents dorés de l'École Rimpa", url: "" },
+      { label: "🏺 Porcelaines d'Imari & Laques d'apparat", url: "" }
     ],
     artifacts: []
   },
@@ -4081,6 +4173,36 @@ const CIVILISATIONS_REGISTRY = [
       { label: "🏺 Céramique aborigène", url: "" }
     ],
     artifacts: []
+  },
+  {
+    id: "rapa_nui",
+    name: "Rapa Nui : Culture de l'Île de Pâques",
+    epoch: "v. 1000 à 1888 ap. J.-C.",
+    yearStart: 1000,
+    yearEnd: 1888,
+    lane: "rapa_nui",
+    themeColor: "#d97706",
+    sidePos: "pos-right",
+    travelingOrigin: "15.0% 75.0%",
+    haloId: "halo-rapanui",
+    bannerImg: BANNERS_REGISTRY.rapa_nui,
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>La civilisation mégalithique du Pacifique et les géants de pierre</strong><br>
+      Isolée au cœur de l'océan Pacifique Sud, la civilisation de Rapa Nui (l'île de Pâques) a développé un art sculptural monumental et un système symbolique uniques au monde.</p>
+      <p>Entre le XIe et le XVIe siècle, les Pascuans élèvent sur des plates-formes sacrées en basalte (ahu) près d'un millier de statues colossales monolithiques (les moaï), taillées dans le tuf volcanique du volcan Rano Raraku, incarnant les esprits tutélaires des ancêtres divinisés. Plus tard, la culture insulaire se réinvente autour du culte de l'Homme-Oiseau (Tangata Manu) au village cérémoniel d'Orongo, orné de pétroglyphes spectaculaires, ainsi que par la sculpture du bois de toromiro et les tablettes gravées de signes rongorongo.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Rapa Nui au diapason de l'histoire universelle</strong></p>
+      <p>Tandis que Rapa Nui taille ses colosses de pierre dans l'isolement du grand large, l'Europe médiévale érige ses cathédrales gothiques, puis vit la Renaissance, avant que l'amiral hollandais Roggeveen ne découvre l'île le jour de Pâques 1722.</p>
+    `,
+    themeAlbums: [
+      { label: "🗿 Statuaire monumentale (Moaï & Ahu)", url: "" },
+      { label: "🪵 Bois sacrés Toromiro & Rongorongo", url: "" },
+      { label: "🪨 Pétroglyphes d'Orongo & Homme-Oiseau", url: "" }
+    ],
+    artifacts: []
   }
 ];
 
@@ -4673,38 +4795,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const delta = e.deltaY < 0 ? 0.25 : -0.25;
       const newScale = Math.min(5.0, Math.max(1.0, (currentMapScale || 1.0) + delta));
       applyMapHotspot(currentMapHotspot, newScale);
-    },
-  {
-    id: "rapa_nui",
-    name: "Rapa Nui : Culture de l'Île de Pâques",
-    epoch: "v. 1000 à 1888 ap. J.-C.",
-    yearStart: 1000,
-    yearEnd: 1888,
-    lane: "rapa_nui",
-    themeColor: "#d97706",
-    sidePos: "pos-right",
-    travelingOrigin: "15.0% 75.0%",
-    haloId: "halo-rapanui",
-    bannerImg: BANNERS_REGISTRY.rapa_nui,
-    mapOverlayUrl: "",
-    albumUrl: "",
-    presentationHtml: `
-      <p><strong>La civilisation mégalithique du Pacifique et les géants de pierre</strong><br>
-      Isolée au cœur de l'océan Pacifique Sud, la civilisation de Rapa Nui (l'île de Pâques) a développé un art sculptural monumental et un système symbolique uniques au monde.</p>
-      <p>Entre le XIe et le XVIe siècle, les Pascuans élèvent sur des plates-formes sacrées en basalte (ahu) près d'un millier de statues colossales monolithiques (les moaï), taillées dans le tuf volcanique du volcan Rano Raraku, incarnant les esprits tutélaires des ancêtres divinisés. Plus tard, la culture insulaire se réinvente autour du culte de l'Homme-Oiseau (Tangata Manu) au village cérémoniel d'Orongo, orné de pétroglyphes spectaculaires, ainsi que par la sculpture du bois de toromiro et les tablettes gravées de signes rongorongo.</p>
-    `,
-    concurrentHtml: `
-      <p><strong>Rapa Nui au diapason de l'histoire universelle</strong></p>
-      <p>Tandis que Rapa Nui taille ses colosses de pierre dans l'isolement du grand large, l'Europe médiévale érige ses cathédrales gothiques, puis vit la Renaissance, avant que l'amiral hollandais Roggeveen ne découvre l'île le jour de Pâques 1722.</p>
-    `,
-    themeAlbums: [
-      { label: "🗿 Statuaire monumentale (Moaï & Ahu)", url: "" },
-      { label: "🪵 Bois sacrés Toromiro & Rongorongo", url: "" },
-      { label: "🪨 Pétroglyphes d'Orongo & Homme-Oiseau", url: "" }
-    ],
-    artifacts: []
-  },
- { passive: false });
+    }, { passive: false });
   }
 });
 
