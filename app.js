@@ -1743,10 +1743,10 @@ const BANNERS_REGISTRY = {
   rome_vie_quotidienne: "https://lh3.googleusercontent.com/pw/AP1GczOxrGOnK9lQzQBrw0G0lp1Sv6962HgU4VK8HfLc9VjajtnKAvYrYqiLYu7DTRjpoYOsX8S6s9g5ExZUKZ0G0CdQg6XzzCtbQWLOG8Hnj9KQVZ3w5mACNnai7UQ6-aUompUcn4IEF9F8ia8_9h-gyw5nhg=w1654-h702-s-no-gm?authuser=0",
 
   // 22. Phéniciens & Monde punique
-  pheniciens: "https://lh3.googleusercontent.com/pw/AP1GczNYE7TN7fpBpW9ifnHHszWHLgvhXQ_YcLUm4qihA1RhnCr27lLKn0zgaYDl3SOlItCThvF3bxfnwSrPCdtzFXenXuTBwF859B47JS6nEzEldcKxxgiVK5Y5HPctMhVTQJ4pWCuW2hdcqRqZFcfjY4MGyg=w1654-h702-s-no-gm?authuser=0",
+  pheniciens: "https://lh3.googleusercontent.com/pw/AP1GczNYE7TN7fpBpW9ifnHHszWHLgvhXQ_YcLUm4qihA1RhnCr27lLKn0zgaYDl3SOlItCThvF3bxfnwSrPCdtzFXenXuTBwF859B47JS6nEzEldcKxxgiVK5Y5HPctMhVTQJ4pWCuW2hdcqRqZFcfjY4MGyg=w1595-h677-s-no-gm?authuser=0",
 
   // 23. Rapa Nui (Île de Pâques)
-  rapa_nui: "https://lh3.googleusercontent.com/pw/AP1GczOH-XTyK4H-lYskAH491-Yqyn13Gbg1PY4wR8XVXkQe5vP1NTb4puUnBU4352vDkKRbrfxQ4ZHyO8HSFfM6NxB2YnA6ZGdvUOouGpgpuKZDAvzxorl8QmoA98L5O-zt8ri28oey7wekQ251AaQVlnkWvA=w1654-h702-s-no-gm?authuser=0",
+  rapa_nui: "https://lh3.googleusercontent.com/pw/AP1GczOH-XTyK4H-lYskAH491-Yqyn13Gbg1PY4wR8XVXkQe5vP1NTb4puUnBU4352vDkKRbrfxQ4ZHyO8HSFfM6NxB2YnA6ZGdvUOouGpgpuKZDAvzxorl8QmoA98L5O-zt8ri28oey7wekQ251AaQVlnkWvA=w1595-h677-s-no-gm?authuser=0",
 };
 
 function getArtworkBanner(art) {
@@ -1758,8 +1758,20 @@ function getArtworkBanner(art) {
   const aType = (art.artifactType || '').toLowerCase();
   const domain = (art.domain || '').toLowerCase();
   const title = (art.title || '').toLowerCase();
-  const fullText = `${cat} ${aType} ${domain} ${title}`;
+  const culture = (art.culture || '').toLowerCase();
+  const civ = (art.civilization || '').toLowerCase();
+  const fullText = `${cat} ${aType} ${domain} ${title} ${culture} ${civ}`;
   const isGreek = cId === 'grece' || cId === 'egee' || pId.startsWith('grece_') || cId.startsWith('grece');
+
+  // 0a. PHÉNICIENS & MONDE PUNIQUE (Priorité absolue : n'utiliser QUE le bandeau phénicien fourni)
+  if (cId === 'pheniciens' || cId === 'phenicie' || cId.startsWith('phenic') || cId.includes('punique') || pId.startsWith('phenic') || pId.includes('punique') || fullText.includes('phénic') || fullText.includes('punique') || fullText.includes('carthage') || fullText.includes('sidon') || fullText.includes('byblos') || fullText.includes('amrit') || fullText.includes('eshmunazar')) {
+    return BANNERS_REGISTRY.pheniciens;
+  }
+
+  // 0b. RAPA NUI / ÎLE DE PÂQUES (Priorité absolue : n'utiliser QUE le bandeau Rapa Nui fourni)
+  if (cId === 'rapa_nui' || cId.startsWith('rapa') || pId.startsWith('rapa') || fullText.includes('rapa nui') || fullText.includes('pâques') || fullText.includes('moaï') || fullText.includes('moai') || fullText.includes('hakananai')) {
+    return BANNERS_REGISTRY.rapa_nui;
+  }
 
   if (domain === 'art_textile' || aType.includes('tapisserie') || aType.includes('broderie') || fullText.includes('tapisserie') || fullText.includes('broderie')) {
     if (BANNERS_REGISTRY.art_textile) return BANNERS_REGISTRY.art_textile;
