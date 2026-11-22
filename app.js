@@ -9838,7 +9838,9 @@ function findBackgroundForArtwork(art) {
       if (entry && entry.keywords && Array.isArray(entry.keywords)) {
         const matches = entry.keywords.some(kw => {
           const normKw = (kw || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
-          if (!normKw) return false;
+          if (!normKw || normKw.length < 4) return false;
+          const genericBanList = ['orant', 'orants', 'masque', 'masques', 'statue', 'statues', 'visage', 'homme', 'femme', 'portrait', 'lion', 'dieu', 'deesse', 'temple', 'scene', 'pierre', 'vase', 'reine', 'roi', 'saint', 'sainte'];
+          if (genericBanList.includes(normKw)) return false;
           if (normKw.includes(' ')) return normTitle.includes(normKw);
           const regex = new RegExp('(?:^|[^a-z0-9])' + normKw + '(?:$|[^a-z0-9])');
           return regex.test(normTitle);
@@ -11007,7 +11009,8 @@ const TAXONOMY_DOMAINS = {
       "Édifice & Gratte-ciel moderne",
       "Merveille du monde & Pyramide",
       "Palais royal & Résidence impériale",
-      "Temple monumental & Sanctuaire"
+      "Temple monumental & Sanctuaire",
+      "Architecture monumentale & Épigraphie lapidaire"
     ]
   },
   "megalithes": {
@@ -11028,10 +11031,12 @@ const TAXONOMY_DOMAINS = {
       "Chambre funéraire / Hypogée", "Cippe funéraire", "Coffre & Vases canopes",
       "Fausse porte", "Figurine funéraire / Ouchebti", "Larnax",
       "Maquette funéraire (barque, atelier, serviteur)", "Masque funéraire & Cartonnage",
+      "Masque apotropaïque en terre cuite",
       "Mobilier & Ensemble funéraire", "Monument / Tombeau rupestre",
       "Papyrus funéraire / Livre des Morts", "Portrait du Fayoum", "Pyramidion",
       "Sarcophage & Momie animale", "Sarcophage humain (cuve, bois, pierre)",
-      "Stèle funéraire", "Table d'offrandes", "Urne cinéraire",
+      "Sarcophage anthropoïde en marbre", "Sarcophage royal anthropoïde",
+      "Stèle funéraire", "Table d'offrandes", "Urne cinéraire", "Urnes cinéraires & Stèles votives",
       "Allée couverte", "Dolmen (à couloir, simple, coudé)", "Tumulus & Cairn"
     ]
   },
@@ -11044,7 +11049,8 @@ const TAXONOMY_DOMAINS = {
       "Lécythe", "Loutrophore", "Oenochoé", "Olla sur support (holmos)", "Pithos / Jarre", "Plat",
       "Plat & Céramique fine", "Pyxide / Boîte à couvercle", "Rhyton", "Stamnos",
       "Vase", "Vase à étrier", "Vase balustre",
-      "Vase en pierre (albâtre, calcite)", "Vase plastique / Zoomorphe"
+      "Vase en pierre (albâtre, calcite)", "Vase plastique / Zoomorphe",
+      "Céramique plastique & Récipient à onguent"
     ]
   },
   "espace_sacre": {
@@ -11063,10 +11069,12 @@ const TAXONOMY_DOMAINS = {
   "parures_metaux": {
     label: "Orfèvrerie, Armes & Métallurgie",
     types: [
+      "Amulette & Parure en pâte de verre", "Amulette & Parure en verre",
       "Armement d'apparat (épée, poignard, casque)", "Ciste en bronze",
       "Dépôt métallurgique & Haches", "Glyptique (sceau-cylindre, intaille)",
       "Miroir gravé en bronze", "Mobilier d'apparat en bronze (trône, lit, trépied)",
       "Numismatique (monnaie)", "Orfèvrerie sacrée & Reliquaire",
+      "Orfèvrerie & Trésor funéraire",
       "Parure en or / Argent / Bronze",
       "Strigile & Instrument de toilette", "Torque & Bracelet",
       "Vaisselle d'or & d'argent"
@@ -11096,9 +11104,14 @@ const TAXONOMY_DOMAINS = {
       "Figurine votive / Ex-voto", "Frise en briques émaillées",
       "Idole & Statuaire cycladique (marbre)",
       "Monolithe / Stèle sculptée",
+      "Stèle votive & Ex-voto", "Stèle votive en grès", "Stèle votive votée à Tanit",
+      "Stèle votive inscrite", "Stèle votive architecturée", "Stèle votive en haut-relief",
+      "Protomé & Masque votif", "Buste & Protomé en terre cuite", "Statuette votive en terre cuite",
+      "Stèle royale monumentale & Inscription phénicienne",
       "Ready-made & Art conceptuel",
       "Sculpture monumentale / Cuve de libation",
       "Sculpture monumentale extérieure (fontaine, calvaire, moaï)",
+      "Statue monumentale en basalte (Moaï)",
       "Statuaire animale & gardienne (ronde-bosse)", "Statuaire privée & portraits", "Statuaire royale & divine (ronde-bosse)", "Statuaire religieuse (Vierges, Saints & Apôtres)", "Statuaire mythologique & allégorique (ronde-bosse)",
       "Alignement mégalithique", "Cromlech / Enceinte mégalithique", "Menhir / Monolithe dressé", "Statue-menhir anthropomorphe"
     ]
@@ -11242,6 +11255,10 @@ function initSearchEngine() {
           presentDomains.add('architecture');
         } else if (d === 'vitrail' || d === 'art_du_vitrail') {
           presentDomains.add('art_du_vitrail');
+        } else if (d === 'parures' || d === 'orfevrerie' || d === 'parures_metaux') {
+          presentDomains.add('parures_metaux');
+        } else if (d === 'sculpture_funeraire' || d === 'funeraire') {
+          presentDomains.add('funeraire');
         } else if (TAXONOMY_DOMAINS[d]) {
           presentDomains.add(d);
         }
@@ -11348,6 +11365,10 @@ function initSearchEngine() {
             domainMatched = (d === 'sculpture_statuaire' || d === 'sculpture');
           } else if (selectedDom === 'architecture') {
             domainMatched = (d === 'architecture' || d === 'monument');
+          } else if (selectedDom === 'parures_metaux') {
+            domainMatched = (d === 'parures_metaux' || d === 'parures' || d === 'orfevrerie');
+          } else if (selectedDom === 'funeraire') {
+            domainMatched = (d === 'funeraire' || d === 'sculpture_funeraire');
           } else {
             domainMatched = (d === selectedDom);
           }
@@ -12554,6 +12575,10 @@ function renderSearchGallery() {
         domainMatched = (d === 'architecture' || d === 'monument');
       } else if (selectedDomain === 'art_du_vitrail' || selectedDomain === 'vitrail') {
         domainMatched = (d === 'art_du_vitrail' || d === 'vitrail');
+      } else if (selectedDomain === 'parures_metaux') {
+        domainMatched = (d === 'parures_metaux' || d === 'parures' || d === 'orfevrerie');
+      } else if (selectedDomain === 'funeraire') {
+        domainMatched = (d === 'funeraire' || d === 'sculpture_funeraire');
       } else {
         domainMatched = (d === selectedDomain);
       }

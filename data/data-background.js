@@ -986,12 +986,12 @@ window.BACKGROUNDS_REGISTRY = {
     "title": "Les Orants de Sumer et de Mari : Le Kaunakès et la Prière Perpétuelle",
     "sources": "Dépôts votifs des sanctuaires d'Ishtar à Mari et de la vallée de la Diyala",
     "keywords": [
-      "orant",
-      "orants",
+      "orant sumerien",
+      "orants sumeriens",
+      "orants de mari",
       "kaunakès",
       "kaunakes",
       "ebih-il",
-      "mari",
       "lupad",
       "ginak",
       "diyala"
@@ -3913,7 +3913,7 @@ window.BACKGROUNDS_REGISTRY = {
     "title": "Arlequin et les Masques de la Farce Italienne",
     "subtitle": "Le valet agile de Bergame, symbole d'ironie populaire et de liberté théâtrale",
     "desc": "<p>Né au cœur des carnavals d'Italie du Nord et immortalisé par les troupes ambulantes de la Commedia dell'arte, Arlecchino — Arlequin — puise ses racines lointaines dans le folklore médiéval et les figures légendaires de diablotins malicieux, tel le Hellequin des enfers normands. Établi sur les tréteaux de la Renaissance sous les traits d'un valet rustique venu des vallées de Bergame, il s'impose d'emblée comme le plus virtuose et le plus universel des serviteurs (*zanni*) comiques. Son allure se caractérise par une énergie inépuisable, défiant la gravité terrestre par des cabrioles aériennes et des lazzis désopilants.</p><p>Son habit emblématique, originellement composé de haillons disparates rapiécés par la misère, s'est transformé au fil des siècles en une remarquable mosaïque géométrique de losanges réguliers alternant le rouge vif, le vert émeraude, le bleu outremer et le jaune solaire. Coiffé d'une toque de feutre ornée d'une queue de lièvre, il porte sur le visage un demi-masque de cuir noir aux sourcils froncés et au nez camus orné d'une verrue grotesque, qui lui confère une expressivité animale et subversive. À sa ceinture pend sa légendaire « batte » de bois souple, instrument de castigation comique et symbole de son autorité burlesque.</p><p>Mû par des instincts vitaux et irrépressibles — la quête obsessionnelle de victuailles, le goût du bon vin et sa passion jalouse pour Colombine —, Arlequin se joue des puissants avec une impudence jubilatoire. Face à l'avarice de Pantalon ou à la vaine érudition du Docteur, il oppose un bon sens populaire affûté, une liberté de parole décapante et une souplesse acrobatique qui lui permettent de triompher de toutes les trappes et de métamorphoser la misère du monde en un rire éclatant et libérateur.</p>",
-    "keywords": ["arlequin", "commedia dell arte", "théâtre", "farce", "masque", "losanges", "colombine"]
+    "keywords": ["arlequin", "commedia dell arte", "théâtre", "farce", "masque d'arlequin", "masque de comedie", "losanges", "colombine"]
   },
 
   "saint_dominique_de_guzman": {
@@ -4968,6 +4968,97 @@ window.BACKGROUNDS_REGISTRY = {
       "Martyre de Rouen"
     ],
     "text": "<p>Née à Domrémy au cœur de la guerre de Cent Ans, humble bergère inspirée par les voix célestes de l'archange saint Michel, de sainte Catherine et de sainte Marguerite, Jeanne d'Arc accomplit un destin prodigieux qui renversa le cours de l'histoire de France. Animée d'une foi inébranlable et vêtue d'une armure blanche, elle délivre Orléans assiégée avant de conduire le dauphin Charles jusqu'à la cathédrale de Reims pour y recevoir l'onction sainte du sacre.</p><p>Capturée sous les remparts de Compiègne, livrée à ses ennemis et soumise à un procès d'inquisition inique où son bon sens et sa candeur héroïque déconcertèrent ses juges, elle consomme son sacrifice le 30 mai 1431 sur le bûcher de Rouen, rendant son dernier soupir au nom de Jésus et tenant la croix sous les yeux de la foule bouleversée.</p><p>Dans l'art verrier néo-gothique, l'épopée johannique est célébrée comme le symbole vibrant du patriotisme chrétien et de la pureté du sacrifice. Ses verrières déploient l'étendard fleurdelisé et les étapes d'une existence fulgurante où la sainteté triomphe de la violence des hommes.</p>"
+  },
+  "tophet_carthage_tanit_baal_hammon": {
+    "id": "tophet_carthage_tanit_baal_hammon",
+    "badge": "RELIGION PUNIQUE & SANCTUAIRES",
+    "title": "Le Tophet de Carthage : Tanit, Baal Hammon et la Piété Punique",
+    "subtitle": "L'enceinte sacrée à ciel ouvert, le sacrifice molk et les stèles votives en édicule",
+    "sources": "Fouilles du Tophet de Salammbô (Carthage) et du sanctuaire d'Hadrumète (Sousse)",
+    "keywords": [
+      "tophet",
+      "tanit",
+      "baal hammon",
+      "tophet de carthage",
+      "hadrumete",
+      "salammbo",
+      "stele votive punique",
+      "signe de tanit",
+      "molk"
+    ],
+    "text": "<p>Au cœur de la métropole carthaginoise et des grandes cités puniques d'Occident (Hadrumète, Motyé, Tharros), le tophet est une vaste aire sacrée à ciel ouvert consacrée au couple divin suprême : Tanit « face de Baal » (<em>Pene Baal</em>), grande déesse céleste dispensatrice de fertilité et protectrice de la cité, et Baal Hammon, le dieu souverain et bienveillant des cieux et du temps.</p>\n<p>C'est dans cette enceinte inviolable que les fidèles accomplissaient le <em>molk</em>, sacrifice d'alliance ou vœu solennel commémorant la promesse divine, attesté par des milliers d'urnes cinéraires contenant les restes calcinés de jeunes enfants et d'agneaux de substitution. Au-dessus de ces dépôts funéraires et votifs étaient érigées des stèles de pierre, taillées dans le grès ou le calcaire, portant l'inscription dédicatoire gravée en caractères puniques : « À la grande dame Tanit Pene Baal et au seigneur Baal Hammon, ce que consacre le dédicant parce qu'ils ont entendu sa voix et l'ont béni ».</p>\n<p>L'iconographie des stèles traduit une synthèse plastique unique : silhouette architecturée d'un naos ou temple miniature stylisé, fronton triangulaire à acrotères, fleur de lotus d'inspiration égyptienne, et surtout l'omniprésence du « signe de Tanit » (triangle surmonté d'une barre horizontale et d'un disque) et de la silhouette de l'orant levant les mains vers les cieux dans une attitude d'adoration et d'action de grâce perpétuelle.</p>"
+  },
+  "sarcophages_anthropoides_pheniciens_sidon": {
+    "id": "sarcophages_anthropoides_pheniciens_sidon",
+    "badge": "RITES FUNÉRAIRES PHÉNICIENS",
+    "title": "Les Sarcophages Anthropoïdes de Sidon et de la Côte Phénicienne",
+    "subtitle": "La rencontre magistrale du prestige égyptien et de la virtuosité du marbre grec",
+    "sources": "Nécropoles royales de Sidon (Magharat Tabloun, Ayaa), nécropole d'Antaradus (Tartous) et de Carthage",
+    "keywords": [
+      "sarcophage anthropoide",
+      "eshmunazar",
+      "sidon",
+      "antaradus",
+      "tartous",
+      "sarcophage phenicien",
+      "magharat tabloun",
+      "marbre blanc",
+      "pretresse carthage"
+    ],
+    "text": "<p>Aux Ve et IVe siècles avant J.-C., les souverains et les grandes lignées aristocratiques des cités phéniciennes de Sidon, de Tyr, de Byblos et d'Antaradus (Tartous) adoptent une tradition funéraire monumentale sans équivalent : le sarcophage anthropoïde en marbre blanc importé des îles grecques (Paros, Thasos).</p>\n<p>Héritière directe de la conception égyptienne du cercueil momiforme — dont le prototype le plus célèbre est le sarcophage en basalte noir d'Eshmunazar II rapporté d'Égypte et gravé d'une longue malédiction contre les profanateurs —, cette production phénicienne subit une prodigieuse mutation stylistique sous l'influence des sculpteurs grecs de l'époque classique. La cuve massive et monolithique est surmontée d'un couvercle sculpté en haut-relief dont l'extrémité supérieure figure le visage du défunt, traité avec une individualisation et un naturalisme saisissants.</p>\n<p>Tandis que les effigies féminines arborent des chevelures aux boucles étagées délicates encadrant un visage ovale empreint d'une sérénité idéale, les figures masculines présentent des barbes ondulées, des sourcils sévères et une gravité majestueuse. Diffusés jusqu'aux nécropoles de Carthage et d'Espagne punique, ces chefs-d'œuvre incarnent l'apogée du cosmopolitisme phénicien, où la sacralité égyptienne de l'au-delà s'unit à la noblesse plastique du classicisme hellénique.</p>"
+  },
+  "bes_amulettes_verre_apotropaique": {
+    "id": "bes_amulettes_verre_apotropaique",
+    "badge": "MAGIE & CROYANCES POPULAIRES",
+    "title": "Le Dieu Bès, les Amulettes en Verre et la Protection Apotropaïque",
+    "subtitle": "L'arsenal prophylactique phénico-punique contre le mauvais œil et les démons",
+    "sources": "Nécropoles d'Aléria (Corse), Carthage, Puig des Molins (Ibiza) et du Levant",
+    "keywords": [
+      "dieu bes",
+      "pate de verre",
+      "pâte de verre",
+      "amulette punique",
+      "masque apotropaique punique",
+      "aleria",
+      "masque grimacant",
+      "protome"
+    ],
+    "text": "<p>Dans la vie quotidienne et les rituels d'accompagnement des défunts du monde phénico-punique, la piété officielle des grands temples côtoie un univers foisonnant de croyances magiques et de dévotions domestiques destinées à conjurer les forces hostiles, les maladies et le mauvais œil.</p>\n<p>Au premier rang des puissances protectrices figure le dieu nain Bès : divinité d'origine égyptienne adoptée avec ferveur par les marins et artisans phéniciens, Bès est représenté sous les traits d'un être trapu au masque grotesque et léonin, tirant la langue et écarquillant les yeux pour effrayer les démons et veiller sur les femmes enceintes, les nouveaux-nés et les défunts. Les ateliers de verriers de Carthage et de la Méditerranée occidentale excellaient dans le façonnage d'amulettes et de pendentifs anthropomorphes miniatures en pâte de verre polychrome réalisés sur noyau de sable, arborant des teintes vives (bleu cobalt, jaune safran, turquoise) aux vertus lumineuses et magiques.</p>\n<p>Cette même volonté prophylactique s'exprime dans les sépultures puniques par le dépôt de masques grimaçants en terre cuite et de protomés votifs placés près du visage du mort ou suspendus aux parois des caveaux, érigeant un rempart spirituel impénétrable entre les vivants, les disparus et l'invisible.</p>"
+  },
+  "religion_cites_pheniciennes_byblos_amrit": {
+    "id": "religion_cites_pheniciennes_byblos_amrit",
+    "badge": "PANTHÉON & SANCTUAIRES DU LEVANT",
+    "title": "Les Sanctuaires Phéniciens : Baalat Gebal, Melqart et Shadrafa",
+    "subtitle": "La dévotion royale, le temple d'Amrit et la mémoire épigraphique des cités mères",
+    "sources": "Stèle de Yehawmilk (Byblos), maabed d'Amrit, nécropoles et sanctuaires de Sidon",
+    "keywords": [
+      "yehawmilk",
+      "baalat gebal",
+      "shadrafa",
+      "amrit",
+      "inscription phenicienne",
+      "epigraphie sidon"
+    ],
+    "text": "<p>Sur la côte levantine, berceau de la civilisation phénicienne, la religion des cités-États souveraines (Byblos, Tyr, Sidon, Arados) est intimement liée à la légitimité royale et à la prospérité maritime. Chaque cité est placée sous la protection d'un couple tutélaire suprême : à Byblos, la déesse Baalat Gebal (« la Dame de Byblos ») préside aux destinées du royaume, honorée par les rois comme en témoigne la stèle votive monumentale de Yehawmilk, où le souverain en habit perse présente l'offrande à sa maîtresse divine coiffée de cornes hathoriques.</p>\n<p>À Amrit, le sanctuaire d'eau (<em>maabed</em>) entouré de colonnades à ciel ouvert témoigne d'un culte guérisseur et salvateur où s'épanouissent des divinités syncrétiques telles que Shadrafa, figuré debout sur un lion dressé, maîtrisant les serpents et les bêtes sauvages. À Sidon et à Tyr, le culte d'Eshmoun, dieu médecin assimilé à Asclépios, et de Melqart, dieu tutélaire de la colonisation méditerranéenne, structurent l'espace sacré urbain.</p>\n<p>L'écriture phénicienne gravée dans la pierre dure et le calcaire scelle ces pactes divins : premières inscriptions alphabétiques lapidaires de l'Occident, ces dédicaces royales et civiques immortalisent la piété inaltérable d'un peuple de navigateurs dont le verbe et les croyances ont irrigué l'ensemble du bassin méditerranéen.</p>"
+  },
+  "rapa_nui_culte_homme_oiseau_moai": {
+    "id": "rapa_nui_culte_homme_oiseau_moai",
+    "badge": "CROYANCES DE RAPA NUI",
+    "title": "Hoa Hakananai'a, les Moaï et le Culte de l'Homme-Oiseau (Tangata Manu)",
+    "subtitle": "De la statuaire des ancêtres déifiés au rituel sacré d'Orongo",
+    "sources": "Village cérémoniel d'Orongo, falaise du volcan Rano Kau (Rapa Nui)",
+    "keywords": [
+      "hoa hakananai'a",
+      "hoa hakananaia",
+      "moai",
+      "moaï",
+      "rapa nui",
+      "tangata manu",
+      "homme-oiseau",
+      "orongo",
+      "makemake"
+    ],
+    "text": "<p>Sculpté vers 1200 dans un basalte sombre exceptionnellement dur — à la différence de la majorité des moaï façonnés dans le tuf volcanique plus tendre du Rano Raraku —, le moaï <em>Hoa Hakananai'a</em> (« l'ami dérobé » ou « le briseur de vagues ») occupait une place sacrée unique au sein du village cérémoniel d'Orongo, perché sur l'étroite crête volcanique du Rano Kau face à l'immensité du Pacifique.</p>\n<p>Initialement dressé comme incarnation tutélaire d'un ancêtre divinisé veillant sur la communauté, ce monolithe a traversé la mutation religieuse majeure de l'île de Pâques lors de la transition vers le culte du <em>Tangata Manu</em> (l'Homme-Oiseau), dédié au dieu créateur Makemake. À cette époque, le dos de la statue fut entièrement orné de bas-reliefs gravés d'une finesse remarquable, figurant deux hommes-oiseaux affrontés entourant un petit oiseau marin (la sterne noire ou <em>manutara</em>), ainsi que des rames cérémonielles (<em>ao</em>) et des signes de fertilité (<em>komari</em>).</p>\n<p>Chaque printemps austral, les champions des différents clans s'élançaient depuis les falaises d'Orongo pour nager jusqu'à l'îlot Motu Nui et rapporter intact le premier œuf pondu par la sterne. Le chef du champion victorieux devenait pour un an l'incarnation vivante du dieu sur terre, garantissant l'équilibre politique et la fécondité cosmique de l'île.</p>"
   }
 };
 
@@ -5072,3 +5163,12 @@ window.BACKGROUNDS_REGISTRY["notre_dame_de_lorette"] = window.BACKGROUNDS_REGIST
 window.BACKGROUNDS_REGISTRY["archange_michel"] = window.BACKGROUNDS_REGISTRY["archanges_et_milice_celeste_michel_et_raphael"];
 window.BACKGROUNDS_REGISTRY["martyrs_romains"] = window.BACKGROUNDS_REGISTRY["grands_martyrs_romains_gervais_protais_laurent_etienne_sebastien"];
 window.BACKGROUNDS_REGISTRY["jeanne_d_arc"] = window.BACKGROUNDS_REGISTRY["jeanne_d_arc_heroine_patronne_france"];
+
+window.BACKGROUNDS_REGISTRY["tophet"] = window.BACKGROUNDS_REGISTRY["tophet_carthage_tanit_baal_hammon"];
+window.BACKGROUNDS_REGISTRY["tanit"] = window.BACKGROUNDS_REGISTRY["tophet_carthage_tanit_baal_hammon"];
+window.BACKGROUNDS_REGISTRY["sarcophages_pheniciens"] = window.BACKGROUNDS_REGISTRY["sarcophages_anthropoides_pheniciens_sidon"];
+window.BACKGROUNDS_REGISTRY["sarcophage_sidon"] = window.BACKGROUNDS_REGISTRY["sarcophages_anthropoides_pheniciens_sidon"];
+window.BACKGROUNDS_REGISTRY["dieu_bes"] = window.BACKGROUNDS_REGISTRY["bes_amulettes_verre_apotropaique"];
+window.BACKGROUNDS_REGISTRY["sanctuaires_pheniciens"] = window.BACKGROUNDS_REGISTRY["religion_cites_pheniciennes_byblos_amrit"];
+window.BACKGROUNDS_REGISTRY["moai"] = window.BACKGROUNDS_REGISTRY["rapa_nui_culte_homme_oiseau_moai"];
+window.BACKGROUNDS_REGISTRY["tangata_manu"] = window.BACKGROUNDS_REGISTRY["rapa_nui_culte_homme_oiseau_moai"];
