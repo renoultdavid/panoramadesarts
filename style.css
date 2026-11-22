@@ -2548,7 +2548,7 @@ body {
   flex: 1 1 0 !important;
   cursor: grab;
   position: relative;
-  overflow: hidden !important;
+  overflow: visible !important;
   scrollbar-width: none !important;
   -ms-overflow-style: none !important;
   min-height: 100%;
@@ -2572,7 +2572,15 @@ body {
   display: flex;
   flex-direction: column;
   width: 5500px;
+  min-height: 100%;
   will-change: transform;
+}
+
+#lanes-group-ancient,
+#lanes-group-modern {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .timeline-lane-spacer {
@@ -3883,6 +3891,7 @@ body {
   }
 
   .civ-timespan-block {
+    top: 2px !important;
     height: 20px !important;
   }
 
@@ -4968,9 +4977,6 @@ body {
 /* Évite la redondance des boutons revenir à la frise / fermer quand la sticky bar est active */
 #search-top-panel.is-collapsed ~ #search-gallery-scroll .artist-hero-actions-top {
   display: none !important;
-}
-  padding-left: 8px;
-  border-left: 1px solid rgba(212, 175, 55, 0.25);
 }
 
 .sticky-bar-sub:empty {
@@ -6703,15 +6709,18 @@ body {
   .modal-nav-arrow {
     width: 38px !important;
     height: 38px !important;
-    top: 50% !important;
+    top: auto !important;
+    bottom: 20px !important;
+    transform: none !important;
+    z-index: 150 !important;
   }
 
   .modal-nav-arrow.arrow-prev {
-    left: 6px !important;
+    left: 14px !important;
   }
 
   .modal-nav-arrow.arrow-next {
-    right: 6px !important;
+    right: 14px !important;
   }
 
   .btn-dismiss-modal {
@@ -10954,7 +10963,6 @@ body {
 .btn-curio-back {
   border-color: rgba(255, 255, 255, 0.2);
 }
-}
 
 /* SECTIONS UNIFIÉES DU CABINET */
 .curiosities-section {
@@ -11355,13 +11363,6 @@ body {
   margin: 0;
   line-height: 1.55;
   text-align: justify;
-}
-  border: 1px solid rgba(212, 175, 55, 0.35);
-  border-radius: 20px;
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: #fce8a6;
-  font-family: 'Cinzel', serif;
 }
 
 /* MODULE 3 : L'ŒIL DU CONSERVATEUR (DÉTAIL MYSTÈRE) */

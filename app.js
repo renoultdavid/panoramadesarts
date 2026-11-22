@@ -4451,6 +4451,9 @@ function buildTimelineBlocks() {
     if (isDouble) {
       if (laneEl) laneEl.classList.add('is-double-track');
       if (labelEl) labelEl.classList.add('is-double-track');
+    } else {
+      if (laneEl) laneEl.classList.remove('is-double-track');
+      if (labelEl) labelEl.classList.remove('is-double-track');
     }
   });
 
