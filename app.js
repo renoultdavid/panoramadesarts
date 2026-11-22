@@ -410,6 +410,7 @@ function getArtDomainIcon(domain) {
   if (d.includes('mosaique') || d.includes('relief')) return '🏛️';
   if (d.includes('ivoire') || d.includes('bois')) return '🪵';
   if (d.includes('arme') || d.includes('militaire') || d.includes('bouclier')) return '⚔️';
+  if (d.includes('textile') || d.includes('tapisserie') || d.includes('broderie')) return '🧵';
   if (d.includes('livre') || d.includes('manuscrit') || d.includes('codex') || d.includes('incunable')) return '📖';
   return '💎';
 }
@@ -1707,6 +1708,9 @@ const BANNERS_REGISTRY = {
   sculpture_interieur_eglise: "https://lh3.googleusercontent.com/pw/AP1GczMCcd8ofc97Xih7QDwoFHS5BUpF8ibLAXBRKLvgnJ0cRSDQRDL-Q25-F4a6I8WPknrFHEuf-wGMhx8OxXMq67OTqiNexPwxkROxWI8P9AT0baXAKQcD-25uUqnn0Jv-fkOVbXAz1w-Hi3e6dcHAa9_2jw=w1836-h779-s-no-gm?authuser=0",
   // 18. Sculpture & Statuaire (Occident / Ronde-bosse / Renaissance / Moderne)
   sculpture_statuaire_occident: "https://lh3.googleusercontent.com/pw/AP1GczNoWUJrIYsTM2L1x-VT_gAB_JTboUpXuKQTo52v0QBoI_xR_kHf6xaCK62xdSptME9chfOu7VWznkfNr1yVdXxzonDp4sEtSrqERZfW83HsuUuUqO705zM-ctNZNSW7EAkPwYtuUOd4KXNk7rctpAVB1Q=w1836-h779-s-no-gm?authuser=0",
+
+  // 19. Arts textiles, Tapisseries & Broderies
+  art_textile: "https://lh3.googleusercontent.com/pw/AP1GczMzYSbHz5i8MO0yfgptemc4vh04ZND74SuiQwWTY8GAE_7_2ByFj_S9oCTDdS9L8r85EEZRauJMub3CrH3R7ibM2_p6i2T0NXVYmhyF1Lb5EZCLkpyrmicm-Qhb29q18yWRhN67ito6G4IQxF1be-lqDQ=w1836-h779-s-no-gm?authuser=0",
 };
 
 function getArtworkBanner(art) {
@@ -1720,6 +1724,10 @@ function getArtworkBanner(art) {
   const title = (art.title || '').toLowerCase();
   const fullText = `${cat} ${aType} ${domain} ${title}`;
   const isGreek = cId === 'grece' || cId === 'egee' || pId.startsWith('grece_') || cId.startsWith('grece');
+
+  if (domain === 'art_textile' || aType.includes('tapisserie') || aType.includes('broderie') || fullText.includes('tapisserie') || fullText.includes('broderie')) {
+    if (BANNERS_REGISTRY.art_textile) return BANNERS_REGISTRY.art_textile;
+  }
 
   if (domain === 'sculpture_civile' || aType.includes('fontaine') || fullText.includes('sculpture civile')) {
     return BANNERS_REGISTRY.sculpture_civile;
@@ -3862,7 +3870,8 @@ const DOMAIN_ICONS = {
   parures_metaux: "👑",
   espace_sacre: "🏛️",
   vie_quotidienne: "📜",
-  art_du_livre: "📖"
+  art_du_livre: "📖",
+  art_textile: "🧵"
 };
 
 // Liaison sélective : sélection typologique équilibrée par grands domaines (sculpture, peinture, céramique, funéraire, orfèvrerie)
@@ -10716,6 +10725,15 @@ const TAXONOMY_DOMAINS = {
       "Ostracon & Archéologie de l'écrit"
     ]
   },
+  "art_textile": {
+    label: "Arts textiles, Tapisseries & Broderies",
+    types: [
+      "Broderie monumentale & Chronique historique",
+      "Tapisserie romane & Cosmologie sacrée",
+      "Tapisserie gothique & Mille-fleurs",
+      "Lices royales & Manufactures d'État"
+    ]
+  },
   "vie_quotidienne": {
     label: "Vie quotidienne, Sciences, Usages & Écriture",
     types: [
@@ -12179,7 +12197,12 @@ function renderSearchGallery() {
         // 3. Fallback sur category UNIQUEMENT si artifactType est vide
         if (!matched && !aType && cat) {
           const catTokens = cat.split(/[\/,;&]/).map(s => s.trim()).filter(Boolean);
-          matched = (cat === target) || catTokens.includes(target) || (target.length >= 5 && cat.includes(target));
+          if (target === 'calice') {
+            matched = ((cat === target) || catTokens.includes(target) || cat.includes(target)) &&
+                      !cat.includes('cratère') && !cat.includes('cratere') && !cat.includes('antéfixe') && !cat.includes('antefixe');
+          } else {
+            matched = (cat === target) || catTokens.includes(target) || (target.length >= 5 && cat.includes(target));
+          }
         }
 
         // 4. Cas spécifiques architecturaux / liturgiques / mégalithiques

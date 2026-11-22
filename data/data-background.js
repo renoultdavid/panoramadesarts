@@ -4643,6 +4643,65 @@ window.BACKGROUNDS_REGISTRY = {
       "abstraction poétique"
     ],
     "text": "<p>Né au sein des mouvements Dada et surréaliste dans l'entre-deux-guerres, le biomorphisme propose une réconciliation poétique entre la création artistique et les processus vitaux de la nature. Refusant la géométrie rigide et mécanique de l'abstraction constructive, les sculpteurs biomorphiques conçoivent leurs œuvres comme des organismes vivants, semblables à des plantes qui germent, des galets polis par les flots ou des cellules en perpétuelle mitose.</p><p>Désignées sous le terme de « concrétions », ces sculptures se caractérisent par des lignes douces, des courbes sinueuses et une absence totale d'arêtes vives. À la frontière de la figuration et de l'abstraction pure, elles suggèrent tour à tour des torses humains, des bourgeons végétaux ou de mystérieuses créatures élémentaires issues du folklore terrien.</p><p>Par cette approche intuitive où la matière semble croître selon ses propres lois biologiques, l'art biomorphique invite à une contemplation intime et tactile. Il célèbre les forces métamorphiques de l'univers et réaffirme la place de l'homme comme partie intégrante d'un cosmos harmonieux et fécond.</p>"
+  },
+
+  "creation_du_monde_cosmologie_chretienne_medievale": {
+    "id": "creation_du_monde_cosmologie_chretienne_medievale",
+    "badge": "COSMOLOGIE MÉDIÉVALE & THÉOLOGIE ROMANE",
+    "title": "La Création du Monde et la Cosmologie Médiévale : L'Harmonie du Temps et du Cosmos Divin",
+    "sources": "Livre de la Genèse, Isidore de Séville (De Natura Rerum) & Traités cosmologiques du haut Moyen Âge",
+    "keywords": [
+      "Création du Monde",
+      "Genèse",
+      "Cosmologie",
+      "Cosmos médiéval",
+      "Pantocrator",
+      "Fiat Lux",
+      "Quatre saisons",
+      "Roue du temps",
+      "Vents",
+      "Annus"
+    ],
+    "text": "<p>Dans la pensée théologique du haut Moyen Âge, la création du monde n'est pas comprise comme un événement isolé dans le passé, mais comme une manifestation continue de l'ordre, de la sagesse et de la lumière divines au cœur de l'univers matériel. Selon la Genèse et les écrits encyclopédiques carolingiens et romans — tels que le <em>De Natura Rerum</em> d'Isidore de Séville —, l'univers s'organise selon une harmonie mathématique et spirituelle parfaite, où le Christ Pantocrator règne au centre même de la sphère cosmique.</p><p>Ce schéma théologique associe intimement les récits bibliques des six jours de la Création (l'Hexaéméron) — la séparation de la lumière et des ténèbres, le rassemblement des eaux primordiales, l'apparition des luminaires célestes et la venue de l'homme et des animaux — au déroulement immuable du temps terrestre. Les quatre saisons de l'année, les douze mois rythmés par les travaux agricoles des champs et les quatre vents cardinaux personnifiés soufflant aux quatre coins de l'horizon incarnent la marche cyclique de la nature, voulue par Dieu pour subvenir aux besoins de l'humanité déchue.</p><p>Cette cosmologie monumentale invite le fidèle à contempler la beauté visible du cosmos pour s'élever vers la réalité invisible du salut. En plaçant l'histoire de l'humanité entre la Genèse originelle et la rédemption finale apportée par la Croix, la spiritualité médiévale érigeait le temps humain en une échelle sacrée menant à la cité céleste éternelle.</p>"
+  },
+
+  "conquete_normande_bataille_hastings_1066": {
+    "id": "conquete_normande_bataille_hastings_1066",
+    "badge": "HISTOIRE MÉDIÉVALE & ÉPOPÉE DE 1066",
+    "title": "L'Épopée de 1066 : La Conquête Normande de l'Angleterre et la Bataille d'Hastings",
+    "sources": "Chroniques médiévales de Guillaume de Poitiers, Guillaume de Jumièges & Carmen de Hastingae Proelio (XIe s.)",
+    "keywords": [
+      "Conquête normande",
+      "1066",
+      "Bataille d'Hastings",
+      "Guillaume le Conquérant",
+      "Harold",
+      "Comète de Halley",
+      "Normandie",
+      "Angleterre anglo-saxonne",
+      "Édouard le Confesseur",
+      "Serment sacré"
+    ],
+    "text": "<p>L'année 1066 marque l'une des ruptures politiques et dynastiques les plus spectaculaires de l'histoire européenne, bouleversant à jamais les destins croisés de la Normandie, du royaume d'Angleterre et du monde anglo-saxon. À la mort sans héritier direct du roi Édouard le Confesseur, une crise successorale aiguë éclate entre le puissant comte de Wessex, Harold Godwinson, qui ceint la couronne royale, et le duc Guillaume de Normandie, qui revendique le trône en vertu d'une promesse antérieure et d'un serment d'allégeance solennel prêté sur de saintes reliques.</p><p>Cette crise terrestre trouve un écho terrifiant dans les cieux médiévaux avec le passage fulgurant de la comète de Halley au printemps 1066. Interprété par les contemporains comme un signe divin annonciateur d'un bouleversement des royaumes, cet astre présage l'affrontement inéluctable. Après avoir rassemblé une formidable flotte d'invasion de navires scandinaves et attendu des vents favorables, Guillaume débarque le 28 septembre à Pevensey sur la côte du Sussex.</p><p>Le 14 octobre 1066, sur la colline de Senlac près d'Hastings, le choc décisif oppose le redoutable mur de boucliers de l'infanterie lourde anglo-saxonne à la cavalerie montée et aux archers normands. Après une journée de combats d'une brutalité inouïe, la mort du roi Harold scelle la victoire ducale. Le couronnement de Guillaume le Conquérant le jour de Noël à l'abbaye de Westminster fait basculer l'Angleterre dans l'aire féodale et linguistique continentale, forgeant un nouvel empire transmanche.</p>"
+  },
+
+  "saint_eloi_patron_des_orfevres_et_marechaux": {
+    "id": "saint_eloi_patron_des_orfevres_et_marechaux",
+    "badge": "HAGIOGRAPHIE & TRADITIONS MÉROVINGIENNES",
+    "title": "Saint Éloi : Grand Argentier Royal, Évêque et Protecteur des Orfèvres et Forgerons",
+    "sources": "Vita Sancti Eligii par saint Ouen (VIIe siècle) & Légendes médiévales de la forge sacrée",
+    "keywords": [
+      "Saint Éloi",
+      "Éloi",
+      "Dagobert",
+      "Orfèvrerie",
+      "Miracle du cheval ferré",
+      "Hospices",
+      "Forgeron",
+      "Charité chrétienne",
+      "Mérovingiens"
+    ],
+    "text": "<p>Figure majeure de la Gaule mérovingienne du VIIe siècle, saint Éloi (Eligius, vers 588–660) incarne l'alliance exceptionnelle entre la virtuosité artisanale la plus raffinée, la haute administration d'État et la sainteté chrétienne. Apprenti orfèvre à Limoges, sa réputation de probité parvient à la cour du roi Clotaire II : chargé de fabriquer un trône d'or, il livre avec le métal fourni non pas un, mais deux sièges magnifiques sans garder la moindre once du précieux matériau, s'attirant la vénération royale et devenant le conseiller le plus intime et grand trésorier du roi Dagobert Ier.</p><p>Fondateur d'abbayes renommées telles que Solignac et Sainte-Marthe à Paris, Éloi renonce aux honneurs séculiers pour recevoir la prêtrise et être sacré évêque de Noyon-Tournai en 641, consacrant son ministère à l'évangélisation des Flandres, au rachat d'esclaves et au soin attentif des indigents et des malades.</p><p>La mémoire populaire a immortalisé le saint à travers la célèbre légende de la forge miraculeuse : face à un destrier fougueux réputé possédé par le démon et impossible à approcher, Éloi aurait détaché le membre de l'animal pour lui poser un fer sur son enclume avec sérénité, avant de replacer miraculeusement la patte intacte sur le cheval pacifié. Ce récit prodigieux en a fait le patron protecteur universel des maréchaux-ferrants, des cavaliers, des serruriers et de tous les orfèvres et métallurgistes.</p>"
   }
 };
 
@@ -4717,3 +4776,10 @@ window.BACKGROUNDS_REGISTRY["calvaires"] = window.BACKGROUNDS_REGISTRY["croix_de
 window.BACKGROUNDS_REGISTRY["tympan"] = window.BACKGROUNDS_REGISTRY["tympan_roman_jugement_dernier_bible_de_pierre"];
 window.BACKGROUNDS_REGISTRY["portail_conques"] = window.BACKGROUNDS_REGISTRY["tympan_roman_jugement_dernier_bible_de_pierre"];
 window.BACKGROUNDS_REGISTRY["tympan_conques"] = window.BACKGROUNDS_REGISTRY["tympan_roman_jugement_dernier_bible_de_pierre"];
+
+window.BACKGROUNDS_REGISTRY["creation_du_monde"] = window.BACKGROUNDS_REGISTRY["creation_du_monde_cosmologie_chretienne_medievale"];
+window.BACKGROUNDS_REGISTRY["tapisserie_creation"] = window.BACKGROUNDS_REGISTRY["creation_du_monde_cosmologie_chretienne_medievale"];
+window.BACKGROUNDS_REGISTRY["conquete_normande"] = window.BACKGROUNDS_REGISTRY["conquete_normande_bataille_hastings_1066"];
+window.BACKGROUNDS_REGISTRY["tapisserie_bayeux"] = window.BACKGROUNDS_REGISTRY["conquete_normande_bataille_hastings_1066"];
+window.BACKGROUNDS_REGISTRY["bataille_hastings"] = window.BACKGROUNDS_REGISTRY["conquete_normande_bataille_hastings_1066"];
+window.BACKGROUNDS_REGISTRY["saint_eloi"] = window.BACKGROUNDS_REGISTRY["saint_eloi_patron_des_orfevres_et_marechaux"];

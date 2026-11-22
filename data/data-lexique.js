@@ -717,6 +717,31 @@ window.ART_TYPOLOGY_DEFINITIONS = {
     etymology: "Du grec óstrakon (« coquille, tesson de poterie »)",
     domain: "Épigraphie & Archéologie de l'écrit",
     def: "Éclat de calcaire ou tesson de céramique utilisé dans l'Antiquité et l'Égypte chrétienne copte comme support d'écriture économique et abondant pour rédiger lettres familières, quittances fiscales, exercices d'écoliers, ordonnances et prières liturgiques."
+  },
+  // --- ARTS TEXTILES, TAPISSERIES & BRODERIES ---
+  "Broderie monumentale & Chronique historique": {
+    title: "Broderie monumentale & Chronique historique",
+    etymology: "Du germanique broz (« pointe, aiguille ») et du latin chronicus",
+    domain: "Arts textiles & Chroniques narratives",
+    def: "Récit narratif continu brodé à l'aiguille sur toile de lin avec des fils de laine colorés (point de couchure de Bayeux), déployant une fresque historique ou politique monumentale avec légendes en latin et bordures peuplées de fables et créatures symboliques."
+  },
+  "Tapisserie romane & Cosmologie sacrée": {
+    title: "Tapisserie romane & Cosmologie sacrée",
+    etymology: "Du grec tapês (« tapis ») et kosmos (« ordre divin de l'univers »)",
+    domain: "Arts textiles & Théologie médiévale",
+    def: "Vaste composition textile médiévale célébrant la Création divine du monde, le cycle des saisons, les vents et les constellations selon la théologie et la cosmologie du haut Moyen Âge."
+  },
+  "Tapisserie gothique & Mille-fleurs": {
+    title: "Tapisserie gothique & Mille-fleurs",
+    etymology: "Tenture tissée sur métier de haute ou basse lisse",
+    domain: "Arts textiles & Décor flamboyant",
+    def: "Tenture murale tissée de laine et de soie caractérisée par un fond constellé d'une infinité de fleurs et de plantes sauvages stylisées, servant d'écrin à des scènes sacrées, hagiographiques, allégoriques ou courtoises."
+  },
+  "Lices royales & Manufactures d'État": {
+    title: "Lices royales & Manufactures d'État",
+    etymology: "De lisse (« fil de chaîne du métier à tisser »)",
+    domain: "Manufactures royales (Gobelins, Beauvais, Aubusson)",
+    def: "Grandes séries de tentures tissées sur métiers de haute ou basse lisse dans les ateliers d'apparat royaux, célébrant les hauts faits monarchiques, mythologiques ou pastoraux."
   }
 };
 

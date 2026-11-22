@@ -8168,7 +8168,7 @@ window.ART_OBJECTS = [
     centuryDisplay: "IVe s. av. J.-C.",
     centuryNumeric: -370,
     domain: "ceramique",
-    artifactType: "C\u00e9ramique / Crat\u00e8re en calice",
+    artifactType: "Cratère",
     title: "Crat\u00e8re en calice monumental \u00e0 l'assembl\u00e9e des dieux et Ath\u00e9na de Falerii",
     site: "Mus\u00e9e du Louvre (Paris)",
     originSite: "Falerii Veteres (Civita Castellana, Pays falisque)",

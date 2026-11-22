@@ -16866,15 +16866,47 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "timeline": {
       "periods": [
         {
-          "title": "La Période surréaliste et les Objets à fonctionnement symbolique",
-          "years": "1925 – 1934",
-          "color": "#f59e0b",
-          "summary": "Expérimentations cubistes, idoles plates et consécration au sein du mouvement d'André Breton.",
+          "title": "Les Années de formation et l'Éveil artistique à Stampa",
+          "years": "1901 – 1924",
+          "color": "#3b82f6",
+          "summary": "Enfance dans les Grisons suisses, émulation avec son père Giovanni et apprentissage parisien.",
           "events": [
             {
-              "year": "1828",
-              "title": "Femme (Femme plate)",
-              "desc": "Plaque de bronze quasi bidimensionnelle marquant la rupture avec le volume académique et l'avènement du signe totémique.",
+              "year": "1901",
+              "title": "Naissance dans le val Bregaglia et atelier paternel",
+              "desc": "Fils aîné du peintre Giovanni Giacometti, Alberto grandit au milieu des toiles et s'initie très tôt au modelage et au dessin à Stampa.",
+              "type": "context",
+              "badge": "ORIGINES",
+              "icon": "🏔️"
+            },
+            {
+              "year": "1922",
+              "title": "Arrivée à Paris et atelier d'Antoine Bourdelle",
+              "desc": "Installation à Montparnasse et cours de sculpture à l'Académie de la Grande Chaumière sous l'égide de Bourdelle.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "L'Aventure surréaliste et les Objets oniriques",
+          "years": "1925 – 1934",
+          "color": "#f59e0b",
+          "summary": "Atelier mythique de la rue Hippolyte-Maindron, idoles plates et adhésion au groupe d'André Breton.",
+          "events": [
+            {
+              "year": "1926",
+              "title": "Installation rue Hippolyte-Maindron",
+              "desc": "Emménagement dans le minuscule atelier de 23 m² du 14e arrondissement qu'il conservera jusqu'à la fin de ses jours.",
+              "type": "context",
+              "badge": "ATELIER",
+              "icon": "🚪"
+            },
+            {
+              "year": "1928",
+              "title": "Femme (Femme plate) : la rupture avec le volume",
+              "desc": "Plaque de bronze quasi bidimensionnelle inspirée des arts premiers, érigeant la silhouette en signe totémique.",
               "type": "masterpiece",
               "artworkId": "giacometti_femme_plate_bronze_paris_1928",
               "badge": "AVANT-GARDE",
@@ -16882,43 +16914,100 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
             },
             {
               "year": "1930",
-              "title": "La Boule suspendue",
-              "desc": "Sculpture-objet mobile inaugurant la participation de Giacometti au mouvement surréaliste.",
+              "title": "La Boule suspendue et l'adhésion au Surréalisme",
+              "desc": "Sculpture-objet mobile suscitant l'enthousiasme d'André Breton et de Salvador Dalí, consacrant son statut au sein du mouvement.",
               "type": "masterpiece",
               "badge": "SURRÉALISME",
               "icon": "🔮"
+            },
+            {
+              "year": "1934",
+              "title": "L'Objet invisible (Mains tenant le vide)",
+              "desc": "Figure hiératique enserrant le vide spatial, marquant l'apogée et le seuil de rupture avec l'orthodoxie surréaliste.",
+              "type": "masterpiece",
+              "badge": "MYSTÈRE",
+              "icon": "👐"
             }
           ]
         },
         {
-          "title": "La Crise du modèle et la Naissance du style filiforme",
+          "title": "La Crise du modèle, l'Exil à Genève et la Réduction filiforme",
           "years": "1935 – 1949",
           "color": "#ef4444",
-          "summary": "Retour au réel, réduction dramatique des échelles et émergence des figures étirées.",
+          "summary": "Retour au travail d'après nature, figurines lilliputiennes et naissance du style filiforme d'après-guerre.",
           "events": [
             {
+              "year": "1935",
+              "title": "Rupture avec le Surréalisme et crise du modèle",
+              "desc": "Exclu du groupe surréaliste pour avoir fait poser un modèle vivant, Giacometti détruit l'essentiel de sa production et repart de zéro.",
+              "type": "context",
+              "badge": "CRISIS",
+              "icon": "⚡"
+            },
+            {
+              "year": "1942",
+              "title": "Réfugié à Genève et sculptures en boîte d'allumettes",
+              "desc": "Bloqué en Suisse pendant l'Occupation, il réduit ses figurines à des hauteurs millimétriques qui s'effritent sous le couteau.",
+              "type": "context",
+              "badge": "EXIL",
+              "icon": "📦"
+            },
+            {
               "year": "1947",
-              "title": "L'Homme qui pointe et Les Femmes de Venise",
-              "desc": "Invention des silhouettes filiformes en bronze érodées par le vide et la lumière.",
+              "title": "L'Homme qui pointe et l'émergence des figures étirées",
+              "desc": "Invention spectaculaire des silhouettes filiformes en plâtre et bronze, incarnant la solitude tragique de l'individu moderne.",
               "type": "masterpiece",
               "badge": "EXISTENTIEL",
               "icon": "🧍"
+            },
+            {
+              "year": "1948",
+              "title": "Exposition triomphale à New York préfacée par Sartre",
+              "desc": "Jean-Paul Sartre publie La Recherche de l'absolu, érigeant l'art de Giacometti en incarnation suprême de l'existentialisme.",
+              "type": "context",
+              "badge": "PHILOSOPHIE",
+              "icon": "📜"
             }
           ]
         },
         {
-          "title": "La Consécration universelle et L'Homme qui marche",
+          "title": "La Consécration mondiale et L'Homme qui marche",
           "years": "1950 – 1966",
           "color": "#10b981",
-          "summary": "Icônes universelles de la modernité, grands prix internationaux et rétrospectives mondiales.",
+          "summary": "Création des icônes universelles de la modernité, prix de la Biennale de Venise et accomplissement pictural.",
           "events": [
             {
+              "year": "1950",
+              "title": "La Place et La Clairière : l'espace partagé",
+              "desc": "Compositions spatiales où plusieurs figures longilignes se croisent sans jamais se toucher, matérialisant l'incommunicabilité des êtres.",
+              "type": "masterpiece",
+              "badge": "ESPACE",
+              "icon": "🏙️"
+            },
+            {
               "year": "1960",
-              "title": "L'Homme qui marche I",
-              "desc": "L'icône absolue de l'art moderne du XXe siècle, incarnant l'avancée résolue et fragile de l'humanité.",
+              "title": "L'Homme qui marche I pour la Chase Manhattan Bank",
+              "desc": "Icône mondiale de la sculpture du XXe siècle, incarnant l'avancée résolue et fragile de l'humanité arrachée au néant.",
               "type": "masterpiece",
               "badge": "ICÔNE",
               "icon": "🚶"
+            },
+            {
+              "year": "1962",
+              "title": "Caroline et le Grand Prix de la Biennale de Venise",
+              "desc": "Portrait d'une intensité picturale vibrante et couronnement de sa trajectoire par le Grand Prix de sculpture à Venise.",
+              "type": "masterpiece",
+              "artworkId": "giacometti_caroline_tokyo_1962",
+              "badge": "TRIOMPHE",
+              "icon": "👑"
+            },
+            {
+              "year": "1965",
+              "title": "Grandes rétrospectives internationales et adieux",
+              "desc": "Hommages magistraux à la Tate Gallery de Londres, au MoMA de New York et au Musée d'Art moderne de Paris avant sa disparition en Suisse.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "⭐"
             }
           ]
         }
