@@ -8060,28 +8060,9 @@ function activateCivilisationView(civ) {
     btnSubExplore.onclick = (e) => {
       e.stopPropagation();
       closeCivilisationView();
-      const filterCiv = document.getElementById('filter-civ');
-      const filterPeriod = document.getElementById('filter-period');
-      switchView('view-search');
-      if (filterCiv) {
-        const matchingCivOpt = Array.from(filterCiv.options).find(opt => opt.value === civ.id || opt.value === civ.lane);
-        if (matchingCivOpt) {
-          filterCiv.value = matchingCivOpt.value;
-        } else {
-          filterCiv.value = 'all';
-        }
-        filterCiv.dispatchEvent(new Event('change'));
-
-        if (filterPeriod && civ.id) {
-          const matchingPeriodOpt = Array.from(filterPeriod.options).find(opt => opt.value === civ.id);
-          if (matchingPeriodOpt) {
-            filterPeriod.value = civ.id;
-            filterPeriod.dispatchEvent(new Event('change'));
-          }
-        }
+      if (typeof goToGalleryForCiv === 'function') {
+        goToGalleryForCiv(civ);
       }
-      if (typeof renderSearchGallery === 'function') renderSearchGallery();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
     };
   }
 
@@ -11044,7 +11025,8 @@ const TAXONOMY_DOMAINS = {
     label: "Céramique, Terres cuites & Vases",
     types: [
       "Alabastre", "Amphore", "Antéfixe / Plaque architecturale", "Aryballe",
-      "Askos", "Calice", "Canthare", "Cratère", "Cruche", "Dinos", "Hydrie",
+      "Askos", "Bol & Coupe sigillée", "Bouteille en terre cuite", "Calice", "Canthare", "Cratère", "Cruche", "Dinos",
+      "Dolium / Grande jarre", "Gobelet à boire", "Hydrie",
       "Jatte / Écuelle", "Kernos", "Kylix / Coupe", "Lagynos", "Lampe à huile",
       "Lécythe", "Loutrophore", "Oenochoé", "Olla sur support (holmos)", "Pithos / Jarre", "Plat",
       "Plat & Céramique fine", "Pyxide / Boîte à couvercle", "Rhyton", "Stamnos",
@@ -11155,6 +11137,31 @@ const TAXONOMY_DOMAINS = {
 /* ==========================================================================
    INITIALISATION DU MOTEUR EN CASCADE
    ========================================================================== */
+// Helper global de correspondance civilisation (utilisé par la Galerie, le Frise et les sélecteurs)
+function matchItemCivilisation(item, selectedCiv) {
+  if (!item || !selectedCiv || selectedCiv === 'all') return true;
+  const cId = (item.civId || (item.artist || item.artistId || (item.periodId && item.periodId.startsWith('occ')) || (item.id && item.id.startsWith('occ_')) ? 'occident' : '')).toLowerCase().trim();
+  if (selectedCiv === 'egypte') return cId.startsWith('egypte');
+  if (selectedCiv === 'mesopotamie') return cId.startsWith('meso');
+  if (selectedCiv === 'iran_perse') return cId.startsWith('iran') || cId.startsWith('perse');
+  if (selectedCiv === 'egee') return cId === 'egee' || ['cyclades', 'crete', 'mycenes'].includes(cId);
+  if (selectedCiv === 'grece') return cId.startsWith('grece');
+  if (selectedCiv === 'italie_etrusque') return cId === 'italie_etrusque' || cId.startsWith('etrusque') || cId.startsWith('italie');
+  if (selectedCiv === 'ibere') return cId.startsWith('ibere');
+  if (selectedCiv === 'rome') return cId.startsWith('rome');
+  if (selectedCiv === 'chypre') return cId.startsWith('chypre');
+  if (selectedCiv === 'levant_phenicie') return ['levant_phenicie', 'amorrite', 'syrie_bronze', 'phenicie_fer', 'lycie_anatolie'].includes(cId) || cId.startsWith('lycie') || cId.startsWith('levant');
+  if (selectedCiv === 'celte_europe') return cId.startsWith('celte') || cId.startsWith('neolithique');
+  if (selectedCiv === 'islam') return cId.startsWith('islam');
+  if (selectedCiv === 'occident') return cId.startsWith('occ') || cId === 'occident';
+  if (selectedCiv === 'canaries') return cId === 'canaries';
+  if (selectedCiv === 'pheniciens' || selectedCiv === 'phenicie') return cId.startsWith('phenic') || cId.includes('punique') || cId === 'phenicie_fer';
+  if (selectedCiv === 'rapa_nui') return cId === 'rapa_nui' || cId.startsWith('rapa');
+  if (selectedCiv === 'japon_asie') return cId.startsWith('japon') || cId.startsWith('asie');
+  return cId.startsWith(selectedCiv);
+}
+window.matchItemCivilisation = matchItemCivilisation;
+
 let currentRenderLimit = 60;
 const PAGE_CHUNK = 60;
 
@@ -11205,27 +11212,8 @@ function initSearchEngine() {
       });
   }
 
-  // 1b. Helper de correspondance civilisation
-  function matchItemCivilisation(item, selectedCiv) {
-    if (!item || !selectedCiv || selectedCiv === 'all') return true;
-    const cId = (item.civId || (item.artist || item.artistId || (item.periodId && item.periodId.startsWith('occ')) || (item.id && item.id.startsWith('occ_')) ? 'occident' : '')).toLowerCase().trim();
-    if (selectedCiv === 'egypte') return cId.startsWith('egypte');
-    if (selectedCiv === 'egee') return cId === 'egee' || ['cyclades', 'crete', 'mycenes'].includes(cId);
-    if (selectedCiv === 'italie_etrusque') return cId === 'italie_etrusque' || cId.startsWith('etrusque') || cId.startsWith('italie');
-    if (selectedCiv === 'chypre') return cId.startsWith('chypre');
-    if (selectedCiv === 'celte_europe') return cId.startsWith('celte') || cId.startsWith('neolithique');
-    if (selectedCiv === 'levant_phenicie') return ['levant_phenicie', 'amorrite', 'syrie_bronze', 'phenicie_fer', 'lycie_anatolie'].includes(cId) || cId.startsWith('lycie') || cId.startsWith('levant');
-    if (selectedCiv === 'rome') return cId.startsWith('rome');
-    if (selectedCiv === 'pheniciens' || selectedCiv === 'phenicie') return cId.startsWith('phenic') || cId.includes('punique') || cId === 'phenicie_fer';
-    if (selectedCiv === 'canaries') return cId === 'canaries';
-    if (selectedCiv === 'rapa_nui') return cId === 'rapa_nui' || cId.startsWith('rapa');
-    if (selectedCiv === 'ibere') return cId.startsWith('ibere');
-    if (selectedCiv === 'iran_perse') return cId.startsWith('iran');
-    if (selectedCiv === 'islam') return cId.startsWith('islam');
-    if (selectedCiv === 'mesopotamie') return cId.startsWith('meso');
-    if (selectedCiv === 'occident') return cId.startsWith('occ') || cId === 'occident';
-    return cId.startsWith(selectedCiv);
-  }
+  // 1b. Helper de correspondance civilisation (référence globale)
+  const matchItemCivilisation = window.matchItemCivilisation;
 
   // 1c. Cascade : Civilisation -> Domaines autorisés (filtrés selon la présence réelle d'œuvres dans le catalogue)
   function updateDomainDropdown() {

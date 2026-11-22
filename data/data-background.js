@@ -5059,6 +5059,23 @@ window.BACKGROUNDS_REGISTRY = {
       "makemake"
     ],
     "text": "<p>Sculpté vers 1200 dans un basalte sombre exceptionnellement dur — à la différence de la majorité des moaï façonnés dans le tuf volcanique plus tendre du Rano Raraku —, le moaï <em>Hoa Hakananai'a</em> (« l'ami dérobé » ou « le briseur de vagues ») occupait une place sacrée unique au sein du village cérémoniel d'Orongo, perché sur l'étroite crête volcanique du Rano Kau face à l'immensité du Pacifique.</p>\n<p>Initialement dressé comme incarnation tutélaire d'un ancêtre divinisé veillant sur la communauté, ce monolithe a traversé la mutation religieuse majeure de l'île de Pâques lors de la transition vers le culte du <em>Tangata Manu</em> (l'Homme-Oiseau), dédié au dieu créateur Makemake. À cette époque, le dos de la statue fut entièrement orné de bas-reliefs gravés d'une finesse remarquable, figurant deux hommes-oiseaux affrontés entourant un petit oiseau marin (la sterne noire ou <em>manutara</em>), ainsi que des rames cérémonielles (<em>ao</em>) et des signes de fertilité (<em>komari</em>).</p>\n<p>Chaque printemps austral, les champions des différents clans s'élançaient depuis les falaises d'Orongo pour nager jusqu'à l'îlot Motu Nui et rapporter intact le premier œuf pondu par la sterne. Le chef du champion victorieux devenait pour un an l'incarnation vivante du dieu sur terre, garantissant l'équilibre politique et la fécondité cosmique de l'île.</p>"
+  },
+  "commerce_maritime_amphores_romaines": {
+    "id": "commerce_maritime_amphores_romaines",
+    "badge": "ÉCONOMIE & COMMERCE ANTIQUE",
+    "title": "Le Commerce Maritime Romain et les Routes de l'Amphore",
+    "sources": "Pline l'Ancien (Histoire naturelle), Columelle (De re rustica), épigraphie amphorique du Monte Testaccio",
+    "keywords": [
+      "amphores romaines",
+      "commerce maritime romain",
+      "tituli picti",
+      "dressel",
+      "pascual 1",
+      "monte testaccio",
+      "dolium",
+      "dolia"
+    ],
+    "text": "<p>Dans l'Antiquité romaine, l'amphore en terre cuite constituait l'emballage perdu et le conteneur standard par excellence du fret maritime. À travers un réseau dense de routes maritimes reliant l'Hispanie, la Gaule, l'Italie, l'Afrique proconsulaire et l'Égypte alexandrine, des millions d'amphores acheminaient chaque année les denrées alimentaires vitales de l'Empire : le vin, l'huile d'olive indispensable à l'alimentation et aux thermes, les sauces de poisson salé (garum, liquamen) et le blé de l'annone impériale.</p><p>L'ingéniosité technique de l'amphore romaine résidait dans sa conception fonctionnelle standardisée : une panse robuste capable de résister aux chocs de navigation, de puissantes anses facilitant la préhension par les dockers (saccarii), et surtout un fond conique ou pointu. Loin d'être une coquetterie de potier, cette pointe permettait d'empiler les récipients de façon compacte dans les cales des navires de charge (naves onerariae), fichées en quinconce dans un lit de sable meuble ou calées par du branchage et de la paille afin d'amortir le roulis de la mer Méditerranée.</p><p>Sur le plan administratif, les amphores formaient de véritables documents d'archives douanières. Les ateliers de potiers (figlinae) appliquaient sur l'argile fraîche des timbres estampillés identifiant le fabricant du vase ou le grand domaine foncier. À l'embarquement et aux contrôles fiscaux des ports, des scribes traçaient au calame et à l'encre indélébile des inscriptions peintes (<em>tituli picti</em>) détaillant le poids à vide du récipient (<em>testum</em>), le poids net de la denrée liquide ou solide, le nom du domaine producteur, le nom du négociant (<em>navicularius</em> ou <em>mercator</em>) et la mention du contrôle fiscal certifié par les consuls de l'année.</p><p>Témoin spectaculaire de cette démesure logistique, le Monte Testaccio à Rome forme une colline artificielle s'élevant à près de cinquante mètres de hauteur, constituée exclusivement par l'amoncellement ordonné des débris de plus de 53 millions d'amphores à huile débarquées sur les quais du Tibre et brisées après vidange. De la Bétique d'Hispanie aux rivages d'Alexandrie et d'Emporiae, l'amphore demeure le symbole tangible de la première économie mondialisée du monde méditerranéen.</p>"
   }
 };
 
@@ -5172,3 +5189,6 @@ window.BACKGROUNDS_REGISTRY["dieu_bes"] = window.BACKGROUNDS_REGISTRY["bes_amule
 window.BACKGROUNDS_REGISTRY["sanctuaires_pheniciens"] = window.BACKGROUNDS_REGISTRY["religion_cites_pheniciennes_byblos_amrit"];
 window.BACKGROUNDS_REGISTRY["moai"] = window.BACKGROUNDS_REGISTRY["rapa_nui_culte_homme_oiseau_moai"];
 window.BACKGROUNDS_REGISTRY["tangata_manu"] = window.BACKGROUNDS_REGISTRY["rapa_nui_culte_homme_oiseau_moai"];
+
+window.BACKGROUNDS_REGISTRY["amphores_romaines"] = window.BACKGROUNDS_REGISTRY["commerce_maritime_amphores_romaines"];
+window.BACKGROUNDS_REGISTRY["commerce_maritime"] = window.BACKGROUNDS_REGISTRY["commerce_maritime_amphores_romaines"];
