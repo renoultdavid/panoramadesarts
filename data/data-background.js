@@ -4863,6 +4863,111 @@ window.BACKGROUNDS_REGISTRY = {
       "Dévotion"
     ],
     "text": "<p>Figures de proue du renouveau spirituel et pastoral consécutif au Concile de Trente, saint Charles Borromée (archevêque de Milan) et saint François de Sales (évêque de Genève) incarnent le modèle accompli de l'évêque pasteur, combinant une ferveur ascétique sans compromis à une inépuisable tendresse apostolique.</p><p>Tandis que le prélat milanais réorganise avec rigueur la discipline ecclésiastique, fonde des séminaires modèles et se dévoue corps et âme auprès des pestiférés lors de la terrible épidémie de 1576, le saint évêque de Savoie déploie une théologie de la douceur et de la charité bienveillante, ouvrant la sainteté chrétienne à tous les états de vie à travers son célèbre traité d'introduction à la vie dévote.</p><p>Dans la statuaire et l'art verrier des cathédrales, l'association de ces figures tutélaires illustre la transmission vigilante de la doctrine et le soin pastoral des âmes, proclamant que la grandeur de l'autorité épiscopale ne réside point dans le faste des cours, mais dans le sacrifice personnel et l'amour inconditionnel du troupeau qui leur est confié.</p>"
+  },
+  "arbre_de_jesse_et_genealogie_messianique": {
+    "id": "arbre_de_jesse_et_genealogie_messianique",
+    "badge": "RÉCIT BIBLIQUE • PROPHÉTIE",
+    "title": "L'Arbre de Jessé : Enracinement Virginal et Généalogie Messianique",
+    "sources": "Livre d'Isaïe (11, 1), Évangile selon saint Matthieu (1, 1–17)",
+    "keywords": [
+      "Arbre de Jessé",
+      "Isaïe",
+      "Vierge Marie",
+      "Généalogie",
+      "Messie",
+      "Rameau de Jessé"
+    ],
+    "text": "<p>Inspirée par la prophétie du livre d'Isaïe annonçant qu'un rameau sortira de la souche de Jessé et qu'un rejeton naîtra de ses racines, l'iconographie de l'Arbre de Jessé constitue l'une des représentations théologiques les plus majestueuses du Moyen Âge chrétien. Jessé, père du roi David, est figuré endormi au sol, tandis que de sa poitrine jaillit un arbre puissant dont les rameaux enlacent la lignée des rois de Juda.</p><p>Dans la typologie sacrée, la floraison suprême de cette tige végétale n'est autre que la Vierge Marie portant l'Enfant Sauveur, entourée des sept colombes mystiques symbolisant les dons du Saint-Esprit. Cet arbre généalogique affirme la double nature du Christ, enraciné dans l'histoire concrète de l'humanité et accomplissement des espérances d'Israël.</p><p>Dans l'art verrier médiéval, l'Arbre de Jessé offre une structure ascensionnelle spectaculaire où les médaillons étagés et les rinceaux feuillagés se détachent sur un bleu saphir profond, invitant le fidèle à contempler la continuité providentielle unissant l'Ancien au Nouveau Testament.</p>"
+  },
+  "reine_esther_et_figures_mariales_ancien_testament": {
+    "id": "reine_esther_et_figures_mariales_ancien_testament",
+    "badge": "RÉCIT BIBLIQUE • FIGURES MARIALES",
+    "title": "La Reine Esther et les Figures Prophétiques de l'Ancien Testament",
+    "sources": "Livre d'Esther, Exégèse patristique et médiévale",
+    "keywords": [
+      "Reine Esther",
+      "Assuérus",
+      "Intercession",
+      "Figures mariales",
+      "Salut du peuple",
+      "Judith"
+    ],
+    "text": "<p>Héroïne biblique d'une éclatante beauté et d'un courage indomptable, la reine Esther se présente devant le redoutable roi Assuérus au péril de sa vie pour plaider la cause de son peuple menacé d'extermination par le cruel décret d'Aman. Touché par sa grâce et son humilité, le souverain lui tend son sceptre d'or, lui accordant le salut des siens.</p><p>Pour les théologiens et artistes du Moyen Âge, la figure d'Esther constitue une préfiguration éminente de la Vierge Marie : de même qu'Esther obtint la clémence royale pour sauver son peuple, la Mère de Dieu se tient aux côtés du Roi céleste comme l'Avocate souveraine et l'Étoile de la mer intercédant inlassablement pour les âmes des pécheurs.</p><p>Sur les verrières des cathédrales, l'histoire d'Esther est mise en regard des scènes de l'Incarnation, illustrant avec force la théorie de la typologie biblique selon laquelle l'Ancien Testament dévoile en figures ce que le Nouveau accomplit en vérité.</p>"
+  },
+  "miracles_notre_dame_enfant_de_bourges_et_theophile": {
+    "id": "miracles_notre_dame_enfant_de_bourges_et_theophile",
+    "badge": "LÉGENDES SACRÉES • MIRACLES DE LA VIERGE",
+    "title": "Les Miracles de Notre-Dame : L'Enfant de Bourges et le Pacte de Théophile",
+    "sources": "Gautier de Coinci, Les Miracles de Nostre Dame (XIIIe s.), Légende dorée",
+    "keywords": [
+      "Miracles de Notre-Dame",
+      "Enfant de Bourges",
+      "Théophile",
+      "Pacte diabolique",
+      "Intercession mariale",
+      "Moyen Âge"
+    ],
+    "text": "<p>Au XIIIe siècle, la dévotion populaire et monastique envers la Vierge enfante un corpus foisonnant de récits hagiographiques illustrant sa bonté secourable et sa puissance salvatrice envers les plus éprouvés. Parmi les plus célèbres figure la légende de l'Enfant de Bourges, jeune écolier jeté par son père dans un four incandescent pour avoir communié à la messe, et miraculeusement préservé des flammes par le manteau protecteur de Marie.</p><p>En parallèle, le miracle du clerc Théophile met en scène le premier grand pacte diabolique de la littérature occidentale : dépouillé de sa charge, Théophile signe de son sang un pacte avec Satan avant d'être saisi d'un amer repentir. Par ses larmes et sa prière fervente, il obtient que la Mère de miséricorde descende aux enfers arracher la cédule maudite aux griffes du démon et lui rende la paix de l'âme.</p><p>Transposés en panneaux de verre chatoyants, ces récits didactiques proclamaient aux fidèles la tendresse maternelle d'une Vierge refuge des pécheurs, capable de terrasser le mal et de suspendre les lois de la nature par amour de l'humanité déchue.</p>"
+  },
+  "vierge_d_evron_et_pelerinages_mariaux": {
+    "id": "vierge_d_evron_et_pelerinages_mariaux",
+    "badge": "TRADITIONS & PÈLERINAGES",
+    "title": "La Vierge d'Évron et les Sanctuaires Marials : Reliques et Piété Médiévale",
+    "sources": "Chroniques monastiques de l'abbaye d'Évron, Histoire de la Sainte Maison de Lorette",
+    "keywords": [
+      "Vierge d'Évron",
+      "Sainte Épine",
+      "Notre-Dame de Lorette",
+      "Pèlerinage",
+      "Reliques",
+      "Maine médiéval"
+    ],
+    "text": "<p>Ancrée dans la mémoire spirituelle du Maine, la fondation de l'abbaye d'Évron remonte au VIIe siècle lorsqu'un pèlerin revenant de Terre Sainte accrocha à une épine blanche une fiole renfermant des gouttes du précieux lait de la Vierge. L'aubépine grandissant prodigieusement sans que la relique pût en être détachée, l'évêque ordonna la construction d'un sanctuaire insigne qui devint un haut lieu de pèlerinage marial.</p><p>Associée à ces traditions régionales, la dévotion à la Sainte Maison de Lorette — demeure de Nazareth miraculeusement transportée par les anges par-delà les mers — rappelle l'importance primordiale des lieux saints et de la matérialité des reliques dans l'imaginaire des chrétiens d'Occident.</p><p>Dans le programme verrier du Mans, ces récits ancrent l'Église diocésaine dans le concert universel de la piété mariale, reliant le quotidien des croyants aux mystères évangéliques par la vénération des hauts lieux et des prodiges de la grâce.</p>"
+  },
+  "archanges_et_milice_celeste_michel_et_raphael": {
+    "id": "archanges_et_milice_celeste_michel_et_raphael",
+    "badge": "HIÉRARCHIE CÉLESTE • ANGIOLOGIE",
+    "title": "Les Archanges et la Milice Céleste : Gardiens, Guérisseurs et Protecteurs",
+    "sources": "Apocalypse de saint Jean (12, 7–9), Livre de Tobie, Traités du Pseudo-Denys",
+    "keywords": [
+      "Saint Michel",
+      "Archange Raphaël",
+      "Milice céleste",
+      "Anges",
+      "Combat contre le dragon",
+      "Tobie"
+    ],
+    "text": "<p>Au sommet de la hiérarchie invisible des chœurs angéliques, les archanges sont les messagers insignes des volontés divines et les combattants victorieux contre les puissances de l'abîme. Saint Michel, chef invincible de la milice céleste, brandit le glaive de feu ou la lance de justice pour terrasser le dragon apocalyptique, tenant également la balance du Jugement pour peser les âmes au grand jour de l'éternité.</p><p>À ses côtés, l'archange Raphaël — dont le nom signifie « Dieu guérit » — veille avec une tendresse protectrice sur les pas du voyageur, comme l'atteste sa bienveillance envers le jeune Tobie qu'il guide à travers les périls du chemin tout en guérissant la cécité de son père avec le fiel du poisson.</p><p>Dans l'espace sacré des cathédrales, la présence imposante des archanges aux ailes déployées et aux armures éclatantes rassure les pèlerins : ils témoignent d'une garde spirituelle permanente veillant sur la prière liturgique et protégeant l'Église terrestre contre toute incursion du mal.</p>"
+  },
+  "grands_martyrs_romains_gervais_protais_laurent_etienne_sebastien": {
+    "id": "grands_martyrs_romains_gervais_protais_laurent_etienne_sebastien",
+    "badge": "HAGIOGRAPHIE • PREMIERS MARTYRS",
+    "title": "Les Grands Martyrs de l'Église Antique : Le Témoignage Invincible du Sang",
+    "sources": "Actes des Martyrs, La Légende dorée de Jacques de Voragine",
+    "keywords": [
+      "Saint Laurent",
+      "Saint Étienne",
+      "Gervais et Protais",
+      "Saint Sébastien",
+      "Saint Vincent",
+      "Martyre"
+    ],
+    "text": "<p>Les premiers siècles de l'Église sont marqués par le sacrifice héroïque de chrétiens intrépides ayant préféré le martyre à l'abjuration. Parmi eux, les archidiacres Étienne, lapidé aux portes de Jérusalem, et Laurent, supplicié sur le gril de fer à Rome pour avoir refusé de livrer les trésors de l'Église aux païens, demeurent les prototypes insurpassés du diaconat charitable et du don total de soi.</p><p>Autour d'eux rayonnent les figures indissociables des frères jumeaux Gervais et Protais, martyrs milanais découverts par saint Ambroise, de saint Vincent diacre espagnol torturé à Valence, et de saint Sébastien percé de flèches sous Dioclétien. Leurs souffrances partagées scellent l'universalité et la concorde de la foi face aux persécutions impériales.</p><p>Dans les hautes verrières des édifices gothiques, les martyrs sont vêtus de la dalmatique diaconale ou de la tunique pourpre, brandissant la palme du triomphe éternel pour rappeler aux fidèles que le sang des témoins constitue la semence inépuisable de l'Église vivante.</p>"
+  },
+  "jeanne_d_arc_heroine_patronne_france": {
+    "id": "jeanne_d_arc_heroine_patronne_france",
+    "badge": "HISTOIRE & HAGIOGRAPHIE • ÉPOPÉE",
+    "title": "Sainte Jeanne d'Arc : La Vocation Céleste, la Bataille et l'Holocauste de Rouen",
+    "sources": "Procès de condamnation et de réhabilitation (1431, 1456), Chroniques du XVe s.",
+    "keywords": [
+      "Jeanne d'Arc",
+      "Voix célestes",
+      "Domrémy",
+      "Orléans",
+      "Sacre de Reims",
+      "Martyre de Rouen"
+    ],
+    "text": "<p>Née à Domrémy au cœur de la guerre de Cent Ans, humble bergère inspirée par les voix célestes de l'archange saint Michel, de sainte Catherine et de sainte Marguerite, Jeanne d'Arc accomplit un destin prodigieux qui renversa le cours de l'histoire de France. Animée d'une foi inébranlable et vêtue d'une armure blanche, elle délivre Orléans assiégée avant de conduire le dauphin Charles jusqu'à la cathédrale de Reims pour y recevoir l'onction sainte du sacre.</p><p>Capturée sous les remparts de Compiègne, livrée à ses ennemis et soumise à un procès d'inquisition inique où son bon sens et sa candeur héroïque déconcertèrent ses juges, elle consomme son sacrifice le 30 mai 1431 sur le bûcher de Rouen, rendant son dernier soupir au nom de Jésus et tenant la croix sous les yeux de la foule bouleversée.</p><p>Dans l'art verrier néo-gothique, l'épopée johannique est célébrée comme le symbole vibrant du patriotisme chrétien et de la pureté du sacrifice. Ses verrières déploient l'étendard fleurdelisé et les étapes d'une existence fulgurante où la sainteté triomphe de la violence des hommes.</p>"
   }
 };
 
@@ -4957,3 +5062,13 @@ window.BACKGROUNDS_REGISTRY["noces_de_cana"] = window.BACKGROUNDS_REGISTRY["noce
 window.BACKGROUNDS_REGISTRY["sainte_cecile"] = window.BACKGROUNDS_REGISTRY["sainte_cecile_martyre_et_patronne_des_musiciens"];
 window.BACKGROUNDS_REGISTRY["charles_borromee"] = window.BACKGROUNDS_REGISTRY["grands_pasteurs_et_reformateurs_charles_borromee_francois_de_sales"];
 window.BACKGROUNDS_REGISTRY["francois_de_sales"] = window.BACKGROUNDS_REGISTRY["grands_pasteurs_et_reformateurs_charles_borromee_francois_de_sales"];
+
+window.BACKGROUNDS_REGISTRY["arbre_de_jesse"] = window.BACKGROUNDS_REGISTRY["arbre_de_jesse_et_genealogie_messianique"];
+window.BACKGROUNDS_REGISTRY["reine_esther"] = window.BACKGROUNDS_REGISTRY["reine_esther_et_figures_mariales_ancien_testament"];
+window.BACKGROUNDS_REGISTRY["enfant_de_bourges"] = window.BACKGROUNDS_REGISTRY["miracles_notre_dame_enfant_de_bourges_et_theophile"];
+window.BACKGROUNDS_REGISTRY["theophile"] = window.BACKGROUNDS_REGISTRY["miracles_notre_dame_enfant_de_bourges_et_theophile"];
+window.BACKGROUNDS_REGISTRY["vierge_evron"] = window.BACKGROUNDS_REGISTRY["vierge_d_evron_et_pelerinages_mariaux"];
+window.BACKGROUNDS_REGISTRY["notre_dame_de_lorette"] = window.BACKGROUNDS_REGISTRY["vierge_d_evron_et_pelerinages_mariaux"];
+window.BACKGROUNDS_REGISTRY["archange_michel"] = window.BACKGROUNDS_REGISTRY["archanges_et_milice_celeste_michel_et_raphael"];
+window.BACKGROUNDS_REGISTRY["martyrs_romains"] = window.BACKGROUNDS_REGISTRY["grands_martyrs_romains_gervais_protais_laurent_etienne_sebastien"];
+window.BACKGROUNDS_REGISTRY["jeanne_d_arc"] = window.BACKGROUNDS_REGISTRY["jeanne_d_arc_heroine_patronne_france"];
