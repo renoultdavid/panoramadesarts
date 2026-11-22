@@ -2481,6 +2481,7 @@ body {
 #timeline-split-wrapper {
   flex: 1;
   display: flex;
+  align-items: flex-start !important;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto !important;
@@ -2505,6 +2506,7 @@ body {
 #timeline-labels-column {
   width: 230px;
   flex-shrink: 0;
+  align-self: flex-start !important;
   background: rgba(8, 10, 14, 0.98);
   border-right: 2px solid rgba(212, 175, 55, 0.3);
   display: flex;
@@ -2548,6 +2550,7 @@ body {
   flex: 1 1 0 !important;
   min-width: 0 !important;
   width: 0 !important;
+  align-self: flex-start !important;
   cursor: grab;
   position: relative;
   overflow: hidden !important;
