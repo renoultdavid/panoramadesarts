@@ -58,9 +58,10 @@
       </button>
 
       <!-- Bouton Revenir au Cabinet des Curiosités -->
-      <button id="btn-nav-return-curiosities" class="btn-header-nav btn-header-curiosities" title="Revenir au Cabinet des Curiosités" style="display: none;">
+      <button id="btn-nav-return-curiosities" class="btn-header-nav btn-header-curiosities"
+        title="Revenir au Cabinet des Curiosités" style="display: none;">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
         </svg>
         <span>Cabinet</span>
       </button>
@@ -87,7 +88,8 @@
       <div class="portal-panel-content">
         <span class="portal-badge">MODULE 01</span>
         <h2 class="portal-title">Cabinet des Curiosités</h2>
-        <p class="portal-desc">Laissez-vous surprendre : quatuor aléatoire, face-à-face inattendu, loupe mystère, roulette temporelle et micro-galeries insolites.</p>
+        <p class="portal-desc">Laissez-vous surprendre : quatuor aléatoire, face-à-face inattendu, loupe mystère,
+          roulette temporelle et micro-galeries insolites.</p>
         <button class="portal-cta-btn">
           <span>Entrer dans le cabinet</span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -142,16 +144,20 @@
       <header class="curiosities-header">
         <div class="curiosities-header-titles">
           <h1 class="curiosities-main-title">Cabinet des Curiosités</h1>
-          <p class="curiosities-tagline">Voyages impromptus, analogies secrètes et découvertes fortuites à travers 5 000 ans d'histoire des arts.</p>
+          <p class="curiosities-tagline">Voyages impromptus, analogies secrètes et découvertes fortuites à travers 5 000
+            ans d'histoire des arts.</p>
         </div>
 
         <div class="curiosities-controls-bar">
           <!-- Indicateur de compte à rebours 30s -->
-          <div class="curiosities-timer-indicator" id="curiosities-timer-container" title="Renouvellement automatique toutes les 30 secondes">
+          <div class="curiosities-timer-indicator" id="curiosities-timer-container"
+            title="Renouvellement automatique toutes les 30 secondes">
             <div class="timer-pie-wrap">
               <svg class="timer-svg" viewBox="0 0 36 36">
-                <path class="timer-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <path id="curiosities-timer-progress" class="timer-progress" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="timer-bg"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path id="curiosities-timer-progress" class="timer-progress" stroke-dasharray="100, 100"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
               </svg>
               <span id="curiosities-timer-num" class="timer-num">30s</span>
             </div>
@@ -159,19 +165,22 @@
           </div>
 
           <!-- Bouton Pause / Reprendre -->
-          <button type="button" class="btn-curio-ctrl" id="btn-curiosities-pause" title="Mettre en pause ou relancer la rotation">
+          <button type="button" class="btn-curio-ctrl" id="btn-curiosities-pause"
+            title="Mettre en pause ou relancer la rotation">
             <span class="ctrl-icon" id="curiosities-pause-icon">⏸</span>
             <span class="ctrl-text" id="curiosities-pause-text">Pause</span>
           </button>
 
           <!-- Bouton Tout Relancer -->
-          <button type="button" class="btn-curio-ctrl btn-curio-primary" id="btn-curiosities-reroll-all" title="Renouveler immédiatement tous les modules">
+          <button type="button" class="btn-curio-ctrl btn-curio-primary" id="btn-curiosities-reroll-all"
+            title="Renouveler immédiatement tous les modules">
             <span class="ctrl-icon">🎲</span>
             <span class="ctrl-text">Tout Relancer</span>
           </button>
 
           <!-- Bouton Retour au Hub -->
-          <button type="button" class="btn-curio-ctrl btn-curio-back" id="btn-curiosities-back-hub" title="Revenir au portail d'accueil">
+          <button type="button" class="btn-curio-ctrl btn-curio-back" id="btn-curiosities-back-hub"
+            title="Revenir au portail d'accueil">
             <span class="ctrl-icon">↩</span>
             <span class="ctrl-text">Portail</span>
           </button>
@@ -184,7 +193,8 @@
           <div class="section-heading">
             <span class="sec-badge">MODULE INTERACTIF 01</span>
             <h2 class="sec-title">Le Quatuor Aléatoire Tournant</h2>
-            <p class="sec-desc">Quatre regards simultanés sur la collection, renouvelés automatiquement toutes les 30 secondes ou au clic individuel.</p>
+            <p class="sec-desc">Quatre regards simultanés sur la collection, renouvelés automatiquement toutes les 30
+              secondes ou au clic individuel.</p>
           </div>
         </div>
 
@@ -214,7 +224,8 @@
           <article class="curio-card curio-card-artist" id="curio-card-artist">
             <div class="curio-card-header">
               <span class="curio-card-pill">✦ MAÎTRE &amp; VISIONNAIRE</span>
-              <button type="button" class="curio-dice-btn" id="btn-reroll-artist" title="Tirer un autre artiste">🎲</button>
+              <button type="button" class="curio-dice-btn" id="btn-reroll-artist"
+                title="Tirer un autre artiste">🎲</button>
             </div>
             <div class="curio-card-media-wrap">
               <img id="curio-artist-img" src="" alt="Artiste" class="curio-card-img" />
@@ -235,7 +246,8 @@
           <article class="curio-card curio-card-civ" id="curio-card-civ">
             <div class="curio-card-header">
               <span class="curio-card-pill">✦ CIVILISATION DU MONDE</span>
-              <button type="button" class="curio-dice-btn" id="btn-reroll-civ" title="Tirer une autre civilisation">🎲</button>
+              <button type="button" class="curio-dice-btn" id="btn-reroll-civ"
+                title="Tirer une autre civilisation">🎲</button>
             </div>
             <div class="curio-card-media-wrap">
               <img id="curio-civ-img" src="" alt="Civilisation" class="curio-card-img" />
@@ -256,7 +268,8 @@
           <article class="curio-card curio-card-mov" id="curio-card-mov">
             <div class="curio-card-header">
               <span class="curio-card-pill">✦ COURANT &amp; AVANT-GARDE</span>
-              <button type="button" class="curio-dice-btn" id="btn-reroll-mov" title="Tirer un autre mouvement">🎲</button>
+              <button type="button" class="curio-dice-btn" id="btn-reroll-mov"
+                title="Tirer un autre mouvement">🎲</button>
             </div>
             <div class="curio-card-media-wrap">
               <img id="curio-mov-img" src="" alt="Mouvement" class="curio-card-img" />
@@ -281,7 +294,8 @@
           <div class="section-heading">
             <span class="sec-badge">MODULE INTERACTIF 02</span>
             <h2 class="sec-title">Le Grand Face-à-Face Inattendu</h2>
-            <p class="sec-desc">Deux œuvres, deux époques ou continents distincts, mis en résonance autour d'une affinité visuelle ou poétique secrète.</p>
+            <p class="sec-desc">Deux œuvres, deux époques ou continents distincts, mis en résonance autour d'une
+              affinité visuelle ou poétique secrète.</p>
           </div>
           <button type="button" class="btn-curio-ctrl" id="btn-curiosities-reroll-versus">
             <span class="ctrl-icon">🎲</span>
@@ -337,7 +351,8 @@
           <div class="section-heading">
             <span class="sec-badge">MODULE INTERACTIF 03</span>
             <h2 class="sec-title">L'Œil du Conservateur : Le Détail Mystère</h2>
-            <p class="sec-desc">Sauriez-vous identifier le chef-d'œuvre à partir d'un détail microscopique extrait de la toile ?</p>
+            <p class="sec-desc">Sauriez-vous identifier le chef-d'œuvre à partir d'un détail microscopique extrait de la
+              toile ?</p>
           </div>
           <button type="button" class="btn-curio-ctrl" id="btn-curiosities-reroll-mystery">
             <span class="ctrl-icon">🎲</span>
@@ -361,9 +376,11 @@
             <div class="mystery-clues-box">
               <span class="mystery-clue-title">✦ INDICES DU RESTAURATEUR</span>
               <ul class="mystery-clues-list">
-                <li><span class="clue-tag">Technique :</span> <span id="mystery-clue-tech">Peinture sur toile</span></li>
+                <li><span class="clue-tag">Technique :</span> <span id="mystery-clue-tech">Peinture sur toile</span>
+                </li>
                 <li><span class="clue-tag">Époque :</span> <span id="mystery-clue-period">XVIIe siècle</span></li>
-                <li><span class="clue-tag">Foyer d'art :</span> <span id="mystery-clue-region">Europe occidentale</span></li>
+                <li><span class="clue-tag">Foyer d'art :</span> <span id="mystery-clue-region">Europe occidentale</span>
+                </li>
               </ul>
             </div>
 
@@ -379,7 +396,8 @@
               <h4 id="mystery-revealed-title" class="revealed-title">La Jeune Fille à la perle</h4>
               <p id="mystery-revealed-author" class="revealed-author">Johannes Vermeer (1665)</p>
               <p id="mystery-revealed-desc" class="revealed-desc">...</p>
-              <button type="button" class="btn-revealed-open" id="btn-open-mystery-art">Consulter la fiche complète ➔</button>
+              <button type="button" class="btn-revealed-open" id="btn-open-mystery-art">Consulter la fiche complète
+                ➔</button>
             </div>
           </div>
         </div>
@@ -391,7 +409,8 @@
           <div class="section-heading">
             <span class="sec-badge">MODULE INTERACTIF 04</span>
             <h2 class="sec-title">La Roulette Temporelle : Synchronisme Mondial</h2>
-            <p class="sec-desc">Choisissez une année au hasard et découvrez ce que les civilisations du monde créaient simultanément.</p>
+            <p class="sec-desc">Choisissez une année au hasard et découvrez ce que les civilisations du monde créaient
+              simultanément.</p>
           </div>
           <button type="button" class="btn-curio-ctrl" id="btn-curiosities-spin-year">
             <span class="ctrl-icon">🎲</span>
@@ -402,7 +421,8 @@
         <div class="curio-roulette-card">
           <div class="roulette-year-banner">
             <div class="roulette-year-counter" id="roulette-year-val">AN 1508</div>
-            <div class="roulette-year-subtitle" id="roulette-year-subtitle">L'aube de la Haute Renaissance &amp; le monde aux grandes découvertes</div>
+            <div class="roulette-year-subtitle" id="roulette-year-subtitle">L'aube de la Haute Renaissance &amp; le
+              monde aux grandes découvertes</div>
             <button type="button" class="btn-teleport-timeline" id="btn-curiosities-goto-timeline">
               <span>⏱️ Téléporter la Frise Chronologique à cette date</span>
               <span class="action-arrow">➔</span>
@@ -443,7 +463,8 @@
         <span class="return-arrow">↩</span>
         <span id="gallery-return-timeline-label">Revenir à la Frise Chronologique</span>
       </button>
-      <button type="button" id="btn-gallery-return-curiosities" class="btn-gallery-return-timeline" style="display: none; background: rgba(212, 175, 55, 0.25); border-color: var(--gold-pure); color: #fff;">
+      <button type="button" id="btn-gallery-return-curiosities" class="btn-gallery-return-timeline"
+        style="display: none; background: rgba(212, 175, 55, 0.25); border-color: var(--gold-pure); color: #fff;">
         <span class="return-arrow">↩</span>
         <span>Revenir au Cabinet des Curiosités</span>
       </button>
@@ -555,11 +576,14 @@
         <div class="themes-drawer-header">
           <div class="themes-drawer-title-group">
             <span class="themes-drawer-badge">🏷️ EXPLORATEUR THÉMATIQUE DES MAÎTRES</span>
-            <span class="themes-drawer-subtitle" id="themes-drawer-breadcrumb">Sélectionnez un grand thème iconographique pour filtrer les œuvres et les artistes</span>
+            <span class="themes-drawer-subtitle" id="themes-drawer-breadcrumb">Sélectionnez un grand thème
+              iconographique pour filtrer les œuvres et les artistes</span>
           </div>
           <div class="themes-drawer-header-actions">
-            <button type="button" class="btn-reset-theme-explorer" id="btn-reset-theme-explorer" hidden>↺ Tout afficher</button>
-            <button type="button" class="btn-close-drawer-letter" id="btn-close-themes-drawer" title="Fermer l'explorateur thématique">✕</button>
+            <button type="button" class="btn-reset-theme-explorer" id="btn-reset-theme-explorer" hidden>↺ Tout
+              afficher</button>
+            <button type="button" class="btn-close-drawer-letter" id="btn-close-themes-drawer"
+              title="Fermer l'explorateur thématique">✕</button>
           </div>
         </div>
 
@@ -649,7 +673,8 @@
         <div class="artist-hero-banner" id="artist-hero-banner">
           <div class="artist-hero-actions-top">
             <button class="btn-return-curiosities-artist" id="btn-return-curiosities-artist" type="button"
-              title="Revenir au Cabinet des Curiosités" style="display: none; background: rgba(212, 175, 55, 0.25); border-color: var(--gold-pure); color: #fff;">
+              title="Revenir au Cabinet des Curiosités"
+              style="display: none; background: rgba(212, 175, 55, 0.25); border-color: var(--gold-pure); color: #fff;">
               ◀ Revenir au Cabinet
             </button>
             <button class="btn-return-timeline-artist" id="btn-return-timeline-artist" type="button"
@@ -883,8 +908,9 @@
             </div>
 
             <div class="pavilion-header-right">
-              <button type="button" class="btn-close-pavilion btn-return-curiosities" id="btn-return-curiosities-pavilion"
-                title="Fermer et revenir au Cabinet des Curiosités" style="display: none; background: rgba(212, 175, 55, 0.25); border-color: var(--gold-pure); color: #fff; margin-right: 8px;">
+              <button type="button" class="btn-close-pavilion btn-return-curiosities"
+                id="btn-return-curiosities-pavilion" title="Fermer et revenir au Cabinet des Curiosités"
+                style="display: none; background: rgba(212, 175, 55, 0.25); border-color: var(--gold-pure); color: #fff; margin-right: 8px;">
                 <span class="close-icon">↩</span>
                 <span>Revenir au Cabinet</span>
               </button>
@@ -1234,7 +1260,8 @@
                 <h4 class="story-drawer-title" id="story-drawer-title">Titre du Récit</h4>
                 <div class="story-drawer-source" id="story-drawer-source"></div>
               </div>
-              <button type="button" class="btn-story-drawer-close" id="btn-story-drawer-close" aria-label="Fermer l'éclairage">✕</button>
+              <button type="button" class="btn-story-drawer-close" id="btn-story-drawer-close"
+                aria-label="Fermer l'éclairage">✕</button>
             </div>
             <div class="story-drawer-body" id="story-drawer-body"></div>
           </div>
