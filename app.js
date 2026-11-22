@@ -11971,15 +11971,23 @@ function isPainting(art) {
 }
 
 function formatCardBadgeDate(art) {
+  // Pour un peintre ou créateur : privilégier l'année précise (ex: "1659", "1671 – 1682", "1529", "v. 1530")
+  if (art.artist || art.creator) {
+    const d = (art.dateDisplay || art.date || '').trim();
+    if (d && d.length <= 16 && !/^([iIvVxXlLcCdDmM]+e?\s*s(\.|iècle)?)$/i.test(d)) {
+      return d;
+    }
+    const rawMatch = (art.centuryDisplay || art.century || '').match(/\(([^)]+)\)/);
+    if (rawMatch && rawMatch[1].trim().length <= 16) {
+      return rawMatch[1].trim();
+    }
+    if (typeof art.centuryNumeric === 'number' && Number.isFinite(art.centuryNumeric)) {
+      return art.centuryNumeric < 0 ? `v. ${Math.abs(art.centuryNumeric)} av. J.-C.` : String(art.centuryNumeric);
+    }
+  }
+
   const raw = (art.centuryDisplay || art.century || '').trim();
   if (!raw && typeof art.centuryNumeric !== 'number') return '';
-
-  // Pour un peintre ou créateur : privilégier l'année courte (ex: "1529", "v. 1530")
-  if (art.artist || art.creator) {
-    const shortArtistDate = raw.replace(/\s*\([^)]*\)/g, '').trim();
-    if (shortArtistDate && shortArtistDate.length <= 16) return shortArtistDate;
-    if (typeof art.centuryNumeric === 'number') return String(art.centuryNumeric);
-  }
 
   // Nettoyage des parenthèses (dynasties, précisions longues) et abréviation de "siècle"
   let short = raw.replace(/\s*\([^)]*\)/g, '').trim();
