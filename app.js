@@ -1716,6 +1716,23 @@ const BANNERS_REGISTRY = {
   // 20. Art du Vitrail & Grandes Verrières
   vitrail: "https://lh3.googleusercontent.com/pw/AP1GczNPn7w6v3vLLCflkUietzW-rqrZ0cMvL2_ksb1joMojOJd7SlNxd_uqN1B0ErdgFHdax-ccX_MGTGzHviLiuk-q1n8DSzBq7QcRpdC3jwssJ_0vgYMt-n1N6qP1bBSPyz3SypjixdBLcutuDG1itI7eHA=w1836-h779-s-no-gm?authuser=0",
   art_du_vitrail: "https://lh3.googleusercontent.com/pw/AP1GczNPn7w6v3vLLCflkUietzW-rqrZ0cMvL2_ksb1joMojOJd7SlNxd_uqN1B0ErdgFHdax-ccX_MGTGzHviLiuk-q1n8DSzBq7QcRpdC3jwssJ_0vgYMt-n1N6qP1bBSPyz3SypjixdBLcutuDG1itI7eHA=w1836-h779-s-no-gm?authuser=0",
+
+  // 21. Rome antique (par typologie & médium)
+  rome_ceramique: "https://lh3.googleusercontent.com/pw/AP1GczMMSdKsFU1qS-isZORLL9dtGo8GguKDmvn-P8l5wbfgBSpzsl1ZRmsK52FF_ISiz5ws17jqo3uiTBccdt6wL1k4O9dEVKnh5Q3R1Nr_-WSq6ES_nLgHkyOlCvvFUcpSq_ko_dZqSFs53p1GF-bu3Kr4CQ=w1584-h672-s-no-gm?authuser=0",
+  rome_mosaique: "https://lh3.googleusercontent.com/pw/AP1GczPvYZzAvytNNYz4mM16tKTiA45vSTjPLR8whH4z7nsuuFZVPsIV1CO0wjc8xCINw7Gmm3hzGWzSw4JY55A4lQfzjBgaCx7Antc40F6yU0YHA0yZKWP2RCz1jae8O8dWp4xdxEgPOkEzW96qX4kSZWQdzA=w1654-h702-s-no-gm?authuser=0",
+  rome_numismatique: "https://lh3.googleusercontent.com/pw/AP1GczNmiCg8PTskg_coN-LaeHNTJybp0XDA307Hk7Sxn3xhacXg-oYd6RDa_F9c8h8DIJrAqwYOee7sNb9eCSKb_UaWI9FKh8Rv9aYEt3zaKu3S2L79mXHohrnddOM_8zEFcGroUpARJupUweNeY_wYfyqKRw=w1654-h702-s-no-gm?authuser=0",
+  rome_orfevrerie: "https://lh3.googleusercontent.com/pw/AP1GczP4SI1aA7AD9CggC8E12BKnKbDDjUDt3_6fPO3Iu4b9pJHKc-M7XQPtPKbEI_EZaStw0fAEyxlT2Ha8N-w7YVWWTQbgv1f6SBdfmHekOmdrCrLpnVLkr-6SlCTOTtqgTQApOyNkJaaaVeA936GFseHW6Q=w1654-h702-s-no-gm?authuser=0",
+  rome_peinture: "https://lh3.googleusercontent.com/pw/AP1GczPbuAXOAbPk6IGAlfvW1EmbUxfWfuzFrqmqBViJrBKnkmNeuDSxZCi_Wt0WbdHQcQkWNxSfocFtaoGI7Wjpt8-aYaST_dLowMgPxdFimElp7aIUQSvSkp33Wbna2D5lMcc1X0clZkTDLYHt-UvidmAAjQ=w1654-h702-s-no-gm?authuser=0",
+  rome_sculpture_funeraire: "https://lh3.googleusercontent.com/pw/AP1GczPelvXkgPHmHS8Pf66szPPSJJi1mMQTiKfNwdLLm77x62vccnWaVXAvU0N-4TGRVnpWEfiW93yoEbUU8zto8f3GmXfyZN6LTNXrbnJcvXGKyyV-tFJoBvtW5NqT_N78x2vFd8WjjpVBrWIAcSWQ4Uf6Nw=w1654-h702-s-no-gm?authuser=0",
+  rome_sculpture_civile_monuments: "https://lh3.googleusercontent.com/pw/AP1GczOsMbeR66g2vAyNKmVpzBHCB8SEejLxQjLLbPgM09l6hontY_mtVWFvCkJXPPjs-WESKuqCuN9tIbURJT-xQ-ZG-SbYJpHRBDpowf3DZ4j3eDNmDSV11Mdx9DonkzJAt95Xb3XGU-XqH0ld9GjYM0z9Dw=w1654-h702-s-no-gm?authuser=0",
+  rome_sculpture_statuaire: "https://lh3.googleusercontent.com/pw/AP1GczP_rX6owMp3DZJBGJTS5NxA69QOtCEipQpr8bIE0BtcQMA1TM87ATSn4S3I2z9VDn0IXbN4-5rQHWzfv6ZZFNvZ9P-ZjcQvTyxV1_1s3FjvhUq_XAP8TsJe4tXZCbq43ZcxKxiy9CMoacc93mDGP9xYtg=w1654-h702-s-no-gm?authuser=0",
+  rome_vie_quotidienne: "https://lh3.googleusercontent.com/pw/AP1GczOxrGOnK9lQzQBrw0G0lp1Sv6962HgU4VK8HfLc9VjajtnKAvYrYqiLYu7DTRjpoYOsX8S6s9g5ExZUKZ0G0CdQg6XzzCtbQWLOG8Hnj9KQVZ3w5mACNnai7UQ6-aUompUcn4IEF9F8ia8_9h-gyw5nhg=w1654-h702-s-no-gm?authuser=0",
+
+  // 22. Phéniciens & Monde punique
+  pheniciens: "https://lh3.googleusercontent.com/pw/AP1GczNYE7TN7fpBpW9ifnHHszWHLgvhXQ_YcLUm4qihA1RhnCr27lLKn0zgaYDl3SOlItCThvF3bxfnwSrPCdtzFXenXuTBwF859B47JS6nEzEldcKxxgiVK5Y5HPctMhVTQJ4pWCuW2hdcqRqZFcfjY4MGyg=w1654-h702-s-no-gm?authuser=0",
+
+  // 23. Rapa Nui (Île de Pâques)
+  rapa_nui: "https://lh3.googleusercontent.com/pw/AP1GczOH-XTyK4H-lYskAH491-Yqyn13Gbg1PY4wR8XVXkQe5vP1NTb4puUnBU4352vDkKRbrfxQ4ZHyO8HSFfM6NxB2YnA6ZGdvUOouGpgpuKZDAvzxorl8QmoA98L5O-zt8ri28oey7wekQ251AaQVlnkWvA=w1654-h702-s-no-gm?authuser=0",
 };
 
 function getArtworkBanner(art) {
@@ -1801,6 +1818,49 @@ function getArtworkBanner(art) {
   // 2. ÉTRUSQUES
   if (cId.startsWith('etrusque') || pId.startsWith('etrusque') || (cId === 'italie_etrusque' && !pId.includes('grande_grece') && !pId.includes('italie_peuples'))) {
     return BANNERS_REGISTRY.etrusque;
+  }
+
+  // 2b. ROME ANTIQUE (par médium & catégorie)
+  const isRoman = cId === 'rome' || pId.startsWith('rome_') || cId.startsWith('rome') || fullText.includes('romain') || fullText.includes('romaine');
+  if (isRoman) {
+    if (fullText.includes('mosaïque') || fullText.includes('mosaique') || fullText.includes('emblema') || fullText.includes('tesselle')) {
+      return BANNERS_REGISTRY.rome_mosaique;
+    }
+    if (fullText.includes('monnaie') || fullText.includes('numismatique') || fullText.includes('dénier') || fullText.includes('denier') || fullText.includes('aureus') || fullText.includes('sesterce') || fullText.includes('solidus') || fullText.includes('as ')) {
+      return BANNERS_REGISTRY.rome_numismatique;
+    }
+    if (fullText.includes('orfèvrerie') || fullText.includes('orfevrerie') || fullText.includes('trésor') || fullText.includes('tresor') || fullText.includes('argent') || fullText.includes('argenterie') || fullText.includes('bijou') || fullText.includes('camée') || fullText.includes('camee')) {
+      return BANNERS_REGISTRY.rome_orfevrerie;
+    }
+    if (fullText.includes('peinture') || fullText.includes('fresque') || fullText.includes('enduit peint') || fullText.includes('style pompéien') || fullText.includes('pompéi') || fullText.includes('herculanum')) {
+      return BANNERS_REGISTRY.rome_peinture;
+    }
+    if (fullText.includes('funéraire') || fullText.includes('funeraire') || fullText.includes('sarcophage') || fullText.includes('cippe') || fullText.includes('urne cinéraire') || fullText.includes('columbarium')) {
+      return BANNERS_REGISTRY.rome_sculpture_funeraire;
+    }
+    if (fullText.includes('monument') || fullText.includes('arc de triomphe') || fullText.includes('colonne') || fullText.includes('bas-relief historique') || fullText.includes('forum') || fullText.includes('thermes') || fullText.includes('amphithéâtre') || fullText.includes('colisée')) {
+      return BANNERS_REGISTRY.rome_sculpture_civile_monuments;
+    }
+    if (fullText.includes('statue') || fullText.includes('statuaire') || fullText.includes('buste') || fullText.includes('portrait') || fullText.includes('togatus') || fullText.includes('impérial') || fullText.includes('ronde-bosse') || fullText.includes('bronze') || fullText.includes('marbre')) {
+      return BANNERS_REGISTRY.rome_sculpture_statuaire;
+    }
+    if (fullText.includes('céramique') || fullText.includes('ceramique') || fullText.includes('sigillée') || fullText.includes('arétine') || fullText.includes('amphore') || fullText.includes('terre cuite')) {
+      return BANNERS_REGISTRY.rome_ceramique;
+    }
+    if (fullText.includes('quotidien') || fullText.includes('verrerie') || fullText.includes('verre') || fullText.includes('cuisine') || fullText.includes('beauté') || fullText.includes('commerce') || fullText.includes('jeux') || fullText.includes('médecine') || fullText.includes('theatre') || fullText.includes('théâtre') || fullText.includes('travail') || fullText.includes('superstition')) {
+      return BANNERS_REGISTRY.rome_vie_quotidienne;
+    }
+    return BANNERS_REGISTRY.rome_sculpture_civile_monuments;
+  }
+
+  // 2c. PHÉNICIENS & MONDE PUNIQUE
+  if (cId === 'pheniciens' || cId === 'phenicie' || pId.startsWith('phenic') || fullText.includes('phénic') || fullText.includes('punique') || fullText.includes('carthage')) {
+    return BANNERS_REGISTRY.pheniciens;
+  }
+
+  // 2d. RAPA NUI (ÎLE DE PÂQUES)
+  if (cId === 'rapa_nui' || pId.startsWith('rapa') || fullText.includes('rapa nui') || fullText.includes('pâques') || fullText.includes('moaï') || fullText.includes('moai')) {
+    return BANNERS_REGISTRY.rapa_nui;
   }
 
   // 3. ITALIE PRÉROMAINE & GRANDE-GRÈCE
@@ -2780,6 +2840,101 @@ const CIVILISATIONS_REGISTRY = [
     artifacts: []
   },
   {
+    id: "rome_republique",
+    name: "Rome : République romaine",
+    epoch: "-509 à -27 av. J.-C.",
+    yearStart: -509,
+    yearEnd: -27,
+    lane: "rome",
+    themeColor: "#b91c1c",
+    sidePos: "pos-left",
+    travelingOrigin: "50.5% 42.5%",
+    haloId: "halo-rome",
+    bannerImg: BANNERS_REGISTRY.rome_sculpture_statuaire,
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>L'austérité républicaine, le réalisme vériste et la conquête du monde</strong><br>
+      De la chute des rois étrusques en 509 av. J.-C. jusqu'à la fin des guerres civiles et l'avènement d'Auguste en 27 av. J.-C., la République romaine forge les vertus civiques (virtus, gravitas, pietas) et la puissance militaire qui transformeront une cité du Latium en maîtresse de la Méditerranée.</p>
+      <p>L'art républicain se distingue par un sens aigu de la vérité humaine : dans la statuaire et le portrait, le vérisme refuse l'idéalisation grecque pour immortaliser des visages patriciens marqués par l'âge et le devoir civique. La céramique sigillée, l'essor numismatique des deniers d'argent et l'urbanisme monumental du Forum Boarium et du Champ de Mars posent les jalons d'un empire mondial.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Rome républicaine au contact du monde méditerranéen</strong></p>
+      <p>Au fil de ses conquêtes, la République affronte et soumet les grandes puissances contemporaines : les Étrusques en Italie centrale, Carthage lors des trois guerres puniques menées contre Hannibal, puis les royaumes hellénistiques de Grèce et d'Orient, assimilant avec brio leur héritage philosophique et artistique.</p>
+    `,
+    themeAlbums: [
+      { label: "🏛️ Monuments & Forum républicain", url: "" },
+      { label: "🗿 Portraits véristes & Bustes patriciens", url: "" },
+      { label: "🏺 Céramiques & Sigillées arétines", url: "" },
+      { label: "🪙 Monnaies & Déniers républicains", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "rome_haut_empire",
+    name: "Rome : Haut-Empire (Principat & Âge d'or)",
+    epoch: "-27 av. J.-C. à +284 apr. J.-C.",
+    yearStart: -27,
+    yearEnd: 284,
+    lane: "rome",
+    themeColor: "#dc2626",
+    sidePos: "pos-left",
+    travelingOrigin: "50.5% 42.5%",
+    haloId: "halo-rome",
+    bannerImg: BANNERS_REGISTRY.rome_sculpture_civile_monuments,
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>L'apogée monumental, la Pax Romana et la splendeur impériale</strong><br>
+      Inauguré par Auguste et consolidé par les Flaviens et les Antonins (Trajan, Hadrien, Marc Aurèle), le Haut-Empire romain porte l'ingénierie, l'urbanisme et les arts visuels à une monumentalité sans égale dans le monde antique.</p>
+      <p>L'invention du béton romain, de l'arc et de la voûte permet d'ériger le Panthéon, le Colisée, des thermes gigantesques et des aqueducs audacieux. La statuaire impériale magnifie le souverain protecteur de l'ordre cosmique, tandis que les villas de Pompéi et d'Herculanum déploient des fresques murales raffinées et des mosaïques polychromes. L'orfèvrerie ciselée, les camées, la verrerie d'art et le monnayage d'or (aureus) traduisent une prospérité matérielle éclatante.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Le monde contemporain du Haut-Empire romain (Ier - IIIe siècles)</strong></p>
+      <p>Tandis que Rome gouverne un empire de soixante millions d'habitants de la Bretagne à l'Égypte, l'Empire parthe puis perse sassanide s'affirme comme son grand rival en Orient, l'Empire kouchan fait fleurir l'art gréco-bouddhique du Gandhara et la dynastie chinoise des Han sécurise les routes caravanières de la Soie.</p>
+    `,
+    themeAlbums: [
+      { label: "🏛️ Colisée, Panthéon & Arcs de triomphe", url: "" },
+      { label: "👑 Statuaire impériale & Bustes d'empereurs", url: "" },
+      { label: "🎨 Fresques de Pompéi & Herculanum", url: "" },
+      { label: "✨ Mosaïques & Sols de domus", url: "" },
+      { label: "💍 Trésors d'orfèvrerie & Verrerie romaine", url: "" },
+      { label: "🏺 Vie quotidienne & Économie impériale", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "rome_bas_empire",
+    name: "Rome : Bas-Empire & Antiquité tardive",
+    epoch: "+284 à +476 apr. J.-C.",
+    yearStart: 284,
+    yearEnd: 476,
+    lane: "rome",
+    themeColor: "#991b1b",
+    sidePos: "pos-left",
+    travelingOrigin: "50.5% 42.5%",
+    haloId: "halo-rome",
+    bannerImg: BANNERS_REGISTRY.rome_mosaique,
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>La métamorphose spirituelle, la Tétrarchie et le triomphe chrétien</strong><br>
+      De la refondation impériale par Dioclétien en 284 jusqu'à la chute de l'Empire d'Occident en 476, le Bas-Empire romain s'oriente vers une esthétique spirituelle et symbolique annonçant le Moyen Âge.</p>
+      <p>La conversion de Constantin et la paix de l'Église (313) suscitent l'essor de la basilique chrétienne monumentale (Saint-Pierre de Rome, Sainte-Sabine). La sculpture s'affranchit du naturalisme classique au profit d'une majesté hiératique aux yeux tournés vers l'éternité (Colosse de Constantin, sarcophages sculptés paléochrétiens). Les mosaïques pariétales à fond d'or et les ivoires consulaires célèbrent la sacralisation du pouvoir.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>L'Antiquité tardive et les mutations du Ve siècle</strong></p>
+      <p>Alors que Constantinople devient la nouvelle capitale impériale en 330, les peuples germaniques (Wisigoths, Francs, Vandales) s'implantent en Occident. La romanité survit et se réinvente à travers l'Église chrétienne et la splendeur de l'Empire byzantin d'Orient.</p>
+    `,
+    themeAlbums: [
+      { label: "⚰️ Sarcophages paléochrétiens en marbre", url: "" },
+      { label: "🏛️ Monuments constantiniens & Basiliques", url: "" },
+      { label: "✨ Mosaïques chrétiennes tardives", url: "" },
+      { label: "🪙 Monnaies d'or (Solidus) & Ivoires consulaires", url: "" }
+    ],
+    artifacts: []
+  },
+  {
     id: "chypre_bronze",
     name: "Art Chypriote (Âge du Bronze)",
     epoch: "v. -2500 à -1050 av. J.-C.",
@@ -2840,6 +2995,67 @@ const CIVILISATIONS_REGISTRY = [
     themeAlbums: [
       { label: "🗿 Statuaire en calcaire & Sanctuaires", url: "" },
       { label: "🏺 Céramique bichrome géométrique", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "phenicie_fer",
+    name: "Phénicie métropolitaine (Byblos, Tyr, Sidon)",
+    epoch: "v. -1200 à -332 av. J.-C.",
+    yearStart: -1200,
+    yearEnd: -332,
+    lane: "phenicie",
+    themeColor: "#7c3aed",
+    sidePos: "pos-left",
+    travelingOrigin: "54.0% 45.0%",
+    haloId: "halo-phenicie",
+    bannerImg: BANNERS_REGISTRY.pheniciens,
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>Les maîtres navigateurs du pourpre et l'invention de l'alphabet</strong><br>
+      Installées sur la côte levantine, les cités phéniciennes (Byblos, Tyr, Sidon, Arwad) dominent les routes maritimes et commerciales de toute la Méditerranée dès le début du Ier millénaire av. J.-C.</p>
+      <p>Artisans de génie, les Phéniciens excellent dans l'orfèvrerie en or filigrané, la métallurgie du bronze, la ciselure de coupes en argent doré, la taille des ivoires et l'industrie réputée de la teinture pourpre extraite du murex. Leurs sarcophages anthropoïdes en marbre allient les modèles égyptiens et la grâce grecque archaïque, tandis que leur alphabet de vingt-deux signes révolutionne l'écriture occidentale.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>L'expansion phénicienne en Méditerranée</strong></p>
+      <p>Tandis que Tyr et Sidon commercent avec l'Égypte pharaonique et l'Empire assyrien, leurs marins fondent des comptoirs jusqu'en Espagne (Cadix) et fondent Carthage en 814 av. J.-C. sur les côtes d'Afrique du Nord.</p>
+    `,
+    themeAlbums: [
+      { label: "💍 Bijoux & Orfèvrerie phénicienne", url: "" },
+      { label: "🏺 Céramiques & Verrerie d'art", url: "" },
+      { label: "⚰️ Sarcophages anthropoïdes de Sidon", url: "" },
+      { label: "🪨 Ivoires gravés & Métallurgie du bronze", url: "" }
+    ],
+    artifacts: []
+  },
+  {
+    id: "phenicie_carthage",
+    name: "Civilisation punique & Carthage",
+    epoch: "v. -814 à -146 av. J.-C.",
+    yearStart: -814,
+    yearEnd: -146,
+    lane: "phenicie",
+    themeColor: "#9333ea",
+    sidePos: "pos-left",
+    travelingOrigin: "48.0% 46.0%",
+    haloId: "halo-phenicie",
+    bannerImg: BANNERS_REGISTRY.pheniciens,
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>La métropole maritime de Tanit et l'épopée punique</strong><br>
+      Fondée en 814 av. J.-C. par des colons de Tyr, Carthage (Qart-Hadasht) s'érige en thalassocratie majeure de la Méditerranée occidentale, contrôlant l'Afrique du Nord, l'Espagne du Sud, la Sardaigne et l'ouest de la Sicile.</p>
+      <p>L'art punique s'illustre dans les sanctuaires à ciel ouvert (tophets) où s'élèvent des milliers de stèles votives gravées du signe de Tanit, les masques apotropaïques en terre cuite, les pendentifs en pâte de verre polychrome et l'orfèvrerie d'or d'une grande préciosité rituelle.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Carthage face à la Grèce et à Rome</strong></p>
+      <p>Après des siècles de rivalité avec les cités grecques de Sicile (Syracuse), Carthage se heurte à la République romaine lors des guerres puniques menées avec panache par Hannibal, avant la prise tragique de la cité en 146 av. J.-C.</p>
+    `,
+    themeAlbums: [
+      { label: "🗿 Stèles votives & Symboles de Tanit", url: "" },
+      { label: "🎭 Masques apotropaïques & Terres cuites", url: "" },
+      { label: "💍 Amulettes en pâte de verre & Parures", url: "" }
     ],
     artifacts: []
   },
@@ -4054,10 +4270,19 @@ function getCivIcon(civ) {
     'occ_renaissance': '🎨',
     'occ_xixe': '🖌️',
     'occ_xxe_moderne': '✨',
-    'canaries': '🌋'
+    'canaries': '🌋',
+    'rome_republique': '🦅',
+    'rome_haut_empire': '🏛️',
+    'rome_bas_empire': '👑',
+    'phenicie_fer': '⛵',
+    'phenicie_carthage': '🛡️',
+    'rapa_nui': '🗿'
   };
 
   if (ICON_MAP[id]) return ICON_MAP[id];
+  if (id.startsWith('rome') || lane === 'rome') return '🦅';
+  if (id.startsWith('phenic') || lane === 'phenicie') return '⛵';
+  if (id.startsWith('rapa') || lane === 'rapa_nui') return '🗿';
   if (id.startsWith('egypte')) return '⚱️';
   if (id.startsWith('grece')) return '🏛️';
   if (id.startsWith('etrusque')) return '🎭';
@@ -4448,7 +4673,38 @@ document.addEventListener('DOMContentLoaded', () => {
       const delta = e.deltaY < 0 ? 0.25 : -0.25;
       const newScale = Math.min(5.0, Math.max(1.0, (currentMapScale || 1.0) + delta));
       applyMapHotspot(currentMapHotspot, newScale);
-    }, { passive: false });
+    },
+  {
+    id: "rapa_nui",
+    name: "Rapa Nui : Culture de l'Île de Pâques",
+    epoch: "v. 1000 à 1888 ap. J.-C.",
+    yearStart: 1000,
+    yearEnd: 1888,
+    lane: "rapa_nui",
+    themeColor: "#d97706",
+    sidePos: "pos-right",
+    travelingOrigin: "15.0% 75.0%",
+    haloId: "halo-rapanui",
+    bannerImg: BANNERS_REGISTRY.rapa_nui,
+    mapOverlayUrl: "",
+    albumUrl: "",
+    presentationHtml: `
+      <p><strong>La civilisation mégalithique du Pacifique et les géants de pierre</strong><br>
+      Isolée au cœur de l'océan Pacifique Sud, la civilisation de Rapa Nui (l'île de Pâques) a développé un art sculptural monumental et un système symbolique uniques au monde.</p>
+      <p>Entre le XIe et le XVIe siècle, les Pascuans élèvent sur des plates-formes sacrées en basalte (ahu) près d'un millier de statues colossales monolithiques (les moaï), taillées dans le tuf volcanique du volcan Rano Raraku, incarnant les esprits tutélaires des ancêtres divinisés. Plus tard, la culture insulaire se réinvente autour du culte de l'Homme-Oiseau (Tangata Manu) au village cérémoniel d'Orongo, orné de pétroglyphes spectaculaires, ainsi que par la sculpture du bois de toromiro et les tablettes gravées de signes rongorongo.</p>
+    `,
+    concurrentHtml: `
+      <p><strong>Rapa Nui au diapason de l'histoire universelle</strong></p>
+      <p>Tandis que Rapa Nui taille ses colosses de pierre dans l'isolement du grand large, l'Europe médiévale érige ses cathédrales gothiques, puis vit la Renaissance, avant que l'amiral hollandais Roggeveen ne découvre l'île le jour de Pâques 1722.</p>
+    `,
+    themeAlbums: [
+      { label: "🗿 Statuaire monumentale (Moaï & Ahu)", url: "" },
+      { label: "🪵 Bois sacrés Toromiro & Rongorongo", url: "" },
+      { label: "🪨 Pétroglyphes d'Orongo & Homme-Oiseau", url: "" }
+    ],
+    artifacts: []
+  },
+ { passive: false });
   }
 });
 
@@ -10581,10 +10837,22 @@ const TAXONOMY_CIVILISATIONS = {
     ]
   },
   "canaries": {
-    name: "Mondes insulaires & Canaries",
+    name: "Îles Canaries (Guanches)",
     periods: [
-      { id: "canaries", label: "Anciens Canariens (Guanches) (Ve s. av. J.-C. - XVe s.)" },
-      { id: "rapa_nui", label: "Culture de Rapa Nui (Île de Pâques) (XIe - XVIIe s.)" }
+      { id: "canaries", label: "Anciens Canariens (Guanches) (Ve s. av. J.-C. - XVe s.)" }
+    ]
+  },
+  "pheniciens": {
+    name: "Phéniciens & Monde punique",
+    periods: [
+      { id: "phenicie_fer", label: "Cités phéniciennes (Tyr, Byblos, Sidon) (-1200 à -332)" },
+      { id: "phenicie_carthage", label: "Civilisation punique & Carthage (-814 à -146)" }
+    ]
+  },
+  "rapa_nui": {
+    name: "Rapa Nui (Île de Pâques)",
+    periods: [
+      { id: "rapa_nui", label: "Culture de Rapa Nui & Moaï (XIe - XIXe s.)" }
     ]
   },
   "japon_asie": {
@@ -10826,7 +11094,10 @@ function initSearchEngine() {
     if (selectedCiv === 'chypre') return cId.startsWith('chypre');
     if (selectedCiv === 'celte_europe') return cId.startsWith('celte') || cId.startsWith('neolithique');
     if (selectedCiv === 'levant_phenicie') return ['levant_phenicie', 'amorrite', 'syrie_bronze', 'phenicie_fer', 'lycie_anatolie'].includes(cId) || cId.startsWith('lycie') || cId.startsWith('levant');
+    if (selectedCiv === 'rome') return cId.startsWith('rome');
+    if (selectedCiv === 'pheniciens' || selectedCiv === 'phenicie') return cId.startsWith('phenic') || cId.includes('punique') || cId === 'phenicie_fer';
     if (selectedCiv === 'canaries') return cId === 'canaries';
+    if (selectedCiv === 'rapa_nui') return cId === 'rapa_nui' || cId.startsWith('rapa');
     if (selectedCiv === 'ibere') return cId.startsWith('ibere');
     if (selectedCiv === 'iran_perse') return cId.startsWith('iran');
     if (selectedCiv === 'islam') return cId.startsWith('islam');
