@@ -2188,8 +2188,7 @@ window.BACKGROUNDS_REGISTRY = {
       "chiusi",
       "volterra",
       "aléria",
-      "aleria",
-      "nicosthénienne"
+"nicosthénienne"
     ],
     "text": "<p>Entre le VIIIe et le Ier siècle avant J.-C., l'Étrurie — correspondant à l'actuelle Toscane et au nord du Latium — fut le foyer de la première grande civilisation urbaine de la péninsule Italique. Organisés en une confédération religieuse et politique de douze cités-États souveraines (la Dodécapole, réunissant notamment Caeré, Tarquinia, Vulci, Véies, Chiusi et Volterra), les Étrusques bâtirent leur prospérité sur l'exploitation des riches gisements métallifères d'Étrurie et de l'île d'Elbe.</p>\n<p>Grands navigateurs et commerçants contrôlant la mer Tyrrhénienne jusqu'aux comptoirs de Corse comme Aléria, les princes étrusques importaient massivement les vases précieux de Corinthe et d'Athènes — au point que les potiers athéniens comme Nicosthénès créèrent des formes spécialement adaptées à leur goût.</p>\n<p>Parallèlement, les ateliers étrusques développèrent leur céramique nationale emblématique, le <em>bucchero nero</em> : cuite en atmosphère réductrice pour obtenir une pâte noire brillante imitant l'éclat des vases d'argent et de bronze, elle fut exportée sur tous les rivages de la Méditerranée.</p>"
   },
@@ -3895,7 +3894,8 @@ window.BACKGROUNDS_REGISTRY = {
     "title": "Diane au Bain et la Virginité Sacrée",
     "subtitle": "L'intimité préservée de la déesse chasseresse dans la clairière sylvestre",
     "desc": "<p>Fille de Jupiter et de Latone, sœur jumelle d'Apollon, Diane (l'Artémis des Grecs) est la souveraine des forêts primitives, des clairières sauvages et de l'astre lunaire. Protectrice intransigeante des bêtes sauvages et déesse de la chasse, elle a obtenu de son père céleste le privilège d'une virginité perpétuelle, partagée par le cortège des nymphes fidèles qui l'accompagnent dans ses courses nocturnes. Après l'épreuve épuisante de la traque à travers les halliers et les monts escarpés, la déesse se retire dans le vallon reculé de Gargaphie, oasis sacrée où jaillit une source d'eau limpide ceinte d'arbres touffus, pour s'adonner au rituel purificateur du bain.</p><p>La scène de Diane au bain met en scène l'abandon des armes et le dévoilement sacré : les arcs d'ébène et les carquois garnis de flèches sont suspendus aux branches des chênes séculaires, le gibier abattu — lièvres, perdrix ou cerfs — repose dans l'herbe fraîche aux côtés des lévriers haletants, et les nymphes s'empressent pour dénouer les sandales de leur maîtresse et défaire les plis de sa tunique. Le corps de la déesse, reconnaissable au croissant de lune brillant sur son diadème ou dans sa chevelure tressée, rayonne d'une pureté inviolable, baigné par la fraîcheur vivifiante de l'eau courante et les reflets du feuillage.</p><p>Mais ce havre de paix pastorale recèle un danger mortel pour les imprudents. Le sanctuaire aquatique de Diane est le théâtre de tabous infranchissables : tout regard profane posé sur la nudité divine équivaut à un sacrilège absolu, comme l'illustre le sort funeste du chasseur Actéon métamorphosé en cerf et dévoré par ses propres chiens pour avoir troublé le repos de la déesse. L'iconographie du bain conjugue ainsi la volupté sereine du paysage arcadien avec le sentiment sourd d'une majesté redoutable et inviolable.</p>",
-    "keywords": ["diane", "bain de diane", "diane au bain", "nymphes", "chasse", "actéon", "artémis"]
+    "keywords": ["diane", "bain de diane", "diane au bain", "nymphes",
+"actéon", "artémis"]
   },
 
   "faune_statuaire_antique": {
@@ -4002,7 +4002,8 @@ window.BACKGROUNDS_REGISTRY = {
     "title": "De la Mémoire Chrétienne au Panthéon des Hommes Illustres : L'Évolution du Monument Funéraire",
     "sources": "Histoire de l'art médiéval et moderne, épigraphie et iconographie funéraire",
     "text": "<p>Le monument funéraire en Occident constitue l'un des miroirs les plus profonds des croyances spirituelles, des structures sociales et de l'affirmation identitaire à travers les siècles. Dès les premiers siècles de l'ère chrétienne, les sarcophages sculptés dans le marbre romain opèrent une synthèse fondatrice : ils reprennent le vocabulaire architectural antique (colonnettes, strigiles, frises continues) tout en chargeant les scènes mythologiques ou bibliques d'un espoir nouveau de rédemption, de délivrance et de vie éternelle pour l'âme du défunt.</p><p>Au Moyen Âge central et flamboyant, l'art funéraire chrétien s'incarne magistralement dans la figure du gisant. Couché sur son lit de pierre, souvent représenté les yeux ouverts dans l'attente confiante de la Résurrection, le défunt apparaît les mains jointes, paré des attributs de son rang terrestre (couronnes, armures de chevalier, insignes épiscopaux ou livres de prières). Aux pieds reposent traditionnellement des animaux hautement symboliques : le lion pour le courage, la force et la royauté ; le chien pour la fidélité conjugale et religieuse. Avec l'avènement du gothique tardif et les traumatismes de la fin du Moyen Âge, la vision de la mort se dramatise avec l'apparition des transis cadavériques et des cortèges de pleurants enveloppés de longs manteaux de deuil, créant une dialectique poignante entre la corruption de la chair terrestre et le salut de l'esprit.</p><p>À la Renaissance et à l'époque classique, le tombeau se mue en arc de triomphe monumental et en manifeste humaniste. Si la ferveur religieuse demeure prégnante, l'édifice funéraire célèbre désormais la gloire civique, le génie individuel et la postérité intellectuelle. Dès les grands ensembles de Santa Croce à Florence, puis à Westminster ou dans les cathédrales royales, le monument devient le panthéon des savants, des philosophes, des artistes et des navigateurs, où les allégories des Vertus, de la Science et des Arts veillent à jamais sur la mémoire des grands hommes offerts à l'admiration de la postérité.</p>",
-    "keywords": ["funéraire", "funéraires", "gisant", "gisants", "tombeau", "tombeaux", "sarcophage", "sarcophages", "cénotaphe", "cénotaphes", "monument funéraire", "monuments funéraires", "enfeu", "transi", "transis", "pleurants"]
+    "keywords": [
+"funéraires", "gisant", "gisants", "tombeau", "tombeaux", "sarcophage", "sarcophages", "cénotaphe", "cénotaphes", "monument funéraire", "monuments funéraires", "enfeu", "transi", "transis", "pleurants"]
   },
   "retables_chaires_et_mobilier_liturgique": {
     "id": "retables_chaires_et_mobilier_liturgique",
@@ -4553,9 +4554,7 @@ window.BACKGROUNDS_REGISTRY = {
       "mort d'adonis",
       "aphrodite",
       "vénus",
-      "sanglier",
-      "chasse",
-      "deuil amoureux",
+"deuil amoureux",
       "anémone",
       "beauté éphémère",
       "tragédie mythologique"
@@ -4775,8 +4774,6 @@ window.BACKGROUNDS_REGISTRY = {
       "Nouveau Testament",
       "Deux Alliances",
       "Allégorie chrétienne",
-      "Calice",
-      "Couronne",
       "Saint Pierre"
     ],
     "text": "<p>Thème récurrent de la théologie figurative médiévale, le diptyque de l'Église et de la Synagogue (<em>Ecclesia et Synagoga</em>) matérialise la confrontation et la continuité entre l'Ancienne Alliance mosaïque et la Nouvelle Alliance scellée par le sacrifice du Christ. Élaborée dès l'époque carolingienne et épanouie dans les programmes iconographiques des cathédrales romanes et gothiques, cette allégorie théologique oppose deux figures féminines personnifiant les deux époques de l'histoire du salut.</p><p>D'un côté, l'Église triomphante se dresse altière, couronnée, tenant d'une main le calice eucharistique ou la croix vivifiante, souvent épaulée par l'apôtre Pierre garant de la doctrine apostolique. De l'autre, la Synagogue est figurée les yeux bandés par un voile symbolisant l'attente messianique non reconnue, son sceptre brisé et les Tables de la Loi prêtes à lui glisser des mains, soutenue par un prophète de l'Ancien Testament qui annonce néanmoins l'avènement du Messie.</p><p>Loin de se réduire à un simple motif polémique, cette composition visuelle cherchait à rendre intelligible la doctrine médiévale de la préfiguration (typologie biblique) : les prophéties et les figures de l'Ancien Testament trouvaient leur plein accomplissement dans les mystères du Nouveau Testament, unissant l'histoire humaine dans un dessein spirituel unique.</p>"
@@ -4977,8 +4974,7 @@ window.BACKGROUNDS_REGISTRY = {
     "sources": "Fouilles du Tophet de Salammbô (Carthage) et du sanctuaire d'Hadrumète (Sousse)",
     "keywords": [
       "tophet",
-      "tanit",
-      "baal hammon",
+"baal hammon",
       "tophet de carthage",
       "hadrumete",
       "salammbo",
@@ -5021,8 +5017,7 @@ window.BACKGROUNDS_REGISTRY = {
       "masque apotropaique punique",
       "aleria",
       "masque grimacant",
-      "protome"
-    ],
+],
     "text": "<p>Dans la vie quotidienne et les rituels d'accompagnement des défunts du monde phénico-punique, la piété officielle des grands temples côtoie un univers foisonnant de croyances magiques et de dévotions domestiques destinées à conjurer les forces hostiles, les maladies et le mauvais œil.</p>\n<p>Au premier rang des puissances protectrices figure le dieu nain Bès : divinité d'origine égyptienne adoptée avec ferveur par les marins et artisans phéniciens, Bès est représenté sous les traits d'un être trapu au masque grotesque et léonin, tirant la langue et écarquillant les yeux pour effrayer les démons et veiller sur les femmes enceintes, les nouveaux-nés et les défunts. Les ateliers de verriers de Carthage et de la Méditerranée occidentale excellaient dans le façonnage d'amulettes et de pendentifs anthropomorphes miniatures en pâte de verre polychrome réalisés sur noyau de sable, arborant des teintes vives (bleu cobalt, jaune safran, turquoise) aux vertus lumineuses et magiques.</p>\n<p>Cette même volonté prophylactique s'exprime dans les sépultures puniques par le dépôt de masques grimaçants en terre cuite et de protomés votifs placés près du visage du mort ou suspendus aux parois des caveaux, érigeant un rempart spirituel impénétrable entre les vivants, les disparus et l'invisible.</p>"
   },
   "religion_cites_pheniciennes_byblos_amrit": {

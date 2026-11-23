@@ -9826,15 +9826,30 @@ function findBackgroundForArtwork(art) {
   // 2. Détection intelligente automatique par mots-clés dans le titre de l'œuvre
   const normTitle = (art.title || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   if (normTitle) {
+    const genericBanList = new Set([
+      'orant', 'orants', 'masque', 'masques', 'statue', 'statues', 'visage', 'homme', 'femme', 'portrait',
+      'lion', 'dieu', 'deesse', 'temple', 'scene', 'pierre', 'vase', 'reine', 'roi', 'saint', 'sainte',
+      'calice', 'coupe', 'bol', 'amphore', 'gobelet', 'bouteille', 'jarre', 'dolium', 'lampe', 'plat',
+      'stele', 'buste', 'bijou', 'bijoux', 'parure', 'parures', 'pendentif', 'pendentifs', 'collier',
+      'bague', 'couronne', 'croix', 'retable', 'chaire', 'verriere', 'vitrail', 'fresque', 'peinture',
+      'tableau', 'panneau', 'toile', 'chasse', 'banquet', 'combat', 'mort', 'vie', 'aleria', 'carthage',
+      'rome', 'paris', 'londres', 'athenes', 'sparte', 'byblos', 'sidon', 'tyr', 'amrit', 'le mans',
+      'lugo', 'badalone', 'empuries', 'alexandrie', 'or', 'argent', 'bronze', 'fer', 'cuivre', 'verre',
+      'marbre', 'argile', 'bucchero', 'sigillee', 'ceramique', 'guttus', 'naos', 'edicule', 'monument', 'protome', 'protomé',
+      'funeraire', 'orfevre', 'orfevres', 'orfevrerie', 'tresor', 'joaillerie', 'poterie', 'atelier',
+      'ateliers', 'fouille', 'fouilles', 'necropole', 'sanctuaire', 'sanctuaires', 'tombe', 'tombeau', 'sanglier', 'cochon', 'porc', 'cerf', 'biche', 'cheval', 'taureau', 'boeuf', 'aigle', 'faucon', 'colombe', 'oiseau', 'poisson', 'serpent', 'chien', 'loup', 'panthere', 'leopard', 'dauphin', 'cygne', 'tanit'
+    ]);
     for (const key in registry) {
       const entry = registry[key];
       if (entry && entry.keywords && Array.isArray(entry.keywords)) {
         const matches = entry.keywords.some(kw => {
           const normKw = (kw || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
           if (!normKw || normKw.length < 4) return false;
-          const genericBanList = ['orant', 'orants', 'masque', 'masques', 'statue', 'statues', 'visage', 'homme', 'femme', 'portrait', 'lion', 'dieu', 'deesse', 'temple', 'scene', 'pierre', 'vase', 'reine', 'roi', 'saint', 'sainte'];
-          if (genericBanList.includes(normKw)) return false;
+          if (genericBanList.has(normKw)) return false;
+          // Expression multi-mots explicite : recherche directe dans le titre
           if (normKw.includes(' ')) return normTitle.includes(normKw);
+          // Mot unique : exiger au moins 5 caractères et non banni
+          if (normKw.length < 5) return false;
           const regex = new RegExp('(?:^|[^a-z0-9])' + normKw + '(?:$|[^a-z0-9])');
           return regex.test(normTitle);
         });
