@@ -5877,6 +5877,244 @@ window.BACKGROUNDS_REGISTRY["masques_theatre"] = window.BACKGROUNDS_REGISTRY["th
 window.BACKGROUNDS_REGISTRY["scenes_nilotiques"] = window.BACKGROUNDS_REGISTRY["scenes_nilotiques_exotisme_alexandrin"];
 window.BACKGROUNDS_REGISTRY["paysage_nilotique"] = window.BACKGROUNDS_REGISTRY["scenes_nilotiques_exotisme_alexandrin"];
 window.BACKGROUNDS_REGISTRY["phrixos_et_helle"] = window.BACKGROUNDS_REGISTRY["mythe_phrixos_et_helle_toison_or"];
+
+// --- NOTICES PEINTURE MURALE ET FRESQUES ROMAINES ---
+window.BACKGROUNDS_REGISTRY["styles_pompeiens_peinture_murale"] = {
+  "title": "Les quatre styles de la peinture murale pompéienne",
+  "theme": "Esthétique, architecture d'illusion & décor romain",
+  "summary": "Classifiés par l'archéologue August Mau à la fin du XIXe siècle d'après les découvertes de Pompéi et d'Herculanum, les quatre styles pompéiens retracent deux siècles d'évolution artistique, du placage d'imitations d'opus quadratum hellénistique jusqu'au foisonnement maniériste et théâtral du quatrième style.",
+  "content": "<h4>L'évolution décorative de la domus romaine</h4>\n<p>La peinture murale romaine (fresque sur enduit de chaux lissé ou <em>affresco</em>) constitue l'un des sommets des arts visuels antiques. À la fin du XIXe siècle, August Mau a défini une chronologie canonique en quatre styles successifs :</p>\n<ul>\n  <li><strong>Premier style (style des incrustations, IIe s. av. J.-C.) :</strong> Imitation sculptée et peinte en relief de marbres précieux et de blocs d'appareil hellénistiques (opus quadratum).</li>\n  <li><strong>Deuxième style (style architectural, env. 100 à 20 av. J.-C.) :</strong> Échappées perspectivistes et trompe-l'œil spectaculaires ouvrant les parois vers des cours péristyles, des portiques à colonnes corinthiennes et des temples sous des ciels ouverts (mégalographies, Villa des Mystères, Boscoreale).</li>\n  <li><strong>Troisième style (style ornemental, env. 20 av. J.-C. à 50 apr. J.-C.) :</strong> Clôture de la paroi, colonnettes et candélabres végétaux filiformes d'une extrême finesse, fonds monochromes (noirs, blancs, rouges cinabre) rythmés de pinakes miniatures et de scènes mythologiques flottantes.</li>\n  <li><strong>Quatrième style (style fantastique ou baroque, env. 50 à 79 apr. J.-C.) :</strong> Synthèse virtuose combinant les perspectives théâtrales et scénographiques du deuxième style avec la surcharge ornementale et la richesse chromatique du troisième (Maison des Vettii, Sacello degli Augustali).</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["villa_des_mysteres_initiation_dionysiaque"] = {
+  "title": "La mégalographie dionysiaque de la Villa des Mystères",
+  "theme": "Mystères bacchiques, initiation féminine & peinture mégalographique",
+  "summary": "Découverte dans le triclinium de la somptueuse villa suburbaine au nord de Pompéi, cette monumentale frise du deuxième style met en scène, sur un fond rouge cinabre éclatant, les différentes étapes de l'initiation d'une jeune épouse aux mystères de Dionysos.",
+  "content": "<h4>Le grand rite dionysiaque et l'élévation spirituelle</h4>\n<p>La frise mégalographique de la Villa des Mystères à Pompéi (milieu du Ier siècle av. J.-C.) est le cycle de peinture murale le plus important et le plus mystérieux conservé de l'Antiquité classique. Sur une longueur de dix-sept mètres, vingt-neuf personnages de grandeur presque naturelle se meuvent sur une corniche continue :</p>\n<ul>\n  <li><strong>L'instruction et le serment :</strong> La lecture solennelle du rouleau rituel sous le regard d'une matrone assise, accompagnée d'un jeune enfant déclamant les formules sacrées.</li>\n  <li><strong>Le thiase et la nature sacrée :</strong> Des ménades jouant de la lyre ou allaitant un faon, des satyres soufflant dans la syrinx et versant du vin dans une coupe oraculaire.</li>\n  <li><strong>La flagellation initiatique et la révélation :</strong> Une jeune femme agenouillée, frappée par une figure ailée en vol (Aidos ou Déméter), tandis qu'à côté est dévoilé le phallus sacré caché dans la <em>liknon</em> (panier mystique à vanner).</li>\n  <li><strong>L'extase et la toilette de l'épouse :</strong> La rédemption extatique de l'initiée qui danse au son des crotales avant de procéder à sa coiffure et à sa parure sous la garde d'Éros et d'une servante.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["culte_dionysiaque_menades_bacchantes"] = {
+  "title": "Ménades, satyres et le cortège de Dionysos",
+  "theme": "Mythologie gréco-romaine & ferveur dionysiaque",
+  "summary": "Figures incontournables du thiase bacchique, les ménades (ou bacchantes) incarnent la transe sacrée, l'extase sauvage et la fertilité jubilatoire sous l'égide de Bacchus-Dionysos.",
+  "content": "<h4>L'ivresse sacrée et la libération des sens</h4>\n<p>Dans la religion et l'art romains, le culte de Dionysos / Bacchus occupa une place centrale, à la fois célébré dans les fêtes populaires et intégré dans le luxe visuel des demeures privées. Les ménades, compagnes du dieu, sont représentées vêtues de nébrides (peaux de bêtes) et de légers chitons tourbillonnants :</p>\n<ul>\n  <li><strong>Le thyrse et la corne d'abondance :</strong> Brandissant le bâton rituel surmonté d'une pomme de pin et enroulé de lierre, ou portant une corne emplie de fruits généreux, elles symbolisent l'abondance printanière et la sève vitale.</li>\n  <li><strong>La communion avec la nature sauvage :</strong> Dansant pieds nus au rythme des tambourins, tympanons et crotales, elles sont souvent associées à des faunes, des satyres ithyphalliques et des panthères sacrées.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["peinture_de_jardin_trompe_l_oeil_romain"] = {
+  "title": "La peinture de jardin en trompe-l'œil (hortus pictus)",
+  "theme": "Art pariétal romain, nature & faune méditerranéenne",
+  "summary": "Déployée sur les murs des péristyles et des cours intérieures, la peinture de jardin créait l'illusion d'une nature luxuriante et perpétuellement féconde, peuplée d'oiseaux exotiques, de fontaines de marbre et de treillages fleuris.",
+  "content": "<h4>L'hortus pictus : fusion de l'architecture et de la botanique</h4>\n<p>Les élites romaines de Campanie affectionnaient particulièrement les compositions de jardins en trompe-l'œil, dont la Villa de Livie à Prima Porta ou la Maison de Vénus à la coquille à Pompéi fournissent les archétypes :</p>\n<ul>\n  <li><strong>Flore méditerranéenne :</strong> Lauriers-roses, grenadiers en fleurs, myrtes, lierres et palmiers s'organisent autour de fines clôtures en cannisse ou balustrades ajourées (cancelli).</li>\n  <li><strong>Faune et fontaines :</strong> Des paons déployant leurs ocelles, des passereaux picorant des graines, des colombes perchées sur des bassins de marbre (labrum) animent la scène d'un frémissement vivant.</li>\n  <li><strong>Apaisement et prestige :</strong> Cette nature idéalisée offrait au maître de maison et à ses hôtes un havre d'otium (loisir studieux et contemplation) à l'abri de l'agitation urbaine.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["paysage_sacre_idyllique_peinture_romaine"] = {
+  "title": "Le paysage sacré-idyllique et les villas maritimes",
+  "theme": "Peinture paysagère, piété pastorale & villégiature romaine",
+  "summary": "Genre pictural raffiné du Haut-Empire, le paysage sacré-idyllique associe des sanctuaires rustiques, des autels en plein air, des bergers et des vues de villas littorales aux jetées audacieuses.",
+  "content": "<h4>Pastorale et villégiature sur le golfe de Naples</h4>\n<p>Très prisé par les commanditaires de Pompéi et d'Herculanum, le paysage sacré-idyllique traduit la fascination romaine pour une campagne sanctifiée par la présence divine et le luxe des villégiatures maritimes :</p>\n<ul>\n  <li><strong>Éléments pastoraux et sacrés :</strong> Petits édicules, chapelles rustiques avec colonnes votives, arbres sacrés noués de bandelettes et voyageurs s'inclinant devant un autel champêtre.</li>\n  <li><strong>Villas maritimes en trompe-l'œil :</strong> Portiques sur pilotis, jetées s'avançant dans les eaux calmes, barques de pêcheurs et terrasses suspendues évoquant la baie de Naples et ses palais de villégiature.</li>\n  <li><strong>Technique picturale rapide (compendiaria) :</strong> Touches légères et synthétiques, clair-obscur atmosphérique donnant une illusion magistrale de profondeur et de brume bleutée.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["pyrame_et_thisbe_metamorphoses_ovide"] = {
+  "title": "Le mythe tragique de Pyrame et Thisbé",
+  "theme": "Mythologie classique, Métamorphoses d'Ovide & passion amoureuse",
+  "summary": "Célébrée au livre IV des Métamorphoses d'Ovide, la légende des amants maudits de Babylone, Pyrame et Thisbé, symbolise l'amour absolu contrarié par le destin et la transformation des fruits du mûrier en sang pourpre.",
+  "content": "<h4>L'amour interdit sous le mûrier blanc</h4>\n<p>Amants voisins séparés par l'hostilité de leurs familles, Pyrame et Thisbé ne communiquent que par une fissure dans le mur mitoyen de leurs maisons :</p>\n<ul>\n  <li><strong>Le rendez-vous fatal :</strong> Ils conviennent d'un rendez-vous nocturne près de la tombe de Ninus, sous un haut mûrier blanc bordant une source d'eau fraîche.</li>\n  <li><strong>Le quiproquo et la mort :</strong> Thisbé, arrivée la première, fuit à la vue d'une lionne assoiffée à la gueule ensanglantée et perd son voile. Pyrame découvrant le voile déchiré et sanglant croit sa bien-aimée dévorée et se transperce de son épée. Thisbé de retour trouve son amant agonisant et se donne la mort avec la même arme.</li>\n  <li><strong>La métamorphose végétale :</strong> Touchés par leur sacrifice, les dieux teintent pour l'éternité les fruits blancs du mûrier du sang pourpre des deux amants.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["priape_fascinum_fecondite_apotropaique"] = {
+  "title": "Priape, le fascinum et la protection apotropaïque",
+  "theme": "Culte populaire, fertilité agricole & magie protectrice",
+  "summary": "Dieu champêtre originaire de Lampsaque, Priape était vénéré à Rome comme protecteur des jardins, des vignes et des demeures, son membre disproportionné incarnant la force fécondante et détournant le mauvais œil.",
+  "content": "<h4>Gardien des vergers et rempart contre l'invidia</h4>\n<p>Loin d'une simple obscénité, la figure de Priape jouait dans la société romaine un rôle religieux et magique fondamental :</p>\n<ul>\n  <li><strong>La pesée du phallus (Maison des Vettii) :</strong> Placée à l'entrée du vestibule, l'image de Priape pesant son phallus hypertrophié contre un sac de pièces de monnaie (avec la corne d'abondance à ses pieds) garantit la prospérité financière des maîtres de maison et intimide les voleurs.</li>\n  <li><strong>Le fascinum et le regard jaloux :</strong> L'effigie phallique (fascinum) était réputée absorber et neutraliser le mauvais œil (l'<em>invidia</em> ou fascination maléfique), protégeant ainsi l'ensemble de la maisonnée.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["lupanar_pompei_sexualite_peinture_erotique"] = {
+  "title": "Le Lupanar de Pompéi et la peinture érotique romaine",
+  "theme": "Vie quotidienne, sexualité antique & Cabinet Secret",
+  "summary": "Les fresques des cubicules du Lupanar de Pompéi et les peintures du Cabinet Secret du musée de Naples illustrent la diversité des pratiques sexuelles, entre catalogue érotique, culte de Vénus et liberté des mœurs sous l'Empire.",
+  "content": "<h4>Entre réalité quotidienne et idéalisation hédoniste</h4>\n<p>Les représentations érotiques murales se rencontrent à Pompéi dans deux contextes bien distincts :</p>\n<ul>\n  <li><strong>Le Lupanar officiel :</strong> Édifice à deux étages de la Regio VII, où des fresques ornant les portes des cellules servaient de « carte visuelle » ou de menu des prestations proposées par les courtisanes et esclaves grecques ou orientales.</li>\n  <li><strong>L'art érotique des demeures aristocratiques :</strong> Dans les chambres privées (cubicula) et les salles de réception, les scènes d'intimité sur <em>lectus</em> ou <em>kliné</em> s'inscrivaient dans une tradition raffinée inspirée des manuels érotiques grecs (Philénis) et de la mythologie dionysiaque.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["lararium_lares_penates_culte_domestique"] = {
+  "title": "Le lararium et le culte domestique des Lares et Pénates",
+  "theme": "Religion romaine privée, piété domestique & Agathodémon",
+  "summary": "Autel domestique situé dans l'atrium, la cuisine ou les thermopolia, le lararium abritait les statuettes et les fresques des divinités protectrices du foyer : Lares compitales, Pénates, Génie du maître et serpent Agathodémon.",
+  "content": "<h4>La sacralisation du foyer et de la prospérité</h4>\n<p>Dans chaque domus ou boutique romaine, le culte des ancêtres et des dieux bienveillants rythmait le quotidien de la famille :</p>\n<ul>\n  <li><strong>Les Lares dansants :</strong> Deux jeunes divinités vêtues de tuniques courtes retroussées, tenant en main un rhyton (corne à boire) d'où jaillit le vin et une situle (seau à offrandes).</li>\n  <li><strong>Le Genius familial :</strong> Représenté au centre sous les traits du chef de famille drapé d'une toge et la tête voilée, sacrifiant sur un autel en versant une libation de vin et d'encens.</li>\n  <li><strong>Le serpent Agathodémon :</strong> Souvent représenté ondulant vers un autel garni d'œufs, de grenades et de pommes de pin, ce reptile sacré incarne l'esprit bienfaisant du lieu et la fécondité tellurique.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["maison_du_verger_jardin_egyptomanie_pompei"] = {
+  "title": "La Maison du Verger et l'exotisme nilotique à Pompéi",
+  "theme": "Culte d'Isis, décor au fond noir & fascination pour l'Égypte",
+  "summary": "Célèbre pour son cubiculum noir orné d'arbres fruitiers, de motifs isiaques et de sistres d'or, la Maison du Verger illustre l'intégration profonde des cultes égyptiens et du goût alexandrin dans l'aristocratie campanienne.",
+  "content": "<h4>Un sanctuaire végétal sous la protection d'Isis</h4>\n<p>Située le long de la Via dell'Abbondanza à Pompéi, la Maison du Verger (ou Maison des Cubicules fleuris) offre un décor d'une inventivité exceptionnelle du troisième style :</p>\n<ul>\n  <li><strong>Le cubiculum au fond noir :</strong> Sur un enduit noir laqué d'une profondeur saisissante se déploient figuiers, grenadiers, citronniers et cerisiers chargés de fruits, où nichent colombes, pies et faucons.</li>\n  <li><strong>Symbolisme isiaque :</strong> Des sistres rituels d'or, des urnes sacrées (hydries), des uraeus et des situles soulignent la dévotion de la propriétaire aux mystères de la déesse égyptienne Isis.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["paradeisos_chasse_animaux_sauvages_pompei"] = {
+  "title": "Le paradeisos et les chasses royales de la Maison des Ceii",
+  "theme": "Nature exotique, chasse orientale & scènes nilotiques",
+  "summary": "La fresque monumentale ornant le fond du péristyle de la Maison des Ceii figure un paradeisos perse, vaste réserve de chasse peuplée de fauves prédateurs (lions, léopards, taureaux, sangliers) complétée par des paysages nilotiques aux pygmées.",
+  "content": "<h4>La fascination romaine pour les grands espaces sauvages</h4>\n<p>Inspirée des réserves cynégétiques des rois achéménides et des souverains hellénistiques (paradeisos), cette fresque grandiose illustre le triomphe de la nature sauvage :</p>\n<ul>\n  <li><strong>Scènes de prédation dramatiques :</strong> Des lions terrassant des taureaux, des panthères bondissant sur des antilopes, peints avec une vigueur chromatique saisissante.</li>\n  <li><strong>Vignettes nilotiques :</strong> Dans les parties inférieures, des pygmées naviguent sur des papyrus le long d'un Nil peuplé de crocodiles, d'hippopotames et de lotus sacrés, rappelant l'influence des miniaturistes d'Alexandrie.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["supplice_ixion_roue_enfers"] = {
+  "title": "Le supplice d'Ixion sur la roue ailée",
+  "theme": "Mythologie grecque, châtiment divin & Oecus des Vettii",
+  "summary": "Roi des Lapithes coupable d'avoir tenté d'abuser d'Héra, Ixion est condamné par Zeus à être attaché pour l'éternité à une roue enflammée tournoyant sans fin dans les Enfers.",
+  "content": "<h4>L'hybris punie par les dieux de l'Olympe</h4>\n<p>Le tableau central de l'oecus nord de la Maison des Vettii met en scène le châtiment impitoyable de l'audace sacrilège :</p>\n<ul>\n  <li><strong>La composition dramatique :</strong> Ixion, nu et attaché par les bras et les jambes aux rayons d'une roue ailée, implore vainement sous le regard sévère d'Héra trônant au sceptre royal.</li>\n  <li><strong>Hermès et Héphaïstos :</strong> Le dieu forgeron Héphaïstos immobilise la roue tandis qu'Hermès tient le caducée et veille à l'exécution de la sentence suprême.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["amours_et_psyches_artisans_vettii"] = {
+  "title": "La frise des Amours et Psychés artisans de la Maison des Vettii",
+  "theme": "Vie économique, artisanat pompéien & allégorie dionysiaque",
+  "summary": "Célèbre frise miniature sur fond noir ceignant le grand triclinium des frères Vettii, elle met en scène des Amours et des Psychés ailés s'activant aux différents métiers de la cité : parfumeurs, foulons, orfèvres, vignerons et boulangers.",
+  "content": "<h4>L'éloge allégorique du travail et de la prospérité</h4>\n<p>Aulus Vettius Restitutus et Aulus Vettius Conviva, affranchis enrichis par le grand commerce, ont commandé cette frise d'une exceptionnelle virtuosité technique pour célébrer les arts manuels et marchands :</p>\n<ul>\n  <li><strong>Les métiers urbains :</strong> Foulons lavant et cardant les laines, parfumeurs pressant les huiles florales sous un pressoir à vis, orfèvres martelant le métal et pesant les joyaux sur une balance de précision.</li>\n  <li><strong>Les vendanges et le vin :</strong> Cueillette du raisin, foulage dans la cuve et dégustation joyeuse sous le patronage de Bacchus.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["supplice_penthee_dirce_bacchantes"] = {
+  "title": "Le supplice de Penthée déchiré par les Bacchantes",
+  "theme": "Tragédie grecque (Euripide), délire dionysiaque & justice divine",
+  "summary": "Roi de Thèbes ayant défié le culte de Dionysos, Penthée est traqué et mis en pièces par les bacchantes en proie à l'ivresse sacrée, au premier rang desquelles sa propre mère Agavé.",
+  "content": "<h4>La folie dionysiaque et le triomphe du dieu</h4>\n<p>Inspiré des <em>Bacchantes</em> d'Euripide, ce mythe orne l'un des salons d'apparat les plus spectaculaires de la Maison des Vettii :</p>\n<ul>\n  <li><strong>La scène du dépeçage (sparagmos) :</strong> Penthée, agenouillé au centre de la composition, lève les mains pour supplier les femmes possédées par le délire divin, qui s'apprêtent à lui arracher les membres.</li>\n  <li><strong>Portée morale et religieuse :</strong> L'image rappelle à tout spectateur que nul mortel ne peut résister au pouvoir transcendant de Dionysos sans encourir l'anéantissement immédiat.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["vesuve_bacchus_campanie_avant_79"] = {
+  "title": "Bacchus et le Vésuve avant l'éruption de 79",
+  "theme": "Géographie antique, culte du vin & mémoire campanienne",
+  "summary": "Cette fresque unique de la Maison du Centenaire à Pompéi montre le mont Vésuve sous sa forme conique originale, verdoyant et couvert de vignes luxuriantes, aux côtés du dieu Bacchus enveloppé de grappes de raisin.",
+  "content": "<h4>Le Vésuve verdoyant, montagne bénie de Bacchus</h4>\n<p>Peinte peu avant la catastrophe tragique de l'an 79, cette fresque conservée au musée archéologique de Naples constitue le seul témoignage iconographique antique connu montrant le profil du Vésuve avant son effondrement :</p>\n<ul>\n  <li><strong>Le cône boisé :</strong> La montagne apparaît sous un seul sommet majestueux drapé d'une dense toison de vignobles réputés pour le précieux vin campanien (Vesuvinum).</li>\n  <li><strong>Le dieu aux grappes :</strong> Bacchus se tient debout, son corps entièrement formé de grappes de raisin pourpre mûres à point, versant le vin de son canthare à une panthère sacrée.</li>\n  <li><strong>Le serpent protecteur :</strong> Au registre inférieur, un serpent Agathodémon ondule vers un autel garni d'offrandes, consacrant la fertilité magique des pentes volcaniques.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["marine_romaine_galeres_biremes_triremes"] = {
+  "title": "La flotte impériale romaine : birèmes et trirèmes de combat",
+  "theme": "Histoire militaire, marine antique & flotte de Misène",
+  "summary": "Basée à quelques kilomètres de Pompéi au cap Misène (Classis Misenensis), la flotte impériale romaine régnait sur la Méditerranée. Les peintures campanniennes en restituent les éperons de bronze (rostra) et les tours de combat.",
+  "content": "<h4>Maîtres de la mare nostrum et protecteurs des côtes</h4>\n<p>Créée par Auguste pour sécuriser les routes maritimes et le ravitaillement annonaire de Rome, la flotte de Misène constituait la plus puissante escadre militaire d'Occident :</p>\n<ul>\n  <li><strong>Architecture navale :</strong> Galères rapides à rames multiples (birèmes, trirèmes et quinquérèmes), munies d'un éperon d'étrave en bronze effilé pour enfoncer les coques ennemies.</li>\n  <li><strong>Décors de proue et de poupe :</strong> Figures de proue protectrices (yeux apotropaïques, casques ailés, dauphins) et aplustres recourbés à l'arrière, flanqués de deux grands gouvernails latéraux.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["mythe_io_argos_hermes_isis_egypte"] = {
+  "title": "L'arrivée d'Io en Égypte et son accueil par Isis",
+  "theme": "Mythologie alexandrine, culte isiaque & délivrance divine",
+  "summary": "Provenant de l'ekklesiasterion du Temple d'Isis à Pompéi, cette somptueuse fresque du quatrième style représente la nymphe Io, changée en génisse par Zeus et persécutée par Héra, accueillie à Canope par la déesse Isis.",
+  "content": "<h4>La délivrance au bord du Nil et le syncrétisme isiaque</h4>\n<p>L'épisode d'Io accueillie en Égypte constituait un mythe fondateur pour le culte romain d'Isis, célébré avec ferveur à Pompéi :</p>\n<ul>\n  <li><strong>L'arrivée triomphale :</strong> Portée sur les épaules du dieu fleuve Nil, Io conserve sur son front de petites cornes de génisse mais retrouve sa forme humaine et s'incline devant Isis.</li>\n  <li><strong>Isis trônant au serpent :</strong> La grande déesse égyptienne est assise sur un trône orné du cobra royal (uraeus), tenant en main un serpent sacré et accompagnée de son fils Harpocrate.</li>\n  <li><strong>La délivrance d'Argos :</strong> Au second plan, Hermès veille, rappelant qu'il a délivré Io en décapitant le monstre aux cent yeux, Argos Panoptès.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["portrait_sappho_tablettes_cire_pompei"] = {
+  "title": "Le portrait dit de « Sappho » (Jeune fille au stylet)",
+  "theme": "Portrait d'époque impériale, culture littéraire & éducation féminine",
+  "summary": "Ce médaillon circulaire (clipeus) découvert à Pompéi compte parmi les portraits les plus célèbres de l'Antiquité : une jeune femme élégante pose avec son stylet de métal porté à ses lèvres et ses tablettes de cire (polyptychon).",
+  "content": "<h4>L'incarnation de l'intelligence et du raffinement lettré</h4>\n<p>Découvert en 1760 dans la Regio VI de Pompéi, ce portrait raffiné ne représente pas la poétesse grecque Sappho de Lesbos, mais une jeune aristocrate campanienne lettrée :</p>\n<ul>\n  <li><strong>Le geste pensif :</strong> La jeune fille porte l'extrémité d'un stylet en os ou en bronze à ses lèvres, le regard songeur et tourné vers le spectateur, comme suspendue dans l'acte d'écrire ou de composer des vers.</li>\n  <li><strong>Les attributs de l'écriture :</strong> Elle tient dans sa main gauche des tablettes de cire à quatre feuillets repliés reliés par des cordonnets, symboles prestigieux de son éducation et de son statut social élevé.</li>\n  <li><strong>La résille d'or et les boucles :</strong> Sa coiffure savante, retenue par une résille d'or et encadrée de boucles souples, témoigne de la haute couture féminine sous le règne de Néron.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["portrait_terentius_neo_boulanger_epouse"] = {
+  "title": "Double portrait de Terentius Neo et son épouse",
+  "theme": "Portrait romain réaliste, bourgeoisie municipale & émancipation",
+  "summary": "Provenant d'une domus de la Regio VII de Pompéi, ce double portrait de grandeur nature immortale un riche boulanger et son épouse tenant un volumen et des tablettes de cire, affirmant leur égalité intellectuelle et leur dignité civique.",
+  "content": "<h4>L'apothéose sociale de la bourgeoisie commerçante</h4>\n<p>Ce double portrait à fresque est l'un des chefs-d'œuvre absolus de l'art du portrait psychologique romain :</p>\n<ul>\n  <li><strong>Terentius Neo au volumen :</strong> L'homme, vêtu d'une toge blanche de citoyen romain, tient un rouleau de papyrus (volumen) scellé de cire rouge, symbolisant sa charge publique ou son instruction juridique.</li>\n  <li><strong>L'épouse au stylet et tablettes :</strong> La femme, placée au premier plan, porte le stylet à sa lèvre et tient un diptyque de cire, attestant qu'elle participe activement à la gestion des affaires commerciales de la famille.</li>\n  <li><strong>Réalisme sans concession :</strong> Les traits des deux visages, d'une franchise presque photographique, traduisent la fierté légitime des classes moyennes laborieuses de Campanie parvenues à la respectabilité civique.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["diane_chasseresse_artemis_mythologie"] = {
+  "title": "Diane chasseresse (Artémis) et les nymphes de Stabies",
+  "theme": "Mythologie olympienne, chasse & grâce féminine",
+  "summary": "Découverte dans les villas maritimes de Stabies (notamment la Villa d'Ariane), cette fresque poétique représente Diane bandant son arc dans une clairière sur un fond bleu azur exceptionnel.",
+  "content": "<h4>La déesse vierge des forêts et de la lumière lunaire</h4>\n<p>Sœur jumelle d'Apollon, Diane règne sur les bois sauvages, les sources pures et les animaux de la forêt :</p>\n<ul>\n  <li><strong>L'élégance de la chasseresse :</strong> Vêtue d'un court chiton flottant et chaussée d'endromides (bottes de cuir), Diane avance d'un pas agile, décochant ses flèches avec une précision infaillible.</li>\n  <li><strong>La grâce campanienne :</strong> Les artistes de Stabies ont su allier la majesté divine à une légèreté vaporeuse des draperies, rehaussée de tonalités pastel d'une grande délicatesse.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["sakieh_noria_moulin_hydraulique_egypte_romaine"] = {
+  "title": "La sakieh d'irrigation et les moulins hydrauliques en Égypte romaine",
+  "theme": "Ingénierie hydraulique, agriculture alexandrine & Maréotide",
+  "summary": "Conservée au Musée gréco-romain d'Alexandrie et provenant du lac Maréotis, cette fresque documente de façon unique le fonctionnement d'une roue à godets (sakieh) actionnée par des bœufs aux yeux bandés pour l'irrigation des cultures.",
+  "content": "<h4>L'essor technologique et agraire de l'Égypte gréco-romaine</h4>\n<p>L'Égypte sous domination romaine constitua le grenier à blé de l'Empire et un foyer majeur d'inventions hydrauliques :</p>\n<ul>\n  <li><strong>La noria / sakieh à engrenages :</strong> Système ingénieux combinant une roue d'engrenage horizontale entraînée par un attelage de bœufs et une roue verticale munie de poteries (godets) puisant l'eau dans un puits ou un canal.</li>\n  <li><strong>Les bœufs aux yeux bandés :</strong> Pour éviter le vertige causé par la marche circulaire ininterrompue, les animaux étaient équipés d'œillères ou de bandeaux de cuir.</li>\n  <li><strong>Témoignage ethnographique unique :</strong> Cette fresque est le document visuel antique le plus complet illustrant la mécanisation des campagnes du delta du Nil.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["synagogue_doura_europos_peintures_murales"] = {
+  "title": "Les fresques de la synagogue de Doura-Europos",
+  "theme": "Judaïsme antique, art biblique & confluent romain-parthe",
+  "summary": "Découverte intacte sous un remblai militaire sur les rives de l'Euphrate, la synagogue de Doura-Europos (vers 244-256 apr. J.-C.) a bouleversé l'histoire de l'art en révélant le plus vaste ensemble de peintures murales figuratives bibliques de l'Antiquité.",
+  "content": "<h4>Un cycle pictural révolutionnaire aux frontières de l'Empire</h4>\n<p>La cité de Doura-Europos, place-forte romaine face à l'Empire perse sassanide, a préservé un témoignage inestimable grâce à l'érection d'un glacis de terre avant le siège de 256 :</p>\n<ul>\n  <li><strong>Le décor biblique figuratif :</strong> Des dizaines de panneaux illustrent l'Exode, Moïse sauvé des eaux, Ézéchiel dans la vallée des ossements desséchés, l'onction de David par Samuel et le cycle d'Esther.</li>\n  <li><strong>Le plafond peint aux tuiles décorées :</strong> Des tuiles de terre cuite et des fragments de plâtre peints de motifs zodiacaux (Capricorne), de visages féminins personnifiant la Fortune, d'oiseaux et d'inscriptions dédicatoires en grec et en araméen.</li>\n  <li><strong>Le style frontal oriental :</strong> Les figures, traitées de face avec de grands yeux noirs et des draperies hiératiques, annoncent déjà les canons de la future peinture byzantine et paléochrétienne.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["peinture_murale_gallo_romaine_jublains"] = {
+  "title": "La peinture murale gallo-romaine à Noviodunum (Jublains)",
+  "theme": "Gaule romaine, provinces occidentales & décor domestique",
+  "summary": "Découverte dans les riches domus de Noviodunum (Jublains, Mayenne), la peinture à fresque provinciale témoigne de l'adoption précoce et raffinée des modèles italiens dans les provinces gauloises dès le Haut-Empire.",
+  "content": "<h4>La romanisation des demeures provinciales en Gaule</h4>\n<p>La cité des Diablintes (Jublains) a livré des ensembles exceptionnels de décors peints qui rivalisent d'élégance avec les productions de Campanie :</p>\n<ul>\n  <li><strong>Faune et flore naturalistes :</strong> Panneaux sur fond noir ou rouge pompéien représentant des oiseaux (faisans, perdrix, passereaux) picorant des baies ou posés sur des guirlandes végétales.</li>\n  <li><strong>Maîtrise des pigments importés :</strong> L'utilisation d'ocre jaune, d'hématite rouge et de bleu égyptien démontre des réseaux d'échanges commerciaux actifs reliant la Gaule à l'ensemble du bassin méditerranéen.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["peinture_murale_romaine_hispanie_lugo"] = {
+  "title": "La peinture murale de Lucus Augusti (Lugo)",
+  "theme": "Hispanie romaine, domus urbaine & décor tardo-antique",
+  "summary": "Mise au jour dans la Casa de los Mosaicos à Lugo (Gallaecia), cette peinture murale fragmentaire des IIIe-IVe siècles présente de délicates guirlandes végétales de campanules et de lys, illustrant le raffinement des résidences du nord-ouest hispanique.",
+  "content": "<h4>L'intimité élégante d'une demeure aristocratique en Gallaecia</h4>\n<p>Lucus Augusti, entourée de ses puissantes murailles du Bas-Empire, abritait des résidences luxueuses où peinture murale et mosaïques de pavement se complétaient harmonieusement :</p>\n<ul>\n  <li><strong>Motifs floraux stylisés :</strong> Rinceaux de campanules suspendues, tiges souples et boutons de lys blanc rehaussés sur un fond clair, créant un cadre apaisant et aéré dans les pièces de réception.</li>\n  <li><strong>Continuité artistique :</strong> Cette frise démontre que malgré l'éloignement géographique et les troubles du Bas-Empire, les élites provinciales maintenaient un haut niveau de commande artistique.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["augusta_emerita_peinture_murale_romaine_espagne"] = {
+  "title": "La peinture tardo-antique d'Augusta Emerita (Mérida)",
+  "theme": "Hispanie romaine, Antiquité tardive & transition stylistique",
+  "summary": "Conservée au Museo Nacional de Arte Romano de Mérida, cette peinture murale fragmentaire du IVe siècle présente un groupe de personnages aux visages mélancoliques, marquant l'évolution vers l'expressionnisme de l'Antiquité tardive.",
+  "content": "<h4>La capitale de Lusitanie à l'aube du christianisme</h4>\n<p>Capitale de la province de Lusitanie puis du diocèse des Hispanies, Augusta Emerita fut une grande métropole de l'Occident romain :</p>\n<ul>\n  <li><strong>L'expressivité des regards :</strong> Yeux élargis, regards lointains et pensifs, sourcils arqués traduisant une intériorité spirituelle caractéristique de l'art du IVe siècle.</li>\n  <li><strong>La facture picturale :</strong> Pâte épaisse appliquée par touches larges et expressives, rompant avec le classicisme fluide du Haut-Empire pour privilégier la tension émotionnelle.</li>\n</ul>"
+};
+
+window.BACKGROUNDS_REGISTRY["mercure_hermes_dieu_commerce_voyageurs"] = {
+  "title": "Mercure (Hermès), messager des dieux et protecteur du commerce",
+  "theme": "Panthéon romain, prospérité marchande & divinité apotropaïque",
+  "summary": "Dieu du négoce, des routes, des voleurs et messager de Jupiter, Mercure était la divinité la plus populaire des commerçants de Pompéi et d'Herculanum, représenté avec ses sandales ailées, son pétase, sa bourse et son caducée.",
+  "content": "<h4>Le protecteur des échanges et de la fortune matérielle</h4>\n<p>Dans les cités marchandes de Campanie, l'image de Mercure ornait les façades des boutiques, les ateliers et les thermopolia :</p>\n<ul>\n  <li><strong>Les attributs canoniques :</strong> La bourse de monnaies (marsupium) tenue dans la main droite, le caducée autour duquel s'enroulent deux serpents dans la main gauche, et les ailettes fixées à son chapeau (pétase) ou à ses chevilles.</li>\n  <li><strong>Mercure ithyphallique :</strong> Parfois associé à Priape sous des formes ithyphalliques, il combine sa fonction d'enrichissement avec une puissante valeur de fécondité et de protection magique contre l'infortune.</li>\n</ul>"
+};
+
+
+// Alias peintures murales et fresques romaines
+window.BACKGROUNDS_REGISTRY["styles_pompeiens"] = window.BACKGROUNDS_REGISTRY["styles_pompeiens_peinture_murale"];
+window.BACKGROUNDS_REGISTRY["quatre_styles_pompeiens"] = window.BACKGROUNDS_REGISTRY["styles_pompeiens_peinture_murale"];
+window.BACKGROUNDS_REGISTRY["peinture_pompeienne"] = window.BACKGROUNDS_REGISTRY["styles_pompeiens_peinture_murale"];
+window.BACKGROUNDS_REGISTRY["fresque_pompeienne"] = window.BACKGROUNDS_REGISTRY["styles_pompeiens_peinture_murale"];
+window.BACKGROUNDS_REGISTRY["villa_des_mysteres"] = window.BACKGROUNDS_REGISTRY["villa_des_mysteres_initiation_dionysiaque"];
+window.BACKGROUNDS_REGISTRY["mysteres_dionysiaques"] = window.BACKGROUNDS_REGISTRY["villa_des_mysteres_initiation_dionysiaque"];
+window.BACKGROUNDS_REGISTRY["menades"] = window.BACKGROUNDS_REGISTRY["culte_dionysiaque_menades_bacchantes"];
+window.BACKGROUNDS_REGISTRY["bacchantes"] = window.BACKGROUNDS_REGISTRY["culte_dionysiaque_menades_bacchantes"];
+window.BACKGROUNDS_REGISTRY["peinture_de_jardin"] = window.BACKGROUNDS_REGISTRY["peinture_de_jardin_trompe_l_oeil_romain"];
+window.BACKGROUNDS_REGISTRY["hortus_pictus"] = window.BACKGROUNDS_REGISTRY["peinture_de_jardin_trompe_l_oeil_romain"];
+window.BACKGROUNDS_REGISTRY["paysage_sacre_idyllique"] = window.BACKGROUNDS_REGISTRY["paysage_sacre_idyllique_peinture_romaine"];
+window.BACKGROUNDS_REGISTRY["villa_maritime"] = window.BACKGROUNDS_REGISTRY["paysage_sacre_idyllique_peinture_romaine"];
+window.BACKGROUNDS_REGISTRY["pyrame_thisbe"] = window.BACKGROUNDS_REGISTRY["pyrame_et_thisbe_metamorphoses_ovide"];
+window.BACKGROUNDS_REGISTRY["priape"] = window.BACKGROUNDS_REGISTRY["priape_fascinum_fecondite_apotropaique"];
+window.BACKGROUNDS_REGISTRY["fascinum"] = window.BACKGROUNDS_REGISTRY["priape_fascinum_fecondite_apotropaique"];
+window.BACKGROUNDS_REGISTRY["lupanar_pompei"] = window.BACKGROUNDS_REGISTRY["lupanar_pompei_sexualite_peinture_erotique"];
+window.BACKGROUNDS_REGISTRY["peinture_erotique_romaine"] = window.BACKGROUNDS_REGISTRY["lupanar_pompei_sexualite_peinture_erotique"];
+window.BACKGROUNDS_REGISTRY["lararium"] = window.BACKGROUNDS_REGISTRY["lararium_lares_penates_culte_domestique"];
+window.BACKGROUNDS_REGISTRY["lares_penates"] = window.BACKGROUNDS_REGISTRY["lararium_lares_penates_culte_domestique"];
+window.BACKGROUNDS_REGISTRY["agathodemon"] = window.BACKGROUNDS_REGISTRY["lararium_lares_penates_culte_domestique"];
+window.BACKGROUNDS_REGISTRY["maison_du_verger"] = window.BACKGROUNDS_REGISTRY["maison_du_verger_jardin_egyptomanie_pompei"];
+window.BACKGROUNDS_REGISTRY["cubiculum_noir"] = window.BACKGROUNDS_REGISTRY["maison_du_verger_jardin_egyptomanie_pompei"];
+window.BACKGROUNDS_REGISTRY["paradeisos"] = window.BACKGROUNDS_REGISTRY["paradeisos_chasse_animaux_sauvages_pompei"];
+window.BACKGROUNDS_REGISTRY["maison_des_ceii"] = window.BACKGROUNDS_REGISTRY["paradeisos_chasse_animaux_sauvages_pompei"];
+window.BACKGROUNDS_REGISTRY["ixion"] = window.BACKGROUNDS_REGISTRY["supplice_ixion_roue_enfers"];
+window.BACKGROUNDS_REGISTRY["oecus_ixion"] = window.BACKGROUNDS_REGISTRY["supplice_ixion_roue_enfers"];
+window.BACKGROUNDS_REGISTRY["amours_psyches"] = window.BACKGROUNDS_REGISTRY["amours_et_psyches_artisans_vettii"];
+window.BACKGROUNDS_REGISTRY["frise_des_amours"] = window.BACKGROUNDS_REGISTRY["amours_et_psyches_artisans_vettii"];
+window.BACKGROUNDS_REGISTRY["penthee"] = window.BACKGROUNDS_REGISTRY["supplice_penthee_dirce_bacchantes"];
+window.BACKGROUNDS_REGISTRY["salle_de_penthee"] = window.BACKGROUNDS_REGISTRY["supplice_penthee_dirce_bacchantes"];
+window.BACKGROUNDS_REGISTRY["vesuve_bacchus"] = window.BACKGROUNDS_REGISTRY["vesuve_bacchus_campanie_avant_79"];
+window.BACKGROUNDS_REGISTRY["mont_vesuve_79"] = window.BACKGROUNDS_REGISTRY["vesuve_bacchus_campanie_avant_79"];
+window.BACKGROUNDS_REGISTRY["galeres_romaines"] = window.BACKGROUNDS_REGISTRY["marine_romaine_galeres_biremes_triremes"];
+window.BACKGROUNDS_REGISTRY["marine_romaine"] = window.BACKGROUNDS_REGISTRY["marine_romaine_galeres_biremes_triremes"];
+window.BACKGROUNDS_REGISTRY["mythe_io"] = window.BACKGROUNDS_REGISTRY["mythe_io_argos_hermes_isis_egypte"];
+window.BACKGROUNDS_REGISTRY["temple_isis_pompei"] = window.BACKGROUNDS_REGISTRY["mythe_io_argos_hermes_isis_egypte"];
+window.BACKGROUNDS_REGISTRY["portrait_sappho"] = window.BACKGROUNDS_REGISTRY["portrait_sappho_tablettes_cire_pompei"];
+window.BACKGROUNDS_REGISTRY["sappho_pompei"] = window.BACKGROUNDS_REGISTRY["portrait_sappho_tablettes_cire_pompei"];
+window.BACKGROUNDS_REGISTRY["terentius_neo"] = window.BACKGROUNDS_REGISTRY["portrait_terentius_neo_boulanger_epouse"];
+window.BACKGROUNDS_REGISTRY["boulanger_pompei"] = window.BACKGROUNDS_REGISTRY["portrait_terentius_neo_boulanger_epouse"];
+window.BACKGROUNDS_REGISTRY["diane_chasseresse"] = window.BACKGROUNDS_REGISTRY["diane_chasseresse_artemis_mythologie"];
+window.BACKGROUNDS_REGISTRY["diane_stabies"] = window.BACKGROUNDS_REGISTRY["diane_chasseresse_artemis_mythologie"];
+window.BACKGROUNDS_REGISTRY["sakieh"] = window.BACKGROUNDS_REGISTRY["sakieh_noria_moulin_hydraulique_egypte_romaine"];
+window.BACKGROUNDS_REGISTRY["moulin_a_eau_alexandrie"] = window.BACKGROUNDS_REGISTRY["sakieh_noria_moulin_hydraulique_egypte_romaine"];
+window.BACKGROUNDS_REGISTRY["synagogue_doura_europos"] = window.BACKGROUNDS_REGISTRY["synagogue_doura_europos_peintures_murales"];
+window.BACKGROUNDS_REGISTRY["doura_europos"] = window.BACKGROUNDS_REGISTRY["synagogue_doura_europos_peintures_murales"];
+window.BACKGROUNDS_REGISTRY["peinture_jublains"] = window.BACKGROUNDS_REGISTRY["peinture_murale_gallo_romaine_jublains"];
+window.BACKGROUNDS_REGISTRY["peinture_lugo"] = window.BACKGROUNDS_REGISTRY["peinture_murale_romaine_hispanie_lugo"];
+window.BACKGROUNDS_REGISTRY["peinture_merida"] = window.BACKGROUNDS_REGISTRY["augusta_emerita_peinture_murale_romaine_espagne"];
+window.BACKGROUNDS_REGISTRY["mercure_ithyphallique"] = window.BACKGROUNDS_REGISTRY["mercure_hermes_dieu_commerce_voyageurs"];
+window.BACKGROUNDS_REGISTRY["mercure_romain"] = window.BACKGROUNDS_REGISTRY["mercure_hermes_dieu_commerce_voyageurs"];
+
 window.BACKGROUNDS_REGISTRY["polypheme_galatee"] = window.BACKGROUNDS_REGISTRY["polypheme_et_galatee_pastorale_antique"];
 window.BACKGROUNDS_REGISTRY["pegase"] = window.BACKGROUNDS_REGISTRY["pegase_bellerophon_cheval_aile"];
 window.BACKGROUNDS_REGISTRY["cosmogonie_merida"] = window.BACKGROUNDS_REGISTRY["cosmogonie_mithra_augusta_emerita"];
