@@ -5790,29 +5790,36 @@ body {
   font-size: 0.8rem;
 }
 
-/* Bouton fermer intégré à droite */
-.modal-header-main-grid .btn-dismiss-modal {
-  position: static !important;
-  flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 3px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(212, 175, 55, 0.3);
-  color: #e2e8f0;
-  font-size: 1.35rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  margin-left: 6px;
+/* Bouton fermer décalé tout en haut à droite sur la même ligne que la Civilisation */
+.modal-header-main-grid .btn-dismiss-modal,
+.btn-dismiss-modal {
+  position: absolute !important;
+  top: 10px !important;
+  right: 14px !important;
+  z-index: 25 !important;
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 3px !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(212, 175, 55, 0.35) !important;
+  color: #e2e8f0 !important;
+  font-size: 1.25rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1 !important;
 }
 
-.modal-header-main-grid .btn-dismiss-modal:hover {
-  background: rgba(212, 175, 55, 0.25);
-  color: #d4af37;
-  border-color: #d4af37;
+.modal-header-main-grid .btn-dismiss-modal:hover,
+.btn-dismiss-modal:hover {
+  background: rgba(212, 175, 55, 0.3) !important;
+  color: #ffd700 !important;
+  border-color: #ffd700 !important;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.4) !important;
 }
 
 /* Ligne dorée qui s'estompe vers la droite */

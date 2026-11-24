@@ -4237,6 +4237,8 @@ const DOMAIN_ICONS = {
   sculpture_civile: "⛲",
   architecture: "🏯",
   sculpture_statuaire: "🗿",
+  peinture: "🎨",
+  mosaique: "🧩",
   peinture_mosaique: "🎨",
   ceramique: "🏺",
   funeraire: "⚱️",
@@ -11089,17 +11091,25 @@ const TAXONOMY_DOMAINS = {
       "Vaisselle d'or & d'argent"
     ]
   },
-  "peinture_mosaique": {
-    label: "Peinture murale, Tableaux & Mosaïque",
+  "peinture": {
+    label: "Peinture, Fresques & Tableaux",
+    types: [
+      "Fresque",
+      "Peinture",
+      "Peinture murale / Fresque",
+      "Peinture pariétale rupestre",
+      "Peinture sur bois",
+      "Peinture sur toile"
+    ]
+  },
+  "mosaique": {
+    label: "Mosaïque & Opus sectile",
     types: [
       "Cuve baptismale mosaïquée",
       "Mosaïque de façade & de lunette",
       "Mosaïque de pavement (opus tessellatum & sectile)",
       "Mosaïque de pavement / murale",
-      "Mosaïque murale, d'abside & de voûte",
-      "Peinture",
-      "Peinture murale / Fresque",
-      "Peinture pariétale rupestre"
+      "Mosaïque murale, d'abside & de voûte"
     ]
   },
   "sculpture_statuaire": {
@@ -11262,8 +11272,13 @@ function initSearchEngine() {
         const d = (item.domain || '').toLowerCase().trim();
         if (!d) return;
 
-        if (d === 'peinture' || d === 'peinture_mosaique' || d === 'peinture_fresque' || d === 'plafond_fresque' || d === 'ceramique_mosaique' || d === 'estampe' || d === 'dessin' || d === 'estampe_gravure' || d === 'dessin_art_graphique' || d === 'dessin_estampe') {
-          presentDomains.add('peinture_mosaique');
+        const aType = (item.artifactType || '').toLowerCase();
+        const isMosaic = d === 'mosaique' || d === 'ceramique_mosaique' || aType.includes('mosaïque') || aType.includes('mosaique') || aType.includes('sectile') || aType.includes('tessell');
+
+        if (isMosaic) {
+          presentDomains.add('mosaique');
+        } else if (d === 'peinture' || d === 'peinture_mosaique' || d === 'peinture_fresque' || d === 'plafond_fresque' || d === 'estampe' || d === 'dessin' || d === 'estampe_gravure' || d === 'dessin_art_graphique' || d === 'dessin_estampe') {
+          presentDomains.add('peinture');
         } else if (d === 'sculpture' || d === 'sculpture_statuaire') {
           presentDomains.add('sculpture_statuaire');
         } else if (d === 'architecture' || d === 'monument') {
@@ -11374,7 +11389,14 @@ function initSearchEngine() {
         if (selectedDom !== 'all') {
           const d = (item.domain || '').toLowerCase().trim();
           let domainMatched = false;
-          if (selectedDom === 'peinture_mosaique') {
+          const aType = (item.artifactType || '').toLowerCase();
+          const isMosaic = d === 'mosaique' || d === 'ceramique_mosaique' || aType.includes('mosaïque') || aType.includes('mosaique') || aType.includes('sectile') || aType.includes('tessell');
+
+          if (selectedDom === 'mosaique') {
+            domainMatched = isMosaic;
+          } else if (selectedDom === 'peinture') {
+            domainMatched = !isMosaic && (d === 'peinture' || d === 'peinture_mosaique' || d === 'peinture_fresque' || d === 'plafond_fresque' || d === 'estampe' || d === 'dessin' || d === 'estampe_gravure' || d === 'dessin_art_graphique' || d === 'dessin_estampe');
+          } else if (selectedDom === 'peinture_mosaique') {
             domainMatched = (d === 'peinture_mosaique' || d === 'peinture' || d === 'peinture_fresque' || d === 'plafond_fresque' || d === 'ceramique_mosaique' || d === 'estampe' || d === 'dessin' || d === 'estampe_gravure' || d === 'dessin_art_graphique' || d === 'dessin_estampe');
           } else if (selectedDom === 'sculpture_statuaire') {
             domainMatched = (d === 'sculpture_statuaire' || d === 'sculpture');
@@ -12582,7 +12604,14 @@ function renderSearchGallery() {
       const d = (item.domain || '').toLowerCase().trim();
       let domainMatched = false;
 
-      if (selectedDomain === 'peinture_mosaique') {
+      const aType = (item.artifactType || '').toLowerCase();
+      const isMosaic = d === 'mosaique' || d === 'ceramique_mosaique' || aType.includes('mosaïque') || aType.includes('mosaique') || aType.includes('sectile') || aType.includes('tessell');
+
+      if (selectedDomain === 'mosaique') {
+        domainMatched = isMosaic;
+      } else if (selectedDomain === 'peinture') {
+        domainMatched = !isMosaic && (d === 'peinture' || d === 'peinture_mosaique' || d === 'peinture_fresque' || d === 'plafond_fresque' || d === 'estampe' || d === 'dessin' || d === 'estampe_gravure' || d === 'dessin_art_graphique' || d === 'dessin_estampe');
+      } else if (selectedDomain === 'peinture_mosaique') {
         domainMatched = (d === 'peinture_mosaique' || d === 'peinture' || d === 'peinture_fresque' || d === 'plafond_fresque' || d === 'ceramique_mosaique' || d === 'estampe' || d === 'dessin' || d === 'estampe_gravure' || d === 'dessin_art_graphique' || d === 'dessin_estampe');
       } else if (selectedDomain === 'sculpture_statuaire') {
         domainMatched = (d === 'sculpture_statuaire' || d === 'sculpture');
