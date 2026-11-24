@@ -11057,6 +11057,7 @@ const TAXONOMY_DOMAINS = {
       "Papyrus funéraire / Livre des Morts", "Portrait du Fayoum", "Pyramidion",
       "Sarcophage & Momie animale", "Sarcophage humain (cuve, bois, pierre)",
       "Sarcophage anthropoïde en marbre", "Sarcophage royal anthropoïde",
+      "Sarcophage en marbre (cuve & bas-relief)",
       "Stèle funéraire", "Table d'offrandes", "Urne cinéraire", "Urnes cinéraires & Stèles votives",
       "Allée couverte", "Dolmen (à couloir, simple, coudé)", "Tumulus & Cairn"
     ]
@@ -12707,8 +12708,8 @@ function renderSearchGallery() {
             matched = techTxt.includes('portail') || techTxt.includes('tympan');
           } else if (target.includes('retable') || target.includes('chaire') || target.includes('liturgique')) {
             matched = techTxt.includes('retable') || techTxt.includes('chaire') || techTxt.includes('tabernacle') || techTxt.includes('ambon') || techTxt.includes('autel') || techTxt.includes('clôture de chœur') || techTxt.includes('trascoro') || techTxt.includes('rétrochoeur') || techTxt.includes('arbre de jessé');
-          } else if (target.includes('gisant') || target.includes('sarcophage') || target.includes('funéraire')) {
-            matched = techTxt.includes('gisant') || techTxt.includes('sarcophage') || techTxt.includes('tombeau') || techTxt.includes('cénotaphe') || techTxt.includes('funéraire') || techTxt.includes('enfeu') || techTxt.includes('plaque funéraire');
+          } else if (target.includes('gisant') || target.includes('cénotaphe') || target.includes('enfeu') || (target.includes('monument funéraire') && !target.includes('rupestre')) || target === 'sculpture funéraire' || target === 'funéraire') {
+            matched = techTxt.includes('gisant') || techTxt.includes('sarcophage') || techTxt.includes('tombeau') || techTxt.includes('cénotaphe') || techTxt.includes('enfeu') || techTxt.includes('plaque funéraire');
           } else if (target.includes('dolmen')) {
             matched = techTxt.includes('dolmen');
           } else if (target.includes('allée couverte') || target.includes('allee couverte')) {
@@ -13216,6 +13217,10 @@ function escapeHtmlAttr(str) {
     .replace(/>/g, '&gt;');
 }
 
+function escapeHtml(str) {
+  return escapeHtmlAttr(str);
+}
+
 // Recherche la définition associée à une sous-catégorie / typologie
 function getTypologyLexiconEntry(rawType) {
   if (!rawType) return null;
@@ -13330,7 +13335,12 @@ function getCompiledGlossary() {
     // Trier les motifs du plus long au plus court
     const sortedPats = [...pats].sort((a, b) => b.length - a.length);
     const regexAlts = sortedPats.map(patternToAccentRegexStr).join('|');
-    const regex = new RegExp(`(?<![a-zA-ZÀ-ÿœŒæÆ])(${regexAlts})(?![a-zA-ZÀ-ÿœŒæÆ])`, 'i');
+    let regex;
+    try {
+      regex = new RegExp(`(?<![a-zA-ZÀ-ÿœŒæÆ])(${regexAlts})(?![a-zA-ZÀ-ÿœŒæÆ])`, 'i');
+    } catch (e) {
+      regex = new RegExp(`(?:^|[^a-zA-ZÀ-ÿœŒæÆ])(${regexAlts})(?=[^a-zA-ZÀ-ÿœŒæÆ]|$)`, 'i');
+    }
     return {
       idx,
       term: entry.term,
@@ -13346,77 +13356,81 @@ function getCompiledGlossary() {
 // Enrichit automatiquement la première occurrence de chaque terme technique dans un bloc HTML
 function enrichHTMLWithGlossary(htmlString) {
   if (!htmlString) return '';
-  const entries = getCompiledGlossary();
-  if (!entries || entries.length === 0) return htmlString;
+  try {
+    const entries = getCompiledGlossary();
+    if (!entries || entries.length === 0) return htmlString;
 
-  const tpl = document.createElement('template');
-  tpl.innerHTML = htmlString;
+    const tpl = document.createElement('template');
+    tpl.innerHTML = htmlString;
 
-  const matchedIndices = new Set();
+    const matchedIndices = new Set();
 
-  function walkNodes(node) {
-    if (node.nodeType === Node.TEXT_NODE) {
-      const text = node.nodeValue;
-      if (!text || text.trim().length < 3) return;
+    function walkNodes(node) {
+      if (node.nodeType === Node.TEXT_NODE) {
+        const text = node.nodeValue;
+        if (!text || text.trim().length < 3) return;
 
-      for (const item of entries) {
-        if (matchedIndices.has(item.idx)) continue;
-        const m = item.regex.exec(text);
-        if (m) {
-          matchedIndices.add(item.idx);
-          const beforeText = text.slice(0, m.index);
-          const matchedWord = m[1];
-          const afterText = text.slice(m.index + matchedWord.length);
+        for (const item of entries) {
+          if (matchedIndices.has(item.idx)) continue;
+          const m = item.regex.exec(text);
+          if (m) {
+            matchedIndices.add(item.idx);
+            const beforeText = text.slice(0, m.index);
+            const matchedWord = m[1];
+            const afterText = text.slice(m.index + matchedWord.length);
 
-          const frag = document.createDocumentFragment();
-          if (beforeText) {
-            const beforeNode = document.createTextNode(beforeText);
-            frag.appendChild(beforeNode);
+            const frag = document.createDocumentFragment();
+            if (beforeText) {
+              const beforeNode = document.createTextNode(beforeText);
+              frag.appendChild(beforeNode);
+            }
+
+            const span = document.createElement('span');
+            span.className = 'glossary-inline-term has-lexicon-tip';
+            span.tabIndex = 0;
+            span.dataset.lexTitle = item.term;
+            span.dataset.lexEtym = item.etymology;
+            span.dataset.lexDomain = item.category;
+            span.dataset.lexDef = item.def;
+            span.textContent = matchedWord;
+            frag.appendChild(span);
+
+            const afterNode = document.createTextNode(afterText);
+            frag.appendChild(afterNode);
+
+            node.parentNode.replaceChild(frag, node);
+            // Continuer l'analyse sur les fragments restants
+            if (afterText.trim().length >= 3) {
+              walkNodes(afterNode);
+            }
+            return;
           }
-
-          const span = document.createElement('span');
-          span.className = 'glossary-inline-term has-lexicon-tip';
-          span.tabIndex = 0;
-          span.dataset.lexTitle = item.term;
-          span.dataset.lexEtym = item.etymology;
-          span.dataset.lexDomain = item.category;
-          span.dataset.lexDef = item.def;
-          span.textContent = matchedWord;
-          frag.appendChild(span);
-
-          const afterNode = document.createTextNode(afterText);
-          frag.appendChild(afterNode);
-
-          node.parentNode.replaceChild(frag, node);
-          // Continuer l'analyse sur les fragments restants
-          if (afterText.trim().length >= 3) {
-            walkNodes(afterNode);
-          }
-          return;
         }
-      }
-      return;
-    }
-
-    if (node.nodeType === Node.ELEMENT_NODE) {
-      const tag = node.tagName.toLowerCase();
-      // Ne pas injecter dans les balises déjà interactives ou les titres forts de bas de fiche
-      if (tag === 'script' || tag === 'style' || tag === 'a' || tag === 'button' || node.classList.contains('has-lexicon-tip')) {
         return;
       }
-      const children = Array.from(node.childNodes);
-      for (const child of children) {
-        walkNodes(child);
+
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        const tag = node.tagName.toLowerCase();
+        // Ne pas injecter dans les balises déjà interactives ou les titres forts de bas de fiche
+        if (tag === 'script' || tag === 'style' || tag === 'a' || tag === 'button' || node.classList.contains('has-lexicon-tip')) {
+          return;
+        }
+        const children = Array.from(node.childNodes);
+        for (const child of children) {
+          walkNodes(child);
+        }
       }
     }
-  }
 
-  const rootChildren = Array.from(tpl.content.childNodes);
-  for (const child of rootChildren) {
-    walkNodes(child);
-  }
+    const rootChildren = Array.from(tpl.content.childNodes);
+    for (const child of rootChildren) {
+      walkNodes(child);
+    }
 
-  return tpl.innerHTML;
+    return tpl.innerHTML;
+  } catch (err) {
+    return htmlString;
+  }
 }
 
 // Gestionnaire de la bulle flottante (Popover) au survol et au clic/toucher
