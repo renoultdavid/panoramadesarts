@@ -5473,7 +5473,7 @@ function openCivilisationPavilion(civ, initialTab = 'panoramic') {
         chip.title = `${art.title} (${dateStr}) [${domLabel}] - Cliquer pour ouvrir la notice complète`;
         chip.innerHTML = `
           <div class="pavilion-art-thumb">
-            <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
+            <img src="${art.imgSrc || art.image || ''}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
             <span class="pavilion-art-badge">${domIcon}</span>
           </div>
           <div class="pavilion-art-info">
@@ -7398,7 +7398,7 @@ function renderSynchronousTheatre(activeCivs, currentYear) {
             <div class="theatre-hero-art-scroll">
               ${sampleArts.map((art, idx) => `
                 <div class="theatre-hero-art-chip" data-art-index="${idx}" title="${escapeHtmlAttr(art.title)} (${escapeHtmlAttr(art.centuryDisplay || art.century || '')})">
-                  <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
+                  <img src="${art.imgSrc || art.image || ''}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
                   <span class="theatre-chip-name">${escapeHtmlAttr(art.title)}</span>
                 </div>
               `).join('')}
@@ -8115,7 +8115,7 @@ function activateCivilisationView(civ) {
         <div class="sub-node-pedestal">
           ${dateLabel ? `<span class="sub-node-corner-date">${escapeHtmlAttr(dateLabel)}</span>` : ''}
           <span class="sub-node-domain-badge" title="${escapeHtmlAttr(domLabel)}">${domIcon} ${escapeHtmlAttr(art.artifactType || domLabel)}</span>
-          <img src="${art.imgSrc}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
+          <img src="${art.imgSrc || art.image || ''}" alt="${escapeHtmlAttr(art.title)}" loading="lazy" />
         </div>
         <div class="sub-node-caption">
           <div class="sub-node-title">${escapeHtmlAttr(art.title)}</div>
@@ -8408,7 +8408,7 @@ function updateLensPosition(clientX, clientY, isTouch = false) {
 
 function openArtworkLightbox() {
   if (!modalImg || !modalImg.src) return;
-  const activeSrc = modalImg.currentSrc || modalImg.src;
+  const activeSrc = (modalImg && (modalImg.currentSrc || modalImg.src)) || (typeof activeContextList !== 'undefined' && activeContextList[currentArtIndex] && (activeContextList[currentArtIndex].imgSrc || activeContextList[currentArtIndex].image)) || '';
   artworkLightboxImg.src = activeSrc;
   if (lightboxArtworkTitle && modalArtworkTitle) {
     lightboxArtworkTitle.textContent = modalArtworkTitle.textContent || "Inspection de l'œuvre";
@@ -8781,7 +8781,7 @@ function populateModalData(art) {
       this.src = this.src.replace(/[?&]authuser=\d+/g, '');
     }
   };
-  modalImg.src = art.imgSrc;
+  modalImg.src = art.imgSrc || art.image || art.img || '';
   modalImg.alt = art.title;
   modalCivTitle.textContent = art.civName || '';
   modalArtworkTitle.textContent = art.title;

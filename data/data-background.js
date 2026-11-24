@@ -6115,6 +6115,160 @@ window.BACKGROUNDS_REGISTRY["peinture_merida"] = window.BACKGROUNDS_REGISTRY["au
 window.BACKGROUNDS_REGISTRY["mercure_ithyphallique"] = window.BACKGROUNDS_REGISTRY["mercure_hermes_dieu_commerce_voyageurs"];
 window.BACKGROUNDS_REGISTRY["mercure_romain"] = window.BACKGROUNDS_REGISTRY["mercure_hermes_dieu_commerce_voyageurs"];
 
+
+// --- NOTICES SCULPTURE FUNÉRAIRE ET MONUMENTS ROMAINS ---
+window.BACKGROUNDS_REGISTRY["sarcophage_romain_enfant_deuil_famille_agrigente"] = {
+  "title": "Le deuil de l'enfant dans la Rome antique (Sarcophages d'Agrigente)",
+  "theme": "Rites funéraires romains, deuil domestique & mort des enfants",
+  "summary": "Témoignage bouleversant de la piété familiale romaine, les sarcophages d'enfants figurés illustrent la réalité intime du deuil : l'enfant étendu sur le lectus funebris, la mère ou la nourrice effondrée et le père portant la main au front en signe d'affliction inconsolable.",
+  "text": "<h4>La douleur domestique et l'adieu à l'enfant</h4>\n<p>Alors que la majorité des sarcophages romains d'époque impériale privilégiaient de grands récits mythologiques métaphoriques, ce sarcophage d'enfant découvert à Agrigente (Sicile) se distingue par sa focalisation poignante sur la réalité intime et familiale de la disparition :</p>\n<ul>\n  <li><strong>La scène du trépas (lectus funebris) :</strong> L'enfant repose immobile sur le lit d'apparat funéraire. Une femme — sa mère ou sa dévouée nourrice — s'incline vers lui dans un geste d'adieu désespéré, tandis que le père se tient à la tête du lit, la main droite levée au front dans l'attitude classique de l'affliction.</li>\n  <li><strong>La déploration silencieuse :</strong> Des figures de matrones voilées assises incarnent la mélancolie silencieuse, tandis que des pédagogues et serviteurs essuient leurs larmes du revers de leur toge.</li>\n  <li><strong>L'émotion universelle dans le marbre :</strong> La finesse des drapés et l'expressivité tragique des visages témoignent du haut degré de sensibilité et de virtuosité des ateliers de sculpture de Sicile au IIe siècle apr. J.-C.</li>\n</ul>",
+  "content": "<h4>La douleur domestique et l'adieu à l'enfant</h4><p>Ce sarcophage d'Agrigente illustre avec une sensibilité universelle le deuil domestique face à la perte d'un enfant sous le Haut-Empire romain.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["sarcophages_romains_a_strigiles_clipeus_concordia"] = {
+  "title": "Sarcophages à strigiles, clipeus des époux et concordia",
+  "theme": "Sculpture funéraire romaine, piété conjugale & strigiles",
+  "summary": "Très répandus sous le Haut et le Bas-Empire, les sarcophages à strigiles associent le motif athlétique de purification des cannelures en 'S' au médaillon central (clipeus) abritant le double portrait des époux unis par le geste de la concordia.",
+  "text": "<h4>Le rythme des strigiles et l'immortalité conjugale</h4>\n<p>Aux IIe et IIIe siècles de notre ère, les ateliers de sculpteurs de Rome et des provinces ont développé la typologie monumentale du sarcophage à strigiles :</p>\n<ul>\n  <li><strong>Les cannelures en strigiles :</strong> Ondulations sinueuses sculptées en creux imitant le strigile de bronze dont usaient les athlètes au gymnase. Ce motif conférait à la cuve un rythme géométrique tout en symbolisant la purification morale et la vertu (virtus) de l'âme.</li>\n  <li><strong>Le clipeus central et la concordia :</strong> Au centre, un médaillon circulaire porté par des masques théâtraux réunit les bustes des époux. La femme posant tendrement sa main sur l'épaule de son mari matérialise la <em>concordia</em>, fidélité et harmonie conjugale par-delà le trépas.</li>\n  <li><strong>Les masques de théâtre à la base :</strong> Rappelant la vanité et la fugacité de l'existence terrestre souvent comparée à une scène de théâtre.</li>\n</ul>",
+  "content": "<h4>Le rythme des strigiles et l'immortalité conjugale</h4><p>Les sarcophages à strigiles et clipeus conjugal symbolisent la vertu athlétique de l'âme et la pérennité de l'amour au-delà de la mort.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["sarcophage_hercule_procession_dionysiaque_mann"] = {
+  "title": "Les exploits d'Hercule et le triomphe dionysiaque sur les sarcophages romains",
+  "theme": "Eschatologie romaine, exploits héroïques & salut bachique",
+  "summary": "Associant le courage moral (virtus) d'Hercule terrassant les monstres à l'extase jubilatoire du thiase de Dionysos, ce décor funéraire promet au défunt le repos immortel et la victoire de l'âme sur la mort.",
+  "text": "<h4>L'alliance héroïque d'Hercule et de l'ivresse salvatrice de Bacchus</h4>\n<p>Sur les grands sarcophages aristocratiques conservés à Naples (MANN), deux cycles majeurs de la mythologie gréco-romaine se conjuguent pour magnifier le destin outre-tombe du défunt :</p>\n<ul>\n  <li><strong>La virtus herculéenne :</strong> Les douze travaux d'Hercule incarnent la victoire de l'effort héroïque sur l'adversité et la promesse d'une apothéose céleste parmi les dieux de l'Olympe.</li>\n  <li><strong>Le thiase dionysiaque :</strong> Autour de Dionysos se déploie un cortège effréné de satyres athlétiques, de ménades en transe et de centaures jouant de la lyre ou de la double flûte (aulos), célébrant la régénération cosmique.</li>\n  <li><strong>Haut-relief et dramaturgie :</strong> La sculpture profonde au trépan crée des contrastes d'ombre intenses et un tourbillon de figures imbriquées répondant à l'horreur du vide hellénistique.</li>\n</ul>",
+  "content": "<h4>L'alliance héroïque d'Hercule et de Bacchus</h4><p>Ce sarcophage conjugue les épreuves d'Hercule et l'ivresse sacrée du cortège de Dionysos pour promettre la renaissance éternelle.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["porte_des_enfers_mercure_psychopompe_sarcophages"] = {
+  "title": "La Porte des Enfers et Mercure Psychopompe dans l'art funéraire romain",
+  "theme": "Mythologie de l'au-delà, passage vers l'Hadès & Mercure conducteur des âmes",
+  "summary": "Représentée sur les sarcophages architecturaux comme une monumentale double porte entrouverte gardée par Mercure Psychopompe, la Porte des Enfers matérialise le passage inéluctable entre le monde des vivants et le royaume d'Hadès.",
+  "text": "<h4>Le seuil de l'éternité et le guide divin des âmes</h4>\n<p>Sur les sarcophages romains de type architectural à colonnes (comme ceux de Florence ou de Cordoue), la façade de la cuve se conçoit comme une façade de temple ou de mausolée :</p>\n<ul>\n  <li><strong>La Porte de l'Hadès entrouverte :</strong> Une double porte à vantaux de bronze richement moulurés, parfois surmontée d'un fronton et ornée de têtes d'animaux apotropaïques (lions, béliers) pour préserver le repos de la sépulture. L'ouverture partielle indique que l'âme a franchi le seuil vers l'au-delà.</li>\n  <li><strong>Mercure Psychopompe :</strong> Messager des dieux muni de son pétase et de son caducée, il prend par la main le défunt pour le conduire en toute sécurité à travers les ténèbres jusqu'au royaume souterrain.</li>\n  <li><strong>Les niches des époux :</strong> De part et d'autre des colonnes corinthiennes, le défunt togué et son épouse drapée dans la palla affirment leur dignité civique et leur piété face à l'éternité.</li>\n</ul>",
+  "content": "<h4>Le seuil de l'éternité et le guide divin</h4><p>La porte des Enfers entrouverte et Mercure Psychopompe matérialisent le passage vers l'Hadès sous la bienveillante garde des dieux.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["ariane_naxos_dionysos_sommeil_renaissance"] = {
+  "title": "La découverte d'Ariane à Naxos : le sommeil comme promesse d'immortalité",
+  "theme": "Mythologie dionysiaque, eschatologie & salut dans l'au-delà",
+  "summary": "Endormie sur les rivages de Naxos avant d'être réveillée et épousée par Dionysos, Ariane incarne sur les sarcophages impériaux la mort transfigurée en un doux sommeil ouvrant sur l'apothéose divine.",
+  "text": "<h4>Du sommeil de Naxos aux noces éternelles</h4>\n<p>Sur les sarcophages en marbre de l'époque antonine, notamment à Alexandrie et à Rome, le mythe d'Ariane abandonnée par Thésée à Naxos fut l'un des plus poétiques symboles de la mort transfigurée :</p>\n<ul>\n  <li><strong>Le sommeil métaphorique :</strong> Ariane repose alanguie, les yeux clos, le corps souplement drapé. Pour les Romains, ce sommeil n'est pas une fin tragique mais une attente bienheureuse.</li>\n  <li><strong>L'arrivée du dieu sauveur :</strong> Dionysos s'avance avec son cortège (thiase) d'amours voltigeants, de satyres et de ménades au son des crotales pour éveiller la jeune femme et la couronner dans les cieux.</li>\n  <li><strong>Sculpture baroque alexandrine :</strong> Les plis tourmentés creusés au trépan et le toit à bâtière aux acrotères protecteurs confèrent au sarcophage une majesté souveraine.</li>\n</ul>",
+  "content": "<h4>Du sommeil de Naxos aux noces éternelles</h4><p>Ariane endormie découverte par Dionysos illustre la croyance que la mort n'est qu'un sommeil préludant à l'apothéose céleste.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["chasse_au_lion_virtus_sarcophages_romains"] = {
+  "title": "La chasse au lion et la virtus héroïque sur les sarcophages romains",
+  "theme": "Idéologie aristocratique, courage viril (virtus) & cuves en lénos",
+  "summary": "Symbole suprême de bravoure face aux périls sauvages de la nature, la chasse au lion à cheval et à pied immortalisait sur le marbre la virtus et le prestige social des commanditaires romains.",
+  "text": "<h4>La virtus aristocratique face aux forces sauvages</h4>\n<p>À partir du IIe siècle après J.-C., les grands sarcophages de marbre adoptent fréquemment des représentations spectaculaires de chasse aux fauves (comme le chef-d'œuvre de Barcelone découvert à Barcino) :</p>\n<ul>\n  <li><strong>La confrontation héroïque :</strong> Des cavaliers au manteau flottant et des piqueurs à pied affrontent des lions rugissants dans une mêlée impétueuse de chevaux cabrés et d'armes entrecroisées.</li>\n  <li><strong>La symbolique morale de la virtus :</strong> Dans la mentalité romaine, terrasser le fauve sauvage équivalait à dompter le destin et à triompher de la mort elle-même par le mérite et le courage civique.</li>\n  <li><strong>La cuve en lénos :</strong> La forme ovale ou aux angles arrondis rappelle la cuve du pressoir à vin dionysiaque, reliant la vaillance militaire à l'espérance de la renaissance bachique.</li>\n</ul>",
+  "content": "<h4>La virtus aristocratique face aux forces sauvages</h4><p>La chasse au lion sur les sarcophages romains symbolise la valeur morale et la victoire sur la mort par le courage héroïque.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["enlevement_de_proserpine_pluton_mythologie"] = {
+  "title": "L'enlèvement de Proserpine (Perséphone) par Pluton aux Enfers",
+  "theme": "Mythes d'Éleusis, cycle des saisons & espérance de résurrection",
+  "summary": "Enlevée sur son char par le dieu des Enfers sous les yeux impuissants de Minerve et de Diane, Proserpine symbolise le drame de la perte et la certitude consolatrice du renouveau cyclique de la vie.",
+  "text": "<h4>Le rapt infernal et la promesse du printemps éternel</h4>\n<p>Célébré par Claudien et Ovide, le mythe de l'enlèvement de Proserpine constitue le thème eschatologique par excellence sur les sarcophages romains de haut rang (comme le monument d'Alicante au musée de Barcelone) :</p>\n<ul>\n  <li><strong>Le quadrige de Pluton :</strong> Le dieu souverain des Enfers surgit des entrailles de la terre sur son char ardent et emporte la fille de Cérès tandis que Mercure guide les coursiers vers l'abîme.</li>\n  <li><strong>La vaine résistance des déesses :</strong> Minerve casquée et Diane chasseresse tentent de retenir le char, tandis que des Amours ailés s'agitent dans les airs.</li>\n  <li><strong>La consolation d'Éleusis :</strong> Par l'accord conclu avec Jupiter autorisant Proserpine à remonter sur terre chaque printemps auprès de sa mère Cérès, la mort cesse d'être irréversible et devient une étape transitoire vers la renaissance.</li>\n</ul>",
+  "content": "<h4>Le rapt infernal et la promesse du renouveau</h4><p>Le mythe de Proserpine enlevée par Pluton apporte une consolation universelle en assimilant la mort au cycle renaissant des saisons.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["masques_mortuaires_imagines_maiorum_el_jem"] = {
+  "title": "Les masques mortuaires et les imagines maiorum en Afrique romaine",
+  "theme": "Culte des ancêtres, moulage sur le vif & mémoire biologique",
+  "summary": "Issus de la tradition romaine des imagines maiorum conservées dans les atriums, les masques mortuaires en plâtre ou terre cuite moulés directement sur le visage du défunt préservent avec un réalisme saisissant les traits authentiques des citoyens de Thysdrus (El Jem).",
+  "text": "<h4>La vérité des traits et l'immortalité de la lignée</h4>\n<p>Découvert dans la nécropole de Thysdrus (El Jem, Tunisie), cet exceptionnel ensemble comprenant le moule négatif en terre cuite et son tirage positif en plâtre illustre la piété commémorative romaine :</p>\n<ul>\n  <li><strong>La chaîne opératoire du moulage :</strong> Application d'une pâte fine d'argile ou de plâtre sur le visage du défunt immédiatement après le décès, capturant la texture de la peau, la commissure des lèvres et les paupières closes.</li>\n  <li><strong>Les imagines maiorum :</strong> Héritière des masques de cire que les familles patriciennes et plébéiennes conservaient pieusement dans les armoires de l'atrium, cette pièce assurait la continuité visuelle de la lignée lors des funérailles solennelles.</li>\n  <li><strong>Archive culturelle et humaine :</strong> Ce document archéologique unique permet un contact direct et émouvant avec la physionomie réelle d'un habitant de la province d'Afrique au IIIe siècle.</li>\n</ul>",
+  "content": "<h4>La vérité des traits et l'immortalité de la lignée</h4><p>Moulé directement sur le visage du défunt, ce masque mortuaire perpétue la tradition romaine des imagines maiorum à Thysdrus.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["mausolee_des_jules_glanum_combat_cavaliers"] = {
+  "title": "Le Mausolée des Jules à Glanum et la mêlée héroïque de cavaliers",
+  "theme": "Gaule Narbonnaise, art augustéen & mémoire guerrière provinciale",
+  "summary": "Érigé aux portes de Glanum vers 30-20 av. J.-C., le mausolée des Julii présente sur son socle un relief de combat de cavaliers d'une vigueur exceptionnelle, fusionnant le dynamisme hellénistique et la piété commémorative augustéenne.",
+  "text": "<h4>L'affirmation des élites gauloises romanisées sous Auguste</h4>\n<p>Le mausolée des Jules à Saint-Rémy-de-Provence (Glanum), l'un des chefs-d'œuvre de la Gaule romaine, illustre l'intégration éclatante d'une grande famille celto-gauloise gratifiée de la citoyenneté par Jules César :</p>\n<ul>\n  <li><strong>La charge des cavaliers :</strong> Sur le socle quadrangulaire en calcaire local se déploie un combat de cavalerie d'un réalisme saisissant, évoquant les engagements des guerres des Gaules ou des guerres civiles.</li>\n  <li><strong>Maîtrise spatiale hellénistique :</strong> Les chevaux se chevauchant en profondeur, les corps en torsion et les armes fidèlement restituées témoignent du travail de sculpteurs rompus aux traditions méditerranéennes.</li>\n  <li><strong>Guirlandes augustéennes :</strong> La frise supérieure de fruits et de mascarons consacre l'avènement de la paix augustéenne (Pax Romana) dans la province de Narbonnaise.</li>\n</ul>",
+  "content": "<h4>L'affirmation des élites gauloises à Glanum</h4><p>Le relief de combat de cavaliers du mausolée des Jules magnifie les exploits militaires des ancêtres gaulois ralliés à Rome.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["ornementation_augusteenne_couronne_civique_tarraco"] = {
+  "title": "L'ornementation architecturale augustéenne et la couronne civique à Tarraco",
+  "theme": "Architecture publique romaine, symbolisme civique & sacrifice",
+  "summary": "Sculptée d'une patère à libations, de rubans sacrificiels (vittae) et d'une riche guirlande de feuilles de chêne et de glands (couronne civique décernée à Auguste), cette frise de temple exalte la piété et la Pax Romana dans la capitale d'Hispanie.",
+  "text": "<h4>La sacralisation de l'espace public au forum de Tarraco</h4>\n<p>Capitale de la province de Tarraconaise où Auguste résida personnellement entre 26 et 25 av. J.-C., Tarraco a bénéficié d'un programme monumental d'inspiration officielle romaine :</p>\n<ul>\n  <li><strong>La patère rituelle à ombilic :</strong> Coupe circulaire sans anse employée par les prêtres pour verser les libations de vin sacré sur l'autel avant le sacrifice de la victime.</li>\n  <li><strong>La couronne civique de feuilles de chêne :</strong> Insigne le plus glorieux octroyé par le Sénat à l'empereur Auguste (corona civica) pour avoir sauvé les citoyens romains, symbole de clémence et de paix restaurée.</li>\n  <li><strong>Les bandelettes sacrées (vittae) :</strong> Rubans de laine noués autour des cornes des bêtes sacrificielles et des autels, sculptés avec une grande souplesse dans le marbre blanc.</li>\n</ul>",
+  "content": "<h4>L'ornementation augustéenne du temple de Tarraco</h4><p>Patère sacrificielle et couronne civique de chêne sculptées sur marbre affirment l'allégeance de Tarraco au programme impérial d'Auguste.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["jupiter_ammon_clipeus_forum_provincial_tarraco"] = {
+  "title": "Jupiter Ammon et les clipei monumentaux du forum de Tarraco",
+  "theme": "Syncrétisme impérial, architecture des forums & prestige provincial",
+  "summary": "Inspirés directement de l'attique du Forum d'Auguste à Rome, les clipei en marbre représentant Jupiter Ammon aux cornes de bélier proclamaient la protection universelle des dieux sur l'Empire romain.",
+  "text": "<h4>Le syncrétisme alexandrin au cœur du forum romain</h4>\n<p>Sur l'attique des portiques du grand forum provincial de Tarraco, de monumentaux boucliers sculptés (clipei) reprenaient fidèlement le schéma décoratif du Forum d'Auguste à Rome :</p>\n<ul>\n  <li><strong>La fusion de Jupiter et d'Ammon :</strong> Le souverain de l'Olympe emprunte les cornes de bélier de la divinité égyptienne de l'oasis de Siwa, vénérée par Alexandre le Grand.</li>\n  <li><strong>Le relief tourmenté de la chevelure :</strong> Traité avec force au trépan, le dynamisme des boucles et de la barbe contraste avec le modelé lisse et souverain des chairs du visage.</li>\n  <li><strong>La puissance apotropaïque et politique :</strong> Alternés avec des têtes de Gorgone (Méduse), ces clipei assuraient la garde divine du forum et célébraient la domination de Rome sur l'ensemble de la Méditerranée.</li>\n</ul>",
+  "content": "<h4>Jupiter Ammon et les clipei monumentaux de Tarraco</h4><p>Reprenant les médaillons du Forum d'Auguste, la tête de Jupiter Ammon aux cornes de bélier célèbre l'universalité de l'autorité impériale.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["portique_des_captifs_statuaire_romaine_corinthe"] = {
+  "title": "Le Portique des Captifs de Corinthe : statuaire romaine et barbares vaincus",
+  "theme": "Propagande impériale sévérienne, triomphe militaire & Achaïe romaine",
+  "summary": "Érigé au nord de l'Agora de Corinthe, le Portique des Captifs utilisait des figures colossales de barbares sculptés comme supports d'entablement, transposition romaine magistrale des cariatides grecques célébrant la soumission des peuples frontaliers.",
+  "text": "<h4>La transposition romaine des cariatides au service de l'Empire</h4>\n<p>Édifié à la fin du IIe siècle de notre ère sur l'Agora monumentale de la colonie romaine de Corinthe (capitale de la province d'Achaïe), le Portique des Captifs constituait un manifeste de puissance impériale :</p>\n<ul>\n  <li><strong>Les barbares captifs comme pilastres :</strong> Sculptés en haut-relief dans le marbre, des guerriers vaincus à la musculature vigoureuse et athlétique soutiennent la charge de l'entablement, incarnant la domination de Rome sur les peuples barbares.</li>\n  <li><strong>Dignité tragique des visages :</strong> Barbe dense creusée au trépan, regard ombré et traits tourmentés confèrent à ces figures une noblesse pathétique héritée de la grande sculpture hellénistique.</li>\n  <li><strong>Figures allégoriques féminines :</strong> La présence de têtes féminines au modelé classique et serein apporte un contrepoint mélancolique au drame de la captivité.</li>\n</ul>",
+  "content": "<h4>Le Portique des Captifs de Corinthe</h4><p>Les figures monumentales de barbares captifs soutenant l'entablement célèbrent la gloire militaire et la paix impériale romaine à Corinthe.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["amazonomachie_combat_grecs_amazones_sculpture"] = {
+  "title": "L'Amazonomachie dans la sculpture publique romaine",
+  "theme": "Mythologie classique, héroïsme civique & triomphe de la civilisation",
+  "summary": "Combat archétypal opposant les guerriers grecs aux redoutables Amazones au bonnet phrygien et à la pelta en croissant, l'Amazonomachie symbolisait pour les cités de l'Empire la victoire de l'ordre civique sur le chaos sauvage.",
+  "text": "<h4>Le duel mythique et la gloire de la civilisation</h4>\n<p>Très prisé dans la statuaire architecturale romaine de Grèce et d'Asie Mineure (comme sur les théâtres et portiques de Corinthe), le thème de l'Amazonomachie offrait une métaphore morale prestigieuse :</p>\n<ul>\n  <li><strong>L'équipement de l'Amazone :</strong> La guerrière d'Orient est reconnaissable à son chiton court noué sous la poitrine, son bonnet phrygien et son bouclier échancré en forme de croissant (pelta).</li>\n  <li><strong>L'affrontement en diagonale :</strong> Face à elle, le hoplite grec vêtu de la cuirasse à lambrequins et brandissant son bouclier rond crée une composition dynamique rythmée par le choc des armes.</li>\n  <li><strong>Continuité artistique sous l'Empire :</strong> Les sculpteurs corinthiens du IIe siècle perpétuaient avec virtuosité les modèles classiques d'Athènes et de Pergame en les adaptant aux programmes édilitaires romains.</li>\n</ul>",
+  "content": "<h4>L'Amazonomachie dans la sculpture romaine</h4><p>Le combat mythique entre Grecs et Amazones illustre le triomphe de l'ordre civique sur la barbarie dans les monuments publics de Corinthe.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["cratere_monumental_dionysiaque_forum_tarraco"] = {
+  "title": "Vases monumentaux et cratères bachiques d'apparat du forum de Tarraco",
+  "theme": "Sculpture décorative néo-attique, faste urbain & culte de Bacchus",
+  "summary": "Imposante vasque en marbre blanc ornée de masques de satyres, de silènes et de pampres de vigne, ce cratère monumental transformait le centre public de Tarraco en vitrine de l'élégance hellénisante.",
+  "text": "<h4>Le luxe du mobilier urbain dionysiaque à Tarraco</h4>\n<p>Sur les grandes places publiques et dans les complexes thermaux du Haut-Empire, les élites romaines faisaient ériger de monumentales vasques d'apparat inspirées des cratères à vin grecs :</p>\n<ul>\n  <li><strong>Le programme dionysiaque :</strong> Autour de la panse sculptée de marbre alternent les visages d'un jeune Dionysos imberbe et d'un Silène barbu ou Pan rustique émergeant d'un foisonnement de grappes de raisin et de feuilles de vigne.</li>\n  <li><strong>Fontaines et portiques d'apparat :</strong> Ces cratères monumentaux fonctionnaient souvent comme vasques de fontaines jaillissantes, célébrant l'abondance de l'eau et la fécondité promise par Bacchus.</li>\n  <li><strong>Élégance néo-attique :</strong> Frise d'oves et de dards, travail virtuose au trépan et pureté du marbre blanc démontrent le haut niveau de commande de la capitale provinciale d'Hispanie.</li>\n</ul>",
+  "content": "<h4>Le cratère bachique du forum de Tarraco</h4><p>Vasque monumentale sculptée de têtes de Silènes et de grappes de raisin, ce cratère symbolise la joie de vivre et l'abondance au cœur de Tarraco.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["cratere_borghese_neo_attique_thiase_dionysiaque"] = {
+  "title": "Le Cratère Borghèse : chef-d'œuvre néo-attique en marbre pentélique",
+  "theme": "Sculpture néo-attique, thiase de Dionysos & jardins aristocratiques",
+  "summary": "Sculpté à Athènes vers 40-30 av. J.-C. pour l'aristocratie romaine et découvert dans les jardins de Salluste, le Cratère Borghèse déploie une frise magistrale du thiase dionysiaque, alliant la pureté classique à la fougue extatique des bacchantes et satyres.",
+  "text": "<h4>Le sommet de la toreutique et de la sculpture de marbre pentélique</h4>\n<p>Chef-d'œuvre absolu du département des Antiquités grecques et romaines du Musée du Louvre, le Cratère Borghèse représente l'apogée du style néo-attique sous la République tardive :</p>\n<ul>\n  <li><strong>Le thiase dionysiaque en ronde-bosse :</strong> Dionysos couronné de lierre tenant le thyrse s'avance d'un pas assuré, entouré de ménades dansant dans des poses extatiques et de satyres ivres soutenus par leurs compagnons.</li>\n  <li><strong>Architecture tripartite du calice :</strong> Bordure supérieure ornée d'oves et de dards, attaches d'anses figurant des têtes de silènes barbus, base à godrons et piedouche mouluré de feuilles d'acanthe.</li>\n  <li><strong>Fortune historique prodigieuse :</strong> Découvert au XVIe siècle dans les somptueux <em>Horti Sallustiani</em> à Rome, puis intégré aux collections Borghèse avant son achat par Napoléon en 1807, il a inspiré les plus grands artistes de la Renaissance au Néoclassicisme.</li>\n</ul>",
+  "content": "<h4>Le Cratère Borghèse au Musée du Louvre</h4><p>Sculpté en marbre pentélique vers 40-30 av. J.-C., ce cratère monumental illustre le thiase de Dionysos avec une élégance néo-attique inégalée.</p>"
+};
+
+
+// Alias sculpture funéraire et monuments romains
+window.BACKGROUNDS_REGISTRY["sarcophage_enfant_agrigente"] = window.BACKGROUNDS_REGISTRY["sarcophage_romain_enfant_deuil_famille_agrigente"];
+window.BACKGROUNDS_REGISTRY["sarcophage_strigiles"] = window.BACKGROUNDS_REGISTRY["sarcophages_romains_a_strigiles_clipeus_concordia"];
+window.BACKGROUNDS_REGISTRY["sarcophage_hercule_dionysos"] = window.BACKGROUNDS_REGISTRY["sarcophage_hercule_procession_dionysiaque_mann"];
+window.BACKGROUNDS_REGISTRY["porte_des_enfers"] = window.BACKGROUNDS_REGISTRY["porte_des_enfers_mercure_psychopompe_sarcophages"];
+window.BACKGROUNDS_REGISTRY["porte_hades"] = window.BACKGROUNDS_REGISTRY["porte_des_enfers_mercure_psychopompe_sarcophages"];
+window.BACKGROUNDS_REGISTRY["mercure_psychopompe"] = window.BACKGROUNDS_REGISTRY["porte_des_enfers_mercure_psychopompe_sarcophages"];
+window.BACKGROUNDS_REGISTRY["sarcophage_cordoue"] = window.BACKGROUNDS_REGISTRY["porte_des_enfers_mercure_psychopompe_sarcophages"];
+window.BACKGROUNDS_REGISTRY["ariane_naxos"] = window.BACKGROUNDS_REGISTRY["ariane_naxos_dionysos_sommeil_renaissance"];
+window.BACKGROUNDS_REGISTRY["sarcophage_alexandrie"] = window.BACKGROUNDS_REGISTRY["ariane_naxos_dionysos_sommeil_renaissance"];
+window.BACKGROUNDS_REGISTRY["chasse_au_lion"] = window.BACKGROUNDS_REGISTRY["chasse_au_lion_virtus_sarcophages_romains"];
+window.BACKGROUNDS_REGISTRY["sarcophage_barcelone"] = window.BACKGROUNDS_REGISTRY["chasse_au_lion_virtus_sarcophages_romains"];
+window.BACKGROUNDS_REGISTRY["enlevement_proserpine"] = window.BACKGROUNDS_REGISTRY["enlevement_de_proserpine_pluton_mythologie"];
+window.BACKGROUNDS_REGISTRY["proserpine_pluton"] = window.BACKGROUNDS_REGISTRY["enlevement_de_proserpine_pluton_mythologie"];
+window.BACKGROUNDS_REGISTRY["masque_mortuaire"] = window.BACKGROUNDS_REGISTRY["masques_mortuaires_imagines_maiorum_el_jem"];
+window.BACKGROUNDS_REGISTRY["masque_el_jem"] = window.BACKGROUNDS_REGISTRY["masques_mortuaires_imagines_maiorum_el_jem"];
+window.BACKGROUNDS_REGISTRY["imagines_maiorum"] = window.BACKGROUNDS_REGISTRY["masques_mortuaires_imagines_maiorum_el_jem"];
+window.BACKGROUNDS_REGISTRY["glanum_jules"] = window.BACKGROUNDS_REGISTRY["mausolee_des_jules_glanum_combat_cavaliers"];
+window.BACKGROUNDS_REGISTRY["mausolee_glanum"] = window.BACKGROUNDS_REGISTRY["mausolee_des_jules_glanum_combat_cavaliers"];
+window.BACKGROUNDS_REGISTRY["frise_tarraco"] = window.BACKGROUNDS_REGISTRY["ornementation_augusteenne_couronne_civique_tarraco"];
+window.BACKGROUNDS_REGISTRY["couronne_civique"] = window.BACKGROUNDS_REGISTRY["ornementation_augusteenne_couronne_civique_tarraco"];
+window.BACKGROUNDS_REGISTRY["jupiter_ammon"] = window.BACKGROUNDS_REGISTRY["jupiter_ammon_clipeus_forum_provincial_tarraco"];
+window.BACKGROUNDS_REGISTRY["clipeus_ammon"] = window.BACKGROUNDS_REGISTRY["jupiter_ammon_clipeus_forum_provincial_tarraco"];
+window.BACKGROUNDS_REGISTRY["portique_captifs"] = window.BACKGROUNDS_REGISTRY["portique_des_captifs_statuaire_romaine_corinthe"];
+window.BACKGROUNDS_REGISTRY["corinthe_captifs"] = window.BACKGROUNDS_REGISTRY["portique_des_captifs_statuaire_romaine_corinthe"];
+window.BACKGROUNDS_REGISTRY["amazonomachie_corinthe"] = window.BACKGROUNDS_REGISTRY["amazonomachie_combat_grecs_amazones_sculpture"];
+window.BACKGROUNDS_REGISTRY["amazonomachie"] = window.BACKGROUNDS_REGISTRY["amazonomachie_combat_grecs_amazones_sculpture"];
+window.BACKGROUNDS_REGISTRY["cratere_tarraco"] = window.BACKGROUNDS_REGISTRY["cratere_monumental_dionysiaque_forum_tarraco"];
+window.BACKGROUNDS_REGISTRY["cratere_borghese"] = window.BACKGROUNDS_REGISTRY["cratere_borghese_neo_attique_thiase_dionysiaque"];
+window.BACKGROUNDS_REGISTRY["borghese"] = window.BACKGROUNDS_REGISTRY["cratere_borghese_neo_attique_thiase_dionysiaque"];
+
 window.BACKGROUNDS_REGISTRY["polypheme_galatee"] = window.BACKGROUNDS_REGISTRY["polypheme_et_galatee_pastorale_antique"];
 window.BACKGROUNDS_REGISTRY["pegase"] = window.BACKGROUNDS_REGISTRY["pegase_bellerophon_cheval_aile"];
 window.BACKGROUNDS_REGISTRY["cosmogonie_merida"] = window.BACKGROUNDS_REGISTRY["cosmogonie_mithra_augusta_emerita"];
