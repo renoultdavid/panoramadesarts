@@ -6,6 +6,386 @@
    ========================================================================== */
 
 window.BACKGROUNDS_REGISTRY = {
+  "apollon_dieu_arts_sauroctone_citharede": {
+    "id": "apollon_dieu_arts_sauroctone_citharede",
+    "badge": "MYTHOLOGIE GRÉCO-ROMAINE & STATUAIRE",
+    "title": "Apollon, Dieu de la Lumière, des Arts et de l'Harmonie dans la Statuaire Antique",
+    "sources": "Hymnes homériques, Pausanias (Description de la Grèce) & Pline l'Ancien (Histoire naturelle)",
+    "keywords": [
+      "apollon",
+      "sauroctone",
+      "citharède",
+      "citharede",
+      "pothos",
+      "apollon de cassel",
+      "scopas",
+      "praxitèle",
+      "phidias"
+    ],
+    "text": "<p>Fils de Zeus et de Léto, frère jumeau d'Artémis, Apollon incarne dans le panthéon gréco-romain l'idéal de la beauté juvénile (l'éphébie), la clarté solaire (Phébus), la prophétie divinatoire et la mesure esthétique à travers la musique et la poésie.</p><p>Dans la grande statuaire classique et hellénistique, son image se décline selon des types iconographiques majeurs repris et diffusés avec ferveur par les ateliers romains : l'Apollon Sauroctone de Praxitèle, où le dieu adolescent menace avec malice un lézard grimpant sur un tronc ; l'Apollon Citharède, drapé et solennel, tenant la lyre ou la cithare au milieu des Muses ; et l'Apollon Pothos conçu par Scopas, incarnant la mélancolie poétique, le désir ardent et l'abandon contemplatif.</p>"
+  },
+  "dionysos_bacchus_ivresse_farnese": {
+    "id": "dionysos_bacchus_ivresse_farnese",
+    "badge": "MYTHOLOGIE & CULTE MYSTÉRIQUE",
+    "title": "Dionysos-Bacchus et son Cortège : L'Extase, la Vigne et le Renouveau Vital",
+    "sources": "Euripide (Les Bacchantes), Ovide (Métamorphoses) & Diodore de Sicile",
+    "keywords": [
+      "dionysos",
+      "bacchus",
+      "ménade",
+      "menade",
+      "cortège dionysiaque",
+      "thiase",
+      "nébride",
+      "lierre",
+      "panthère"
+    ],
+    "text": "<p>Dieu de la végétation, de la sève, de la vigne et du délire mystique, Dionysos (le Bacchus romain) est le dispensateur de l'ivresse sacrée et de la libération des conventions sociales. Né de la cuisse de Zeus après la foudroyation de Sémélé, il voyage à travers l'Orient avant d'établir son culte à travers tout le bassin méditerranéen.</p><p>Son cortège (le thiase) réunit satyres lubriques, silènes sages et ménades (bacchantes) saisies par l'enthousiasme divin, dansant au son des flûtes et des tympanons. Dans l'art romain, Bacchus est représenté tantôt comme un jeune dieu efféminé couronné de lierre et de pampres, accompagné d'une panthère, tantôt sous une stature colossale et souveraine ornant les résidences aristocratiques et les édifices thermaux.</p>"
+  },
+  "eros_cupidon_dieu_amour": {
+    "id": "eros_cupidon_dieu_amour",
+    "badge": "MYTHOLOGIE & ALLÉGORIE",
+    "title": "Éros et Cupidon : La Puissance Souveraine du Désir et de la Beauté",
+    "sources": "Hésiode (Théogonie), Platon (Le Banquet) & Apulée (Les Métamorphoses)",
+    "keywords": [
+      "éros",
+      "eros",
+      "cupidon",
+      "dieu amour",
+      "arc de cupidon",
+      "flèches de l'amour",
+      "lysippe"
+    ],
+    "text": "<p>D'abord conçu chez Hésiode comme une force cosmique primordiale issue du Chaos, présidant à l'union des êtres et à la génération du monde, Éros devient dans la mythologie classique le fils espiègle et redoutable d'Aphrodite (Vénus) et d'Arès (Mars), connu à Rome sous le nom de Cupidon ou d'Amour.</p><p>Armé de son arc et de son carquois renfermant les flèches d'or qui inspirent une passion irrésistible et les flèches de plomb qui engendrent le dédain, Cupidon assujettit dieux et mortels à ses volontés. La sculpture hellénistique et romaine, notamment inspirée de Lysippe, immortalise sa silhouette juvénile et ailée dans des attitudes virtuoses de torsion corporelle et de vivacité anatomique.</p>"
+  },
+  "artemis_diane_chasseresse_ephese": {
+    "id": "artemis_diane_chasseresse_ephese",
+    "badge": "MYTHOLOGIE & CULTE PANTHEISTE",
+    "title": "Artémis et Diane : De la Reine de la Nature Sauvage à l'Éphésienne Polymaste",
+    "sources": "Homère (Iliade), Callimaque (Hymne à Artémis) & Strabon (Géographie)",
+    "keywords": [
+      "artémis",
+      "artemis",
+      "diane",
+      "diane de versailles",
+      "artémis d'éphèse",
+      "polymaste",
+      "chasseresse",
+      "biche"
+    ],
+    "text": "<p>Sœur jumelle d'Apollon, Artémis (la Diane romaine) règne sur les forêts vierges, les bêtes sauvages, la chasse et les carrefours nocturnes. Déesse vierge et fière, protectrice des accouchements et initiatrice de la jeunesse, elle incarne la pureté indomptée des espaces préservés de la civilisation.</p><p>Son iconographie présente deux visages saisissants : en Occident, la chasseresse svelte et agile en chiton court, armée de son arc et bondissant aux côtés d'une biche comme la célèbre Diane de Versailles ; en Anatolie, la majestueuse Artémis d'Éphèse, idole polymaste hiératique couverte de protubérances fertiles, de rangs de taureaux et de lions sculptés, symbolisant l'abondance nourricière universelle.</p>"
+  },
+  "priape_dieu_fertilite_jardins": {
+    "id": "priape_dieu_fertilite_jardins",
+    "badge": "RELIGION POPULAIRE & PROTECTION AGRAIRE",
+    "title": "Priape, Dieu des Jardins, de la Fécondité et Gardien Apotropaïque des Récoltes",
+    "sources": "Virgile (Géorgiques), Tibulle & Corpus Priapeorum",
+    "keywords": [
+      "priape",
+      "priape d'hostafrancs",
+      "dieu des jardins",
+      "ithyphallique",
+      "fécondité",
+      "apotropaïque"
+    ],
+    "text": "<p>Fils de Dionysos et d'Aphrodite né à Lampsaque sur l'Hellespont, Priape est la divinité rustique par excellence de la fertilité masculine, de l'abondance potagère et de la protection des cultures contre les voleurs et les bêtes sauvages.</p><p>Caractérisé par sa silhouette robuste et son phallus surdimensionné (ithyphallisme), il faisait l'objet d'un culte populaire intense dans les campagnes et les villas romaines. Placées à la limite des propriétés ou au cœur des vergers, ses statues taillées dans la pierre ou le bois de figuier servaient d'épouvantails sacrés et de talismans apotropaïques garantissant la prospérité agraire.</p>"
+  },
+  "pan_satyres_faunes_dionysiaques": {
+    "id": "pan_satyres_faunes_dionysiaques",
+    "badge": "MYTHOLOGIE PASTORALE & CORTEGE DIONYSIAQUE",
+    "title": "Pan, Satyres et Faunes : L'Énergie Animale et Pastorale du Monde Sylvestre",
+    "sources": "Théocrite (Idylles), Longus (Daphnis et Chloé) & Ovide (Fastes)",
+    "keywords": [
+      "pan",
+      "satyre",
+      "faune",
+      "satyre au repos",
+      "satyre ivre",
+      "syrinx",
+      "daphnis",
+      "aulos"
+    ],
+    "text": "<p>Dieu des bergers et des troupeaux de l'Arcadie agreste, Pan, mi-homme mi-bouc, est l'inventeur de la flûte champêtre à tuyaux inégaux (la syrinx). Compagnon des nymphes et des satyres, il insuffle aux voyageurs égarés dans les bois une terreur subite et irrationnelle, la frayeur « panique ».</p><p>Auprès de lui gravitent les satyres et les faunes, créatures hybrides incarnant les pulsions vitales, la curiosité musicale et l'abandon bachique. Les maîtres de la sculpture grecque, comme Praxitèle avec son « Faune au repos » ou les maîtres hellénistiques de Pergame et d'Alexandrie, ont transfiguré cette animalité primitive en une harmonie plastique oscillant entre grâce juvénile et sensualité dionysiaque.</p>"
+  },
+  "centaure_borghese_amour": {
+    "id": "centaure_borghese_amour",
+    "badge": "MYTHOLOGIE & ALLEGORIE DE L'AMOUR",
+    "title": "Le Centaure et l'Amour : La Domination de la Passion sur les Forces Primitives",
+    "sources": "Lucrèce (De rerum natura), Ovide (Métamorphoses) & Anthologie grecque",
+    "keywords": [
+      "centaure",
+      "centaure borghèse",
+      "centaure borghese",
+      "cupidon",
+      "amour",
+      "allégorie passion"
+    ],
+    "text": "<p>Êtres hybrides au buste humain et au corps de cheval issus d'Ixion et de Néphélé, les centaures incarnent la force brute, la violence sauvage et les instincts non civilisés dans l'imaginaire mythologique grec.</p><p>Dans le groupe allégorique du Centaure Borghèse, créé à l'époque hellénistique et célébré sous l'Empire romain, cette bestialité primitive est terrassée et soumise par la force impondérable de l'Amour. Le jeune Cupidon, juché sur le dos du vieux centaure aux mains liées derrière le dos, tire ses cheveux et le guide avec insolence, figurant la victoire triomphale du sentiment amoureux sur la puissance physique la plus intraitable.</p>"
+  },
+  "ares_mars_dieu_guerre": {
+    "id": "ares_mars_dieu_guerre",
+    "badge": "MYTHOLOGIE GRÉCO-ROMAINE & POUVOIR IMPÉRIAL",
+    "title": "Arès et Mars : Du Destructeur Furieux au Père Fondateur et Pacificateur de Rome",
+    "sources": "Homère (Iliade), Tite-Live (Histoire romaine) & Virgile (Énéide)",
+    "keywords": [
+      "arès",
+      "ares",
+      "mars",
+      "arès borghèse",
+      "ares borghese",
+      "mars ultor",
+      "dieu guerre",
+      "alcamène"
+    ],
+    "text": "<p>Alors qu'en Grèce Arès est redouté pour sa fureur aveugle, son goût sanguinaire du carnage et sa violence incontrôlée, le Mars romain jouit d'une vénération civique et patriotique suprême comme père des jumeaux fondateurs Romulus et Rémus.</p><p>Avec l'avènement du principat d'Auguste et l'érection du temple de Mars Ultor (« Mars Vengeur ») sur son forum, le dieu de la guerre devient le garant de l'ordre impérial et de la Pax Romana. La statue d'Arès Borghèse, d'après Alcamène, propose une vision pacifiée du dieu guerrier : dépouillé de son armure, le regard perdu dans une songeuse méditation, il incarne la guerre suspendue au service de la paix.</p>"
+  },
+  "hermes_mercure_messager_sandale": {
+    "id": "hermes_mercure_messager_sandale",
+    "badge": "MYTHOLOGIE & STATUAIRE ATHLÉTIQUE",
+    "title": "Hermès et Mercure : Messager Céleste, Protecteur du Commerce et Guide des Âmes",
+    "sources": "Hymne homérique à Hermès, Virgile (Énéide) & Pausanias",
+    "keywords": [
+      "hermès",
+      "hermes",
+      "mercure",
+      "hermès richelieu",
+      "hermès à la sandale",
+      "lysippe",
+      "caducée",
+      "psychopompe"
+    ],
+    "text": "<p>Fils de Zeus et de la nymphe Maïa, Hermès (Mercure chez les Romains) est le dieu le plus véloce, le plus ingénieux et le plus polyvalent de l'Olympe. Messager ailé des dieux, inventeur de la lyre et de la mesure, il préside aux échanges marchands, aux voyages, à l'éloquence et à la ruse bénéfique.</p><p>En tant que Mercure Psychopompe, il guide les âmes des défunts vers les rives de l'Achéron et le royaume d'Hadès. Dans la grande plastique classique et lysippéenne, son corps d'athlète parfait est saisi dans des gestes d'une grâce souveraine, comme le célèbre « Hermès rattachant sa sandale » où l'attitude corporelle quotidienne devient le sommet de l'équilibre cinétique.</p>"
+  },
+  "pallas_athena_minerve_velletri": {
+    "id": "pallas_athena_minerve_velletri",
+    "badge": "MYTHOLOGIE & SOUVERAINETÉ DE LA RAISON",
+    "title": "Pallas Athéna et Minerve : La Raison Stratégique, la Victoire et la Protection de la Cité",
+    "sources": "Homère (Odyssée), Eschyle (Les Euménides) & Ovide (Métamorphoses)",
+    "keywords": [
+      "pallas",
+      "athéna",
+      "athena",
+      "minerve",
+      "pallas de velletri",
+      "égide",
+      "crésilas",
+      "gorgonéion"
+    ],
+    "text": "<p>Jaillie tout armée du crâne de Zeus au milieu d'un cri de guerre grandiose, Pallas Athéna (la Minerve romaine) est la protectrice vigilante de la cité, des institutions démocratiques, des arts manuels et de la science stratégique militaire.</p><p>Revêtue du casque corinthien, brandissant la lance et portant sur la poitrine l'égide divine ornée du Gorgonéion pétrifiant, Minerve repousse le désordre et fait triompher la justice. La colossale « Pallas de Velletri », découverte au sud de Rome et conservée au Louvre, transpose dans le marbre la grandeur majestueuse et la bienveillance protectrice voulues au Ve siècle av. J.-C. par le sculpteur Crésilas.</p>"
+  },
+  "uranie_muse_astronomie_arts": {
+    "id": "uranie_muse_astronomie_arts",
+    "badge": "MYTHOLOGIE & COSMOLOGIE ANTIQUE",
+    "title": "Uranie, Muse de l'Astronomie : La Contemplation des Sphères et de l'Harmonie Céleste",
+    "sources": "Hésiode (Théogonie), Cicéron (Le Songe de Scipion) & Platon (La République)",
+    "keywords": [
+      "uranie",
+      "muses",
+      "astronomie",
+      "globe céleste",
+      "harmonie des sphères",
+      "collection farnèse"
+    ],
+    "text": "<p>Parmi les neuf Muses nées de Zeus et de Mnémosyne (la Mémoire) sur le mont Piérus, Uranie occupe une place singulière au sommet de la hiérarchie philosophique antique en tant que patronne de l'astronomie, de la géométrie et de l'ordre cosmique.</p><p>Drapée avec noblesse, couronnée d'étoiles et tenant à la main un compas et le globe céleste sur lequel sont tracées les constellations du zodiaque, elle guide l'esprit humain de la terre vers les sphères célestes. Sa présence monumentale dans les demeures impériales et les bibliothèques romaines célébrait l'harmonie des lois universelles et l'élévation contemplative de l'âme.</p>"
+  },
+  "trois_graces_charites_beaute": {
+    "id": "trois_graces_charites_beaute",
+    "badge": "MYTHOLOGIE & ALLÉGORIE DE L'HARMONIE",
+    "title": "Les Trois Grâces (Charites) : L'Alliance Perpétuelle du Charme, de la Joie et du Don",
+    "sources": "Hésiode (Théogonie), Sénèque (Des Bienfaits) & Servius",
+    "keywords": [
+      "trois grâces",
+      "trois graces",
+      "charites",
+      "euphrosyne",
+      "aglaé",
+      "thalie",
+      "beauté",
+      "don mutuel"
+    ],
+    "text": "<p>Filles de Zeus et de l'océanide Eurynomé, les trois Grâces (les Charites grecques), prénommées Euphrosyne (la Joie de vivre), Aglaé (l'Éclat de la beauté) et Thalie (l'Abondance florissante), accompagnent inséparablement Aphrodite, Éros et Apollon.</p><p>Dans le schéma triadique canonique codifié à l'époque hellénistique, les trois jeunes femmes nues s'enlacent, celle du centre vue de dos tournant la tête vers l'une de ses compagnes de face. Les philosophes romains, à l'instar de Sénèque, ont vu dans cette ronde ininterrompue le symbole moral parfait du don, de la réception et de la gratitude mutuelle sans lesquels aucune société humaine ne peut subsister.</p>"
+  },
+  "venus_aphrodite_sculpture_antique": {
+    "id": "venus_aphrodite_sculpture_antique",
+    "badge": "MYTHOLOGIE & STATUAIRE FÉMININE",
+    "title": "Vénus et Aphrodite : Métamorphoses du Nu Féminin et Idéal de la Beauté Antique",
+    "sources": "Pline l'Ancien (Histoire naturelle), Pausanias & Ovide (L'Art d'aimer)",
+    "keywords": [
+      "vénus",
+      "venus",
+      "aphrodite",
+      "vénus d'arles",
+      "vénus génitrix",
+      "vénus accroupie",
+      "vénus capitoline",
+      "praxitèle",
+      "doidalsas"
+    ],
+    "text": "<p>Née de l'écume marine fécondée par les dépouilles d'Ouranos, Aphrodite (la Vénus romaine) est la déesse souveraine de la beauté, de la séduction amoureuse, de la fertilité et de la concorde printanière. À Rome, elle est également la mère d'Énée et l'ancêtre divine tutélaire de la gens Iulia.</p><p>Son iconographie a révolutionné l'histoire de la sculpture occidentale : après l'Aphrodite de Cnide de Praxitèle qui ose pour la première fois le nu féminin intégral, la sculpture hellénistique et impériale multiplie les chefs-d'œuvre : la Vénus d'Arles, la Vénus Génitrix au drapé mouillé de Callimaque, l'Aphrodite accroupie surprise au bain de Doidalsas, et la Vénus Pudique du Capitole, fondatrices des canons esthétiques du monde méditerranéen.</p>"
+  },
+  "ganymede_aigle_zeus_jupiter": {
+    "id": "ganymede_aigle_zeus_jupiter",
+    "badge": "MYTHOLOGIE & RAVISSEMENT DIVIN",
+    "title": "L'Enlèvement de Ganymède par l'Aigle de Zeus : L'Élévation de l'Âme vers l'Immortalité",
+    "sources": "Homère (Iliade), Virgile (Énéide) & Léocharès",
+    "keywords": [
+      "ganymède",
+      "ganymede",
+      "aigle de zeus",
+      "jupiter",
+      "léocharès",
+      "échanson de l'olympe",
+      "apothéose"
+    ],
+    "text": "<p>Fils du roi Tros et réputé le plus beau parmi tous les mortels de la terre de Troade, le jeune prince berger Ganymède fut aperçu par Zeus sur les pentes verdoyantes du mont Ida alors qu'il gardait les troupeaux de son père.</p><p>Épris de sa grâce incomparable, le souverain de l'Olympe se métamorphosa en aigle gigantesque (ou dépêcha son rapace sacré) pour enlever l'adolescent dans les airs sans le blesser de ses serres acérées. Introduit parmi les dieux immortels, Ganymède devint l'échanson divin versant le nectar d'immortalité, mythe que la sculpture hellénistique de Léocharès et les philosophes néoplatoniciens romains ont interprété comme l'allégorie de l'âme humaine arrachée aux vicissitudes terrestres par l'amour divin.</p>"
+  },
+  "supplice_dirce_taureau_farnese": {
+    "id": "supplice_dirce_taureau_farnese",
+    "badge": "MYTHOLOGIE THÉBAINE & COLOSSE STATUAIRE",
+    "title": "Le Supplice de Dircé et le Taureau Farnèse : Paroxysme du Pathétique Hellénistique",
+    "sources": "Euripide (Antiope), Hygin (Fables) & Pline l'Ancien (Histoire naturelle)",
+    "keywords": [
+      "taureau farnèse",
+      "taureau farnese",
+      "dircé",
+      "dirce",
+      "amphion",
+      "zéthos",
+      "supplice de dircé",
+      "thermes de caracalla"
+    ],
+    "text": "<p>Épisode dramatique du cycle légendaire thébain, le mythe raconte la vengeance impitoyable des jumeaux Amphion et Zéthos, nés des amours de Zeus et d'Antiope. Pour châtier la cruelle reine Dircé qui avait réduit leur mère en esclavage et lui avait infligé d'incessants tourments, les deux frères la ligotèrent aux cornes d'un taureau indompté qui la déchiqueta sur les rochers.</p><p>Retrouvé en 1545 dans les ruines monumentales des Thermes de Caracalla à Rome, le « Taureau Farnèse », taillé dans un unique bloc gigantesque de marbre de 24 tonnes d'après l'œuvre des sculpteurs rhodiens Apollonios et Tauriscos de Tralles, constitue le plus impressionnant tour de force technique et dramatique légué par la statuaire colossale gréco-romaine.</p>"
+  },
+  "diomede_palladium_troie": {
+    "id": "diomede_palladium_troie",
+    "badge": "MYTHOLOGIE HOMÉRIQUE & HÉROÏSME",
+    "title": "Diomède et le Palladium de Troie : L'Audace Héroïque au Cœur de la Guerre Épique",
+    "sources": "Homère (Iliade), Virgile (Énéide) & Pline l'Ancien",
+    "keywords": [
+      "diomède",
+      "diomede",
+      "palladium",
+      "guerre de troie",
+      "crésilas",
+      "diomède richelieu",
+      "ulysse"
+    ],
+    "text": "<p>Héros achéen parmi les plus vaillants et les plus lucides du siège de Troie, roi d'Argos favori de la déesse Athéna, Diomède accomplit avec Ulysse l'une des expéditions nocturnes les plus audacieuses de la guerre épique en s'infiltrant dans la citadelle assiégée pour dérober le Palladium.</p><p>Cette statuette sacrée d'Athéna, tombée du ciel et précieusement gardée dans le sanctuaire troyen, était le gage inviolable de la survie de la cité : tant qu'elle demeurait intra-muros, Troie ne pouvait être prise. La sculpture classique attribuée à Crésilas montre Diomède nu, la chlamyde sur l'épaule et l'épée au poing, se retournant avec une méfiance vigilante au moment d'emporter l'idole tutélaire.</p>"
+  },
+  "hercule_farnese_travaux_repos": {
+    "id": "hercule_farnese_travaux_repos",
+    "badge": "MYTHOLOGIE HÉROÏQUE & COLOSSE STATUAIRE",
+    "title": "Hercule Farnèse : Le Repos du Héros Colossal et l'Accomplissement des Travaux",
+    "sources": "Apollodore (Bibliothèque), Diodore de Sicile & Pausanias",
+    "keywords": [
+      "hercule farnèse",
+      "hercule farnese",
+      "glycon d'athènes",
+      "lysippe",
+      "pommes des hespérides",
+      "massue",
+      "peau de lion",
+      "thermes de caracalla"
+    ],
+    "text": "<p>Fils de Zeus et d'Alcmène, demi-dieu soumis aux jalousies implacables d'Héra, Héraclès (Hercule pour les Romains) est le champion invincible de l'humanité, dont la vie entière fut consacrée à purger la terre des monstres, des tyrans et des fléaux à travers ses Douze Travaux imposés par Eurysthée.</p><p>L'Hercule Farnèse, chef-d'œuvre colossal sculpté par Glycon d'Athènes d'après le bronze original de Lysippe pour orner la palestre des Thermes de Caracalla, ne montre pas le héros en plein combat, mais au terme de son ultime exploit : épuisé par l'effort surhumain, le colosse s'appuie pesamment sur sa massue enveloppée de la peau du lion de Némée, dissimulant dans son dos, au creux de sa main droite, les trois pommes d'or cueillies au jardin enchanté des Hespérides.</p>"
+  },
+  "marsyas_supplice_apollon": {
+    "id": "marsyas_supplice_apollon",
+    "badge": "MYTHOLOGIE & DÉMESURE (HYBRIS)",
+    "title": "Le Supplice de Marsyas : La Vanité Mortelle Défiant la Beauté Musicale Divine",
+    "sources": "Ovide (Métamorphoses), Diodore de Sicile & Pline l'Ancien",
+    "keywords": [
+      "marsyas",
+      "marsyas supplicié",
+      "apollon",
+      "aulos",
+      "flûte",
+      "lyre",
+      "écorché vif",
+      "hybris"
+    ],
+    "text": "<p>Satyre phrygien d'une habileté musicale exceptionnelle, Marsyas ramassa l'aulos (flûte double) inventée puis jetée au loin par Athéna parce qu'elle déformait les traits de son visage lorsqu'elle en jouait.</p><p>Enivré par la virtuosité des mélodies qu'il parvenait à en tirer, Marsyas commit l'imprudence tragique de défier le dieu Apollon lui-même dans un concours musical où les Muses faisaient office de juges. Déclaré vaincu face à la céleste perfection de la lyre apollinienne, le satyre subit le châtiment impitoyable réservé à l'hybris mortelle : suspendu à un pin, il fut écorché vif par un esclave scythe. La statuaire hellénistique a fixé avec un réalisme anatomique saisissant l'agonie résignée du satyre attaché par les poignets.</p>"
+  },
+  "auguste_premier_empereur_principate": {
+    "id": "auguste_premier_empereur_principate",
+    "badge": "HISTOIRE ROMAINE & PORTRAIT IMPÉRIAL",
+    "title": "Auguste et la Création du Principat : L'Invention de l'Image Impériale Officielle",
+    "sources": "Res Gestae Divi Augusti, Suétone (Vie des douze Césars) & Tite-Live",
+    "keywords": [
+      "auguste",
+      "octave",
+      "principat",
+      "imperator",
+      "tête de méroé",
+      "prima porta",
+      "statue équestre",
+      "pax romana"
+    ],
+    "text": "<p>Fils adoptif et héritier universel de Jules César, Caius Octavius met un terme à un siècle de guerres civiles sanglantes en triomphant de Marc Antoine et Cléopâtre à Actium en 31 av. J.-C., avant de recevoir du Sénat le titre sacré d'Augustus en 27 av. J.-C.</p><p>Fondateur du Principat et instaurateur de la Pax Augusta, Auguste conçoit un système iconographique impérial sans précédent dans l'Antiquité : rompant avec le réalisme austère (le « vérisme ») des bustes républicains, ses effigies officielles diffusées dans tout l'Empire — du Rhin au Nil et de l'Hispanie à la Mésopotamie — le représentent dans une jeunesse éternelle, impassible et divinisée, inspirée de la perfection classique du Doryphore de Polyclète.</p>"
+  },
+  "commode_empereur_gladiateur_hercule": {
+    "id": "commode_empereur_gladiateur_hercule",
+    "badge": "HISTOIRE ROMAINE & DÉRIVE AUTOCRATIQUE",
+    "title": "L'Empereur Commode : La Rupture Antonine et l'Assimilation Démesurée à Hercule",
+    "sources": "Dion Cassius (Histoire romaine), Hérodien & Histoire Auguste",
+    "keywords": [
+      "commode",
+      "commodus",
+      "empereur gladiateur",
+      "hercule romain",
+      "dynastie antonine",
+      "portrait impérial"
+    ],
+    "text": "<p>Fils unique et successeur de l'empereur philosophe Marc Aurèle, Commode (161-192 ap. J.-C.) met fin à l'âge d'or des « Antonins » et inaugure une ère d'instabilité politique majeure marquée par des purges sénatoriales et des dérives autocratiques spectaculaires.</p><p>Passionné par les combats de l'arène où il descendait en personne combattre gladiateurs et fauves sous les ovations de la plèbe, Commode rejeta la dignité impériale traditionnelle pour se proclamer la réincarnation vivante d'Hercule. Ses statues officielles le figurent ainsi revêtu de la peau du lion de Némée et armé de la massue herculéenne, fusionnant le charisme héroïque et le pouvoir absolu de l'imperator.</p>"
+  },
+  "neron_dernier_julio_claudien": {
+    "id": "neron_dernier_julio_claudien",
+    "badge": "HISTOIRE ROMAINE & PORTRAIT HISTORIQUE",
+    "title": "Néron, Dernier Empereur Julio-Claudien : Entre Passion Hellénistique et Réception Dramatique",
+    "sources": "Tacite (Annales), Suétone (Vie de Néron) & Dion Cassius",
+    "keywords": [
+      "néron",
+      "neron",
+      "julio-claudien",
+      "tarraco",
+      "portrait impérial",
+      "incendie de rome",
+      "domus aurea"
+    ],
+    "text": "<p>Monté sur le trône impérial à l'âge de dix-sept ans en 54 après J.-C. sous la tutelle de sa mère Agrippine la Jeune et du philosophe Sénèque, Néron est le cinquième et dernier souverain de la prestigieuse dynastie julio-claudienne issue de César et d'Auguste.</p><p>Passionné de poésie, de chant, de courses de chars et de culture grecque, son principat fut marqué par de prodigieuses réalisations architecturales telles que la somptueuse Domus Aurea consécutive au grand incendie de Rome en 64, mais aussi par une fracture irrémédiable avec l'ordre sénatorial. Ses portraits sculptés témoignent avec une rare intensité de son évolution plastique, d'un visage adolescent raffiné vers une physionomie opulente aux mèches étagées à la mode des cochers et des artistes grecs.</p>"
+  },
+  "antinous_apotheose_hadrien": {
+    "id": "antinous_apotheose_hadrien",
+    "badge": "HISTOIRE ROMAINE & CULTE HÉROÏQUE",
+    "title": "Antinoüs et le Culte Impérial d'Hadrien : La Transfiguration de la Beauté Idéale",
+    "sources": "Dion Cassius, Histoire Auguste & Pausanias (Description de la Grèce)",
+    "keywords": [
+      "antinoüs",
+      "antinous",
+      "hadrien",
+      "delphes",
+      "apothéose",
+      "beauté idéale",
+      "antinoopolis"
+    ],
+    "text": "<p>Originaire de Bithynie en Asie Mineure, le jeune Antinoüs devint le compagnon favori et le confident inséparable de l'empereur Hadrien lors de ses multiples voyages d'inspection à travers les provinces de l'Empire romain.</p><p>Après sa mort tragique et mystérieuse par noyade dans les eaux du Nil en octobre 130, Hadrien, inconsolable, fonda la cité d'Antinoöpolis en son honneur et ordonna sa divinisation officielle à travers tout le monde gréco-romain. Le portrait d'Antinoüs, reconnaissable à son visage mélancolique aux lèvres charnues et à sa luxuriante chevelure bouclée, donna naissance au dernier grand type iconographique universel de la statuaire antique, assimilé à Apollon, Dionysos ou Hermès dans les plus prestigieux sanctuaires de Méditerranée.</p>"
+  },
+  "discobole_myron_ideal_athletique": {
+    "id": "discobole_myron_ideal_athletique",
+    "badge": "STATUAIRE ATHLÉTIQUE & GÉOMÉTRIE CLASSIQUE",
+    "title": "Le Discobole de Myron : L'Arrêt sur Image Sublime du Mouvement et du Rythme",
+    "sources": "Lucien de Samosate (Philopseudès), Quintilien & Pline l'Ancien",
+    "keywords": [
+      "discobole",
+      "discobole de townley",
+      "myron",
+      "athlète",
+      "lancer du disque",
+      "rythme",
+      "villa adriana"
+    ],
+    "text": "<p>Créé vers 450 avant J.-C. par le maître bronzier athénien Myron de Priène, le Discobole est l'une des œuvres les plus célèbres, les plus imitées et les plus admirées de toute l'histoire de la sculpture occidentale.</p><p>Représentant un jeune athlète nu au point culminant de son élan, prêt à projeter son disque de bronze, la statue opère une synthèse géométrique vertigineuse : le corps se déploie en deux arcs de cercle opposés formant une tension dynamique parfaite (le rhythmos), tandis que le visage demeure serein et impassible, sans aucune grimace d'effort, incarnant la maîtrise spirituelle absolue du corps dans l'athlétisme antique.</p>"
+  },
   "triomphe_flore": {
     "id": "triomphe_flore",
     "badge": "MYTHOLOGIE LATINE",
