@@ -5071,6 +5071,238 @@ window.BACKGROUNDS_REGISTRY = {
       "dolia"
     ],
     "text": "<p>Dans l'Antiquité romaine, l'amphore en terre cuite constituait l'emballage perdu et le conteneur standard par excellence du fret maritime. À travers un réseau dense de routes maritimes reliant l'Hispanie, la Gaule, l'Italie, l'Afrique proconsulaire et l'Égypte alexandrine, des millions d'amphores acheminaient chaque année les denrées alimentaires vitales de l'Empire : le vin, l'huile d'olive indispensable à l'alimentation et aux thermes, les sauces de poisson salé (garum, liquamen) et le blé de l'annone impériale.</p><p>L'ingéniosité technique de l'amphore romaine résidait dans sa conception fonctionnelle standardisée : une panse robuste capable de résister aux chocs de navigation, de puissantes anses facilitant la préhension par les dockers (saccarii), et surtout un fond conique ou pointu. Loin d'être une coquetterie de potier, cette pointe permettait d'empiler les récipients de façon compacte dans les cales des navires de charge (naves onerariae), fichées en quinconce dans un lit de sable meuble ou calées par du branchage et de la paille afin d'amortir le roulis de la mer Méditerranée.</p><p>Sur le plan administratif, les amphores formaient de véritables documents d'archives douanières. Les ateliers de potiers (figlinae) appliquaient sur l'argile fraîche des timbres estampillés identifiant le fabricant du vase ou le grand domaine foncier. À l'embarquement et aux contrôles fiscaux des ports, des scribes traçaient au calame et à l'encre indélébile des inscriptions peintes (<em>tituli picti</em>) détaillant le poids à vide du récipient (<em>testum</em>), le poids net de la denrée liquide ou solide, le nom du domaine producteur, le nom du négociant (<em>navicularius</em> ou <em>mercator</em>) et la mention du contrôle fiscal certifié par les consuls de l'année.</p><p>Témoin spectaculaire de cette démesure logistique, le Monte Testaccio à Rome forme une colline artificielle s'élevant à près de cinquante mètres de hauteur, constituée exclusivement par l'amoncellement ordonné des débris de plus de 53 millions d'amphores à huile débarquées sur les quais du Tibre et brisées après vidange. De la Bétique d'Hispanie aux rivages d'Alexandrie et d'Emporiae, l'amphore demeure le symbole tangible de la première économie mondialisée du monde méditerranéen.</p>"
+  },
+  "theatre_antique_comedie_nouvelle_masques": {
+    "id": "theatre_antique_comedie_nouvelle_masques",
+    "badge": "THÉÂTRE & ARTS DE LA SCÈNE ANTIQUES",
+    "title": "Le Théâtre Antique : Comédie Nouvelle, Ménandre et Masques Scéniques",
+    "sources": "Ménandre (Les Synaristôsai, Le Dyscolos), Plaute, Térence, Vitruve (De Architectura, Livre V)",
+    "keywords": [
+      "théâtre antique",
+      "theatre antique",
+      "comédie nouvelle",
+      "comedie nouvelle",
+      "ménandre",
+      "menandre",
+      "dioscoridès de samos",
+      "dioscoride",
+      "masque de théâtre",
+      "masque tragique",
+      "masque comique",
+      "chorège",
+      "chorege",
+      "onkos",
+      "opus vermiculatum",
+      "drame satyrique",
+      "aulos"
+    ],
+    "text": "<p>Dans le monde hellénistique et romain, le théâtre occupait une place cardinale au cœur de la vie civique, religieuse et festive. À partir du IVe siècle avant J.-C., l'essor de la Comédie Nouvelle, portée par le dramaturge athénien Ménandre, marque une rupture décisive avec la satire politique virulente d'Aristophane : le répertoire se tourne vers la comédie de mœurs, les quiproquos amoureux, les intrigues domestiques et les archétypes universels de la condition humaine — le vieillard avare, le jeune amant passionné, l'esclave rusé ou la courtisane au grand cœur.</p><p>Dans les domus aristocratiques de Pompéi, d'Herculanum ou d'Hadrumète, l'élite cultivée affichait son hellénisme et son raffinement en commandant de somptueuses mosaïques inspirées des chefs-d'œuvre de la scène. Signées par de grands maîtres tels que Dioscoridès de Samos ou reproduites avec une virtuosité stupéfiante en <em>opus vermiculatum</em>, ces compositions immortalisent les moments de tension comique ou les coulisses de la représentation, où le chorège supervise l'habillage des acteurs et les répétitions au son de l'aulos.</p><p>Élément central de la dramaturgie antique, le masque théâtral (<em>persona</em>) transcendait le simple déguisement : doté d'une large ouverture buccale servant de porte-voix naturel dans les vastes hémicycles de pierre et surmonté pour la tragédie d'un haut chignon postiche (l'<em>onkos</em>), il figeait l'émotion essentielle du personnage — terreur, douleur pathétique ou grotesque ricanant. Intégré aux pavements et aux parois sous forme d'<em>emblemata</em> ou suspendu dans des guirlandes dionysiaques de lierre et de pampres, le masque rappelait à chaque instant que la comédie et la tragédie étaient placées sous la protection bienveillante de Dionysos, dieu du vin, de l'extase et de la métamorphose.</p>"
+  },
+  "scenes_nilotiques_exotisme_alexandrin": {
+    "id": "scenes_nilotiques_exotisme_alexandrin",
+    "badge": "EXOTISME & PAYSAGE SACRÉ ANTIQUE",
+    "title": "Le Paysage Nilotique et l'Exotisme Alexandrin dans l'Art Romain",
+    "sources": "Strabon (Géographie, Livre XVII), Diodore de Sicile, Pline l'Ancien (Histoire naturelle), Mosaïque de Palestrina",
+    "keywords": [
+      "scène nilotique",
+      "scene nilotique",
+      "nilotique",
+      "nil",
+      "alexandrie",
+      "faune nilotique",
+      "lotus",
+      "papyrus",
+      "hippopotame",
+      "crocodile",
+      "mangouste",
+      "baris",
+      "pygmées"
+    ],
+    "text": "<p>Après la conquête de l'Égypte par Octave en 30 avant J.-C. et la fin tragique des Ptolémées, Rome s'éprend d'une fascination passionnée pour le Nil, fleuve nourricier perçu comme la source de toute abondance et le réceptacle des mystères ancestraux de l'Orient. Cette vogue donne naissance dans toute l'Italie et les provinces impériales au genre pictural et mosaïcal des « paysages nilotiques », dont la célèbre mosaïque de Palestrina (l'antique Préneste) et les emblèmes de la Maison du Faune à Pompéi constituent les plus purs chefs-d'œuvre.</p><p>Ces compositions spectaculaires déploient un univers aquatique luxuriant où l'eau du fleuve sert de fil conducteur à une narration foisonnante. Entre les calices épanouis des fleurs de lotus et les bosquets serrés de papyrus en fleur, les artistes mettent en scène une biodiversité exotique observée avec une précision quasi naturaliste : crocodiles aux aguets, hippopotames colossaux émergeant des flots, canards colverts et hérons sacrés, ainsi que le combat légendaire de la mangouste (l'ichneumon) bravant le cobra dressé.</p><p>Au-delà de la curiosité zoologique, la scène nilotique est une célébration allégorique de la fécondité cosmique et de la prospérité procurée par la crue bénéfique du fleuve. Dans les domus de Pompéi comme dans les grandes villas d'Afrique du Nord (Hadrumète), intégrer un tapis de mosaïque nilotique dans le sol d'un triclinium ou d'une exèdre transformait la salle de réception en une fenêtre ouverte sur Alexandrie et les confins merveilleux de l'Empire, associant le prestige intellectuel du commanditaire aux promesses d'abondance éternelle.</p>"
+  },
+  "mythe_phrixos_et_helle_toison_or": {
+    "id": "mythe_phrixos_et_helle_toison_or",
+    "badge": "MYTHOLOGIE GRECQUE & CYCLES HÉROÏQUES",
+    "title": "Le Mythe de Phrixos et Hellé : La Toison d'Or et l'Hellespont",
+    "sources": "Apollodore (Bibliothèque, Livre I), Apollonios de Rhodes (Argonautiques), Ovide (Métamorphoses)",
+    "keywords": [
+      "phrixos",
+      "hellé",
+      "helle",
+      "phrixos et hellé",
+      "toison d'or",
+      "bélier ailé",
+      "chrysomallos",
+      "hellespont",
+      "colchide",
+      "athamas"
+    ],
+    "text": "<p>Dans la mythologie grecque, l'épopée de la Toison d'or s'enracine dans le drame tragique des jumeaux Phrixos et Hellé, enfants du roi de Béotie Athamas et de la nymphe des nuées Néphélé. Victimes des machinations cruelles de leur belle-mère Ino, qui avait provoqué une fausse famine pour pousser le roi à sacrifier ses enfants, les jeunes princes sont sauvés in extremis par leur mère divine, qui leur envoie Chrysomallos, un bélier miraculeux à la toison d'or pur, doué de parole et capable de voler dans les airs.</p><p>S'élevant au-dessus des terres et des mers en direction de la lointaine Colchide, le voyage aérien bascule dans le drame lors de la traversée du détroit séparant l'Europe de l'Asie : prise de vertige et d'effroi, la jeune Hellé lâche prise et sombre dans les flots tumultueux qui prendront pour l'éternité son nom, l'Hellespont (l'actuel détroit des Dardanelles). Seul rescapé, son frère Phrixos atteint sain et sauf les rivages de Colchide au bord du Pont-Euxin, où il sacrifie le bélier à Zeus et confie la précieuse toison d'or au roi Éétès, qui la fait garder par un dragon vigilant jusqu'à l'arrivée des Argonautes de Jason.</p><p>Dans l'art romain impérial, ce mythe empreint de pathétique et de résonance aquatique était particulièrement prisé pour le décor des nymphées et des fontaines domestiques. À Pompéi, les mosaïstes capturaient l'instant suspendu où la main d'Hellé affleure encore l'écume des vagues tandis que le bélier d'or poursuit son vol héroïque, offrant aux hôtes réunis autour des jeux d'eau une méditation sensible sur la fragilité du destin humain et la bienveillance des dieux protecteurs.</p>"
+  },
+  "polypheme_et_galatee_pastorale_antique": {
+    "id": "polypheme_et_galatee_pastorale_antique",
+    "badge": "MYTHOLOGIE & POÉSIE PASTORALE",
+    "title": "Polyphème et Galatée : L'Amour Impossible du Cyclope et de la Néréide",
+    "sources": "Théocrite (Idylles, XI), Ovide (Métamorphoses, Livre XIII), Philostrate (Tableaux)",
+    "keywords": [
+      "polyphème",
+      "polypheme",
+      "galatée",
+      "galatee",
+      "cyclope",
+      "néréide",
+      "nereide",
+      "flûte de pan",
+      "syrinx",
+      "pastorale",
+      "corredera",
+      "cordoue"
+    ],
+    "text": "<p>Chanté avec une infinie délicatesse par le poète bucolique Théocrite puis immortalisé par Ovide dans ses <em>Métamorphoses</em>, le mythe de Polyphème et Galatée met en scène l'un des contrastes poétiques les plus saisissants de l'Antiquité classique : l'affrontement entre la brutalité tellurique et la grâce insaisissable du monde aquatique.</p><p>Fils de Poséidon, le monstrueux cyclope Polyphème, pasteur solitaire des côtes escarpées de Sicile, est éperdument épris de la néréide Galatée, créature marine d'une beauté diaphane. Dépouillant pour un temps sa férocité sauvage, le géant à l'œil unique s'assied sur un promontoire rocheux face au ressac pour moduler sur sa flûte de Pan (la syrinx) des mélodies naïves et passionnées, tentant d'amadouer la nymphe des eaux en lui promettant les plus beaux troupeaux, des chevreaux et des fruits de la terre.</p><p>Mais Galatée, insouciante ou cruelle, glisse sur les vagues sur le dos d'un monstre marin ou d'un dauphin, se refusant à ses avances pour aimer le jeune berger Acis. Dans la mosaïque romaine provinciale, particulièrement à Cordoue (Colonia Patricia Corduba), ce thème atteignait une haute valeur symbolique et philosophique : il incarnait le triomphe de la musique et de l'amour civilisateur capables d'apaiser les pulsions sauvages de la nature, tout en offrant aux maîtres de maison un tableau d'un raffinement pictural et chromatique d'exception.</p>"
+  },
+  "pegase_bellerophon_cheval_aile": {
+    "id": "pegase_bellerophon_cheval_aile",
+    "badge": "MYTHOLOGIE GRECQUE & SYMBOLE POÉTIQUE",
+    "title": "Pégase et Bellérophon : L'Élévation de l'Âme et l'Inspiration Céleste",
+    "sources": "Hésiode (Théogonie), Pindare (Olympiques, XIII), Ovide (Fastes, V)",
+    "keywords": [
+      "pégase",
+      "pegase",
+      "bellérophon",
+      "bellerophon",
+      "cheval ailé",
+      "hippocrène",
+      "chimère",
+      "cordoue",
+      "immortalité",
+      "inspiration"
+    ],
+    "text": "<p>Né du sang de la Gorgone Méduse décapitée par Persée sur les rivages de l'Océan, le cheval ailé Pégase incarne dans la mythologie gréco-romaine la pureté céleste, la rapidité fulgurante de la foudre et la liberté immatérielle de l'esprit. D'un coup de son sabot d'airain sur le mont Hélicon, le sanctuaire des Muses, Pégase fit jaillir la source sacrée d'Hippocrène (« la fontaine du cheval »), dont les eaux limpides conféraient le génie poétique et l'inspiration créatrice à quiconque s'y désaltérait.</p><p>Dompté par le héros corinthien Bellérophon grâce au mors d'or remis par la déesse Athéna, le coursier ailé permet au chevalier d'abattre la terrifiante Chimère crachant le feu et de vaincre les redoutables Amazones. Mais lorsque Bellérophon, enivré par son orgueil (<em>l'hybris</em>), prétend s'élever jusqu'au sommet de l'Olympe pour siéger parmi les dieux, Zeus envoie un taon piquer le noble destrier, précipitant le cavalier impie sur la terre tandis que Pégase monte seul aux cieux pour porter le tonnerre du maître des dieux et être métamorphosé en constellation éternelle.</p><p>Dans les pavements des riches demeures romaines de Bétique, comme à Cordoue, la silhouette altière et élégante de Pégase marchant d'un pas noble au sein d'une frise de tresses géométriques ne représentait pas seulement un sujet décoratif virtuose : elle symbolisait pour l'aristocratie cultivée l'élévation de l'âme humaine au-dessus des pesanteurs matérielles, la noblesse du destin héroïque et l'immortalité promise aux esprits éclairés par la culture des Muses.</p>"
+  },
+  "cosmogonie_mithra_augusta_emerita": {
+    "id": "cosmogonie_mithra_augusta_emerita",
+    "badge": "COSMOLOGIE & CULTES À MYSTÈRES",
+    "title": "La Cosmogonie Romaine et les Mystères de Mithra à Augusta Emerita",
+    "sources": "Franz Cumont (Les Mystères de Mithra), inscriptions épigraphiques de la Maison du Mithrée à Mérida",
+    "keywords": [
+      "cosmogonie mérida",
+      "cosmogonie merida",
+      "maison du mithrée",
+      "augusta emerita",
+      "oceanus",
+      "caelum",
+      "mithra",
+      "cosmos",
+      "planètes",
+      "labyrinthe",
+      "svastikas"
+    ],
+    "text": "<p>Fondée en 25 avant J.-C. par l'empereur Auguste pour accueillir les vétérans des légions de la guerre cantabre, la cité d'Augusta Emerita (l'actuelle Mérida), capitale de la province de Lusitanie, s'est imposée comme l'un des foyers intellectuels et spirituels les plus sophistiqués de l'Occident romain. À l'extérieur des remparts de la cité, la monumentale « Maison du Mithrée » témoigne de la pénétration précoce des cultes à mystères orientaux et de la philosophie néo-platonicienne au sein de l'aristocratie provinciale du Haut-Empire.</p><p>Chef-d'œuvre absolu de cette sensibilité métaphysique, la « Mosaïque Cosmogonique » de Mérida propose une véritable carte encyclopédique de l'Univers ordonné par le divin. Conçue selon une lecture théologique rigoureuse ponctuée de légendes latines, la composition associe le Ciel (<em>Caelum</em>) trônant au zénith, les fleuves sacrés, les vents régulateurs, ainsi que l'immensité de l'Océan primordial (<em>Oceanus</em>) entouré de figures allégoriques incarnant la navigation sereine (<em>Navigia</em>), le port protecteur (<em>Pharos</em>) et la concorde universelle.</p><p>Dans les pièces adjacentes, les pavements géométriques en labyrinthes de méandres, croix de svastikas et nids d'abeille hexagonaux matérialisaient sur le sol même de la domus les lois mathématiques et la rotation éternelle des sphères célestes. Loin d'être de simples tapis d'agrément, ces pavements servaient de support à une méditation spirituelle sur l'harmonie du cosmos et l'initiation de l'âme humaine à l'ordre souverain du monde.</p>"
+  },
+  "venationes_jeux_amphitheatre_chasses": {
+    "id": "venationes_jeux_amphitheatre_chasses",
+    "badge": "SPECTACLES DU CIRQUE & ÉVERGÉTISME",
+    "title": "Les Venationes : Chasses, Combats de Fauves et Prestige dans l'Empire Romain",
+    "sources": "Suétone (Vie des douze Césars), Martial (Livre des spectacles), épigraphie des amphithéâtres d'El Jem et de Carthage",
+    "keywords": [
+      "venatio",
+      "venationes",
+      "chasses amphithéâtre",
+      "el jem",
+      "thysdrus",
+      "fauves",
+      "combats de fauves",
+      "missilia",
+      "amphithéâtre romain",
+      "mosaïque amphithéâtre"
+    ],
+    "text": "<p>Parmi tous les spectacles publics de la Rome impériale, les <em>venationes</em> — chasses et combats mettant aux prises des bêtes sauvages venues des confins de l'Empire — suscitaient une ferveur populaire immense, surpassée seulement par les courses de chars du cirque. Dans la province d'Afrique proconsulaire, grenier à blé et plaque tournante du commerce méditerranéen, la cité de Thysdrus (El Jem) se dota au IIIe siècle du troisième plus vaste amphithéâtre du monde romain, capable d'accueillir plus de 30 000 spectateurs.</p><p>Dans les arènes d'Afrique, le spectacle célébrait la puissance souveraine de Rome capable de dompter les forces les plus terrifiantes de la nature : lions de l'Atlas, léopards mouchetés, panthères rapides, ours, tigres et sangliers féroces s'affrontaient dans des combats sanglants ou traqués par des <em>venatores</em> aguerris protégés par des lances et des poignards. L'organisation de ces jeux monumentaux constituait le moyen suprême pour les riches magistrats locaux (les évergètes) d'afficher leur opulence et de briguer les plus hautes charges civiques, distribuant lors des entractes des cadeaux et des vivres (les <em>missilia</em>) dont les chiffres et les symboles étaient gravés sur des pavements comptables.</p><p>Dans les luxueuses demeures privées d'El Jem et de Sousse, les propriétaires faisaient immortaliser ces spectacles sur les sols de leurs tricliniums : les mosaïstes africains excellaient à rendre la violence du corps à corps, la musculature saillante des fauves terrassant leur proie et l'éclat des crinières hérissées. Ces tableaux grandioses affirmaient le courage martial du maître de maison et plaçaient symboliquement son foyer sous le signe de la force victorieuse et de la munificence civique.</p>"
+  },
+  "les_neuf_muses_apollon_arts": {
+    "id": "les_neuf_muses_apollon_arts",
+    "badge": "ARTS LIBÉRAUX & CULTURE CLASSIQUE",
+    "title": "Les Neuf Muses et le Sacre des Arts Libéraux dans l'Empire Romain",
+    "sources": "Hésiode (Théogonie), Homère, Horace (Odes), Cicéron (Tusculanes)",
+    "keywords": [
+      "neuf muses",
+      "muses",
+      "apollon",
+      "melpomène",
+      "thalie",
+      "uranie",
+      "clio",
+      "érato",
+      "polymnie",
+      "euterpe",
+      "terpsichore",
+      "calliope",
+      "el jem",
+      "thysdrus"
+    ],
+    "text": "<p>Filles de Zeus et de la déesse de la mémoire Mnémosyne, les neuf Muses incarnent dans la pensée gréco-romaine l'inspiration divine suprême présidant à la création poétique, musicale, théâtrale et philosophique. Conduites par Apollon Musagète sur les pentes du mont Parnasse et près de la source de Castalie, elles dispensent aux mortels la clarté de l'esprit, l'éloquence et l'oubli des chagrins terrestres par l'harmonie des sons et du verbe.</p><p>Chacune des sœurs veille sur un domaine souverain de la connaissance : Calliope sur l'épopée héroïque, Clio sur l'histoire humaine, Melpomène sur la gravité tragique, Thalie sur la joie comique, Terpsichore sur la grâce de la danse, Érato sur la poésie lyrique et amoureuse, Polymnie sur les hymnes sacrés et la rhétorique, Euterpe sur la musique des flûtes et Uranie sur la sublime géométrie des astres et de l'astronomie.</p><p>Dans les provinces opulentes de l'Empire comme à Thysdrus (l'actuelle El Jem), la représentation des neuf Muses dans le pavement d'apparat d'une domus constituait un véritable manifeste intellectuel. En disposant les bustes des divinités au sein de médaillons de lauriers interconnectés par une profusion végétale sans vide (<em>horror vacui</em>), le commanditaire transformait sa demeure en sanctuaire du savoir et de la beauté, affirmant son rang au sein de l'élite lettrée de l'Empire romain.</p>"
+  },
+  "xenia_nature_morte_hospitalite_romaine": {
+    "id": "xenia_nature_morte_hospitalite_romaine",
+    "badge": "VIE DOMESTIQUE & GASTRONOMIE ROMAINE",
+    "title": "Les Xenia et la Nature Morte Marine : L'Hospitalité et les Délices du Banquet",
+    "sources": "Vitruve (De Architectura, Livre VI), Martial (Xenia, Épigrammes Livre XIII), Pline l'Ancien (Histoire naturelle)",
+    "keywords": [
+      "xenia",
+      "nature morte",
+      "nature morte marine",
+      "hospitalité romaine",
+      "banquet",
+      "poissons",
+      "fruits",
+      "fiscella",
+      "panier renversé",
+      "carthage",
+      "hadrumète",
+      "pompei"
+    ],
+    "text": "<p>Dans la civilisation gréco-romaine, le mot grec <em>xenia</em> (cadeaux d'hospitalité) désignait une institution sociale fondamentale codifiée par la bienséance et l'honneur : lorsqu'un riche maître de maison recevait des hôtes dans sa domus, il leur faisait porter dans leurs appartements privés des victuailles fraîches — gibier, volailles, fruits mûrs, légumes du domaine et poissons de mer — afin qu'ils puissent préparer leur repas en toute liberté avant de se réunir pour le grand banquet nocturne (le <em>convivium</em>).</p><p>Cette pratique aristocratique a donné naissance à l'un des genres les plus raffinés de la mosaïque de pavement : la nature morte domestique et marine. Sur les sols des tricliniums de Pompéi, d'Herculanum, de Carthage ou d'Hadrumète (Sousse), les mosaïstes représentaient avec un réalisme gourmand et une virtuosité stupéfiante les produits les plus nobles de la terre et des flots : canards colverts liés par les pattes, branches d'olivier chargées de fruits, paniers d'osier (<em>fiscellae</em>) renversés laissant échapper des figues vermeilles ou une cascade de crustacés, de langoustes royales, de mérous, de dorades et de rougets aux écailles irisées.</p><p>Au-delà de leur éclat esthétique, ces panneaux de mosaïque remplissaient une fonction symbolique essentielle : ils témoignaient de la munificence sans borne du maître des lieux, célébraient la prospérité féconde de la Méditerranée et assuraient aux convives que la table du foyer serait toujours garnie des mets les plus délectables sous la bénédiction des dieux protecteurs.</p>"
+  },
+  "venus_anadyomene_naissance_coquille": {
+    "id": "venus_anadyomene_naissance_coquille",
+    "badge": "MYTHOLOGIE & BEAUTÉ MARINE",
+    "title": "Vénus Anadyomène : La Naissance Divine et le Triomphe des Eaux",
+    "sources": "Hésiode (Théogonie), Apulée (Les Métamorphoses), Ovide (Les Amours)",
+    "keywords": [
+      "vénus anadyomène",
+      "venus anadyomene",
+      "venus",
+      "aphrodite",
+      "conque marine",
+      "pétoncle",
+      "dauphins",
+      "el jem",
+      "thysdrus",
+      "nymphée",
+      "beauté marine"
+    ],
+    "text": "<p>Née de l'écume marine fécondée par les cieux primordiaux selon le récit d'Hésiode, Vénus Anadyomène (« sortie des eaux ») incarne dans la spiritualité gréco-romaine l'avènement souverain de la beauté plastique, de la fécondité universelle et de la grâce amoureuse qui apaise les flots et anime toute la création vivante.</p><p>Dans la tradition iconographique consacrée par la célèbre peinture perdue d'Apelle et réinterprétée par les maîtres mosaïstes de l'Afrique proconsulaire, la déesse est figurée émergeant des profondeurs de la mer, allongée avec une nonchalance royale à l'intérieur d'une conque de pétoncle géante dont les cannelures rayonnent comme des rayons de lumière. Escortée par des dauphins bienveillants — compagnons dévoués d'Aphrodite et symboles du salut maritime —, elle apporte la paix et la joie aux rivages des hommes.</p><p>Dans les domus aristocratiques de Thysdrus (El Jem), ce motif occupait une place de choix au creux des absides des nymphées et des tricliniums d'été. Associant la fraîcheur de l'eau courante à la contemplation d'une divinité bienfaitrice, la mosaïque invoquait la protection de la déesse de l'amour sur le foyer, unissant dans une même harmonie le plaisir des sens et la pérennité du lignage familial.</p>"
+  },
+  "vie_domestique_domus_pompeienne": {
+    "id": "vie_domestique_domus_pompeienne",
+    "badge": "ARCHÉOLOGIE & HABITAT ROMAIN",
+    "title": "La Domus Romaine : Espace de Réception, Pavements et Vie Privée",
+    "sources": "Vitruve (De Architectura, Livre VI), Pline le Jeune (Lettres), découvertes archéologiques de Pompéi, Herculanum et Mérida",
+    "keywords": [
+      "domus",
+      "triclinium",
+      "atrium",
+      "péristyle",
+      "pavement",
+      "mosaïque géométrique",
+      "opus tessellatum",
+      "fleur de vie",
+      "svastikas",
+      "labyrinthe",
+      "pompei",
+      "herculanum",
+      "merida"
+    ],
+    "text": "<p>Au sein de la société romaine, la maison de ville aristocratique (la <em>domus</em>) ne constituait pas seulement un refuge intime pour la famille (la <em>familia</em>), mais un instrument capital de représentation sociale, d'influence politique et de mise en scène du statut civique du propriétaire (le <em>pater familias</em>).</p><p>Organisée le long d'un axe rigoureux reliant le vestibule d'entrée à l'atrium central avec son impluvium recueillant l'eau de pluie, puis au bureau du maître (le <em>tablinum</em>) et au péristyle verdoyant entouré de salles de banquet (les <em>triclinia</em>), la demeure romaine guidait le regard et la circulation des visiteurs selon une hiérarchie millimétrée. Dès le seuil de la porte, le visiteur était accueilli par des formules de bienvenue (<em>Salve</em>) ou des avertissements prophylactiques tels que le célèbre <em>Cave Canem</em> de Pompéi.</p><p>Le décor des sols jouait un rôle architectural décisif : les artisans mosaïstes concevaient de véritables tapis minéraux en <em>opus tessellatum</em> où l'ordre géométrique des tresses, des svastikas, des labyrinthes et des fleurs de vie délimitait les aires de repos, soulignait l'emplacement des lits de table du triclinium et créait des perspectives optiques monumentales. Résistants à l'usure du temps et aux rigueurs de l'entretien, ces pavements demeurent aujourd'hui le témoignage le plus vivant de l'art d'habiter et du goût esthétique de l'élite impériale romaine.</p>"
   }
 };
 
@@ -5187,3 +5419,19 @@ window.BACKGROUNDS_REGISTRY["tangata_manu"] = window.BACKGROUNDS_REGISTRY["rapa_
 
 window.BACKGROUNDS_REGISTRY["amphores_romaines"] = window.BACKGROUNDS_REGISTRY["commerce_maritime_amphores_romaines"];
 window.BACKGROUNDS_REGISTRY["commerce_maritime"] = window.BACKGROUNDS_REGISTRY["commerce_maritime_amphores_romaines"];
+window.BACKGROUNDS_REGISTRY["theatre_antique"] = window.BACKGROUNDS_REGISTRY["theatre_antique_comedie_nouvelle_masques"];
+window.BACKGROUNDS_REGISTRY["comedie_nouvelle"] = window.BACKGROUNDS_REGISTRY["theatre_antique_comedie_nouvelle_masques"];
+window.BACKGROUNDS_REGISTRY["masques_theatre"] = window.BACKGROUNDS_REGISTRY["theatre_antique_comedie_nouvelle_masques"];
+window.BACKGROUNDS_REGISTRY["scenes_nilotiques"] = window.BACKGROUNDS_REGISTRY["scenes_nilotiques_exotisme_alexandrin"];
+window.BACKGROUNDS_REGISTRY["paysage_nilotique"] = window.BACKGROUNDS_REGISTRY["scenes_nilotiques_exotisme_alexandrin"];
+window.BACKGROUNDS_REGISTRY["phrixos_et_helle"] = window.BACKGROUNDS_REGISTRY["mythe_phrixos_et_helle_toison_or"];
+window.BACKGROUNDS_REGISTRY["polypheme_galatee"] = window.BACKGROUNDS_REGISTRY["polypheme_et_galatee_pastorale_antique"];
+window.BACKGROUNDS_REGISTRY["pegase"] = window.BACKGROUNDS_REGISTRY["pegase_bellerophon_cheval_aile"];
+window.BACKGROUNDS_REGISTRY["cosmogonie_merida"] = window.BACKGROUNDS_REGISTRY["cosmogonie_mithra_augusta_emerita"];
+window.BACKGROUNDS_REGISTRY["venationes"] = window.BACKGROUNDS_REGISTRY["venationes_jeux_amphitheatre_chasses"];
+window.BACKGROUNDS_REGISTRY["combats_de_fauves"] = window.BACKGROUNDS_REGISTRY["venationes_jeux_amphitheatre_chasses"];
+window.BACKGROUNDS_REGISTRY["neuf_muses"] = window.BACKGROUNDS_REGISTRY["les_neuf_muses_apollon_arts"];
+window.BACKGROUNDS_REGISTRY["xenia"] = window.BACKGROUNDS_REGISTRY["xenia_nature_morte_hospitalite_romaine"];
+window.BACKGROUNDS_REGISTRY["nature_morte_marine"] = window.BACKGROUNDS_REGISTRY["xenia_nature_morte_hospitalite_romaine"];
+window.BACKGROUNDS_REGISTRY["venus_anadyomene"] = window.BACKGROUNDS_REGISTRY["venus_anadyomene_naissance_coquille"];
+window.BACKGROUNDS_REGISTRY["domus_romaine"] = window.BACKGROUNDS_REGISTRY["vie_domestique_domus_pompeienne"];
