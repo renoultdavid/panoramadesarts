@@ -8952,7 +8952,10 @@ function populateModalData(art) {
     modalChips.appendChild(btnFocus);
   }
 
-  const rawNarrative = art.narrative || art.desc || art.description || art.text || '';
+  let rawNarrative = art.narrative || art.text || art.description || art.desc || '';
+  if (rawNarrative && !rawNarrative.includes('<p>') && rawNarrative.includes('\n')) {
+    rawNarrative = rawNarrative.split(/\n{2,}/).filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
+  }
   modalNarrative.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
     ? enrichHTMLWithGlossary(rawNarrative)
     : rawNarrative;
@@ -8978,7 +8981,10 @@ function populateModalData(art) {
         modalImg.src = v.image;
         modalImg.alt = v.title || art.title;
 
-        const viewNarrative = v.caption || v.desc || v.description || rawNarrative;
+        let viewNarrative = v.caption || v.desc || v.description || rawNarrative;
+        if (viewNarrative && !viewNarrative.includes('<p>') && viewNarrative.includes('\n')) {
+          viewNarrative = viewNarrative.split(/\n{2,}/).filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
+        }
         modalNarrative.innerHTML = (typeof enrichHTMLWithGlossary === 'function')
           ? enrichHTMLWithGlossary(viewNarrative)
           : viewNarrative;
