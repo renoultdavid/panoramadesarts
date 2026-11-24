@@ -1734,7 +1734,8 @@ const BANNERS_REGISTRY = {
   // 21. Rome antique (par typologie & médium)
   rome_ceramique: "https://lh3.googleusercontent.com/pw/AP1GczMMSdKsFU1qS-isZORLL9dtGo8GguKDmvn-P8l5wbfgBSpzsl1ZRmsK52FF_ISiz5ws17jqo3uiTBccdt6wL1k4O9dEVKnh5Q3R1Nr_-WSq6ES_nLgHkyOlCvvFUcpSq_ko_dZqSFs53p1GF-bu3Kr4CQ=w1584-h672-s-no-gm?authuser=0",
   rome_mosaique: "https://lh3.googleusercontent.com/pw/AP1GczPvYZzAvytNNYz4mM16tKTiA45vSTjPLR8whH4z7nsuuFZVPsIV1CO0wjc8xCINw7Gmm3hzGWzSw4JY55A4lQfzjBgaCx7Antc40F6yU0YHA0yZKWP2RCz1jae8O8dWp4xdxEgPOkEzW96qX4kSZWQdzA=w1654-h702-s-no-gm?authuser=0",
-  rome_numismatique: "https://lh3.googleusercontent.com/pw/AP1GczNmiCg8PTskg_coN-LaeHNTJybp0XDA307Hk7Sxn3xhacXg-oYd6RDa_F9c8h8DIJrAqwYOee7sNb9eCSKb_UaWI9FKh8Rv9aYEt3zaKu3S2L79mXHohrnddOM_8zEFcGroUpARJupUweNeY_wYfyqKRw=w1654-h702-s-no-gm?authuser=0",
+  rome_numismatique: "https://lh3.googleusercontent.com/pw/AP1GczNmiCg8PTskg_coN-LaeHNTJybp0XDA307Hk7Sxn3xhacXg-oYd6RDa_F9c8h8DIJrAqwYOee7sNb9eCSKb_UaWI9FKh8Rv9aYEt3zaKu3S2L79mXHohrnddOM_8zEFcGroUpARJupUweNeY_wYfyqKRw=w1595-h677-s-no-gm?authuser=0",
+  numismatique: "https://lh3.googleusercontent.com/pw/AP1GczNmiCg8PTskg_coN-LaeHNTJybp0XDA307Hk7Sxn3xhacXg-oYd6RDa_F9c8h8DIJrAqwYOee7sNb9eCSKb_UaWI9FKh8Rv9aYEt3zaKu3S2L79mXHohrnddOM_8zEFcGroUpARJupUweNeY_wYfyqKRw=w1595-h677-s-no-gm?authuser=0",
   rome_orfevrerie: "https://lh3.googleusercontent.com/pw/AP1GczP4SI1aA7AD9CggC8E12BKnKbDDjUDt3_6fPO3Iu4b9pJHKc-M7XQPtPKbEI_EZaStw0fAEyxlT2Ha8N-w7YVWWTQbgv1f6SBdfmHekOmdrCrLpnVLkr-6SlCTOTtqgTQApOyNkJaaaVeA936GFseHW6Q=w1654-h702-s-no-gm?authuser=0",
   rome_peinture: "https://lh3.googleusercontent.com/pw/AP1GczPbuAXOAbPk6IGAlfvW1EmbUxfWfuzFrqmqBViJrBKnkmNeuDSxZCi_Wt0WbdHQcQkWNxSfocFtaoGI7Wjpt8-aYaST_dLowMgPxdFimElp7aIUQSvSkp33Wbna2D5lMcc1X0clZkTDLYHt-UvidmAAjQ=w1654-h702-s-no-gm?authuser=0",
   rome_sculpture_funeraire: "https://lh3.googleusercontent.com/pw/AP1GczPelvXkgPHmHS8Pf66szPPSJJi1mMQTiKfNwdLLm77x62vccnWaVXAvU0N-4TGRVnpWEfiW93yoEbUU8zto8f3GmXfyZN6LTNXrbnJcvXGKyyV-tFJoBvtW5NqT_N78x2vFd8WjjpVBrWIAcSWQ4Uf6Nw=w1654-h702-s-no-gm?authuser=0",
@@ -4243,6 +4244,7 @@ const DOMAIN_ICONS = {
   ceramique: "🏺",
   funeraire: "⚱️",
   parures_metaux: "👑",
+  numismatique: "🪙",
   espace_sacre: "🏛️",
   vie_quotidienne: "📜",
   art_du_livre: "📖",
@@ -10989,6 +10991,15 @@ const TAXONOMY_CIVILISATIONS = {
 
 // 2. Référentiel des domaines techniques et typologies d'artefacts
 const TAXONOMY_DOMAINS = {
+  "numismatique": {
+    label: "Numismatique, Monnaies & Trésors",
+    types: [
+      "Numismatique (monnaie)",
+      "Monnaie de bronze & billon (follis, as, sesterce)",
+      "Monnaie d'or & d'argent (denier, aureus, solidus)",
+      "Trésor monétaire & Dépôt de thésaurisation"
+    ]
+  },
   "sculpture_religieuse": {
     label: "Sculpture religieuse, Calvaires & Arts sacrés",
     types: [

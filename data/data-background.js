@@ -5686,6 +5686,51 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>Située dans les environs de Cáceres en Estrémadure, la villa romaine de Santa Lucía représente l'archétype des grandes exploitations domaniales (<em>villae</em>) qui ont prospéré en Lusitanie occidentale durant l'Antiquité tardive, alliant une production agricole intensive (blé, huile, élevage équin) à un luxueux quartier résidentiel (la <em>pars urbana</em>) digne d'un palais urbain.</p><p>Les fouilles archéologiques ont mis au jour de vastes pavements de mosaïque polychrome qui ornaient les salles de réception et les appartements du propriétaire. Parmi les pièces les plus remarquables, conservées au Musée de Cáceres (Palacio de las Veletas), figurent une spectaculaire scène de grande chasse équestre montrant des cavaliers aristocratiques traquant le gibier, ainsi que des médaillons abritant de gracieuses figures féminines allégoriques interprétées comme des Muses ou des personnifications des Saisons.</p><p>Ces compositions témoignent de l'enracinement de la culture gréco-romaine au sein des élites foncières de l'intérieur de l'Hispanie au IVe siècle. Loin d'être isolés, ces maîtres de domaine faisaient appel à des ateliers de mosaïstes itinérants de grand talent pour parer leurs demeures des mêmes emblèmes de prestige, de bravoure cynégétique et de raffinement humaniste que ceux en vogue dans les grandes métropoles de l'Empire.</p>"
   }
+,
+  "monnaie_romaine_follis_bas_empire": {
+    "id": "monnaie_romaine_follis_bas_empire",
+    "title": "Le follis et les réformes monétaires du Bas-Empire romain",
+    "subtitle": "La stabilisation du numéraire de bronze, la propagande impériale et la circulation en Gallaecia",
+    "date": "Fin du IIIe - IVe siècle apr. J.-C.",
+    "period": "Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "follis",
+      "monnaie",
+      "numismatique",
+      "bas-empire",
+      "constance ii",
+      "constantin",
+      "lugo",
+      "gallaecia",
+      "bronze",
+      "propagande"
+    ],
+    "text": "<p>À la fin du IIIe siècle de notre ère, l'Empire romain sortait d'une crise économique et militaire sans précédent marquée par l'effondrement du système monétaire augustéen et la dévaluation vertigineuse des espèces en argent. Pour rétablir la confiance, freiner l'inflation et garantir la rémunération de l'armée et de l'administration, l'empereur Dioclétien promulgua une réforme monétaire radicale en 294, complétée ensuite par Constantin le Grand. Parmi les nouvelles dénominations créées, le <em>follis</em> (ou <em>nummus</em> de bronze argenté) devint l'unité monétaire fondamentale des échanges quotidiens.</p><p>Frappé au marteau par dizaines de millions d'exemplaires dans un réseau d'ateliers impériaux répartis d'Orient en Occident (Rome, Trèves, Arles, Lyon, Siscia), le follis servait également d'instrument de communication et de propagande politique sans équivalent. À l'avers, le portrait impérial lauré ou diadémé proclamait la légitimité du souverain et de sa dynastie (notamment les fils de Constantin : Constantin II, Constance II et Constant). Au revers, les légendes et allégories martiales (<em>Gloria Exercitus</em>, <em>Fel Temp Reparatio</em>) célébraient la gloire des armées, la capture des barbares et la promesse d'un renouveau triomphal de l'ordre romain.</p><p>La découverte d'importantes séries de follis dans les niveaux archéologiques de <em>Lucus Augusti</em> (Lugo) témoigne de l'intégration monétaire et fiscale complète du nord-ouest de la péninsule Ibérique dans les circuits de l'Empire tardif. Alors même que la ville ceignait son périmètre d'une puissante muraille de pierre pour faire face aux menaces extérieures, ces humbles pièces de bronze assuraient la fluidité du commerce local et le paiement des impôts impériaux, reliant les habitants de Gallaecia au pouvoir central de Constantinople ou de Trèves.</p>"
+  },
+  "thesaurisation_tresors_monetaires_gallo_romains": {
+    "id": "thesaurisation_tresors_monetaires_gallo_romains",
+    "title": "La thésaurisation et les dépôts monétaires en Gaule romaine",
+    "subtitle": "Les crises du IIIe siècle, l'inflation du billon et la dissimulation des fortunes dans les récipients de terre cuite",
+    "date": "IIIe siècle apr. J.-C.",
+    "period": "Gaule romaine & Bas-Empire",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "trésor monétaire",
+      "thésaurisation",
+      "jublains",
+      "diablintes",
+      "gaule",
+      "billon",
+      "terminus post quem",
+      "crise du iiie siècle"
+    ],
+    "text": "<p>L'enfouissement de trésors monétaires constitue l'un des phénomènes archéologiques les plus marquants de la Gaule romaine, culminant durant les décennies troublées de la seconde moitié du IIIe siècle apr. J.-C. Face aux incursions germaniques, aux guerres civiles, aux soulèvements bagaudes et à l'effondrement du pouvoir central, les citoyens gallo-romains cherchaient désespérément à mettre leurs économies à l'abri des pillages en les dissimulant sous terre, dans l'espoir de les récupérer une fois le péril écarté.</p><p>Le contenant privilégié de ces dépôts d'urgence était le vase en terre cuite commune : jarre, pot globulaire ou cruche à col étroit façonné par les potiers locaux, tel le vase de céramique commune découvert à Jublains dans la cité des Diablintes (Mayenne). Parfaitement étanche et facile à enterrer dans la cave d'une <em>domus</em>, sous le sol d'un atelier ou dans un champ isolé, ce récipient recevait souvent plusieurs centaines voire plusieurs milliers de pièces en bronze ou en <em>billon</em> (un alliage de cuivre ne contenant plus qu'une infime proportion d'argent en raison de l'inflation galopante).</p><p>Pour les historiens et les archéologues contemporains, la découverte in situ d'un trésor monétaire non récupéré par son propriétaire représente une archive économique inestimable. L'identification de la pièce la plus récente du lot fournit le <em>terminus post quem</em>, permettant de dater avec une grande précision le moment de la crise ou de l'abandon du site. Figés par la corrosion qui soude les monnaies en grappes vert-de-gris, ces trésors témoignent avec émotion de l'angoisse des populations antiques face aux soubresauts de l'Histoire.</p>"
+  }
 
 };
 
@@ -5849,4 +5894,15 @@ window.BACKGROUNDS_REGISTRY["piazza_armerina"] = window.BACKGROUNDS_REGISTRY["vi
 window.BACKGROUNDS_REGISTRY["villa_del_casale"] = window.BACKGROUNDS_REGISTRY["villa_romaine_du_casale_piazza_armerina"];
 window.BACKGROUNDS_REGISTRY["santa_lucia_caceres"] = window.BACKGROUNDS_REGISTRY["villa_romaine_santa_lucia_caceres"];
 window.BACKGROUNDS_REGISTRY["chasse_santa_lucia"] = window.BACKGROUNDS_REGISTRY["villa_romaine_santa_lucia_caceres"];
+
+
+// Alias numismatique et trésors monétaires
+window.BACKGROUNDS_REGISTRY["follis"] = window.BACKGROUNDS_REGISTRY["monnaie_romaine_follis_bas_empire"];
+window.BACKGROUNDS_REGISTRY["monnaie_romaine"] = window.BACKGROUNDS_REGISTRY["monnaie_romaine_follis_bas_empire"];
+window.BACKGROUNDS_REGISTRY["follis_lugo"] = window.BACKGROUNDS_REGISTRY["monnaie_romaine_follis_bas_empire"];
+window.BACKGROUNDS_REGISTRY["numismatique_romaine"] = window.BACKGROUNDS_REGISTRY["monnaie_romaine_follis_bas_empire"];
+window.BACKGROUNDS_REGISTRY["tresor_monetaire"] = window.BACKGROUNDS_REGISTRY["thesaurisation_tresors_monetaires_gallo_romains"];
+window.BACKGROUNDS_REGISTRY["tresor_jublains"] = window.BACKGROUNDS_REGISTRY["thesaurisation_tresors_monetaires_gallo_romains"];
+window.BACKGROUNDS_REGISTRY["thesaurisation"] = window.BACKGROUNDS_REGISTRY["thesaurisation_tresors_monetaires_gallo_romains"];
+window.BACKGROUNDS_REGISTRY["depot_monetaire"] = window.BACKGROUNDS_REGISTRY["thesaurisation_tresors_monetaires_gallo_romains"];
 
