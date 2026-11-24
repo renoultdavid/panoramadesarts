@@ -5731,6 +5731,30 @@ window.BACKGROUNDS_REGISTRY = {
     ],
     "text": "<p>L'enfouissement de trésors monétaires constitue l'un des phénomènes archéologiques les plus marquants de la Gaule romaine, culminant durant les décennies troublées de la seconde moitié du IIIe siècle apr. J.-C. Face aux incursions germaniques, aux guerres civiles, aux soulèvements bagaudes et à l'effondrement du pouvoir central, les citoyens gallo-romains cherchaient désespérément à mettre leurs économies à l'abri des pillages en les dissimulant sous terre, dans l'espoir de les récupérer une fois le péril écarté.</p><p>Le contenant privilégié de ces dépôts d'urgence était le vase en terre cuite commune : jarre, pot globulaire ou cruche à col étroit façonné par les potiers locaux, tel le vase de céramique commune découvert à Jublains dans la cité des Diablintes (Mayenne). Parfaitement étanche et facile à enterrer dans la cave d'une <em>domus</em>, sous le sol d'un atelier ou dans un champ isolé, ce récipient recevait souvent plusieurs centaines voire plusieurs milliers de pièces en bronze ou en <em>billon</em> (un alliage de cuivre ne contenant plus qu'une infime proportion d'argent en raison de l'inflation galopante).</p><p>Pour les historiens et les archéologues contemporains, la découverte in situ d'un trésor monétaire non récupéré par son propriétaire représente une archive économique inestimable. L'identification de la pièce la plus récente du lot fournit le <em>terminus post quem</em>, permettant de dater avec une grande précision le moment de la crise ou de l'abandon du site. Figés par la corrosion qui soude les monnaies en grappes vert-de-gris, ces trésors témoignent avec émotion de l'angoisse des populations antiques face aux soubresauts de l'Histoire.</p>"
   }
+,
+  "argenterie_romaine_banquet_coupe_warren": {
+    "id": "argenterie_romaine_banquet_coupe_warren",
+    "title": "L'argenterie romaine, la toreutique de luxe et les banquets privés du Haut-Empire",
+    "subtitle": "Le faste de la vaisselle d'argent (argentum potorium), l'héritage hellénistique et l'iconographie érotique de la Coupe Warren",
+    "date": "Ier siècle av. J.-C. - Ier siècle apr. J.-C.",
+    "period": "République tardive & Haut-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "argenterie",
+      "coupe warren",
+      "toreutique",
+      "repoussé",
+      "british museum",
+      "banquet",
+      "symposium",
+      "érotisme",
+      "argent",
+      "skyphos"
+    ],
+    "text": "<p>Dans l'aristocratie romaine de la fin de la République et du Haut-Empire, la possession de somptueux services de vaisselle en argent massif — distinguant la vaisselle de table pour manger (<em>argentum escarium</em>) de la vaisselle à boire (<em>argentum potorium</em>) — constituait la marque suprême du raffinement esthétique, de l'opulence financière et du statut social. Les grands propriétaires étalaient ces trésors sur des buffets d'apparat lors des banquets (<em>convivia</em>), rivalisant d'admiration pour la signature de toreutes renommés et la virtuosité des pièces travaillées au repoussé.</p><p>La technique de la toreutique sur argent atteignit alors un sommet d'ingéniosité : les vases à boire, tels les <em>skyphoi</em> ou les canthares, étaient couramment conçus avec une double paroi. Une coque intérieure en argent poli et parfaitement lisse assurait l'étanchéité hygiénique et la facilité d'entretien lors du service du vin, tandis qu'une chemise extérieure en feuille d'argent était repoussée au marteau de l'intérieur, puis délicatement ciselée au burin sur l'extérieur pour dégager des figures en haut-relief d'une plasticité quasi sculpturale.</p><p>La célèbre Coupe Warren, conservée au British Museum, incarne l'apogée de cet art de vivre imprégné de culture hellénistique. Commandée par un riche amateur romain philhellène, elle illustre sur ses deux faces des scènes d'intimité amoureuse masculine codifiées selon les idéaux du banquet grec (le <em>symposion</em>), associées à des instruments de musique (lyre et aulos) et des draperies théâtrales. Tout comme les trésors d'argenterie découverts à Boscoreale ou à la Maison du Ménandre de Pompéi, cette pièce unique servait à la fois d'instrument de libation raffinée et de sujet de conversation philosophique, poétique et visuelle entre convives choisis.</p>"
+  }
 
 };
 
@@ -5905,4 +5929,11 @@ window.BACKGROUNDS_REGISTRY["tresor_monetaire"] = window.BACKGROUNDS_REGISTRY["t
 window.BACKGROUNDS_REGISTRY["tresor_jublains"] = window.BACKGROUNDS_REGISTRY["thesaurisation_tresors_monetaires_gallo_romains"];
 window.BACKGROUNDS_REGISTRY["thesaurisation"] = window.BACKGROUNDS_REGISTRY["thesaurisation_tresors_monetaires_gallo_romains"];
 window.BACKGROUNDS_REGISTRY["depot_monetaire"] = window.BACKGROUNDS_REGISTRY["thesaurisation_tresors_monetaires_gallo_romains"];
+
+
+// Alias Coupe Warren et argenterie romaine
+window.BACKGROUNDS_REGISTRY["coupe_warren"] = window.BACKGROUNDS_REGISTRY["argenterie_romaine_banquet_coupe_warren"];
+window.BACKGROUNDS_REGISTRY["argenterie_romaine"] = window.BACKGROUNDS_REGISTRY["argenterie_romaine_banquet_coupe_warren"];
+window.BACKGROUNDS_REGISTRY["toreutique_romaine"] = window.BACKGROUNDS_REGISTRY["argenterie_romaine_banquet_coupe_warren"];
+window.BACKGROUNDS_REGISTRY["vaisselle_argent_romaine"] = window.BACKGROUNDS_REGISTRY["argenterie_romaine_banquet_coupe_warren"];
 

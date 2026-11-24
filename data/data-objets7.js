@@ -1,5 +1,77 @@
 window.ART_OBJECTS = [
 {
+  "id": "coupe_warren_skyphos_argent_british_museum",
+  "backgroundId": "argenterie_romaine_banquet_coupe_warren",
+  "title": "La Coupe Warren (Skyphos d'argent aux scènes de banquet érotique)",
+  "artist": "Ateliers d'orfèvres et toreutes hellénistiques ou romains",
+  "artistSort": "Ateliers orfevres romains",
+  "artistId": "",
+  "year": 15,
+  "date": "Ier siècle av. J.-C. - Ier siècle apr. J.-C. (vers 15 av. J.-C. – 15 apr. J.-C.)",
+  "dateDisplay": "Ier s. av. / Ier s. apr. J.-C.",
+  "centuryNumeric": 15,
+  "centuryDisplay": "Ier siècle",
+  "period": "Ier s. av. J.-C. - Ier s. apr. J.-C.",
+  "century": "Ier siècle",
+  "culture": "Grèce hellénistique & Rome antique",
+  "civilization": "Rome antique",
+  "civId": "rome",
+  "civName": "Rome antique",
+  "periodId": "rome_haut_empire",
+  "city": "Londres",
+  "country": "Royaume-Uni",
+  "site": "Trouvée près de Jérusalem (selon Warren) ou en Italie ; ancienne collection Warren",
+  "originSite": "Rome ou Proche-Orient romain",
+  "locationType": "museum",
+  "currentLocation": "British Museum (Londres, Royaume-Uni)",
+  "domain": "parures_metaux",
+  "artifactType": "Vaisselle d'or & d'argent",
+  "medium": "Argent massif travaillé au repoussé et ciselé, double coque",
+  "category": "Vase à boire en argent (skyphos)",
+  "materials": [
+    "Argent"
+  ],
+  "dimensions": "Hauteur : 11 cm, Diamètre : 11,8 cm, Poids : 567 g",
+  "image": "https://lh3.googleusercontent.com/pw/AP1GczNMeNJhovFAdNvgMHNzz11Ng9TlLCPO-ZdRibY7nlNMFdqftFDfhrOYOX0KKdqFhLeSEbF7ux3v6oBf1gGx0RFE7DEyUpsRv5ISiHOw0Fyzh2rpJoPVBn2oaJspqnEoQX4RpuDeQbhdFBmFtH08F2AWkA=w1487-h1661-s-no-gm?authuser=0",
+  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczP4SI1aA7AD9CggC8E12BKnKbDDjUDt3_6fPO3Iu4b9pJHKc-M7XQPtPKbEI_EZaStw0fAEyxlT2Ha8N-w7YVWWTQbgv1f6SBdfmHekOmdrCrLpnVLkr-6SlCTOTtqgTQApOyNkJaaaVeA936GFseHW6Q=w1654-h702-s-no-gm?authuser=0",
+  "deptBanner": "antiquites_grecques_etrusques_romaines",
+  "chips": [
+    "Coupe Warren",
+    "Argenterie",
+    "British Museum",
+    "Repoussé"
+  ],
+  "tags": [
+    "Coupe Warren",
+    "Skyphos",
+    "Argent",
+    "Toreutique",
+    "Repoussé",
+    "British Museum",
+    "Banquet",
+    "Symposium",
+    "Érotisme",
+    "Haut-Empire",
+    "Orfèvrerie"
+  ],
+  "views": [
+    {
+      "title": "Face A : L'homme mûr barbu et l'éphèbe sur le lit de banquet",
+      "image": "https://lh3.googleusercontent.com/pw/AP1GczNMeNJhovFAdNvgMHNzz11Ng9TlLCPO-ZdRibY7nlNMFdqftFDfhrOYOX0KKdqFhLeSEbF7ux3v6oBf1gGx0RFE7DEyUpsRv5ISiHOw0Fyzh2rpJoPVBn2oaJspqnEoQX4RpuDeQbhdFBmFtH08F2AWkA=w1487-h1661-s-no-gm?authuser=0",
+      "caption": "<p><strong>Face A : L'homme mûr et l'éphèbe :</strong> Sur cette face principale de la Coupe Warren, la composition en haut-relief martelé au repoussé met en scène un homme adulte barbu, couronné d'une guirlande de laurier ou de lierre, assis sur un lit de banquet (kliné) aux riches tentures et coussins drapés. Un jeune éphèbe imberbe est assis sur ses genoux, suspendu à une sangle attachée au plafond pour faciliter le mouvement amoureux. En arrière-plan, une lourde draperie nouée par des cordons ferme l'espace intime, tandis qu'une cithare ou lyre suspendue rappelle l'ambiance poétique et musicale des banquets d'élite.</p><p>La technique du repoussé atteint ici une virtuosité stupéfiante : le modelé vigoureux des muscles, la douceur des chairs adolescentes et le drapé soyeux des tissus accrochent la lumière avec une sensualité tactile que seule l'argenterie antique de premier ordre savait produire.</p>"
+    },
+    {
+      "title": "Face B : L'adolescent et le jeune garçon",
+      "image": "https://lh3.googleusercontent.com/pw/AP1GczM0dtvtLmi84MRPWnVevC4GduMHo6fKeZvnTr6fejCVfzHeSskTChuDW7NX7po1EoFDr8fLaSsfoeW7dSN3E44S2N5TqTaXisOYMtBwacSZJtbURwQmlRZkh5IbaPMBqWItvHcsB8p_tO1ulxdXphebvA=w1214-h1435-s-no-gm?authuser=0",
+      "caption": "<p><strong>Face B : L'adolescent et le jeune garçon :</strong> Sur le revers de la coupe, la seconde scène déploie une variation sur les âges de la vie et la transmission amoureuse hellénistique. Deux jeunes garçons, l'un adolescent et l'autre plus jeune, sont enlacés sur un lit de banquet similaire. L'attention portée à la grâce juvénile, à la souplesse des membres et à la pudeur des attitudes montre que l'orfèvre s'inscrit dans la grande tradition de la sculpture et de la peinture hellénistiques d'Asie Mineure ou d'Alexandrie.</p><p>Sur la paroi d'arrière-plan, un instrument de musique à cordes et un aulos (double flûte) soulignent la dimension dionysiaque et lyrique du symposium, où la coupe en argent circulait de main en main parmi les convives aristocratiques romains, servant de catalyseur aux conversations esthétiques et philosophiques.</p>"
+    }
+  ],
+  "text": "<p>Cette exceptionnelle coupe en argent hellénistique ou romaine, datée généralement entre le Ier siècle avant notre ère et le Ier siècle de notre ère, constitue l'un des témoignages les plus précieux, fascinants et débattus de l'argenterie antique. Conservée au British Museum de Londres, l'œuvre tire son nom de son premier propriétaire moderne, le collectionneur américain Edward Perry Warren, qui l'acheta en 1911 à Rome. Longtemps reléguée dans les réserves des musées ou refusée par les institutions en raison de la nature explicitement érotique de ses décors, elle a été acquise définitivement par le British Museum en 1999, s'imposant immédiatement comme une pièce maîtresse pour l'étude des mœurs, de la sexualité et de l'art privé sous le Haut-Empire romain.</p><p>La composition de l'objet adopte la forme classique d'un skyphos, un vase à boire doté à l'origine de deux anses verticales aujourd'hui disparues, reposant sur un piédouche mouluré d'une grande finesse. L'objet est constitué de deux parois imbriquées : une coque interne lisse destinée à contenir le vin, et une paroi externe en argent massif travaillée en relief selon la technique du repoussé, reprise ensuite par ciselure. Cette méthode a permis à l'artisan d'obtenir un relief d'une profondeur et d'une plasticité remarquables, où la musculature des corps et le drapé des décors d'arrière-plan accrochent la lumière avec une sensualité qui fait écho au thème iconographique du vase.</p><p>Le décor iconographique se divise en deux scènes principales de banquet érotique, mettant en scène des relations homosexuelles masculines, largement codifiées selon les coutumes de la Grèce classique mais commanditées ici pour l'élite romaine philhellène. La face visible présente un éphèbe ou un jeune homme imberbe assis sur les genoux d'un homme plus âgé, barbu et couronné de lierre ou de laurier. Les deux figures sont installées sur un lit de banquet (kliné) recouvert de riches étoffes drapées. L'intensité des postures, le jeu des regards et la souplesse des corps témoignent d'une maîtrise anatomique parfaite et d'une grande sensibilité artistique, loin de toute intention purement caricaturale.</p><p>L'arrière-plan des scènes offre un cadre domestique raffiné qui enrichit le contexte de ce banquet privé. On distingue nettement une lourde draperie suspendue par des cordes, fermant l'espace architectural, ainsi qu'une lyre gravée sur la paroi de gauche, évoquant la musique, la poésie et les plaisirs raffinés du symposium. Sur l'autre face non visible, l'iconographie met en scène un jeune garçon et un adolescent, introduisant une variation sur le thème des âges de la vie et des rituels d'initiation amoureux grecs. L'ensemble de ces détails montre que la coupe était destinée à circuler lors des banquets de la haute société, où elle servait autant de récipient de prestige que de sujet de conversation philosophique et esthétique.</p><p>La structure générale de l'œuvre et la qualité technique du repoussé rapprochent la Coupe Warren des plus beaux trésors d'argenterie romaine découverts à Pompéi ou à Boscoreale. Le poli de l'argent, contrastant avec les zones d'ombres créées par la profondeur de la ciselure, confère aux personnages une vitalité et une présence physique extraordinaires. En combinant la virtuosité de l'orfèvrerie romaine et l'héritage culturel de la Grèce, cette pièce unique illustre à merveille le goût pour le luxe privé et l'intégration des thèmes dionysiaques et érotiques au cœur de l'art de vivre romain à l'aube du premier siècle.</p>",
+  "narrative": "<p>Cette exceptionnelle coupe en argent hellénistique ou romaine, datée généralement entre le Ier siècle avant notre ère et le Ier siècle de notre ère, constitue l'un des témoignages les plus précieux, fascinants et débattus de l'argenterie antique. Conservée au British Museum de Londres, l'œuvre tire son nom de son premier propriétaire moderne, le collectionneur américain Edward Perry Warren, qui l'acheta en 1911 à Rome. Longtemps reléguée dans les réserves des musées ou refusée par les institutions en raison de la nature explicitement érotique de ses décors, elle a été acquise définitivement par le British Museum en 1999, s'imposant immédiatement comme une pièce maîtresse pour l'étude des mœurs, de la sexualité et de l'art privé sous le Haut-Empire romain.</p><p>La composition de l'objet adopte la forme classique d'un skyphos, un vase à boire doté à l'origine de deux anses verticales aujourd'hui disparues, reposant sur un piédouche mouluré d'une grande finesse. L'objet est constitué de deux parois imbriquées : une coque interne lisse destinée à contenir le vin, et une paroi externe en argent massif travaillée en relief selon la technique du repoussé, reprise ensuite par ciselure. Cette méthode a permis à l'artisan d'obtenir un relief d'une profondeur et d'une plasticité remarquables, où la musculature des corps et le drapé des décors d'arrière-plan accrochent la lumière avec une sensualité qui fait écho au thème iconographique du vase.</p><p>Le décor iconographique se divise en deux scènes principales de banquet érotique, mettant en scène des relations homosexuelles masculines, largement codifiées selon les coutumes de la Grèce classique mais commanditées ici pour l'élite romaine philhellène. La face visible présente un éphèbe ou un jeune homme imberbe assis sur les genoux d'un homme plus âgé, barbu et couronné de lierre ou de laurier. Les deux figures sont installées sur un lit de banquet (kliné) recouvert de riches étoffes drapées. L'intensité des postures, le jeu des regards et la souplesse des corps témoignent d'une maîtrise anatomique parfaite et d'une grande sensibilité artistique, loin de toute intention purement caricaturale.</p><p>L'arrière-plan des scènes offre un cadre domestique raffiné qui enrichit le contexte de ce banquet privé. On distingue nettement une lourde draperie suspendue par des cordes, fermant l'espace architectural, ainsi qu'une lyre gravée sur la paroi de gauche, évoquant la musique, la poésie et les plaisirs raffinés du symposium. Sur l'autre face non visible, l'iconographie met en scène un jeune garçon et un adolescent, introduisant une variation sur le thème des âges de la vie et des rituels d'initiation amoureux grecs. L'ensemble de ces détails montre que la coupe était destinée à circuler lors des banquets de la haute société, où elle servait autant de récipient de prestige que de sujet de conversation philosophique et esthétique.</p><p>La structure générale de l'œuvre et la qualité technique du repoussé rapprochent la Coupe Warren des plus beaux trésors d'argenterie romaine découverts à Pompéi ou à Boscoreale. Le poli de l'argent, contrastant avec les zones d'ombres créées par la profondeur de la ciselure, confère aux personnages une vitalité et une présence physique extraordinaires. En combinant la virtuosité de l'orfèvrerie romaine et l'héritage culturel de la Grèce, cette pièce unique illustre à merveille le goût pour le luxe privé et l'intégration des thèmes dionysiaques et érotiques au cœur de l'art de vivre romain à l'aube du premier siècle.</p>",
+  "description": "Cette exceptionnelle coupe en argent (skyphos) conservée au British Museum est un chef-d'œuvre de la toreutique romaine au repoussé. Ses décors figurés illustrent deux scènes de banquet érotique et célèbrent le luxe privé du Haut-Empire...",
+  "desc": "Cette exceptionnelle coupe en argent (skyphos) conservée au British Museum est un chef-d'œuvre de la toreutique romaine au repoussé. Ses décors figurés illustrent deux scènes de banquet érotique et célèbrent le luxe privé du Haut-Empire..."
+},
+{
   "id": "monnaies_follis_bronze_constance_constantin_lugo",
   "backgroundId": "monnaie_romaine_follis_bas_empire",
   "title": "Série de follis en bronze des empereurs Constance II et Constantin II (Lucus Augusti, Lugo)",
