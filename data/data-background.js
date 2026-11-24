@@ -5303,7 +5303,390 @@ window.BACKGROUNDS_REGISTRY = {
       "merida"
     ],
     "text": "<p>Au sein de la société romaine, la maison de ville aristocratique (la <em>domus</em>) ne constituait pas seulement un refuge intime pour la famille (la <em>familia</em>), mais un instrument capital de représentation sociale, d'influence politique et de mise en scène du statut civique du propriétaire (le <em>pater familias</em>).</p><p>Organisée le long d'un axe rigoureux reliant le vestibule d'entrée à l'atrium central avec son impluvium recueillant l'eau de pluie, puis au bureau du maître (le <em>tablinum</em>) et au péristyle verdoyant entouré de salles de banquet (les <em>triclinia</em>), la demeure romaine guidait le regard et la circulation des visiteurs selon une hiérarchie millimétrée. Dès le seuil de la porte, le visiteur était accueilli par des formules de bienvenue (<em>Salve</em>) ou des avertissements prophylactiques tels que le célèbre <em>Cave Canem</em> de Pompéi.</p><p>Le décor des sols jouait un rôle architectural décisif : les artisans mosaïstes concevaient de véritables tapis minéraux en <em>opus tessellatum</em> où l'ordre géométrique des tresses, des svastikas, des labyrinthes et des fleurs de vie délimitait les aires de repos, soulignait l'emplacement des lits de table du triclinium et créait des perspectives optiques monumentales. Résistants à l'usure du temps et aux rigueurs de l'entretien, ces pavements demeurent aujourd'hui le témoignage le plus vivant de l'art d'habiter et du goût esthétique de l'élite impériale romaine.</p>"
+  },
+  "astronomie_sphere_armillaire_antiquite": {
+    "id": "astronomie_sphere_armillaire_antiquite",
+    "title": "L'astronomie antique et la représentation de la sphère armillaire",
+    "subtitle": "La modélisation géocentrique du cosmos et la géométrie des sphères dans la science hellénistique et romaine",
+    "date": "IIIe s. av. J.-C. - IIe s. apr. J.-C.",
+    "period": "Grèce hellénistique & République romaine",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "astronomie",
+      "sphère armillaire",
+      "science hellénistique",
+      "géométrie",
+      "cosmologie",
+      "écliptique",
+      "empuries"
+    ],
+    "text": "<p>Dans le monde gréco-romain, l'astronomie représentait le sommet des sciences mathématiques, alliant géométrie spéculative, mécanique de précision et philosophie cosmologique. Dès le IIIe siècle avant notre ère, des savants grecs tels qu'Ératosthène, Archimède et Hipparque conçurent les premiers modèles tridimensionnels de l'univers sous la forme de sphères armillaires : un ensemble d'anneaux métalliques ou de bois imbriqués matérialisant l'équateur céleste, les méridiens, les cercles polaires et la bande zodiacale de l'écliptique, au centre desquels trônait la Terre immobile.</p><p>Ces instruments scientifiques servaient à la fois d'outils d'observation astronomique, de calculateurs calendaires et de supports d'enseignement pour expliquer les solstices, les équinoxes et la précession des astres. Leur prestige était tel que les sphères armillaires et les globes célestes figuraient fréquemment dans l'iconographie triomphale, symbolisant la maîtrise de l'ordre cosmique par l'intelligence humaine et, sous l'Empire, l'autorité universelle exercée par Rome sur le globe terrestre.</p><p>La découverte sur le site d'Empúries (Catalogne) d'une mosaïque de pavement républicaine figurant avec exactitude une sphère armillaire constitue un témoignage archéologique exceptionnel. Elle illustre comment les élites provinciales romanisées aimaient exposer leur savoir scientifique (<em>paideia</em>) au cœur même de leurs espaces de réception, transformant le sol de leur demeure en une célébration de la mécanique céleste et de l'harmonie du cosmos.</p>"
+  },
+  "calendrier_saisons_mois_afrique_romaine": {
+    "id": "calendrier_saisons_mois_afrique_romaine",
+    "title": "Le calendrier rustique et le cycle des Quatre Saisons dans l'Afrique romaine",
+    "subtitle": "La célébration de la fertilité agraire, des travaux des mois et du temps cosmique",
+    "date": "IIe - IVe siècle apr. J.-C.",
+    "period": "Haut et Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "calendrier",
+      "saisons",
+      "mois",
+      "agriculture",
+      "afrique romaine",
+      "sousse",
+      "volubilis",
+      "el jem",
+      "vendanges"
+    ],
+    "text": "<p>Dans les riches provinces d'Afrique proconsulaire, de Numidie et de Maurétanie, considérées comme le grenier à blé et à huile de l'Empire romain, le culte de la terre et la maîtrise du temps saisonnier constituaient le fondement de la prospérité économique et du statut social des grands propriétaires fonciers. L'art de la mosaïque a magnifié ce lien vital à travers de spectaculaires pavements dédiés au calendrier rustique, aux travaux des champs et à la personnification des Quatre Saisons.</p><p>Chaque saison y est figurée avec ses attributs canoniques : le Printemps couronné de roses et tenant un panier fleuri, l'Été armé d'une faucille parmi des épis dorés, l'Automne célébrant la cueillette des fruits, les vendanges et le pressurage du raisin sous la protection de Bacchus, et l'Hiver emmitouflé dans une saie chaude, chassant les oiseaux au gluau. Les calendriers plus détaillés, comme celui d'Hadrumetum (Sousse), décomposent l'année en douze panneaux consacrés aux rites religieux, aux travaux champêtres et aux festivités civiques mensuelles.</p><p>Ces compositions allégoriques dépassaient la simple vocation décorative : elles affirmaient l'harmonie entre l'ordre de la nature et la paix impériale (<em>Pax Romana</em>). En ornant le sol de leurs salles de banquet (<em>oeci</em> et <em>triclinia</em>) de ces cycles temporels, les élites d'Afrique et de Maurétanie plaçaient leurs domaines sous le patronage bienveillant des divinités de l'abondance (<em>Annona</em>, <em>Cérès</em>, <em>Flore</em>), célébrant la régularité bienfaisante des récoltes qui nourrissaient Rome.</p>"
+  },
+  "chasse_a_courre_villa_conimbriga": {
+    "id": "chasse_a_courre_villa_conimbriga",
+    "title": "La chasse aristocratique et les pavements cynégétiques de Lusitanie",
+    "subtitle": "La grande vénerie, les meutes de chiens et l'affirmation du prestige nobiliaire dans les villas de Conimbriga et Mérida",
+    "date": "IIIe - IVe siècle apr. J.-C.",
+    "period": "Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "chasse",
+      "lusitanie",
+      "conimbriga",
+      "merida",
+      "sanglier",
+      "chiens courants",
+      "cynégétique",
+      "cavaliers"
+    ],
+    "text": "<p>Durant l'Antiquité tardive, la chasse à courre (<em>venatio</em> rustique) constituait pour l'aristocratie sénatoriale et municipale d'Hispanie et de Lusitanie bien plus qu'un simple passe-temps : elle était un véritable substitut aux vertus guerrières traditionnelles, une démonstration de bravoure (<em>virtus</em>) et le signe par excellence du grand propriétaire régnant sur ses vastes domaines ruraux.</p><p>Dans les somptueuses résidences de Conimbriga, comme la Maison des Jets d'eau, et les grandes domus d'Augusta Emerita (Mérida), les pavements de mosaïque déploient des cycles cynégétiques d'un dynamisme extraordinaire. Les cavaliers armés d'épieux et accompagnés de rabatteurs à pied y traquent sangliers furieux, cerfs véloces et lièvres au milieu de paysages arborés. Les chiens de chasse, héros indispensables de la poursuite, sont si fidèlement individualisés que leurs noms propres (tels qu'<em>Hestas</em> ou <em>Saturnus</em>) sont parfois inscrits en tesselles au-dessus de leur silhouette élancée.</p><p>Ces scènes narratives complexes illustrent toutes les phases de l'entreprise cynégétique : le départ de la troupe avec les serviteurs conduisant les montures par la bride, l'encerclement du gibier rabattu vers de grands filets suspendus aux branchages, le corps-à-corps périlleux avec le sanglier aux abois et, enfin, le joyeux retour au domaine où la bête liée est portée en triomphe sur un brancard par deux piqueurs. Ces pavements immortalisaient la domination du maître sur la nature sauvage et son hospitalité généreuse lors des festins de gibier.</p>"
+  },
+  "chouette_invidia_rumpuntur_aves_el_jem": {
+    "id": "chouette_invidia_rumpuntur_aves_el_jem",
+    "title": "La Chouette et les oiseaux jaloux : l'emblème apotropaïque d'El Jem",
+    "subtitle": "Magie protectrice, détournement du mauvais œil et triomphe sur l'Invidia dans l'Afrique romaine",
+    "date": "IIIe siècle apr. J.-C.",
+    "period": "Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "chouette",
+      "invidia",
+      "el jem",
+      "thysdrus",
+      "apotropaïque",
+      "mauvais oeil",
+      "magie",
+      "inscriptions"
+    ],
+    "text": "<p>Dans le monde romain, la peur de l'<em>Invidia</em> (la jalousie malveillante, le regard destructeur ou le mauvais œil) était omniprésente dans toutes les couches de la société, particulièrement au sein de l'élite commerçante et municipale dont la fortune pouvait susciter rancœur et convoitise. Pour conjurer ces forces néfastes, les propriétaires plaçaient à l'entrée de leurs demeures ou sur les pavements de réception des symboles apotropaïques puissants accompagnés d'inscriptions votives destinées à retourner la jalousie contre celui qui l'éprouvait.</p><p>L'un des chefs-d'œuvre les plus célèbres et les plus fascinants de cette tradition magico-religieuse est la mosaïque découverte à Thysdrus (El Jem, Tunisie), proclamant en lettres capitales : <em>INVIDIA RUMPUNTUR AVES</em> (« Les oiseaux crèvent de jalousie »). Au centre de la composition se dresse fièrement une chouette impassible, oiseau nocturne réputé pour sa vue perçante et son pouvoir d'ensorcellement. Autour d'elle, une nuée d'oiseaux diurnes attirés par sa présence s'agitent, tombent à la renverse ou s'effondrent raides morts, incapables de soutenir son regard souverain.</p><p>Cette allégorie visuelle percutante fonctionnait comme un talisman protecteur pour le maître de la maison : de même que les petits volatiles périssent d'épuisement et de fureur impuissante devant la chouette intouchable, de même les rivaux jaloux et les ennemis du propriétaire devaient être anéantis par leur propre venin. L'œuvre témoigne de la vigueur des croyances populaires et de l'humour caustique qui imprégnaient l'art du pavement dans l'Afrique romaine.</p>"
+  },
+  "course_chars_villa_bell_lloc": {
+    "id": "course_chars_villa_bell_lloc",
+    "title": "La course de quadriges du Cirque de la Villa de Bell-lloc",
+    "subtitle": "La restitution monumentale des jeux du Cirque et la passion des factions en Catalogne romaine",
+    "date": "IVe siècle apr. J.-C.",
+    "period": "Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "course de chars",
+      "cirque",
+      "bell-lloc",
+      "gerone",
+      "barcelone",
+      "quadriges",
+      "factions",
+      "naufragium"
+    ],
+    "text": "<p>Mise au jour à la fin du XIXe siècle dans la villa romaine de Bell-lloc del Pla (près de Gérone) et aujourd'hui conservée au Musée d'archéologie de Catalogne à Barcelone, cette mosaïque monumentale constitue l'une des représentations les plus complètes et les plus vivantes des courses de chars jamais découvertes dans le monde occidental romain.</p><p>Le pavement reproduit fidèlement la topographie d'un grand cirque romain, avec sa piste sablonneuse (<em>arena</em>) divisée en deux par la longue dorsale centrale (la <em>spina</em>). Cette dernière est ornée de tous ses édifices rituels et techniques : les bornes coniques tournantes (les <em>metae</em>), les bassins d'eau, les obélisques et le mécanisme des dauphins servant de compte-tours pour chaque boucle accomplie. Sur la piste s'affrontent les quatre factions officielles du cirque — les Rouges (<em>Russati</em>), les Blancs (<em>Albati</em>), les Bleus (<em>Veneti</em>) et les Verts (<em>Prasini</em>) —, reconnaissables à la couleur de la tunique portée par leurs auriges respectifs.</p><p>La composition saisit avec un réalisme saisissant l'intensité dramatique de la compétition : l'envol des chevaux au galop, la tension des rênes enroulées autour de la taille des cochers et, au premier plan, le redoutable <em>naufragium</em> (l'accident spectaculaire où un char se brise contre la borne, projetant ses coursiers et son conducteur au sol). Ce chef-d'œuvre témoigne de la passion dévorante que les jeux du cirque suscitaient dans l'Hispanie tardive, où les grands propriétaires aimaient s'identifier aux mécènes et édiles offrant le spectacle au peuple.</p>"
+  },
+  "courses_de_chars_cirque_maxime": {
+    "id": "courses_de_chars_cirque_maxime",
+    "title": "Les courses de chars et les factions du Cirque dans l'Empire romain",
+    "subtitle": "L'engouement universel pour les ludi circenses, les grands auriges et l'architecture des arènes",
+    "date": "Ier av. J.-C. - IVe apr. J.-C.",
+    "period": "Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "cirque",
+      "courses de chars",
+      "aurige",
+      "cirque maxime",
+      "factions",
+      "quadrige",
+      "casale",
+      "merida",
+      "piazza armerina"
+    ],
+    "text": "<p>Les courses de chars (<em>ludi circenses</em>) constituaient sans conteste le spectacle le plus populaire, le plus passionné et le plus fédérateur de la civilisation romaine. Organisées dans des édifices colossaux comme le Cirque Maxime de Rome — capable d'accueillir plus de 150 000 spectateurs déchaînés —, ces épreuves mettaient en compétition quatre grandes écuries ou factions : les Rouges, les Blancs, les Verts et les Bleus, chacune disposant de ses propres réseaux de supporters fanatiques, de ses éleveurs de haras et de ses célèbres champions.</p><p>Les auriges, souvent d'anciens esclaves devenus des idoles publiques adulées et immensément riches (tels Dioclès ou, en Lusitanie, le fameux <em>Paulus</em> acclamé par le cri <em>Paulus Nica !</em>), conduisaient des attelages de deux chevaux (biges) ou, plus noblement, de quatre chevaux (quadriges). Lancés à pleine vitesse autour de la <em>spina</em>, ils devaient négocier à la corde les virages extrêmement serrés des <em>metae</em>, où se jouaient les victoires héroïques ou les naufrages sanglants au milieu des cris de la foule.</p><p>Dans les provinces de tout l'Empire, de la Sicile (Villa del Casale à Piazza Armerina) à l'Hispanie (Mérida, Barcelone) et à l'Afrique du Nord, les mosaïstes ont immortalisé ces courses épiques sur les pavements des villas patriciennes et des édifices thermaux. Ces décors rappelaient les générosités évergétiques des maîtres de maison qui finançaient les jeux municipaux et conféraient à leurs demeures l'aura d'une arène victorieuse baignée de gloire et d'énergie vitale.</p>"
+  },
+  "dedale_pasiphae_lugo": {
+    "id": "dedale_pasiphae_lugo",
+    "title": "Dédale et Pasiphaé dans la mosaïque de Lucus Augusti (Lugo)",
+    "subtitle": "La transmission du mythe crétois de la génisse de bois et le raffinement pictural en Gallaecia romaine",
+    "date": "IIIe siècle apr. J.-C.",
+    "period": "Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "dédale",
+      "pasiphaé",
+      "lugo",
+      "lucus augusti",
+      "gallaecia",
+      "crète",
+      "minotaure",
+      "labyrinthe",
+      "mythologie"
+    ],
+    "text": "<p>Découvert en 1986 dans la rúa Armañá à Lugo (l'antique <em>Lucus Augusti</em>, capitale juridique de la Gallaecia romaine), l'emblema de Dédale et Pasiphaé constitue l'un des rares témoignages figuratifs de ce mythe crétois sur les pavements de mosaïque de la péninsule Ibérique, révélant la profonde imprégnation de la culture classique dans le nord-ouest de l'Empire.</p><p>L'épisode relate le prodige technique et tragique rapporté par Apollodore et Ovide : Pasiphaé, l'épouse du roi Minos frappée par Poséidon d'une passion irrésistible pour un taureau blanc, obtint de l'inventeur athénien Dédale qu'il fabrique une génisse creuse en bois recouverte de peaux naturelles pour lui permettre de consommer son union. De cet accouplement monstrueux naîtra le Minotaure, qui conduira ensuite Dédale à concevoir le Labyrinthe de Cnossos pour y enfermer la créature.</p><p>L'artisan mosaïste de Lugo a exécuté cette scène avec une remarquable économie de moyens et une grande finesse en <em>opus vermiculatum</em>, contrastant l'allure digne et drapée de la reine avec l'attitude industrieuse de Dédale penché sur son œuvre. Insérée au centre d'un vaste pavement géométrique alternant rosaces à quatre-feuilles et motifs marins (dont un poulpe sinueux), cette œuvre démontre que les élites provinciales de Lucus Augusti partageaient les mêmes goûts littéraires et théâtraux que l'aristocratie romaine de la capitale.</p>"
+  },
+  "desultor_voltige_equestre_volubilis": {
+    "id": "desultor_voltige_equestre_volubilis",
+    "title": "Le Desultor et la voltige équestre à Volubilis",
+    "subtitle": "L'art de l'équitation acrobatique et les jeux du cirque en Maurétanie tingitane",
+    "date": "IIe siècle apr. J.-C.",
+    "period": "Haut-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "désultor",
+      "desultor",
+      "volubilis",
+      "maroc",
+      "voltige équestre",
+      "cheval",
+      "cirque",
+      "acrobate"
+    ],
+    "text": "<p>Dans l'Antiquité romaine, le <em>desultor</em> désignait un cavalier acrobate exceptionnellement agile, capable de sauter d'un cheval à un autre en plein galop lors des jeux du cirque ou des manœuvres de cavalerie militaire. Cet exercice de voltige spectaculaire, hérité de traditions numides et grecques hellénistiques, suscitait l'admiration enthousiaste des spectateurs pour l'équilibre parfait et la symbiose entre l'homme et l'animal.</p><p>À Volubilis, cité florissante de Maurétanie tingitane (Maroc actuel), l'une des plus élégantes demeures de la ville — la « Maison au Désultor » — tire précisément son nom du superbe pavement de mosaïque figurant un tel cavalier voltigeur. Monté à cru sur son cheval lancé à vive allure, le personnage est représenté dans une posture d'une audace remarquable, tenant parfois les rênes d'une seule main ou s'apprêtant à basculer vers une seconde monture.</p><p>La présence d'un tel sujet au cœur d'une domus privée souligne l'importance des chevaux et de l'élevage équin en Afrique du Nord, région réputée dans tout le monde méditerranéen pour la vélocité et l'endurance de ses coursiers barbes, très prisés pour les courses de chars de Rome. Ce pavement célébrait ainsi le goût du maître de maison pour les divertissements sportifs d'élite et les prouesses équestres de son temps.</p>"
+  },
+  "diane_et_acteon_chasseur": {
+    "id": "diane_et_acteon_chasseur",
+    "title": "Diane et Actéon : la métamorphose et la transgression du chasseur",
+    "subtitle": "Le mythe ovidien du bain sacré, de la vision interdite et du châtiment des dieux",
+    "date": "Antiquité gréco-romaine",
+    "period": "Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "diane",
+      "artémis",
+      "acteon",
+      "métamorphose",
+      "ovide",
+      "cerf",
+      "bain",
+      "volubilis",
+      "chasse"
+    ],
+    "text": "<p>Le drame d'Actéon, immortalisé au livre III des <em>Métamorphoses</em> d'Ovide, constitue l'une des fables les plus sombres et les plus fascinantes de la mythologie classique sur la vulnérabilité humaine face à la jalousie et à la sainteté des dieux. Jeune prince thébain et chasseur émérite, Actéon s'aventure au cœur de la vallée ombragée de Gargaphie lorsqu'il surprend fortuitement Diane (Artémis), la déesse chasseresse et vierge, en train de se baigner nue dans une source limpide entourée de ses nymphes.</p><p>Furieuse d'avoir été vue dans son intimité divine par un mortel et ne pouvant saisir immédiatement son arc, la déesse puise de l'eau dans le ruisseau et en asperge le visage du chasseur, lui lançant cette imprécation : « Maintenant, va raconter que tu m'as vue sans voile, si tu le peux ! ». Aussitôt, le corps d'Actéon subit une effroyable métamorphose : son cou s'étire, des bois ramifiés jaillissent de son front, sa peau se couvre d'un pelage tacheté et ses pieds se changent en sabots de cerf. Pris de panique, il s'enfuit mais ne peut plus proférer une parole humaine.</p><p>Le dénouement tragique s'accomplit lorsque ses propres chiens de meute, dressés par lui-même à la traque et incapables de reconnaître leur maître sous les traits du cerf, se jettent sur lui et le dépècent sous les encouragements de ses compagnons de chasse. Sur les mosaïques romaines, notamment à la Maison de Vénus de Volubilis, ce mythe puissant était souvent figuré au moment où les premiers bois percent le crâne d'Actéon, rappelant aux spectateurs les limites infranchissables qui séparent le domaine des hommes de la majesté redoutable des divinités de la nature.</p>"
+  },
+  "faune_marine_poissons_merida": {
+    "id": "faune_marine_poissons_merida",
+    "title": "La faune marine et les pavements aux poissons d'Augusta Emerita (Mérida)",
+    "subtitle": "La célébration des trésors de l'Océan et des fleuves dans la capitale de Lusitanie",
+    "date": "IIIe - IVe siècle apr. J.-C.",
+    "period": "Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "poissons",
+      "faune marine",
+      "merida",
+      "augusta emerita",
+      "nid d'abeille",
+      "felix baritto",
+      "alvéoles",
+      "lusitanie"
+    ],
+    "text": "<p>Bien qu'Augusta Emerita (Mérida) soit située à l'intérieur des terres sur les rives du fleuve Guadiana (l'antique <em>Anas</em>), la capitale provinciale de Lusitanie développa une remarquable tradition de pavements de mosaïque consacrés au monde aquatique, à la faune marine et à la richesse des pêches océaniques et fluviales.</p><p>Dans les somptueuses demeures urbaines comme la Maison de l'Amphithéâtre, les artisans mosaïstes ont composé de spectaculaires tapis minéraux en nid d'abeille ou réseaux alvéolés, où chaque compartiment polygonal abrite une espèce de poisson ou de crustacé minutieusement individualisée : mérous, daurades, murènes, rougets, calamars, seiches et homards y sont rendus avec une rigueur anatomique et une richesse de nuances chromatiques dignes d'un traité d'ichtyologie antique.</p><p>Certaines pièces portent même la signature fière de leurs créateurs, tel le médaillon circulaire signé par le maître <em>Felix Baritto</em>, attestant la renommée dont jouissaient ces ateliers spécialisés. Dans le contexte des banquets et des réceptions d'apparat, ces pavements marins évoquaient l'abondance gastronomique, le luxe des mets raffinés venus de l'Océan et la puissance pacificatrice de Rome qui connectait les fleuves d'Hispanie aux grandes routes maritimes de la Méditerranée.</p>"
+  },
+  "hylas_et_les_nymphes": {
+    "id": "hylas_et_les_nymphes",
+    "title": "L'enlèvement d'Hylas par les Nymphes de la fontaine",
+    "subtitle": "La beauté fatale du jeune compagnon d'Héraclès et le piège des eaux sacrées",
+    "date": "Antiquité gréco-romaine",
+    "period": "Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "hylas",
+      "nymphes",
+      "héraclès",
+      "argonautes",
+      "fontaine",
+      "volubilis",
+      "mythologie",
+      "beauté"
+    ],
+    "text": "<p>L'épisode d'Hylas, conté par Théocrite et Apollonios de Rhodes dans les <em>Argonautiques</em>, constitue l'un des mythes les plus poétiques et mélancoliques de l'épopée grecque. Fils du roi des Dryopes et jeune écuyer bien-aimé d'Héraclès (Hercule), Hylas accompagnait les Argonautes à bord de la nef Argo lors de leur quête de la Toison d'or. Lors d'une escale sur les côtes de Mysie, le jeune homme est envoyé dans les bois pour puiser de l'eau fraîche destinée au banquet du soir.</p><p>Arrivé au bord de la source de Pégée, nichée au milieu de prairies humides de violettes et d'ache sauvage, Hylas plonge son urne de bronze dans l'eau limpide. Séduites par sa beauté éclatante et la grâce de ses traits que reflète l'onde au crépuscule, les nymphes de la fontaine s'émerveillent de sa vue. Alors qu'il se penche pour recueillir l'eau, l'une d'elles entoure son cou de son bras et l'entraîne doucement mais irrésistiblement dans les profondeurs silencieuses de la source.</p><p>Entendant son cri étouffé, Héraclès cherchera son jeune compagnon en vain à travers les forêts pendant des jours, criant trois fois le nom d'Hylas auquel ne répondra que l'écho caverneux des rives. Sur la célèbre mosaïque de la Maison de Vénus à Volubilis (Maroc), la scène est dépeinte avec une sensibilité chromatique raffinée : l'urne penchée, les corps sinueux des nymphes émergeant des flots et le regard captif d'Hylas composent une allégorie poignante sur la séduction des beautés aquatiques et le passage mystique vers l'au-delà.</p>"
+  },
+  "sacrifice_iphigenie_agamemnon": {
+    "id": "sacrifice_iphigenie_agamemnon",
+    "title": "Le sacrifice d'Iphigénie à Aulis",
+    "subtitle": "Le dilemme tragique d'Agamemnon, la colère d'Artémis et l'épopée de Troie",
+    "date": "Ier siècle av. J.-C.",
+    "period": "Grèce hellénistique & République romaine",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "iphigénie",
+      "agamemnon",
+      "aulis",
+      "sacrifice",
+      "troie",
+      "artémis",
+      "empuries",
+      "tragédie",
+      "timanthe"
+    ],
+    "text": "<p>Le sacrifice d'Iphigénie constitue le nœud dramatique et moral qui ouvre l'épopée de la guerre de Troie. Rassemblée dans le port béotien d'Aulis, l'immense flotte des rois achéens se trouve immobilisée par une absence totale de vent (ou des tempêtes contraires) envoyée par la déesse Artémis, irritée qu'Agamemnon ait tué une biche sacrée dans son bois sacré. L'oracle du devin Calchas révèle l'exigence impitoyable de la divinité : les vents ne se lèveront que si le roi de Mycènes sacrifie sa propre fille aînée, Iphigénie, sur l'autel d'Aulis.</p><p>Attirée sous le faux prétexte d'un mariage prestigieux avec le héros Achille, la jeune princesse découvre la terrible vérité. Dans les tragédies d'Euripide, après l'effroi initial, Iphigénie accepte noblement son destin pour la gloire de la Grèce. Au moment crucial où le fer va s'abattre, la déesse prise de pitié substitue miraculeusement une biche à la jeune fille et enlève Iphigénie dans les nuées pour en faire sa prêtresse en Tauride.</p><p>Ce sujet fut immortalisé au IVe siècle av. J.-C. par le célèbre peintre grec Timanthe de Cythnos, dont le tableau fit l'admiration de l'Antiquité parce qu'ayant épuisé toutes les expressions de douleur sur les visages de Calchas et d'Ulysse, il avait voilé la tête d'Agamemnon, laissant à l'imagination du spectateur l'indicible déchirement d'un père. La remarquable mosaïque en <em>opus vermiculatum</em> découverte à Empúries (Catalogne) dérive directement de cette tradition picturale classique, apportant sur le sol d'une domus hispanique toute la profondeur de la tragédie grecque.</p>"
+  },
+  "salle_des_dix_jeunes_filles_casale": {
+    "id": "salle_des_dix_jeunes_filles_casale",
+    "title": "La Salle des Dix Jeunes Filles (les « filles en bikini ») de Piazza Armerina",
+    "subtitle": "La culture physique féminine, les concours athlétiques et le triomphe sportif dans l'Antiquité tardive",
+    "date": "Début du IVe siècle apr. J.-C.",
+    "period": "Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "filles en bikini",
+      "piazza armerina",
+      "casale",
+      "sport féminin",
+      "subligaculum",
+      "strophium",
+      "athlètes",
+      "palme"
+    ],
+    "text": "<p>La mosaïque de la <em>Sala delle Dieci Ragazze</em> (la Salle des Dix Jeunes Filles) de la Villa romaine du Casale à Piazza Armerina (Sicile) compte parmi les monuments les plus célèbres, les plus spectaculaires et les plus commentés de tout l'art romain tardif. Posé au début du IVe siècle apr. J.-C. par-dessus un décor géométrique antérieur, ce pavement figuratif déploie sur deux registres superposés dix jeunes femmes de l'aristocratie ou de la cour engagées dans des épreuves d'entraînement physique et de gymnastique compétitive.</p><p>Leur tenue athlétique deux pièces — composée d'une brassière pectorale (le <em>strophium</em> ou <em>fascia pectoralis</em>) et d'une culotte de toile serrée (le <em>subligaculum</em>) — présente une ressemblance saisissante avec le bikini moderne. Loin d'être un costume de baignade, cette parure fonctionnelle était spécialement conçue pour offrir une liberté de mouvement maximale lors des exercices du gymnase privé : course à pied, lancer du disque, maniement des haltères de musculation (<em>halteres</em>) et jeu de balle polychrome cousue de cuir (la <em>pila</em>).</p><p>Le cycle culmine avec la scène de remise des prix : vêtue d'une toge d'apparat, une jeune femme dépose une couronne de laurier dorée sur la tête de la lauréate, qui brandit fièrement dans sa main gauche la palme verte de la victoire (<em>palma</em>) tandis qu'une autre concurrente fait tourner un cerceau métallique. Alliant la rigueur du dessin anatomique au charme gracieux des silhouettes, cette œuvre magistrale classée au patrimoine mondial de l'UNESCO offre un témoignage inestimable sur l'émancipation corporelle et l'idéal de santé (<em>mens sana in corpore sano</em>) partagé par les femmes de la haute société romaine tardive.</p>"
+  },
+  "thermes_romains_barcino_barcelone": {
+    "id": "thermes_romains_barcino_barcelone",
+    "title": "Les thermes romains de Barcino et la culture du corps en Catalogne",
+    "subtitle": "Hygiène, convivialité civique et décors de mosaïque dans les bains publics de Barcelone",
+    "date": "Ier - IVe siècle apr. J.-C.",
+    "period": "Haut et Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "thermes",
+      "barcino",
+      "barcelone",
+      "sant miquel",
+      "athlète",
+      "bains romains",
+      "strigile",
+      "catalogne"
+    ],
+    "text": "<p>Dans l'antique cité romaine de <em>Barcino</em> (Barcelone), fondée sous le règne de l'empereur Auguste, les établissements thermaux occupaient une place prépondérante dans l'urbanisme et le mode de vie des citoyens. Véritables cœurs battants de la convivialité urbaine, les bains publics — notamment ceux découverts sous la place Sant Miquel et dans le quartier du port — offraient un parcours complet de soins corporels, d'exercices physiques et de sociabilité intellectuelle.</p><p>Les baigneurs y progressaient à travers des salles chauffées par hypocauste selon une gradation thermique savamment étudiée : des vestiaires (<em>apodyteria</em>) aux bassins d'eau tiède (<em>tepidarium</em>), d'eau chaude (<em>caldarium</em>) et d'eau glacée (<em>frigidarium</em>). Des serviteurs et des esclaves massaient les corps avec des huiles parfumées avant de racler la sueur et les impuretés à l'aide d'un strigile métallique, une pratique essentielle à l'hygiène antique.</p><p>Les pavements de mosaïque de ces thermes reflétaient naturellement les bienfaits de l'eau et de la vigueur physique. Figures d'athlètes en pagne tenant leur linge ou leur flacon d'huile, créatures marines fantastiques et animaux vigoureux (tels que l'ours brun bondissant) rappelaient la vitalité du corps entretenu par le bain et la gymnastique. Ces fragments conservés au Musée d'archéologie de Catalogne témoignent du degré de raffinement civique atteint par la cité de Barcelone sous l'Empire romain.</p>"
+  },
+  "trois_graces_charites": {
+    "id": "trois_graces_charites",
+    "title": "Les Trois Grâces (les Charites) dans l'art antique",
+    "subtitle": "La beauté tripartite, l'harmonie des dons et la chorégraphie sacrée de l'amitié",
+    "date": "IIIe s. av. J.-C. - IVe s. apr. J.-C.",
+    "period": "Empire gréco-romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "trois grâces",
+      "charites",
+      "barcelone",
+      "barcino",
+      "aglaé",
+      "euphrosyne",
+      "thalie",
+      "beauté",
+      "nu"
+    ],
+    "text": "<p>Filles de Zeus et de l'Océanide Eurynomé (ou d'Aphrodite), les Trois Grâces — nommées Aglaé (la Splendeur), Euphrosyne (la Joie de vivre) et Thalie (l'Abondance florissante) — personnifiaient dans le panthéon gréco-romain tout ce qui rend la vie humaine aimable, harmonieuse et douce : la beauté corporelle, l'élégance morale, la concorde civique et la réciprocité des bienfaits.</p><p>Dans la sculpture et la peinture hellénistiques puis romaines, leur représentation s'est figée dans un schéma canonique d'une prodigieuse fortune plastique : trois jeunes femmes nues ou légèrement drapées se tiennent par les épaules ou les mains dans une ronde circulaire intime ; celle du milieu tourne le dos au spectateur tandis que ses deux compagnes lui font face. Les philosophes antiques, notamment Sénèque dans son traité <em>Des Bienfaits</em> (<em>De Beneficiis</em>), y voyaient le symbole parfait de la générosité mutuelle : un don reçu engendre deux bienfaits rendus dans une ronde perpétuelle d'amitié.</p><p>La mosaïque des Trois Grâces découverte à Barcelone (sur le site de l'ancien couvent de l'Ensenyança) témoigne de l'immense faveur dont jouissait ce groupe allégorique dans l'Hispanie tardive. Placée au cœur d'une domus aristocratique de Barcino, elle accueillait les convives en célébrant la grâce, la gaieté des banquets et l'harmonie spirituelle sous l'égide de Vénus et des muses.</p>"
+  },
+  "villa_des_jets_d_eau_conimbriga": {
+    "id": "villa_des_jets_d_eau_conimbriga",
+    "title": "La Maison des Jets d'eau et les demeures aristocratiques de Conimbriga",
+    "subtitle": "L'apogée du décor hydraulique et des pavements de mosaïque en Lusitanie",
+    "date": "IIe - IIIe siècle apr. J.-C.",
+    "period": "Haut et Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "conimbriga",
+      "jets d'eau",
+      "casa dos repuxos",
+      "lusitanie",
+      "portugal",
+      "labyrinthe",
+      "péristyle",
+      "hydraulique"
+    ],
+    "text": "<p>Située au cœur de la Lusitanie romaine (près de Coimbra au Portugal), la cité de Conimbriga abrite l'un des ensembles archéologiques les plus remarquables de la péninsule Ibérique, célèbre pour l'exceptionnelle conservation de ses luxueuses demeures aristocratiques et la somptuosité de leurs pavements de mosaïque.</p><p>Le joyau du site est incontestablement la <em>Casa dos Repuxos</em> (la Maison des Jets d'eau), une immense résidence urbaine érigée à la fin du IIe siècle et agrandie au IIIe siècle. Son péristyle central abrite un jardin intérieur doté d'un dispositif hydraulique sophistiqué de plus de cinq cents tuyères de plomb, capables de faire jaillir des rideaux d'eau rafraîchissants au milieu d'un tapis ininterrompu de mosaïques polychromes. Autour du jardin, les galeries et les salles de réception déploient une vertigineuse variété de compositions géométriques : labyrinthes à svastikas, damiers de peltes, tresses à double brin et fleurs de vie.</p><p>À cette richesse abstraite s'ajoutent des panneaux figuratifs d'une haute valeur narrative, consacrés aux Quatre Saisons, aux chasses au sanglier et aux mythes fondateurs comme la défaite du Minotaure dans le Labyrinthe. Ces pavements in situ témoignent du niveau de vie exceptionnel et du raffinement culturel de l'élite hispano-romaine de Lusitanie, capable de transformer l'architecture domestique en une féerie visuelle et sonore mêlant la pierre, l'eau et le mythe.</p>"
+  },
+  "villa_romaine_du_casale_piazza_armerina": {
+    "id": "villa_romaine_du_casale_piazza_armerina",
+    "title": "La Villa romaine du Casale à Piazza Armerina",
+    "subtitle": "Le plus vaste et le plus spectaculaire ensemble de mosaïques in situ du monde romain tardif",
+    "date": "Début du IVe siècle apr. J.-C.",
+    "period": "Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "piazza armerina",
+      "casale",
+      "villa romaine",
+      "sicile",
+      "grande chasse",
+      "unesco",
+      "mosaïque romaine",
+      "afrique proconsulaire"
+    ],
+    "text": "<p>Nichée dans les collines verdoyantes du centre de la Sicile, près de la ville moderne de Piazza Armerina, la Villa romaine du Casale constitue l'un des sommets absolus du patrimoine archéologique mondial, inscrit au patrimoine mondial de l'UNESCO. Érigée au tout début du IVe siècle apr. J.-C. — probablement pour un membre éminent de l'aristocratie sénatoriale de Rome, un haut magistrat impérial ou le préfet de la Ville —, cette immense résidence palatiale s'étend sur plus de 4 000 m² de pièces décorées d'environ 3 500 m² de mosaïques de sol d'une qualité technique et d'une inventivité sans équivalent.</p><p>La réalisation de ce chef-d'œuvre titanesque fut confiée aux meilleurs ateliers de mosaïstes venus d'Afrique proconsulaire (Tunisie actuelle), dont la virtuosité dans l'emploi des tesselles polychromes de marbre, de calcaire et de pâte de verre illumine chaque espace : la gigantesque galerie de la <em>Grande Chasse</em> (plus de 60 mètres de long illustrant la capture et l'embarquement de fauves africains pour les jeux de Rome), la <em>Salle de la Petite Chasse</em>, le <em>Vestibule de Polyphème</em>, le <em>Triclinium aux Travaux d'Hercule</em> et la célèbre <em>Salle des Dix Jeunes Filles</em>.</p><p>Préservée des destructions par un glissement de terrain médiéval qui l'ensevelit sous une couche protectrice de boue pendant près de huit siècles, la Villa del Casale offre une immersion sans égale dans l'univers mental, politique et esthétique des grandes familles de l'Empire romain tardif. Chaque pavement y proclame la puissance du maître, sa passion pour la chasse et les jeux du cirque, son érudition mythologique et son appartenance à l'élite qui gouvernait la Méditerranée.</p>"
+  },
+  "villa_romaine_santa_lucia_caceres": {
+    "id": "villa_romaine_santa_lucia_caceres",
+    "title": "La Villa romaine de Santa Lucía (Cáceres)",
+    "subtitle": "Les pavements figuratifs d'une luxueuse exploitation agricole de Lusitanie tardive",
+    "date": "IVe siècle apr. J.-C.",
+    "period": "Bas-Empire romain",
+    "civilization": "Rome antique",
+    "civId": "rome",
+    "deptBanner": "antiquites_grecques_etrusques_romaines",
+    "tags": [
+      "caceres",
+      "santa lucia",
+      "villa romaine",
+      "estremadure",
+      "lusitanie",
+      "chasse équestre",
+      "muse"
+    ],
+    "text": "<p>Située dans les environs de Cáceres en Estrémadure, la villa romaine de Santa Lucía représente l'archétype des grandes exploitations domaniales (<em>villae</em>) qui ont prospéré en Lusitanie occidentale durant l'Antiquité tardive, alliant une production agricole intensive (blé, huile, élevage équin) à un luxueux quartier résidentiel (la <em>pars urbana</em>) digne d'un palais urbain.</p><p>Les fouilles archéologiques ont mis au jour de vastes pavements de mosaïque polychrome qui ornaient les salles de réception et les appartements du propriétaire. Parmi les pièces les plus remarquables, conservées au Musée de Cáceres (Palacio de las Veletas), figurent une spectaculaire scène de grande chasse équestre montrant des cavaliers aristocratiques traquant le gibier, ainsi que des médaillons abritant de gracieuses figures féminines allégoriques interprétées comme des Muses ou des personnifications des Saisons.</p><p>Ces compositions témoignent de l'enracinement de la culture gréco-romaine au sein des élites foncières de l'intérieur de l'Hispanie au IVe siècle. Loin d'être isolés, ces maîtres de domaine faisaient appel à des ateliers de mosaïstes itinérants de grand talent pour parer leurs demeures des mêmes emblèmes de prestige, de bravoure cynégétique et de raffinement humaniste que ceux en vogue dans les grandes métropoles de l'Empire.</p>"
   }
+
 };
 
 
@@ -5435,3 +5818,35 @@ window.BACKGROUNDS_REGISTRY["xenia"] = window.BACKGROUNDS_REGISTRY["xenia_nature
 window.BACKGROUNDS_REGISTRY["nature_morte_marine"] = window.BACKGROUNDS_REGISTRY["xenia_nature_morte_hospitalite_romaine"];
 window.BACKGROUNDS_REGISTRY["venus_anadyomene"] = window.BACKGROUNDS_REGISTRY["venus_anadyomene_naissance_coquille"];
 window.BACKGROUNDS_REGISTRY["domus_romaine"] = window.BACKGROUNDS_REGISTRY["vie_domestique_domus_pompeienne"];
+
+// Alias des mosaïques romaines et thèmes antiques
+window.BACKGROUNDS_REGISTRY["astronomie_antique"] = window.BACKGROUNDS_REGISTRY["astronomie_sphere_armillaire_antiquite"];
+window.BACKGROUNDS_REGISTRY["sphere_armillaire"] = window.BACKGROUNDS_REGISTRY["astronomie_sphere_armillaire_antiquite"];
+window.BACKGROUNDS_REGISTRY["calendrier_rustique"] = window.BACKGROUNDS_REGISTRY["calendrier_saisons_mois_afrique_romaine"];
+window.BACKGROUNDS_REGISTRY["travaux_des_mois"] = window.BACKGROUNDS_REGISTRY["calendrier_saisons_mois_afrique_romaine"];
+window.BACKGROUNDS_REGISTRY["chasse_conimbriga"] = window.BACKGROUNDS_REGISTRY["chasse_a_courre_villa_conimbriga"];
+window.BACKGROUNDS_REGISTRY["invidia_aves"] = window.BACKGROUNDS_REGISTRY["chouette_invidia_rumpuntur_aves_el_jem"];
+window.BACKGROUNDS_REGISTRY["invidia_rumpuntur_aves"] = window.BACKGROUNDS_REGISTRY["chouette_invidia_rumpuntur_aves_el_jem"];
+window.BACKGROUNDS_REGISTRY["bell_lloc"] = window.BACKGROUNDS_REGISTRY["course_chars_villa_bell_lloc"];
+window.BACKGROUNDS_REGISTRY["courses_chars_cirque"] = window.BACKGROUNDS_REGISTRY["courses_de_chars_cirque_maxime"];
+window.BACKGROUNDS_REGISTRY["factions_du_cirque"] = window.BACKGROUNDS_REGISTRY["courses_de_chars_cirque_maxime"];
+window.BACKGROUNDS_REGISTRY["cirque_romain"] = window.BACKGROUNDS_REGISTRY["courses_de_chars_cirque_maxime"];
+window.BACKGROUNDS_REGISTRY["dedale_pasiphae"] = window.BACKGROUNDS_REGISTRY["dedale_pasiphae_lugo"];
+window.BACKGROUNDS_REGISTRY["desultor_volubilis"] = window.BACKGROUNDS_REGISTRY["desultor_voltige_equestre_volubilis"];
+window.BACKGROUNDS_REGISTRY["diane_et_acteon"] = window.BACKGROUNDS_REGISTRY["diane_et_acteon_chasseur"];
+window.BACKGROUNDS_REGISTRY["poissons_merida"] = window.BACKGROUNDS_REGISTRY["faune_marine_poissons_merida"];
+window.BACKGROUNDS_REGISTRY["felix_baritto"] = window.BACKGROUNDS_REGISTRY["faune_marine_poissons_merida"];
+window.BACKGROUNDS_REGISTRY["hylas_nymphes"] = window.BACKGROUNDS_REGISTRY["hylas_et_les_nymphes"];
+window.BACKGROUNDS_REGISTRY["sacrifice_iphigenie"] = window.BACKGROUNDS_REGISTRY["sacrifice_iphigenie_agamemnon"];
+window.BACKGROUNDS_REGISTRY["filles_en_bikini"] = window.BACKGROUNDS_REGISTRY["salle_des_dix_jeunes_filles_casale"];
+window.BACKGROUNDS_REGISTRY["dix_jeunes_filles_casale"] = window.BACKGROUNDS_REGISTRY["salle_des_dix_jeunes_filles_casale"];
+window.BACKGROUNDS_REGISTRY["thermes_barcelone"] = window.BACKGROUNDS_REGISTRY["thermes_romains_barcino_barcelone"];
+window.BACKGROUNDS_REGISTRY["charites"] = window.BACKGROUNDS_REGISTRY["trois_graces_charites"];
+window.BACKGROUNDS_REGISTRY["trois_graces"] = window.BACKGROUNDS_REGISTRY["trois_graces_charites"];
+window.BACKGROUNDS_REGISTRY["jets_d_eau_conimbriga"] = window.BACKGROUNDS_REGISTRY["villa_des_jets_d_eau_conimbriga"];
+window.BACKGROUNDS_REGISTRY["conimbriga"] = window.BACKGROUNDS_REGISTRY["villa_des_jets_d_eau_conimbriga"];
+window.BACKGROUNDS_REGISTRY["piazza_armerina"] = window.BACKGROUNDS_REGISTRY["villa_romaine_du_casale_piazza_armerina"];
+window.BACKGROUNDS_REGISTRY["villa_del_casale"] = window.BACKGROUNDS_REGISTRY["villa_romaine_du_casale_piazza_armerina"];
+window.BACKGROUNDS_REGISTRY["santa_lucia_caceres"] = window.BACKGROUNDS_REGISTRY["villa_romaine_santa_lucia_caceres"];
+window.BACKGROUNDS_REGISTRY["chasse_santa_lucia"] = window.BACKGROUNDS_REGISTRY["villa_romaine_santa_lucia_caceres"];
+
