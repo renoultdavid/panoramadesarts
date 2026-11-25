@@ -15172,7 +15172,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "drawingsCount": null,
     "engravingsCount": null,
     "sculpturesCount": null,
-    "seenCount": 11,
+    "seenCount": 12,
     "source": "Consensus scientifique & Catalogues critiques (Pierre Rosenberg, Margaret Morgan Grasselli)",
     "totalOeuvresEstimees": "~165 toiles authentifiées",
     "oeuvresConsensusNotice": "En retenant exclusivement les peintures authentifiées ou très largement reconnues comme de la main de Watteau (fêtes galantes, scènes de théâtre, enseignes, arabesques peintes et études de têtes à l'huile, à l'exclusion de ses dessins et des gravures d'après ses compositions), le consensus scientifique et muséal fixe son corpus officiel conservé autour d'environ 165 toiles."

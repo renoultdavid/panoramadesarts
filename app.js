@@ -9047,8 +9047,9 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
-  // Watteau Antoine (3 œuvres)
+  // Watteau Antoine (4 œuvres)
   "watteau_la_finette_louvre_1717": { h: 25.5, w: 19.0, display: "25,5 × 19 cm", loc: "Musée du Louvre, Paris" },
+  "watteau_l_indifferent_louvre_1716": { h: 25.5, w: 19.0, display: "25,5 × 19 cm", loc: "Musée du Louvre, Paris" },
   "watteau_assemblee_dans_un_parc_louvre_1716": { h: 32.5, w: 46.5, display: "32,5 × 46,5 cm", loc: "Musée du Louvre, Paris" },
   "watteau_l_automne_bacchus_saisons_crozat_louvre_1715": { h: 51.0, w: 40.0, display: "51 × 40 cm (ovale)", loc: "Musée du Louvre, Paris" },
 

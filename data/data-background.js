@@ -6939,9 +6939,10 @@ window.BACKGROUNDS_REGISTRY["mars_et_venus_triomphe_de_l_amour"] = {
     "cupidon",
     "putti",
     "désarmement",
-    "poussin"
+    "concorde",
+    "harmonie"
   ],
-  "text": "<h4>L'apaisement du dieu des combats</h4>\n<p>Dans la tradition poétique gréco-romaine, notamment célébrée par Lucrèce au seuil du <em>De rerum natura</em>, l'étreinte de Vénus (déesse de l'Amour et de la fécondité) et de Mars (dieu de la Guerre sanglante) incarne la plus haute allégorie de la concorde et de la paix universelle : seul l'Amour possède le pouvoir souverain d'apaiser la fureur destructrice des armes et de suspendre le chaos du monde.</p>\n<h4>Le jeu symbolique des amours</h4>\n<p>Les artistes de la Renaissance et de l'âge classique ont enrichi ce thème d'une touche pastorale et humoristique : tandis que le dieu guerrier, désarmé par la beauté de Vénus, s'abandonne à la volupté, une cohorte de petits amours espiègles s'empare de ses attributs redoutables — son casque trop lourd, sa lance, son bouclier et son épée — pour les neutraliser et les transformer en jouets inoffensifs.</p>\n<h4>Une réflexion morale sur l'harmonie des contraires</h4>\n<p>Au-delà de la fable galante, la rencontre de Mars et Vénus célèbre l'accord des principes opposés : la force brute domptée par la grâce, la violence convertie en concorde et la victoire définitive de la création fertile sur la pulsion de mort.</p>"
+  "text": "<h4>L'apaisement du dieu des combats</h4>\n<p>Dans la tradition poétique gréco-romaine, notamment célébrée par Lucrèce au seuil du <em>De rerum natura</em>, l'étreinte de Vénus (déesse de l'Amour et de la fécondité) et de Mars (dieu de la Guerre sanglante) incarne la plus haute allégorie de la concorde et de la paix universelle : seul l'Amour possède le pouvoir souverain d'apaiser la fureur destructrice des armes et de suspendre le chaos du monde.</p>\n<h4>Le désarmement allégorique par les Amours</h4>\n<p>La fable antique met en scène le désarmement du dieu guerrier : abandonnant la cuirasse, le casque d'airain et la lance meurtrière sous l'empire de la beauté et de la volupté, Mars voit ses armes neutralisées par une nuée de petits amours ailés (les <em>erotes</em> ou putti) qui s'en emparent en se jouant d'elles, les transformant en symboles inoffensifs de paix retrouvée.</p>\n<h4>L'harmonie cosmique des contraires</h4>\n<p>Au-delà de la fable galante, la rencontre de Mars et Vénus célèbre l'accord philosophique des principes opposés : la force indomptée vaincue par la grâce, la violence convertie en concorde féconde et la victoire définitive de la vie régénératrice sur la pulsion de destruction.</p>"
 };
 
 window.BACKGROUNDS_REGISTRY["le_jeune_pyrrhus_sauve_plutarque"] = {
@@ -6959,9 +6960,9 @@ window.BACKGROUNDS_REGISTRY["le_jeune_pyrrhus_sauve_plutarque"] = {
     "fuite",
     "nourrice",
     "stoïcisme",
-    "poussin"
+    "fidélité"
   ],
-  "text": "<h4>La fuite d'Épire et l'épreuve du fleuve</h4>\n<p>Chassé de son royaume d'Épire par une sédition attisée par Cassandre de Macédoine, le roi Éacide confie son fils encore au berceau, le futur conquérant Pyrrhus, à quelques serviteurs dévoués — Androclide et Angélos. Poursuivis sans relâche par des cavaliers ennemis, les fidèles compagnons atteignent à la tombée du jour le fleuve qui baigne la cité de Mégare, gonflé par des pluies torrentielles et impossible à traverser à gué avec le nourrisson.</p>\n<h4>Le message gravé sur l'écorce</h4>\n<p>Séparés des habitants de la ville par le tumulte assourdissant des flots, les fuyards arrachent un morceau d'écorce de chêne, y gravent un appel au secours implorant l'hospitalité pour l'héritier royal, et fixent le message à un javelot lancé de l'autre côté de la rive. Émus par la détresse de l'enfant et le courage de ses protecteurs, les citoyens de Mégare construisent des radeaux de fortune pour les recueillir avant l'arrivée des assaillants.</p>\n<h4>Un idéal de vertu morale et de solidarité héroïque</h4>\n<p>Cet épisode dramatique rapporté par Plutarque est devenu dans la peinture d'histoire classique le modèle absolu de la fidélité héroïque, de la protection des innocents et de la sérénité morale triomphant de la fortune adverse.</p>"
+  "text": "<h4>La fuite d'Épire et l'épreuve du fleuve</h4>\n<p>Chassé de son royaume d'Épire par une sédition attisée par Cassandre de Macédoine, le roi Éacide confie son fils encore au berceau, le futur conquérant Pyrrhus, à quelques serviteurs dévoués — Androclide et Angélos. Poursuivis sans relâche par des cavaliers ennemis, les fidèles compagnons atteignent à la tombée du jour le fleuve qui baigne la cité de Mégare, gonflé par des pluies torrentielles et impossible à franchir à gué avec le nourrisson.</p>\n<h4>Le message gravé sur l'écorce</h4>\n<p>Séparés des habitants de la rive opposée par le grondement assourdissant des flots, les fuyards arrachent un morceau d'écorce de chêne, y gravent un appel au secours implorant l'hospitalité pour l'héritier royal, et fixent le message à un javelot projeté avec force de l'autre côté du fleuve. Émus par la détresse de l'enfant et l'audace de ses protecteurs, les citoyens de Mégare construisent des radeaux de fortune pour les recueillir avant l'arrivée des assaillants.</p>\n<h4>Un archétype de la constance héroïque</h4>\n<p>Cet épisode dramatique consigné par Plutarque est devenu dans la tradition humaniste l'exemple canonique de la fidélité sans faille, du secours apporté à l'innocence menacée et du triomphe de la vertu courageuse sur la violence aveugle de la fortune.</p>"
 };
 
 window.BACKGROUNDS_REGISTRY["les_aveugles_de_jericho_miracle_du_christ"] = {
@@ -6979,29 +6980,27 @@ window.BACKGROUNDS_REGISTRY["les_aveugles_de_jericho_miracle_du_christ"] = {
     "vue",
     "apôtres",
     "guérison",
-    "poussin"
+    "bartimée"
   ],
-  "text": "<h4>L'appel au bord du chemin</h4>\n<p>Alors que le Christ sort de Jéricho en direction de Jérusalem, entouré d'une foule nombreuse, deux mendiants aveugles assis au bord de la route entendent son passage et s'écrient : « Seigneur, Fils de David, aie pitié de nous ! ». Malgré les réprimandes de la foule qui tente de les réduire au silence, ils redoublent d'appels fervents, guidés par la certitude intérieure de leur salut.</p>\n<h4>L'imposition des mains et la recouvrance de la vue</h4>\n<p>Ému de compassion, Jésus s'arrête, les fait approcher et leur demande : « Que voulez-vous que je fasse pour vous ? ». À leur réponse suppliante (« Seigneur, que nos yeux s'ouvrent »), le Christ touche délicatement leurs paupières : instantanément, les deux hommes recouvrent la vue et se mettent à le suivre sur le chemin de la croix.</p>\n<h4>La métaphore de l'illumination spirituelle</h4>\n<p>Pour la théologie chrétienne et l'art classique, la guérison des aveugles de Jéricho dépasse le prodige physique : elle symbolise le passage des ténèbres de l'ignorance à la lumière de la Révélation divine. Dans la tradition académique française, la mise en scène rigoureuse de cet épisode offre le parangon de la dramaturgie ordonnée où chaque témoin incarne un degré spécifique de foi, de stupeur ou de méditation morale.</p>"
+  "text": "<h4>L'appel au bord du chemin</h4>\n<p>Alors que le Christ sort de Jéricho en direction de Jérusalem, entouré de ses disciples et d'une foule nombreuse, deux mendiants aveugles assis au bord de la route — parmi lesquels l'Évangile de Marc individualise Bartimée — entendent son passage et s'écrient d'une voix perçante : « Seigneur, Fils de David, aie pitié de nous ! ». Malgré les réprimandes de la foule qui cherche à les faire taire, ils redoublent d'appels fervents.</p>\n<h4>L'imposition des mains et le don de la vue</h4>\n<p>Touché de compassion, Jésus s'arrête, les fait amener auprès de lui et leur demande : « Que voulez-vous que je fasse pour vous ? ». À leur réponse unanime — « Seigneur, que nos yeux s'ouvrent ! » —, il touche leurs yeux éteints. Aussitôt la lumière leur est rendue, et délivrés de leurs ténèbres, ils se mettent à le suivre sur le chemin de la Passion.</p>\n<h4>La portée théologique de l'illumination</h4>\n<p>Dans l'exégèse biblique, la guérison des aveugles de Jéricho dépasse le prodige physique : elle symbolise le passage de la cécité spirituelle à l'illumination par la foi divine, affirmant le pouvoir régénérateur de la grâce sur l'âme humaine plongée dans l'obscurité.</p>"
 };
 
 window.BACKGROUNDS_REGISTRY["le_christ_et_la_femme_adultere_evangile"] = {
   "id": "le_christ_et_la_femme_adultere_evangile",
-  "badge": "ÉVANGILE DE JEAN & DOCTRINE DU PARDON",
-  "title": "Le Christ et la Femme Adultère : La Grâce et le Pardon devant la Loi",
+  "badge": "ÉVANGILE SELON SAINT JEAN & MISÉRICORDE",
+  "title": "Le Christ et la Femme adultère : La Grâce du Pardon face à la Loi",
   "sources": "Évangile selon saint Jean (8, 1-11)",
   "keywords": [
     "femme adultère",
     "christ",
-    "pharisiens",
     "pardon",
-    "loi mosaïque",
-    "pierre",
-    "péché",
-    "écriture au sol",
-    "grâce",
-    "poussin"
+    "miséricorde",
+    "pharisiens",
+    "lapidation",
+    "loi de moïse",
+    "grâce"
   ],
-  "text": "<h4>Le piège des docteurs de la Loi</h4>\n<p>Alors que Jésus enseigne dans le Temple de Jérusalem, les scribes et les pharisiens lui amènent une femme surprise en délit d'adultère. Invoquant la Loi de Moïse qui prescrit la lapidation pour un tel crime, ils interrogent le Christ dans l'intention perfide de le mettre en contradiction soit avec la rigueur mosaïque, soit avec l'autorité romaine qui réservait le droit de condamnation à mort.</p>\n<h4>L'écriture dans la poussière et la sentence du cœur</h4>\n<p>Gardant d'abord le silence, Jésus se baisse et se met à écrire mystérieusement du doigt sur le dallage du parvis. Devant l'insistance de ses accusateurs, il se redresse et prononce la sentence universelle qui désarme la vindicte : « Que celui d'entre vous qui est sans péché lui jette la première pierre ». Renvoyés à leur propre conscience, les juges se retirent un à un, à commencer par les plus anciens.</p>\n<h4>La primauté de la miséricorde sur le jugement</h4>\n<p>Resté seul avec la pécheresse tremblante, le Christ ne la condamne pas mais lui accorde le pardon tout en l'exhortant à la rédemption : « Va, et désormais ne pèche plus ». Ce récit fondateur sublime la rupture évangélique entre la lettre impitoyable de la loi et l'esprit libérateur de la miséricorde divine.</p>"
+  "text": "<h4>Le piège doctrinal des scribes et des pharisiens</h4>\n<p>Alors que Jésus enseigne au Temple de Jérusalem aux premières lueurs du jour, les scribes et les pharisiens lui amènent une femme surprise en flagrant délit d'adultère. Invoquant la Loi de Moïse qui prescrit la lapidation pour un tel péché, ils interrogent le Maître afin de le prendre au piège : s'il ordonne la mort, il contredit son message de miséricorde et s'expose aux sanctions de l'autorité romaine ; s'il l'acquitte, il est accusé de violer les commandements sacrés de la Loi mosaïque.</p>\n<h4>L'écriture sur le sol et la parole de vérité</h4>\n<p>Gardant d'abord le silence, Jésus se baisse et trace mystérieusement des caractères du doigt sur la poussière du sol. Devant l'insistance de ses accusateurs, il se redresse et prononce la sentence décisive : « Que celui d'entre vous qui est sans péché lui jette la première pierre ». Renvoyés à leur propre conscience, les juges se retirent un à un, à commencer par les plus anciens, laissant la femme seule face au Christ.</p>\n<h4>Le triomphe de la miséricorde sur le jugement</h4>\n<p>Constatant qu'aucun homme ne l'a condamnée, Jésus conclut : « Moi non plus, je ne te condamne pas ; va, et désormais ne pèche plus ». Ce récit illustre le cœur du message évangélique : la substitution de la grâce salvatrice et du relèvement moral à la rigidité punitive de la justice humaine.</p>"
 };
 
 window.BACKGROUNDS_REGISTRY["enfance_nourriture_de_bacchus_mont_nysa"] = {
@@ -7019,28 +7018,9 @@ window.BACKGROUNDS_REGISTRY["enfance_nourriture_de_bacchus_mont_nysa"] = {
     "nourriture",
     "chèvre amalthée",
     "pampres",
-    "poussin"
+    "vin"
   ],
-  "text": "<h4>Le sanctuaire secret contre la colère de Junon</h4>\n<p>Fils de Jupiter et de la mortelle Sémélé consumée par l'éclat de la foudre céleste, le nouveau-né Bacchus est sauvé par son père qui l'arrache aux flammes et le confie secrètement au dieu Mercure. Pour le dérober à la jalousie implacable de Junon, reine des dieux, Mercure transporte l'enfant divin sur les pentes enchantées et reculées du mont Nysa, au cœur d'une clairière luxuriante ignorée des hommes.</p>\n<h4>L'initiation champêtre aux plaisirs de la vigne</h4>\n<p>Élevé avec tendresse par les nymphes des bois et les satyres sylvestres, le jeune Bacchus est nourri du lait d'une chèvre tutélaire et du miel sauvage distillé par les abeilles du mont sacré. Les satyres l'initient dès le berceau au nectar des grappes de raisin noir pressées dans des coupes d'or, scellant le destin du dieu qui offrira le vin et l'ivresse sacrée à l'humanité.</p>\n<h4>Une vision pastorale de l'âge d'or</h4>\n<p>Dans l'imaginaire pictural de la Renaissance et du classicisme, l'enfance de Bacchus incarne la communion parfaite entre l'homme, la nature féconde et les divinités rustiques : une célébration de l'innocence champêtre où la joie païenne et la fertilité de la terre règnent en harmonie absolue.</p>"
-};
-
-window.BACKGROUNDS_REGISTRY["saint_jean_baptisant_sur_le_jourdain"] = {
-  "id": "saint_jean_baptisant_sur_le_jourdain",
-  "badge": "ÉVANGILE & SACREMENT DE PÉNITENCE",
-  "title": "Saint Jean-Baptiste baptisant le Peuple sur les Rives du Jourdain",
-  "sources": "Évangiles synoptiques (Matthieu 3, 1-12 ; Marc 1, 1-8 ; Luc 3, 1-18)",
-  "keywords": [
-    "saint jean-baptiste",
-    "baptême",
-    "jourdain",
-    "conversion",
-    "pénitence",
-    "foule",
-    "fleuve",
-    "précurseur",
-    "poussin"
-  ],
-  "text": "<h4>La voix qui crie dans le désert</h4>\n<p>Revêtu d'une austère tunique de poils de chameau retenue par une ceinture de cuir, saint Jean le Précurseur s'établit dans la vallée déserte du Jourdain pour prêcher le baptême de repentir en vue de la rémission des péchés. Des foules entières, venues de Jérusalem et de toute la Judée, affluent sur les berges fluviales pour écouter sa parole prophétique et confesser leurs fautes avant l'avènement du Messie.</p>\n<h4>Le baptême d'eau et l'appel à la conversion intérieure</h4>\n<p>Au bord des eaux vives du Jourdain, Jean plonge les pénitents dans le courant régénérateur, affirmant que son baptême d'eau prépare le chemin à Celui qui viendra après lui pour baptiser dans l'Esprit Saint et le feu. Hommes d'armes, vieillards, femmes et enfants se dépouillent de leurs vêtements et se préparent au sacrement, traduisant la variété des conditions humaines unies dans une même espérance morale.</p>\n<h4>L'harmonie sacrée entre l'homme et le paysage</h4>\n<p>Dans la vision classique de Nicolas Poussin, le baptême sur le Jourdain devient une méditation philosophique sur l'ordre cosmique et la sérénité spirituelle : les figures humaines s'intègrent avec une solennité géométrique dans un paysage grandiose de monts et de collines baigné par la clarté crépusculaire.</p>"
+  "text": "<h4>Le refuge secret contre la colère de Junon</h4>\n<p>Fils de Jupiter et de la mortelle Sémélé consumée par l'éclat de la foudre céleste, le nouveau-né Bacchus est sauvé par son père qui l'arrache aux flammes. Afin de le dérober à la jalousie impitoyable de Junon, reine des dieux, Mercure transporte l'enfant divin sur les pentes enchantées et reculées du mont Nysa, au cœur d'une clairière luxuriante ignorée des hommes.</p>\n<h4>L'initiation champêtre aux dons de la terre</h4>\n<p>Élevé avec tendresse par les nymphes des bois et les satyres sylvestres, le jeune dieu est nourri du lait d'une chèvre tutélaire et du miel sauvage distillé par les abeilles du mont sacré. Les satyres l'initient dès le berceau au nectar des grappes de raisin noir pressées dans des coupes pures, scellant le destin de la divinité qui offrira la vigne et l'ivresse sacrée au monde.</p>\n<h4>L'âge d'or et la fertilité originelle</h4>\n<p>Dans la tradition poétique gréco-romaine, l'enfance campagnarde de Bacchus incarne la communion originelle entre l'humanité naissante et la nature généreuse : une vision pastorale de l'innocence où les divinités sylvestres célèbrent la fécondité de la terre et la joie des forces vitales.</p>"
 };
 
 window.BACKGROUNDS_REGISTRY["moise_et_la_verge_d_aaron_serpent_pharaon"] = {
@@ -7058,77 +7038,101 @@ window.BACKGROUNDS_REGISTRY["moise_et_la_verge_d_aaron_serpent_pharaon"] = {
     "égypte",
     "exode",
     "prodige",
-    "poussin"
+    "miracle"
   ],
-  "text": "<h4>L'épreuve du bâton devant la cour royale</h4>\n<p>Envoyés par Dieu pour ordonner au pharaon de libérer les enfants d'Israël, Moïse et son frère Aaron se présentent devant le trône d'Égypte. Devant le scepticisme du souverain qui exige un signe éclatant de leur autorité divine, Aaron jette sa verge de bois sur le pavement de la salle palatiale : le bâton s'anime et se métamorphose instantanément en un redoutable serpent ondulant.</p>\n<h4>La confrontation des prodiges et l'engloutissement des faux serpents</h4>\n<p>Le pharaon fait aussitôt appel à ses sages, sorciers et enchanteurs égyptiens. Par leurs pratiques occultes et leurs incantations, ces derniers jettent également leurs bâtons qui se transforment à leur tour en reptiles. Mais le prodige divin éclate avec une souveraineté éclatante : la verge-serpent d'Aaron fond sur les créatures des magiciens et les engloutit une à une, affirmant sans appel la supériorité absolue du Dieu d'Israël sur les puissances magiques d'Égypte.</p>\n<h4>La tragédie du cœur endurci</h4>\n<p>Malgré ce prodige magistral, le cœur de Pharaon s'endurcit et refuse d'écouter les envoyés divins, ouvrant la voie aux fléaux des dix plaies d'Égypte. Cette confrontation théologique majestueuse met en scène la victoire éclatante de la Vérité révélée sur les illusions de la tyrannie terrestre.</p>"
+  "text": "<h4>L'épreuve du bâton devant la cour royale</h4>\n<p>Envoyés par l'Éternel pour ordonner au pharaon de libérer les enfants d'Israël, Moïse et son frère Aaron se présentent devant le souverain d'Égypte. Face au roi incrédule qui réclame un prodige éclatant attestant leur mission divine, Aaron jette son bâton de berger sur le pavement du palais : le bois s'anime aussitôt et se métamorphose en un serpent redoutable.</p>\n<h4>L'engloutissement des serpents magiques</h4>\n<p>Le pharaon convoque aussitôt les sages, enchanteurs et sorciers de sa cour. Par leurs formules secrètes et leurs pratiques occultes, les magiciens égyptiens jettent à leur tour leurs verges, qui deviennent des serpents. Mais la suprématie de la puissance divine éclate avec force : la verge-serpent d'Aaron fond sur les reptiles des enchanteurs et les dévore tous sans exception.</p>\n<h4>La portée spirituelle de la confrontation</h4>\n<p>Cet épisode fondamental du Livre de l'Exode consacre la victoire sans équivoque de la Vérité transcendante sur les artifices de la magie humaine. Malgré la clarté du signe, le cœur de Pharaon s'endurcit, scellant l'avènement des dix plaies d'Égypte et la libération prophétique du peuple hébreu.</p>"
 };
 
-// Aliases
-window.BACKGROUNDS_REGISTRY["mars_et_venus"] = window.BACKGROUNDS_REGISTRY["mars_et_venus_triomphe_de_l_amour"];
-window.BACKGROUNDS_REGISTRY["pyrrhus_sauve"] = window.BACKGROUNDS_REGISTRY["le_jeune_pyrrhus_sauve_plutarque"];
-window.BACKGROUNDS_REGISTRY["aveugles_de_jericho"] = window.BACKGROUNDS_REGISTRY["les_aveugles_de_jericho_miracle_du_christ"];
-window.BACKGROUNDS_REGISTRY["femme_adultere"] = window.BACKGROUNDS_REGISTRY["le_christ_et_la_femme_adultere_evangile"];
-window.BACKGROUNDS_REGISTRY["nourriture_de_bacchus"] = window.BACKGROUNDS_REGISTRY["enfance_nourriture_de_bacchus_mont_nysa"];
-window.BACKGROUNDS_REGISTRY["verge_d_aaron"] = window.BACKGROUNDS_REGISTRY["moise_et_la_verge_d_aaron_serpent_pharaon"];
-
-window.BACKGROUNDS_REGISTRY["la_finette_et_l_indifferent_theatre_galant"] = {
-  "id": "la_finette_et_l_indifferent_theatre_galant",
-  "badge": "THÉÂTRE, MUSIQUE & FÊTES GALANTES",
-  "title": "La Finette et L'Indifférent : La Séduction Rusée et la Nonchalance Galante",
-  "sources": "Commedia dell'arte & Recueil Jullienne (L'Œuvre d'Antoine Watteau)",
+window.BACKGROUNDS_REGISTRY["commedia_dell_arte_et_theatre_de_la_foire"] = {
+  "id": "commedia_dell_arte_et_theatre_de_la_foire",
+  "badge": "THÉÂTRE, COMMEDIA DELL'ARTE & FOIRE",
+  "title": "La Commedia dell'arte et le Théâtre de la Foire : Figures de Fantaisie et Satire Galante",
+  "sources": "Évariste Gherardi, Le Théâtre italien (1694) & comédies foraines du début du XVIIIe siècle",
   "keywords": [
+    "commedia dell arte",
+    "théâtre italien",
+    "théâtre de la foire",
     "finette",
     "indifférent",
+    "soubrette",
+    "arlequin",
+    "colombine",
     "théorbe",
-    "musique",
-    "théâtre",
-    "comédie",
-    "la caze",
-    "louvre",
-    "watteau"
+    "danse",
+    "masque",
+    "satire"
   ],
-  "text": "<h4>Le dialogue silencieux de deux pendants célèbres</h4>\n<p>Conçus pour se faire écho sur les murs d'un cabinet d'amateur au début du XVIIIe siècle, <em>La Finette</em> et <em>L'Indifférent</em> forment l'un des diptyques les plus célèbres et les plus poétiques de Jean-Antoine Watteau. Réunis au musée du Louvre grâce au legs du docteur Louis La Caze en 1869, ces deux petits panneaux sur bois incarnent deux tempéraments emblématiques de la comédie galante : d'un côté la vivacité piquante et rusée de la jeune musicienne, de l'autre la légèreté insouciante du jeune danseur en costume de soie chatoyante.</p>\n<h4>La Finette, héroïne de théâtre et musicienne en pause</h4>\n<p>Le nom de <em>Finette</em> fait référence à l'archétype théâtral de la servante spirituelle, ingénieuse et maîtresse de son jeu, issu du théâtre de foire et de la Comédie-Italienne. Vêtue d'une robe de satin olive aux plis cassants et coiffée d'une collerette tuyautée, la jeune femme est assise avec son théorbe sur les genoux. Son regard oblique, adressé avec malice et retenue au spectateur, suspend l'instant musical et transforme l'auditeur en confident.</p>\n<h4>Une mélancolie diffuse sous le faste des apparences</h4>\n<p>La touche vibrante de Watteau fait scintiller les soieries tout en fondant les contours de la silhouette dans la pénombre du sous-bois. Ce contraste subtil entre le raffinement artificiel du costume de scène et la solitude poignante de la figure isolée dans la nature crépusculaire confère à l'œuvre son indicible pouvoir de fascination.</p>"
+  "text": "<h4>L'effervescence des tréteaux forains et du Théâtre-Italien</h4>\n<p>Chassés de Paris en 1697 par ordre royal avant leur rappel triomphal sous la Régence en 1716, les comédiens italiens de la commedia dell'arte ont profondément imprégné l'imaginaire du XVIIIe siècle français. Rejetés un temps vers les tréteaux populaires des foires Saint-Germain et Saint-Laurent, leurs personnages masqués et leurs intrigues virtuoses ont fusionné avec l'esprit français de la parodie, du vaudeville et de la comédie de mœurs.</p>\n<h4>La soubrette spirituelle et le danseur insouciant</h4>\n<p>Parmi les figures de fantaisie issues de cet univers de tréteaux, deux archétypes dominent les divertissements de société : d'une part la servante ou confidente rusée — incarnée sous les noms de Finette, Colombine ou Corallina —, maîtresse du dialogue piquant, prompte à manier la musique et les billets doux pour déjouer les tuteurs sévères ; d'autre part le jeune homme léger et nonchalant, danseur ou amoureux de comédie, dont la grâce suspendue et le détachement feint expriment le refus de la gravité tragique et le culte de l'instant présent.</p>\n<h4>La scène théâtrale comme métaphore du monde</h4>\n<p>Au tournant du Siècle des Lumières, le costume de théâtre n'est plus seulement un habit de parade : il devient l'instrument d'une liberté poétique totale. Entre le son feutré des cordes d'un théorbe et l'esquisse d'un pas de gavotte, ces figures de comédie incarnent l'ambiguïté des sentiments, l'ironie délicate et la nostalgie secrète d'une société cherchant dans l'illusion scénique un refuge contre les pesanteurs de l'existence.</p>"
 };
 
-window.BACKGROUNDS_REGISTRY["l_assemblee_dans_un_parc_fetes_galantes"] = {
-  "id": "l_assemblee_dans_un_parc_fetes_galantes",
-  "badge": "PEINTURE ROCOCO & FÊTES GALANTES",
-  "title": "L'Assemblée dans un parc : L'Invention de la Fête Galante et la Rêverie Crépusculaire",
-  "sources": "Edme-François Gersaint & Recueil d'estampes Jullienne",
+window.BACKGROUNDS_REGISTRY["la_fete_galante_et_la_pastorale_au_siecle_des_lumieres"] = {
+  "id": "la_fete_galante_et_la_pastorale_au_siecle_des_lumieres",
+  "badge": "SOCIABILITÉ, PASTORALE & FÊTE GALANTE",
+  "title": "La Fête Galante : Poétique de la Pastorale et Émancipation des Jardins",
+  "sources": "Honoré d'Urfé, L'Astrée & la poésie pastorale française du XVIIIe siècle",
   "keywords": [
-    "assemblée dans un parc",
     "fête galante",
+    "pastorale",
     "parc",
+    "jardin",
     "conversation",
+    "nature",
+    "galanterie",
+    "sociabilité",
     "crépuscule",
-    "rubens",
-    "la caze",
-    "louvre",
-    "watteau"
+    "astrée"
   ],
-  "text": "<h4>La fête galante : naissance d'un genre pictural universel</h4>\n<p>Reçu à l'Académie royale de peinture et de sculpture en 1717 sous la dénomination inédite de « peintre des fêtes galantes », Antoine Watteau a réinventé la tradition pastorale en situant des figures aristocratiques et des acteurs de théâtre dans des parcs enchanteurs. <em>L'Assemblée dans un parc</em>, léguée au Louvre par Louis La Caze, compte parmi les expressions les plus parfaites de cet univers poétique où l'amour se dit à demi-mot, sans intrigue lourde ni solennité académique.</p>\n<h4>Le murmure des amours au bord de l'eau</h4>\n<p>Au bord d'un étang paisible où se mire la lumière dorée d'une fin d'après-midi, des élégants en habits de soie aux reflets moirés se promènent ou s'assoient sur l'herbe pour deviser, écouter de la musique ou lire un billet doux. Les couples se forment et se délient avec une grâce fluide, tandis qu'un petit chien trottine sur le gazon, ajoutant une note familière et spontanée à la scène.</p>\n<h4>Le songe crépusculaire et la fuite du temps</h4>\n<p>Héritée de Rubens et des coloristes vénitiens admirés chez son mécène Pierre Crozat, la palette de Watteau fait vibrer les frondaisons automnales sous un ciel nacré. L'atmosphère vaporeuse, où la joie de vivre côtoie toujours une discrète nostalgie de la brièveté du bonheur, transforme cette réunion mondaine en une méditation sensible sur l'éphémère des plaisirs humains.</p>"
+  "text": "<h4>La réinvention pastorale contre la pompe monarchique</h4>\n<p>Née au déclin du règne autoritaire de Louis XIV et s'épanouissant sous la Régence, la fête galante marque une révolution sensible dans la culture aristocratique française. Délaissant les allées rectilignes, la rigueur géométrique et l'apparat écrasant de Versailles, les élites cultivées réinvestissent les parcs ombragés et les bosquets sauvages pour y vivre une utopie pastorale inspirée de <em>L'Astrée</em> et des cours d'amour de la Renaissance.</p>\n<h4>L'art de la conversation et le doux commerce des âmes</h4>\n<p>Au cœur d'une nature généreuse où se mêlent frondaisons bruissantes et pièces d'eau paisibles, hommes et femmes se rassemblent à l'écart du tumulte urbain. La fête galante s'organise autour de l'art souverain de la conversation : confidences à demi-mot, lecture de billets amoureux, promenades au bord de l'eau, musique champêtre et jeux de regards. Loin des passions violentes et des devoirs civiques, l'amour s'y exprime comme une politesse raffinée et un badinage spirituel empreint de bienveillance mutuelle.</p>\n<h4>La rêverie crépusculaire et la fuite du temps</h4>\n<p>Cette sociabilité idyllique s'accompagne d'une poignante lucidité philosophique. Situées le plus souvent à la lumière dorée d'une fin d'après-midi, ces assemblées champêtres célèbrent la fragilité du bonheur humain : dans l'atmosphère vaporeuse d'un sous-bois automnal, le doux faste de la jeunesse et le plaisir partagé ne cessent de dialoguer avec la mélancolie silencieuse du temps qui passe.</p>"
 };
 
-window.BACKGROUNDS_REGISTRY["l_automne_bacchus_adolescent_saisons_crozat"] = {
-  "id": "l_automne_bacchus_adolescent_saisons_crozat",
-  "badge": "ALLÉGORIE DES SAISONS & MYTHOLOGIE ROCOCO",
-  "title": "L'Automne : Bacchus Adolescent et le Cycle Poétique des Saisons pour Pierre Crozat",
-  "sources": "Antoine-Joseph Dezallier d'Argenville, Abrégé de la vie des plus fameux peintres (1745)",
+window.BACKGROUNDS_REGISTRY["bacchus_et_l_allegorie_des_quatre_saisons"] = {
+  "id": "bacchus_et_l_allegorie_des_quatre_saisons",
+  "badge": "MYTHOLOGIE CLASSIQUE & CYCLE DES SAISONS",
+  "title": "Bacchus et l'Allégorie des Saisons : Les Fêtes des Vendanges et le Rythme Cosmique",
+  "sources": "Ovide, Métamorphoses (Livre II) & Virgile, Géorgiques (Livre II)",
   "keywords": [
-    "automne",
     "bacchus",
-    "vendanges",
-    "crozat",
+    "dionysos",
+    "automne",
     "saisons",
-    "fruits",
-    "ovale",
-    "louvre",
-    "watteau"
+    "vendanges",
+    "raisin",
+    "fertilité",
+    "nature",
+    "allégorie",
+    "virgile",
+    "ovide"
   ],
-  "text": "<h4>Le mécénat raffiné de Pierre Crozat</h4>\n<p>Grand financier et collectionneur passionné possesseur d'un cabinet exceptionnel de dessins de maîtres italiens et flamands, Pierre Crozat hébergea Antoine Watteau dans son hôtel particulier de la rue de Richelieu à Paris. Pour la salle à manger de cette demeure somptueuse, le maître des fêtes galantes réalisa vers 1715-1716 un cycle de quatre toiles ovales représentant les Saisons, parmi lesquelles <em>L'Automne</em>, conservé au musée du Louvre, constitue l'un des sommets d'intimité poétique.</p>\n<h4>Un Bacchus adolescent aux antipodes de la pompe héroïque</h4>\n<p>Renouvelant avec audace la tradition mythologique louis-quatorzienne, Watteau délaisse les triomphes bacchiques tonitruants pour dépeindre le dieu des vendanges sous les traits d'un adolescent songeur, assis nonchalamment sur un tertre ombragé. Tenant la petite serpette des vendangeurs, il s'appuie sur une corbeille d'osier débordante de grappes translucides, tandis qu'un putto potelé s'empresse à ses côtés en portant une brassée de pommes et de raisins.</p>\n<h4>La sensualité chromatique et la fraîcheur pastorale</h4>\n<p>Le format ovale, serti d'un décor rocaille, accentue la rondeur et la douceur des formes. Par sa touche fondue, ses reflets ocre et dorés et l'éclat délicatement nacré des carnations, cette composition célèbre la fécondité de la terre avec une tendresse humaine et une grâce pastorale annonçant tout le raffinement du siècle des Lumières.</p>"
+  "text": "<h4>L'ordonnance mythologique des quatre âges de l'année</h4>\n<p>Depuis la poésie d'Hésiode, d'Ovide et de Virgile, le cycle perpétuel de la nature est traditionnellement personnifié par les quatre divinités tutélaires des saisons : le Printemps couronné des premières fleurs de Flore, l'Été portant les gerbes d'épis de blé doré de Cérès, l'Automne ployant sous les grappes gorgées de soleil de Bacchus, et l'Hiver grelottant auprès du feu dispensé par Vulcain.</p>\n<h4>Bacchus, souverain de la maturité et des vendanges</h4>\n<p>Dans ce grand concert cosmologique, Bacchus incarne le temps de l'accomplissement et de la récompense des labeurs agricoles. Dieu de la vigne, de la sève régénératrice et de la végétation en fleur, il préside au pressoir et aux festivités bachiques qui marquent la fin des chaleurs estivales. Coiffé de pampres de lierre et de sarments, muni de la serpe rustique du vigneron et entouré de corbeilles débordantes de fruits mûrs, il dispense aux hommes le vin nouveau, breuvage sacré d'allégresse et d'immortalité.</p>\n<h4>Une méditation sur la plénitude de la terre</h4>\n<p>L'Automne bacchique célèbre l'ultime éclat de la générosité terrestre avant le dépouillement et l'engourdissement de l'hiver. Cette allégorie rappelle la vocation nourricière du cosmos et la relation sacrée unissant le travail paysan aux bénédictions des dieux de la fécondité.</p>"
 };
 
-// Aliases Watteau
-window.BACKGROUNDS_REGISTRY["la_finette"] = window.BACKGROUNDS_REGISTRY["la_finette_et_l_indifferent_theatre_galant"];
-window.BACKGROUNDS_REGISTRY["assemblee_dans_un_parc"] = window.BACKGROUNDS_REGISTRY["l_assemblee_dans_un_parc_fetes_galantes"];
-window.BACKGROUNDS_REGISTRY["watteau_automne"] = window.BACKGROUNDS_REGISTRY["l_automne_bacchus_adolescent_saisons_crozat"];
+
+// Aliases Poussin & Watteau
+
+window.BACKGROUNDS_REGISTRY["mars_et_venus"] = window.BACKGROUNDS_REGISTRY["mars_et_venus_triomphe_de_l_amour"];
+
+window.BACKGROUNDS_REGISTRY["pyrrhus_sauve"] = window.BACKGROUNDS_REGISTRY["le_jeune_pyrrhus_sauve_plutarque"];
+
+window.BACKGROUNDS_REGISTRY["aveugles_de_jericho"] = window.BACKGROUNDS_REGISTRY["les_aveugles_de_jericho_miracle_du_christ"];
+
+window.BACKGROUNDS_REGISTRY["femme_adultere"] = window.BACKGROUNDS_REGISTRY["le_christ_et_la_femme_adultere_evangile"];
+
+window.BACKGROUNDS_REGISTRY["nourriture_de_bacchus"] = window.BACKGROUNDS_REGISTRY["enfance_nourriture_de_bacchus_mont_nysa"];
+
+window.BACKGROUNDS_REGISTRY["verge_d_aaron"] = window.BACKGROUNDS_REGISTRY["moise_et_la_verge_d_aaron_serpent_pharaon"];
+
+window.BACKGROUNDS_REGISTRY["saint_jean_baptisant_sur_le_jourdain"] = window.BACKGROUNDS_REGISTRY["bapteme_du_christ_jourdain"];
+
+window.BACKGROUNDS_REGISTRY["la_finette"] = window.BACKGROUNDS_REGISTRY["commedia_dell_arte_et_theatre_de_la_foire"];
+
+window.BACKGROUNDS_REGISTRY["l_indifferent"] = window.BACKGROUNDS_REGISTRY["commedia_dell_arte_et_theatre_de_la_foire"];
+
+window.BACKGROUNDS_REGISTRY["la_finette_et_l_indifferent_theatre_galant"] = window.BACKGROUNDS_REGISTRY["commedia_dell_arte_et_theatre_de_la_foire"];
+
+window.BACKGROUNDS_REGISTRY["assemblee_dans_un_parc"] = window.BACKGROUNDS_REGISTRY["la_fete_galante_et_la_pastorale_au_siecle_des_lumieres"];
+
+window.BACKGROUNDS_REGISTRY["l_assemblee_dans_un_parc_fetes_galantes"] = window.BACKGROUNDS_REGISTRY["la_fete_galante_et_la_pastorale_au_siecle_des_lumieres"];
+
+window.BACKGROUNDS_REGISTRY["watteau_automne"] = window.BACKGROUNDS_REGISTRY["bacchus_et_l_allegorie_des_quatre_saisons"];
+
+window.BACKGROUNDS_REGISTRY["l_automne_bacchus_adolescent_saisons_crozat"] = window.BACKGROUNDS_REGISTRY["bacchus_et_l_allegorie_des_quatre_saisons"];
