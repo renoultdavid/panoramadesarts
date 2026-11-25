@@ -7297,3 +7297,160 @@ window.BACKGROUNDS_REGISTRY["orage_fragonard"] = window.BACKGROUNDS_REGISTRY["l_
 window.BACKGROUNDS_REGISTRY["faux_pas"] = window.BACKGROUNDS_REGISTRY["la_fete_galante_et_la_pastorale_au_siecle_des_lumieres"];
 
 window.BACKGROUNDS_REGISTRY["deux_cousines"] = window.BACKGROUNDS_REGISTRY["la_fete_galante_et_la_pastorale_au_siecle_des_lumieres"];
+
+window.BACKGROUNDS_REGISTRY["figures_de_fantaisie_portrait_expressif_lumieres"] = {
+  "id": "figures_de_fantaisie_portrait_expressif_lumieres",
+  "badge": "PORTRAIT D'EXPRESSION & FIGURES DE FANTAISIE",
+  "title": "Les Figures de Fantaisie : Virtuosité d'Atelier, Théâtralité et Émancipation du Portrait",
+  "sources": "L'art du costume espagnol, Frans Hals, Rubens et la théorie des passions de l'âme",
+  "keywords": [
+    "figures de fantaisie",
+    "portrait",
+    "théâtre",
+    "costume espagnol",
+    "fraise",
+    "inspiration",
+    "étude",
+    "alla prima",
+    "virtuosité",
+    "lumières"
+  ],
+  "text": "<h4>L'émancipation du portrait officiel</h4>\n<p>Au cœur du Siècle des Lumières, le genre de la figure de fantaisie opère une rupture radicale avec les codes figés du portrait d'apparat aristocratique. Délaissant la recherche méticuleuse de la ressemblance académique et l'étiquette pesante des cours, les maîtres de l'époque privilégient l'effigie d'humeur, la vivacité psychologique et l'intensité d'une pensée ou d'une émotion saisie sur le vif.</p>\n<h4>Le costume de théâtre et le travestissement héroïque</h4>\n<p>Pour affranchir leurs modèles de la mode contemporaine et leur conférer une portée atemporelle, les artistes recourent au costume de convention, communément désigné comme costume « espagnol » ou Renaissance : larges fraises tuyautées en dentelle, pourpoints chamarrés aux teintes franches (jaune doré, rose carmin, bleu profond), bérets empanachés et amples manteaux drapés sur l'épaule. Ce travestissement théâtral transforme le modèle en allégorie vivante des facultés de l'esprit — l'Inspiration poétique, l'Étude studieuse, la Musique ou la noblesse militaire.</p>\n<h4>Le triomphe de la bravoure picturale</h4>\n<p>Exécutées selon la technique de l'<em>alla prima</em> (peint d'un seul jet, dans le frais), ces toiles célèbrent le geste créateur dans toute sa fulgurance. Les coups de brosse empâtés, nerveux et délibérément visibles sculptent les étoffes et le relief des visages avec une audace qui annonce la modernité, faisant de la figure de fantaisie un véritable manifeste de la liberté de peindre.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["le_monde_rural_et_la_peinture_animaliere_rustique"] = {
+  "id": "le_monde_rural_et_la_peinture_animaliere_rustique",
+  "badge": "MONDE RURAL & ÉTUDE ANIMALIÈRE",
+  "title": "L'Étable Rustique et la Peinture Animalière : La Dignité du Vivant Champêtre",
+  "sources": "Virgile, Géorgiques (Livre III) & tradition agronomique et pastorale",
+  "keywords": [
+    "taureau",
+    "étable",
+    "foin",
+    "animalier",
+    "rural",
+    "paysan",
+    "clair-obscur",
+    "nature",
+    "virgile"
+  ],
+  "text": "<h4>L'étable, sanctuaire du travail paysan</h4>\n<p>Au-delà du simple abri pour le bétail, l'étable rurale constitue dans la civilisation agricole le cœur nourricier et protecteur de la communauté humaine. Éclairée d'un rayon de lumière oblique perçant la pénombre feutrée, la mangeoire de bois rustique débordant de foin doré et le sol paillé composent un espace intime où se côtoient le calme du repos et la puissance brute de la vie animale.</p>\n<h4>La majesté monumentale du taureau</h4>\n<p>Depuis l'Antiquité virgilienne, le taureau et le bœuf incarnent les piliers sacrés de la fertilité de la terre et du labour nourricier. Par sa musculature puissante, son encolure massive et son regard paisible tourné vers le râtelier, le taureau blanc s'affranchit de toute connotation sacrificielle ou guerrière pour s'ériger en symbole de force tranquille et de bienveillance nourricière au sein de la nature domestiquée.</p>\n<h4>La vérité de la matière et du vivant</h4>\n<p>Dans la tradition picturale nordique et classique, le traitement du monde paysan sans artifice mythologique ni déformation comique célèbre la grandeur intrinsèque du vivant. Le contraste entre le pelage immaculé de la bête et l'ombre silencieuse de l'étable confère à la réalité rurale la noblesse spirituelle des sujets d'histoire.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["la_lecon_de_musique_et_le_marivaudage_amoureux"] = {
+  "id": "la_lecon_de_musique_et_le_marivaudage_amoureux",
+  "badge": "SCÈNE DE GENRE & MARIVAUDAGE",
+  "title": "La Leçon de Musique : Harmonie des Sons et Séduction Galante",
+  "sources": "Traités de musique des XVIIe-XVIIIe siècles, théâtre de Marivaux & pastorales galantes",
+  "keywords": [
+    "leçon de musique",
+    "clavecin",
+    "séduction",
+    "marivaudage",
+    "musique",
+    "amour",
+    "partition",
+    "intimité",
+    "intérieur"
+  ],
+  "text": "<h4>La musique comme langage du sentiment</h4>\n<p>Dans la culture aristocratique et bourgeoise des XVIIe et XVIIIe siècles, la pratique du clavecin, du luth ou du violon dépassait largement le cadre de l'apprentissage artistique : elle représentait le vecteur privilégié de la sociabilité intime et de l'éducation sensible. Au sein des salons feutrés, l'étude d'une partition offrait un espace rare où les convenances mondaines pouvaient s'assouplir sans scandale.</p>\n<h4>La proximité complice du maître et de l'élève</h4>\n<p>Le thème de la leçon de musique constitue l'un des archétypes les plus raffinés de la comédie galante : penché au-dessus du clavier pour guider le doigté ou tourner la page, le jeune professeur effleure la frontière délicate entre l'enseignement rigoureux et le badinage courtois. L'abandon momentané du jeu, le regard suspendu au-dessus des portées et le sourire discret esquissent un dialogue silencieux où les lois de l'harmonie musicale se confondent avec l'accord naissant des cœurs.</p>\n<h4>Le théâtre secret de l'intimité domestique</h4>\n<p>Encadrée par la tenture d'une alcôve et le silence complice d'un animal familier, cette scène de genre célèbre l'art de l'allusion et de la demi-teinte. La musique devient l'écrin poétique où l'émotion amoureuse s'exprime avec une infinie délicatesse, privilégiant le charme du non-dit à l'aveu direct.</p>"
+};
+
+
+// Aliases Figures de fantaisie, Taureau & Leçon de musique
+
+window.BACKGROUNDS_REGISTRY["figures_de_fantaisie"] = window.BACKGROUNDS_REGISTRY["figures_de_fantaisie_portrait_expressif_lumieres"];
+
+window.BACKGROUNDS_REGISTRY["figure_de_fantaisie"] = window.BACKGROUNDS_REGISTRY["figures_de_fantaisie_portrait_expressif_lumieres"];
+
+window.BACKGROUNDS_REGISTRY["taureau_blanc"] = window.BACKGROUNDS_REGISTRY["le_monde_rural_et_la_peinture_animaliere_rustique"];
+
+window.BACKGROUNDS_REGISTRY["lecon_de_musique"] = window.BACKGROUNDS_REGISTRY["la_lecon_de_musique_et_le_marivaudage_amoureux"];
+
+window.BACKGROUNDS_REGISTRY["coressus_et_callirhoe_sacrifice_tragique"] = {
+  "id": "coressus_et_callirhoe_sacrifice_tragique",
+  "badge": "TRAGÉDIE ANTIQUE & HÉROÏSME SACRIFICIEL",
+  "title": "Le Sacrifice de Corésus et Callirhoé : Fureur Dionysiaque et Dévouement Amoureux Ultime",
+  "sources": "Pausanias, Description de la Grèce (Livre VII, Achaïe, 21) & la tragédie lyrique classique",
+  "keywords": [
+    "corésus",
+    "callirhoé",
+    "pausanias",
+    "calydon",
+    "dionysos",
+    "sacrifice",
+    "prêtre",
+    "tragédie",
+    "dévouement",
+    "oracle"
+  ],
+  "text": "<h4>La fureur du dieu et la malédiction de Calydon</h4>\n<p>Dans sa <em>Description de la Grèce</em>, le géographe antique Pausanias rapporte la poignante légende étolienne de Corésus et Callirhoé. Grand prêtre voué au culte de Dionysos à Calydon, Corésus s'était épris de la jeune Callirhoé, mais celle-ci repoussa avec mépris ses avances réitérées. Blessé dans sa piété et son amour, le pontife implora le dieu du vin de venger cet affront. Dionysos frappa alors la cité tout entière d'une démence furieuse et meurtrière, semant le délire et la mort parmi les habitants.</p>\n<h4>L'oracle inexorable et le couteau sacerdotal</h4>\n<p>Désespérés, les citoyens de Calydon consultèrent l'oracle de Dodone, qui rendit un verdict implacable : l'épidémie ne cesserait que si Callirhoé était immolée sur l'autel de Dionysos, ou si une âme courageuse acceptait de se sacrifier à sa place. Conduite en pleurs devant l'autel sacré au milieu des fumées d'encens et des fidèles terrifiés, la jeune femme attendait le coup fatal de la main même de celui qu'elle avait dédaigné.</p>\n<h4>Le triomphe du dévouement suprême</h4>\n<p>Au moment décisif où le devoir religieux commandait de frapper, le grand prêtre fut incapable de répandre le sang de celle qu'il adorait toujours. Dans un geste sublime d'héroïsme tragique, Corésus retourna le poignard sacré contre son propre sein et s'effondra aux pieds de Callirhoé. Bouleversée par tant de grandeur d'âme et saisie de remords devant ce sacrifice absolu, la jeune fille se donna la mort peu après près d'une fontaine qui portera désormais son nom, scellant la victoire de l'amour pur sur la vengeance divine.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["l_alcove_et_l_intimite_du_boudoir_au_dix_huitieme"] = {
+  "id": "l_alcove_et_l_intimite_du_boudoir_au_dix_huitieme",
+  "badge": "INTIMITÉ, ALCÔVE & PEINTURE GALANTE",
+  "title": "L'Alcôve et le Boudoir au XVIIIe Siècle : Le Culte de l'Intimité et la Poétique du Voile",
+  "sources": "Jean-Jacques Rousseau, La Nouvelle Héloïse, traités de civilité et littérature galante des Lumières",
+  "keywords": [
+    "alcôve",
+    "boudoir",
+    "intimité",
+    "rideau",
+    "voile",
+    "désir",
+    "secret",
+    "galanterie",
+    "lumières",
+    "espièglerie"
+  ],
+  "text": "<h4>L'essor des espaces secrets et du confort privé</h4>\n<p>Au cours du XVIIIe siècle, l'architecture intérieure et l'art de vivre aristocratique connaissent une mutation fondamentale : rompant avec les enfilades froides et l'apparat théâtral des appartements de parade du Grand Siècle, l'habitation s'organise désormais autour de pièces intimes et confortables. Petits cabinets, boudoirs feutrés et alcôves fermées de lourdes tentures deviennent les sanctuaires du retrait studieux, de la rêverie solitaire et des confidences amoureuses.</p>\n<h4>La poétique du rideau et le jeu du regard dérobé</h4>\n<p>L'alcôve n'est pas seulement le lieu du repos nocturne ; elle s'affirme comme le théâtre symbolique du mystère et de la séduction. Le jeu du rideau que l'on écarte d'un doigt curieux ou du tissu vaporeux qui s'échappe introduit une dialectique raffinée entre le visible et le caché. Loin de la provocation directe, l'espièglerie de l'éveil ou du regard clandestin transforme le spectateur en témoin d'un instant volé, où l'innocence apparente dissimule une vive conscience du désir.</p>\n<h4>La sensualité des étoffes et la légèreté de l'éveil</h4>\n<p>Dans la sensibilité des Lumières, la beauté féminine s'exprime dans l'abandon naturel d'une couche défaite, le bruissement des soieries et la fraîcheur des linges de batiste. Ce culte de la grâce spontanée célèbre le corps affranchi des corsets et des conventions sociales, capturant la fugacité d'un sourire complice dans la lumière filtrée de l'intérieur domestique.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["l_autel_de_l_amour_et_le_sentimentalisme_preromantique"] = {
+  "id": "l_autel_de_l_amour_et_le_sentimentalisme_preromantique",
+  "badge": "ALLÉGORIE AMOUREUSE & PRÉROMANTISME",
+  "title": "L'Autel de l'Amour : Du Rituel Allégorique à l'Exaltation Préromantique",
+  "sources": "L'Anthologie grecque, Pétrarque et la poésie élégiaque du XVIIIe siècle",
+  "keywords": [
+    "autel de l'amour",
+    "vœu à l'amour",
+    "allégorie",
+    "amour",
+    "flambeau",
+    "encens",
+    "passion",
+    "préromantisme",
+    "serment",
+    "élégie"
+  ],
+  "text": "<h4>Le renouveau néoclassique de l'allégorie sacrée</h4>\n<p>À la fin du XVIIIe siècle, la vogue des fouilles d'Herculanum et de Pompéi ainsi que l'essor de la sensibilité rousseauiste transforment profondément l'imaginaire amoureux européen. Aux badinages frivoles de la comédie galante succède une quête de ferveur morale et de solennité quasi religieuse : le sentiment n'est plus un divertissement passager, mais un engagement sacré de l'être tout entier.</p>\n<h4>L'autel antique, témoin du vœu passionné</h4>\n<p>Dressé à l'orée d'un sanctuaire ombragé, l'autel de pierre où s'élèvent les volutes d'encens et la flamme inextinguible du flambeau d'Éros devient le point de mire de l'adoration amoureuse. Tendant les bras vers la divinité invisible ou la statue du dieu ailé, l'âme suppliante scelle un pacte éternel : le vœu d'amour emprunte aux rituels antiques leur gravité mystique pour consacrer l'absolu de la passion.</p>\n<h4>L'avènement du sentiment préromantique</h4>\n<p>Dans cette vision poétique baignée de brumes lumineuses et de clair-obscur atmosphérique, le personnage se détache du monde terrestre dans un élan visionnaire. Cette exaltation mystique du cœur annonce directement le grand romantisme du XIXe siècle, où l'amour pur s'érige en force cosmique et en voie d'élévation spirituelle.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["la_cruche_cassee_allegorie_de_l_innocence_perdue"] = {
+  "id": "la_cruche_cassee_allegorie_de_l_innocence_perdue",
+  "badge": "ALLÉGORIE MORALE & SENSIBILISME",
+  "title": "La Cruche Brisée : Allégorie de l'Innocence Perdue et Morale des Sentiments",
+  "sources": "Denis Diderot, Salons & la tradition métaphorique des scènes de genre hollandaises et françaises",
+  "keywords": [
+    "cruche cassée",
+    "cruche",
+    "innocence",
+    "vertu",
+    "sensibilisme",
+    "fontaine",
+    "fleurs",
+    "adolescence",
+    "morale",
+    "diderot"
+  ],
+  "text": "<h4>L'émblème traditionnel de la fragilité de la vertu</h4>\n<p>Héritée des emblèmes de la Renaissance et des maîtres de genre hollandais du XVIIe siècle, l'image du récipient fêlé ou brisé constitue l'une des métaphores morales les plus universelles de l'art européen. Vase de terre cuite ou cruche portée à la fontaine, sa rupture accidentelle symbolise sans équivoque la perte irréversible de l'innocence virginale et le passage troublé de l'enfance naïve à la maturité affective.</p>\n<h4>La fontaine champêtre et le trouble secret</h4>\n<p>Le lieu même de l'accident — la margelle d'une fontaine rustique ombragée par des branchages — renvoie à la symbolique de l'eau vive, miroir de l'âme et source de fécondité. L'adolescente saisie immobile, les bras encombrés d'une brassée de fleurs prêtes à se flétrir et le regard perdu dans une vague mélancolie, incarne la pudeur désarmée devant la révélation d'un éveil intérieur qu'elle ne comprend pas encore tout à fait.</p>\n<h4>La peinture morale et la sensibilité des Lumières</h4>\n<p>Au Siècle des Lumières, sous l'impulsion de philosophes comme Denis Diderot, ce genre de sujet allégorique est élevé à une haute dignité dramatique. Loin de la moquerie libertine, la scène invite le spectateur à une compassion tendre et protectrice : par la vérité de l'expression et la douceur émouvante de l'attitude, l'allégorie de la vertu troublée célèbre la délicatesse vulnérable du cœur humain.</p>"
+};
+
+// Aliases
+window.BACKGROUNDS_REGISTRY["coressus_callirhoe"] = window.BACKGROUNDS_REGISTRY["coressus_et_callirhoe_sacrifice_tragique"];
+window.BACKGROUNDS_REGISTRY["la_chemise_enlevee"] = window.BACKGROUNDS_REGISTRY["l_alcove_et_l_intimite_du_boudoir_au_dix_huitieme"];
+window.BACKGROUNDS_REGISTRY["les_curieuses"] = window.BACKGROUNDS_REGISTRY["l_alcove_et_l_intimite_du_boudoir_au_dix_huitieme"];
+window.BACKGROUNDS_REGISTRY["voeu_a_l_amour"] = window.BACKGROUNDS_REGISTRY["l_autel_de_l_amour_et_le_sentimentalisme_preromantique"];
+window.BACKGROUNDS_REGISTRY["la_cruche_cassee"] = window.BACKGROUNDS_REGISTRY["la_cruche_cassee_allegorie_de_l_innocence_perdue"];
+window.BACKGROUNDS_REGISTRY["colin_maillard"] = window.BACKGROUNDS_REGISTRY["la_fete_galante_et_la_pastorale_au_siecle_des_lumieres"];

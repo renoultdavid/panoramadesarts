@@ -9047,6 +9047,26 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Fragonard Jean-Honoré (8 nouveaux chefs-d'œuvre - Louvre)
+  "fragonard_adoration_des_bergers_louvre_1775": { h: 73.0, w: 93.0, display: "73 × 93 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_coressus_et_callirhoe_louvre_1765": { h: 309.0, w: 400.0, display: "309 × 400 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_colin_maillard_louvre_1765": { h: 38.0, w: 47.0, display: "38 × 47 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_chemise_enlevee_louvre_1770": { h: 35.0, w: 42.5, display: "35 × 42,5 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_curieuses_louvre_1775": { h: 16.0, w: 13.0, display: "16 × 13 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_voeu_a_l_amour_louvre_1780": { h: 24.0, w: 33.0, display: "24 × 33 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_taureau_blanc_a_l_etable_louvre_1761": { h: 72.5, w: 91.5, display: "72,5 × 91,5 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_portrait_mr_meunier_diderot_louvre_1769": { h: 80.0, w: 65.0, display: "80 × 65 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_l_etude_louvre_1769": { h: 81.5, w: 65.0, display: "81,5 × 65 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_duc_de_beuvron_louvre_1770": { h: 80.0, w: 65.0, display: "80 × 65 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_la_lecon_de_musique_louvre_1765": { h: 109.0, w: 121.0, display: "109 × 121 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_comtesse_de_grave_louvre_1769": { h: 82.0, w: 65.0, display: "82 × 65 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_figure_de_fantaisie_abbe_de_saint_non_louvre_1769": { h: 80.0, w: 65.0, display: "80 × 65 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_linspiration_portrait_prault_louvre_1769": { h: 80.0, w: 64.0, display: "80 × 64 cm", loc: "Musée du Louvre, Paris" },
+
+  // Greuze Jean-Baptiste (nouveaux ajouts - Louvre)
+  "greuze_la_cruche_cassee_louvre_1771": { h: 109.0, w: 87.0, display: "109 × 87 cm", loc: "Musée du Louvre, Paris" },
+  "greuze_portrait_de_l_artiste_louvre_1769": { h: 73.0, w: 59.0, display: "73 × 59 cm", loc: "Musée du Louvre, Paris" },
+
   // Boucher François
   "boucher_le_peintre_dans_son_atelier_louvre_1725": { h: 27.0, w: 22.0, display: "27 × 22 cm", loc: "Musée du Louvre, Paris" },
 

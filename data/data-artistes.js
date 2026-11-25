@@ -1101,11 +1101,13 @@ window.ARTISTS_REGISTRY = {
     `,
     "corpus": {
       "total": 425,
+      "seen": 8,
       "paintingsCount": 425,
       "details": [
         {
           "label": "Peintures autographes (huile sur toile et sur panneau)",
           "count": 425,
+          "seen": 8,
           "icon": "🎨",
           "color": "#d4af37"
         }
@@ -1206,6 +1208,14 @@ window.ARTISTS_REGISTRY = {
                         "desc": "Présente Septime Sévère et Caracalla pour sa réception ; l'Académie le rétrograde peintre de genre. Greuze quitte le Salon officiel.",
                         "icon": "⚡",
                         "badge": "Rupture"
+                    },
+                    {
+                        "year": 1771,
+                        "title": "La Cruche cassée (Musée du Louvre)",
+                        "desc": "Chef-d'œuvre de la peinture morale et sentimentale célébré par Denis Diderot, allégorie sur le trouble secret et la fragilité de la vertu féminine.",
+                        "type": "masterpiece",
+                        "icon": "🏺",
+                        "artworkId": "greuze_la_cruche_cassee_louvre_1771"
                     },
                     {
                         "year": 1780,
@@ -13890,7 +13900,7 @@ window.ARTISTS_REGISTRY = {
     `,
   "corpus": {
     "total": 400,
-    "seen": 16,
+    "seen": 30,
     "paintingsCount": 400,
     "sourceTitle": "Catalogues raisonnés de référence : Jean-Pierre Cuzin (1987) et Pierre Rosenberg (1989)",
     "sourceNotes": "Si le catalogue historique de Georges Wildenstein (1960) lui accordait plus de 545 tableaux, les recherches modernes de Jean-Pierre Cuzin et Pierre Rosenberg ont purgé les copies d'atelier, pastiches du XIXe et toiles à quatre mains avec Marguerite Gérard pour fixer le corpus strictement authentique à environ 400 peintures.",
@@ -13900,7 +13910,7 @@ window.ARTISTS_REGISTRY = {
         "count": 220,
         "icon": "🌸",
         "color": "#ec4899",
-        "seen": 6,
+        "seen": 11,
         "note": "Scènes de séduction, jeux champêtres, pastorales lumineuses et poésies amoureuses."
       },
       {
@@ -13908,7 +13918,7 @@ window.ARTISTS_REGISTRY = {
         "count": 80,
         "icon": "🎭",
         "color": "#d4af37",
-        "seen": 3,
+        "seen": 9,
         "note": "Portraits exécutés en une heure au brio virtuose et empâtements fougueux."
       },
       {
@@ -13916,7 +13926,7 @@ window.ARTISTS_REGISTRY = {
         "count": 100,
         "icon": "🏛️",
         "color": "#10b981",
-        "seen": 2,
+        "seen": 3,
         "note": "Jardins de Tivoli, lavandières et ruines antiques baignées de lumière dorée."
       }
     ]
@@ -14030,8 +14040,9 @@ window.ARTISTS_REGISTRY = {
             "year": 1765,
             "title": "Triomphe au Salon avec 'Corésus et Callirhoé'",
             "desc": "Agréé à l'Académie royale avec ce tableau d'histoire monumental acquis par Louis XV. Diderot en fait un éloge dithyrambique dans son Salon.",
-            "type": "award",
-            "icon": "🏛️"
+            "type": "masterpiece",
+            "icon": "🏛️",
+            "artworkId": "fragonard_coressus_et_callirhoe_louvre_1765"
           },
           {
             "year": 1767,
