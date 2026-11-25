@@ -6807,6 +6807,7 @@ window.BACKGROUNDS_REGISTRY["cratere_borghese_neo_attique_thiase_dionysiaque"] =
   "summary": "Sculpté à Athènes vers 40-30 av. J.-C. pour l'aristocratie romaine et découvert dans les jardins de Salluste, le Cratère Borghèse déploie une frise magistrale du thiase dionysiaque, alliant la pureté classique à la fougue extatique des bacchantes et satyres.",
   "text": "<h4>Le sommet de la toreutique et de la sculpture de marbre pentélique</h4>\n<p>Chef-d'œuvre absolu du département des Antiquités grecques et romaines du Musée du Louvre, le Cratère Borghèse représente l'apogée du style néo-attique sous la République tardive :</p>\n<ul>\n  <li><strong>Le thiase dionysiaque en ronde-bosse :</strong> Dionysos couronné de lierre tenant le thyrse s'avance d'un pas assuré, entouré de ménades dansant dans des poses extatiques et de satyres ivres soutenus par leurs compagnons.</li>\n  <li><strong>Architecture tripartite du calice :</strong> Bordure supérieure ornée d'oves et de dards, attaches d'anses figurant des têtes de silènes barbus, base à godrons et piedouche mouluré de feuilles d'acanthe.</li>\n  <li><strong>Fortune historique prodigieuse :</strong> Découvert au XVIe siècle dans les somptueux <em>Horti Sallustiani</em> à Rome, puis intégré aux collections Borghèse avant son achat par Napoléon en 1807, il a inspiré les plus grands artistes de la Renaissance au Néoclassicisme.</li>\n</ul>",
   "content": "<h4>Le Cratère Borghèse au Musée du Louvre</h4><p>Sculpté en marbre pentélique vers 40-30 av. J.-C., ce cratère monumental illustre le thiase de Dionysos avec une élégance néo-attique inégalée.</p>"
+
 };
 
 
@@ -6901,3 +6902,25 @@ window.BACKGROUNDS_REGISTRY["argenterie_romaine"] = window.BACKGROUNDS_REGISTRY[
 window.BACKGROUNDS_REGISTRY["toreutique_romaine"] = window.BACKGROUNDS_REGISTRY["argenterie_romaine_banquet_coupe_warren"];
 window.BACKGROUNDS_REGISTRY["vaisselle_argent_romaine"] = window.BACKGROUNDS_REGISTRY["argenterie_romaine_banquet_coupe_warren"];
 
+window.BACKGROUNDS_REGISTRY["morgante_nain_de_cour_medicis_grotesque"] = {
+  "id": "morgante_nain_de_cour_medicis_grotesque",
+  "badge": "COUR DES MÉDICIS & ART DU GROTESQUE",
+  "title": "Morgante et les Nains de Cour des Médicis : Grotesque, Satire et Parodie Bacchique",
+  "sources": "Giorgio Vasari, Les Vies & Chroniques de la cour ducale de Florence (XVIe siècle)",
+  "keywords": [
+    "morgante",
+    "nain de cour",
+    "médicis",
+    "cosme ier",
+    "giambologna",
+    "bacchus",
+    "grotesque",
+    "braccio di bartolo",
+    "florence"
+  ],
+  "text": "<h4>Le favori de la cour de Cosme Ier de Médicis</h4>\n<p>Braccio di Bartolo (vers 1535 – 1594), affublé par dérision du sobriquet ironique de <strong>Morgante</strong> — nom d'un géant héros d'un célèbre poème épique de Luigi Pulci —, était le plus célèbre et le plus choyé des nains de cour du grand-duc Cosme Ier de Médicis à Florence. Loin d'être de simples bouffons, les nains de cour jouissaient d'une liberté de parole, d'un statut officiel et d'une proximité intime avec les souverains que les courtisans ordinaires ne pouvaient approcher.</p>\n<h4>La parodie mythologique et le contre-pied des canons antiques</h4>\n<p>À la Renaissance tardive, le maniérisme florentin se passionne pour le grotesque, le caprice et la bizarrerie anatomique. Cosme Ier et ses successeurs commandent aux plus grands maîtres des portraits de Morgante : Agnolo Bronzino le peint nu en recto-verso (musée des Offices), Valerio Cigoli le sculpte en Bacchus chevauchant une tortue pour la fontaine du Jardin de Boboli, et <strong>Giambologna</strong> réalise pour les cabinets princiers des statuettes de bronze le figurant en Bacchus grotesque, juché à califourchon sur un tonneau de vin.</p>\n<h4>Un exercice de virtuosité maniériste</h4>\n<p>En transposant la prestigieuse <em>figura serpentinata</em> et le savoir-faire virtuose de la fonte à la cire perdue dans le registre de la satire corporelle, Jean de Bologne inverse les codes classiques de la beauté héroïque : le ventre replet, la silhouette trapue et l'anatomie hyperbolique de Morgante deviennent un terrain d'expérimentation plastique savoureux, célébrant la maîtrise technique du sculpteur capable de conférer dignité esthétique et puissance dynamique aux sujets les plus hétérodoxes.</p>"
+};
+
+// Aliases Morgante
+window.BACKGROUNDS_REGISTRY["nain_morgante"] = window.BACKGROUNDS_REGISTRY["morgante_nain_de_cour_medicis_grotesque"];
+window.BACKGROUNDS_REGISTRY["morgante"] = window.BACKGROUNDS_REGISTRY["morgante_nain_de_cour_medicis_grotesque"];
