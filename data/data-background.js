@@ -7070,3 +7070,65 @@ window.BACKGROUNDS_REGISTRY["aveugles_de_jericho"] = window.BACKGROUNDS_REGISTRY
 window.BACKGROUNDS_REGISTRY["femme_adultere"] = window.BACKGROUNDS_REGISTRY["le_christ_et_la_femme_adultere_evangile"];
 window.BACKGROUNDS_REGISTRY["nourriture_de_bacchus"] = window.BACKGROUNDS_REGISTRY["enfance_nourriture_de_bacchus_mont_nysa"];
 window.BACKGROUNDS_REGISTRY["verge_d_aaron"] = window.BACKGROUNDS_REGISTRY["moise_et_la_verge_d_aaron_serpent_pharaon"];
+
+window.BACKGROUNDS_REGISTRY["la_finette_et_l_indifferent_theatre_galant"] = {
+  "id": "la_finette_et_l_indifferent_theatre_galant",
+  "badge": "THÉÂTRE, MUSIQUE & FÊTES GALANTES",
+  "title": "La Finette et L'Indifférent : La Séduction Rusée et la Nonchalance Galante",
+  "sources": "Commedia dell'arte & Recueil Jullienne (L'Œuvre d'Antoine Watteau)",
+  "keywords": [
+    "finette",
+    "indifférent",
+    "théorbe",
+    "musique",
+    "théâtre",
+    "comédie",
+    "la caze",
+    "louvre",
+    "watteau"
+  ],
+  "text": "<h4>Le dialogue silencieux de deux pendants célèbres</h4>\n<p>Conçus pour se faire écho sur les murs d'un cabinet d'amateur au début du XVIIIe siècle, <em>La Finette</em> et <em>L'Indifférent</em> forment l'un des diptyques les plus célèbres et les plus poétiques de Jean-Antoine Watteau. Réunis au musée du Louvre grâce au legs du docteur Louis La Caze en 1869, ces deux petits panneaux sur bois incarnent deux tempéraments emblématiques de la comédie galante : d'un côté la vivacité piquante et rusée de la jeune musicienne, de l'autre la légèreté insouciante du jeune danseur en costume de soie chatoyante.</p>\n<h4>La Finette, héroïne de théâtre et musicienne en pause</h4>\n<p>Le nom de <em>Finette</em> fait référence à l'archétype théâtral de la servante spirituelle, ingénieuse et maîtresse de son jeu, issu du théâtre de foire et de la Comédie-Italienne. Vêtue d'une robe de satin olive aux plis cassants et coiffée d'une collerette tuyautée, la jeune femme est assise avec son théorbe sur les genoux. Son regard oblique, adressé avec malice et retenue au spectateur, suspend l'instant musical et transforme l'auditeur en confident.</p>\n<h4>Une mélancolie diffuse sous le faste des apparences</h4>\n<p>La touche vibrante de Watteau fait scintiller les soieries tout en fondant les contours de la silhouette dans la pénombre du sous-bois. Ce contraste subtil entre le raffinement artificiel du costume de scène et la solitude poignante de la figure isolée dans la nature crépusculaire confère à l'œuvre son indicible pouvoir de fascination.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["l_assemblee_dans_un_parc_fetes_galantes"] = {
+  "id": "l_assemblee_dans_un_parc_fetes_galantes",
+  "badge": "PEINTURE ROCOCO & FÊTES GALANTES",
+  "title": "L'Assemblée dans un parc : L'Invention de la Fête Galante et la Rêverie Crépusculaire",
+  "sources": "Edme-François Gersaint & Recueil d'estampes Jullienne",
+  "keywords": [
+    "assemblée dans un parc",
+    "fête galante",
+    "parc",
+    "conversation",
+    "crépuscule",
+    "rubens",
+    "la caze",
+    "louvre",
+    "watteau"
+  ],
+  "text": "<h4>La fête galante : naissance d'un genre pictural universel</h4>\n<p>Reçu à l'Académie royale de peinture et de sculpture en 1717 sous la dénomination inédite de « peintre des fêtes galantes », Antoine Watteau a réinventé la tradition pastorale en situant des figures aristocratiques et des acteurs de théâtre dans des parcs enchanteurs. <em>L'Assemblée dans un parc</em>, léguée au Louvre par Louis La Caze, compte parmi les expressions les plus parfaites de cet univers poétique où l'amour se dit à demi-mot, sans intrigue lourde ni solennité académique.</p>\n<h4>Le murmure des amours au bord de l'eau</h4>\n<p>Au bord d'un étang paisible où se mire la lumière dorée d'une fin d'après-midi, des élégants en habits de soie aux reflets moirés se promènent ou s'assoient sur l'herbe pour deviser, écouter de la musique ou lire un billet doux. Les couples se forment et se délient avec une grâce fluide, tandis qu'un petit chien trottine sur le gazon, ajoutant une note familière et spontanée à la scène.</p>\n<h4>Le songe crépusculaire et la fuite du temps</h4>\n<p>Héritée de Rubens et des coloristes vénitiens admirés chez son mécène Pierre Crozat, la palette de Watteau fait vibrer les frondaisons automnales sous un ciel nacré. L'atmosphère vaporeuse, où la joie de vivre côtoie toujours une discrète nostalgie de la brièveté du bonheur, transforme cette réunion mondaine en une méditation sensible sur l'éphémère des plaisirs humains.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["l_automne_bacchus_adolescent_saisons_crozat"] = {
+  "id": "l_automne_bacchus_adolescent_saisons_crozat",
+  "badge": "ALLÉGORIE DES SAISONS & MYTHOLOGIE ROCOCO",
+  "title": "L'Automne : Bacchus Adolescent et le Cycle Poétique des Saisons pour Pierre Crozat",
+  "sources": "Antoine-Joseph Dezallier d'Argenville, Abrégé de la vie des plus fameux peintres (1745)",
+  "keywords": [
+    "automne",
+    "bacchus",
+    "vendanges",
+    "crozat",
+    "saisons",
+    "fruits",
+    "ovale",
+    "louvre",
+    "watteau"
+  ],
+  "text": "<h4>Le mécénat raffiné de Pierre Crozat</h4>\n<p>Grand financier et collectionneur passionné possesseur d'un cabinet exceptionnel de dessins de maîtres italiens et flamands, Pierre Crozat hébergea Antoine Watteau dans son hôtel particulier de la rue de Richelieu à Paris. Pour la salle à manger de cette demeure somptueuse, le maître des fêtes galantes réalisa vers 1715-1716 un cycle de quatre toiles ovales représentant les Saisons, parmi lesquelles <em>L'Automne</em>, conservé au musée du Louvre, constitue l'un des sommets d'intimité poétique.</p>\n<h4>Un Bacchus adolescent aux antipodes de la pompe héroïque</h4>\n<p>Renouvelant avec audace la tradition mythologique louis-quatorzienne, Watteau délaisse les triomphes bacchiques tonitruants pour dépeindre le dieu des vendanges sous les traits d'un adolescent songeur, assis nonchalamment sur un tertre ombragé. Tenant la petite serpette des vendangeurs, il s'appuie sur une corbeille d'osier débordante de grappes translucides, tandis qu'un putto potelé s'empresse à ses côtés en portant une brassée de pommes et de raisins.</p>\n<h4>La sensualité chromatique et la fraîcheur pastorale</h4>\n<p>Le format ovale, serti d'un décor rocaille, accentue la rondeur et la douceur des formes. Par sa touche fondue, ses reflets ocre et dorés et l'éclat délicatement nacré des carnations, cette composition célèbre la fécondité de la terre avec une tendresse humaine et une grâce pastorale annonçant tout le raffinement du siècle des Lumières.</p>"
+};
+
+// Aliases Watteau
+window.BACKGROUNDS_REGISTRY["la_finette"] = window.BACKGROUNDS_REGISTRY["la_finette_et_l_indifferent_theatre_galant"];
+window.BACKGROUNDS_REGISTRY["assemblee_dans_un_parc"] = window.BACKGROUNDS_REGISTRY["l_assemblee_dans_un_parc_fetes_galantes"];
+window.BACKGROUNDS_REGISTRY["watteau_automne"] = window.BACKGROUNDS_REGISTRY["l_automne_bacchus_adolescent_saisons_crozat"];

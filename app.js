@@ -9047,6 +9047,20 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Watteau Antoine (3 œuvres)
+  "watteau_la_finette_louvre_1717": { h: 25.5, w: 19.0, display: "25,5 × 19 cm", loc: "Musée du Louvre, Paris" },
+  "watteau_assemblee_dans_un_parc_louvre_1716": { h: 32.5, w: 46.5, display: "32,5 × 46,5 cm", loc: "Musée du Louvre, Paris" },
+  "watteau_l_automne_bacchus_saisons_crozat_louvre_1715": { h: 51.0, w: 40.0, display: "51 × 40 cm (ovale)", loc: "Musée du Louvre, Paris" },
+
+  // Poussin Nicolas (7 œuvres - Louvre)
+  "poussin_mars_et_venus_louvre_1628": { h: 155.0, w: 213.5, display: "155 × 213,5 cm", loc: "Musée du Louvre, Paris" },
+  "poussin_jeune_pyrrhus_sauve_louvre_1634": { h: 130.0, w: 197.0, display: "130 × 197 cm", loc: "Musée du Louvre, Paris" },
+  "poussin_les_aveugles_de_jericho_louvre_1650": { h: 119.0, w: 176.0, display: "119 × 176 cm", loc: "Musée du Louvre, Paris" },
+  "poussin_christ_et_la_femme_adultere_louvre_1653": { h: 121.0, w: 195.0, display: "121 × 195 cm", loc: "Musée du Louvre, Paris" },
+  "poussin_la_nourriture_de_bacchus_louvre_1626": { h: 74.0, w: 97.0, display: "74 × 97 cm", loc: "Musée du Louvre, Paris" },
+  "poussin_saint_jean_baptisant_le_peuple_louvre_1635": { h: 94.0, w: 120.0, display: "94 × 120 cm", loc: "Musée du Louvre, Paris" },
+  "poussin_moise_changeant_en_serpent_la_verge_d_aaron_louvre_1646": { h: 92.0, w: 128.0, display: "92 × 128 cm", loc: "Musée du Louvre, Paris" },
+
   // Ingres Jean-Auguste-Dominique (14 œuvres)
   "ingres_mademoiselle_caroline_riviere_louvre_1805": { h: 100.0, w: 70.0, display: "100 × 70 cm", loc: "Musée du Louvre, Paris" },
   "ingres_madame_riviere_louvre_1805": { h: 116.0, w: 89.0, display: "116 × 89 cm (ovale)", loc: "Musée du Louvre, Paris" },
