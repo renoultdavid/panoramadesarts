@@ -11181,10 +11181,28 @@ const TAXONOMY_DOMAINS = {
   "vie_quotidienne": {
     label: "Vie quotidienne, Sciences, Usages & Écriture",
     types: [
-      "Cosmétique, Toilette & Beauté", "Jeux, Théâtre & Musique",
-      "Mobilier domestique & Apparat", "Sciences & Instruments (astrolabe, mesure)",
-      "Stèle administrative / Décret", "Tablette cunéiforme / Document écrit",
-      "Verrerie profane"
+      "Artisanat textile & Tissage",
+      "Cosmétique, Toilette & Beauté",
+      "Culte domestique, Laraires & Autels votifs",
+      "Décor domestique & Oscillum",
+      "Hydraulique, Canalisations (fistulae) & Confort",
+      "Jeux de société, Dés & Pions (calculi)",
+      "Jeux, Théâtre & Musique",
+      "Magie, Envoûtement & Tablettes d'exécration",
+      "Masque de théâtre (tragédie & comédie)",
+      "Médecine, Chirurgie & Pharmacopée",
+      "Mobilier domestique & Apparat",
+      "Pêche, Chasse & Outils de subsistance",
+      "Petite enfance, Puériculture & Jouets",
+      "Poids, Mesures & Balances (statera)",
+      "Rites funéraires & Sépultures",
+      "Sciences & Instruments (astrolabe, mesure)",
+      "Stèle administrative / Décret",
+      "Superstition, Amulettes & Talismans (fascinum)",
+      "Tablette cunéiforme / Document écrit",
+      "Vaisselle culinaire, Cuisine & Préparation",
+      "Verrerie profane & Balsamaires",
+      "Voirie romaine, Bornage & Épigraphie"
     ]
   }
 };

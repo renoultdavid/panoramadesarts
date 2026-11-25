@@ -6,6 +6,198 @@
    ========================================================================== */
 
 window.BACKGROUNDS_REGISTRY = {
+  "jeux_hasard_strategie_rome_calculi": {
+    "id": "jeux_hasard_strategie_rome_calculi",
+    "badge": "SOCIÉTÉ & DIVERTISSEMENTS ANTIQUES",
+    "title": "Jeux de Hasard et de Stratégie à Rome : Des Dés aux Latroncules",
+    "sources": "Ovide (L'Art d'aimer), Suétone & Martial (Épigrammes)",
+    "keywords": [
+      "ludus",
+      "calculi",
+      "dés",
+      "tesserae",
+      "tali",
+      "mérelle",
+      "latroncules",
+      "ludus latrunculorum",
+      "jeux romains"
+    ],
+    "text": "<p>Dans le monde romain, le jeu (ludus) était une passion partagée par toutes les classes sociales, des empereurs aux plébéiens des tavernes. Si les jeux de hasard avec dés (alea, tesserae) ou osselets (tali) étaient parfois encadrés par la loi pour limiter les paris compulsifs, ils étaient universellement tolérés lors des Saturnales et pratiqués quotidiennement dans les espaces publics.</p><p>Parallèlement, les Romains raffolaient des jeux de stratégie sur tablier gravé, tels que la mérelle (jeu du moulin) et le ludus latrunculorum (« jeu des petits mercenaires »), ancêtre tactique des dames et des échecs où s'affrontaient des pions (calculi) en os, en pierre ou en pâte de verre.</p>"
+  },
+  "superstition_fascinum_tintinnabulum_rome": {
+    "id": "superstition_fascinum_tintinnabulum_rome",
+    "badge": "CROYANCES POPULAIRES & PROTECTION MAGIQUE",
+    "title": "Le Fascinum et le Tintinnabulum : Le Pouvoir Apotropaïque contre le Mauvais Œil",
+    "sources": "Varron (De la langue latine), Pline l'Ancien (Histoire naturelle) & Augustin",
+    "keywords": [
+      "fascinum",
+      "tintinnabulum",
+      "mauvais œil",
+      "phallus ailé",
+      "amulette",
+      "protection apotropaïque",
+      "priape"
+    ],
+    "text": "<p>Dans l'imaginaire religieux et superstitieux des Romains, le fascinum (l'effigie phallique) était le protecteur suprême contre l'invidia (la jalousie malveillante) et le fascinatio (le mauvais œil). Loin de toute connotation obscène moderne, le phallus était un emblème sacré de vitalité génératrice capable de repousser les forces destructrices.</p><p>Accrochés au seuil des maisons, des échoppes ou au cou des enfants sous forme de bulla ou d'amulette, les tintinnabula associaient la vision du phallus ailé au son tintant de petites clochettes agitées par le vent, créant une barrière acoustique et magique infranchissable pour les esprits malfaisants.</p>"
+  },
+  "magie_noire_defixiones_tablettes_execration": {
+    "id": "magie_noire_defixiones_tablettes_execration",
+    "badge": "MAGIE ANTIQUE & PRATIQUES SECRÈTES",
+    "title": "Les Tablettes d'Exécration (Defixiones) : La Malédiction Gravée dans le Plomb",
+    "sources": "Corpus Inscriptionum Latinarum, Pline l'Ancien & Tacite",
+    "keywords": [
+      "defixio",
+      "defixiones",
+      "tablette d'exécration",
+      "malédiction",
+      "plomb",
+      "envoûtement",
+      "magie romaine"
+    ],
+    "text": "<p>Parallèlement aux cultes officiels de la cité, la magie privée répondait aux rancœurs, aux rivalités amoureuses, aux litiges judiciaires ou aux compétitions sportives du cirque. Pour neutraliser un adversaire, les Romains avaient recours aux defixiones, de fines lamelles de plomb sur lesquelles étaient gravées des formules d'envoûtement appelant les divinités infernales (chtoniennes).</p><p>Le métal choisi — le plomb, lourd, froid et voué à l'altération — matérialisait la paralysie souhaitée de la victime. Une fois roulées ou transpercées d'un clou rituel, ces tablettes étaient enfouies dans des tombes, des puits ou des sanctuaires souterrains pour atteindre directement les puissances du monde souterrain.</p>"
+  },
+  "culte_domestique_lares_penates_lararium": {
+    "id": "culte_domestique_lares_penates_lararium",
+    "badge": "RELIGION PRIVÉE & SACRALITÉ DU FOYER",
+    "title": "Le Culte Domestique : Lares, Pénates et la Piété au Cœur de la Domus",
+    "sources": "Cicéron (De legibus), Caton (De agri cultura) & Tibulle",
+    "keywords": [
+      "lararium",
+      "laraire",
+      "dieux lares",
+      "pénates",
+      "génie du maître",
+      "autel domestique",
+      "déesse-mère"
+    ],
+    "text": "<p>Au cœur de la maison romaine, l'atrium ou la cuisine abritait le lararium (laraire), un autel ou une niche architecturée dédié aux dieux Lares (protecteurs du lieu et des terres), aux Pénates (gardiens des provisions) et au Genius du chef de famille (pater familias).</p><p>Chaque jour, et particulièrement lors des Calendes, des Nones et des Ides, la maisonnée s'y rassemblait pour offrir du vin, de l'encens, des couronnes de fleurs ou du gâteau sacré. En Gaule et dans les provinces, ce culte intime s'enrichit d'un vibrant syncrétisme avec les divinités indigènes de la fécondité, matérialisées par d'humbles statuettes de déesses-mères allaitantes en terre cuite blanche.</p>"
+  },
+  "medecine_chirurgie_pharmacopee_rome": {
+    "id": "medecine_chirurgie_pharmacopee_rome",
+    "badge": "SCIENCES & ARTS MÉDICAUX ANTIQUES",
+    "title": "L'Art de Guérir dans l'Empire Romain : Du Champ de Bataille à la Cité",
+    "sources": "Celse (De Medicina), Galien & Dioscoride",
+    "keywords": [
+      "médecine romaine",
+      "chirurgie",
+      "medicus",
+      "scalpel",
+      "sonde",
+      "pharmacopée",
+      "esculape",
+      "celse"
+    ],
+    "text": "<p>Héritière de la tradition hippocratique grecque, la médecine romaine atteignit sous le Haut-Empire un haut degré de technicité chirurgicale et d'organisation civique. Les médecins civils (medici) et chirurgiens militaires disposaient d'un outillage métallique en bronze spécialisé d'une étonnante modernité : scalpels à lames interchangeables, sondes spatulées, curettes auriculaires, pinces à préhension et aiguilles de suture.</p><p>La pharmacopée reposait sur le broyage d'ingrédients minéraux et végétaux à l'aide de petits mortiers portatifs, produisant onguents, collyres ophtalmiques et baumes antiseptiques conservés dans des boîtes ou des flacons en verre précieux.</p>"
+  },
+  "borne_milliaire_voies_romaines_cursus": {
+    "id": "borne_milliaire_voies_romaines_cursus",
+    "badge": "INGÉNIERIE CIVILE & ORGANISATION DE L'EMPIRE",
+    "title": "Les Voies Romaines et les Bornes Milliaires : L'Artère de la Puissance Impériale",
+    "sources": "Itinéraire d'Antonin, Table de Peutinger & Strabon",
+    "keywords": [
+      "borne milliaire",
+      "miliaire",
+      "cursus publicus",
+      "voies romaines",
+      "mille romain",
+      "noviodunum",
+      "jublains"
+    ],
+    "text": "<p>Colonne vertébrale de l'intégration provinciale et de la sécurité militaire, le réseau des voies romaines (viae) quadrillait l'Empire sur plus de 80 000 kilomètres, reliant les confins de la Bretagne et de la Gaule jusqu'à l'Euphrate.</p><p>Tous les mille pas romains (environ 1 481 mètres) s'élevait une borne milliaire (cippus milliarius), colonne massive de pierre gravée au nom de l'empereur régnant, garant des travaux de voirie. Véritable instrument de signalisation kilométrique et de propagande impériale, la borne indiquait la distance jusqu'à la cité-étape la plus proche et assurait la fluidité du courrier officiel (cursus publicus) et des légions.</p>"
+  },
+  "poids_mesures_commerce_statera_rome": {
+    "id": "poids_mesures_commerce_statera_rome",
+    "badge": "ÉCONOMIE & RÉGULATION DES MARCHÉS",
+    "title": "La Mesure Juste : Poids, Balances et Équité Commerciale dans l'Empire Romain",
+    "sources": "Columelle, Pline l'Ancien & Digeste de Justinien",
+    "keywords": [
+      "balance romaine",
+      "statera",
+      "pondera",
+      "poids de balance",
+      "aequitas",
+      "libra",
+      "commerce romain"
+    ],
+    "text": "<p>La prospérité économique du monde romain reposait sur un système métrologique rigoureux unifié autour de la livre (libra, environ 327 grammes) et de ses subdivisions en onces. Sur les forums et dans les halles de marché (macella), les édiles municipaux vérifiaient scrupuleusement la conformité des poids étalons (pondera) et des balances.</p><p>La balance à bras inégaux (la statera ou « romaine ») utilisait un contrepoids mobile (aequipondium) coulant le long d'un fléau gradué. Souvent façonné en bronze rempli de plomb et sculpté à l'effigie d'Aequitas (la Justice), de Mercure ou de l'empereur, ce contrepoids plaçait l'honnêteté de la transaction sous l'égide directe de la divinité.</p>"
+  },
+  "hydraulique_fistulae_plomb_rome": {
+    "id": "hydraulique_fistulae_plomb_rome",
+    "badge": "ARCHITECTURE CIVILE & INGÉNIERIE",
+    "title": "L'Eau au Cœur de la Ville : Fistules de Plomb et Salubrité Urbaine",
+    "sources": "Frontin (Des Aqueducs de la ville de Rome) & Vitruve (De Architectura)",
+    "keywords": [
+      "fistula",
+      "fistulae",
+      "conduite de plomb",
+      "plombier",
+      "plumbarius",
+      "aqueduc",
+      "hydraulique romaine"
+    ],
+    "text": "<p>L'accès abondant à l'eau courante constituait la marque la plus éclatante du confort et de la civilisation urbaine romaine. Après avoir franchi les aqueducs jusqu'aux châteaux d'eau répartiteurs (castella aquae), les flots étaient distribués dans les quartiers à travers un réseau ramifié de tuyaux en plomb (fistulae aquariae).</p><p>Fabriquées en pliant et soudant de longues bandes de plomb coulé sur sable, ces conduites portaient fréquemment des inscriptions estampées en relief mentionnant le plumbarius (fabricant), le propriétaire de la concession privée ou le magistrat, prévenant ainsi les dérivations clandestines sur le réseau public.</p>"
+  },
+  "toilette_cosmetique_parure_romaine": {
+    "id": "toilette_cosmetique_parure_romaine",
+    "badge": "VIE PRIVÉE & PARURE FÉMININE",
+    "title": "La Parure et le Soin du Corps : L'Art de la Toilette dans l'Aristocratie Romaine",
+    "sources": "Ovide (Les Soins du visage), Juvénal (Satires) & Pline l'Ancien",
+    "keywords": [
+      "épingle à cheveux",
+      "acus crinalis",
+      "toilette romaine",
+      "mundus muliebris",
+      "pinces à épiler",
+      "parure"
+    ],
+    "text": "<p>Sous le Haut-Empire, la parure féminine (le mundus muliebris) devint le reflet éclatant du rang social et de la sophistication culturelle. Les coiffures complexes, popularisées par les impératrices des dynasties julio-claudienne et flavienne, nécessitaient l'habileté d'esclaves coiffeuses expertes (les ornatrices).</p><p>Des épingles à cheveux (acus crinales) sculptées en os, en ivoire ou en bronze maintenaient tresses et postiches en diadème. L'attirail cosmétique comprenait également des pinces à épiler (volsella), des curettes, des flacons à onguents et des poudres parfumées conservés sur la coiffeuse de la matrone.</p>"
+  },
+  "puériculture_enfance_jouets_rome": {
+    "id": "puériculture_enfance_jouets_rome",
+    "badge": "VIE PRIVÉE & MONDE DE L'ENFANCE",
+    "title": "L'Enfance Romaine : Du Biberon aux Poupées d'Ivoire du Deuil",
+    "sources": "Soranos d'Éphèse (Gynécologie), Quintilien & Pline le Jeune",
+    "keywords": [
+      "poupée romaine",
+      "poupée articulée",
+      "biberon",
+      "guttus",
+      "enfance romaine",
+      "bulla"
+    ],
+    "text": "<p>Loin de l'austérité parfois supposée de la patria potestas, les découvertes archéologiques révèlent l'attention délicate portée aux nouveau-nés et aux enfants dans le monde romain. De petits récipients en terre cuite à goulot tubulaire étroit (souvent appelés biberons ou guttus) servaient à administrer lait et potions avec précision.</p><p>Les fillettes recevaient des poupées articulées en ivoire ou en os, dont les membres mobiles permettaient de reproduire les gestes de la vie d'adulte. Consacrées à Vénus la veille des noces pour marquer la sortie de l'enfance, ces poupées accompagnaient parfois dans la tombe les jeunes filles prématurément fauchées, témoignage bouleversant de la tendresse parentale.</p>"
+  },
+  "verrerie_soufflee_balsamaires_rome": {
+    "id": "verrerie_soufflee_balsamaires_rome",
+    "badge": "ARTISANAT DU VERRE & COMMERCE",
+    "title": "La Révolution du Verre Soufflé : De la Vaisselle de Table aux Balsamaires",
+    "sources": "Pline l'Ancien (Histoire naturelle) & Strabon",
+    "keywords": [
+      "verre soufflé",
+      "balsamaire",
+      "lacrimaire",
+      "unguentarium",
+      "verrerie romaine",
+      "flacon à parfum"
+    ],
+    "text": "<p>L'invention de la technique du soufflage à la canne au Ier siècle avant notre ère sur la côte syro-palestinienne constitua une véritable révolution technique et commerciale dans le monde méditerranéen. En quelques décennies, le verre devint un matériau léger, translucide et accessible à toutes les bourses.</p><p>Les ateliers d'Italie, de Gaule et d'Hispanie produisirent des millions de flacons à onguents (balsamaires ou unguentaria) fusiformes ou tubulaires. Utilisés dans les thermes pour les huiles parfumées et déposés dans les sépultures comme ultime hommage, ces flacons témoignent de l'universalité du soin corporel sous l'Empire.</p>"
+  },
+  "oscillum_decor_jardins_dionysiaques": {
+    "id": "oscillum_decor_jardins_dionysiaques",
+    "badge": "ARCHITECTURE PRIVÉE & ART DU PAYSAGE",
+    "title": "L'Oscillum : Le Masque Suspendu au Vent des Péristyles Romains",
+    "sources": "Virgile (Géorgiques), Vitruve & Macrobe (Saturnales)",
+    "keywords": [
+      "oscillum",
+      "oscilla",
+      "péristyle",
+      "jardin romain",
+      "dionysos",
+      "décor suspendu",
+      "marbre"
+    ],
+    "text": "<p>Dans les domus et villas aristocratiques romaines, le péristyle — jardin intérieur entouré de colonnades — formait une oasis de fraîcheur consacrée à la détente et à la conversation philosophique. Entre les colonnes étaient suspendus par de fines chaînettes de bronze des disques, croissants ou masques de marbre sculptés sur les deux faces : les oscilla.</p><p>S'animant et tournoyant au moindre souffle de brise (d'où le verbe oscillare), ces reliefs figuraient généralement des motifs marins, théâtraux ou dionysiaques (dauphins, faunes, grappes, ménades), combinant le raffinement de l'ornement paysager à une antique fonction purificatrice et protectrice du foyer.</p>"
+  },
   "apollon_dieu_arts_sauroctone_citharede": {
     "id": "apollon_dieu_arts_sauroctone_citharede",
     "badge": "MYTHOLOGIE GRÉCO-ROMAINE & STATUAIRE",
