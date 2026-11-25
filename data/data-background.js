@@ -7136,3 +7136,164 @@ window.BACKGROUNDS_REGISTRY["l_assemblee_dans_un_parc_fetes_galantes"] = window.
 window.BACKGROUNDS_REGISTRY["watteau_automne"] = window.BACKGROUNDS_REGISTRY["bacchus_et_l_allegorie_des_quatre_saisons"];
 
 window.BACKGROUNDS_REGISTRY["l_automne_bacchus_adolescent_saisons_crozat"] = window.BACKGROUNDS_REGISTRY["bacchus_et_l_allegorie_des_quatre_saisons"];
+
+window.BACKGROUNDS_REGISTRY["l_atelier_du_peintre_et_la_vocation_artistique"] = {
+  "id": "l_atelier_du_peintre_et_la_vocation_artistique",
+  "badge": "MÉTIER DES ARTS & VOCATION PICTURALE",
+  "title": "L'Atelier du Peintre : Du Métier Artisanal aux Arts Libéraux",
+  "sources": "Tradition humaniste de l'Ut pictura poesis & les traités d'art classiques",
+  "keywords": [
+    "atelier",
+    "peintre",
+    "chevalet",
+    "palette",
+    "plâtre antique",
+    "création",
+    "arts libéraux",
+    "dessin",
+    "vocation"
+  ],
+  "text": "<h4>Le sanctuaire du travail créateur</h4>\n<p>Loin de l'apparat officiel des académies et des commandes princières, l'atelier constitue le lieu intime où s'élabore le mystère de l'invention picturale. Dès la Renaissance et tout au long de l'époque classique, la représentation de l'artiste au travail s'est imposée comme une méditation philosophique sur la genèse de l'art, affirmant le passage décisif du savoir-faire manuel à la noblesse de l'esprit.</p>\n<h4>Les instruments du métier et la leçon des maîtres</h4>\n<p>Au cœur de cette retraite studieuse, chaque objet possède une résonance symbolique : le chevalet supportant la toile en devenir, la palette harmonieusement garnie de pigments broyés, les pinceaux et l'appuie-main assurant la maîtrise du geste. La présence familière de cartons à dessins et de moulages en plâtre d'après l'antique rappelle la double exigence de la formation classique : l'imitation fervente des chefs-d'œuvre du passé conjuguée à l'observation attentive du vivant.</p>\n<h4>L'intimité du recueillement artistique</h4>\n<p>Vêtu d'une simple robe d'intérieur et coiffé d'un bonnet de travail, l'artiste saisi dans sa solitude laborieuse incarne l'idéal humaniste de l'artisan philosophe. Dans le silence feutré de l'atelier, la lumière latérale qui modèle les formes célèbre la dignité sacrée de la vocation créatrice.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["le_paysage_pastoral_et_l_arcadie"] = {
+  "id": "le_paysage_pastoral_et_l_arcadie",
+  "badge": "PASTORALE & MYTHE DE L'ARCADIE",
+  "title": "Le Paysage Pastoral et le Mythe de l'Arcadie : La Nature Poétique et Sauvage",
+  "sources": "Virgile, Bucoliques & tradition pastorale de la Renaissance",
+  "keywords": [
+    "arcadie",
+    "pastorale",
+    "paysage",
+    "chèvre",
+    "torrent",
+    "montagne",
+    "bergers",
+    "nature sauvage",
+    "virgile"
+  ],
+  "text": "<h4>L'Arcadie, patrie de la poésie bucolique</h4>\n<p>Chantée par Virgile dans les <em>Bucoliques</em> et réinventée par la Renaissance humaniste, l'Arcadie représente la contrée mythique où l'humanité vit en harmonie bienheureuse avec une nature féconde et sauvage. Préservée du tumulte des cités corrompues et des fureurs de la guerre, cette contrée montueuse et boisée offre un asile inviolable à la méditation poétique et aux amours champêtres.</p>\n<h4>L'alliance de la grandeur sauvage et de la vie rustique</h4>\n<p>Le paysage pastoral s'articule autour de contrastes évocateurs : de hauts pitons rocheux escarpés couronnés de bâtisses agrestes font face à des gorges ombragées où résonne le murmure d'un torrent écumeux. Dans ce cadre grandiose, la présence des bêtes familières — chèvres au pelage moucheté et troupeaux paisibles — et des pâtres occupés à de modestes travaux du quotidien confère à l'immensité naturelle une douceur humaine et familière.</p>\n<h4>Le refuge sensible de l'âge d'or</h4>\n<p>Dans la tradition picturale et littéraire, la vision pastorale dépasse la simple description géographique : elle incarne le désir universel d'un retour aux sources de la vie simple, où la beauté des éléments et la paix des vallons ombragés suspendent la course du temps.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["le_grand_tour_et_la_fascinante_nature_de_tivoli"] = {
+  "id": "le_grand_tour_et_la_fascinante_nature_de_tivoli",
+  "badge": "GRAND TOUR & PAYSAGE SUBLIME",
+  "title": "Le Grand Tour et Tivoli : Le Sublime des Cascatelles et les Vestiges Antiques",
+  "sources": "Récits de voyage du Grand Tour & poésie latine d'Horace",
+  "keywords": [
+    "tivoli",
+    "cascatelles",
+    "aniene",
+    "grand tour",
+    "vestiges",
+    "ruines",
+    "sublime",
+    "italie",
+    "paysage pittoresque"
+  ],
+  "text": "<h4>Tivoli, sanctuaire des poètes et des peintres</h4>\n<p>Perchée sur les pentes escarpées des monts Tiburtins à l'est de Rome, la cité de Tivoli — l'antique Tibur célébrée par Horace pour sa fraîcheur ombreuse — constitua dès le XVIIIe siècle l'étape la plus exaltante du Grand Tour des artistes et amateurs européens. La rencontre grandiose entre un passé monumental séculaire et une géographie tumultueuse y offrait le modèle absolu du paysage pittoresque et sublime.</p>\n<h4>Le spectacle impétueux des chutes de l'Aniene</h4>\n<p>Au fond d'un gouffre profond et sauvage, les eaux vives de l'Aniene se précipitent en cascatelles mugissantes, enveloppant les parois rocheuses d'un nuage perpétuel d'embruns irisés. Dominant l'abîme, d'antiques fabriques de brique et de pierre, des arches maçonnées tapissées de lierre et des habitations populaires patinées par les siècles semblent défier le vide dans un équilibre précaire et saisissant.</p>\n<h4>L'animation populaire au sein des ruines antiques</h4>\n<p>Ce qui fascinait les voyageurs des Lumières à Tivoli était la fusion intime entre la grandeur des vestiges romains et la simplicité de la vie quotidienne : des lavandières étendant leurs linges au bord du gouffre, des enfants observant les flots et des bergers guidant leurs troupeaux à l'ombre de temples bimillénaires, célébrant la continuité vivante de l'Italie à travers les âges.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["le_bain_des_nymphes_et_l_hymne_a_la_nature_vivante"] = {
+  "id": "le_bain_des_nymphes_et_l_hymne_a_la_nature_vivante",
+  "badge": "MYTHOLOGIE PASTORALE & EAUX SACRÉES",
+  "title": "Le Bain des Nymphes : Les Eaux Secrètes et la Liberté Bucolique",
+  "sources": "Théocrite, Idylles & Ovide, Métamorphoses",
+  "keywords": [
+    "baigneuses",
+    "nymphes",
+    "eau",
+    "rivière",
+    "nature",
+    "joie",
+    "sensualité",
+    "liberté",
+    "écume",
+    "bucolique"
+  ],
+  "text": "<h4>Les déesses des sources et des eaux vives</h4>\n<p>Dans la mythologie gréco-romaine, les nymphes des eaux douces — les Naïades — incarnent la jeunesse éternelle, la pureté et la force régénératrice des cours d'eau. Liées aux fontaines secrètes, aux cascades forestières et aux ruisseaux ombragés, elles veillent sur la fécondité des vallées et prêtent vie aux éléments liquides par leur danse et leurs ébats insouciants.</p>\n<h4>L'épanouissement de la beauté libre au cœur de la nature</h4>\n<p>La fable du bain champêtre célèbre la communion idéale entre le corps humain et les forces élémentaires. Écartant les voiles et s'abandonnant à la fraîcheur des flots tumultueux, les créatures des bois jouent avec l'écume, s'élancent vers les ramures flexibles des grands arbres ou se prélassent sur les linges jetés dans les herbes hautes, à l'abri du regard indiscret des mortels et des satyres.</p>\n<h4>Une célébration du dynamisme vital</h4>\n<p>Ce motif poétique et universel exalte le triomphe de la vie organique : loin de toute rigidité morale ou académique, le jeu des baigneuses dans les flots incarne la joie païenne, la fraîcheur printanière et l'harmonie instinctive qui unit la splendeur des carnations nacrées à la vigueur frémissante du monde végétal.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["la_veillee_nocturne_et_l_hospitalite_des_humbles"] = {
+  "id": "la_veillee_nocturne_et_l_hospitalite_des_humbles",
+  "badge": "RÉCIT DES HUMBLES & CLAIR-OBSCUR",
+  "title": "La Veillée Nocturne : Le Foyer des Humbles et la Poétique du Sommeil",
+  "sources": "Tradition morale, contes populaires & spiritualité humaniste",
+  "keywords": [
+    "nocturne",
+    "veillee",
+    "foyer",
+    "mendiant",
+    "sommeil",
+    "hospitalite",
+    "clair-obscur",
+    "famille",
+    "humble"
+  ],
+  "text": "<h4>Le refuge du feu dans la nuit hivernale</h4>\n<p>Depuis les temps les plus reculés, l'âtre allumé au sein d'un abri rustique constitue le rempart primordial contre les ténèbres extérieures, le froid et l'angoisse de la nuit. Autour de la lueur rougeoyante des braises et de la marmite suspendue à la crémaillère se concentrent la chaleur humaine, le partage du pain et la mémoire collective des générations.</p>\n<h4>L'hospitalité sacrée envers le voyageur et le vagabond</h4>\n<p>Dans la tradition chrétienne et humaniste, la porte ouverte à l'étranger démuni, au mendiant errant ou au pèlerin épuisé relève du devoir sacré d'hospitalité. Accueilli sur le banc de pierre d'un foyer modeste, le voyageur fatigué s'abandonne au sommeil, veillé par la présence bienveillante des maîtres des lieux. Le contraste entre sa solitude harassée et la tendresse d'une mère berçant son nourrisson compose une allégorie poignante de la condition humaine.</p>\n<h4>Le songe et la transfiguration du quotidien</h4>\n<p>Dans la pénombre feutrée baignée de reflets dorés, la frontière entre veille et sommeil s'estompe délicatement. Le repos du vieillard mendiant au coin du feu ouvre l'espace au rêve, rappelant que dans le dénuement le plus humble réside une noblesse spirituelle et une paix que le faste des cours ne saurait offrir.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["mythe_mercure_argus_et_io_metamorphoses"] = {
+  "id": "mythe_mercure_argus_et_io_metamorphoses",
+  "badge": "MYTHOLOGIE OVIDIENNE & MÉTAMORPHOSES",
+  "title": "Le Mythe de Mercure, Argus et Io : La Vigilance Endormie par la Fable",
+  "sources": "Ovide, Métamorphoses (Livre I, vers 583-747)",
+  "keywords": [
+    "mercure",
+    "argus",
+    "io",
+    "junon",
+    "jupiter",
+    "metamorphoses",
+    "flûte de pan",
+    "syrinx",
+    "sommeil",
+    "vigilance"
+  ],
+  "text": "<h4>La nymphe métamorphosée et le gardien aux cent yeux</h4>\n<p>Rapporté par Ovide au premier livre des <em>Métamorphoses</em>, cet épisode illustre la vengeance impitoyable de Junon contre les amours clandestines de Jupiter. Ayant séduit la nymphe Io, fille du dieu fleuve Inachos, le souverain de l'Olympe la transforme en une éclatante génisse blanche pour dissimuler sa faute aux yeux de son épouse. Mais Junon, méfiante, exige l'animal en présent et le confie à la garde vigilante d'Argus Panoptès, un géant pourvu de cent yeux dont deux seulement se ferment à la fois pour dormir.</p>\n<h4>Le stratagème pastoral de Mercure</h4>\n<p>Incapable de tolérer le supplice de la captive errant au pied des rochers escarpés, Jupiter dépêche son messager ailé, Mercure, pour abattre le monstre. Dépouillant ses sandales volantes et son casque d'or, le dieu s'équipe d'une houlette et se déguise en humble berger conduisant un troupeau de chèvres. S'asseyant aux côtés d'Argus sur le talus herbeux, il tire de sa flûte de roseau (la syrinx) des mélodies d'une douceur envoûtante et lui conte avec patience l'origine pastorale de cet instrument enchanteur.</p>\n<h4>Le triomphe du sommeil et l'immortalité des cent yeux</h4>\n<p>Vaincu par le charme irrésistible de la musique et la monotonie du récit, le géant voit ses cent paupières s'alourdir une à une jusqu'à sombrer dans un sommeil léthargique total. Mercure tire alors sa lame recourbée (l'harpé) et lui tranche la tête d'un coup rapide, délivrant ainsi la belle Io. En hommage à son fidèle gardien, Junon recueille les cent yeux d'Argus et les sème sur les plumes de la queue de son paon sacré, où ils scintillent désormais pour l'éternité.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["l_orage_champetre_et_la_lutte_contre_les_elements"] = {
+  "id": "l_orage_champetre_et_la_lutte_contre_les_elements",
+  "badge": "PAYSAGE DRAMATIQUE & FORCES DE LA NATURE",
+  "title": "L'Orage Champêtre : La Fragilité Humaine face aux Fureurs de la Nature",
+  "sources": "Virgile, Géorgiques (Livre I, description de la tempête) & tradition pastorale",
+  "keywords": [
+    "orage",
+    "tempête",
+    "charrette",
+    "paysans",
+    "bourrasque",
+    "éléments",
+    "lutte",
+    "nature",
+    "sublime",
+    "troupeau"
+  ],
+  "text": "<h4>Le déchaînement soudain de la tourmente céleste</h4>\n<p>Célébrée avec effroi par Virgile au livre I des <em>Géorgiques</em>, l'irruption soudaine d'un orage sur les campagnes constitue l'un des thèmes les plus dramatiques de la poésie bucolique. Alors que la chaleur du jour semblait immuable, de lourdes nuées violacées et tourbillonnantes envahissent le ciel en quelques instants, balayant les vallées d'un vent violent qui soulève la poussière des chemins et plie les frondaisons des grands arbres.</p>\n<h4>La lutte des hommes et des bêtes contre l'enlisement</h4>\n<p>Surprise en plein champ ou sur des routes défoncées par les ornières, la communauté villageoise doit faire face à l'urgence du péril. L'incident de la lourde charrette agricole enlisée dans la boue sous l'assaut des bourrasques met en scène la solidarité acharnée du travail paysan : conducteurs brandissant leurs bâtons, hommes arc-boutés contre les rayons des roues, bœufs de labour tirant pesamment sous le joug et troupeaux de moutons affolés refluant le long des talus pour chercher un abri salvateur.</p>\n<h4>La beauté terrible du sublime naturel</h4>\n<p>Ce combat héroïque entre la faiblesse des créatures et la puissance démesurée du cosmos révèle toute la grandeur de la condition agreste. Dans la déchirure des éclairs et les trouées d'azur pâle cernées de nuages d'encre se manifeste la fascination pour le sublime : un spectacle grandiose où la terreur de la catastrophe imminente s'allie à la splendeur sauvage de la nature indomptée.</p>"
+};
+
+
+// Aliases nouvelles œuvres Boucher, Watteau, Fragonard
+
+window.BACKGROUNDS_REGISTRY["atelier_du_peintre"] = window.BACKGROUNDS_REGISTRY["l_atelier_du_peintre_et_la_vocation_artistique"];
+
+window.BACKGROUNDS_REGISTRY["paysage_pastoral"] = window.BACKGROUNDS_REGISTRY["le_paysage_pastoral_et_l_arcadie"];
+
+window.BACKGROUNDS_REGISTRY["cascatelles_tivoli"] = window.BACKGROUNDS_REGISTRY["le_grand_tour_et_la_fascinante_nature_de_tivoli"];
+
+window.BACKGROUNDS_REGISTRY["tivoli"] = window.BACKGROUNDS_REGISTRY["le_grand_tour_et_la_fascinante_nature_de_tivoli"];
+
+window.BACKGROUNDS_REGISTRY["baigneuses_fragonard"] = window.BACKGROUNDS_REGISTRY["le_bain_des_nymphes_et_l_hymne_a_la_nature_vivante"];
+
+window.BACKGROUNDS_REGISTRY["songe_du_mendiant"] = window.BACKGROUNDS_REGISTRY["la_veillee_nocturne_et_l_hospitalite_des_humbles"];
+
+window.BACKGROUNDS_REGISTRY["mercure_et_argus"] = window.BACKGROUNDS_REGISTRY["mythe_mercure_argus_et_io_metamorphoses"];
+
+window.BACKGROUNDS_REGISTRY["charrette_embourbee"] = window.BACKGROUNDS_REGISTRY["l_orage_champetre_et_la_lutte_contre_les_elements"];
+
+window.BACKGROUNDS_REGISTRY["orage_fragonard"] = window.BACKGROUNDS_REGISTRY["l_orage_champetre_et_la_lutte_contre_les_elements"];
+
+window.BACKGROUNDS_REGISTRY["faux_pas"] = window.BACKGROUNDS_REGISTRY["la_fete_galante_et_la_pastorale_au_siecle_des_lumieres"];
+
+window.BACKGROUNDS_REGISTRY["deux_cousines"] = window.BACKGROUNDS_REGISTRY["la_fete_galante_et_la_pastorale_au_siecle_des_lumieres"];

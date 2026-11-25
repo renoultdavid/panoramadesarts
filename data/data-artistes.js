@@ -13890,7 +13890,7 @@ window.ARTISTS_REGISTRY = {
     `,
   "corpus": {
     "total": 400,
-    "seen": 11,
+    "seen": 16,
     "paintingsCount": 400,
     "sourceTitle": "Catalogues raisonnés de référence : Jean-Pierre Cuzin (1987) et Pierre Rosenberg (1989)",
     "sourceNotes": "Si le catalogue historique de Georges Wildenstein (1960) lui accordait plus de 545 tableaux, les recherches modernes de Jean-Pierre Cuzin et Pierre Rosenberg ont purgé les copies d'atelier, pastiches du XIXe et toiles à quatre mains avec Marguerite Gérard pour fixer le corpus strictement authentique à environ 400 peintures.",

@@ -9047,6 +9047,21 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Boucher François
+  "boucher_le_peintre_dans_son_atelier_louvre_1725": { h: 27.0, w: 22.0, display: "27 × 22 cm", loc: "Musée du Louvre, Paris" },
+
+  // Watteau Antoine (nouveaux ajouts)
+  "watteau_paysage_a_la_chevre_louvre_1716": { h: 38.0, w: 27.0, display: "38 × 27 cm", loc: "Musée du Louvre, Paris" },
+  "watteau_le_faux_pas_louvre_1716": { h: 40.0, w: 31.5, display: "40 × 31,5 cm", loc: "Musée du Louvre, Paris" },
+  "watteau_les_deux_cousines_louvre_1716": { h: 30.0, w: 36.0, display: "30 × 36 cm", loc: "Musée du Louvre, Paris" },
+
+  // Fragonard Jean-Honoré (5 œuvres - Louvre)
+  "fragonard_cascatelles_de_tivoli_louvre_1760": { h: 73.0, w: 60.0, display: "73 × 60 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_les_baigneuses_louvre_1765": { h: 64.0, w: 80.0, display: "64 × 80 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_scene_nocturne_songe_du_mendiant_louvre_1765": { h: 55.0, w: 72.0, display: "55 × 72 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_mercure_et_argus_louvre_1761": { h: 59.0, w: 73.0, display: "59 × 73 cm", loc: "Musée du Louvre, Paris" },
+  "fragonard_l_orage_charrette_embourbee_louvre_1759": { h: 73.0, w: 97.0, display: "73 × 97 cm", loc: "Musée du Louvre, Paris" },
+
   // Watteau Antoine (4 œuvres)
   "watteau_la_finette_louvre_1717": { h: 25.5, w: 19.0, display: "25,5 × 19 cm", loc: "Musée du Louvre, Paris" },
   "watteau_l_indifferent_louvre_1716": { h: 25.5, w: 19.0, display: "25,5 × 19 cm", loc: "Musée du Louvre, Paris" },
