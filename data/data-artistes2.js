@@ -7983,16 +7983,13 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "corpus": {
       "total": 252,
       "paintingsCount": 252,
-      "details": [
-        {
-          "label": "Peintures à l'huile autographes",
-          "count": 252,
-          "icon": "🎨",
-          "color": "#d4af37"
-        }
-      ],
-      "sourceTitle": "Catalogue raisonné Pierre Rosenberg (2015)",
-      "sourceNotes": "L'inventaire scientifique d'autorité mondiale et définitive est le monumental catalogue raisonné publié en 2015 par Pierre Rosenberg (Nicolas Poussin, Les tableaux). Écarte son œuvre dessiné pour fixer le corpus officiel et incontesté de ses peintures à l'huile à très exactement 252 œuvres."
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 40,
+      "source": "Catalogue raisonné Pierre Rosenberg (2015)",
+      "totalOeuvresEstimees": "252 peintures à l'huile autographes",
+      "oeuvresConsensusNotice": "L'inventaire scientifique d'autorité mondiale et définitive est le monumental catalogue raisonné publié en 2015 par Pierre Rosenberg (Nicolas Poussin, Les tableaux). Écarte son œuvre dessiné pour fixer le corpus officiel et incontesté de ses peintures à l'huile à très exactement 252 œuvres."
     },
     "totalOeuvresEstimees": "252 peintures à l'huile autographes",
     "oeuvresConsensusNotice": "Catalogue raisonné définitif par Pierre Rosenberg (2015). Écarte l'œuvre dessiné pour fixer le corpus officiel de ses peintures à l'huile à très exactement 252 œuvres.",

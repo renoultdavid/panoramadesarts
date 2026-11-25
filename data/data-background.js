@@ -6924,3 +6924,149 @@ window.BACKGROUNDS_REGISTRY["morgante_nain_de_cour_medicis_grotesque"] = {
 // Aliases Morgante
 window.BACKGROUNDS_REGISTRY["nain_morgante"] = window.BACKGROUNDS_REGISTRY["morgante_nain_de_cour_medicis_grotesque"];
 window.BACKGROUNDS_REGISTRY["morgante"] = window.BACKGROUNDS_REGISTRY["morgante_nain_de_cour_medicis_grotesque"];
+
+window.BACKGROUNDS_REGISTRY["mars_et_venus_triomphe_de_l_amour"] = {
+  "id": "mars_et_venus_triomphe_de_l_amour",
+  "badge": "MYTHOLOGIE CLASSIQUE & ALLÉGORIE DE LA PAIX",
+  "title": "Mars et Vénus : Le Triomphe de l'Amour sur la Guerre",
+  "sources": "Lucrèce, De rerum natura (Chant I) & Ovide, Métamorphoses",
+  "keywords": [
+    "mars",
+    "vénus",
+    "amour",
+    "paix",
+    "guerre",
+    "cupidon",
+    "putti",
+    "désarmement",
+    "poussin"
+  ],
+  "text": "<h4>L'apaisement du dieu des combats</h4>\n<p>Dans la tradition poétique gréco-romaine, notamment célébrée par Lucrèce au seuil du <em>De rerum natura</em>, l'étreinte de Vénus (déesse de l'Amour et de la fécondité) et de Mars (dieu de la Guerre sanglante) incarne la plus haute allégorie de la concorde et de la paix universelle : seul l'Amour possède le pouvoir souverain d'apaiser la fureur destructrice des armes et de suspendre le chaos du monde.</p>\n<h4>Le jeu symbolique des amours</h4>\n<p>Les artistes de la Renaissance et de l'âge classique ont enrichi ce thème d'une touche pastorale et humoristique : tandis que le dieu guerrier, désarmé par la beauté de Vénus, s'abandonne à la volupté, une cohorte de petits amours espiègles s'empare de ses attributs redoutables — son casque trop lourd, sa lance, son bouclier et son épée — pour les neutraliser et les transformer en jouets inoffensifs.</p>\n<h4>Une réflexion morale sur l'harmonie des contraires</h4>\n<p>Au-delà de la fable galante, la rencontre de Mars et Vénus célèbre l'accord des principes opposés : la force brute domptée par la grâce, la violence convertie en concorde et la victoire définitive de la création fertile sur la pulsion de mort.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["le_jeune_pyrrhus_sauve_plutarque"] = {
+  "id": "le_jeune_pyrrhus_sauve_plutarque",
+  "badge": "HISTOIRE ANTIQUE & VIES PARALLÈLES DE PLUTARQUE",
+  "title": "Le Jeune Pyrrhus sauvé : La Piété et la Constance Stoïcienne",
+  "sources": "Plutarque, Vies parallèles des hommes illustres (Vie de Pyrrhus)",
+  "keywords": [
+    "pyrrhus",
+    "plutarque",
+    "épire",
+    "éacide",
+    "mégare",
+    "fleuve",
+    "fuite",
+    "nourrice",
+    "stoïcisme",
+    "poussin"
+  ],
+  "text": "<h4>La fuite d'Épire et l'épreuve du fleuve</h4>\n<p>Chassé de son royaume d'Épire par une sédition attisée par Cassandre de Macédoine, le roi Éacide confie son fils encore au berceau, le futur conquérant Pyrrhus, à quelques serviteurs dévoués — Androclide et Angélos. Poursuivis sans relâche par des cavaliers ennemis, les fidèles compagnons atteignent à la tombée du jour le fleuve qui baigne la cité de Mégare, gonflé par des pluies torrentielles et impossible à traverser à gué avec le nourrisson.</p>\n<h4>Le message gravé sur l'écorce</h4>\n<p>Séparés des habitants de la ville par le tumulte assourdissant des flots, les fuyards arrachent un morceau d'écorce de chêne, y gravent un appel au secours implorant l'hospitalité pour l'héritier royal, et fixent le message à un javelot lancé de l'autre côté de la rive. Émus par la détresse de l'enfant et le courage de ses protecteurs, les citoyens de Mégare construisent des radeaux de fortune pour les recueillir avant l'arrivée des assaillants.</p>\n<h4>Un idéal de vertu morale et de solidarité héroïque</h4>\n<p>Cet épisode dramatique rapporté par Plutarque est devenu dans la peinture d'histoire classique le modèle absolu de la fidélité héroïque, de la protection des innocents et de la sérénité morale triomphant de la fortune adverse.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["les_aveugles_de_jericho_miracle_du_christ"] = {
+  "id": "les_aveugles_de_jericho_miracle_du_christ",
+  "badge": "ÉVANGILE & MIRACLES DU CHRIST",
+  "title": "Les Aveugles de Jéricho : L'Illumination de la Foi et le Miracle Évangélique",
+  "sources": "Évangile selon saint Matthieu (20, 29-34) & saint Marc (10, 46-52)",
+  "keywords": [
+    "aveugles",
+    "jéricho",
+    "christ",
+    "miracle",
+    "foi",
+    "lumière",
+    "vue",
+    "apôtres",
+    "guérison",
+    "poussin"
+  ],
+  "text": "<h4>L'appel au bord du chemin</h4>\n<p>Alors que le Christ sort de Jéricho en direction de Jérusalem, entouré d'une foule nombreuse, deux mendiants aveugles assis au bord de la route entendent son passage et s'écrient : « Seigneur, Fils de David, aie pitié de nous ! ». Malgré les réprimandes de la foule qui tente de les réduire au silence, ils redoublent d'appels fervents, guidés par la certitude intérieure de leur salut.</p>\n<h4>L'imposition des mains et la recouvrance de la vue</h4>\n<p>Ému de compassion, Jésus s'arrête, les fait approcher et leur demande : « Que voulez-vous que je fasse pour vous ? ». À leur réponse suppliante (« Seigneur, que nos yeux s'ouvrent »), le Christ touche délicatement leurs paupières : instantanément, les deux hommes recouvrent la vue et se mettent à le suivre sur le chemin de la croix.</p>\n<h4>La métaphore de l'illumination spirituelle</h4>\n<p>Pour la théologie chrétienne et l'art classique, la guérison des aveugles de Jéricho dépasse le prodige physique : elle symbolise le passage des ténèbres de l'ignorance à la lumière de la Révélation divine. Dans la tradition académique française, la mise en scène rigoureuse de cet épisode offre le parangon de la dramaturgie ordonnée où chaque témoin incarne un degré spécifique de foi, de stupeur ou de méditation morale.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["le_christ_et_la_femme_adultere_evangile"] = {
+  "id": "le_christ_et_la_femme_adultere_evangile",
+  "badge": "ÉVANGILE DE JEAN & DOCTRINE DU PARDON",
+  "title": "Le Christ et la Femme Adultère : La Grâce et le Pardon devant la Loi",
+  "sources": "Évangile selon saint Jean (8, 1-11)",
+  "keywords": [
+    "femme adultère",
+    "christ",
+    "pharisiens",
+    "pardon",
+    "loi mosaïque",
+    "pierre",
+    "péché",
+    "écriture au sol",
+    "grâce",
+    "poussin"
+  ],
+  "text": "<h4>Le piège des docteurs de la Loi</h4>\n<p>Alors que Jésus enseigne dans le Temple de Jérusalem, les scribes et les pharisiens lui amènent une femme surprise en délit d'adultère. Invoquant la Loi de Moïse qui prescrit la lapidation pour un tel crime, ils interrogent le Christ dans l'intention perfide de le mettre en contradiction soit avec la rigueur mosaïque, soit avec l'autorité romaine qui réservait le droit de condamnation à mort.</p>\n<h4>L'écriture dans la poussière et la sentence du cœur</h4>\n<p>Gardant d'abord le silence, Jésus se baisse et se met à écrire mystérieusement du doigt sur le dallage du parvis. Devant l'insistance de ses accusateurs, il se redresse et prononce la sentence universelle qui désarme la vindicte : « Que celui d'entre vous qui est sans péché lui jette la première pierre ». Renvoyés à leur propre conscience, les juges se retirent un à un, à commencer par les plus anciens.</p>\n<h4>La primauté de la miséricorde sur le jugement</h4>\n<p>Resté seul avec la pécheresse tremblante, le Christ ne la condamne pas mais lui accorde le pardon tout en l'exhortant à la rédemption : « Va, et désormais ne pèche plus ». Ce récit fondateur sublime la rupture évangélique entre la lettre impitoyable de la loi et l'esprit libérateur de la miséricorde divine.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["enfance_nourriture_de_bacchus_mont_nysa"] = {
+  "id": "enfance_nourriture_de_bacchus_mont_nysa",
+  "badge": "MYTHOLOGIE GRECQUE & CYCLES BACCHIQUES",
+  "title": "L'Enfance et la Nourriture de Bacchus sur le Mont Nysa",
+  "sources": "Ovide, Fastes (Chant III) & Métamorphoses (Livre III)",
+  "keywords": [
+    "bacchus",
+    "dionysos",
+    "nysa",
+    "enfance",
+    "satyres",
+    "nymphes",
+    "nourriture",
+    "chèvre amalthée",
+    "pampres",
+    "poussin"
+  ],
+  "text": "<h4>Le sanctuaire secret contre la colère de Junon</h4>\n<p>Fils de Jupiter et de la mortelle Sémélé consumée par l'éclat de la foudre céleste, le nouveau-né Bacchus est sauvé par son père qui l'arrache aux flammes et le confie secrètement au dieu Mercure. Pour le dérober à la jalousie implacable de Junon, reine des dieux, Mercure transporte l'enfant divin sur les pentes enchantées et reculées du mont Nysa, au cœur d'une clairière luxuriante ignorée des hommes.</p>\n<h4>L'initiation champêtre aux plaisirs de la vigne</h4>\n<p>Élevé avec tendresse par les nymphes des bois et les satyres sylvestres, le jeune Bacchus est nourri du lait d'une chèvre tutélaire et du miel sauvage distillé par les abeilles du mont sacré. Les satyres l'initient dès le berceau au nectar des grappes de raisin noir pressées dans des coupes d'or, scellant le destin du dieu qui offrira le vin et l'ivresse sacrée à l'humanité.</p>\n<h4>Une vision pastorale de l'âge d'or</h4>\n<p>Dans l'imaginaire pictural de la Renaissance et du classicisme, l'enfance de Bacchus incarne la communion parfaite entre l'homme, la nature féconde et les divinités rustiques : une célébration de l'innocence champêtre où la joie païenne et la fertilité de la terre règnent en harmonie absolue.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["saint_jean_baptisant_sur_le_jourdain"] = {
+  "id": "saint_jean_baptisant_sur_le_jourdain",
+  "badge": "ÉVANGILE & SACREMENT DE PÉNITENCE",
+  "title": "Saint Jean-Baptiste baptisant le Peuple sur les Rives du Jourdain",
+  "sources": "Évangiles synoptiques (Matthieu 3, 1-12 ; Marc 1, 1-8 ; Luc 3, 1-18)",
+  "keywords": [
+    "saint jean-baptiste",
+    "baptême",
+    "jourdain",
+    "conversion",
+    "pénitence",
+    "foule",
+    "fleuve",
+    "précurseur",
+    "poussin"
+  ],
+  "text": "<h4>La voix qui crie dans le désert</h4>\n<p>Revêtu d'une austère tunique de poils de chameau retenue par une ceinture de cuir, saint Jean le Précurseur s'établit dans la vallée déserte du Jourdain pour prêcher le baptême de repentir en vue de la rémission des péchés. Des foules entières, venues de Jérusalem et de toute la Judée, affluent sur les berges fluviales pour écouter sa parole prophétique et confesser leurs fautes avant l'avènement du Messie.</p>\n<h4>Le baptême d'eau et l'appel à la conversion intérieure</h4>\n<p>Au bord des eaux vives du Jourdain, Jean plonge les pénitents dans le courant régénérateur, affirmant que son baptême d'eau prépare le chemin à Celui qui viendra après lui pour baptiser dans l'Esprit Saint et le feu. Hommes d'armes, vieillards, femmes et enfants se dépouillent de leurs vêtements et se préparent au sacrement, traduisant la variété des conditions humaines unies dans une même espérance morale.</p>\n<h4>L'harmonie sacrée entre l'homme et le paysage</h4>\n<p>Dans la vision classique de Nicolas Poussin, le baptême sur le Jourdain devient une méditation philosophique sur l'ordre cosmique et la sérénité spirituelle : les figures humaines s'intègrent avec une solennité géométrique dans un paysage grandiose de monts et de collines baigné par la clarté crépusculaire.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["moise_et_la_verge_d_aaron_serpent_pharaon"] = {
+  "id": "moise_et_la_verge_d_aaron_serpent_pharaon",
+  "badge": "LIVRE DE L'EXODE & PRODIGES DIVINS",
+  "title": "Moïse et la Verge d'Aaron : Le Prodige Divin face aux Magiciens de Pharaon",
+  "sources": "Livre de l'Exode (7, 8-13)",
+  "keywords": [
+    "moïse",
+    "aaron",
+    "verge d'aaron",
+    "serpent",
+    "pharaon",
+    "magiciens",
+    "égypte",
+    "exode",
+    "prodige",
+    "poussin"
+  ],
+  "text": "<h4>L'épreuve du bâton devant la cour royale</h4>\n<p>Envoyés par Dieu pour ordonner au pharaon de libérer les enfants d'Israël, Moïse et son frère Aaron se présentent devant le trône d'Égypte. Devant le scepticisme du souverain qui exige un signe éclatant de leur autorité divine, Aaron jette sa verge de bois sur le pavement de la salle palatiale : le bâton s'anime et se métamorphose instantanément en un redoutable serpent ondulant.</p>\n<h4>La confrontation des prodiges et l'engloutissement des faux serpents</h4>\n<p>Le pharaon fait aussitôt appel à ses sages, sorciers et enchanteurs égyptiens. Par leurs pratiques occultes et leurs incantations, ces derniers jettent également leurs bâtons qui se transforment à leur tour en reptiles. Mais le prodige divin éclate avec une souveraineté éclatante : la verge-serpent d'Aaron fond sur les créatures des magiciens et les engloutit une à une, affirmant sans appel la supériorité absolue du Dieu d'Israël sur les puissances magiques d'Égypte.</p>\n<h4>La tragédie du cœur endurci</h4>\n<p>Malgré ce prodige magistral, le cœur de Pharaon s'endurcit et refuse d'écouter les envoyés divins, ouvrant la voie aux fléaux des dix plaies d'Égypte. Cette confrontation théologique majestueuse met en scène la victoire éclatante de la Vérité révélée sur les illusions de la tyrannie terrestre.</p>"
+};
+
+// Aliases
+window.BACKGROUNDS_REGISTRY["mars_et_venus"] = window.BACKGROUNDS_REGISTRY["mars_et_venus_triomphe_de_l_amour"];
+window.BACKGROUNDS_REGISTRY["pyrrhus_sauve"] = window.BACKGROUNDS_REGISTRY["le_jeune_pyrrhus_sauve_plutarque"];
+window.BACKGROUNDS_REGISTRY["aveugles_de_jericho"] = window.BACKGROUNDS_REGISTRY["les_aveugles_de_jericho_miracle_du_christ"];
+window.BACKGROUNDS_REGISTRY["femme_adultere"] = window.BACKGROUNDS_REGISTRY["le_christ_et_la_femme_adultere_evangile"];
+window.BACKGROUNDS_REGISTRY["nourriture_de_bacchus"] = window.BACKGROUNDS_REGISTRY["enfance_nourriture_de_bacchus_mont_nysa"];
+window.BACKGROUNDS_REGISTRY["verge_d_aaron"] = window.BACKGROUNDS_REGISTRY["moise_et_la_verge_d_aaron_serpent_pharaon"];
