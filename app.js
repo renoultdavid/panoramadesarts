@@ -6377,12 +6377,8 @@ function renderArtistThemesShowcase(artistRecord, themes, allArts) {
     titleWrap.title = `Voir les ${th.items.length} œuvre${th.items.length > 1 ? 's' : ''} : ${th.title}`;
     titleWrap.onclick = (e) => {
       e.stopPropagation();
-      if (typeof switchView === 'function') switchView('view-search');
-      if (typeof renderGallery === 'function') {
-        activeContextList = th.items;
-        renderGallery(th.items);
-      } else if (typeof openCuratorModal === 'function' && th.items.length > 0) {
-        openCuratorModal(th.items[0], th.items);
+      if (typeof window.filterGalleryByArtistTheme === 'function') {
+        window.filterGalleryByArtistTheme(th.items, `${artistRecord.name} — ${th.title}`);
       }
     };
 
@@ -12418,6 +12414,40 @@ function initSearchEngine() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  window.filterGalleryByArtistTheme = function(items, label) {
+    if (!Array.isArray(items) || items.length === 0) return;
+    if (viewSearch && viewSearch.hidden) {
+      switchView('view-search');
+    }
+    if (artistHero) artistHero.hidden = true;
+    if (corpusDashboard) corpusDashboard.hidden = true;
+    if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
+    if (btnFilterFocus) btnFilterFocus.classList.remove('is-active');
+    if (filterCiv) filterCiv.value = 'all';
+    if (filterDomain) filterDomain.value = 'all';
+    if (filterPeriod) filterPeriod.value = 'all';
+    if (filterType) filterType.value = 'all';
+    activeMovementFilter = null;
+    activeChipExactFilter = '';
+    activeBackgroundFilter = null;
+    if (filterText) filterText.value = label || '';
+    activeContextList = items;
+    if (searchGrid) {
+      searchGrid.innerHTML = '';
+      items.forEach(art => {
+        if (typeof createArtCard === 'function') {
+          searchGrid.appendChild(createArtCard(art, items));
+        }
+      });
+    }
+    if (searchCount) {
+      searchCount.textContent = `${items.length} œuvre${items.length > 1 ? 's' : ''}`;
+    }
+    if (btnLoadMore) btnLoadMore.hidden = true;
+    if (searchGalleryScroll) searchGalleryScroll.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   // Filtrage transversal au clic sur le badge d'un mythe / récit culturel (chip doré)
   window.filterGalleryByBackground = function(bgId, bgTitle) {
     if (!bgId) return;
@@ -12459,6 +12489,40 @@ function initSearchEngine() {
     currentRenderLimit = PAGE_CHUNK;
     renderSearchGallery();
 
+    if (searchGalleryScroll) searchGalleryScroll.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  window.filterGalleryByArtistTheme = function(items, label) {
+    if (!Array.isArray(items) || items.length === 0) return;
+    if (viewSearch && viewSearch.hidden) {
+      switchView('view-search');
+    }
+    if (artistHero) artistHero.hidden = true;
+    if (corpusDashboard) corpusDashboard.hidden = true;
+    if (corpusSourceDrawer) corpusSourceDrawer.hidden = true;
+    if (btnFilterFocus) btnFilterFocus.classList.remove('is-active');
+    if (filterCiv) filterCiv.value = 'all';
+    if (filterDomain) filterDomain.value = 'all';
+    if (filterPeriod) filterPeriod.value = 'all';
+    if (filterType) filterType.value = 'all';
+    activeMovementFilter = null;
+    activeChipExactFilter = '';
+    activeBackgroundFilter = null;
+    if (filterText) filterText.value = label || '';
+    activeContextList = items;
+    if (searchGrid) {
+      searchGrid.innerHTML = '';
+      items.forEach(art => {
+        if (typeof createArtCard === 'function') {
+          searchGrid.appendChild(createArtCard(art, items));
+        }
+      });
+    }
+    if (searchCount) {
+      searchCount.textContent = `${items.length} œuvre${items.length > 1 ? 's' : ''}`;
+    }
+    if (btnLoadMore) btnLoadMore.hidden = true;
     if (searchGalleryScroll) searchGalleryScroll.scrollTo({ top: 0, behavior: 'smooth' });
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
