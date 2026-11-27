@@ -14348,7 +14348,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "drawingsCount": null,
       "engravingsCount": null,
       "sculpturesCount": null,
-      "seenCount": 1,
+      "seenCount": 6,
       "source": "Catalogue raisonné Joseph Baillio & Rétrospective Grand Palais / Met / Musée des Beaux-Arts du Canada (2015-2016)",
       "totalOeuvresEstimees": "~660 peintures et pastels répertoriés",
       "oeuvresConsensusNotice": "L'inventaire scientifique de référence établi par Joseph Baillio et les commissaires de la rétrospective internationale de 2015-2016 répertorie environ 660 peintures à l'huile et pastels, ainsi qu'environ 200 paysages et dessins, attestant d'une fécondité créatrice prodigieuse maintenue tout au long d'une carrière de plus de six décennies."
@@ -14376,6 +14376,33 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "type": "context",
               "badge": "ACADÉMIE",
               "icon": "🏛️"
+            },
+            {
+              "year": "1786",
+              "title": "Madame Vigée-Le Brun et sa fille Julie (Musée du Louvre)",
+              "desc": "Manifeste de la tendresse maternelle et de la sensibilité rousseauiste, célébré pour son naturel néoclassique et son étreinte enveloppante.",
+              "type": "masterpiece",
+              "badge": "LOUVRE",
+              "icon": "🎨",
+              "artworkId": "vigee_lebrun_madame_vigee_lebrun_et_sa_fille_louvre_1786"
+            },
+            {
+              "year": "1788",
+              "title": "Portrait du peintre Hubert Robert (Musée du Louvre)",
+              "desc": "Effigie intime et chaleureuse du célèbre paysagiste des ruines, tenant sa palette et ses pinceaux dans une complicité d'atelier vivante.",
+              "type": "masterpiece",
+              "badge": "LOUVRE",
+              "icon": "🎨",
+              "artworkId": "vigee_lebrun_hubert_robert_louvre_1788"
+            },
+            {
+              "year": "1789",
+              "title": "Madame Rousseau et sa fille (Musée du Louvre)",
+              "desc": "Double portrait sensible de l'épouse de l'architecte Pierre Rousseau et de son enfant, vibrant d'affection maternelle à la veille de la Révolution.",
+              "type": "masterpiece",
+              "badge": "LOUVRE",
+              "icon": "🎨",
+              "artworkId": "vigee_lebrun_madame_rousseau_et_sa_fille_louvre_1789"
             }
           ]
         },
@@ -14392,6 +14419,15 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
               "type": "context",
               "badge": "ITALIE",
               "icon": "🇮🇹"
+            },
+            {
+              "year": "1796",
+              "title": "La Comtesse Catherine Vassilievna Skavronskaïa (Musée du Louvre)",
+              "desc": "Chef-d'œuvre du séjour pétersbourgeois immortalisant la beauté mélancolique et indolente de la nièce préférée du prince Potemkine.",
+              "type": "masterpiece",
+              "badge": "LOUVRE",
+              "icon": "❄️",
+              "artworkId": "vigee_lebrun_comtesse_skavronskaia_louvre_1796"
             },
             {
               "year": "1795 – 1801",

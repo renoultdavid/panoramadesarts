@@ -1101,13 +1101,13 @@ window.ARTISTS_REGISTRY = {
     `,
     "corpus": {
       "total": 425,
-      "seen": 8,
+      "seen": 17,
       "paintingsCount": 425,
       "details": [
         {
           "label": "Peintures autographes (huile sur toile et sur panneau)",
           "count": 425,
-          "seen": 8,
+          "seen": 17,
           "icon": "🎨",
           "color": "#d4af37"
         }
@@ -1204,10 +1204,12 @@ window.ARTISTS_REGISTRY = {
                 "events": [
                     {
                         "year": 1769,
-                        "title": "La querelle de Septime Sévère et rupture avec l'Académie",
-                        "desc": "Présente Septime Sévère et Caracalla pour sa réception ; l'Académie le rétrograde peintre de genre. Greuze quitte le Salon officiel.",
+                        "title": "Septime Sévère reproche à Caracalla d'avoir voulu l'assassiner",
+                        "desc": "Morceau de réception présenté à l'Académie royale qui refuse de le recevoir comme peintre d'histoire. Greuze quitte alors le Salon officiel.",
+                        "type": "masterpiece",
                         "icon": "⚡",
-                        "badge": "Rupture"
+                        "badge": "Rupture",
+                        "artworkId": "greuze_empereur_severe_caracalla_louvre_1769"
                     },
                     {
                         "year": 1771,
@@ -9139,18 +9141,18 @@ window.ARTISTS_REGISTRY = {
     `,
     corpus: {
       total: 130,
-      seen: 19,
+      seen: 21,
       paintingsCount: 130,
       sourceTitle: "Inventaire Jules David (1880) & Catalogues Antoine Schnapper / Luc de Nanteuil (1989)",
-      sourceNotes: "Si son petit-fils, Jules David, a dressé un premier inventaire historique dès 1880, le consensus scientifique moderne s'appuie aujourd'hui sur les travaux de référence des historiens de l'art Antoine Schnapper (notamment lors de la monumentale rétrospective du Louvre-Versailles en 1989) et Luc de Nanteuil. En écartant les copies d'atelier, la production strictement autographe de David (incluant ses peintures d'histoire et ses quelque 80 portraits) est évaluée à environ 120 à 130 peintures (dont 19 chefs-d'œuvre contemplés in situ au Musée du Louvre, au Musée des Beaux-Arts de Rouen et au Château de Versailles).",
+      sourceNotes: "Si son petit-fils, Jules David, a dressé un premier inventaire historique dès 1880, le consensus scientifique moderne s'appuie aujourd'hui sur les travaux de référence des historiens de l'art Antoine Schnapper (notamment lors de la monumentale rétrospective du Louvre-Versailles en 1989) et Luc de Nanteuil. En écartant les copies d'atelier, la production strictement autographe de David (incluant ses peintures d'histoire et ses quelque 80 portraits) est évaluée à environ 120 à 130 peintures (dont 21 chefs-d'œuvre contemplés in situ au Musée du Louvre, au Musée des Beaux-Arts de Rouen et au Château de Versailles).",
       details: [
         {
           label: "Grandes peintures d'histoire antique & vertu civique",
           count: 25,
           icon: "⚔️",
           color: "#d4af37",
-          seen: 5,
-          note: "Andromaque, Serment des Horaces, Brutus, Sabines, Léonidas"
+          seen: 7,
+          note: "Andromaque, Serment des Horaces, Brutus, Sabines, Léonidas, Mars contre Minerve, Bélisaire"
         },
         {
           label: "Épopée révolutionnaire & martyrs républicains",

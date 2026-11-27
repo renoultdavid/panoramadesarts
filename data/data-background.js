@@ -7454,3 +7454,215 @@ window.BACKGROUNDS_REGISTRY["les_curieuses"] = window.BACKGROUNDS_REGISTRY["l_al
 window.BACKGROUNDS_REGISTRY["voeu_a_l_amour"] = window.BACKGROUNDS_REGISTRY["l_autel_de_l_amour_et_le_sentimentalisme_preromantique"];
 window.BACKGROUNDS_REGISTRY["la_cruche_cassee"] = window.BACKGROUNDS_REGISTRY["la_cruche_cassee_allegorie_de_l_innocence_perdue"];
 window.BACKGROUNDS_REGISTRY["colin_maillard"] = window.BACKGROUNDS_REGISTRY["la_fete_galante_et_la_pastorale_au_siecle_des_lumieres"];
+
+window.BACKGROUNDS_REGISTRY["septime_severe_et_caracalla_parricide_romain"] = {
+  "id": "septime_severe_et_caracalla_parricide_romain",
+  "badge": "HISTOIRE ROMAINE & PARRICIDE IMPÉRIAL",
+  "title": "Septime Sévère et Caracalla : L'Épreuve du Pouvoir et la Tragédie du Sang Impérial",
+  "sources": "Dion Cassius, Histoire romaine (Livre LXXVII) & Histoire Auguste",
+  "keywords": [
+    "septime sévère",
+    "caracalla",
+    "parricide",
+    "dion cassius",
+    "rome",
+    "glaive",
+    "empereur",
+    "empire romain",
+    "tragédie",
+    "calédonie"
+  ],
+  "text": "<h4>La discorde fraternelle et l'agonie d'un empire</h4>\n<p>Au début du IIIe siècle après J.-C., l'empereur Septime Sévère, fondateur de la dynastie des Sévères, mène une pénible campagne militaire en Bretagne et Calédonie (l'actuelle Écosse). Miné par la goutte et la maladie, le souverain doit affronter un péril plus redoutable encore que les barbares du Nord : la haine inextinguible que se vouent ses deux fils, Caracalla et Géta, associés à l'Empire mais dévorés d'une rivalité mortelle.</p>\n<h4>Le glaive dégainé et l'affrontement paternel</h4>\n<p>Selon le récit de l'historien antique Dion Cassius, lors d'une marche à cheval vers l'ennemi, Caracalla tira son épée avec l'intention de frapper son père dans le dos. Alerté par les cris de l'escorte, Septime Sévère ne cilla pas sur l'instant. De retour sous la tente impériale, il convoqua son fils aîné devant le préfet du prétoire Papinien et ses conseillers les plus proches, fit placer une épée nue à sa portée et prononça ces paroles glaçantes : « Si tu as résolu de me tuer, consomme ton forfait ici, sous les yeux de tous, car tu es jeune et je suis vieux ».</p>\n<h4>La tragédie de l'ambition et la raison d'État</h4>\n<p>Cet épisode tragique cristallise le conflit universel entre la piété filiale sacrée et la démesure de l'ambition politique. Par la seule force de son autorité morale, le souverain mourant désarme la violence brute, confrontant le futur tyran au vertige du parricide et à la déchéance morale qui précède la ruine des dynasties.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["le_drame_bourgeois_et_la_malediction_paternelle"] = {
+  "id": "le_drame_bourgeois_et_la_malediction_paternelle",
+  "badge": "DRAME BOURGEOIS & PIÉTÉ FILIALE",
+  "title": "Le Drame Bourgeois et la Piété Filiale : Morale Domestique et Tragédie du Remords",
+  "sources": "Denis Diderot, De la poésie dramatique (1758), Le Père de famille & la philosophie morale des Lumières",
+  "keywords": [
+    "drame bourgeois",
+    "malédiction paternelle",
+    "fils ingrat",
+    "fils puni",
+    "diderot",
+    "piété filiale",
+    "remords",
+    "morale",
+    "famille",
+    "père de famille"
+  ],
+  "text": "<h4>L'émancipation théâtrale de la vie domestique</h4>\n<p>Au milieu du XVIIIe siècle, les philosophes des Lumières, au premier rang desquels Denis Diderot avec son essai <em>De la poésie dramatique</em> et ses pièces <em>Le Fils naturel</em> et <em>Le Père de famille</em>, révolutionnent la hiérarchie des genres. Rejetant l'exclusive accordée aux héros mythologiques ou princiers, ils affirment que le foyer modeste et les devoirs de famille renferment des ressorts tragiques et moraux tout aussi émouvants et nécessaires à l'édification des citoyens.</p>\n<h4>La rupture familiale et l'anathème du père</h4>\n<p>Au cœur de cette dramaturgie morale se dresse l'affrontement entre l'autorité paternelle bienveillante et l'aveuglement de l'enfant rebelle. L'enrôlement précipité d'un jeune homme guidé par l'attrait chimérique des armes ou de l'argent contre l'avis de ses parents brise l'équilibre nourricier du foyer. La malédiction du père bafoué revêt alors la force irrémédiable d'une sentence cosmique, faisant de l'abandon filial une faute morale impardonnable.</p>\n<h4>L'implacable leçon du remords tardif</h4>\n<p>Le second temps de cette parabole séculaire explore la douleur de la rétribution morale. Le retour du fils brisé par la guerre et la misère, revenant implorer le pardon au moment où le lit de mort du patriarche vient tout juste de se refermer, consacre la tragédie du temps perdu. Loin d'une simple punition divine, le châtiment réside dans la conscience déchirée du repentir à jamais silencieux.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["l_amateur_d_art_et_la_theorie_des_lumieres"] = {
+  "id": "l_amateur_d_art_et_la_theorie_des_lumieres",
+  "badge": "THÉORIE DES ARTS & AMATEURS ÉCLAIRÉS",
+  "title": "L'Amateur Éclairé et la Théorie des Arts : Du Bel-Esprit à la Critique Esthétique",
+  "sources": "Claude-Henri Watelet, L'Art de peindre (1760), Dictionnaire des beaux-arts & l'Encyclopédie",
+  "keywords": [
+    "amateur éclairé",
+    "watelet",
+    "théorie de l'art",
+    "l'art de peindre",
+    "encyclopédie",
+    "vénus",
+    "compas",
+    "esthétique",
+    "lumières"
+  ],
+  "text": "<h4>La figure nouvelle de l'amateur philosophe</h4>\n<p>Au Siècle des Lumières, le rôle du collectionneur d'art dépasse la simple accumulation de trésors pour s'ériger en magistrature intellectuelle. Financiers lettrés, magistrats humanistes et membres des académies royales deviennent des praticiens du goût, liant l'admiration des chefs-d'œuvre à l'étude théorique des règles de la beauté et des proportions.</p>\n<h4>Le dialogue du compas et de la Vénus antique</h4>\n<p>L'alliance entre la sensibilité poétique et la rigueur géométrique définit l'ambition classique du XVIIIe siècle. Le compas tenu dans la main du théoricien ne symbolise pas une froide mesure arithmétique, mais la recherche de l'accord parfait des lignes, guidée par la contemplation des modèles gréco-romains. La réduction en bronze de la Vénus antique incarne l'idéal immuable de la grâce que l'esprit cherche à élucider.</p>\n<h4>La plume didactique au service du goût</h4>\n<p>Dans le recueillement studieux du cabinet, les traits d'éloquence et les poèmes didactiques sur <em>L'Art de peindre</em> forgent le vocabulaire de la critique moderne. En unissant la réflexion littéraire, la pratique de la gravure et la fréquentation amicale des peintres, l'amateur éclairé devient le médiateur indispensable entre l'âme créatrice et le public éclairé.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["la_psychomachie_sentimentale_innocence_et_amour"] = {
+  "id": "la_psychomachie_sentimentale_innocence_et_amour",
+  "badge": "ALLÉGORIE MORALE & PSYCHOMACHIE",
+  "title": "L'Innocence et l'Amour : Psychomachie Sentimentale et Lutte des Passions",
+  "sources": "Jean-Jacques Rousseau, Émile ou De l'éducation, Prudentius & philosophie morale des Lumières",
+  "keywords": [
+    "innocence",
+    "amour",
+    "raison",
+    "vertu",
+    "psychomachie",
+    "allégorie",
+    "passion",
+    "désir",
+    "combat moral",
+    "rousseau"
+  ],
+  "text": "<h4>L'héritage allégorique du combat des vertus</h4>\n<p>Issu de la <em>Psychomachie</em> du poète latin Prudence et réinterprété par la tradition humaniste, le thème du combat intérieur entre les inclinations sensibles et le devoir moral traverse l'histoire des idées. Au Siècle des Lumières, cette allégorie s'humanise et s'émancipe de la théologie pour interroger la fragilité de l'âme humaine face à l'éveil des désirs.</p>\n<h4>L'Innocence tiraillée entre Raison et Désir</h4>\n<p>Au seuil du sanctuaire de la vertu, l'Innocence virginale, guidée par l'agneau de la candeur, est saisie par deux forces contraires. D'un côté, la figure austère de la Raison ou de la Sagesse maternelle s'efforce de retenir la jeune fille dans la sécurité des règles établies ; de l'autre, l'Amour adolescent déploie ses ailes ardentes pour l'entraîner vers l'inconnu enivrant du sentiment amoureux. Ce déchirement silencieux exprime l'angoisse et la fascination de quitter le monde protégé de l'enfance.</p>\n<h4>L'envol de la colombe et la leçon rousseauiste</h4>\n<p>L'envol d'une colombe blanche au pied du péristyle scelle l'irrecevabilité du retour en arrière : la pureté originelle ne peut demeurer statique. Dans la pensée de Jean-Jacques Rousseau, la vertu véritable ne consiste pas dans l'ignorance cloîttrée du péril, mais dans la victoire de l'âme capable d'affronter les tempêtes du cœur sans renoncer à sa noblesse.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["la_theomachie_homere_minerve_contre_mars"] = {
+  "id": "la_theomachie_homere_minerve_contre_mars",
+  "badge": "MYTHOLOGIE HOMÉRIQUE & THÉOMACHIE",
+  "title": "La Théomachie de l'Iliade : Minerve Triomphant de la Fureur d'Arès",
+  "sources": "Homère, Iliade (Chant XXI, 385-415) & mythologie olympienne",
+  "keywords": [
+    "homère",
+    "iliade",
+    "mars",
+    "arès",
+    "minerve",
+    "athéna",
+    "théomachie",
+    "troie",
+    "sagesse",
+    "guerre"
+  ],
+  "text": "<h4>L'affrontement cosmique des dieux sous Troie</h4>\n<p>Au chant XXI de l'<em>Iliade</em> d'Homère, la guerre entre Grecs et Troyens atteint un paroxysme vertigineux : Zeus autorise les divinités olympiennes à descendre directement dans la plaine du Scamandre pour prendre part aux combats. Cet épisode grandiose, désigné sous le nom de théomachie (le combat des dieux), voit s'opposer les puissances célestes dans un tumulte qui ébranle le ciel et la terre.</p>\n<h4>La Sagesse stratégique contre la Fureur aveugle</h4>\n<p>Le duel central oppose deux conceptions radicales de la guerre : Arès (Mars), dieu du carnage brutal, de la violence convulsive et de la force aveugle, attaque de front Athéna (Minerve), déesse de la guerre réfléchie, de la stratégie victorieuse et de la sagesse politique. Alors que le dieu sanguinaire lance sa javeline contre la terrible égide protectrice d'Athéna, celle-ci ramasse une énorme pierre noire dressée dans la plaine pour borner un champ et la projette au cou d'Arès, le terrassant d'un coup magistral.</p>\n<h4>La déroute du destructeur et le secours de Vénus</h4>\n<p>L'écroulement d'Arès, dont le corps colossal couvre sept arpents de poussière dans le fracas de ses armes de bronze, consacre le triomphe de l'esprit sur la bête. L'intervention désespérée d'Aphrodite (Vénus) venant relever son amant blessé ne fait que précipiter leur défaite commune sous le regard impavide de Minerve, affirmant la supériorité morale de l'intelligence civilisatrice sur le chaos des passions destructrices.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["l_oiseau_mort_et_le_premier_deuil_de_l_enfance"] = {
+  "id": "l_oiseau_mort_et_le_premier_deuil_de_l_enfance",
+  "badge": "ÉLÉGIE MORALE & SENSIBILISME",
+  "title": "L'Oiseau Mort : L'Élégie du Passereau et le Premier Deuil de l'Enfance",
+  "sources": "Catulle, Poésies (Carmen III, Lugete o Veneres Cupidinesque) & poésie élégiaque du XVIIIe siècle",
+  "keywords": [
+    "oiseau mort",
+    "passereau",
+    "catulle",
+    "deuil",
+    "enfance",
+    "perte",
+    "cage",
+    "sensibilisme",
+    "élégie",
+    "lumières"
+  ],
+  "text": "<h4>La mélancolie antique du passereau de Lesbie</h4>\n<p>Depuis l'immortelle élégie de Catulle pleurant la mort du passereau familier de sa bien-aimée Lesbie, la disparition d'un petit oiseau de compagnie constitue une des métaphores poétiques les plus tendres de la littérature occidentale. Ce modeste deuil domestique ouvre une brèche dans la routine du bonheur quotidien, confrontant pour la première fois le regard naïf à l'énigme silencieuse du trépas.</p>\n<h4>La cage ouverte et la cage intérieure</h4>\n<p>Au Siècle des Lumières, la cage d'osier ou de bois entrouverte revêt une signification hautement symbolique : au-delà de l'abri protecteur de l'animal familier, elle figure l'enfance elle-même, sanctuaire innocent dont les barreaux protégeaient l'âme des tempêtes extérieures. La vue du plumage inerte sur le bois poli d'un meuble suscite une hésitation poignante : le geste suspendu de la main traduit le désir de réchauffer encore l'être aimé et le refus de croire à la rupture irremédiable.</p>\n<h4>L'éveil à la fragilité du vivant</h4>\n<p>Dans la philosophie sensible du XVIIIe siècle, les larmes répandues sur un oiseau mort ne sont pas une futilité puérile : elles représentent l'initiation bienfaisante du cœur à la pitié universelle et à la compassion. En apprenant à pleurer la perte d'une créature fragile, l'enfant découvre la valeur inestimable de l'existence et affine sa conscience morale.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["la_comedie_italienne_et_les_actrices_des_lumieres"] = {
+  "id": "la_comedie_italienne_et_les_actrices_des_lumieres",
+  "badge": "THÉÂTRE, COSTUME & SOCIABILITÉ",
+  "title": "La Comédie-Italienne : Féerie Scénique, Liberté d'Allure et Modernité des Actrices",
+  "sources": "Histoire du Théâtre-Italien à Paris, Goldoni, Favart & les mémoires du XVIIIe siècle",
+  "keywords": [
+    "comédie-italienne",
+    "comédienne",
+    "actrice",
+    "théâtre",
+    "costume",
+    "manchon",
+    "chapeau",
+    "sourire",
+    "lumières",
+    "opéra-comique"
+  ],
+  "text": "<h4>L'émancipation spirituelle de la scène parisienne</h4>\n<p>Héritière des tréteaux de la <em>commedia dell'arte</em> et fusionnée avec l'Opéra-Comique au cours du XVIIIe siècle, la Comédie-Italienne à Paris s'affirme comme le laboratoire par excellence de la vivacité dramatique, du chant léger et de la liberté des mœurs. Loin de la déclamation empesée de la tragédie française, ses interprètes inventent un jeu spontané où le mot d'esprit, le chant expressif et la pantomime électrisent les spectateurs.</p>\n<h4>La comédienne comme icône de mode et de liberté</h4>\n<p>Au sein de la société d'Ancien Régime, les grandes actrices et cantatrices bénéficient d'un statut privilégié d'émancipation et d'audace vestimentaire. Leurs toilettes de promenade — chapeaux de feutre ou de satin coquettement inclinés, panaches de plumes d'autruche, volumineux manchons de fourrure où réchauffer leurs mains — dictent les modes aristocratiques tout en affichant une désinvolture souveraine.</p>\n<h4>Le sourire franc, manifeste de la grâce naturelle</h4>\n<p>Dans la convention rigide du portrait d'apparat du XVIIIe siècle, la bouche close et l'impassibilité étaient de rigueur. La célébration de la femme de théâtre brise ce tabou : le sourire découvrant les dents avec une franche cordialité, le regard pétillant de malice et l'attitude saisie en plein mouvement de marche célèbrent le triomphe de la spontanéité sur l'étiquette compassée des cours.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["l_amour_maternel_et_la_sensibilite_rousseauiste"] = {
+  "id": "l_amour_maternel_et_la_sensibilite_rousseauiste",
+  "badge": "SENSIBILISME & AMOUR MATERNEL",
+  "title": "L'Amour Maternel au Siècle des Lumières : La Tendresse Révélée par Rousseau",
+  "sources": "Jean-Jacques Rousseau, Émile ou De l'éducation (Livre I) & la philosophie morale du XVIIIe siècle",
+  "keywords": [
+    "amour maternel",
+    "maternité",
+    "rousseau",
+    "mère et fille",
+    "tendresse",
+    "éducation",
+    "famille",
+    "nature",
+    "sensibilité",
+    "émile"
+  ],
+  "text": "<h4>La redécouverte philosophique du lien nourricier</h4>\n<p>Avec la publication de l'<em>Émile</em> en 1762 et de <em>La Nouvelle Héloïse</em>, Jean-Jacques Rousseau opère un bouleversement sans précédent dans les mentalités européennes. Fustigeant l'usage aristocratique de confier les nourrissons aux nourrices de campagne et la mise à distance froide des enfants, le philosophe exhorte les mères à allaiter, à choyer et à élever elles-mêmes leur progéniture, faisant du sentiment maternel la source première de toute vertu morale et sociale.</p>\n<h4>L'étreinte fusionnelle et la grâce raphaélesque</h4>\n<p>Cette réhabilitation du cœur transforme l'iconographie familiale. L'image de la mère serrant sa fillette contre son sein dans une embrassade à la fois protectrice et complice délaisse la raideur des portraits de lignage pour adopter la composition pyramidale et l'harmonieuse plénitude des Vierges à l'Enfant de la Renaissance. La simplicité des vêtements de mousseline et de coton blanc fait écho à la pureté des sentiments dévoilés.</p>\n<h4>L'avènement du bonheur domestique privé</h4>\n<p>À la veille des tourmentes politiques de la fin du siècle, l'intimité partagée entre une mère attentive et son enfant incarne le refuge idéal du bonheur terrestre. Le naturel d'un geste d'affection, la confiance émouvante d'une petite main posée sur une épaule et le sourire radieux échangé témoignent d'une société nouvelle où la vérité des émotions prime désormais sur les hiérarchies de cour.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["l_aristocratie_cosmopolite_et_les_cours_d_europe_au_dix_huitieme"] = {
+  "id": "l_aristocratie_cosmopolite_et_les_cours_d_europe_au_dix_huitieme",
+  "badge": "COURS D'EUROPE & ÉLÉGANCE COSMOPOLITE",
+  "title": "Les Cours d'Europe et l'Aristocratie Cosmopolite : De Versailles à Saint-Pétersbourg",
+  "sources": "Mémoires du prince de Ligne, correspondance des cours impériales et récits de voyage des Lumières",
+  "keywords": [
+    "saint-pétersbourg",
+    "russie",
+    "catherine ii",
+    "aristocratie",
+    "cosmopolite",
+    "portrait",
+    "néoclassicisme",
+    "cours d'europe",
+    "mémoires"
+  ],
+  "text": "<h4>L'Europe française et le voyage des cours</h4>\n<p>À la fin du XVIIIe siècle, l'aristocratie européenne partage une culture, une langue — le français des Lumières — et un même idéal de sociabilité raffinée. De Versailles à Vienne, de Naples à Saint-Pétersbourg, les élites voyagent avec aisance, formant une véritable république cosmopolite des arts et des lettres, liée par des réseaux familiaux, diplomatiques et intellectuels immenses.</p>\n<h4>La cour impériale de Russie sous Catherine II</h4>\n<p>Sous le règne de l'impératrice Catherine la Grande, la capitale des bords de la Néva devient l'un des foyers culturels les plus brillants et fastueux du continent. Les grandes familles de la noblesse russe, comme les princes Potemkine, Kourakine ou Skavronski, conjuguent la grandeur de l'Empire des tsars à la délicatesse du goût occidental. Leurs résidences de marbre abritent de fabuleuses collections et accueillent avec faste les artistes et écrivains européens.</p>\n<h4>L'abandon languide et la beauté à l'antique</h4>\n<p>Loin de l'austérité guerrière ou de la solennité byzantine des anciennes cours moscovites, le portrait féminin s'approprie les codes de la langueur poétique et du drapé antique. Accoudée à un coussin de velours soyeux, vêtue d'une robe chemise en mousseline et enveloppée d'un châle chatoyant, la femme du monde incarne une grâce mélancolique et sereine, emblème d'un art de vivre suspendu à la veille des grands bouleversements du monde moderne.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["belisaire_la_decheance_du_heros_et_la_lecon_stoicienne"] = {
+  "id": "belisaire_la_decheance_du_heros_et_la_lecon_stoicienne",
+  "badge": "PHILOSOPHIE STOÏCIENNE & VERTU ANTIQUE",
+  "title": "Bélisaire et l'Ingratitude des Puissants : La Chute du Vainqueur et la Leçon Stoïcienne",
+  "sources": "Jean-François Marmontel, Bélisaire (1767), Procope de Césarée, Histoire secrète & tradition stoïcienne",
+  "keywords": [
+    "bélisaire",
+    "marmontel",
+    "justinien",
+    "aveugle",
+    "aumône",
+    "stoïcisme",
+    "vertu",
+    "ingratitude",
+    "date obolum",
+    "néoclassicisme"
+  ],
+  "text": "<h4>La légende du conquérant réduit à la mendicité</h4>\n<p>Au VIe siècle, Flavius Bélisaire s'impose comme le plus glorieux général de l'empereur byzantin Justinien, reconquérant pour l'Empire l'Afrique vandale et l'Italie ostrogothique. Cependant, la légende populaire médiévale et moderne, popularisée avec un immense écho philosophique par le roman <em>Bélisaire</em> de Jean-François Marmontel en 1767, rapporte que la jalousie du prince et les intrigues de cour le firent dépouiller de ses biens, aveugler et réduire à mendier son pain aux portes de Constantinople en tendant son casque de guerre avec ces mots : <em>Date obolum Belisario</em> (« Donnez l'obole à Bélisaire »).</p>\n<h4>La critique philosophique de l'ingratitude politique</h4>\n<p>Pour les penseurs des Lumières à la veille de la Révolution française, le mythe de Bélisaire devient l'allégorie suprême de l'ingratitude des tyrans envers les serviteurs de la patrie et de la vanité tragique des honneurs terrestres. Le contraste saisissant entre la gloire passée du vainqueur et son dénuement présent frappe les consciences, éveillant la pitié civique et la révolte morale contre l'arbitraire monarchique.</p>\n<h4>L'héroïsme stoïcien et la grandeur d'âme dans l'adversité</h4>\n<p>Adossé aux ruines de la grandeur antique, guidé par un enfant humble et secouru par la charité d'une femme du peuple sous les yeux pétrifiés d'un ancien compagnon d'armes, le vieux guerrier aveugle conserve une dignité morale inaltérable. Il incarne l'idéal stoïcien le plus pur : celui de l'âme forte qui accepte les revers du sort sans haine ni lâcheté, supérieure à ses bourreaux par la seule souveraineté de sa vertu intérieure.</p>"
+};
+
+// Aliases
+window.BACKGROUNDS_REGISTRY["septime_severe"] = window.BACKGROUNDS_REGISTRY["septime_severe_et_caracalla_parricide_romain"];
+window.BACKGROUNDS_REGISTRY["malediction_paternelle"] = window.BACKGROUNDS_REGISTRY["le_drame_bourgeois_et_la_malediction_paternelle"];
+window.BACKGROUNDS_REGISTRY["le_fils_puni"] = window.BACKGROUNDS_REGISTRY["le_drame_bourgeois_et_la_malediction_paternelle"];
+window.BACKGROUNDS_REGISTRY["claude_henri_watelet"] = window.BACKGROUNDS_REGISTRY["l_amateur_d_art_et_la_theorie_des_lumieres"];
+window.BACKGROUNDS_REGISTRY["innocence_amour"] = window.BACKGROUNDS_REGISTRY["la_psychomachie_sentimentale_innocence_et_amour"];
+window.BACKGROUNDS_REGISTRY["mars_minerve"] = window.BACKGROUNDS_REGISTRY["la_theomachie_homere_minerve_contre_mars"];
+window.BACKGROUNDS_REGISTRY["oiseau_mort"] = window.BACKGROUNDS_REGISTRY["l_oiseau_mort_et_le_premier_deuil_de_l_enfance"];
+window.BACKGROUNDS_REGISTRY["mole_reymond"] = window.BACKGROUNDS_REGISTRY["la_comedie_italienne_et_les_actrices_des_lumieres"];
+window.BACKGROUNDS_REGISTRY["vigee_et_sa_fille"] = window.BACKGROUNDS_REGISTRY["l_amour_maternel_et_la_sensibilite_rousseauiste"];
+window.BACKGROUNDS_REGISTRY["madame_rousseau_et_fille"] = window.BACKGROUNDS_REGISTRY["l_amour_maternel_et_la_sensibilite_rousseauiste"];
+window.BACKGROUNDS_REGISTRY["comtesse_skavronskaia"] = window.BACKGROUNDS_REGISTRY["l_aristocratie_cosmopolite_et_les_cours_d_europe_au_dix_huitieme"];
+window.BACKGROUNDS_REGISTRY["belisaire"] = window.BACKGROUNDS_REGISTRY["belisaire_la_decheance_du_heros_et_la_lecon_stoicienne"];

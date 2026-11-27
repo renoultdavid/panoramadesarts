@@ -9047,6 +9047,27 @@ function populateModalData(art) {
 }
 
 const CERTIFIED_PAINTING_DIMENSIONS = {
+  // Jean-Baptiste Greuze (nouveaux ajouts - Louvre)
+  "greuze_empereur_severe_caracalla_louvre_1769": { h: 124.0, w: 160.0, display: "124 × 160 cm", loc: "Musée du Louvre, Paris" },
+  "greuze_le_fils_puni_louvre_1778": { h: 130.0, w: 163.0, display: "130 × 163 cm", loc: "Musée du Louvre, Paris" },
+  "greuze_portrait_watelet_louvre_1763": { h: 115.0, w: 88.0, display: "115 × 88 cm", loc: "Musée du Louvre, Paris" },
+  "greuze_innocence_entrainee_par_amour_louvre_1786": { h: 146.0, w: 196.0, display: "146 × 196 cm", loc: "Musée du Louvre, Paris" },
+  "greuze_malediction_paternelle_fils_ingrat_louvre_1777": { h: 130.0, w: 162.0, display: "130 × 162 cm", loc: "Musée du Louvre, Paris" },
+  "greuze_la_laitiere_louvre_1772": { h: 106.0, w: 86.0, display: "106 × 86 cm (ovale)", loc: "Musée du Louvre, Paris" },
+  "greuze_autoportrait_louvre_1769": { h: 73.0, w: 59.0, display: "73 × 59 cm", loc: "Musée du Louvre, Paris" },
+  "greuze_l_oiseau_mort_louvre_1800": { h: 68.0, w: 55.0, display: "68 × 55 cm", loc: "Musée du Louvre, Paris" },
+  "greuze_etienne_jeaurat_louvre_1769": { h: 81.0, w: 65.0, display: "81 × 65 cm", loc: "Musée du Louvre, Paris" },
+
+  // Élisabeth Vigée Le Brun (nouveaux ajouts - Louvre)
+  "vigee_lebrun_hubert_robert_louvre_1788": { h: 105.0, w: 84.0, display: "105 × 84 cm", loc: "Musée du Louvre, Paris" },
+  "vigee_lebrun_madame_mole_reymond_louvre_1786": { h: 104.0, w: 76.0, display: "104 × 76 cm", loc: "Musée du Louvre, Paris" },
+  "vigee_lebrun_madame_vigee_lebrun_et_sa_fille_louvre_1786": { h: 105.0, w: 84.0, display: "105 × 84 cm", loc: "Musée du Louvre, Paris" },
+  "vigee_lebrun_comtesse_skavronskaia_louvre_1796": { h: 80.0, w: 66.0, display: "80 × 66 cm", loc: "Musée du Louvre, Paris" },
+  "vigee_lebrun_madame_rousseau_et_sa_fille_louvre_1789": { h: 116.0, w: 87.0, display: "116 × 87 cm", loc: "Musée du Louvre, Paris" },
+
+  // Jacques-Louis David (nouveaux ajouts - Louvre)
+  "david_combat_mars_contre_minerve_louvre_1771": { h: 114.0, w: 147.0, display: "114 × 147 cm", loc: "Musée du Louvre, Paris" },
+  "david_belisaire_demandant_aumone_louvre_1784": { h: 101.0, w: 115.0, display: "101 × 115 cm", loc: "Musée du Louvre, Paris" },
   // Fragonard Jean-Honoré (8 nouveaux chefs-d'œuvre - Louvre)
   "fragonard_adoration_des_bergers_louvre_1775": { h: 73.0, w: 93.0, display: "73 × 93 cm", loc: "Musée du Louvre, Paris" },
   "fragonard_coressus_et_callirhoe_louvre_1765": { h: 309.0, w: 400.0, display: "309 × 400 cm", loc: "Musée du Louvre, Paris" },
