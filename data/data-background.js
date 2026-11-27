@@ -7666,3 +7666,30 @@ window.BACKGROUNDS_REGISTRY["vigee_et_sa_fille"] = window.BACKGROUNDS_REGISTRY["
 window.BACKGROUNDS_REGISTRY["madame_rousseau_et_fille"] = window.BACKGROUNDS_REGISTRY["l_amour_maternel_et_la_sensibilite_rousseauiste"];
 window.BACKGROUNDS_REGISTRY["comtesse_skavronskaia"] = window.BACKGROUNDS_REGISTRY["l_aristocratie_cosmopolite_et_les_cours_d_europe_au_dix_huitieme"];
 window.BACKGROUNDS_REGISTRY["belisaire"] = window.BACKGROUNDS_REGISTRY["belisaire_la_decheance_du_heros_et_la_lecon_stoicienne"];
+
+window.BACKGROUNDS_REGISTRY["la_laitiere_pastorale_innocence_xviii"] = {
+  "id": "la_laitiere_pastorale_innocence_xviii",
+  "title": "La Laitière et l'Idéal Pastoral au XVIIIe Siècle",
+  "category": "Société & Sensibilité",
+  "keywords": ["laitière", "pastorale", "innocence", "campagne", "rousseau", "vertu"],
+  "summary": "Figure emblématique de la sensibilité des Lumières, la jeune laitière incarne la pureté morale, le labeur humble et la nostalgie d'une vie rustique préservée de la corruption des villes.",
+  "text": "<h4>L'éloge rousseauiste de la simplicité champêtre</h4>\n<p>Dans la seconde moitié du XVIIIe siècle, sous l'influence des idées de Jean-Jacques Rousseau et des physiocrates, l'imaginaire européen réhabilite la vie rurale et les humbles métiers des campagnes. La laitière, portant sa jarre de terre cuite ou son seau de fer-blanc à l'aube, devient l'archétype d'une jeunesse vertueuse, laborieuse et spontanée.</p>\n<h4>Fable morale et grâce quotidienne</h4>\n<p>Héritière lointaine de Perrette dans la fable de La Fontaine, cette figure féminine oscille entre la rigueur du devoir quotidien et la rêverie sentimentale. Loin des artifices de la cour, son tablier modeste, son fichu noué et son regard candide célèbrent une beauté naturelle où la modestie sociale se mue en noblesse du cœur.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["les_amours_de_paris_et_helene"] = {
+  "id": "les_amours_de_paris_et_helene",
+  "title": "Les Amours de Pâris et d'Hélène : La Passion à l'Origine de la Guerre de Troie",
+  "category": "Mythologie",
+  "keywords": ["pâris", "hélène", "troie", "sparte", "aphrodite", "homère"],
+  "summary": "Promis à Pâris par Aphrodite lors du Jugement du mont Ida, l'amour d'Hélène de Sparte déclenche l'enlèvement fatal qui précipitera la Grèce et Troie dans une guerre de dix ans.",
+  "text": "<h4>La promesse d'Aphrodite et la rencontre à Sparte</h4>\n<p>Fils du roi Priam de Troie, le prince Pâris reçoit d'Aphrodite la promesse d'obtenir la femme la plus belle du monde pour prix de son arbitrage en faveur de la déesse. Accueilli en hôte à la cour de Ménélas, roi de Sparte, Pâris séduit son épouse Hélène, fille de Zeus et de Léda, dont la beauté légendaire fascine toute la Grèce.</p>\n<h4>Entre l'ivresse du désir et le pressentiment tragique</h4>\n<p>Dans l'épopée homérique (<em>L'Iliade</em>), le couple formé par Pâris, prince musicien et raffiné, et Hélène incarne la tension entre la séduction irrésistible d'Éros et le poids écrasant du destin. Leur fuite vers Troie viole les lois sacrées de l'hospitalité et arme les rois achéens pour un siège sanglant qui s'achèvera par l'incendie de la cité.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["lucius_junius_brutus_sacrifice_republique"] = {
+  "id": "lucius_junius_brutus_sacrifice_republique",
+  "title": "Lucius Junius Brutus : Le Sacrifice des Fils et la Vertu Républicaine",
+  "category": "Histoire & Antiquité",
+  "keywords": ["brutus", "licteurs", "république", "rome", "tarquin", "sacrifice"],
+  "summary": "Fondateur de la République romaine en 509 av. J.-C., le consul Lucius Junius Brutus incarne l'inflexibilité civique absolue : il condamne à mort ses propres fils, coupables d'avoir conspiré pour rétablir la monarchie des Tarquins.",
+  "text": "<h4>La chute des rois et la naissance de la République</h4>\n<p>Selon le récit de Tite-Live et de Plutarque, Lucius Junius Brutus mène la révolte qui chasse de Rome le roi tyran Tarquin le Superbe en 509 av. J.-C. Élu parmi les premiers consuls de la jeune République, il fait jurer au peuple romain de ne plus jamais tolérer de roi.</p>\n<h4>Le déchirement du père et du magistrat</h4>\n<p>Peu après, un complot monarchiste est découvert : parmi les conjurés figurent Titus et Tiberius, les deux fils mêmes de Brutus. Placé devant un choix tragique entre l'amour paternel et la sauvegarde des lois, le consul préside lui-même à l'exécution de ses enfants par les licteurs. Cet acte terrible devient dans la tradition occidentale le symbole suprême du dévouement stoïcien à la patrie, au-dessus des liens du sang.</p>"
+};

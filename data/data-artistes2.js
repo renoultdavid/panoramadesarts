@@ -14582,1097 +14582,1097 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     }
   },
   "vinci": {
-  "id": "vinci",
-  "name": "Vinci Léonard (Leonardo da Vinci)",
-  "sortName": "Vinci Léonard",
-  "sortLetter": "V",
-  "dates": "1452 – 1519",
-  "movement": "Haute Renaissance florentine & milanaise (Sfumato, Perspective atmosphérique & Science de la nature)",
-  "nationality": "Italienne (Florence, Milan, Amboise)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNa82pQxJZJHbcQnf2dlaFdJVGgwcExv-Zrw_JfP2AEAAQ6t6Bg8LwD7QhIhqFXmNhX28oytzF5fYf2C4duDMzem4qKj58moqMNi69aFCxkCJJNzR9R_TJWpdN-bHKHamUdlNrccrE4L9HOym6a9-EVRQ=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Léonard de Vinci</strong> (Leonardo di ser Piero da Vinci, 1452 – 1519), né à Vinci près de Florence et mort au château du Clos Lucé à Amboise, est l'incarnation absolue de l'« Homme universel » de la Renaissance (<em>Homo universalis</em>). Son génie visionnaire a embrassé avec une égale ferveur la peinture, l'anatomie humaine et animale, l'ingénierie civile et militaire, la géologie, l'optique et l'hydraulique. Formé au sein du prestigieux atelier polytechnique d'Andrea del Verrocchio à Florence, il a exercé son art entre Florence, la cour ducale de Ludovic Sforza (dit le More) à Milan, Rome sous le pontificat des Médicis, et enfin la France où il a passé les trois dernières années de sa vie comme « premier peintre, ingénieur et architecte du Roi » François Ier. Bien qu'il ait laissé un nombre restreint de peintures achevées — souvent ralenti par sa curiosité encyclopédique et sa quête insurmontable de perfection —, chacune de ses toiles a provoqué un séisme esthétique, redéfinissant à jamais les règles de la représentation picturale en Occident.</p><p>Son genre pictural est fondé sur une observation scientifique et empirique rigoureuse des lois de la nature et des phénomènes physiques. Pour Léonard, la peinture n'est pas un simple artisanat, mais une « chose mentale » (<em>cosa mentale</em>) et la reine de toutes les sciences, capable de révéler les mécanismes cachés de la Création. Il est le créateur et le maître incontesté du <strong>sfumato</strong> (« enfumé »), une technique révolutionnaire consistant à superposer de multiples couches de glacis translucides (jusqu'à une trentaine de couches de quelques micromètres d'épaisseur) afin de dissoudre les contours nets et les lignes géométriques rigides. Cette transition imperceptible entre ombre et lumière mime l'acuité visuelle de l'œil humain et traduit la présence palpable de l'air et de l'humidité. Ses compositions religieuses et ses portraits sublimes (dont <em>La Joconde</em>, <em>La Cène</em> ou <em>La Vierge aux rochers</em>) se caractérisent par une profondeur psychologique inédite, où les postures en spirale (<em>contrapposto</em>) et les expressions fugaces traduisent ce que Léonard nommait les « mouvements de l'âme » (<em>moti mentali</em>).</p><p>L'évolution de son art illustre une trajectoire magistrale : partant de la précision graphique lumineuse et de la virtuosité orfèvre héritées de Verrocchio (<em>Le Baptême du Christ</em>, <em>L'Annonciation</em>), il plonge rapidement dans une étude vertigineuse de l'obscurité, de l'espace atmosphérique et de l'unité dramatique (<em>L'Adoration des Mages</em>, <em>La Vierge aux rochers</em>). À la maturité milanaise et florentine succède une période d'expérimentations spatiales et géologiques grandioses, culminant dans la composition pyramidale fluide de <em>Sainte Anne</em> et la poésie mélancolique de <em>La Scapigliata</em>, jusqu'à son testament spirituel avec <em>Saint Jean-Baptiste</em>, où la figure androgyne et luminescente semble surgir du mystère primordial de l'infini.</p>",
-  "corpus": {
-    "total": 17,
-    "paintingsCount": 17,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 11,
-    "source": "Consensus scientifique (peintures sur panneau et murales conservées)",
-    "totalOeuvresEstimees": "17 peintures conservées",
-    "oeuvresConsensusNotice": "En retenant exclusivement les peintures sur panneau et peintures murales conservées de sa main (y compris ses premières participations majeures chez Verrocchio comme Le Baptême du Christ et les œuvres largement attribuées comme La Belle Ferronnière ou le Salvator Mundi selon les critères muséaux), le consensus scientifique fixe son corpus officiel conservé à 17 œuvres."
+    "id": "vinci",
+    "name": "Vinci Léonard (Leonardo da Vinci)",
+    "sortName": "Vinci Léonard",
+    "sortLetter": "V",
+    "dates": "1452 – 1519",
+    "movement": "Haute Renaissance florentine & milanaise (Sfumato, Perspective atmosphérique & Science de la nature)",
+    "nationality": "Italienne (Florence, Milan, Amboise)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczNa82pQxJZJHbcQnf2dlaFdJVGgwcExv-Zrw_JfP2AEAAQ6t6Bg8LwD7QhIhqFXmNhX28oytzF5fYf2C4duDMzem4qKj58moqMNi69aFCxkCJJNzR9R_TJWpdN-bHKHamUdlNrccrE4L9HOym6a9-EVRQ=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Léonard de Vinci</strong> (Leonardo di ser Piero da Vinci, 1452 – 1519), né à Vinci près de Florence et mort au château du Clos Lucé à Amboise, est l'incarnation absolue de l'« Homme universel » de la Renaissance (<em>Homo universalis</em>). Son génie visionnaire a embrassé avec une égale ferveur la peinture, l'anatomie humaine et animale, l'ingénierie civile et militaire, la géologie, l'optique et l'hydraulique. Formé au sein du prestigieux atelier polytechnique d'Andrea del Verrocchio à Florence, il a exercé son art entre Florence, la cour ducale de Ludovic Sforza (dit le More) à Milan, Rome sous le pontificat des Médicis, et enfin la France où il a passé les trois dernières années de sa vie comme « premier peintre, ingénieur et architecte du Roi » François Ier. Bien qu'il ait laissé un nombre restreint de peintures achevées — souvent ralenti par sa curiosité encyclopédique et sa quête insurmontable de perfection —, chacune de ses toiles a provoqué un séisme esthétique, redéfinissant à jamais les règles de la représentation picturale en Occident.</p><p>Son genre pictural est fondé sur une observation scientifique et empirique rigoureuse des lois de la nature et des phénomènes physiques. Pour Léonard, la peinture n'est pas un simple artisanat, mais une « chose mentale » (<em>cosa mentale</em>) et la reine de toutes les sciences, capable de révéler les mécanismes cachés de la Création. Il est le créateur et le maître incontesté du <strong>sfumato</strong> (« enfumé »), une technique révolutionnaire consistant à superposer de multiples couches de glacis translucides (jusqu'à une trentaine de couches de quelques micromètres d'épaisseur) afin de dissoudre les contours nets et les lignes géométriques rigides. Cette transition imperceptible entre ombre et lumière mime l'acuité visuelle de l'œil humain et traduit la présence palpable de l'air et de l'humidité. Ses compositions religieuses et ses portraits sublimes (dont <em>La Joconde</em>, <em>La Cène</em> ou <em>La Vierge aux rochers</em>) se caractérisent par une profondeur psychologique inédite, où les postures en spirale (<em>contrapposto</em>) et les expressions fugaces traduisent ce que Léonard nommait les « mouvements de l'âme » (<em>moti mentali</em>).</p><p>L'évolution de son art illustre une trajectoire magistrale : partant de la précision graphique lumineuse et de la virtuosité orfèvre héritées de Verrocchio (<em>Le Baptême du Christ</em>, <em>L'Annonciation</em>), il plonge rapidement dans une étude vertigineuse de l'obscurité, de l'espace atmosphérique et de l'unité dramatique (<em>L'Adoration des Mages</em>, <em>La Vierge aux rochers</em>). À la maturité milanaise et florentine succède une période d'expérimentations spatiales et géologiques grandioses, culminant dans la composition pyramidale fluide de <em>Sainte Anne</em> et la poésie mélancolique de <em>La Scapigliata</em>, jusqu'à son testament spirituel avec <em>Saint Jean-Baptiste</em>, où la figure androgyne et luminescente semble surgir du mystère primordial de l'infini.</p>",
+    "corpus": {
+      "total": 17,
+      "paintingsCount": 17,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 11,
+      "source": "Consensus scientifique (peintures sur panneau et murales conservées)",
+      "totalOeuvresEstimees": "17 peintures conservées",
+      "oeuvresConsensusNotice": "En retenant exclusivement les peintures sur panneau et peintures murales conservées de sa main (y compris ses premières participations majeures chez Verrocchio comme Le Baptême du Christ et les œuvres largement attribuées comme La Belle Ferronnière ou le Salvator Mundi selon les critères muséaux), le consensus scientifique fixe son corpus officiel conservé à 17 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Jeunesse florentine & Atelier de Verrocchio",
+          "years": "1452 – 1481",
+          "color": "#d4af37",
+          "summary": "Apprentissage d'orfèvrerie et de peinture auprès de Verrocchio, premiers chefs-d'œuvre et invention de la perspective atmosphérique.",
+          "events": [
+            {
+              "year": "1452",
+              "title": "Naissance à Vinci",
+              "desc": "Naissance le 15 avril 1452 dans le bourg toscan de Vinci, fils illégitime du notaire ser Piero et d'une paysanne nommée Caterina.",
+              "type": "context",
+              "badge": "BIOGRAPHIE",
+              "icon": "🌱"
+            },
+            {
+              "year": "1469",
+              "title": "Entrée dans la Bottega d'Andrea del Verrocchio",
+              "desc": "Rejoint à Florence l'atelier le plus renommé de la ville, apprenant le dessin de drapés, la fonte du bronze, la chimie des pigments et l'optique.",
+              "type": "context",
+              "badge": "FORMATION",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1472 – 1475",
+              "title": "Le Baptême du Christ (Offices, Florence)",
+              "desc": "Intervention magistrale aux côtés de Verrocchio : Léonard peint l'ange de gauche au sfumato vaporeux et le paysage brumeux.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "✨",
+              "artworkId": "vinci_bapteme_du_christ_offices_1472"
+            },
+            {
+              "year": "1472 – 1475",
+              "title": "L'Annonciation (Offices, Florence)",
+              "desc": "Première commande autonome d'envergure, inaugurant l'ouverture sur le paysage infini et l'étude anatomique des ailes d'oiseau.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🕊️",
+              "artworkId": "vinci_annonciation_offices_1472"
+            },
+            {
+              "year": "v. 1475",
+              "title": "La Madone à l'œillet (Alte Pinakothek, Munich)",
+              "desc": "Expérimentation précoce du clair-obscur et d'une ferveur maternelle où l'œillet préfigure le sacrifice du Calvaire.",
+              "type": "masterpiece",
+              "badge": "JALON MAJEUR",
+              "icon": "🌹"
+            },
+            {
+              "year": "1481",
+              "title": "L'Adoration des Mages (Offices, Florence)",
+              "desc": "Panneau monumental inachevé commandé par San Donato a Scopeto : tourbillon d'émotions et manifeste des mouvements de l'âme.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑",
+              "artworkId": "vinci_adoration_des_mages_offices_1481"
+            }
+          ]
+        },
+        {
+          "title": "Premier séjour milanais & Cour des Sforza",
+          "years": "1482 – 1499",
+          "color": "#38bdf8",
+          "summary": "Service auprès du duc Ludovic Sforza : ingénierie, scénographies princières, portraits de cour et chefs-d'œuvre religieux monumentaux.",
+          "events": [
+            {
+              "year": "1482",
+              "title": "Installation à Milan auprès de Ludovic le More",
+              "desc": "Présente une lettre fameuse vantant ses compétences d'ingénieur militaire, de bâtisseur, d'organisateur de fêtes et de peintre.",
+              "type": "context",
+              "badge": "MÉCÉNAT",
+              "icon": "⚔️"
+            },
+            {
+              "year": "1483 – 1486",
+              "title": "La Vierge aux rochers (Musée du Louvre)",
+              "desc": "Première version commandée par la confrérie de l'Immaculée Conception : apogée du sfumato au cœur d'une grotte primordiale.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "💎",
+              "artworkId": "vinci_la_vierge_aux_rochers_louvre_1483"
+            },
+            {
+              "year": "v. 1490",
+              "title": "La Belle Ferronnière (Musée du Louvre)",
+              "desc": "Effigie fascinante de Lucrezia Crivelli : regard intense, modelé sculptural et expression énigmatique de la vie intérieure.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑",
+              "artworkId": "vinci_la_belle_ferronniere_louvre_1490"
+            },
+            {
+              "year": "1495 – 1498",
+              "title": "La Cène (Santa Maria delle Grazie, Milan)",
+              "desc": "Fresque murale monumentale au réfectoire des dominicains : saisie tragique du moment où le Christ annonce la trahison.",
+              "type": "masterpiece",
+              "badge": "MONUMENT",
+              "icon": "🍷"
+            }
+          ]
+        },
+        {
+          "title": "Itinérances, Retours à Florence & Seconde Maturité",
+          "years": "1500 – 1515",
+          "color": "#a855f7",
+          "summary": "Période nomade entre Mantoue, Venise, Florence et Milan, marquée par les recherches hydrauliques et les grands portraits universels.",
+          "events": [
+            {
+              "year": "1501",
+              "title": "Sainte Anne, la Vierge et l'Enfant (Musée du Louvre)",
+              "desc": "Commencée à Florence et travaillée jusqu'à sa mort : pyramide vivante reliant trois générations au destin sacrificiel.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🐑",
+              "artworkId": "vinci_sainte_anne_la_vierge_et_l_enfant_louvre_1501"
+            },
+            {
+              "year": "1501",
+              "title": "La Madone aux fuseaux (Édimbourg)",
+              "desc": "Composition intimiste peinte pour Florimond Robertet, où l'Enfant contemple le fuseau en forme de croix.",
+              "type": "masterpiece",
+              "badge": "JALON MAJEUR",
+              "icon": "🧶"
+            },
+            {
+              "year": "1503 – 1506",
+              "title": "La Joconde (Mona Lisa) & La Bataille d'Anghiari",
+              "desc": "Entreprend le portrait de Lisa Gherardini au Louvre et la fresque disparue du Palazzo Vecchio en rivalité avec Michel-Ange.",
+              "type": "masterpiece",
+              "badge": "LÉGENDE",
+              "icon": "👁️"
+            },
+            {
+              "year": "1503 – 1508",
+              "title": "La Vierge aux rochers - Seconde version (National Gallery, Londres)",
+              "desc": "Version achevée pour Milan aux tonalités plus froides et sculpturales, affirmant la pureté céleste de Marie.",
+              "type": "masterpiece",
+              "badge": "JALON MAJEUR",
+              "icon": "⛰️"
+            },
+            {
+              "year": "v. 1508",
+              "title": "La Scapigliata (Galerie nationale de Parme)",
+              "desc": "Tête de jeune fille échevelée en terre d'ombre et céruse sur bois : miracle d'introspection et de grâce suspendue.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "💫",
+              "artworkId": "vinci_la_scapigliata_parme_1509"
+            }
+          ]
+        },
+        {
+          "title": "Rome & Les Dernières Années en France",
+          "years": "1516 – 1519",
+          "color": "#ec4899",
+          "summary": "Séjour au Vatican sous Léon X, puis installation triomphale à Amboise auprès de François Ier comme premier peintre du Roi.",
+          "events": [
+            {
+              "year": "1513 – 1516",
+              "title": "Saint Jean-Baptiste (Musée du Louvre)",
+              "desc": "Ultime chef-d'œuvre testamentaire : figure luminescente émergeant de la nuit et désignant le ciel d'un sourire énigmatique.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👆",
+              "artworkId": "vinci_saint_jean_baptiste_louvre_1513"
+            },
+            {
+              "year": "1516",
+              "title": "Arrivée au Manoir du Clos Lucé à Amboise",
+              "desc": "Invité par le jeune roi François Ier qui lui offre une pension royale, lui confiant l'urbanisme de Romorantin et les fêtes de cour.",
+              "type": "context",
+              "badge": "COUR ROYALE",
+              "icon": "👑"
+            },
+            {
+              "year": "1519",
+              "title": "Mort à Amboise",
+              "desc": "S'éteint le 2 mai 1519 à l'âge de 67 ans au Clos Lucé, léguant ses précieux carnets, manuscrits et dessins à Francesco Melzi.",
+              "type": "context",
+              "badge": "MÉMOIRE",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "title": "Jeunesse florentine & Atelier de Verrocchio",
-        "years": "1452 – 1481",
-        "color": "#d4af37",
-        "summary": "Apprentissage d'orfèvrerie et de peinture auprès de Verrocchio, premiers chefs-d'œuvre et invention de la perspective atmosphérique.",
-        "events": [
-          {
-            "year": "1452",
-            "title": "Naissance à Vinci",
-            "desc": "Naissance le 15 avril 1452 dans le bourg toscan de Vinci, fils illégitime du notaire ser Piero et d'une paysanne nommée Caterina.",
-            "type": "context",
-            "badge": "BIOGRAPHIE",
-            "icon": "🌱"
-          },
-          {
-            "year": "1469",
-            "title": "Entrée dans la Bottega d'Andrea del Verrocchio",
-            "desc": "Rejoint à Florence l'atelier le plus renommé de la ville, apprenant le dessin de drapés, la fonte du bronze, la chimie des pigments et l'optique.",
-            "type": "context",
-            "badge": "FORMATION",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1472 – 1475",
-            "title": "Le Baptême du Christ (Offices, Florence)",
-            "desc": "Intervention magistrale aux côtés de Verrocchio : Léonard peint l'ange de gauche au sfumato vaporeux et le paysage brumeux.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "✨",
-            "artworkId": "vinci_bapteme_du_christ_offices_1472"
-          },
-          {
-            "year": "1472 – 1475",
-            "title": "L'Annonciation (Offices, Florence)",
-            "desc": "Première commande autonome d'envergure, inaugurant l'ouverture sur le paysage infini et l'étude anatomique des ailes d'oiseau.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🕊️",
-            "artworkId": "vinci_annonciation_offices_1472"
-          },
-          {
-            "year": "v. 1475",
-            "title": "La Madone à l'œillet (Alte Pinakothek, Munich)",
-            "desc": "Expérimentation précoce du clair-obscur et d'une ferveur maternelle où l'œillet préfigure le sacrifice du Calvaire.",
-            "type": "masterpiece",
-            "badge": "JALON MAJEUR",
-            "icon": "🌹"
-          },
-          {
-            "year": "1481",
-            "title": "L'Adoration des Mages (Offices, Florence)",
-            "desc": "Panneau monumental inachevé commandé par San Donato a Scopeto : tourbillon d'émotions et manifeste des mouvements de l'âme.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "👑",
-            "artworkId": "vinci_adoration_des_mages_offices_1481"
-          }
-        ]
-      },
-      {
-        "title": "Premier séjour milanais & Cour des Sforza",
-        "years": "1482 – 1499",
-        "color": "#38bdf8",
-        "summary": "Service auprès du duc Ludovic Sforza : ingénierie, scénographies princières, portraits de cour et chefs-d'œuvre religieux monumentaux.",
-        "events": [
-          {
-            "year": "1482",
-            "title": "Installation à Milan auprès de Ludovic le More",
-            "desc": "Présente une lettre fameuse vantant ses compétences d'ingénieur militaire, de bâtisseur, d'organisateur de fêtes et de peintre.",
-            "type": "context",
-            "badge": "MÉCÉNAT",
-            "icon": "⚔️"
-          },
-          {
-            "year": "1483 – 1486",
-            "title": "La Vierge aux rochers (Musée du Louvre)",
-            "desc": "Première version commandée par la confrérie de l'Immaculée Conception : apogée du sfumato au cœur d'une grotte primordiale.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "💎",
-            "artworkId": "vinci_la_vierge_aux_rochers_louvre_1483"
-          },
-          {
-            "year": "v. 1490",
-            "title": "La Belle Ferronnière (Musée du Louvre)",
-            "desc": "Effigie fascinante de Lucrezia Crivelli : regard intense, modelé sculptural et expression énigmatique de la vie intérieure.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "👑",
-            "artworkId": "vinci_la_belle_ferronniere_louvre_1490"
-          },
-          {
-            "year": "1495 – 1498",
-            "title": "La Cène (Santa Maria delle Grazie, Milan)",
-            "desc": "Fresque murale monumentale au réfectoire des dominicains : saisie tragique du moment où le Christ annonce la trahison.",
-            "type": "masterpiece",
-            "badge": "MONUMENT",
-            "icon": "🍷"
-          }
-        ]
-      },
-      {
-        "title": "Itinérances, Retours à Florence & Seconde Maturité",
-        "years": "1500 – 1515",
-        "color": "#a855f7",
-        "summary": "Période nomade entre Mantoue, Venise, Florence et Milan, marquée par les recherches hydrauliques et les grands portraits universels.",
-        "events": [
-          {
-            "year": "1501",
-            "title": "Sainte Anne, la Vierge et l'Enfant (Musée du Louvre)",
-            "desc": "Commencée à Florence et travaillée jusqu'à sa mort : pyramide vivante reliant trois générations au destin sacrificiel.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🐑",
-            "artworkId": "vinci_sainte_anne_la_vierge_et_l_enfant_louvre_1501"
-          },
-          {
-            "year": "1501",
-            "title": "La Madone aux fuseaux (Édimbourg)",
-            "desc": "Composition intimiste peinte pour Florimond Robertet, où l'Enfant contemple le fuseau en forme de croix.",
-            "type": "masterpiece",
-            "badge": "JALON MAJEUR",
-            "icon": "🧶"
-          },
-          {
-            "year": "1503 – 1506",
-            "title": "La Joconde (Mona Lisa) & La Bataille d'Anghiari",
-            "desc": "Entreprend le portrait de Lisa Gherardini au Louvre et la fresque disparue du Palazzo Vecchio en rivalité avec Michel-Ange.",
-            "type": "masterpiece",
-            "badge": "LÉGENDE",
-            "icon": "👁️"
-          },
-          {
-            "year": "1503 – 1508",
-            "title": "La Vierge aux rochers - Seconde version (National Gallery, Londres)",
-            "desc": "Version achevée pour Milan aux tonalités plus froides et sculpturales, affirmant la pureté céleste de Marie.",
-            "type": "masterpiece",
-            "badge": "JALON MAJEUR",
-            "icon": "⛰️"
-          },
-          {
-            "year": "v. 1508",
-            "title": "La Scapigliata (Galerie nationale de Parme)",
-            "desc": "Tête de jeune fille échevelée en terre d'ombre et céruse sur bois : miracle d'introspection et de grâce suspendue.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "💫",
-            "artworkId": "vinci_la_scapigliata_parme_1509"
-          }
-        ]
-      },
-      {
-        "title": "Rome & Les Dernières Années en France",
-        "years": "1516 – 1519",
-        "color": "#ec4899",
-        "summary": "Séjour au Vatican sous Léon X, puis installation triomphale à Amboise auprès de François Ier comme premier peintre du Roi.",
-        "events": [
-          {
-            "year": "1513 – 1516",
-            "title": "Saint Jean-Baptiste (Musée du Louvre)",
-            "desc": "Ultime chef-d'œuvre testamentaire : figure luminescente émergeant de la nuit et désignant le ciel d'un sourire énigmatique.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "👆",
-            "artworkId": "vinci_saint_jean_baptiste_louvre_1513"
-          },
-          {
-            "year": "1516",
-            "title": "Arrivée au Manoir du Clos Lucé à Amboise",
-            "desc": "Invité par le jeune roi François Ier qui lui offre une pension royale, lui confiant l'urbanisme de Romorantin et les fêtes de cour.",
-            "type": "context",
-            "badge": "COUR ROYALE",
-            "icon": "👑"
-          },
-          {
-            "year": "1519",
-            "title": "Mort à Amboise",
-            "desc": "S'éteint le 2 mai 1519 à l'âge de 67 ans au Clos Lucé, léguant ses précieux carnets, manuscrits et dessins à Francesco Melzi.",
-            "type": "context",
-            "badge": "MÉMOIRE",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
   "vlaminck": {
-  "id": "vlaminck",
-  "name": "Vlaminck Maurice (Maurice de Vlaminck)",
-  "sortName": "Vlaminck Maurice",
-  "sortLetter": "V",
-  "dates": "1876 – 1958",
-  "movement": "Fauvisme instinctif de Chatou & Expressionnisme rural (Matière tellurique & Paysages d'orage)",
-  "nationality": "Française (Paris, Chatou, Rueil-la-Gadelière)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPm3hfmxCF2E2EcO8uzy3pA30vsBYqZvIJ_oLG78h2EGCyaRgd1sUlhwC2MedXIv6c1fNyCPepPqa5MSJsmA-z1D9kDQ0MRRhuQsOw8R4HVXozsoW33sgxzAjBo5VF_1wsXgLWpTNJf8vgQDCVTLC611Q=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Maurice de Vlaminck</strong> (1876 – 1958), né à Paris et mort à Rueil-la-Gadelière en Eure-et-Loir, est l'un des pionniers les plus fougueux et intransigeants du Fauvisme, mouvement dont il a constitué le pôle instinctif, tellurique et viscéral aux côtés d'André Derain et d'Henri Matisse. Autodidacte revendiqué avec fierté, athlète accompli, coureur cycliste professionnel et violoniste de cabaret pour subsister, cet esprit farouche et réfractaire à tout enseignement académique entendait peindre « avec ses tripes et ses tripes seules », fustigeant les musées et les théories esthétiques comme des entraves au jaillissement de la vie pure. Après la déflagration chromatique incandescente des années fauves à Chatou, il a opéré un tournant expressionniste profondément singulier, consacrant la seconde moitié de son existence à des paysages ruraux dramatiques et tourmentés, balayés par le vent, la boue et les tempêtes de neige.</p><p>Son genre d'expression se définit par le paysage rural et d'orage, la marine fluviale (les bords de Seine de Chatou et Bougival), la nature morte d'atelier et le portrait expressionniste. Son style se caractérise d'abord, durant la période fauve, par l'emploi de couleurs pures sorties directement du tube sans mélange préalable, appliquées en touches pâteuses, saccadées et zébrées qui font vibrer la surface de la toile dans une exaltation émotionnelle brute. Sous l'influence décisive de Van Gogh et de Cézanne, sa palette s'apaise temporairement vers des ocres et des bleus d'ardoise, avant d'évoluer vers une matière picturale lourde, grumeleuse et sensuelle, maçonnée avec énergie au couteau à peindre dans des contrastes violents de noirs bitumeux, de terres de Sienne sombres et de blancs crayeux éclatants.</p><p>L'évolution de son art marque un passage de l'embrasement solaire vers une austérité tragique et grandiose : des bords de Seine partagés avec Derain dans la célèbre « cage aux fauves » du Salon d'automne de 1905 (<em>Restaurant de la Machine à Bougival</em>, <em>Les Arbres rouges</em>), jusqu'à son repli solitaire en Beauce et dans le Perche après le traumatisme de la Grande Guerre, peignant inlassablement des routes désertes sous des ciels d'encre zébrés d'éclairs qui constituent un sommet de la peinture de terroir expressionniste en France au XXe siècle.</p>",
-  "corpus": {
-    "total": 2150,
-    "paintingsCount": 2150,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 0,
-    "source": "Wildenstein Institute (Maïthé Vallès-Bled, Catalogue critique des peintures et céramiques)",
-    "totalOeuvresEstimees": "~2 150 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue critique des peintures et céramiques de Maurice de Vlaminck établi par Maïthé Vallès-Bled pour le Wildenstein Institute (Vlaminck : Catalogue critique des peintures et céramiques, 2008). En retenant exclusivement ses peintures à l'huile authentifiées et répertoriées au catalogue critique (en écartant les gouaches et aquarelles sur papier, les estampes, les céramiques peintes avec André Metthey et les faux notoires), le consensus muséal fixe son corpus officiel autour d'environ 2 150 œuvres."
+    "id": "vlaminck",
+    "name": "Vlaminck Maurice (Maurice de Vlaminck)",
+    "sortName": "Vlaminck Maurice",
+    "sortLetter": "V",
+    "dates": "1876 – 1958",
+    "movement": "Fauvisme instinctif de Chatou & Expressionnisme rural (Matière tellurique & Paysages d'orage)",
+    "nationality": "Française (Paris, Chatou, Rueil-la-Gadelière)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczPm3hfmxCF2E2EcO8uzy3pA30vsBYqZvIJ_oLG78h2EGCyaRgd1sUlhwC2MedXIv6c1fNyCPepPqa5MSJsmA-z1D9kDQ0MRRhuQsOw8R4HVXozsoW33sgxzAjBo5VF_1wsXgLWpTNJf8vgQDCVTLC611Q=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Maurice de Vlaminck</strong> (1876 – 1958), né à Paris et mort à Rueil-la-Gadelière en Eure-et-Loir, est l'un des pionniers les plus fougueux et intransigeants du Fauvisme, mouvement dont il a constitué le pôle instinctif, tellurique et viscéral aux côtés d'André Derain et d'Henri Matisse. Autodidacte revendiqué avec fierté, athlète accompli, coureur cycliste professionnel et violoniste de cabaret pour subsister, cet esprit farouche et réfractaire à tout enseignement académique entendait peindre « avec ses tripes et ses tripes seules », fustigeant les musées et les théories esthétiques comme des entraves au jaillissement de la vie pure. Après la déflagration chromatique incandescente des années fauves à Chatou, il a opéré un tournant expressionniste profondément singulier, consacrant la seconde moitié de son existence à des paysages ruraux dramatiques et tourmentés, balayés par le vent, la boue et les tempêtes de neige.</p><p>Son genre d'expression se définit par le paysage rural et d'orage, la marine fluviale (les bords de Seine de Chatou et Bougival), la nature morte d'atelier et le portrait expressionniste. Son style se caractérise d'abord, durant la période fauve, par l'emploi de couleurs pures sorties directement du tube sans mélange préalable, appliquées en touches pâteuses, saccadées et zébrées qui font vibrer la surface de la toile dans une exaltation émotionnelle brute. Sous l'influence décisive de Van Gogh et de Cézanne, sa palette s'apaise temporairement vers des ocres et des bleus d'ardoise, avant d'évoluer vers une matière picturale lourde, grumeleuse et sensuelle, maçonnée avec énergie au couteau à peindre dans des contrastes violents de noirs bitumeux, de terres de Sienne sombres et de blancs crayeux éclatants.</p><p>L'évolution de son art marque un passage de l'embrasement solaire vers une austérité tragique et grandiose : des bords de Seine partagés avec Derain dans la célèbre « cage aux fauves » du Salon d'automne de 1905 (<em>Restaurant de la Machine à Bougival</em>, <em>Les Arbres rouges</em>), jusqu'à son repli solitaire en Beauce et dans le Perche après le traumatisme de la Grande Guerre, peignant inlassablement des routes désertes sous des ciels d'encre zébrés d'éclairs qui constituent un sommet de la peinture de terroir expressionniste en France au XXe siècle.</p>",
+    "corpus": {
+      "total": 2150,
+      "paintingsCount": 2150,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Wildenstein Institute (Maïthé Vallès-Bled, Catalogue critique des peintures et céramiques)",
+      "totalOeuvresEstimees": "~2 150 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue critique des peintures et céramiques de Maurice de Vlaminck établi par Maïthé Vallès-Bled pour le Wildenstein Institute (Vlaminck : Catalogue critique des peintures et céramiques, 2008). En retenant exclusivement ses peintures à l'huile authentifiées et répertoriées au catalogue critique (en écartant les gouaches et aquarelles sur papier, les estampes, les céramiques peintes avec André Metthey et les faux notoires), le consensus muséal fixe son corpus officiel autour d'environ 2 150 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "L'École de Chatou & L'Embrasement Fauve",
+          "years": "1900 – 1907",
+          "color": "#ef4444",
+          "summary": "Rencontre avec Derain, découverte fulgurante de Van Gogh et scandale de la cage aux fauves au Salon d'automne.",
+          "events": [
+            {
+              "year": "1900",
+              "title": "Rencontre avec André Derain",
+              "desc": "Une rencontre de fortune lors d'un déraillement de train près de Chatou scelle une amitié fondatrice et le partage d'un atelier insulaire.",
+              "type": "peer",
+              "badge": "RENCONTRE",
+              "icon": "🤝"
+            },
+            {
+              "year": "1901",
+              "title": "Révélation de la rétrospective Van Gogh",
+              "desc": "Visite la rétrospective Van Gogh à la galerie Bernheim-Jeune : bouleversé, il déclare aimer Van Gogh plus que son propre père.",
+              "type": "context",
+              "badge": "RÉVÉLATION",
+              "icon": "🌻"
+            },
+            {
+              "year": "1905",
+              "title": "Le scandale du Salon d'automne",
+              "desc": "Expose dans la salle VII baptisée la « cage aux fauves » par Louis Vauxcelles : ses couleurs pures scandalisent le public parisien.",
+              "type": "masterpiece",
+              "badge": "FAUVISME",
+              "icon": "🔥"
+            },
+            {
+              "year": "1906",
+              "title": "Achat par Ambroise Vollard",
+              "desc": "Le grand marchand Ambroise Vollard lui achète l'intégralité de son atelier, lui assurant pour la première fois une indépendance matérielle.",
+              "type": "context",
+              "badge": "MÉCÉNAT",
+              "icon": "💼"
+            }
+          ]
+        },
+        {
+          "title": "Période Cézanienne & Rejet du Cubisme",
+          "years": "1908 – 1914",
+          "color": "#38bdf8",
+          "summary": "Structuration géométrique des volumes après la rétrospective Cézanne et refus catégorique de l'abstraction cérébrale.",
+          "events": [
+            {
+              "year": "1908",
+              "title": "L'influence de Paul Cézanne",
+              "desc": "Après la rétrospective Cézanne de 1907, il modère l'anarchie des tons vifs pour structurer ses paysages par des ocres et des bleus sourds.",
+              "type": "context",
+              "badge": "ÉVOLUTION",
+              "icon": "📐"
+            },
+            {
+              "year": "1910",
+              "title": "Rejet virulent du cubisme",
+              "desc": "Refuse catégoriquement de suivre Braque et Picasso dans le cubisme, qu'il dénonce comme un artifice cérébral destructeur de l'émotion.",
+              "type": "context",
+              "badge": "ENGAGEMENT",
+              "icon": "⚡"
+            }
+          ]
+        },
+        {
+          "title": "La Retraite Rurale & Les Paysages d'Orage",
+          "years": "1918 – 1958",
+          "color": "#a855f7",
+          "summary": "Installation en Eure-et-Loir, matière pâteuse au couteau, routes désertes sous la neige et ciels d'encre tourmentés.",
+          "events": [
+            {
+              "year": "1925",
+              "title": "Installation à La Tourillière (Rueil-la-Gadelière)",
+              "desc": "S'établit définitivement dans une ferme isolée du Perche, peignant la rudesse de la terre et des chaumières sous l'orage.",
+              "type": "context",
+              "badge": "ATELIER",
+              "icon": "🏡"
+            },
+            {
+              "year": "1937",
+              "title": "Consécration internationale",
+              "desc": "Grande exposition rétrospective aux Maîtres de l'art indépendant au Petit Palais à Paris, consacrant sa stature de peintre de la matière.",
+              "type": "context",
+              "badge": "RÉTROSPECTIVE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1958",
+              "title": "Mort à Rueil-la-Gadelière",
+              "desc": "S'éteint le 11 octobre 1958 à l'âge de 82 ans dans sa propriété d'Eure-et-Loir, laissant une œuvre expressionniste puissante et sans concession.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "title": "L'École de Chatou & L'Embrasement Fauve",
-        "years": "1900 – 1907",
-        "color": "#ef4444",
-        "summary": "Rencontre avec Derain, découverte fulgurante de Van Gogh et scandale de la cage aux fauves au Salon d'automne.",
-        "events": [
-          {
-            "year": "1900",
-            "title": "Rencontre avec André Derain",
-            "desc": "Une rencontre de fortune lors d'un déraillement de train près de Chatou scelle une amitié fondatrice et le partage d'un atelier insulaire.",
-            "type": "peer",
-            "badge": "RENCONTRE",
-            "icon": "🤝"
-          },
-          {
-            "year": "1901",
-            "title": "Révélation de la rétrospective Van Gogh",
-            "desc": "Visite la rétrospective Van Gogh à la galerie Bernheim-Jeune : bouleversé, il déclare aimer Van Gogh plus que son propre père.",
-            "type": "context",
-            "badge": "RÉVÉLATION",
-            "icon": "🌻"
-          },
-          {
-            "year": "1905",
-            "title": "Le scandale du Salon d'automne",
-            "desc": "Expose dans la salle VII baptisée la « cage aux fauves » par Louis Vauxcelles : ses couleurs pures scandalisent le public parisien.",
-            "type": "masterpiece",
-            "badge": "FAUVISME",
-            "icon": "🔥"
-          },
-          {
-            "year": "1906",
-            "title": "Achat par Ambroise Vollard",
-            "desc": "Le grand marchand Ambroise Vollard lui achète l'intégralité de son atelier, lui assurant pour la première fois une indépendance matérielle.",
-            "type": "context",
-            "badge": "MÉCÉNAT",
-            "icon": "💼"
-          }
-        ]
-      },
-      {
-        "title": "Période Cézanienne & Rejet du Cubisme",
-        "years": "1908 – 1914",
-        "color": "#38bdf8",
-        "summary": "Structuration géométrique des volumes après la rétrospective Cézanne et refus catégorique de l'abstraction cérébrale.",
-        "events": [
-          {
-            "year": "1908",
-            "title": "L'influence de Paul Cézanne",
-            "desc": "Après la rétrospective Cézanne de 1907, il modère l'anarchie des tons vifs pour structurer ses paysages par des ocres et des bleus sourds.",
-            "type": "context",
-            "badge": "ÉVOLUTION",
-            "icon": "📐"
-          },
-          {
-            "year": "1910",
-            "title": "Rejet virulent du cubisme",
-            "desc": "Refuse catégoriquement de suivre Braque et Picasso dans le cubisme, qu'il dénonce comme un artifice cérébral destructeur de l'émotion.",
-            "type": "context",
-            "badge": "ENGAGEMENT",
-            "icon": "⚡"
-          }
-        ]
-      },
-      {
-        "title": "La Retraite Rurale & Les Paysages d'Orage",
-        "years": "1918 – 1958",
-        "color": "#a855f7",
-        "summary": "Installation en Eure-et-Loir, matière pâteuse au couteau, routes désertes sous la neige et ciels d'encre tourmentés.",
-        "events": [
-          {
-            "year": "1925",
-            "title": "Installation à La Tourillière (Rueil-la-Gadelière)",
-            "desc": "S'établit définitivement dans une ferme isolée du Perche, peignant la rudesse de la terre et des chaumières sous l'orage.",
-            "type": "context",
-            "badge": "ATELIER",
-            "icon": "🏡"
-          },
-          {
-            "year": "1937",
-            "title": "Consécration internationale",
-            "desc": "Grande exposition rétrospective aux Maîtres de l'art indépendant au Petit Palais à Paris, consacrant sa stature de peintre de la matière.",
-            "type": "context",
-            "badge": "RÉTROSPECTIVE",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1958",
-            "title": "Mort à Rueil-la-Gadelière",
-            "desc": "S'éteint le 11 octobre 1958 à l'âge de 82 ans dans sa propriété d'Eure-et-Loir, laissant une œuvre expressionniste puissante et sans concession.",
-            "type": "context",
-            "badge": "DISPARITION",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
   "vouet": {
-  "id": "vouet",
-  "name": "Vouet Simon",
-  "sortName": "Vouet Simon",
-  "sortLetter": "V",
-  "dates": "1590 – 1649",
-  "movement": "Baroque français & Classicisme lumineux (Premier peintre du Roi Louis XIII, Caravagisme romain & Grand style parisien)",
-  "nationality": "Française (Paris, Rome)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOkt1y3eT-WHQ7_fJvM5mSQhpQreFz9XSUKDIgRzRdppQTG7LYePMrZm7iYdVWOtpyFm2O80DxwA1gGPp4Aap1nYGu55_rvIvpNC_eoctSRjt_4cYYGLrxm5vCDLZFAE6_6XvdBfc_CePg3mCXTle8uLw=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Simon Vouet</strong> (1590 – 1649), né et mort à Paris, est la figure fondatrice qui a véritablement importé le grand langage du Baroque italien en France, rénovant en profondeur la peinture française et préparant l'éclosion du grand classicisme du siècle de Louis XIV avec ses illustres disciples Charles Le Brun et Eustache Le Sueur. Enfant prodige voyageant très tôt en Angleterre et à Constantinople, il passe près de quinze années décisives en Italie (1612 – 1627), principalement à Rome où il connaît une ascension fulgurante. Protégé par le cardinal Barberini (le futur pape Urbain VIII) et par les plus grandes familles patriciennes, il est élu en 1624 à la tête de la prestigieuse Académie de Saint-Luc, consécration suprême pour un artiste étranger. Rappelé en France par lettre royale de Louis XIII en 1627, il est nommé Premier peintre du Roi et reçoit un logement au Louvre, régnant en maître incontesté sur la scène artistique parisienne pendant plus de deux décennies.</p><p>Son genre pictural est marqué par une synthèse magistrale entre le dynamisme plastique italien et une grâce mesurée profondément française. Si ses premières années romaines sont fortement marquées par le naturalisme vigoureux et le clair-obscur dramatique du Caravage (<em>Portraits de jeune homme</em> d'Ajaccio et du Louvre), il s'en émancipe avec éclat pour concevoir un style ample, lumineux, aéré et triomphal. Ses compositions allégoriques, ses retables religieux pour les couvents parisiens et ses grands décors princiers (pour le Palais-Royal de Richelieu, le château de Chilly ou Saint-Germain-en-Laye) se déploient dans des perspectives ascendantes théâtrales. Il y utilise une palette solaire incomparable, faisant chanter des accords majeurs de jaunes d'or rayonnants, de bleus d'azur profonds, de blancs de satin et de pourpres délicates.</p><p>L'évolution de son art illustre la transition du ténébrisme romain vers la pleine clarté décorative du Grand Siècle : des figures isolées sculptées par la lumière oblique (<em>Jeune homme en armure</em>) aux manifestations monumentales de l'apothéose sacrée (<em>Saint Eustache et sa famille</em> à Nantes, <em>La Présentation au Temple</em> peinte pour les Jésuites sur commande de Richelieu) et de la rhétorique monarchique (<em>Louis XIII entre la France et la Navarre</em>, <em>Gaucher de Châtillon</em>), Vouet a créé le creuset du grand art officiel français avant l'avènement versaillais.</p>",
-  "corpus": {
-    "total": 220,
-    "paintingsCount": 220,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 10,
-    "source": "William R. Crelly, Jacques Thuillier & Arnauld Brejon de Lavergnée (Catalogue critique)",
-    "totalOeuvresEstimees": "~220 peintures et grands décors conservés",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur la monographie et le catalogue critique établis par William R. Crelly (The Painting of Simon Vouet, Yale University Press, 1962), enrichis et actualisés par les recherches fondamentales de Jacques Thuillier (notamment le catalogue de la rétrospective historique du Grand Palais en 1990–1991) et d'Arnauld Brejon de Lavergnée. En retenant strictement les peintures sur toile et décors peints conservés ou documentés attribués au maître (tableaux d'autel, mythologies, allégories, portraits et fragments de grands décors, à l'exclusion de ses nombreux dessins à la pierre noire et craie blanche ainsi que des tapisseries tissées d'après ses modèles), le consensus muséal fixe son corpus officiel autour d'environ 220 peintures."
-  },
-  "timeline": {
-    "periods": [
-      {
-        "title": "Les Années Romaines & La Flamme Caravagesque",
-        "years": "1613 – 1627",
-        "color": "#ef4444",
-        "summary": "Séjour en Italie, assimilation du clair-obscur du Caravage et élection comme prince de l'Académie de Saint-Luc.",
-        "events": [
-          {
-            "year": "1613",
-            "title": "Arrivée à Rome",
-            "desc": "Bénéficiant d'une pension royale grâce à l'ambassadeur de France, il s'installe à Rome et étudie les maîtres de la Renaissance et l'avant-garde caravagesque.",
-            "type": "context",
-            "badge": "VOYAGE",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1615 – 1620",
-            "title": "Portrait de jeune homme (Musée Fesch, Ajaccio)",
-            "desc": "Portrait intimiste au clair-obscur vigoureux et à la fraise empesée, révélant la subtilité du modelé caravagesque.",
-            "type": "context",
-            "badge": "JALON MAJEUR",
-            "icon": "👤"
-          },
-          {
-            "year": "1616 – 1618",
-            "title": "Portrait de jeune homme (Musée du Louvre)",
-            "desc": "Chef-d'œuvre de la période romaine : regard pénétrant et mélancolique émergeant d'un fond d'obscurité pure.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "✨",
-            "artworkId": "vouet_portrait_jeune_homme_louvre_1616"
-          },
-          {
-            "year": "1624",
-            "title": "Prince de l'Académie de Saint-Luc",
-            "desc": "Élu à la tête de la célèbre corporation des artistes romains : triomphe professionnel inédit pour un peintre français à Rome.",
-            "type": "context",
-            "badge": "CONSÉCRATION",
-            "icon": "👑"
-          }
-        ]
-      },
-      {
-        "title": "Le Retour Triomphal à Paris & Premier Peintre du Roi",
-        "years": "1627 – 1636",
-        "color": "#d4af37",
-        "summary": "Rappelé par Louis XIII, il fonde un grand atelier et crée les décors royaux et allégoriques du Louvre et de Richelieu.",
-        "events": [
-          {
-            "year": "1627",
-            "title": "Nomination comme Premier peintre du Roi",
-            "desc": "Rappelé par Louis XIII à Paris, il reçoit un atelier au Louvre et devient le maître d'œuvre de toutes les grandes commandes de la cour.",
-            "type": "context",
-            "badge": "COUR ROYALE",
-            "icon": "⚜️"
-          },
-          {
-            "year": "v. 1630 – 1635",
-            "title": "Jeune homme en armure (Musée du Louvre)",
-            "desc": "Portrait martial d'une fière assurance, où le manteau jaune doré contraste avec l'acier bruni de la cuirasse.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "⚔️",
-            "artworkId": "vouet_jeune_homme_en_armure_louvre_1630"
-          },
-          {
-            "year": "1632 – 1635",
-            "title": "Gaucher de Châtillon (Musée du Louvre)",
-            "desc": "Panneau pour la Galerie des Hommes Illustres du Palais-Royal commandée par le cardinal de Richelieu.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🛡️",
-            "artworkId": "vouet_gaucher_de_chatillon_louvre_1632"
-          },
-          {
-            "year": "v. 1634",
-            "title": "Allégorie de la Vertu (Musée du Louvre)",
-            "desc": "Figure héroïque peinte pour le château de Chilly du marquis d'Effiat, alliant la puissance du laurier au vol du manteau azur.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🌿",
-            "artworkId": "vouet_allegorie_de_la_vertu_louvre_1634"
-          },
-          {
-            "year": "v. 1634",
-            "title": "Saint Eustache et sa famille portés au ciel (Musée des Beaux-Arts, Nantes)",
-            "desc": "Apothéose céleste monumentale peinte pour le maître-autel de l'église Saint-Eustache de Paris.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "☁️",
-            "artworkId": "vouet_saint_eustache_et_sa_famille_nantes_1634"
-          },
-          {
-            "year": "v. 1635",
-            "title": "La Charité (Musée du Louvre)",
-            "desc": "Allégorie solaire et fervente de l'amour divin tenant un cœur ardent au cœur d'un paysage lumineux.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "💛",
-            "artworkId": "vouet_la_charite_louvre_1635"
-          },
-          {
-            "year": "v. 1636",
-            "title": "Louis XIII entre la France et la Navarre (Musée du Louvre)",
-            "desc": "Grande composition d'État pour Saint-Germain-en-Laye célébrant la concorde royale et l'union des couronnes.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "👑",
-            "artworkId": "vouet_louis_xiii_france_et_navarre_louvre_1636"
-          }
-        ]
-      },
-      {
-        "title": "La Plénitude du Grand Style & Les Grands Décors",
-        "years": "1637 – 1649",
-        "color": "#38bdf8",
-        "summary": "Apogée des grands retables d'église, chefs-d'œuvre de dévotion privée et formation des futurs maîtres du siècle de Louis XIV.",
-        "events": [
-          {
-            "year": "1640 – 1645",
-            "title": "La Vierge Hesselin (Musée du Louvre)",
-            "desc": "Madone intimiste peinte pour Louis Hesselin avec la branche de chêne symbolique et le manteau bleu royal.",
-            "type": "context",
-            "badge": "JALON MAJEUR",
-            "icon": "🌳"
-          },
-          {
-            "year": "1641",
-            "title": "La Présentation au Temple (Musée du Louvre)",
-            "desc": "Retable grandiose commandé par Richelieu pour les Jésuites de la rue Saint-Antoine : sommet du baroque français.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🕯️",
-            "artworkId": "vouet_la_presentation_au_temple_louvre_1641"
-          },
-          {
-            "year": "1648",
-            "title": "Fondation de l'Académie royale de peinture",
-            "desc": "Ses élèves Charles Le Brun et Eustache Le Sueur fondent l'Académie royale, institutionnalisant l'héritage de Vouet.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1649",
-            "title": "Mort à Paris",
-            "desc": "S'éteint le 30 juin 1649 à l'âge de 59 ans dans son appartement des galeries du Louvre, célébré comme le père de l'école française moderne.",
-            "type": "context",
-            "badge": "DISPARITION",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
+    "id": "vouet",
+    "name": "Vouet Simon",
+    "sortName": "Vouet Simon",
+    "sortLetter": "V",
+    "dates": "1590 – 1649",
+    "movement": "Baroque français & Classicisme lumineux (Premier peintre du Roi Louis XIII, Caravagisme romain & Grand style parisien)",
+    "nationality": "Française (Paris, Rome)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOkt1y3eT-WHQ7_fJvM5mSQhpQreFz9XSUKDIgRzRdppQTG7LYePMrZm7iYdVWOtpyFm2O80DxwA1gGPp4Aap1nYGu55_rvIvpNC_eoctSRjt_4cYYGLrxm5vCDLZFAE6_6XvdBfc_CePg3mCXTle8uLw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Simon Vouet</strong> (1590 – 1649), né et mort à Paris, est la figure fondatrice qui a véritablement importé le grand langage du Baroque italien en France, rénovant en profondeur la peinture française et préparant l'éclosion du grand classicisme du siècle de Louis XIV avec ses illustres disciples Charles Le Brun et Eustache Le Sueur. Enfant prodige voyageant très tôt en Angleterre et à Constantinople, il passe près de quinze années décisives en Italie (1612 – 1627), principalement à Rome où il connaît une ascension fulgurante. Protégé par le cardinal Barberini (le futur pape Urbain VIII) et par les plus grandes familles patriciennes, il est élu en 1624 à la tête de la prestigieuse Académie de Saint-Luc, consécration suprême pour un artiste étranger. Rappelé en France par lettre royale de Louis XIII en 1627, il est nommé Premier peintre du Roi et reçoit un logement au Louvre, régnant en maître incontesté sur la scène artistique parisienne pendant plus de deux décennies.</p><p>Son genre pictural est marqué par une synthèse magistrale entre le dynamisme plastique italien et une grâce mesurée profondément française. Si ses premières années romaines sont fortement marquées par le naturalisme vigoureux et le clair-obscur dramatique du Caravage (<em>Portraits de jeune homme</em> d'Ajaccio et du Louvre), il s'en émancipe avec éclat pour concevoir un style ample, lumineux, aéré et triomphal. Ses compositions allégoriques, ses retables religieux pour les couvents parisiens et ses grands décors princiers (pour le Palais-Royal de Richelieu, le château de Chilly ou Saint-Germain-en-Laye) se déploient dans des perspectives ascendantes théâtrales. Il y utilise une palette solaire incomparable, faisant chanter des accords majeurs de jaunes d'or rayonnants, de bleus d'azur profonds, de blancs de satin et de pourpres délicates.</p><p>L'évolution de son art illustre la transition du ténébrisme romain vers la pleine clarté décorative du Grand Siècle : des figures isolées sculptées par la lumière oblique (<em>Jeune homme en armure</em>) aux manifestations monumentales de l'apothéose sacrée (<em>Saint Eustache et sa famille</em> à Nantes, <em>La Présentation au Temple</em> peinte pour les Jésuites sur commande de Richelieu) et de la rhétorique monarchique (<em>Louis XIII entre la France et la Navarre</em>, <em>Gaucher de Châtillon</em>), Vouet a créé le creuset du grand art officiel français avant l'avènement versaillais.</p>",
+    "corpus": {
+      "total": 220,
+      "paintingsCount": 220,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 10,
+      "source": "William R. Crelly, Jacques Thuillier & Arnauld Brejon de Lavergnée (Catalogue critique)",
+      "totalOeuvresEstimees": "~220 peintures et grands décors conservés",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur la monographie et le catalogue critique établis par William R. Crelly (The Painting of Simon Vouet, Yale University Press, 1962), enrichis et actualisés par les recherches fondamentales de Jacques Thuillier (notamment le catalogue de la rétrospective historique du Grand Palais en 1990–1991) et d'Arnauld Brejon de Lavergnée. En retenant strictement les peintures sur toile et décors peints conservés ou documentés attribués au maître (tableaux d'autel, mythologies, allégories, portraits et fragments de grands décors, à l'exclusion de ses nombreux dessins à la pierre noire et craie blanche ainsi que des tapisseries tissées d'après ses modèles), le consensus muséal fixe son corpus officiel autour d'environ 220 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Les Années Romaines & La Flamme Caravagesque",
+          "years": "1613 – 1627",
+          "color": "#ef4444",
+          "summary": "Séjour en Italie, assimilation du clair-obscur du Caravage et élection comme prince de l'Académie de Saint-Luc.",
+          "events": [
+            {
+              "year": "1613",
+              "title": "Arrivée à Rome",
+              "desc": "Bénéficiant d'une pension royale grâce à l'ambassadeur de France, il s'installe à Rome et étudie les maîtres de la Renaissance et l'avant-garde caravagesque.",
+              "type": "context",
+              "badge": "VOYAGE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1615 – 1620",
+              "title": "Portrait de jeune homme (Musée Fesch, Ajaccio)",
+              "desc": "Portrait intimiste au clair-obscur vigoureux et à la fraise empesée, révélant la subtilité du modelé caravagesque.",
+              "type": "context",
+              "badge": "JALON MAJEUR",
+              "icon": "👤"
+            },
+            {
+              "year": "1616 – 1618",
+              "title": "Portrait de jeune homme (Musée du Louvre)",
+              "desc": "Chef-d'œuvre de la période romaine : regard pénétrant et mélancolique émergeant d'un fond d'obscurité pure.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "✨",
+              "artworkId": "vouet_portrait_jeune_homme_louvre_1616"
+            },
+            {
+              "year": "1624",
+              "title": "Prince de l'Académie de Saint-Luc",
+              "desc": "Élu à la tête de la célèbre corporation des artistes romains : triomphe professionnel inédit pour un peintre français à Rome.",
+              "type": "context",
+              "badge": "CONSÉCRATION",
+              "icon": "👑"
+            }
+          ]
+        },
+        {
+          "title": "Le Retour Triomphal à Paris & Premier Peintre du Roi",
+          "years": "1627 – 1636",
+          "color": "#d4af37",
+          "summary": "Rappelé par Louis XIII, il fonde un grand atelier et crée les décors royaux et allégoriques du Louvre et de Richelieu.",
+          "events": [
+            {
+              "year": "1627",
+              "title": "Nomination comme Premier peintre du Roi",
+              "desc": "Rappelé par Louis XIII à Paris, il reçoit un atelier au Louvre et devient le maître d'œuvre de toutes les grandes commandes de la cour.",
+              "type": "context",
+              "badge": "COUR ROYALE",
+              "icon": "⚜️"
+            },
+            {
+              "year": "v. 1630 – 1635",
+              "title": "Jeune homme en armure (Musée du Louvre)",
+              "desc": "Portrait martial d'une fière assurance, où le manteau jaune doré contraste avec l'acier bruni de la cuirasse.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⚔️",
+              "artworkId": "vouet_jeune_homme_en_armure_louvre_1630"
+            },
+            {
+              "year": "1632 – 1635",
+              "title": "Gaucher de Châtillon (Musée du Louvre)",
+              "desc": "Panneau pour la Galerie des Hommes Illustres du Palais-Royal commandée par le cardinal de Richelieu.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🛡️",
+              "artworkId": "vouet_gaucher_de_chatillon_louvre_1632"
+            },
+            {
+              "year": "v. 1634",
+              "title": "Allégorie de la Vertu (Musée du Louvre)",
+              "desc": "Figure héroïque peinte pour le château de Chilly du marquis d'Effiat, alliant la puissance du laurier au vol du manteau azur.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌿",
+              "artworkId": "vouet_allegorie_de_la_vertu_louvre_1634"
+            },
+            {
+              "year": "v. 1634",
+              "title": "Saint Eustache et sa famille portés au ciel (Musée des Beaux-Arts, Nantes)",
+              "desc": "Apothéose céleste monumentale peinte pour le maître-autel de l'église Saint-Eustache de Paris.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "☁️",
+              "artworkId": "vouet_saint_eustache_et_sa_famille_nantes_1634"
+            },
+            {
+              "year": "v. 1635",
+              "title": "La Charité (Musée du Louvre)",
+              "desc": "Allégorie solaire et fervente de l'amour divin tenant un cœur ardent au cœur d'un paysage lumineux.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "💛",
+              "artworkId": "vouet_la_charite_louvre_1635"
+            },
+            {
+              "year": "v. 1636",
+              "title": "Louis XIII entre la France et la Navarre (Musée du Louvre)",
+              "desc": "Grande composition d'État pour Saint-Germain-en-Laye célébrant la concorde royale et l'union des couronnes.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑",
+              "artworkId": "vouet_louis_xiii_france_et_navarre_louvre_1636"
+            }
+          ]
+        },
+        {
+          "title": "La Plénitude du Grand Style & Les Grands Décors",
+          "years": "1637 – 1649",
+          "color": "#38bdf8",
+          "summary": "Apogée des grands retables d'église, chefs-d'œuvre de dévotion privée et formation des futurs maîtres du siècle de Louis XIV.",
+          "events": [
+            {
+              "year": "1640 – 1645",
+              "title": "La Vierge Hesselin (Musée du Louvre)",
+              "desc": "Madone intimiste peinte pour Louis Hesselin avec la branche de chêne symbolique et le manteau bleu royal.",
+              "type": "context",
+              "badge": "JALON MAJEUR",
+              "icon": "🌳"
+            },
+            {
+              "year": "1641",
+              "title": "La Présentation au Temple (Musée du Louvre)",
+              "desc": "Retable grandiose commandé par Richelieu pour les Jésuites de la rue Saint-Antoine : sommet du baroque français.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🕯️",
+              "artworkId": "vouet_la_presentation_au_temple_louvre_1641"
+            },
+            {
+              "year": "1648",
+              "title": "Fondation de l'Académie royale de peinture",
+              "desc": "Ses élèves Charles Le Brun et Eustache Le Sueur fondent l'Académie royale, institutionnalisant l'héritage de Vouet.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1649",
+              "title": "Mort à Paris",
+              "desc": "S'éteint le 30 juin 1649 à l'âge de 59 ans dans son appartement des galeries du Louvre, célébré comme le père de l'école française moderne.",
+              "type": "context",
+              "badge": "DISPARITION",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   }
-}
-,
+  ,
 
   "waterhouse": {
-  "id": "waterhouse",
-  "name": "Waterhouse John William",
-  "sortName": "Waterhouse John William",
-  "sortLetter": "W",
-  "dates": "1849 – 1917",
-  "movement": "Confrérie préraphaélite & Néo-classicisme victorien (Symbolisme féerique)",
-  "nationality": "Britannique (Rome / Londres)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMWv0JzX3VLi5qEe4yPEl-2fpBxWFkk1n2aPbayj-xAHqVjAjI23om88RPp_Qha60K33wE35YIWO1X7MbYfJHsTbBeqoHkDPyuz7mAVkizV7itnj7_7GPYoVdIv6whWOLv2nhA0XvmyX6pJzTbhwniZzw=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>John William Waterhouse</strong> (1849 – 1917) est le dernier grand représentant et le continuateur inspiré de la Confrérie préraphaélite et du néo-classicisme victorien. Bien qu'il n'ait pas appartenu au groupe fondateur de 1848, il en a ravivé la flamme esthétique et thématique jusqu'à l'aube du XXe siècle. Surnommé « le dernier des préraphaélites », il a fusionné le naturalisme minutieux de Millais avec la sensualité onirique de Rossetti et la rigueur compositionnelle de Leighton, créant un univers singulier peuplé d'héroïnes tragiques, de sirènes et de nymphes mythologiques.</p><p>Son genre d'expression se définit par la grande peinture d'histoire littéraire et mythologique, le portrait de femme en héroïne romantique et la scène de genre néo-antique. Son style se caractérise par une palette vibrante de couleurs d'émail, une touche de plus en plus fluide et impressionniste au fil de sa carrière (notamment dans le rendu des paysages et des étoffes), une construction savante fondée sur des lignes sinueuses et une idéalisation de la beauté féminine — le « type Waterhouse » — aux longs cheveux rutilants et au regard empreint de mélancolie et de mystère.</p><p>L'évolution de son art s'articule entre sa formation classique et l'influence d'Alma-Tadema (années 1870–1880, <em>Dolce Far Niente</em>, <em>Consulting the Oracle</em>), son apogée préraphaélite et arthurien (1888–années 1890, <em>The Lady of Shalott</em>, <em>Circe Invidiosa</em>, <em>Hylas and the Nymphs</em>) et sa fluidité symboliste tardive (1900–1917, <em>I Am Half-Sick of Shadows</em>), maintenant avec ferveur la poésie du rêve victorien jusqu'à sa mort à Londres.</p>",
-  "corpus": {
-    "total": 210,
-    "paintingsCount": 210,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 0,
-    "source": "Monographies & Catalogues de référence (Anthony Hobson, Peter Trippi)",
-    "totalOeuvresEstimees": "~210 peintures répertoriées",
-    "oeuvresConsensusNotice": "Les inventaires critiques de référence — notamment la monographie et le catalogue d'Anthony Hobson (The Art and Life of J. W. Waterhouse RA, 1980 ; J. W. Waterhouse, Phaidon, 1989) ainsi que le catalogue établi par Peter Trippi (J. W. Waterhouse, 2002) — recensent l'ensemble de ses peintures à l'huile (tableaux d'exposition de la Royal Academy, scènes mythologiques, héroïnes littéraires, études de têtes et paysages peints, en écartant ses carnets de croquis et dessins préparatoires). Le consensus scientifique et muséal fixe le corpus officiel des peintures de Waterhouse autour d'environ 210 œuvres."
+    "id": "waterhouse",
+    "name": "Waterhouse John William",
+    "sortName": "Waterhouse John William",
+    "sortLetter": "W",
+    "dates": "1849 – 1917",
+    "movement": "Confrérie préraphaélite & Néo-classicisme victorien (Symbolisme féerique)",
+    "nationality": "Britannique (Rome / Londres)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMWv0JzX3VLi5qEe4yPEl-2fpBxWFkk1n2aPbayj-xAHqVjAjI23om88RPp_Qha60K33wE35YIWO1X7MbYfJHsTbBeqoHkDPyuz7mAVkizV7itnj7_7GPYoVdIv6whWOLv2nhA0XvmyX6pJzTbhwniZzw=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>John William Waterhouse</strong> (1849 – 1917) est le dernier grand représentant et le continuateur inspiré de la Confrérie préraphaélite et du néo-classicisme victorien. Bien qu'il n'ait pas appartenu au groupe fondateur de 1848, il en a ravivé la flamme esthétique et thématique jusqu'à l'aube du XXe siècle. Surnommé « le dernier des préraphaélites », il a fusionné le naturalisme minutieux de Millais avec la sensualité onirique de Rossetti et la rigueur compositionnelle de Leighton, créant un univers singulier peuplé d'héroïnes tragiques, de sirènes et de nymphes mythologiques.</p><p>Son genre d'expression se définit par la grande peinture d'histoire littéraire et mythologique, le portrait de femme en héroïne romantique et la scène de genre néo-antique. Son style se caractérise par une palette vibrante de couleurs d'émail, une touche de plus en plus fluide et impressionniste au fil de sa carrière (notamment dans le rendu des paysages et des étoffes), une construction savante fondée sur des lignes sinueuses et une idéalisation de la beauté féminine — le « type Waterhouse » — aux longs cheveux rutilants et au regard empreint de mélancolie et de mystère.</p><p>L'évolution de son art s'articule entre sa formation classique et l'influence d'Alma-Tadema (années 1870–1880, <em>Dolce Far Niente</em>, <em>Consulting the Oracle</em>), son apogée préraphaélite et arthurien (1888–années 1890, <em>The Lady of Shalott</em>, <em>Circe Invidiosa</em>, <em>Hylas and the Nymphs</em>) et sa fluidité symboliste tardive (1900–1917, <em>I Am Half-Sick of Shadows</em>), maintenant avec ferveur la poésie du rêve victorien jusqu'à sa mort à Londres.</p>",
+    "corpus": {
+      "total": 210,
+      "paintingsCount": 210,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 0,
+      "source": "Monographies & Catalogues de référence (Anthony Hobson, Peter Trippi)",
+      "totalOeuvresEstimees": "~210 peintures répertoriées",
+      "oeuvresConsensusNotice": "Les inventaires critiques de référence — notamment la monographie et le catalogue d'Anthony Hobson (The Art and Life of J. W. Waterhouse RA, 1980 ; J. W. Waterhouse, Phaidon, 1989) ainsi que le catalogue établi par Peter Trippi (J. W. Waterhouse, 2002) — recensent l'ensemble de ses peintures à l'huile (tableaux d'exposition de la Royal Academy, scènes mythologiques, héroïnes littéraires, études de têtes et paysages peints, en écartant ses carnets de croquis et dessins préparatoires). Le consensus scientifique et muséal fixe le corpus officiel des peintures de Waterhouse autour d'environ 210 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Formation classique & Néo-classicisme victorien",
+          "years": "1870 – 1887",
+          "color": "#d4af37",
+          "summary": "Formation à la Royal Academy et premières scènes néo-antiques dans la lignée d'Alma-Tadema.",
+          "events": [
+            {
+              "year": "1880",
+              "title": "Dolce Far Niente",
+              "desc": "Scène de genre néo-antique remarquée pour sa précision archéologique et sa sensualité méditerranéenne.",
+              "type": "masterpiece",
+              "badge": "ACADÉMISME",
+              "icon": "🏺"
+            },
+            {
+              "year": "1885",
+              "title": "Élection comme associé de la Royal Academy",
+              "desc": "Consécration académique rapide suite au triomphe de Consulting the Oracle.",
+              "type": "context",
+              "badge": "DISTINCTION",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Le Cycle arthurien & L'Apogée préraphaélite",
+          "years": "1888 – 1899",
+          "color": "#d4af37",
+          "summary": "Création des chefs-d'œuvre arthuriens et mythologiques immortalisant les nymphes et enchanteresses.",
+          "events": [
+            {
+              "year": "1888",
+              "title": "The Lady of Shalott (Londres, Tate Britain)",
+              "desc": "Chef-d'œuvre absolu inspiré de Tennyson : naturalisme de l'eau et broderie funèbre.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "⛵"
+            },
+            {
+              "year": "1896",
+              "title": "Hylas and the Nymphs (Manchester Art Gallery)",
+              "desc": "Séduction fatale du compagnon d'Hercule par sept nymphes surgissant des nymphéas.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌸"
+            }
+          ]
+        },
+        {
+          "title": "Fluidité symboliste & Méditations crépusculaires",
+          "years": "1900 – 1917",
+          "color": "#d4af37",
+          "summary": "Touche plus libre et intimiste imprégnée d'impressionnisme et de mélancolie poétique.",
+          "events": [
+            {
+              "year": "1915",
+              "title": "I Am Half-Sick of Shadows, Said the Lady of Shalott",
+              "desc": "Méditation testamentaire sur le métier à tisser et le miroir reflétant le monde extérieur.",
+              "type": "masterpiece",
+              "badge": "TESTAMENT",
+              "icon": "🪞"
+            },
+            {
+              "year": "1917",
+              "title": "Mort à Londres",
+              "desc": "Disparaît à l'âge de 67 ans, salué comme le dernier chantre du rêve victorien.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "title": "Formation classique & Néo-classicisme victorien",
-        "years": "1870 – 1887",
-        "color": "#d4af37",
-        "summary": "Formation à la Royal Academy et premières scènes néo-antiques dans la lignée d'Alma-Tadema.",
-        "events": [
-          {
-            "year": "1880",
-            "title": "Dolce Far Niente",
-            "desc": "Scène de genre néo-antique remarquée pour sa précision archéologique et sa sensualité méditerranéenne.",
-            "type": "masterpiece",
-            "badge": "ACADÉMISME",
-            "icon": "🏺"
-          },
-          {
-            "year": "1885",
-            "title": "Élection comme associé de la Royal Academy",
-            "desc": "Consécration académique rapide suite au triomphe de Consulting the Oracle.",
-            "type": "context",
-            "badge": "DISTINCTION",
-            "icon": "🏛️"
-          }
-        ]
-      },
-      {
-        "title": "Le Cycle arthurien & L'Apogée préraphaélite",
-        "years": "1888 – 1899",
-        "color": "#d4af37",
-        "summary": "Création des chefs-d'œuvre arthuriens et mythologiques immortalisant les nymphes et enchanteresses.",
-        "events": [
-          {
-            "year": "1888",
-            "title": "The Lady of Shalott (Londres, Tate Britain)",
-            "desc": "Chef-d'œuvre absolu inspiré de Tennyson : naturalisme de l'eau et broderie funèbre.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "⛵"
-          },
-          {
-            "year": "1896",
-            "title": "Hylas and the Nymphs (Manchester Art Gallery)",
-            "desc": "Séduction fatale du compagnon d'Hercule par sept nymphes surgissant des nymphéas.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🌸"
-          }
-        ]
-      },
-      {
-        "title": "Fluidité symboliste & Méditations crépusculaires",
-        "years": "1900 – 1917",
-        "color": "#d4af37",
-        "summary": "Touche plus libre et intimiste imprégnée d'impressionnisme et de mélancolie poétique.",
-        "events": [
-          {
-            "year": "1915",
-            "title": "I Am Half-Sick of Shadows, Said the Lady of Shalott",
-            "desc": "Méditation testamentaire sur le métier à tisser et le miroir reflétant le monde extérieur.",
-            "type": "masterpiece",
-            "badge": "TESTAMENT",
-            "icon": "🪞"
-          },
-          {
-            "year": "1917",
-            "title": "Mort à Londres",
-            "desc": "Disparaît à l'âge de 67 ans, salué comme le dernier chantre du rêve victorien.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "watteau": {
-  "id": "watteau",
-  "name": "Watteau Antoine (Jean-Antoine Watteau)",
-  "sortName": "Watteau Antoine",
-  "sortLetter": "W",
-  "dates": "1684 – 1721",
-  "movement": "Rococo français & Maître des Fêtes galantes (Peinture théâtrale)",
-  "nationality": "Française (Valenciennes / Paris)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN5gxU84V6OvZiklneZIGtk_8Jn7Zg0y_yF4Pxz3VgKIh33JuomJO-N0jcGcivu0_RtFTD6wm610knfU2Gj2b2iLyGXAZVWwyuwjXm5GDdW-m2SmTFpHe7Pj94p3XlPnB7NpmB10frOtddRA4JiMkaZ1Q=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Antoine Watteau</strong> (1684 – 1721), né à Valenciennes et mort prématurément à Nogent-sur-Marne, est le créateur génial d'un genre pictural nouveau : la fête galante. En rompant avec la pompe académique et la solennité du Grand Siècle de Louis XIV, il a inauguré avec une liberté sans précédent l'esprit du XVIIIe siècle, célébrant la légèreté, la rêverie amoureuse et la poésie mélancolique du théâtre et des plaisirs aristocratiques.</p><p>Son genre pictural se définit par la fête galante, la scène de plein air issue de la Commedia dell'arte, le décor mural d'arabesques et le nu mythologique intimiste. Son style se caractérise par une touche vibrante et frémissante, une palette chatoyante héritée de Rubens et des maîtres vénitiens (découverts chez son mécène Pierre Crozat), des étoffes de soie aux reflets moirés changeants et une atmosphère crépusculaire où la félicité apparente est toujours baignée d'une indicible nostalgie de l'éphémère.</p><p>L'évolution de son art s'articule entre l'apprentissage du décor léger auprès de Claude Audran et les farces théâtrales (v. 1707, <em>L'Enjôleur</em>, <em>Le Faune</em>, <em>Arlequin empereur dans la Lune</em>), la consécration académique et les fables amoureuses (1715–1717, <em>Diane au bain</em>, <em>Nymphe et satyre</em>, <em>Le Pèlerinage à l'île de Cythère</em>) et ses chefs-d'œuvre testamentaires (1718–1721, <em>Pierrot (Gilles)</em>, <em>Le Jugement de Pâris</em>, <em>L'Enseigne de Gersaint</em>).</p>",
-  "corpus": {
-    "total": 165,
-    "paintingsCount": 165,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 15,
-    "source": "Consensus scientifique & Catalogues critiques (Pierre Rosenberg, Margaret Morgan Grasselli)",
-    "totalOeuvresEstimees": "~165 toiles authentifiées",
-    "oeuvresConsensusNotice": "En retenant exclusivement les peintures authentifiées ou très largement reconnues comme de la main de Watteau (fêtes galantes, scènes de théâtre, enseignes, arabesques peintes et études de têtes à l'huile, à l'exclusion de ses dessins et des gravures d'après ses compositions), le consensus scientifique et muséal fixe son corpus officiel conservé autour d'environ 165 toiles."
+    "id": "watteau",
+    "name": "Watteau Antoine (Jean-Antoine Watteau)",
+    "sortName": "Watteau Antoine",
+    "sortLetter": "W",
+    "dates": "1684 – 1721",
+    "movement": "Rococo français & Maître des Fêtes galantes (Peinture théâtrale)",
+    "nationality": "Française (Valenciennes / Paris)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczN5gxU84V6OvZiklneZIGtk_8Jn7Zg0y_yF4Pxz3VgKIh33JuomJO-N0jcGcivu0_RtFTD6wm610knfU2Gj2b2iLyGXAZVWwyuwjXm5GDdW-m2SmTFpHe7Pj94p3XlPnB7NpmB10frOtddRA4JiMkaZ1Q=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Antoine Watteau</strong> (1684 – 1721), né à Valenciennes et mort prématurément à Nogent-sur-Marne, est le créateur génial d'un genre pictural nouveau : la fête galante. En rompant avec la pompe académique et la solennité du Grand Siècle de Louis XIV, il a inauguré avec une liberté sans précédent l'esprit du XVIIIe siècle, célébrant la légèreté, la rêverie amoureuse et la poésie mélancolique du théâtre et des plaisirs aristocratiques.</p><p>Son genre pictural se définit par la fête galante, la scène de plein air issue de la Commedia dell'arte, le décor mural d'arabesques et le nu mythologique intimiste. Son style se caractérise par une touche vibrante et frémissante, une palette chatoyante héritée de Rubens et des maîtres vénitiens (découverts chez son mécène Pierre Crozat), des étoffes de soie aux reflets moirés changeants et une atmosphère crépusculaire où la félicité apparente est toujours baignée d'une indicible nostalgie de l'éphémère.</p><p>L'évolution de son art s'articule entre l'apprentissage du décor léger auprès de Claude Audran et les farces théâtrales (v. 1707, <em>L'Enjôleur</em>, <em>Le Faune</em>, <em>Arlequin empereur dans la Lune</em>), la consécration académique et les fables amoureuses (1715–1717, <em>Diane au bain</em>, <em>Nymphe et satyre</em>, <em>Le Pèlerinage à l'île de Cythère</em>) et ses chefs-d'œuvre testamentaires (1718–1721, <em>Pierrot (Gilles)</em>, <em>Le Jugement de Pâris</em>, <em>L'Enseigne de Gersaint</em>).</p>",
+    "corpus": {
+      "total": 165,
+      "paintingsCount": 165,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 15,
+      "source": "Consensus scientifique & Catalogues critiques (Pierre Rosenberg, Margaret Morgan Grasselli)",
+      "totalOeuvresEstimees": "~165 toiles authentifiées",
+      "oeuvresConsensusNotice": "En retenant exclusivement les peintures authentifiées ou très largement reconnues comme de la main de Watteau (fêtes galantes, scènes de théâtre, enseignes, arabesques peintes et études de têtes à l'huile, à l'exclusion de ses dessins et des gravures d'après ses compositions), le consensus scientifique et muséal fixe son corpus officiel conservé autour d'environ 165 toiles."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Formation, Arabesques d'Audran & Commedia dell'Arte",
+          "years": "1702 – 1712",
+          "color": "#d4af37",
+          "summary": "Apprentissage auprès de Gillot et Claude Audran, découverte des arabesques et premières fables théâtrales.",
+          "events": [
+            {
+              "year": "v. 1707",
+              "title": "L'Enjôleur (Musée des Beaux-Arts de Valenciennes)",
+              "desc": "Panneau décoratif en arabesque mêlant figures théâtrales et rinceaux rocailles précoces.",
+              "type": "artwork",
+              "badge": "ARABESQUE",
+              "icon": "🎭",
+              "artworkId": "watteau_l_enjoleur_valenciennes_1707"
+            },
+            {
+              "year": "v. 1707",
+              "title": "Le Faune (Musée des Beaux-Arts de Valenciennes)",
+              "desc": "Pendant de L'Enjôleur associant statuaire antique champêtre et légèreté ornementale.",
+              "type": "artwork",
+              "badge": "DÉCOR",
+              "icon": "🌿",
+              "artworkId": "watteau_le_faune_valenciennes_1707"
+            },
+            {
+              "year": "v. 1707",
+              "title": "Arlequin empereur dans la Lune (Musée d'Arts de Nantes)",
+              "desc": "Farce satirique inspirée de la scène foraine transposant la condition humaine sous le masque.",
+              "type": "artwork",
+              "badge": "THÉÂTRE",
+              "icon": "🌙",
+              "artworkId": "watteau_arlequin_empereur_dans_la_lune_nantes_1707"
+            }
+          ]
+        },
+        {
+          "title": "Le Triomphe de la Fête Galante & Réception à l'Académie",
+          "years": "1713 – 1717",
+          "color": "#d4af37",
+          "summary": "Séjour chez Pierre Crozat, étude de Rubens et création du genre officiel de la fête galante.",
+          "events": [
+            {
+              "year": "v. 1715",
+              "title": "Diane au bain (Paris, Musée du Louvre)",
+              "desc": "Nu mythologique intimiste dépouillé de pompe académique au bord d'une clairière sylvestre.",
+              "type": "artwork",
+              "badge": "MYTHOLOGIE",
+              "icon": "🏹",
+              "artworkId": "watteau_diane_au_bain_louvre_1715"
+            },
+            {
+              "year": "v. 1715",
+              "title": "Nymphe et satyre (Jupiter et Antiope) (Paris, Musée du Louvre)",
+              "desc": "Puissant nu en oculus célébrant la chair nacrée et la vigueur sensuelle rubénienne.",
+              "type": "artwork",
+              "badge": "NU FÉMININ",
+              "icon": "✨",
+              "artworkId": "watteau_nymphe_et_satyre_jupiter_antiope_louvre_1715"
+            },
+            {
+              "year": "1717",
+              "title": "Le Pèlerinage à l'île de Cythère (Paris, Musée du Louvre)",
+              "desc": "Morceau de réception créant le titre de 'peintre de fêtes galantes', chef-d'œuvre universel du Louvre.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "👑",
+              "artworkId": "watteau_le_pelerinage_a_l_ile_de_cythere_louvre_1717"
+            }
+          ]
+        },
+        {
+          "title": "Les Chefs-d'Œuvre Testamentaires & Apothéose Mélancolique",
+          "years": "1718 – 1721",
+          "color": "#d4af37",
+          "summary": "Dernières années marquées par la maladie, création de Pierrot et de L'Enseigne de Gersaint.",
+          "events": [
+            {
+              "year": "v. 1718 – 1719",
+              "title": "Pierrot (dit Gilles) (Paris, Musée du Louvre)",
+              "desc": "Monumental portrait en satin blanc érigeant le valet comique en icône poignante de solitude.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🤍",
+              "artworkId": "watteau_pierrot_gilles_louvre_1718"
+            },
+            {
+              "year": "v. 1718 – 1721",
+              "title": "Le Jugement de Pâris (Paris, Musée du Louvre)",
+              "desc": "Fable rococo et sensualité pastorale de Vénus recevant la pomme d'or dans les nuées.",
+              "type": "artwork",
+              "badge": "MYTHOLOGIE",
+              "icon": "🍎",
+              "artworkId": "watteau_le_jugement_de_paris_louvre_1718_1721"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "title": "Formation, Arabesques d'Audran & Commedia dell'Arte",
-        "years": "1702 – 1712",
-        "color": "#d4af37",
-        "summary": "Apprentissage auprès de Gillot et Claude Audran, découverte des arabesques et premières fables théâtrales.",
-        "events": [
-          {
-            "year": "v. 1707",
-            "title": "L'Enjôleur (Musée des Beaux-Arts de Valenciennes)",
-            "desc": "Panneau décoratif en arabesque mêlant figures théâtrales et rinceaux rocailles précoces.",
-            "type": "artwork",
-            "badge": "ARABESQUE",
-            "icon": "🎭",
-            "artworkId": "watteau_l_enjoleur_valenciennes_1707"
-          },
-          {
-            "year": "v. 1707",
-            "title": "Le Faune (Musée des Beaux-Arts de Valenciennes)",
-            "desc": "Pendant de L'Enjôleur associant statuaire antique champêtre et légèreté ornementale.",
-            "type": "artwork",
-            "badge": "DÉCOR",
-            "icon": "🌿",
-            "artworkId": "watteau_le_faune_valenciennes_1707"
-          },
-          {
-            "year": "v. 1707",
-            "title": "Arlequin empereur dans la Lune (Musée d'Arts de Nantes)",
-            "desc": "Farce satirique inspirée de la scène foraine transposant la condition humaine sous le masque.",
-            "type": "artwork",
-            "badge": "THÉÂTRE",
-            "icon": "🌙",
-            "artworkId": "watteau_arlequin_empereur_dans_la_lune_nantes_1707"
-          }
-        ]
-      },
-      {
-        "title": "Le Triomphe de la Fête Galante & Réception à l'Académie",
-        "years": "1713 – 1717",
-        "color": "#d4af37",
-        "summary": "Séjour chez Pierre Crozat, étude de Rubens et création du genre officiel de la fête galante.",
-        "events": [
-          {
-            "year": "v. 1715",
-            "title": "Diane au bain (Paris, Musée du Louvre)",
-            "desc": "Nu mythologique intimiste dépouillé de pompe académique au bord d'une clairière sylvestre.",
-            "type": "artwork",
-            "badge": "MYTHOLOGIE",
-            "icon": "🏹",
-            "artworkId": "watteau_diane_au_bain_louvre_1715"
-          },
-          {
-            "year": "v. 1715",
-            "title": "Nymphe et satyre (Jupiter et Antiope) (Paris, Musée du Louvre)",
-            "desc": "Puissant nu en oculus célébrant la chair nacrée et la vigueur sensuelle rubénienne.",
-            "type": "artwork",
-            "badge": "NU FÉMININ",
-            "icon": "✨",
-            "artworkId": "watteau_nymphe_et_satyre_jupiter_antiope_louvre_1715"
-          },
-          {
-            "year": "1717",
-            "title": "Le Pèlerinage à l'île de Cythère (Paris, Musée du Louvre)",
-            "desc": "Morceau de réception créant le titre de 'peintre de fêtes galantes', chef-d'œuvre universel du Louvre.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "👑",
-            "artworkId": "watteau_le_pelerinage_a_l_ile_de_cythere_louvre_1717"
-          }
-        ]
-      },
-      {
-        "title": "Les Chefs-d'Œuvre Testamentaires & Apothéose Mélancolique",
-        "years": "1718 – 1721",
-        "color": "#d4af37",
-        "summary": "Dernières années marquées par la maladie, création de Pierrot et de L'Enseigne de Gersaint.",
-        "events": [
-          {
-            "year": "v. 1718 – 1719",
-            "title": "Pierrot (dit Gilles) (Paris, Musée du Louvre)",
-            "desc": "Monumental portrait en satin blanc érigeant le valet comique en icône poignante de solitude.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🤍",
-            "artworkId": "watteau_pierrot_gilles_louvre_1718"
-          },
-          {
-            "year": "v. 1718 – 1721",
-            "title": "Le Jugement de Pâris (Paris, Musée du Louvre)",
-            "desc": "Fable rococo et sensualité pastorale de Vénus recevant la pomme d'or dans les nuées.",
-            "type": "artwork",
-            "badge": "MYTHOLOGIE",
-            "icon": "🍎",
-            "artworkId": "watteau_le_jugement_de_paris_louvre_1718_1721"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "zurbaran": {
-  "id": "zurbaran",
-  "name": "Zurbarán Francisco de",
-  "sortName": "Zurbarán Francisco de",
-  "sortLetter": "Z",
-  "dates": "1598 – 1664",
-  "movement": "Siècle d'or espagnol & Ténébrisme monastique (Le Caravage espagnol)",
-  "nationality": "Espagnole (Estrémadure / Séville)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM-2aeZDAaBxvFQwXrf6vTP6cSjK1uRDr-n6ytZztRcP7u3gN0fh9QzWeu80C9JraK7gxcjgRuVGPeNzmoPM4b3VrHBRs6sPXW0_QH9sJ6QWWnbvK9Sp81JX5BMGRL-41pgURQJv_HlvQEUqUFlyYR1mg=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Francisco de Zurbarán</strong> (1598 – 1664), né à Fuente de Cantos en Estrémadure et mort à Madrid, est l'un des maîtres souverains du Siècle d'or espagnol. Surnommé le « Caravage espagnol », il a consacré le cœur de sa carrière à Séville pour répondre aux commandes monumentales des grands ordres religieux (Chartreux, Hiéronymites, Dominicains, Franciscains). Son art, profondément ancré dans l'esprit de la Contre-Réforme, se distingue par une austérité mystique et un silence contemplatif d'une intensité inégalée.</p><p>Son genre pictural atteint son apogée dans le cycle monastique, l'effigie en pied de saints en extase, les saintes parées comme des infantes et la nature morte méditative (bodegón). Son style se caractérise par un usage magistral du ténébrisme où des lumières crues et sculptantes découpent les volumes sur des fonds d'un noir opaque, ainsi qu'une texture tactile prodigieuse dans le rendu des lainages blancs épais, des drapés raides et des objets sacrés simples élevés au rang de prière silencieuse.</p><p>L'évolution de son art s'articule entre la vigueur ténébriste des premières commandes sévillanes (1626–1633, <em>Saint Dominique de Guzmán</em>, cycles des <em>Apôtres</em>), la consécration monastique monumentale (1634–1645, cycles de Guadalupe et de Jerez) et un adoucissement vaporeux dans ses dernières années madrilènes sous l'influence de Murillo et Velázquez.</p>",
-  "corpus": {
-    "total": 294,
-    "paintingsCount": 294,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 3,
-    "source": "Catalogue raisonné et critique de l'œuvre peint (Odile Delenda, Wildenstein Institute)",
-    "totalOeuvresEstimees": "~294 peintures à l'huile authentifiées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue raisonné établi par Odile Delenda (Francisco de Zurbarán, 1598–1664 : Catalogue raisonné et critique de l'œuvre peint, 2 volumes, Wildenstein Institute / Fundación Arte Hispánico, 2009–2010), complété par les catalogues des grandes rétrospectives internationales. En retenant exclusivement les peintures à l'huile sur toile et sur panneau authentifiées de la main du maître, le catalogue critique fixe le corpus officiel de Zurbarán à 294 œuvres."
+    "id": "zurbaran",
+    "name": "Zurbarán Francisco de",
+    "sortName": "Zurbarán Francisco de",
+    "sortLetter": "Z",
+    "dates": "1598 – 1664",
+    "movement": "Siècle d'or espagnol & Ténébrisme monastique (Le Caravage espagnol)",
+    "nationality": "Espagnole (Estrémadure / Séville)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczM-2aeZDAaBxvFQwXrf6vTP6cSjK1uRDr-n6ytZztRcP7u3gN0fh9QzWeu80C9JraK7gxcjgRuVGPeNzmoPM4b3VrHBRs6sPXW0_QH9sJ6QWWnbvK9Sp81JX5BMGRL-41pgURQJv_HlvQEUqUFlyYR1mg=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Francisco de Zurbarán</strong> (1598 – 1664), né à Fuente de Cantos en Estrémadure et mort à Madrid, est l'un des maîtres souverains du Siècle d'or espagnol. Surnommé le « Caravage espagnol », il a consacré le cœur de sa carrière à Séville pour répondre aux commandes monumentales des grands ordres religieux (Chartreux, Hiéronymites, Dominicains, Franciscains). Son art, profondément ancré dans l'esprit de la Contre-Réforme, se distingue par une austérité mystique et un silence contemplatif d'une intensité inégalée.</p><p>Son genre pictural atteint son apogée dans le cycle monastique, l'effigie en pied de saints en extase, les saintes parées comme des infantes et la nature morte méditative (bodegón). Son style se caractérise par un usage magistral du ténébrisme où des lumières crues et sculptantes découpent les volumes sur des fonds d'un noir opaque, ainsi qu'une texture tactile prodigieuse dans le rendu des lainages blancs épais, des drapés raides et des objets sacrés simples élevés au rang de prière silencieuse.</p><p>L'évolution de son art s'articule entre la vigueur ténébriste des premières commandes sévillanes (1626–1633, <em>Saint Dominique de Guzmán</em>, cycles des <em>Apôtres</em>), la consécration monastique monumentale (1634–1645, cycles de Guadalupe et de Jerez) et un adoucissement vaporeux dans ses dernières années madrilènes sous l'influence de Murillo et Velázquez.</p>",
+    "corpus": {
+      "total": 294,
+      "paintingsCount": 294,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 3,
+      "source": "Catalogue raisonné et critique de l'œuvre peint (Odile Delenda, Wildenstein Institute)",
+      "totalOeuvresEstimees": "~294 peintures à l'huile authentifiées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale repose sur le catalogue raisonné établi par Odile Delenda (Francisco de Zurbarán, 1598–1664 : Catalogue raisonné et critique de l'œuvre peint, 2 volumes, Wildenstein Institute / Fundación Arte Hispánico, 2009–2010), complété par les catalogues des grandes rétrospectives internationales. En retenant exclusivement les peintures à l'huile sur toile et sur panneau authentifiées de la main du maître, le catalogue critique fixe le corpus officiel de Zurbarán à 294 œuvres."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "Premières Commandes Sévillanes & Révélation Ténébriste",
+          "years": "1620 – 1633",
+          "color": "#d4af37",
+          "summary": "Installation à Séville et commandes prestigieuses pour les couvents dominicains et portugais.",
+          "events": [
+            {
+              "year": "1626",
+              "title": "Saint Dominique de Guzmán (Tokyo, NMWA)",
+              "desc": "Effigie sculpturale du fondateur des Frères Prêcheurs avec le chien à la torche et les lys de pureté.",
+              "type": "artwork",
+              "badge": "HAGIOGRAPHIE",
+              "icon": "⛪",
+              "artworkId": "zurbaran_saint_dominique_de_guzman_tokyo_1626"
+            },
+            {
+              "year": "1633",
+              "title": "Suite des Apôtres (Lisbonne, Museu Nacional de Arte Antiga)",
+              "desc": "Cycle monumental pour San Vicente de Fora érigeant les disciples en colonnes de recueillement.",
+              "type": "artwork",
+              "badge": "CYCLE MONASTIQUE",
+              "icon": "📜",
+              "artworkId": "zurbaran_apotres_lisbonne_1633"
+            },
+            {
+              "year": "1633",
+              "title": "Apôtres (Suite de Lisbonne)",
+              "desc": "Présence plastique austère et maîtrise des draperies aux terres d'ombre et ocres denses.",
+              "type": "artwork",
+              "badge": "APÔTRES",
+              "icon": "✝️",
+              "artworkId": "zurbaran_apotres_1633"
+            }
+          ]
+        },
+        {
+          "title": "Apogée Monastique : Guadalupe & Les Chartreuses",
+          "years": "1634 – 1649",
+          "color": "#d4af37",
+          "summary": "Création des immenses cycles des Hiéronymites de Guadalupe et des Chartreux de Jerez.",
+          "events": [
+            {
+              "year": "1638 – 1639",
+              "title": "Cycle des Hiéronymites de Guadalupe",
+              "desc": "Sommet du Siècle d'or espagnol : vision mystique et rigueur ascétique des frères en méditation.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🏛️"
+            }
+          ]
+        },
+        {
+          "title": "Séjour Madrilène & Clarté Vaporeuse Tardive",
+          "years": "1650 – 1664",
+          "color": "#d4af37",
+          "summary": "Adoucissement de la palette et scènes mariales empreintes de tendresse mystique à Madrid.",
+          "events": [
+            {
+              "year": "1664",
+              "title": "Mort à Madrid",
+              "desc": "Disparaît à Madrid à l'âge de 65 ans, laissant un monument immortel de foi picturale.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "title": "Premières Commandes Sévillanes & Révélation Ténébriste",
-        "years": "1620 – 1633",
-        "color": "#d4af37",
-        "summary": "Installation à Séville et commandes prestigieuses pour les couvents dominicains et portugais.",
-        "events": [
-          {
-            "year": "1626",
-            "title": "Saint Dominique de Guzmán (Tokyo, NMWA)",
-            "desc": "Effigie sculpturale du fondateur des Frères Prêcheurs avec le chien à la torche et les lys de pureté.",
-            "type": "artwork",
-            "badge": "HAGIOGRAPHIE",
-            "icon": "⛪",
-            "artworkId": "zurbaran_saint_dominique_de_guzman_tokyo_1626"
-          },
-          {
-            "year": "1633",
-            "title": "Suite des Apôtres (Lisbonne, Museu Nacional de Arte Antiga)",
-            "desc": "Cycle monumental pour San Vicente de Fora érigeant les disciples en colonnes de recueillement.",
-            "type": "artwork",
-            "badge": "CYCLE MONASTIQUE",
-            "icon": "📜",
-            "artworkId": "zurbaran_apotres_lisbonne_1633"
-          },
-          {
-            "year": "1633",
-            "title": "Apôtres (Suite de Lisbonne)",
-            "desc": "Présence plastique austère et maîtrise des draperies aux terres d'ombre et ocres denses.",
-            "type": "artwork",
-            "badge": "APÔTRES",
-            "icon": "✝️",
-            "artworkId": "zurbaran_apotres_1633"
-          }
-        ]
-      },
-      {
-        "title": "Apogée Monastique : Guadalupe & Les Chartreuses",
-        "years": "1634 – 1649",
-        "color": "#d4af37",
-        "summary": "Création des immenses cycles des Hiéronymites de Guadalupe et des Chartreux de Jerez.",
-        "events": [
-          {
-            "year": "1638 – 1639",
-            "title": "Cycle des Hiéronymites de Guadalupe",
-            "desc": "Sommet du Siècle d'or espagnol : vision mystique et rigueur ascétique des frères en méditation.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🏛️"
-          }
-        ]
-      },
-      {
-        "title": "Séjour Madrilène & Clarté Vaporeuse Tardive",
-        "years": "1650 – 1664",
-        "color": "#d4af37",
-        "summary": "Adoucissement de la palette et scènes mariales empreintes de tendresse mystique à Madrid.",
-        "events": [
-          {
-            "year": "1664",
-            "title": "Mort à Madrid",
-            "desc": "Disparaît à Madrid à l'âge de 65 ans, laissant un monument immortel de foi picturale.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
-},
 
   "vuillard": {
-  "id": "vuillard",
-  "name": "Vuillard Édouard",
-  "sortName": "Vuillard Édouard",
-  "sortLetter": "V",
-  "dates": "1868 – 1940",
-  "movement": "Nabis & Intimisme (Peinture décorative & Scènes d'intérieur)",
-  "nationality": "Française (Cuiseaux / Paris)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMaqrUjTOmSGxOPa2-7X6T-11jHbT_8ZFc6kjGBRMr_nApQ5cWImh60KzHeaAfvDeOTQA3ZPo1sCsrg7kgsSK_zpPcykgE8wqPIVcrXIFsMwh6BrB6Udiv0AaQmUOtdQScp8j5FZZdXI9XJ8xXUxG2YIQ=w1836-h779-s-no-gm?authuser=0",
-  "bio": "<p><strong>Édouard Vuillard</strong> (1868 – 1940), né à Cuiseaux et mort à La Baule, est le maître souverain de l'Intimisme et l'une des figures majeures du groupe des Nabis. S'il partage avec son complice Pierre Bonnard l'attachement à la poésie du quotidien domestique, Vuillard s'en distingue par une sensibilité plus secrète, dense et feutrée, transformant le cadre bourgeois en un puzzle optique où la figure humaine s'entrelace intimement avec le tissu des décors environnants.</p><p>Son genre pictural se concentre sur la scène d'intérieur, le portrait de société, le décor monumental et les atmosphères feutrées de l'espace privé. Son style se caractérise par la saturation ornementale de l'espace (papiers peints floraux, tentures, tapis brodés), une perspective aplatie héritée de l'estampe japonaise, une pâte savoureuse travaillée à la détrempe ou à l'huile par petites touches vibrantes, et des accords de tons rompus (bruns, ocres, vert olive, carmins étouffés) suggérant le mystère et la quiétude du foyer.</p><p>Son parcours stylistique s'articule entre l'audace nabie des petits cartons des débuts (années 1890), l'épanouissement des grands panneaux décoratifs de maturité (années 1900–1910, <em>Le Déjeuner</em>) et les portraits d'apparat mondains de l'entre-deux-guerres (après 1920) documentant avec une précision presque analytique les intérieurs de ses contemporains.</p>",
-  "corpus": {
-    "total": 2150,
-    "paintingsCount": 2150,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 1,
-    "source": "Catalogue critique des peintures et pastels (Antoine Salomon & Guy Cogeval, Wildenstein Institute / Skira)",
-    "totalOeuvresEstimees": "~2 150 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue critique des peintures et pastels établi par Antoine Salomon et Guy Cogeval (Vuillard : Le catalogue critique des peintures et pastels, 3 volumes, Wildenstein Institute / Skira, 2003). En ne retenant que ses peintures à proprement parler (toiles, panneaux, détrempes et grands panneaux décoratifs, à l'exclusion des pastels sur papier, dessins préparatoires et lithographies), le catalogue critique situe son corpus officiel autour d'environ 2 150 peintures."
-  },
-  "timeline": {
-    "periods": [
-      {
-        "title": "La Période Nabi & L'Expérimentation des Petits Formats",
-        "years": "1890 – 1899",
-        "color": "#d4af37",
-        "summary": "Compositions resserrées sur carton, aplats audacieux et scènes de couturières avec sa mère.",
-        "events": [
-          {
-            "year": "1890",
-            "title": "La fondation des Nabis et l'Atelier de la rue Truffaut",
-            "desc": "Au sortir de l'Académie Julian, il rejoint Denis, Bonnard et Roussel sous l'égide du Talisman de Sérusier ; il installe son atelier chez sa mère, corsetière, dont les étoffes nourrissent son univers.",
-            "type": "context",
-            "badge": "NABIS",
-            "icon": "🎨"
-          },
-          {
-            "year": "1892",
-            "title": "La Mère et la Sœur de l'artiste (MoMA, New York)",
-            "desc": "Manifeste de l'intimisme nabi où les motifs de robe se confondent avec le papier peint.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🧵"
-          },
-          {
-            "year": "1894",
-            "title": "Les Neuf Panneaux des Jardins publics pour Alexandre Natanson",
-            "desc": "Réalise pour le salon du directeur de La Revue Blanche une suite décorative monumentale révolutionnant le grand décor d'appartement.",
-            "type": "masterpiece",
-            "badge": "DÉCOR",
-            "icon": "🌳"
-          }
-        ]
-      },
-      {
-        "title": "Les Grands Décors & La Maturité Intimiste",
-        "years": "1900 – 1919",
-        "color": "#d4af37",
-        "summary": "Panneaux décoratifs monumentaux, ouverture de l'espace et touches denses en résonance poétique.",
-        "events": [
-          {
-            "year": "1903",
-            "title": "Le Déjeuner (Musée d'Arts de Nantes)",
-            "desc": "Scène domestique feutrée où la femme à table fusionne avec le semis floral du décor.",
-            "type": "artwork",
-            "badge": "INTIMISME",
-            "icon": "☕",
-            "artworkId": "vuillard_le_dejeuner_nantes_1903"
-          },
-          {
-            "year": "1908",
-            "title": "Les décors à la détrempe pour Claude Anet et les princes Bibesco",
-            "desc": "Explore les intérieurs feutrés de ses commanditaires parisiens, adoptant la peinture à la détrempe pour sa matité sourde et veloutée.",
-            "type": "masterpiece",
-            "badge": "DÉTREMPE",
-            "icon": "✨"
-          },
-          {
-            "year": "1913",
-            "title": "La Comédie au foyer du Théâtre des Champs-Élysées",
-            "desc": "Participe avec Maurice Denis à la décoration du théâtre d'Auguste Perret avenue Montaigne, livrant de vastes allégories comiques et tragiques.",
-            "type": "masterpiece",
-            "badge": "MONUMENTAL",
-            "icon": "🎭"
-          }
-        ]
-      },
-      {
-        "title": "Portraits de Société & Consécration Académique",
-        "years": "1920 – 1940",
-        "color": "#d4af37",
-        "summary": "Portraits minutieux des collectionneurs et mécènes au cœur de leurs salons parisiens.",
-        "events": [
-          {
-            "year": "1925",
-            "title": "L'effigie des salons parisiens et du Tout-Paris intellectuel",
-            "desc": "Immortalise dans leurs intérieurs saturés d'objets d'art la comtesse Anna de Noailles, David David-Weill ou Jane Renouardt, alliant précision documentaire et mystère feutré.",
-            "type": "context",
-            "badge": "SOCIÉTÉ",
-            "icon": "🛋️"
-          },
-          {
-            "year": "1938",
-            "title": "Rétrospective aux Arts décoratifs et entrée à l'Institut",
-            "desc": "Le Musée des Arts décoratifs consacre une immense rétrospective à son œuvre, et il est élu à l'Académie des beaux-arts.",
-            "type": "context",
-            "badge": "HOMMAGE",
-            "icon": "🏛️"
-          },
-          {
-            "year": "1940",
-            "title": "Mort à La Baule durant l'exode",
-            "desc": "S'éteint en Loire-Inférieure auprès de ses amis Hessel à l'âge de 71 ans, laissant une œuvre décorative et humaine de premier ordre.",
-            "type": "context",
-            "badge": "POSTÉRITÉ",
-            "icon": "🕊️"
-          }
-        ]
-      }
-    ]
-  }
+    "id": "vuillard",
+    "name": "Vuillard Édouard",
+    "sortName": "Vuillard Édouard",
+    "sortLetter": "V",
+    "dates": "1868 – 1940",
+    "movement": "Nabis & Intimisme (Peinture décorative & Scènes d'intérieur)",
+    "nationality": "Française (Cuiseaux / Paris)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczMaqrUjTOmSGxOPa2-7X6T-11jHbT_8ZFc6kjGBRMr_nApQ5cWImh60KzHeaAfvDeOTQA3ZPo1sCsrg7kgsSK_zpPcykgE8wqPIVcrXIFsMwh6BrB6Udiv0AaQmUOtdQScp8j5FZZdXI9XJ8xXUxG2YIQ=w1836-h779-s-no-gm?authuser=0",
+    "bio": "<p><strong>Édouard Vuillard</strong> (1868 – 1940), né à Cuiseaux et mort à La Baule, est le maître souverain de l'Intimisme et l'une des figures majeures du groupe des Nabis. S'il partage avec son complice Pierre Bonnard l'attachement à la poésie du quotidien domestique, Vuillard s'en distingue par une sensibilité plus secrète, dense et feutrée, transformant le cadre bourgeois en un puzzle optique où la figure humaine s'entrelace intimement avec le tissu des décors environnants.</p><p>Son genre pictural se concentre sur la scène d'intérieur, le portrait de société, le décor monumental et les atmosphères feutrées de l'espace privé. Son style se caractérise par la saturation ornementale de l'espace (papiers peints floraux, tentures, tapis brodés), une perspective aplatie héritée de l'estampe japonaise, une pâte savoureuse travaillée à la détrempe ou à l'huile par petites touches vibrantes, et des accords de tons rompus (bruns, ocres, vert olive, carmins étouffés) suggérant le mystère et la quiétude du foyer.</p><p>Son parcours stylistique s'articule entre l'audace nabie des petits cartons des débuts (années 1890), l'épanouissement des grands panneaux décoratifs de maturité (années 1900–1910, <em>Le Déjeuner</em>) et les portraits d'apparat mondains de l'entre-deux-guerres (après 1920) documentant avec une précision presque analytique les intérieurs de ses contemporains.</p>",
+    "corpus": {
+      "total": 2150,
+      "paintingsCount": 2150,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 1,
+      "source": "Catalogue critique des peintures et pastels (Antoine Salomon & Guy Cogeval, Wildenstein Institute / Skira)",
+      "totalOeuvresEstimees": "~2 150 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le Catalogue critique des peintures et pastels établi par Antoine Salomon et Guy Cogeval (Vuillard : Le catalogue critique des peintures et pastels, 3 volumes, Wildenstein Institute / Skira, 2003). En ne retenant que ses peintures à proprement parler (toiles, panneaux, détrempes et grands panneaux décoratifs, à l'exclusion des pastels sur papier, dessins préparatoires et lithographies), le catalogue critique situe son corpus officiel autour d'environ 2 150 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "La Période Nabi & L'Expérimentation des Petits Formats",
+          "years": "1890 – 1899",
+          "color": "#d4af37",
+          "summary": "Compositions resserrées sur carton, aplats audacieux et scènes de couturières avec sa mère.",
+          "events": [
+            {
+              "year": "1890",
+              "title": "La fondation des Nabis et l'Atelier de la rue Truffaut",
+              "desc": "Au sortir de l'Académie Julian, il rejoint Denis, Bonnard et Roussel sous l'égide du Talisman de Sérusier ; il installe son atelier chez sa mère, corsetière, dont les étoffes nourrissent son univers.",
+              "type": "context",
+              "badge": "NABIS",
+              "icon": "🎨"
+            },
+            {
+              "year": "1892",
+              "title": "La Mère et la Sœur de l'artiste (MoMA, New York)",
+              "desc": "Manifeste de l'intimisme nabi où les motifs de robe se confondent avec le papier peint.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🧵"
+            },
+            {
+              "year": "1894",
+              "title": "Les Neuf Panneaux des Jardins publics pour Alexandre Natanson",
+              "desc": "Réalise pour le salon du directeur de La Revue Blanche une suite décorative monumentale révolutionnant le grand décor d'appartement.",
+              "type": "masterpiece",
+              "badge": "DÉCOR",
+              "icon": "🌳"
+            }
+          ]
+        },
+        {
+          "title": "Les Grands Décors & La Maturité Intimiste",
+          "years": "1900 – 1919",
+          "color": "#d4af37",
+          "summary": "Panneaux décoratifs monumentaux, ouverture de l'espace et touches denses en résonance poétique.",
+          "events": [
+            {
+              "year": "1903",
+              "title": "Le Déjeuner (Musée d'Arts de Nantes)",
+              "desc": "Scène domestique feutrée où la femme à table fusionne avec le semis floral du décor.",
+              "type": "artwork",
+              "badge": "INTIMISME",
+              "icon": "☕",
+              "artworkId": "vuillard_le_dejeuner_nantes_1903"
+            },
+            {
+              "year": "1908",
+              "title": "Les décors à la détrempe pour Claude Anet et les princes Bibesco",
+              "desc": "Explore les intérieurs feutrés de ses commanditaires parisiens, adoptant la peinture à la détrempe pour sa matité sourde et veloutée.",
+              "type": "masterpiece",
+              "badge": "DÉTREMPE",
+              "icon": "✨"
+            },
+            {
+              "year": "1913",
+              "title": "La Comédie au foyer du Théâtre des Champs-Élysées",
+              "desc": "Participe avec Maurice Denis à la décoration du théâtre d'Auguste Perret avenue Montaigne, livrant de vastes allégories comiques et tragiques.",
+              "type": "masterpiece",
+              "badge": "MONUMENTAL",
+              "icon": "🎭"
+            }
+          ]
+        },
+        {
+          "title": "Portraits de Société & Consécration Académique",
+          "years": "1920 – 1940",
+          "color": "#d4af37",
+          "summary": "Portraits minutieux des collectionneurs et mécènes au cœur de leurs salons parisiens.",
+          "events": [
+            {
+              "year": "1925",
+              "title": "L'effigie des salons parisiens et du Tout-Paris intellectuel",
+              "desc": "Immortalise dans leurs intérieurs saturés d'objets d'art la comtesse Anna de Noailles, David David-Weill ou Jane Renouardt, alliant précision documentaire et mystère feutré.",
+              "type": "context",
+              "badge": "SOCIÉTÉ",
+              "icon": "🛋️"
+            },
+            {
+              "year": "1938",
+              "title": "Rétrospective aux Arts décoratifs et entrée à l'Institut",
+              "desc": "Le Musée des Arts décoratifs consacre une immense rétrospective à son œuvre, et il est élu à l'Académie des beaux-arts.",
+              "type": "context",
+              "badge": "HOMMAGE",
+              "icon": "🏛️"
+            },
+            {
+              "year": "1940",
+              "title": "Mort à La Baule durant l'exode",
+              "desc": "S'éteint en Loire-Inférieure auprès de ses amis Hessel à l'âge de 71 ans, laissant une œuvre décorative et humaine de premier ordre.",
+              "type": "context",
+              "badge": "POSTÉRITÉ",
+              "icon": "🕊️"
+            }
+          ]
+        }
+      ]
+    }
   },
 
   "warhol": {
-  "id": "warhol",
-  "name": "Warhol Andy (Andrew Warhola)",
-  "sortName": "Warhol Andy",
-  "sortLetter": "W",
-  "dates": "1928 – 1987",
-  "movement": "Pop Art américain (Sérigraphie & Répétition mécanique)",
-  "nationality": "Américaine (Pittsburgh / New York)",
-  "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOIIXIb0jQf4AzzRd12tjc_KRXTdyfwOZDKEsI14lB0GsdYdMyguNzBLUXLKzDUWrwjnmihiIwRha9w0a-5xGSk480euUw5kVoch1GgoMvKnsg8I99OLA0TBTPDmqKfxObNF2jUUToCWcNjSTLixZdPQQ=w1584-h672-s-no-gm?authuser=0",
-  "bio": "<p><strong>Andy Warhol</strong> (1928 – 1987), né Andrew Warhola à Pittsburgh et mort à New York, est la figure centrale et le maître absolu du Pop Art américain. Ancien illustrateur publicitaire prodige, il a révolutionné l'histoire de l'art du XXe siècle en abolissant la frontière entre la culture noble et la culture commerciale de masse, érigeant la production en série, la reproductibilité mécanique et le culte de la célébrité en une nouvelle métaphysique esthétique.</p><p>Son genre pictural repose sur l'appropriation sérielle d'images préexistantes diffusées par les médias de masse, les emballages industriels et les icônes planétaires du cinéma et de la politique. Son style se caractérise par l'usage exclusif de la sérigraphie sur toile, des aplats de couleurs acryliques acides ou stridentes appliqués avec des bavures et des décalages calculés, et une dramaturgie visuelle où la répétition obsessionnelle anesthésie la perception de la tragédie tout en figeant le sujet dans l'immortalité plastique.</p><p>L'évolution de son art s'articule entre l'esthétique du supermarché et les icônes de la tragédie hollywoodienne (années 1960, boîtes de soupe <em>Campbell</em>, <em>Marilyn</em>, <em>Liz Taylor</em>, <em>Double Mona Lisa</em>), la consécration de la « Factory » et les portraits de genre (années 1970, <em>Black Marilyn</em>, <em>Ladies and Gentlemen</em>) et les séries monumentales testamentaires réinterprétant les mythes de l'histoire de l'art (années 1980, <em>La Cène</em> au camouflage, ultimes <em>Autoportraits</em> au masque spectral).</p>",
-  "corpus": {
-    "total": 3800,
-    "paintingsCount": 3800,
-    "drawingsCount": null,
-    "engravingsCount": null,
-    "sculpturesCount": null,
-    "seenCount": 10,
-    "source": "Andy Warhol Catalogue Raisonné: Paintings and Sculptures (Georg Frei & Neil Printz, Phaidon)",
-    "totalOeuvresEstimees": "~3 800 peintures répertoriées",
-    "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Andy Warhol Catalogue Raisonné: Paintings and Sculptures dirigé par Georg Frei et Neil Printz (avec Sally King-Nero, publié chez Phaidon depuis 2002, couvrant la période 1961–1987 en plusieurs volumes de référence). En retenant exclusivement ses peintures sur toile uniques ou en séries peintes (y compris ses tableaux peints à la main de 1960–1962 et ses toiles sérigraphiées de la maturité, en comptabilisant les diptyques ou ensembles conçus comme une œuvre unique et en écartant les éditions graphiques sur papier), le corpus officiel des peintures répertoriées au catalogue raisonné s'élève à environ 3 800 peintures."
+    "id": "warhol",
+    "name": "Warhol Andy (Andrew Warhola)",
+    "sortName": "Warhol Andy",
+    "sortLetter": "W",
+    "dates": "1928 – 1987",
+    "movement": "Pop Art américain (Sérigraphie & Répétition mécanique)",
+    "nationality": "Américaine (Pittsburgh / New York)",
+    "bannerImg": "https://lh3.googleusercontent.com/pw/AP1GczOIIXIb0jQf4AzzRd12tjc_KRXTdyfwOZDKEsI14lB0GsdYdMyguNzBLUXLKzDUWrwjnmihiIwRha9w0a-5xGSk480euUw5kVoch1GgoMvKnsg8I99OLA0TBTPDmqKfxObNF2jUUToCWcNjSTLixZdPQQ=w1584-h672-s-no-gm?authuser=0",
+    "bio": "<p><strong>Andy Warhol</strong> (1928 – 1987), né Andrew Warhola à Pittsburgh et mort à New York, est la figure centrale et le maître absolu du Pop Art américain. Ancien illustrateur publicitaire prodige, il a révolutionné l'histoire de l'art du XXe siècle en abolissant la frontière entre la culture noble et la culture commerciale de masse, érigeant la production en série, la reproductibilité mécanique et le culte de la célébrité en une nouvelle métaphysique esthétique.</p><p>Son genre pictural repose sur l'appropriation sérielle d'images préexistantes diffusées par les médias de masse, les emballages industriels et les icônes planétaires du cinéma et de la politique. Son style se caractérise par l'usage exclusif de la sérigraphie sur toile, des aplats de couleurs acryliques acides ou stridentes appliqués avec des bavures et des décalages calculés, et une dramaturgie visuelle où la répétition obsessionnelle anesthésie la perception de la tragédie tout en figeant le sujet dans l'immortalité plastique.</p><p>L'évolution de son art s'articule entre l'esthétique du supermarché et les icônes de la tragédie hollywoodienne (années 1960, boîtes de soupe <em>Campbell</em>, <em>Marilyn</em>, <em>Liz Taylor</em>, <em>Double Mona Lisa</em>), la consécration de la « Factory » et les portraits de genre (années 1970, <em>Black Marilyn</em>, <em>Ladies and Gentlemen</em>) et les séries monumentales testamentaires réinterprétant les mythes de l'histoire de l'art (années 1980, <em>La Cène</em> au camouflage, ultimes <em>Autoportraits</em> au masque spectral).</p>",
+    "corpus": {
+      "total": 3800,
+      "paintingsCount": 3800,
+      "drawingsCount": null,
+      "engravingsCount": null,
+      "sculpturesCount": null,
+      "seenCount": 10,
+      "source": "Andy Warhol Catalogue Raisonné: Paintings and Sculptures (Georg Frei & Neil Printz, Phaidon)",
+      "totalOeuvresEstimees": "~3 800 peintures répertoriées",
+      "oeuvresConsensusNotice": "L'inventaire scientifique de référence mondiale est le monumental Andy Warhol Catalogue Raisonné: Paintings and Sculptures dirigé par Georg Frei et Neil Printz (avec Sally King-Nero, publié chez Phaidon depuis 2002, couvrant la période 1961–1987 en plusieurs volumes de référence). En retenant exclusivement ses peintures sur toile uniques ou en séries peintes (y compris ses tableaux peints à la main de 1960–1962 et ses toiles sérigraphiées de la maturité, en comptabilisant les diptyques ou ensembles conçus comme une œuvre unique et en écartant les éditions graphiques sur papier), le corpus officiel des peintures répertoriées au catalogue raisonné s'élève à environ 3 800 peintures."
+    },
+    "timeline": {
+      "periods": [
+        {
+          "title": "L'Esthétique du Supermarché & Les Premières Icônes",
+          "years": "1960 – 1965",
+          "color": "#d4af37",
+          "summary": "Adoption de la sérigraphie sur toile, création des boîtes de soupe et des portraits de stars après le drame.",
+          "events": [
+            {
+              "year": "1960",
+              "title": "Liz Taylor (Munich, Pinakothek der Moderne)",
+              "desc": "Portrait sérigraphié noir et blanc de la star hollywoodienne issu de La Chatte sur un toit brûlant.",
+              "type": "artwork",
+              "badge": "PORTRAIT",
+              "icon": "🎬",
+              "artworkId": "warhol_liz_taylor_munich_1960"
+            },
+            {
+              "year": "1962",
+              "title": "Grande boîte de soupe Campbell's, 19¢ (Houston, Menil Collection)",
+              "desc": "Boîte au couvercle ouvert révélant son prix marqué au tampon, élevant l'ordinaire au musée.",
+              "type": "artwork",
+              "badge": "POP ART",
+              "icon": "🥫",
+              "artworkId": "warhol_grande_boite_soupe_campbell_houston_1962"
+            },
+            {
+              "year": "1962",
+              "title": "Diptyque Marilyn (Londres, Tate Modern)",
+              "desc": "Cinquante portraits sérigraphiés opposant la saturation polychrome au déclin monochrome du deuil.",
+              "type": "masterpiece",
+              "badge": "CHEF-D'ŒUVRE",
+              "icon": "🌟",
+              "artworkId": "warhol_diptyque_marilyn_londres_1962"
+            },
+            {
+              "year": "1962",
+              "title": "Round Marilyn (Munich, Brandhorst)",
+              "desc": "Tondo circulaire isolant l'actrice sur fond vert-bleu acide comme une sainte laïque.",
+              "type": "context",
+              "badge": "TONDO",
+              "icon": "⭕"
+            },
+            {
+              "year": "1963",
+              "title": "Double Mona Lisa (Houston, Menil Collection)",
+              "desc": "Appropriation sérielle du chef-d'œuvre de Léonard de Vinci lors de sa venue aux États-Unis.",
+              "type": "artwork",
+              "badge": "APPROPRIATION",
+              "icon": "🖼️",
+              "artworkId": "warhol_double_mona_lisa_houston_1963"
+            }
+          ]
+        },
+        {
+          "title": "La Factory, Le Mythe Public & Ladies and Gentlemen",
+          "years": "1966 – 1979",
+          "color": "#d4af37",
+          "summary": "Émergence de Warhol comme marque internationale et exploration des identités marginalisées.",
+          "events": [
+            {
+              "year": "1967",
+              "title": "Autoportrait (Munich, Pinakothek der Moderne)",
+              "desc": "L'artiste posant l'index devant la bouche en cadrage serré sur fond pourpre électrique.",
+              "type": "artwork",
+              "badge": "AUTOPORTRAIT",
+              "icon": "👤",
+              "artworkId": "warhol_autoportrait_munich_1967"
+            },
+            {
+              "year": "1972",
+              "title": "Black Marilyn (Munich, Pinakothek der Moderne)",
+              "desc": "Inversion spectrale négative ton sur ton célébrant la persistance fantomatique de l'idole.",
+              "type": "artwork",
+              "badge": "DEUIL",
+              "icon": "🖤",
+              "artworkId": "warhol_black_marilyn_munich_1972"
+            },
+            {
+              "year": "1975",
+              "title": "Ladies and Gentlemen (Munich, Pinakothek der Moderne)",
+              "desc": "Hommage vibrant aux drag queens de Greenwich Village par des touches expressives et charnelles.",
+              "type": "artwork",
+              "badge": "COMMUNAUTÉ",
+              "icon": "💄",
+              "artworkId": "warhol_ladies_and_gentlemen_femmes_munich_1975"
+            }
+          ]
+        },
+        {
+          "title": "Relectures Historiques, Camouflage & Testament",
+          "years": "1980 – 1987",
+          "color": "#d4af37",
+          "summary": "Dernières séries colossales réinterprétant les grands maîtres et confrontation avec la mort.",
+          "events": [
+            {
+              "year": "1986",
+              "title": "La Cène (Camouflage) (Houston, Menil Collection)",
+              "desc": "Scène biblique de Léonard de Vinci recouverte d'un motif militaire acide interrogeant le sacré.",
+              "type": "masterpiece",
+              "badge": "TESTAMENT",
+              "icon": "✝️",
+              "artworkId": "warhol_la_cene_camouflage_houston_1986"
+            },
+            {
+              "year": "1986",
+              "title": "Autoportrait à la perruque effrayante (Munich)",
+              "desc": "Visage spectral émergeant d'un noir abyssal sous une perruque dressée comme des éclairs.",
+              "type": "context",
+              "badge": "FIN DE VIE",
+              "icon": "⚡"
+            }
+          ]
+        }
+      ]
+    }
   },
-  "timeline": {
-    "periods": [
-      {
-        "title": "L'Esthétique du Supermarché & Les Premières Icônes",
-        "years": "1960 – 1965",
-        "color": "#d4af37",
-        "summary": "Adoption de la sérigraphie sur toile, création des boîtes de soupe et des portraits de stars après le drame.",
-        "events": [
-          {
-            "year": "1960",
-            "title": "Liz Taylor (Munich, Pinakothek der Moderne)",
-            "desc": "Portrait sérigraphié noir et blanc de la star hollywoodienne issu de La Chatte sur un toit brûlant.",
-            "type": "artwork",
-            "badge": "PORTRAIT",
-            "icon": "🎬",
-            "artworkId": "warhol_liz_taylor_munich_1960"
-          },
-          {
-            "year": "1962",
-            "title": "Grande boîte de soupe Campbell's, 19¢ (Houston, Menil Collection)",
-            "desc": "Boîte au couvercle ouvert révélant son prix marqué au tampon, élevant l'ordinaire au musée.",
-            "type": "artwork",
-            "badge": "POP ART",
-            "icon": "🥫",
-            "artworkId": "warhol_grande_boite_soupe_campbell_houston_1962"
-          },
-          {
-            "year": "1962",
-            "title": "Diptyque Marilyn (Londres, Tate Modern)",
-            "desc": "Cinquante portraits sérigraphiés opposant la saturation polychrome au déclin monochrome du deuil.",
-            "type": "masterpiece",
-            "badge": "CHEF-D'ŒUVRE",
-            "icon": "🌟",
-            "artworkId": "warhol_diptyque_marilyn_londres_1962"
-          },
-          {
-            "year": "1962",
-            "title": "Round Marilyn (Munich, Brandhorst)",
-            "desc": "Tondo circulaire isolant l'actrice sur fond vert-bleu acide comme une sainte laïque.",
-            "type": "context",
-            "badge": "TONDO",
-            "icon": "⭕"
-          },
-          {
-            "year": "1963",
-            "title": "Double Mona Lisa (Houston, Menil Collection)",
-            "desc": "Appropriation sérielle du chef-d'œuvre de Léonard de Vinci lors de sa venue aux États-Unis.",
-            "type": "artwork",
-            "badge": "APPROPRIATION",
-            "icon": "🖼️",
-            "artworkId": "warhol_double_mona_lisa_houston_1963"
-          }
-        ]
-      },
-      {
-        "title": "La Factory, Le Mythe Public & Ladies and Gentlemen",
-        "years": "1966 – 1979",
-        "color": "#d4af37",
-        "summary": "Émergence de Warhol comme marque internationale et exploration des identités marginalisées.",
-        "events": [
-          {
-            "year": "1967",
-            "title": "Autoportrait (Munich, Pinakothek der Moderne)",
-            "desc": "L'artiste posant l'index devant la bouche en cadrage serré sur fond pourpre électrique.",
-            "type": "artwork",
-            "badge": "AUTOPORTRAIT",
-            "icon": "👤",
-            "artworkId": "warhol_autoportrait_munich_1967"
-          },
-          {
-            "year": "1972",
-            "title": "Black Marilyn (Munich, Pinakothek der Moderne)",
-            "desc": "Inversion spectrale négative ton sur ton célébrant la persistance fantomatique de l'idole.",
-            "type": "artwork",
-            "badge": "DEUIL",
-            "icon": "🖤",
-            "artworkId": "warhol_black_marilyn_munich_1972"
-          },
-          {
-            "year": "1975",
-            "title": "Ladies and Gentlemen (Munich, Pinakothek der Moderne)",
-            "desc": "Hommage vibrant aux drag queens de Greenwich Village par des touches expressives et charnelles.",
-            "type": "artwork",
-            "badge": "COMMUNAUTÉ",
-            "icon": "💄",
-            "artworkId": "warhol_ladies_and_gentlemen_femmes_munich_1975"
-          }
-        ]
-      },
-      {
-        "title": "Relectures Historiques, Camouflage & Testament",
-        "years": "1980 – 1987",
-        "color": "#d4af37",
-        "summary": "Dernières séries colossales réinterprétant les grands maîtres et confrontation avec la mort.",
-        "events": [
-          {
-            "year": "1986",
-            "title": "La Cène (Camouflage) (Houston, Menil Collection)",
-            "desc": "Scène biblique de Léonard de Vinci recouverte d'un motif militaire acide interrogeant le sacré.",
-            "type": "masterpiece",
-            "badge": "TESTAMENT",
-            "icon": "✝️",
-            "artworkId": "warhol_la_cene_camouflage_houston_1986"
-          },
-          {
-            "year": "1986",
-            "title": "Autoportrait à la perruque effrayante (Munich)",
-            "desc": "Visage spectral émergeant d'un noir abyssal sous une perruque dressée comme des éclairs.",
-            "type": "context",
-            "badge": "FIN DE VIE",
-            "icon": "⚡"
-          }
-        ]
-      }
-    ]
-  }
-},
 
-"bartholdi": {
+  "bartholdi": {
     "id": "bartholdi",
     "name": "Bartholdi Auguste",
     "sortName": "Bartholdi Auguste",
@@ -15796,7 +15796,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     }
   },
 
-"cesar": {
+  "cesar": {
     "id": "cesar",
     "name": "César (César Baldaccini)",
     "sortName": "César (César Baldaccini)",
@@ -15915,7 +15915,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     }
   },
 
-    "giambologna": {
+  "giambologna": {
     "id": "giambologna",
     "name": "Giambologna (Jean Boulogne)",
     "sortName": "Giambologna (Jean Boulogne)",
@@ -15923,7 +15923,7 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
     "dates": "1529 – 1608",
     "movement": "Maniérisme florentin tardif & Figura serpentinata",
     "nationality": "Flamande & Italienne (Douai / Florence)",
-    "bannerImg": "https://lh3.googleusercontent.com/d/1sS7HtSWFAjO7_xFQRiYhbXLjHEnAfewU=s1600",    "bio": "<p><strong>Le maître incontesté de la sculpture européenne du second XVIe siècle</strong><br>Jean Boulogne, dit Giambologna (1529 – 1608), né à Douai et mort à Florence, est l'un des plus grands sculpteurs européens de la seconde moitié du XVIe siècle. D'origine flamande, il se forme auprès de Jacques Du Broeucq avant de partir pour l'Italie en 1550, où il s'imprègne profondément de l'art antique et des chefs-d'œuvre de Michel-Ange. S'installant durablement à Florence, il devient le sculpteur officiel de la cour des Médicis, pour lesquels il réalise des commandes prestigieuses destinées aux palais et aux jardins de la ville.</p><p><strong>L'apothéose de la figura serpentinata et la dynamique sans face unique</strong><br>Figure majeure du maniérisme tardif, Giambologna se distingue par sa recherche constante du mouvement, de l'élégance formelle et de la virtuosité technique. Il porte à son apogée la « figura serpentinata », une composition en spirale qui oblige le spectateur à tourner autour de l'œuvre pour en saisir tous les angles. Contrairement à la sculpture de la Haute Renaissance, souvent pensée pour être vue de face, ses créations offrent une multitude de points de vue tous aussi harmonieux et dynamiques les uns que les autres.</p><p><strong>Triomphe du marbre monolithique et apesanteur du bronze</strong><br>Son chef-d'œuvre absolu, <em>L'Enlèvement des Sabines</em>, sculpté dans un seul bloc de marbre pour la Loggia dei Lanzi à Florence, illustre parfaitement cette maîtrise de la torsion des corps et de l'équilibre complexe entre trois personnages entrelacés. Dans un tout autre registre, son célèbre <em>Mercure</em> en bronze semble défier les lois de la gravité en ne reposant que sur la pointe d'un seul pied, portée par le souffle du dieu Zéphyr.</p><p><strong>Polyvalence technique monumentale et rayonnement international</strong><br>Artiste d'une incroyable polyvalence, il travaille aussi bien le marbre monumental que le bronze, produisant des statuettes de cabinet très prisées des collectionneurs européens et diffusant ainsi son style dans toutes les cours royales. Son esthétique raffinée, privilégiant la grâce, le dynamisme et l'effet dramatique sur la simple narration, fait de lui un pont essentiel entre la Renaissance et le baroque du XVIIe siècle, influençant directement des maîtres comme Le Bernin.</p>",
+    "bannerImg": "https://lh3.googleusercontent.com/d/1sS7HtSWFAjO7_xFQRiYhbXLjHEnAfewU=s1600", "bio": "<p><strong>Le maître incontesté de la sculpture européenne du second XVIe siècle</strong><br>Jean Boulogne, dit Giambologna (1529 – 1608), né à Douai et mort à Florence, est l'un des plus grands sculpteurs européens de la seconde moitié du XVIe siècle. D'origine flamande, il se forme auprès de Jacques Du Broeucq avant de partir pour l'Italie en 1550, où il s'imprègne profondément de l'art antique et des chefs-d'œuvre de Michel-Ange. S'installant durablement à Florence, il devient le sculpteur officiel de la cour des Médicis, pour lesquels il réalise des commandes prestigieuses destinées aux palais et aux jardins de la ville.</p><p><strong>L'apothéose de la figura serpentinata et la dynamique sans face unique</strong><br>Figure majeure du maniérisme tardif, Giambologna se distingue par sa recherche constante du mouvement, de l'élégance formelle et de la virtuosité technique. Il porte à son apogée la « figura serpentinata », une composition en spirale qui oblige le spectateur à tourner autour de l'œuvre pour en saisir tous les angles. Contrairement à la sculpture de la Haute Renaissance, souvent pensée pour être vue de face, ses créations offrent une multitude de points de vue tous aussi harmonieux et dynamiques les uns que les autres.</p><p><strong>Triomphe du marbre monolithique et apesanteur du bronze</strong><br>Son chef-d'œuvre absolu, <em>L'Enlèvement des Sabines</em>, sculpté dans un seul bloc de marbre pour la Loggia dei Lanzi à Florence, illustre parfaitement cette maîtrise de la torsion des corps et de l'équilibre complexe entre trois personnages entrelacés. Dans un tout autre registre, son célèbre <em>Mercure</em> en bronze semble défier les lois de la gravité en ne reposant que sur la pointe d'un seul pied, portée par le souffle du dieu Zéphyr.</p><p><strong>Polyvalence technique monumentale et rayonnement international</strong><br>Artiste d'une incroyable polyvalence, il travaille aussi bien le marbre monumental que le bronze, produisant des statuettes de cabinet très prisées des collectionneurs européens et diffusant ainsi son style dans toutes les cours royales. Son esthétique raffinée, privilégiant la grâce, le dynamisme et l'effet dramatique sur la simple narration, fait de lui un pont essentiel entre la Renaissance et le baroque du XVIIe siècle, influençant directement des maîtres comme Le Bernin.</p>",
     "corpus": {
       "total": 125,
       "paintingsCount": null,

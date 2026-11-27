@@ -8783,7 +8783,23 @@ function populateModalData(art) {
   };
   modalImg.src = art.imgSrc || art.image || art.img || '';
   modalImg.alt = art.title;
-  modalCivTitle.textContent = art.civName || '';
+  const CIV_DISPLAY_NAMES = {
+    occident: 'Monde occidental',
+    grece: 'Grèce antique',
+    rome: 'Rome antique',
+    egypte: 'Égypte antique',
+    mesopotamie: 'Mésopotamie & Proche-Orient',
+    etrusque: 'Étrurie & Italie préromaine',
+    iran_perse: 'Iran & Perse antique',
+    islam: 'Monde islamique',
+    inde: 'Sous-continent indien',
+    chine: 'Chine impériale',
+    japon: 'Japon',
+    ameriques: 'Amériques précolombiennes',
+    afrique: 'Afrique subsaharienne',
+    oceanie: 'Océanie'
+  };
+  modalCivTitle.textContent = (art.civId && CIV_DISPLAY_NAMES[art.civId]) || art.civName || '';
   modalArtworkTitle.textContent = art.title;
 
   // =========================================================================
@@ -8834,7 +8850,14 @@ function populateModalData(art) {
   // BANDEAU SUPÉRIEUR DROIT : Ligne 1 Date / Siècle en typographie Cinzel dorée
   const headerDateRow = document.getElementById('modal-header-date-row');
   const headerDateText = document.getElementById('modal-header-date-text');
-  const dateVal = (art.centuryDisplay || art.century || '').trim();
+  let dateVal = (art.centuryDisplay || art.century || '').trim();
+  const exactYear = (typeof art.year === 'number' && !isNaN(art.year)) ? art.year
+    : (typeof art.centuryNumeric === 'number' && !isNaN(art.centuryNumeric) && art.centuryNumeric !== 0) ? art.centuryNumeric
+    : null;
+  if (dateVal && exactYear !== null && !/\([^)]*\d+[^)]*\)/.test(dateVal)) {
+    const yearLabel = exactYear < 0 ? `${Math.abs(exactYear)} av. J.-C.` : `${exactYear}`;
+    dateVal = `${dateVal} (${yearLabel})`;
+  }
   if (headerDateRow && headerDateText) {
     if (dateVal) {
       headerDateText.textContent = dateVal.toUpperCase();
@@ -9964,7 +9987,7 @@ function renderStoryTrigger(art) {
   }
 
   const bg = findBackgroundForArtwork(art);
-  const bgContent = bg ? (bg.desc || bg.text || bg.narrative || '') : '';
+  const bgContent = bg ? (bg.desc || bg.text || bg.content || bg.narrative || '') : '';
   if (bg && (bgContent || bg.title)) {
     triggerEl.style.display = 'block';
     const badgeEl = document.getElementById('story-drawer-badge');
@@ -10866,20 +10889,8 @@ function jumpFromArtworkToTimeline(art) {
   }
 
   // 5. Centrer le ruban chronologique sur cette époque
-  const containerWidth = getTimelineContainerWidth();
-  const targetPixel = yearToPixel(targetYear);
-  const minX = -(getRibbonWidth() - containerWidth);
-  curRibbonX = Math.max(minX, Math.min(0, (containerWidth / 2) - targetPixel));
-  prevRibbonX = curRibbonX;
-
-  if (masterRibbon) masterRibbon.style.transform = `translateX(${curRibbonX}px)`;
-  if (rulerTrack) rulerTrack.style.transform = `translateX(${curRibbonX}px)`;
-  if (rulerEventsLayer) rulerEventsLayer.style.transform = `translateX(${curRibbonX}px)`;
-  if (rulerSparksLayer) rulerSparksLayer.style.transform = `translateX(${curRibbonX}px)`;
-
-  // Mettre à jour le repère et l'état synchronique au centre de l'écran
-  if (typeof updateSynchronousState === 'function') {
-    updateSynchronousState(containerWidth / 2);
+  if (typeof centerTimelineOnYear === 'function') {
+    centerTimelineOnYear(targetYear, Math.max(timelineZoom || 1.0, 2.0));
   }
 
   // 6. Identifier la civilisation correspondante dans CIVILISATIONS_REGISTRY
