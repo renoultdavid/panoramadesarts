@@ -6373,6 +6373,19 @@ function renderArtistThemesShowcase(artistRecord, themes, allArts) {
     countSpan.className = 'artist-theme-block-count';
     countSpan.textContent = `${th.items.length} œuvre${th.items.length > 1 ? 's' : ''}`;
 
+    titleWrap.style.cursor = 'pointer';
+    titleWrap.title = `Voir les ${th.items.length} œuvre${th.items.length > 1 ? 's' : ''} : ${th.title}`;
+    titleWrap.onclick = (e) => {
+      e.stopPropagation();
+      if (typeof switchView === 'function') switchView('view-search');
+      if (typeof renderGallery === 'function') {
+        activeContextList = th.items;
+        renderGallery(th.items);
+      } else if (typeof openCuratorModal === 'function' && th.items.length > 0) {
+        openCuratorModal(th.items[0], th.items);
+      }
+    };
+
     titleWrap.appendChild(h4);
     titleWrap.appendChild(countSpan);
 
