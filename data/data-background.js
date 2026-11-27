@@ -7693,3 +7693,21 @@ window.BACKGROUNDS_REGISTRY["lucius_junius_brutus_sacrifice_republique"] = {
   "summary": "Fondateur de la République romaine en 509 av. J.-C., le consul Lucius Junius Brutus incarne l'inflexibilité civique absolue : il condamne à mort ses propres fils, coupables d'avoir conspiré pour rétablir la monarchie des Tarquins.",
   "text": "<h4>La chute des rois et la naissance de la République</h4>\n<p>Selon le récit de Tite-Live et de Plutarque, Lucius Junius Brutus mène la révolte qui chasse de Rome le roi tyran Tarquin le Superbe en 509 av. J.-C. Élu parmi les premiers consuls de la jeune République, il fait jurer au peuple romain de ne plus jamais tolérer de roi.</p>\n<h4>Le déchirement du père et du magistrat</h4>\n<p>Peu après, un complot monarchiste est découvert : parmi les conjurés figurent Titus et Tiberius, les deux fils mêmes de Brutus. Placé devant un choix tragique entre l'amour paternel et la sauvegarde des lois, le consul préside lui-même à l'exécution de ses enfants par les licteurs. Cet acte terrible devient dans la tradition occidentale le symbole suprême du dévouement stoïcien à la patrie, au-dessus des liens du sang.</p>"
 };
+
+window.BACKGROUNDS_REGISTRY["harem_orientalisme_bain_maure"] = {
+  "id": "harem_orientalisme_bain_maure",
+  "title": "Le Hammam et l'Imaginaire du Sérail dans l'Orientalisme",
+  "category": "Société & Orientalisme",
+  "keywords": ["harem", "hammam", "bain maure", "orientalisme", "odalisque"],
+  "summary": "Espace clos interdit aux regards masculins, le bain maure devient au XIXe siècle le théâtre privilégié de la rêverie orientaliste européenne, mêlant fascination sensuelle et idéalisation formelle du nu.",
+  "text": "<h4>Un espace clos de sociabilité féminine</h4>\n<p>Dans les sociétés ottomanes et nord-africaines, le hammam constitue un lieu essentiel de purification rituelle et de sociabilité exclusivement féminine. Interdit aux voyageurs étrangers, cet univers feutré nourrit l'imagination des écrivains et des artistes européens — de Lady Mary Wortley Montagu à Théophile Gautier — qui y projettent un idéal d'oisiveté raffinée et de sensualité.</p>\n<h4>La synthèse entre le nu classique et le décor exotique</h4>\n<p>Pour la peinture académique du XIXe siècle, l'intérieur de harem offre le prétexte idéal pour renouveler l'étude du nu féminin sans recourir à la mythologie gréco-romaine. Les étoffes chatoyantes, les turbans, les narguilés et les bassins de marbre composent un écrin chromatique où la pureté linéaire du corps se marie à l'évocation d'un Orient rêvé.</p>"
+};
+
+window.BACKGROUNDS_REGISTRY["pie_vii_chapelle_sixtine_papaute"] = {
+  "id": "pie_vii_chapelle_sixtine_papaute",
+  "title": "La Papauté à l'Épreuve de l'Histoire : Pie VII et la Chapelle Sixtine",
+  "category": "Histoire & Religion",
+  "keywords": ["pie vii", "papauté", "chapelle sixtine", "vatican", "liturgie"],
+  "summary": "Élu en 1800 et confronté aux bouleversements napoléoniens, le pape Pie VII incarne la résilience spirituelle de l'Église romaine, célébrée dans la majesté liturgique de la chapelle Sixtine.",
+  "text": "<h4>Un pontificat marqué par l'exil et la restauration</h4>\n<p>Signataire du Concordat de 1801 puis contraint de couronner Napoléon Ier en 1804 avant d'être retenu prisonnier à Savone et à Fontainebleau, le pape Pie VII (Barnaba Chiaramonti) retrouve Rome en triomphe en 1814. Son retour au Vatican symbolise la continuité millénaire de la papauté face aux secousses révolutionnaires et impériales.</p>\n<h4>La liturgie pontificale sous les fresques de la Renaissance</h4>\n<p>Dans l'enceinte sacrée de la chapelle Sixtine, les cérémonies solennelles de la cour pontificale déploient un cérémonial immuable — trône sous dais pourpre, mitre, chape brodée et hommage des ordres religieux — sous le regard tutélaire des grands maîtres de la Renaissance italienne, unissant la foi catholique à l'héritage artistique de Rome.</p>"
+};
