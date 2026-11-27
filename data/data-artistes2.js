@@ -3940,124 +3940,139 @@ window.ARTISTS_REGISTRY = Object.assign(window.ARTISTS_REGISTRY || {}, {
       "sourceNotes": "L'inventaire scientifique de référence s'appuie sur le monumental catalogue raisonné de l'historien de l'art britannique Ronald Lightbown (1986), magistralement complété et révisé par l'Italien Mauro Lucco en 2013 (Andrea Mantegna : L'opera completa). Le destin de son œuvre fut tragiquement amputé lors de la Seconde Guerre mondiale avec la destruction sous les bombes de la mythique chapelle Ovetari de Padoue. En écartant son œuvre gravé, et en regroupant ses immenses cycles de fresques subsistants (comme la Chambre des Époux ou les Triomphes) sous forme de chantiers globaux, le consensus scientifique fixe aujourd'hui le corpus de ses temperas (sur bois et sur toile) et fresques autographes à environ 90 œuvres."
     },
     "timeline": {
-      "periods": [
+  "periods": [
+    {
+      "title": "Jeunesse, formation davidienne et Prix de Rome (1780–1806)",
+      "events": [
         {
-          "title": "Padoue & la Révolution Archéologique",
-          "years": "1431 – 1459",
-          "color": "#38bdf8",
-          "summary": "Formation auprès de Squarcione, découverte de l'Antiquité romaine, alliance avec les Bellini et retable de San Zeno.",
-          "events": [
-            {
-              "year": 1431,
-              "title": "Naissance à Isola di Carturo",
-              "desc": "Naissance près de Padoue ; entre dès l'enfance dans l'atelier de Francesco Squarcione où il se passionne pour la statuaire et l'archéologie romaines.",
-              "type": "life",
-              "icon": "🏛️"
-            },
-            {
-              "year": 1448,
-              "title": "Les fresques de la chapelle Ovetari",
-              "desc": "Entreprend avec Niccolò Pizzolo la décoration de l'église des Érémitiques à Padoue, imposant des perspectives en raccourci d'une audace inouïe.",
-              "type": "milestone",
-              "icon": "🎨"
-            },
-            {
-              "year": 1453,
-              "title": "Mariage avec Nicolosia Bellini",
-              "desc": "Épouse la fille de Jacopo Bellini et sœur de Giovanni Bellini, scellant une alliance capitale entre le dessin padouan et la couleur vénitienne.",
-              "type": "life",
-              "icon": "💍"
-            },
-            {
-              "year": 1456,
-              "title": "Crucifixion (Retable de San Zeno, Vérone / Louvre)",
-              "desc": "Panneau central de la prédelle du retable de San Zeno, drame sacré magistral à la perspective implacable sur sol calcaire veiné.",
-              "type": "masterpiece",
-              "artworkId": "mantegna_crucifixion_louvre_1456"
-            }
-          ]
+          "year": "1780",
+          "title": "Naissance à Montauban",
+          "description": "Fils du sculpteur et peintre Jean-Marie-Joseph Ingres, il reçoit dès l'enfance une solide éducation artistique et musicale (il restera toute sa vie un violoniste passionné)."
         },
         {
-          "title": "Mantoue, Peintre de Cour des Gonzague & la Chambre des Époux",
-          "years": "1460 – 1485",
-          "color": "#10b981",
-          "summary": "Service prestigieux auprès de Ludovico Gonzague, commandes d'apparat et révolution du trompe-l'œil.",
-          "events": [
-            {
-              "year": 1460,
-              "title": "Installation à la cour de Mantoue",
-              "desc": "Devient peintre attitré de Ludovico Gonzague, marquis de Mantoue, avec un statut honorifique et financier exceptionnel.",
-              "type": "life",
-              "icon": "👑"
-            },
-            {
-              "year": 1463,
-              "title": "Triptyque des Offices (Florence)",
-              "desc": "Ensemble d'une somptuosité miniaturiste réalisé pour la chapelle privée du château Saint-Georges de Mantoue (Adoration des Mages, Circoncision, Ascension).",
-              "type": "masterpiece",
-              "artworkId": "mantegna_triptyque_des_offices_florence_1463"
-            },
-            {
-              "year": 1465,
-              "title": "La Chambre des Époux (Camera degli Sposi)",
-              "desc": "Entreprend le décor illusionniste du château de Mantoue, achevé en 1474 avec le premier oculus zénithal en trompe-l'œil de la peinture européenne.",
-              "type": "milestone",
-              "icon": "✨"
-            },
-            {
-              "year": 1480,
-              "title": "Saint Sébastien (Louvre)",
-              "desc": "Monumentale figure sculpturale liée à une colonne antique en ruine, contemplant le ciel d'un regard héroïque au-dessus d'un pavage archéologique brisé.",
-              "type": "masterpiece",
-              "artworkId": "mantegna_saint_sebastien_louvre_1480"
-            }
-          ]
+          "year": "1791",
+          "title": "Académie royale de Toulouse",
+          "description": "Entre à l'Académie de Toulouse où il étudie auprès de Joseph Roques, qui lui révèle la pureté des maîtres italiens et de Raphaël."
         },
         {
-          "title": "Les Triomphes de César, Isabelle d'Este & le Studiolo",
-          "years": "1486 – 1506",
-          "color": "#d97706",
-          "summary": "Cycles triomphaux monumentaux, séjour à Rome au Vatican, allégories d'Isabelle d'Este et testament artistique.",
-          "events": [
-            {
-              "year": 1486,
-              "title": "Les Triomphes de César",
-              "desc": "Commence la série de neuf toiles monumentales célébrant la gloire impériale antique romaine (conservées au château de Hampton Court).",
-              "type": "milestone",
-              "icon": "🎺"
-            },
-            {
-              "year": 1488,
-              "title": "Séjour romain au Vatican",
-              "desc": "Appelé à Rome par le pape Innocent VIII pour peindre la chapelle du Belvédère (détruite au XVIIIe siècle), fasciné par les ruines de l'Urbs.",
-              "type": "voyage",
-              "icon": "🏛️"
-            },
-            {
-              "year": 1495,
-              "title": "La Vierge de la Victoire (Louvre)",
-              "desc": "Commandée par François II Gonzague pour célébrer la bataille de Fornoue : la Vierge et l'Enfant sous une tonnelle végétale exubérante bénissant le marquis à genoux.",
-              "type": "masterpiece",
-              "artworkId": "mantegna_la_vierge_de_la_victoire_louvre_1495"
-            },
-            {
-              "year": 1497,
-              "title": "Le Studiolo d'Isabelle d'Este",
-              "desc": "Réalise pour la marquise humaniste Le Parnasse et Minerve chassant les Vices du jardin de la Vertu, sommets de poésie mythologique.",
-              "type": "masterpiece",
-              "icon": "🌿"
-            },
-            {
-              "year": 1506,
-              "title": "Mort à Mantoue",
-              "desc": "S'éteint le 13 septembre 1506 à Mantoue à 75 ans ; inhumé dans sa propre chapelle de la basilique Sant'Andrea.",
-              "type": "life",
-              "icon": "🕊️"
-            }
-          ]
+          "year": "1797",
+          "title": "Entrée dans l'atelier de Jacques-Louis David",
+          "description": "Rejoint à Paris l'atelier du chef de file du néoclassicisme, tout en fréquentant la secte dissidente des « Barbus » fascinée par l'art grec archaïque."
+        },
+        {
+          "year": "1801",
+          "title": "Grand Prix de Rome",
+          "description": "Remporte le Prix de Rome avec « Les Ambassadeurs d'Agamemnon », mais son départ pour l'Italie est retardé de cinq ans faute de crédits."
+        }
+      ]
+    },
+    {
+      "title": "Le séjour italien : Rome et Florence (1806–1824)",
+      "events": [
+        {
+          "year": "1806",
+          "title": "Installation à la Villa Médicis",
+          "description": "Gagne enfin Rome comme pensionnaire de l'Académie de France et découvre les fresques de Raphaël au Vatican, qui deviennent son idéal absolu."
+        },
+        {
+          "year": "1808",
+          "title": "La Baigneuse Valpinçon",
+          "artworkId": "ingres_la_baigneuse_valpincon_louvre_1808"
+        },
+        {
+          "year": "1808",
+          "title": "Œdipe explique l'énigme du sphinx",
+          "artworkId": "ingres_oedipe_explique_enigme_du_sphinx_louvre_1808"
+        },
+        {
+          "year": "1813",
+          "title": "Mariage avec Madeleine Chapelle",
+          "description": "Épouse à Rome Madeleine Chapelle, qui lui offre un foyer stable et dévoué alors qu'il vit difficilement de portraits dessinés pour les voyageurs."
+        },
+        {
+          "year": "1814",
+          "title": "La Grande Odalisque",
+          "artworkId": "ingres_la_grande_odalisque_louvre_1814"
+        },
+        {
+          "year": "1819",
+          "title": "Roger délivrant Angélique",
+          "artworkId": "ingres_roger_delivrant_angelique_louvre_1819"
+        },
+        {
+          "year": "1820",
+          "title": "Départ pour Florence",
+          "description": "Quitte Rome pour Florence auprès de son ami le sculpteur Lorenzo Bartolini et y achève « Le Vœu de Louis XIII », qui lui ouvre les portes du triomphe parisien."
+        }
+      ]
+    },
+    {
+      "title": "Triomphe officiel et combat contre le romantisme (1824–1834)",
+      "events": [
+        {
+          "year": "1824",
+          "title": "Retour triomphal à Paris",
+          "description": "Le succès éclatant du « Vœu de Louis XIII » au Salon de 1824 le consacre comme le nouveau chef de l'école classique face à Delacroix."
+        },
+        {
+          "year": "1825",
+          "title": "Élection à l'Académie des beaux-arts",
+          "description": "Reçoit la Légion d'honneur, entre à l'Institut et ouvre un atelier très fréquenté où il professe la primauté absolue du dessin sur la couleur."
+        },
+        {
+          "year": "1827",
+          "title": "L'Apothéose d'Homère",
+          "artworkId": "ingres_apotheose_d_homere_louvre_1827"
+        },
+        {
+          "year": "1832",
+          "title": "Portrait de monsieur Bertin",
+          "artworkId": "ingres_portrait_monsieur_bertin_louvre_1832"
+        },
+        {
+          "year": "1834",
+          "title": "Scandale du Martyre de saint Symphorien",
+          "description": "Blessé par les critiques virulentes essuyées au Salon de 1834, Ingres décide de ne plus exposer au Salon et sollicite la direction de l'Académie de France à Rome."
+        }
+      ]
+    },
+    {
+      "title": "Direction à Rome, gloire impériale et testament (1835–1867)",
+      "events": [
+        {
+          "year": "1835",
+          "title": "Directeur de la Villa Médicis (1835–1841)",
+          "description": "Dirige avec autorité l'Académie de France à Rome, réforme l'enseignement et réalise « Antiochus et Stratonice » pour le duc d'Orléans."
+        },
+        {
+          "year": "1849",
+          "title": "Mort de Madeleine et remariage",
+          "description": "Profondément affecté par le décès de son épouse Madeleine (1849), il se remarie en 1852 avec Delphine Ramel, qui veille sur ses dernières années."
+        },
+        {
+          "year": "1854",
+          "title": "Jeanne d'Arc au sacre de Charles VII",
+          "artworkId": "ingres_jeanne_d_arc_sacre_charles_vii_louvre_1854"
+        },
+        {
+          "year": "1855",
+          "title": "Rétrospective à l'Exposition universelle",
+          "description": "Une salle entière lui est consacrée à Paris face à Delacroix ; il est élevé au rang de grand officier de la Légion d'honneur."
+        },
+        {
+          "year": "1862",
+          "title": "Le Bain turc",
+          "artworkId": "ingres_le_bain_turc_louvre_1862"
+        },
+        {
+          "year": "1867",
+          "title": "Mort à Paris",
+          "description": "S'éteint à Paris le 14 janvier 1867 à l'âge de 86 ans, léguant ses dessins, ses archives et son violon à sa ville natale de Montauban."
         }
       ]
     }
+  ]
+}
   },
   "manzoni": {
     "id": "manzoni",
