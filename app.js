@@ -6888,9 +6888,7 @@ function openMonographForArtistRecord(artistRecord) {
     if (corpusDashboard) {
       if (artistRecord.corpus && artistRecord.corpus.total) {
         const totalCorpus = artistRecord.corpus.total;
-        const seenCorpus = artistRecord.corpus.seen !== undefined
-          ? artistRecord.corpus.seen
-          : getArtworksForArtistRecord(artistRecord, window.ART_OBJECTS || []).length;
+        const seenCorpus = getArtworksForArtistRecord(artistRecord, window.ART_OBJECTS || []).length;
         const percent = totalCorpus > 0 ? ((seenCorpus / totalCorpus) * 100).toFixed(1) : "0.0";
 
         if (corpusStatTotal) corpusStatTotal.textContent = `~ ${totalCorpus.toLocaleString('fr-FR')}`;
